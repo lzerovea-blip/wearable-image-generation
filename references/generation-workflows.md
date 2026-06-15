@@ -2,6 +2,8 @@
 
 本文件用于执行文生图、图生图、文生动图、图生动图。所有 App 和穿戴界面都必须使用 HarmonyOS Sans / 鸿蒙字体。
 
+执行产物、目录、失败处理和动画验收细则见 `references/execution-and-output.md`。除非用户明确只要提示词，默认都要生成并保存可检查文件。所有图片生成、图片改写和动画关键帧生成必须使用 `imagegen`。
+
 ## 共享提示词结构
 
 每次生成或改写提示词时，至少覆盖这些字段：
@@ -16,6 +18,13 @@
 - 数据表达：指标、单位、数值、趋势、范围、状态、告警语义。
 - 保留/修改：图生图和图生动图必须明确保留项与修改项。
 - 负面约束：不要文字裁切、不要微小不可读文字、不要设备形态变形、不要随机品牌标识、不要组件混乱、不要过度装饰、不要伪称官方。
+
+每次产物任务还必须记录：
+
+- 输出目录：`outputs/<YYYYMMDD-HHMMSS>-<ability>-<slug>/`
+- 静态产物：`final.png`
+- 动画产物：`animation.gif` 和 `frames/` 下至少 3 个关键帧。
+- 报告文件：`generation-report.md`
 
 ## 功能原型选择
 
@@ -48,6 +57,9 @@
 4. 选择组件：从组件索引中匹配导航、卡片、列表、图表、按钮、状态提示等。
 5. 在原型基础上设计：保留原型的信息层级和组件节奏，按用户需求替换内容、数据和状态。
 6. 输出提示词：包含功能原型、设计目标、布局、组件、数据、字体、颜色语义和负面约束。
+7. 调用 `imagegen` 生成静态 PNG。
+8. 将选定产物保存为 `outputs/<timestamp>-text-to-image-<slug>/final.png`。
+9. 写入 `generation-report.md`，记录输入需求、原型、规范、最终提示词、产物路径和检查结果。
 
 提示词模板：
 
@@ -62,6 +74,7 @@
 字体：HarmonyOS Sans / 鸿蒙字体
 视觉：运动健康界面，清晰、克制、数据优先、状态明确
 避免：[负面约束]
+输出：保存 PNG 到 outputs/<timestamp>-text-to-image-<slug>/final.png，并写入 generation-report.md
 ```
 
 ## 图生图
@@ -76,6 +89,9 @@
 4. 选择规范：根据图中载体选择手机 App 或智能穿戴规范。
 5. 按规范修正：安全区、字体、图标清晰度、触控热区、数据图表类型、导航和状态语义。
 6. 输出提示词：包含“保留”“修改”“规范修正”“避免”四段。
+7. 先用 `view_image` 检查参考图是否可读，再调用 `imagegen` 进行编辑、重绘或参考生成。
+8. 将选定产物保存为 `outputs/<timestamp>-image-to-image-<slug>/final.png`。
+9. 写入 `generation-report.md`，记录参考图路径、拆解结果、保留项、修改项、提示词、产物路径和检查结果。
 
 提示词模板：
 
@@ -88,6 +104,7 @@
 规范修正：[安全区、字体、图标、触控、图表、对齐、状态]
 字体：HarmonyOS Sans / 鸿蒙字体
 避免：改变设备形态、文字裁切、随机新增控件、噪声装饰、布局漂移
+输出：保存 PNG 到 outputs/<timestamp>-image-to-image-<slug>/final.png，并写入 generation-report.md
 ```
 
 ## 文生动图
@@ -102,6 +119,9 @@
 4. 拆解三类画面：首帧是起始状态，过程帧是交互或数据变化，尾帧是结果状态。
 5. 限定动效目的：只使用加载、切换、反馈、数据变化、告警或完成状态。
 6. 输出动图提示词：包含首帧、过程帧、尾帧、锁定元素、运动元素、时长和负面约束。
+7. 分别调用 `imagegen` 生成至少 3 个关键帧 PNG：`frames/001-first.png`、`frames/002-middle.png`、`frames/003-final.png`。
+8. 使用 `python3 scripts/assemble_animation.py --frames <frames_dir> --out <output.gif> --duration 4` 合成 `animation.gif`。
+9. 写入 `generation-report.md`，记录帧拆解、每帧提示词、GIF 路径、帧数和验收结果。
 
 提示词模板：
 
@@ -117,6 +137,7 @@
 运动元素：[图表、进度、按钮反馈、Toast、导航点、列表焦点等]
 字体：HarmonyOS Sans / 鸿蒙字体
 避免：抖动、文字不可读、夸张动效、随机跳页、数据前后不一致
+输出：保存关键帧到 outputs/<timestamp>-text-to-animation-<slug>/frames/，保存 GIF 到 animation.gif，并写入 generation-report.md
 ```
 
 推荐动效：
@@ -139,6 +160,10 @@
 4. 拆解首帧、过程帧、尾帧：首帧等于输入图或合理起始态；过程帧表达动效；尾帧表达完成态。
 5. 按规范修正：确保每一帧符合安全区、字体、图标、图表和状态语义。
 6. 输出动图提示词：说明保留项、变化项、帧结构、时长、节奏和负面约束。
+7. 先用 `view_image` 检查输入图，首帧保持输入图身份或生成规范修正后的首帧。
+8. 调用 `imagegen` 生成过程帧和尾帧，必要时也生成修正首帧，统一保存到 `frames/`。
+9. 使用 `python3 scripts/assemble_animation.py --frames <frames_dir> --out <output.gif> --duration 4` 合成 `animation.gif`。
+10. 写入 `generation-report.md`，记录输入图、锁定元素、变化元素、每帧提示词、GIF 路径、帧数和验收结果。
 
 提示词模板：
 
@@ -152,6 +177,7 @@
 设计规范：[手机运动健康 App 规范 / 智能穿戴规范]
 字体：HarmonyOS Sans / 鸿蒙字体
 避免：界面扭曲、文字随机变化、布局漂移、闪烁、标签不可读
+输出：保存关键帧到 outputs/<timestamp>-image-to-animation-<slug>/frames/，保存 GIF 到 animation.gif，并写入 generation-report.md
 ```
 
 ## 质量检查清单
@@ -167,6 +193,10 @@
 - 数据图表是否匹配数据类型：进度、占比、范围、线形、柱状或状态反馈。
 - 图生图和图生动图是否写清保留项与修改项。
 - 动图是否包含首帧、过程帧、尾帧、锁定元素和运动元素。
+- 是否已调用 `imagegen` 生成 PNG，或在失败报告中明确说明不可用并降级为提示词。
+- 是否没有使用本地绘图、截图拼接、空白占位图或仅提示词冒充 `imagegen` 生图产物。
+- 静态图是否保存为 `final.png`；动画是否保存为 `animation.gif` 且 `frames/` 至少有 3 个关键帧。
+- `generation-report.md` 是否记录能力、输入、工具、提示词、产物路径和失败/降级情况。
 - 负面约束是否避免文字裁切、设备变形、随机控件、不可读微字、过度装饰和伪称官方。
 
 ## 迭代方式

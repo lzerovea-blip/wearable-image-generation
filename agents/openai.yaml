@@ -1,6 +1,6 @@
 interface:
   display_name: "Wearable Image Generation"
-  short_description: "运动健康 App 与穿戴界面生图和动画提示词工作流"
-  default_prompt: "使用 $wearable-image-generation 为运动健康 App 或穿戴设备界面生成图片或动图提示词。"
+  short_description: "运动健康 App 与穿戴界面图片和动图生成"
+  default_prompt: "使用 $wearable-image-generation 为运动健康 App 或穿戴设备界面生成可检查的 PNG 图片或 GIF 动图产物。"
 policy:
   allow_implicit_invocation: true
