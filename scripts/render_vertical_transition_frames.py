@@ -167,6 +167,7 @@ def sampled_background(image: Image.Image, box: tuple[int, int, int, int]) -> tu
     for py in range(max(0, y - 2), min(image.height, y + height + 2)):
         for px in (max(0, x - 2), min(image.width - 1, x + width + 1)):
             samples.append(image.getpixel((px, py)))
+    samples = [sample for sample in samples if sample[3] > 0]
     if not samples:
         return (0, 0, 0, 0)
     channels = []
@@ -174,6 +175,28 @@ def sampled_background(image: Image.Image, box: tuple[int, int, int, int]) -> tu
         ordered = sorted(sample[channel] for sample in samples)
         channels.append(ordered[len(ordered) // 2])
     return tuple(channels)  # type: ignore[return-value]
+
+
+def opaque_mask_for_box(image: Image.Image, box: tuple[int, int, int, int]) -> Image.Image:
+    x, y, width, height = box
+    alpha = image.getchannel("A")
+    mask = Image.new("L", image.size, 0)
+    crop = alpha.crop((x, y, x + width, y + height))
+    mask.paste(crop, (x, y))
+    return mask
+
+
+def erase_box_on_opaque_pixels(
+    image: Image.Image,
+    box: tuple[int, int, int, int],
+    fill: tuple[int, int, int, int],
+) -> Image.Image:
+    x, y, width, height = box
+    patch = Image.new("RGBA", image.size, (0, 0, 0, 0))
+    draw = ImageDraw.Draw(patch, "RGBA")
+    draw.rectangle((x, y, x + width, y + height), fill=fill)
+    mask = opaque_mask_for_box(image, box)
+    return Image.composite(patch, image, mask)
 
 
 def active_focus_alphas(progress: float, switch_progress: float, fade_window: float) -> tuple[int, int]:
@@ -211,10 +234,12 @@ def draw_nav_overlay(
     background_color: tuple[int, int, int, int] | None,
 ) -> Image.Image:
     output = frame.copy()
-    draw = ImageDraw.Draw(output, "RGBA")
     x, y, width, height = clear_box
     fill = background_color if background_color is not None else sampled_background(output, clear_box)
-    draw.rectangle((x, y, x + width, y + height), fill=fill)
+    opaque_mask = opaque_mask_for_box(output, clear_box)
+    output = erase_box_on_opaque_pixels(output, clear_box, fill)
+    overlay = Image.new("RGBA", output.size, (0, 0, 0, 0))
+    draw = ImageDraw.Draw(overlay, "RGBA")
 
     for cx, cy in centers:
         draw.ellipse(
@@ -239,6 +264,10 @@ def draw_nav_overlay(
             radius=radius,
             fill=with_alpha(active_color, alpha),
         )
+    overlay_alpha = Image.new("L", output.size, 0)
+    overlay_alpha = Image.composite(overlay.getchannel("A"), overlay_alpha, opaque_mask)
+    overlay.putalpha(overlay_alpha)
+    output.alpha_composite(overlay)
     return output
 
 
