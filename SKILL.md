@@ -16,6 +16,8 @@ description: 生成或修订运动健康 App 与穿戴设备界面的图片和�
 
 凡涉及穿戴设备、手表、watch 或 wearable 的图片和动图生成，默认生成圆表、圆形屏界面。只有用户明确写出“方表 / 方形屏 / 方形穿戴 / Watch Fit / rectangular watch / square watch”等方形设备信号时，才生成方表或方形屏。
 
+凡生成圆形穿戴屏 UI 或圆表界面 PNG，默认最终产物只保留圆形屏幕内容，圆外四角和外部区域必须是透明 alpha 背景。只有用户明确要求黑色背景、完整方形画布或设备展示图时，才保留圆外实底背景。
+
 凡执行文生图、图生图、文生动图或图生动图中的图片生成、图片改写、关键帧生成，必须使用 `imagegen`。不得改用未声明的本地绘图、截图拼接、占位图或仅写提示词来冒充生图产物。
 
 ## 参考资料
@@ -39,9 +41,10 @@ description: 生成或修订运动健康 App 与穿戴设备界面的图片和�
 4. 根据目标载体读取对应规范：手机 App 读取手机规范，穿戴界面读取智能穿戴规范。
 5. 从功能截图、组件索引或页面类型中寻找最接近的功能原型；找不到精确原型时，写明“原型假设”。
 6. 按功能原型、组件资源和设计规范生成提示词，再调用 `imagegen` 生成 PNG；动图任务必须生成至少首帧、过程帧、尾帧 3 个关键帧。
-7. 按 `references/execution-and-output.md` 保存到 `outputs/<YYYYMMDD-HHMMSS>-<ability>-<slug>/`，并写入 `generation-report.md`。
-8. 动画任务使用 `python3 scripts/assemble_animation.py --frames <frames_dir> --out <output.gif> --duration 4` 合成 GIF。
-9. 输出前检查：字体、安全区、组件、数据图表、状态、动效目的、负面约束、产物路径和失败/降级记录是否完整。
+7. 圆形穿戴屏 PNG 使用 `scripts/mask_round_screen_alpha.py` 做圆形 alpha 后处理，输出必须保留 PNG 透明通道并通过四角 alpha=0 检查。
+8. 按 `references/execution-and-output.md` 保存到 `outputs/<YYYYMMDD-HHMMSS>-<ability>-<slug>/`，并写入 `generation-report.md`。
+9. 动画任务使用 `python3 scripts/assemble_animation.py --frames <frames_dir> --out <output.gif> --duration 4` 合成 GIF。
+10. 输出前检查：字体、安全区、组件、数据图表、状态、透明背景、动效目的、负面约束、产物路径和失败/降级记录是否完整。
 
 ## 操作规则
 
@@ -56,6 +59,7 @@ description: 生成或修订运动健康 App 与穿戴设备界面的图片和�
 - 静态图默认产物是 PNG，保存为 `final.png`；动画默认产物是 GIF，保存为 `animation.gif`，并保留 `frames/` 下的关键帧。
 - 如果 `imagegen`、参考图读取或动画合成不可用，不要伪造产物；按失败处理模板说明失败类型、已尝试工具/路径、是否降级为提示词和下一步需要补充什么。
 - 圆形穿戴屏必须保护圆形安全区，避免文字和按钮被边缘裁切。
+- 圆形穿戴屏最终 PNG 必须用 alpha 通道裁掉圆外区域，四角 alpha=0；不能保存成 JPG 或无透明通道 PNG。圆形穿戴动图的每个关键帧也必须先完成透明化，再合成 GIF。
 - 手机 App 产物禁止 iOS 状态栏、电量样式和 home indicator；使用 HarmonyOS 风格系统壳层，或弱化系统壳层。
 - 手机 App 页面必须保持导航、卡片、列表、图表和状态层级清晰。
 - 不要把观察到的视觉细节写成“官方规范”，除非它来自内置设计规范；其他内容标记为“参考图观察”或“原型假设”。

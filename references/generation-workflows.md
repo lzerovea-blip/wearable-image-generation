@@ -11,6 +11,7 @@
 - 能力类型：文生图、图生图、文生动图或图生动图。
 - 目标载体：手机 App、圆形穿戴屏、方形穿戴屏、图标、组件、完整页面或短动图。
 - 穿戴形态默认值：凡需求涉及穿戴设备、手表、watch 或 wearable，且未明确出现“方表 / 方形屏 / 方形穿戴 / Watch Fit / rectangular watch / square watch”等方形设备信号，目标载体默认写为圆表、圆形屏。
+- 圆形屏输出背景：圆形穿戴屏 UI 默认只保留圆形屏幕内容，圆外四角和外部区域必须透明 alpha；只有用户明确要求黑色背景、完整方形画布或设备展示图时，才保留圆外实底。
 - 用户目标：这个界面或动图要帮助用户理解什么、完成什么。
 - 健康/运动场景：健康总览、运动训练、睡眠、心率、血氧、压力、设备同步、告警、设置、报告等。
 - 功能原型：最接近需求的整屏截图、页面类型、组件组合或组件索引条目。
@@ -71,8 +72,9 @@
 6. 在原型基础上设计：保留原型的信息层级和组件节奏，按用户需求替换内容、数据和状态。
 7. 输出提示词：包含功能原型、设计目标、布局、组件、数据、字体、颜色语义、系统壳层和负面约束。
 8. 调用 `imagegen` 生成静态 PNG。
-9. 将选定产物保存为 `outputs/<timestamp>-text-to-image-<slug>/final.png`。
-10. 写入 `generation-report.md`，记录输入需求、原型、规范、最终提示词、产物路径和检查结果。
+9. 若目标是圆形穿戴屏，使用 `python3 scripts/mask_round_screen_alpha.py --input <generated.png> --out <final.png> --mode inscribed-circle` 将圆外区域设为透明，并检查四角 alpha=0；非圆形穿戴屏将选定产物保存为 `final.png`。
+10. 将选定产物保存为 `outputs/<timestamp>-text-to-image-<slug>/final.png`。
+11. 写入 `generation-report.md`，记录输入需求、原型、规范、最终提示词、产物路径、圆外透明检查和其他检查结果。
 
 提示词模板：
 
@@ -88,6 +90,7 @@
 视觉：运动健康界面，清晰、克制、数据优先、状态明确
 避免：[负面约束]
 系统壳层：手机 App 禁止 iOS 状态栏、电量样式和 home indicator；穿戴界面保护设备安全区
+圆形屏输出：圆形穿戴屏最终 PNG 圆外区域透明，四角 alpha=0；不要圆外黑色实底，除非用户明确要求设备展示图或黑色背景
 输出：保存 PNG 到 outputs/<timestamp>-text-to-image-<slug>/final.png，并写入 generation-report.md
 ```
 
@@ -105,8 +108,9 @@
 6. 输出提示词：包含“保留”“修改”“规范修正”“避免”四段；除非用户明确要求扩展画布，不要生成超宽页面或重构为新布局。参考图是局部裁片时，必须写明裁切关系、可见范围和信息密度，不得补全被裁掉的卡片下半部。
 7. 先用 `view_image` 检查参考图是否可读，再调用 `imagegen` 进行编辑、重绘或参考生成。
 8. 组件裁片默认保持参考图像素尺寸；若 `imagegen` 输出不同尺寸，使用 `python3 scripts/normalize_to_reference.py --input <generated.png> --reference <reference.png> --out <final.png>` 归一到参考图尺寸，并检查没有增加可见信息密度。
-9. 将选定产物保存为 `outputs/<timestamp>-image-to-image-<slug>/final.png`；如扩展为完整页面，必须在 `generation-report.md` 记录允许扩展说明。
-10. 写入 `generation-report.md`，记录参考图路径、拆解结果、保留项、修改项、提示词、产物路径、参考尺寸、输出尺寸和检查结果。
+9. 若输出是圆形穿戴屏，归一化或编辑后再运行 `scripts/mask_round_screen_alpha.py`，确保圆外透明、四角 alpha=0。
+10. 将选定产物保存为 `outputs/<timestamp>-image-to-image-<slug>/final.png`；如扩展为完整页面，必须在 `generation-report.md` 记录允许扩展说明。
+11. 写入 `generation-report.md`，记录参考图路径、拆解结果、保留项、修改项、提示词、产物路径、参考尺寸、输出尺寸、圆外透明检查和其他检查结果。
 
 提示词模板：
 
@@ -119,6 +123,7 @@
 规范修正：[安全区、字体、图标、触控、图表、对齐、状态]
 字体：HarmonyOS Sans / 鸿蒙字体
 裁片约束：保持与输入图同等裁片关系；不得补全被裁掉的卡片下半部；不得为了展示新内容改变裁片内的信息密度
+圆形屏输出：如果输出为圆形穿戴屏，最终 PNG 必须圆外透明，四角 alpha=0；不要保留圆外黑底
 避免：改变设备形态、文字裁切、随机新增控件、噪声装饰、布局漂移、裁片内容补全
 扩展说明：默认不扩展画布；若扩展为完整页面，必须说明原因
 输出：保存 PNG 到 outputs/<timestamp>-image-to-image-<slug>/final.png，并写入 generation-report.md
@@ -139,8 +144,9 @@
 7. 输出动图提示词：包含首帧、过程帧、尾帧、页面类型锁定、锁定元素、运动元素、时长、帧数选择理由和负面约束；连续刷新、绘制或同步动效默认生成 8-12 帧。
 8. 分别调用 `imagegen` 生成关键帧 PNG；曲线刷新类动画必须覆盖 `00:00 / 04:00 / 08:00 / 12:00 / 16:00 / 20:00 / 24:00` 等中间进度帧。
 9. 合成前校验所有关键帧尺寸一致；若 `imagegen` 输出轻微尺寸差异，使用 `--normalize-to first` 归一化到首帧尺寸，或归一化到目标尺寸，并在报告中记录。
-10. 使用 `python3 scripts/assemble_animation.py --frames <frames_dir> --out <output.gif> --duration 4 --normalize-to first` 合成 `animation.gif`。
-11. 写入 `generation-report.md`，记录帧拆解、每帧提示词、GIF 路径、帧数、页面类型一致性、尺寸归一化和验收结果。
+10. 若目标是圆形穿戴屏，逐帧运行 `scripts/mask_round_screen_alpha.py`，用于合成的每个 PNG 都必须圆外透明、四角 alpha=0。
+11. 使用 `python3 scripts/assemble_animation.py --frames <frames_dir> --out <output.gif> --duration 4 --normalize-to first` 合成 `animation.gif`。
+12. 写入 `generation-report.md`，记录帧拆解、每帧提示词、GIF 路径、帧数、页面类型一致性、尺寸归一化、逐帧圆外透明检查和验收结果。
 
 提示词模板：
 
@@ -159,6 +165,7 @@
 字体：HarmonyOS Sans / 鸿蒙字体
 避免：抖动、文字不可读、夸张动效、随机跳页、数据前后不一致、页面类型漂移、无关健康总览卡片
 尺寸：所有关键帧同尺寸；必要时归一化到首帧或目标尺寸并记录
+圆形屏输出：圆形穿戴屏每个关键帧 PNG 都先完成圆形 alpha 后处理，四角 alpha=0，再合成 GIF
 输出：保存关键帧到 outputs/<timestamp>-text-to-animation-<slug>/frames/，保存 GIF 到 animation.gif，并写入 generation-report.md
 ```
 
@@ -188,8 +195,9 @@
 10. 使用 `python3 scripts/verify_swiper_geometry.py --reference <reference.png> --frames <frames_dir> --clear-box x,y,w,h --expected-count <n>` 检查帧尺寸等于参考图，且清除框外像素不变；不通过就写失败报告。
 11. 其他需要新增视觉内容的动效，调用 `imagegen` 生成过程帧和尾帧，必要时也生成修正首帧，统一保存到 `frames/`。
 12. 合成前校验所有关键帧尺寸一致且等于参考图尺寸；若 `imagegen` 输出轻微尺寸差异，优先归一化到参考图尺寸或使用 `--normalize-to WIDTHxHEIGHT`，并在报告中记录。
-13. 使用 `python3 scripts/assemble_animation.py --frames <frames_dir> --out <output.gif> --duration 4 --normalize-to none` 合成 `animation.gif`；若尺寸或几何检查失败，写失败报告，不进入合成。
-14. 写入 `generation-report.md`，记录输入图、锁定元素、变化元素、每帧提示词或脚本参数、GIF 路径、帧数、页面类型一致性、尺寸归一化和验收结果。
+13. 若输出是圆形穿戴屏，逐帧运行 `scripts/mask_round_screen_alpha.py`，确认圆外透明、四角 alpha=0；若透明后处理失败，写失败报告，不进入合成。
+14. 使用 `python3 scripts/assemble_animation.py --frames <frames_dir> --out <output.gif> --duration 4 --normalize-to none` 合成 `animation.gif`；若尺寸、几何或透明检查失败，写失败报告，不进入合成。
+15. 写入 `generation-report.md`，记录输入图、锁定元素、变化元素、每帧提示词或脚本参数、GIF 路径、帧数、页面类型一致性、尺寸归一化、逐帧圆外透明检查和验收结果。
 
 提示词模板：
 
@@ -208,6 +216,7 @@
 避免：界面扭曲、文字随机变化、布局漂移、闪烁、标签不可读
 参考图信息：如果参考图内容弱，报告标记“参考图内容弱/需补原型假设”，并说明已锁定的可见元素
 尺寸：所有关键帧同尺寸；必要时归一化到首帧或目标尺寸并记录
+圆形屏输出：如果目标为圆形穿戴屏，每个关键帧都必须圆外透明、四角 alpha=0；不要将黑底方形画布合成为 GIF
 输出：保存关键帧到 outputs/<timestamp>-image-to-animation-<slug>/frames/，保存 GIF 到 animation.gif，并写入 generation-report.md
 ```
 
@@ -222,6 +231,7 @@
 - 未指定方表却生成方形表盘、方形屏或 Watch Fit 形态，应记为问题。
 - 是否包含 HarmonyOS Sans / 鸿蒙字体。
 - 圆形穿戴屏是否保护圆形安全区。
+- 圆形穿戴屏最终 PNG 是否保留 alpha 通道，圆外区域是否透明，四角 alpha 是否为 0；除非用户明确要求黑色背景、完整方形画布或设备展示图，否则圆外黑色实底应记为问题。
 - 圆形屏图表坐标轴、时间轴、右侧纵轴、导航点、底部控件和边缘列表项是否明显内收。
 - 心率趋势时间轴是否显示 `00:00 / 12:00 / 24:00`，且未使用 `0点 / 24点`。
 - 方形穿戴屏和手机 App 是否有合理对齐、导航、卡片、列表和图表层级。
@@ -236,6 +246,7 @@
 - 动图是否包含首帧、过程帧、尾帧、锁定元素和运动元素；连续动效是否达到 8-12 帧或说明了帧数理由。
 - 动图所有帧是否保持页面类型一致性，没有从心率趋势详情页漂移到健康总览页或其他页面模块。
 - 动图所有关键帧是否同尺寸；如归一化，是否记录归一化目标和原因。
+- 圆形穿戴动图的每个关键帧是否已做圆形 alpha 后处理，且用于合成的帧四角 alpha=0。
 - 是否已调用 `imagegen` 生成 PNG，或在失败报告中明确说明不可用并降级为提示词。
 - 是否没有使用本地绘图、截图拼接、空白占位图或仅提示词冒充 `imagegen` 生图产物。
 - 静态图是否保存为 `final.png`；动画是否保存为 `animation.gif` 且 `frames/` 至少有 3 个关键帧。
