@@ -1,16 +1,16 @@
 ---
 name: wearable-image-generation
-description: 生成或修订运动健康 App 与穿戴设备界面的图片和动图产物。适用于文生图、图生图、文生动图、图生动图、参考图改写、UI 界面生成、圆形或方形穿戴屏生成、华为/HarmonyOS 运动健康界面视觉，以及基于本地设计规范和组件截图输出可检查 PNG/GIF 文件。
+description: 生成或修订运动健康 App 与穿戴设备界面的图片、动图和视频产物。适用于文生图、图生图、文生动图、图生动图、参考图改写、UI 界面生成、圆形或方形穿戴屏生成、华为/HarmonyOS 运动健康界面视觉，以及基于本地设计规范和组件截图输出可检查 PNG/GIF/MP4 文件。
 ---
 
 # 运动健康界面生图
 
-使用本 skill 为运动健康 App 和穿戴设备界面生成设计可信、可落盘检查的图片或动图产物。四个主要能力是：
+使用本 skill 为运动健康 App 和穿戴设备界面生成设计可信、可落盘检查的图片、动图或视频产物。四个主要能力是：
 
 - 文生图：根据需求描述寻找对应功能原型，再基于原型图和规范生成 `final.png`。
 - 图生图：根据输入图片拆解界面结构，按设计规范生成修订后的 `final.png`。
-- 文生动图：根据需求描述拆解首帧、过程帧、尾帧，生成关键帧并合成 `animation.gif`。
-- 图生动图：根据输入图片拆解场景、锁定元素和变化元素，生成关键帧并合成 `animation.gif`。
+- 文生动图：根据需求描述拆解首帧、过程帧、尾帧，生成关键帧并合成 `animation.gif`；用户明确要求视频时输出 `animation.mp4`。
+- 图生动图：根据输入图片拆解场景、锁定元素和变化元素，生成关键帧并合成 `animation.gif`；用户明确要求视频时输出 `animation.mp4`。
 
 凡涉及 App 或穿戴设备界面，必须使用 HarmonyOS Sans / 鸿蒙字体。
 
@@ -20,7 +20,7 @@ description: 生成或修订运动健康 App 与穿戴设备界面的图片和�
 
 凡执行文生图、图生图、文生动图或图生动图中的图片生成、图片改写、关键帧生成，必须使用 `imagegen`。不得改用未声明的本地绘图、截图拼接、占位图或仅写提示词来冒充生图产物。
 
-动图默认不使用 `imagegen` 直接生成动图作为最终交付。默认交付必须是 `imagegen` 生成真实 UI 内容关键帧，再由本地脚本进行确定性插帧、透明化、尺寸校验和 GIF 合成，输出 `frames/*.png`、`animation.gif` 和 `generation-report.md`。如果额外获得 `imagegen` 直接生成的动图，只能作为参考产物，不能替代默认验收产物。
+动图和视频默认不使用 `imagegen` 直接生成动图或视频作为最终交付。默认交付必须是 `imagegen` 生成真实 UI 内容关键帧，再由本地帧合成器 / motion assembler 进行确定性插帧、透明化、尺寸校验和格式封装。动图输出 `frames/*.png`、`animation.gif` 和 `generation-report.md`；用户明确要求视频 / MP4 / video 时输出 `frames/*.png`、`animation.mp4` 和 `generation-report.md`。如果额外获得 `imagegen` 直接生成的动图或视频，只能作为参考产物，不能替代默认验收产物。
 
 ## 参考资料
 
@@ -45,7 +45,7 @@ description: 生成或修订运动健康 App 与穿戴设备界面的图片和�
 6. 按功能原型、组件资源和设计规范生成提示词，再调用 `imagegen` 生成 PNG；动图任务必须生成至少首帧、过程帧、尾帧 3 个关键帧。
 7. 圆形穿戴屏 PNG 使用 `scripts/mask_round_screen_alpha.py` 做圆形 alpha 后处理，输出必须保留 PNG 透明通道并通过四角 alpha=0 检查。
 8. 按 `references/execution-and-output.md` 保存到 `outputs/<YYYYMMDD-HHMMSS>-<ability>-<slug>/`，并写入 `generation-report.md`。
-9. 动画任务使用 `python3 scripts/assemble_animation.py --frames <frames_dir> --out <output.gif> --duration 4` 合成 GIF。
+9. 动画任务按用户要求选择本地帧合成器：动图使用 `python3 scripts/assemble_animation.py --frames <frames_dir> --out <output.gif> --duration 4` 合成 GIF；视频使用 `python3 scripts/assemble_video.py --frames <frames_dir> --out <output.mp4> --duration 4 --fps 12 --normalize-to first` 合成 MP4。
 10. 输出前检查：字体、安全区、组件、数据图表、状态、透明背景、动效目的、负面约束、产物路径和失败/降级记录是否完整。
 
 ## 操作规则
@@ -56,12 +56,13 @@ description: 生成或修订运动健康 App 与穿戴设备界面的图片和�
 - 穿戴设备形态默认圆表；未指定方表却生成方形表盘或方形穿戴屏，应记为问题并重新生成或报告失败。
 - 图生图必须先拆解输入图，再说明保留什么、修改什么、按规范修正什么；默认锁定输入图画幅比例、裁片边界、组件形态和可见元素。组件裁片只露出局部内容时，不得补全被裁掉的卡片下半部，不得为了展示新内容改变裁片内的信息密度；输出默认归一到参考图尺寸。
 - 动图必须把画面拆成首帧、过程帧、尾帧；3 帧只是最低关键状态，连续刷新、绘制或同步动效默认生成 8-12 帧，并锁定同一页面类型。
-- 文生动图和图生动图的默认交付链路是 `imagegen` 生成关键帧 PNG + GIF maker 脚本合成 GIF；`imagegen` 直接生成动图不是默认交付方式。
+- 文生动图和图生动图的默认交付链路是 `imagegen` 生成关键帧 PNG + 本地帧合成器封装最终格式；用户说“动图”时输出 GIF，明确说“视频 / MP4 / video”时输出 MP4。`imagegen` 直接生成动图或视频不是默认交付方式。
 - 用户明确要求“下滑 / 滑动 / Swiper / 查看更多详情”时，动画必须表现真实页面切换：首帧是首页，中间帧有内容整体向上位移或 Swiper/滚动过渡，右侧导航点焦点同步变化，尾帧进入详情页；默认生成 8-12 帧，不得只交付几张相似首页图。
 - “查看更多详情页”尾帧必须展示用户指定的详情内容；如果需求包含睡眠摘要、运动摘要、情绪摘要，尾帧必须出现这三个摘要模块标题和对应短摘要，不能用首页准备度卡片或训练建议替代。
 - 动画所有关键帧必须同尺寸；若 `imagegen` 输出轻微尺寸差异，先归一化到首帧或目标尺寸并在 `generation-report.md` 记录。
 - 图生动图的小组件裁片必须像素级几何锁定；竖向 Swiper 等组件只允许移动或替换蓝色焦点状态，不重新生成点半径、点距、弧线、裁片尺度和主焦点尺寸。此类任务优先使用 `scripts/render_swiper_focus_frames.py` 以原图为底图生成帧，而不是让 `imagegen` 重绘每一帧。
-- 静态图默认产物是 PNG，保存为 `final.png`；动画默认产物是 GIF，保存为 `animation.gif`，并保留 `frames/` 下的关键帧。
+- 静态图默认产物是 PNG，保存为 `final.png`；动图默认产物是 GIF，保存为 `animation.gif`；视频默认产物是 MP4，保存为 `animation.mp4`；动画类任务都必须保留 `frames/` 下的关键帧。
+- 视频不得绕过动图帧规则：仍需首帧、过程帧、尾帧、滑动位移、页面类型一致性、圆形安全区、透明 PNG 帧和中文文案检查。MP4 不承诺 alpha 透明，圆表透明验收以 `frames/*.png` 四角 alpha=0 为准。
 - 如果 `imagegen`、参考图读取或动画合成不可用，不要伪造产物；按失败处理模板说明失败类型、已尝试工具/路径、是否降级为提示词和下一步需要补充什么。
 - 圆形穿戴屏必须保护圆形安全区，避免文字和按钮被边缘裁切。
 - 圆形穿戴屏底部文字、底部控件和右侧导航点必须明显内收；底部文字不得贴近圆形弧边，右侧导航点不得贴近设备边框。

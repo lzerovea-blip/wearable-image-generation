@@ -1,10 +1,10 @@
 # 执行和产物规范
 
-本文件定义实际生图、图生图和动图任务的执行入口、输出目录、动画验收和失败处理。除非用户明确只要提示词，默认必须生成可检查的图片或动图文件。
+本文件定义实际生图、图生图、动图和视频任务的执行入口、输出目录、动画验收和失败处理。除非用户明确只要提示词，默认必须生成可检查的图片、动图或视频文件。
 
 硬性要求：文生图、图生图、文生动图和图生动图中的图片生成、图片改写、首帧/过程帧/尾帧生成必须使用 `imagegen`。本地脚本只允许用于合成、校验、移动、整理或确定性过渡插帧，不允许替代 `imagegen` 生成新的页面内容。
 
-默认动图交付：`imagegen` 生成真实 UI 内容关键帧，本地 GIF maker / 脚本负责确定性插帧、透明背景、尺寸校验和 GIF 合成。`imagegen` 直接生成动图不是默认交付方式；即使额外生成，也只能作为参考产物，不能替代 `frames/*.png`、`animation.gif` 和 `generation-report.md`。
+默认动画交付：`imagegen` 生成真实 UI 内容关键帧，本地帧合成器 / motion assembler 负责确定性插帧、透明背景、尺寸校验和格式封装。用户说“动图”时默认输出 GIF；用户明确说“视频 / MP4 / video”时默认输出 MP4。`imagegen` 直接生成动图或视频不是默认交付方式；即使额外生成，也只能作为参考产物，不能替代 `frames/*.png`、最终动画文件和 `generation-report.md`。
 
 例外：当输入是竖向 Swiper 导航点、小组件焦点移动等纯 UI 状态变化，并且目标是严格保持原图几何时，本地脚本可以复制原图或 `imagegen` 修正后的首帧，只在测量出的局部区域替换蓝色焦点状态。该路径不得新增页面内容，不得重绘组件规格，必须在报告中说明使用确定性后处理。
 
@@ -19,7 +19,8 @@
 ```text
 outputs/<YYYYMMDD-HHMMSS>-<ability>-<slug>/
 ├── final.png                  # 静态图任务
-├── animation.gif              # 动画任务
+├── animation.gif              # 动图任务
+├── animation.mp4              # 视频任务
 ├── frames/
 │   ├── 001-first.png
 │   ├── 002-middle.png
@@ -48,16 +49,20 @@ outputs/<YYYYMMDD-HHMMSS>-<ability>-<slug>/
 
 如果 `imagegen` 不可用，只能输出提示词时，不要声称已生成图片；必须按“失败处理”记录降级。不得使用本地绘图、截图拼接、空白占位图或测试图片冒充 `imagegen` 产物。
 
-## 动画输出规范
+## 动画和视频输出规范
 
-默认动画格式是 GIF：
+默认动画链路先生成可检查帧序列，再按用户要求封装：
 
 - 默认时长：4 秒；允许范围：3-5 秒。
 - 默认帧数：至少 3 个关键状态，分别对应首帧、过程帧、尾帧；连续刷新、绘制或同步动效推荐 8-12 帧。
 - 默认命名：`001-first.png`、中间帧按顺序命名为 `002-middle.png`、`003-middle.png` 等，最后一帧命名为 `final` 语义。
-- 默认合成命令：`python3 scripts/assemble_animation.py --frames <frames_dir> --out <output.gif> --duration 4 --normalize-to first`
-- 默认产物必须保留 `frames/` 下的关键帧 PNG 和 `animation.gif`；直接由 `imagegen` 输出的动图文件不作为默认验收产物。
-- MP4 只作为附加产物；没有 `ffmpeg` 或其他稳定渲染能力时，不要求 MP4。
+- 动图默认合成命令：`python3 scripts/assemble_animation.py --frames <frames_dir> --out <output.gif> --duration 4 --normalize-to first`
+- 视频默认合成命令：`python3 scripts/assemble_video.py --frames <frames_dir> --out <output.mp4> --duration 4 --fps 12 --normalize-to first`
+- 动图默认产物必须保留 `frames/` 下的关键帧 PNG 和 `animation.gif`。
+- 视频默认产物必须保留 `frames/` 下的关键帧 PNG 和 `animation.mp4`；可附加 `animation.gif` 作为预览，但不能替代 MP4。
+- 视频编码优先使用 PATH 中的 `ffmpeg`；如果没有，则使用 Python 包 `imageio-ffmpeg` 提供的 ffmpeg。若两者都不可用，输出失败报告，失败类型为“视频编码器不可用”，不得声称已生成 MP4。
+- MP4 默认使用 H.264 / yuv420p，保证常见播放器可打开。MP4 不承诺 alpha 透明；圆表透明验收以 `frames/*.png` 四角 alpha=0 为准。
+- 直接由 `imagegen` 输出的动图或视频文件不作为默认验收产物。
 
 滑动/详情页过渡：
 
@@ -66,13 +71,14 @@ outputs/<YYYYMMDD-HHMMSS>-<ability>-<slug>/
 - 如果是带右侧 Swiper 导航点的页面，必须让首页和详情页的导航点焦点状态不同，并在中间帧体现焦点同步变化；若需要更精确的点位状态，结合 `scripts/render_swiper_focus_frames.py` 或单独生成导航点同步帧。
 - 不允许只生成首尾两张静态图、几张相似首页图，或只有局部卡片变化却没有进入详情页。
 
-动画验收：
+动画和视频验收：
 
 - `animation.gif` 必须是多帧文件，不能用单张静态图冒充。
-- `animation.gif` 必须由可检查的 `frames/*.png` 合成；不得只提交 `imagegen` 直接生成动图而缺失关键帧和报告。
+- 用户明确要求视频时，`animation.mp4` 必须存在、非空、可被 ffmpeg 或等价工具读出视频流，时长约 3-5 秒，帧数大于 1。
+- GIF 和 MP4 都必须由可检查的 `frames/*.png` 合成；不得只提交 `imagegen` 直接生成动图或视频而缺失关键帧和报告。
 - 所有关键帧必须同尺寸；合成前先校验尺寸，若 `imagegen` 输出轻微尺寸差异，统一归一化到首帧或目标尺寸并在报告中记录。
 - 圆形穿戴屏动画的每个关键帧都必须在合成前运行圆形 alpha 后处理；`frames/` 中用于合成的 PNG 四角 alpha=0，圆外区域透明。
-- `frames/` 中的首帧和尾帧必须来自 `imagegen` 生成或改写后的图片；滑动类中间帧可以由 `scripts/render_vertical_transition_frames.py` 基于首尾帧确定性插帧，其他过程帧必须来自 `imagegen` 或明确允许的确定性后处理。合成脚本只负责把这些帧变成 GIF。
+- `frames/` 中的首帧和尾帧必须来自 `imagegen` 生成或改写后的图片；滑动类中间帧可以由 `scripts/render_vertical_transition_frames.py` 基于首尾帧确定性插帧，其他过程帧必须来自 `imagegen` 或明确允许的确定性后处理。合成脚本只负责把这些帧封装成 GIF 或 MP4。
 - 滑动类动画默认 8-12 帧；中间帧必须能看到连续位移、滚动或 Swiper 过渡，不能只有首尾静态帧或几张相似图。
 - “查看更多详情页”尾帧必须进入详情页，并展示用户指定的详情模块；用户要求睡眠摘要、运动摘要、情绪摘要时，这三个模块标题和短摘要都必须可见。
 - 右侧 Swiper 导航点必须与页面切换同步：点数与页面数量一致，焦点随首页到详情页变化；如果不是 Swiper，必须通过内容整体位移体现普通纵向滚动。
@@ -108,8 +114,8 @@ outputs/<YYYYMMDD-HHMMSS>-<ability>-<slug>/
 
 - 能力：[文生图 / 图生图 / 文生动图 / 图生动图]
 - 输入：[用户需求或参考图路径]
-- 失败类型：[素材缺失 / imagegen 不可用 / 参考图不可读 / 关键帧生成失败 / 滑动过渡生成失败 / 圆形透明后处理失败 / 动画合成失败]
-- 已尝试工具/路径：[imagegen、view_image、scripts/render_vertical_transition_frames.py、scripts/mask_round_screen_alpha.py、scripts/assemble_animation.py、素材路径等]
+- 失败类型：[素材缺失 / imagegen 不可用 / 参考图不可读 / 关键帧生成失败 / 滑动过渡生成失败 / 圆形透明后处理失败 / 动画合成失败 / 视频编码器不可用 / 视频合成失败]
+- 已尝试工具/路径：[imagegen、view_image、scripts/render_vertical_transition_frames.py、scripts/mask_round_screen_alpha.py、scripts/assemble_animation.py、scripts/assemble_video.py、ffmpeg、imageio-ffmpeg、素材路径等]
 - 是否降级为提示词：[是 / 否]
 - 已产出内容：[提示词、关键帧、部分图片、无]
 - 下一步需要：[用户补充参考图 / 提供素材路径 / 恢复生成工具 / 重新生成关键帧 / 检查脚本依赖]
@@ -125,6 +131,8 @@ outputs/<YYYYMMDD-HHMMSS>-<ability>-<slug>/
 - 圆形透明后处理失败：保留原始 PNG，记录脚本错误、输入尺寸、目标圆形边界和四角 alpha 检查结果；不得交付圆外黑底图作为最终圆形穿戴产物。
 - 小组件几何检查失败：保留参考图和已生成帧，说明失败项，例如点数、点距、主焦点高度、弧边位置、裁片尺度或参考尺寸不一致；不得进入 GIF 合成。
 - 动画合成失败：保留 `frames/`，记录脚本错误；不能把单帧 PNG 当作 GIF 动画交付。
+- 视频编码器不可用：保留 `frames/` 和提示词，记录 PATH 中未找到 `ffmpeg` 或无法导入 `imageio-ffmpeg`；不得声称已生成 MP4。
+- 视频合成失败：保留 `frames/`，记录 `scripts/assemble_video.py` 或 ffmpeg 错误；不能把 GIF 或单帧 PNG 当作视频交付。
 
 ## 报告检查项
 
@@ -134,7 +142,8 @@ outputs/<YYYYMMDD-HHMMSS>-<ability>-<slug>/
 - 输入需求和参考图路径。
 - 使用的设计规范和功能原型。
 - 最终提示词或每帧提示词。
-- 产物路径：`final.png` 或 `animation.gif`。
+- 产物路径：`final.png`、`animation.gif` 或 `animation.mp4`。
+- 输出格式：PNG / GIF / MP4；视频任务记录 fps、时长、编码器来源和 MP4 可读性检查。
 - 每帧来源：哪些帧由 `imagegen` 生成，哪些帧由本地脚本从已生成关键帧确定性插帧或后处理。
 - 动画帧数选择理由。
 - 输入图身份锁定项。
@@ -142,6 +151,7 @@ outputs/<YYYYMMDD-HHMMSS>-<ability>-<slug>/
 - 参考图弱信息标记。
 - 裁片边界、可见范围和信息密度检查。
 - 圆形穿戴图透明背景检查：PNG 有 alpha 通道、圆外区域透明、四角 alpha=0；如用户要求保留黑色背景或完整方形画布，记录该例外。
+- 视频透明说明：MP4 不承诺 alpha 透明；圆表透明验收记录 `frames/*.png` 四角 alpha=0，不能用 MP4 外底色代替 PNG 透明检查。
 - 小组件像素级几何锁定检查，包括点数、主焦点尺寸、点距、弧边关系和组件尺度。
 - 确定性后处理脚本参数，包括点位中心、清除框、点半径、焦点尺寸和焦点序列。
 - 滑动过渡检查：首帧是否为首页、中间帧是否连续位移、尾帧是否为详情页、导航点是否同步、帧数是否为 8-12 帧或有理由。

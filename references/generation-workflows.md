@@ -2,9 +2,9 @@
 
 本文件用于执行文生图、图生图、文生动图、图生动图。所有 App 和穿戴界面都必须使用 HarmonyOS Sans / 鸿蒙字体。
 
-执行产物、目录、失败处理和动画验收细则见 `references/execution-and-output.md`。除非用户明确只要提示词，默认都要生成并保存可检查文件。所有图片生成、图片改写和动画关键帧生成必须使用 `imagegen`。
+执行产物、目录、失败处理、动画和视频验收细则见 `references/execution-and-output.md`。除非用户明确只要提示词，默认都要生成并保存可检查文件。所有图片生成、图片改写和动画关键帧生成必须使用 `imagegen`。
 
-动图默认采用 `imagegen` 生成关键帧 PNG + GIF maker 脚本合成 GIF 的方案。`imagegen` 直接生成动图不是默认交付方式，只能作为可选参考产物；不得替代 `frames/*.png`、`animation.gif` 和 `generation-report.md`。
+动画默认采用 `imagegen` 生成关键帧 PNG + 本地帧合成器封装最终格式的方案。用户说“动图”时输出 `animation.gif`；用户明确说“视频 / MP4 / video”时输出 `animation.mp4`。`imagegen` 直接生成动图或视频不是默认交付方式，只能作为可选参考产物；不得替代 `frames/*.png`、最终动画文件和 `generation-report.md`。
 
 ## 共享提示词结构
 
@@ -35,7 +35,7 @@
 
 - 输出目录：`outputs/<YYYYMMDD-HHMMSS>-<ability>-<slug>/`
 - 静态产物：`final.png`
-- 动画产物：`animation.gif` 和 `frames/` 下至少 3 个关键帧；连续动效通常为 8-12 帧。
+- 动画产物：动图保存 `animation.gif`，视频保存 `animation.mp4`，并保留 `frames/` 下至少 3 个关键帧；连续动效通常为 8-12 帧。
 - 报告文件：`generation-report.md`
 
 ## 功能原型选择
@@ -152,9 +152,9 @@
 10. 对滑动/Swiper/查看更多详情类动效，使用 `python3 scripts/render_vertical_transition_frames.py --first <home.png> --final <detail.png> --out <frames_dir> --frame-count 9 --round-mask` 生成连续位移帧；非圆形屏可不加 `--round-mask`。如果使用 `imagegen` 生成中间帧，也必须显式描述每帧位移百分比和导航点焦点变化。
 11. 合成前校验所有关键帧尺寸一致；若 `imagegen` 输出轻微尺寸差异，使用 `--normalize-to first` 归一化到首帧尺寸，或归一化到目标尺寸，并在报告中记录。
 12. 若目标是圆形穿戴屏，逐帧运行 `scripts/mask_round_screen_alpha.py` 或使用滑动脚本 `--round-mask`，用于合成的每个 PNG 都必须圆外透明、四角 alpha=0。
-13. 使用 `python3 scripts/assemble_animation.py --frames <frames_dir> --out <output.gif> --duration 4 --normalize-to first` 合成 `animation.gif`。
-14. 如果额外使用 `imagegen` 直接生成动图，只能作为参考产物保存并标注，不得替代 `frames/`、`animation.gif` 和逐帧检查。
-15. 写入 `generation-report.md`，记录帧拆解、每帧来源、每帧提示词、GIF 路径、帧数、页面类型一致性、尺寸归一化、滑动位移检查、详情模块检查、文案检查、逐帧圆外透明检查和验收结果。
+13. 按用户要求封装最终格式：动图使用 `python3 scripts/assemble_animation.py --frames <frames_dir> --out <output.gif> --duration 4 --normalize-to first` 合成 `animation.gif`；视频使用 `python3 scripts/assemble_video.py --frames <frames_dir> --out <output.mp4> --duration 4 --fps 12 --normalize-to first` 合成 `animation.mp4`。
+14. 如果额外使用 `imagegen` 直接生成动图或视频，只能作为参考产物保存并标注，不得替代 `frames/`、最终动画文件和逐帧检查。
+15. 写入 `generation-report.md`，记录帧拆解、每帧来源、每帧提示词、GIF 或 MP4 路径、视频 fps/时长/编码器来源、帧数、页面类型一致性、尺寸归一化、滑动位移检查、详情模块检查、文案检查、逐帧圆外透明检查和验收结果。
 
 提示词模板：
 
@@ -176,9 +176,9 @@
 中文文案：[列出并检查所有可见中文，不能有错字、伪词、语义不通顺]
 避免：抖动、文字不可读、夸张动效、随机跳页、数据前后不一致、页面类型漂移、首页卡片替代详情页、无关健康总览卡片
 尺寸：所有关键帧同尺寸；必要时归一化到首帧或目标尺寸并记录
-圆形屏输出：圆形穿戴屏每个关键帧 PNG 都先完成圆形 alpha 后处理，四角 alpha=0，再合成 GIF
-输出：保存关键帧到 outputs/<timestamp>-text-to-animation-<slug>/frames/，保存 GIF 到 animation.gif，并写入 generation-report.md
-默认交付：imagegen 生成关键帧 PNG，本地 GIF maker 合成 animation.gif；imagegen 直接生成动图仅可作为参考，不替代 frames/、animation.gif、generation-report.md
+圆形屏输出：圆形穿戴屏每个关键帧 PNG 都先完成圆形 alpha 后处理，四角 alpha=0，再合成 GIF 或 MP4；MP4 不承诺 alpha 透明，透明验收以 PNG 帧为准
+输出：保存关键帧到 outputs/<timestamp>-text-to-animation-<slug>/frames/；动图保存 animation.gif，视频保存 animation.mp4；写入 generation-report.md
+默认交付：imagegen 生成关键帧 PNG，本地帧合成器封装 GIF 或 MP4；imagegen 直接生成动图或视频仅可作为参考，不替代 frames/、最终动画文件、generation-report.md
 ```
 
 推荐动效：
@@ -209,9 +209,9 @@
 12. 其他需要新增视觉内容的动效，调用 `imagegen` 生成过程帧和尾帧，必要时也生成修正首帧，统一保存到 `frames/`。
 13. 合成前校验所有关键帧尺寸一致且等于参考图尺寸；若 `imagegen` 输出轻微尺寸差异，优先归一化到参考图尺寸或使用 `--normalize-to WIDTHxHEIGHT`，并在报告中记录。
 14. 若输出是圆形穿戴屏，逐帧运行 `scripts/mask_round_screen_alpha.py` 或使用滑动脚本 `--round-mask`，确认圆外透明、四角 alpha=0；若透明后处理失败，写失败报告，不进入合成。
-15. 使用 `python3 scripts/assemble_animation.py --frames <frames_dir> --out <output.gif> --duration 4 --normalize-to none` 合成 `animation.gif`；若尺寸、几何、滑动位移或透明检查失败，写失败报告，不进入合成。
-16. 如果额外使用 `imagegen` 直接生成动图，只能作为参考产物保存并标注，不得替代 `frames/`、`animation.gif` 和逐帧检查。
-17. 写入 `generation-report.md`，记录输入图、锁定元素、变化元素、每帧来源、每帧提示词或脚本参数、GIF 路径、帧数、页面类型一致性、尺寸归一化、滑动位移检查、详情模块检查、文案检查、逐帧圆外透明检查和验收结果。
+15. 按用户要求封装最终格式：动图使用 `python3 scripts/assemble_animation.py --frames <frames_dir> --out <output.gif> --duration 4 --normalize-to none` 合成 `animation.gif`；视频使用 `python3 scripts/assemble_video.py --frames <frames_dir> --out <output.mp4> --duration 4 --fps 12 --normalize-to first` 合成 `animation.mp4`。若尺寸、几何、滑动位移、透明检查或视频编码失败，写失败报告，不冒充成功。
+16. 如果额外使用 `imagegen` 直接生成动图或视频，只能作为参考产物保存并标注，不得替代 `frames/`、最终动画文件和逐帧检查。
+17. 写入 `generation-report.md`，记录输入图、锁定元素、变化元素、每帧来源、每帧提示词或脚本参数、GIF 或 MP4 路径、视频 fps/时长/编码器来源、帧数、页面类型一致性、尺寸归一化、滑动位移检查、详情模块检查、文案检查、逐帧圆外透明检查和验收结果。
 
 提示词模板：
 
@@ -234,9 +234,9 @@
 避免：界面扭曲、文字随机变化、布局漂移、闪烁、标签不可读
 参考图信息：如果参考图内容弱，报告标记“参考图内容弱/需补原型假设”，并说明已锁定的可见元素
 尺寸：所有关键帧同尺寸；必要时归一化到首帧或目标尺寸并记录
-圆形屏输出：如果目标为圆形穿戴屏，每个关键帧都必须圆外透明、四角 alpha=0；不要将黑底方形画布合成为 GIF
-输出：保存关键帧到 outputs/<timestamp>-image-to-animation-<slug>/frames/，保存 GIF 到 animation.gif，并写入 generation-report.md
-默认交付：imagegen 生成或修正关键帧 PNG，本地 GIF maker 合成 animation.gif；imagegen 直接生成动图仅可作为参考，不替代 frames/、animation.gif、generation-report.md
+圆形屏输出：如果目标为圆形穿戴屏，每个关键帧都必须圆外透明、四角 alpha=0；不要将黑底方形画布合成为 GIF 或作为透明 PNG 帧验收通过；MP4 不承诺 alpha 透明
+输出：保存关键帧到 outputs/<timestamp>-image-to-animation-<slug>/frames/；动图保存 animation.gif，视频保存 animation.mp4；写入 generation-report.md
+默认交付：imagegen 生成或修正关键帧 PNG，本地帧合成器封装 GIF 或 MP4；imagegen 直接生成动图或视频仅可作为参考，不替代 frames/、最终动画文件、generation-report.md
 ```
 
 ## 质量检查清单
@@ -263,13 +263,13 @@
 - 图生动图的小组件裁片是否像素级几何锁定；竖向 Swiper 是否保留点数、主焦点尺寸、点距、点半径、弧边关系和组件尺度，只改变蓝色焦点位置。
 - 竖向 Swiper 小组件是否使用确定性脚本从原图复制帧；如果使用 `imagegen` 结果，是否已裁切/缩放回参考图尺寸并通过点位检查。
 - 动图是否包含首帧、过程帧、尾帧、锁定元素和运动元素；连续动效是否达到 8-12 帧或说明了帧数理由。
-- 动图是否按 `imagegen` 关键帧 + GIF maker 合成方案交付，且没有用 `imagegen` 直接生成动图替代 `frames/`、`animation.gif` 和报告。
+- 动画是否按 `imagegen` 关键帧 + 本地帧合成器方案交付，且没有用 `imagegen` 直接生成动图或视频替代 `frames/`、最终动画文件和报告。
 - 动图所有帧是否保持页面类型一致性，没有从心率趋势详情页漂移到健康总览页或其他页面模块。
 - 动图所有关键帧是否同尺寸；如归一化，是否记录归一化目标和原因。
 - 圆形穿戴动图的每个关键帧是否已做圆形 alpha 后处理，且用于合成的帧四角 alpha=0。
 - 是否已调用 `imagegen` 生成 PNG，或在失败报告中明确说明不可用并降级为提示词。
 - 是否没有使用本地绘图、截图拼接、空白占位图或仅提示词冒充 `imagegen` 生图产物。
-- 静态图是否保存为 `final.png`；动画是否保存为 `animation.gif` 且 `frames/` 至少有 3 个关键帧。
+- 静态图是否保存为 `final.png`；动图是否保存为 `animation.gif`，视频是否保存为 `animation.mp4`，且 `frames/` 至少有 3 个关键帧。
 - `generation-report.md` 是否记录能力、输入、工具、提示词、产物路径和失败/降级情况。
 - 负面约束是否避免文字裁切、设备变形、随机控件、不可读微字、过度装饰和伪称官方。
 

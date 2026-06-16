@@ -33,6 +33,7 @@
 
 - App 或穿戴设备界面统一使用 HarmonyOS Sans / 鸿蒙字体。
 - 穿戴设备、手表、watch 或 wearable 生图/动图默认使用圆表、圆形屏；只有用户明确指定“方表 / 方形屏 / 方形穿戴 / Watch Fit / rectangular watch / square watch”等方形设备信号时，才生成和验证方表。
+- 用户明确要求视频 / MP4 / video 时，复用动图帧序列规则：`imagegen` 生成真实 UI 关键帧，本地帧合成器输出 `animation.mp4`，并保留 `frames/*.png` 和 `generation-report.md`；不得用 `imagegen` 直接生成的视频替代逐帧验收。
 - 运动健康数据要清晰、稳定、可读，优先表达主指标，再表达次级信息。
 - 优先使用标准组件：导航、列表、卡片、按钮、弹窗、开关、选择器、进度、图表、状态提示。
 - 明确组件状态：默认、按压、选中、禁用、加载、空状态、错误、成功、告警。
