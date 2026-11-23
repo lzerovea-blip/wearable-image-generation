@@ -1,0 +1,187 @@
+{
+  "id": "body-readiness",
+  "name": "身体状态准备度",
+  "icon": "@insight-icon",
+  "entries": {
+    "launcher": {
+      "label": "健康洞察",
+      "page": "insight"
+    },
+    "minus": {
+      "label": "健康洞察",
+      "detail": "锻炼时长",
+      "value": "40 分钟",
+      "note": "过去 7 天日均值",
+      "page": "insight"
+    },
+    "cards": {
+      "label": "健康洞察",
+      "detail": "身体状态准备度",
+      "value": "4 项洞察",
+      "note": "查看今日健康数据",
+      "page": "insight"
+    },
+    "summary": {
+      "label": "身体状态准备度",
+      "detail": "查看健康洞察与 AI 解读",
+      "page": "phone-insight"
+    }
+  },
+  "pages": {
+    "insight": {
+      "device": "watch",
+      "title": "健康洞察",
+      "parent": "@launcher",
+      "cover": "insight.webp",
+      "coverAction": {
+        "label": "AI 解读",
+        "page": "generating",
+        "box": [24, 74, 52, 20]
+      },
+      "sections": [
+        {
+          "title": "你的健康洞察",
+          "text": "最近 7 天 · 4 项数据分析"
+        },
+        {
+          "title": "活动",
+          "text": "过去 7 天日均锻炼 40 分钟。"
+        },
+        {
+          "title": "睡眠",
+          "text": "最近一晚的睡眠质量仍有改善空间。"
+        },
+        {
+          "title": "作息",
+          "text": "留意入睡时间的变化。"
+        },
+        {
+          "title": "日间状态",
+          "text": "结合近期活动与睡眠，回顾身体状态。"
+        }
+      ],
+      "action": {
+        "label": "AI 解读",
+        "page": "generating"
+      }
+    },
+    "generating": {
+      "device": "watch",
+      "title": "正在生成解读",
+      "parent": "insight",
+      "cover": "generating.webp",
+      "after": {
+        "page": "reading",
+        "ms": 1600
+      }
+    },
+    "reading": {
+      "device": "both",
+      "title": "AI 解读",
+      "record": "today",
+      "parent": {
+        "watch": "insight",
+        "phone": "phone-insight"
+      }
+    },
+    "phone-insight": {
+      "device": "phone",
+      "title": "身体状态准备度",
+      "parent": "@summary",
+      "subtitle": "健康洞察",
+      "sections": [
+        {
+          "title": "近期身体状态",
+          "text": "结合近 7 天的活动、睡眠与作息，查看本次健康洞察。"
+        }
+      ],
+      "action": {
+        "label": "查看 AI 解读",
+        "page": "reading"
+      }
+    }
+  },
+  "records": {
+    "today": {
+      "date": "11/19 11:35",
+      "title": "AI 解读",
+      "sections": [
+        {
+          "title": "整体概览",
+          "text": "近 7 天整体状态平稳，活动量充足，睡眠时长与上月基本持平。值得注意的是，最新一晚睡眠质量待改善，夜间清醒偏多，需要优先关注恢复。"
+        },
+        {
+          "title": "洞察分析",
+          "text": "11 月 14 日凌晨睡眠得分 62 分，总时长偏短，夜间清醒 55 分钟。尽管深睡占比正常，日常活动量也保持得不错，仍可结合随后几天的睡眠记录观察变化。"
+        },
+        {
+          "title": "今日建议",
+          "text": "近日深睡眠数据不足。可在白天安排 20 分钟户外散步，晚间尝试比平时提前 30 分钟上床，留意夜间清醒和次日感受。"
+        }
+      ]
+    }
+  },
+  "scenes": [
+    {
+      "id": "enter",
+      "title": "进入健康洞察",
+      "hint": "点击表冠打开应用列表，上下滑动寻找「健康洞察」。",
+      "start": {
+        "watch": "@face",
+        "phone": "@home"
+      },
+      "keys": [
+        ["watch", "@face", "表盘"],
+        ["watch", "@launcher", "应用列表"],
+        ["watch", "insight", "健康洞察"]
+      ]
+    },
+    {
+      "id": "interpret",
+      "title": "查看 AI 解读",
+      "hint": "点「AI 解读」生成结果，上下滑动阅读完整内容。",
+      "start": {
+        "watch": "insight",
+        "phone": "@home"
+      },
+      "keys": [
+        ["watch", "insight", "洞察首页"],
+        ["watch", "generating", "生成中"],
+        ["watch", "reading", "解读结果"]
+      ]
+    },
+    {
+      "id": "cards",
+      "title": "从表盘滑入卡片",
+      "hint": "从表盘向右滑进入负一屏，向左滑进入超级卡片，点卡片可进入健康洞察。",
+      "start": {
+        "watch": "@face",
+        "phone": "@home"
+      },
+      "keys": [
+        ["watch", "@minus", "负一屏"],
+        ["watch", "@face", "表盘"],
+        ["watch", "@cards", "超级卡片"]
+      ]
+    },
+    {
+      "id": "phone-reading",
+      "title": "手机查看同一解读",
+      "hint": "从运动健康首页打开「健康摘要」，进入准备度并查看同一份 AI 解读。",
+      "start": {
+        "watch": "reading",
+        "phone": "@home"
+      },
+      "keys": [
+        ["phone", "@home", "健康首页"],
+        ["phone", "@summary", "健康摘要"],
+        ["phone", "phone-insight", "身体状态准备度"],
+        ["phone", "reading", "解读结果"]
+      ]
+    }
+  ],
+  "references": [
+    "手表界面参照 11 月 19 日实机图 159、162、163、164、165、167、169、170、171。解读正文依据截图节录，双端共用一条示例记录。",
+    "固定表盘与超级卡片为原型复原。手机健康摘要参考本地截图，准备度入口和手机解读详情为演示扩展。"
+  ]
+}

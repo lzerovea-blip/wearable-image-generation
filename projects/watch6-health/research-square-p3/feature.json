@@ -1,0 +1,1651 @@
+{
+  "id": "research-square-p3",
+  "name": "心血管健康趋势研究",
+  "phoneProfile": "mate50",
+  "entries": {},
+  "pages": {
+    "home": {
+      "device": "phone",
+      "title": "创新研究首页",
+      "parent": "@home",
+      "capture": {
+        "header": "screens/home-h.webp",
+        "content": "screens/home-c.webp",
+        "footer": "screens/home-f.webp",
+        "contentLabel": "创新研究首页",
+        "hotspots": []
+      }
+    },
+    "plaza": {
+      "device": "phone",
+      "title": "研究广场",
+      "parent": "home",
+      "capture": {
+        "header": "screens/plaza-h.webp",
+        "content": "screens/plaza-c.webp",
+        "footer": "screens/plaza-f.webp",
+        "contentLabel": "研究广场",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              2.2059,
+              50.3937,
+              11.8566,
+              43.7008
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "中国居民睡眠健康研究",
+            "page": "preview-square-p1",
+            "box": [
+              2.8493,
+              0.0706,
+              94.2096,
+              32.8158
+            ],
+            "openFeature": {
+              "id": "research-square-p1",
+              "page": "square-p1"
+            }
+          },
+          {
+            "zone": "content",
+            "label": "情绪与睡眠改善计划",
+            "page": "preview-square-p2",
+            "box": [
+              2.8493,
+              34.1214,
+              94.2096,
+              32.8158
+            ],
+            "openFeature": {
+              "id": "research-square-p2",
+              "page": "square-p2"
+            }
+          },
+          {
+            "zone": "content",
+            "label": "心血管健康趋势研究",
+            "page": "square-p3",
+            "box": [
+              2.8493,
+              68.2075,
+              94.2096,
+              31.7925
+            ]
+          }
+        ]
+      }
+    },
+    "preview-square-p1": {
+      "device": "phone",
+      "title": "中国居民睡眠健康研究",
+      "parent": "plaza",
+      "capture": {
+        "content": "screens/preview-square-p1-c.webp",
+        "contentLabel": "中国居民睡眠健康研究",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              2.2978,
+              5.2083,
+              11.489,
+              4.75
+            ]
+          }
+        ]
+      }
+    },
+    "preview-square-p2": {
+      "device": "phone",
+      "title": "情绪与睡眠改善计划",
+      "parent": "plaza",
+      "capture": {
+        "content": "screens/preview-square-p2-c.webp",
+        "contentLabel": "情绪与睡眠改善计划",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              2.2978,
+              5.2083,
+              11.489,
+              4.75
+            ]
+          }
+        ]
+      }
+    },
+    "square-p3": {
+      "device": "phone",
+      "title": "心血管健康趋势研究",
+      "parent": "plaza",
+      "capture": {
+        "header": "screens/square-p3-h.webp",
+        "content": "screens/square-p3-c.webp",
+        "footer": "screens/square-p3-f.webp",
+        "contentLabel": "心血管健康趋势研究",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              56.6667,
+              5.3309,
+              21.1111
+            ]
+          },
+          {
+            "zone": "header",
+            "label": "更多",
+            "page": "square-p3-menu",
+            "box": [
+              88.3272,
+              56.6667,
+              4.2279,
+              17.037
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "立即测评",
+            "page": "square-p3-test",
+            "box": [
+              6.0662,
+              54.862,
+              36.1213,
+              4.034
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "了解详情",
+            "page": "square-p3-article",
+            "box": [
+              6.0662,
+              91.0403,
+              36.1213,
+              4.0764
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "睡眠呼吸暂停",
+            "page": "square-p3-tab1",
+            "box": [
+              26.1949,
+              27.1338,
+              21.7831,
+              3.5669
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "睡眠质量",
+            "page": "square-p3-tab2",
+            "box": [
+              49.5404,
+              27.1338,
+              21.7831,
+              3.5669
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "疲劳",
+            "page": "square-p3-tab3",
+            "box": [
+              72.9779,
+              27.1338,
+              21.6912,
+              3.5669
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "去完成",
+            "page": "square-p3-tasks",
+            "box": [
+              6.0662,
+              13.2909,
+              87.8676,
+              5.138
+            ]
+          }
+        ],
+        "swipe": {
+          "left": "square-p3-strip"
+        },
+        "swipeAreas": {
+          "left": [
+            0,
+            26.0722,
+            100,
+            31.7622
+          ]
+        },
+        "swipeAreaZones": {
+          "left": "content"
+        }
+      }
+    },
+    "square-p3-menu": {
+      "device": "phone",
+      "title": "更多",
+      "parent": "square-p3",
+      "capture": {
+        "content": "screens/square-p3-menu-c.webp",
+        "contentLabel": "更多",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              6.375,
+              5.3309,
+              2.375
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "隐私管理",
+            "page": "square-p3-menu-privacy",
+            "box": [
+              59.6507,
+              11.1667,
+              29.9632,
+              6.125
+            ]
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "box": [
+              59.6507,
+              17.0833,
+              29.9632,
+              6.0
+            ],
+            "label": "退出研究"
+          }
+        ]
+      }
+    },
+    "square-p3-menu-privacy": {
+      "device": "phone",
+      "title": "隐私管理",
+      "parent": "square-p3-menu",
+      "capture": {
+        "content": "screens/square-p3-menu-privacy-c.webp",
+        "contentLabel": "隐私管理",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              6.4583,
+              5.3309,
+              2.4167
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "用户知情同意书",
+            "page": "square-p3-menu-privacy-consent",
+            "box": [
+              6.0662,
+              30.2917,
+              30.239,
+              6.0417
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "关于心血管健康趋势研究与隐私的声明",
+            "page": "square-p3-menu-privacy-notice",
+            "box": [
+              6.0662,
+              36.2083,
+              76.9301,
+              6.0
+            ]
+          }
+        ]
+      }
+    },
+    "square-p3-menu-privacy-consent": {
+      "device": "phone",
+      "title": "用户知情同意书",
+      "parent": "square-p3-menu-privacy",
+      "capture": {
+        "header": "screens/square-p3-menu-privacy-consent-h.webp",
+        "content": "screens/square-p3-menu-privacy-consent-c.webp",
+        "footer": "screens/square-p3-menu-privacy-consent-f.webp",
+        "contentLabel": "用户知情同意书",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              56.6667,
+              5.3309,
+              21.1111
+            ]
+          }
+        ]
+      }
+    },
+    "square-p3-menu-privacy-notice": {
+      "device": "phone",
+      "title": "关于心血管健康趋势研究与隐私的声明",
+      "parent": "square-p3-menu-privacy",
+      "capture": {
+        "header": "screens/square-p3-menu-privacy-notice-h.webp",
+        "content": "screens/square-p3-menu-privacy-notice-c.webp",
+        "footer": "screens/square-p3-menu-privacy-notice-f.webp",
+        "contentLabel": "关于心血管健康趋势研究与隐私的声明",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              0.0,
+              40.0,
+              14.8897,
+              60.0
+            ]
+          }
+        ]
+      }
+    },
+    "square-p3-test": {
+      "device": "phone",
+      "title": "心血管风险评估量表",
+      "parent": "square-p3",
+      "capture": {
+        "content": "screens/square-p3-test-c.webp",
+        "contentLabel": "心血管风险评估量表",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.6287,
+              6.4583,
+              5.6066,
+              2.2917
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "开始测评",
+            "page": "square-p3-test-first",
+            "box": [
+              6.0662,
+              45.5833,
+              87.8676,
+              4.9167
+            ]
+          }
+        ]
+      }
+    },
+    "square-p3-test-first": {
+      "device": "phone",
+      "title": "心血管测评 · 题目",
+      "parent": "square-p3-test",
+      "capture": {
+        "header": "screens/square-p3-test-first-h.webp",
+        "content": "screens/square-p3-test-first-c.webp",
+        "footer": "screens/square-p3-test-first-f.webp",
+        "contentLabel": "心血管测评 · 题目",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              56.6667,
+              5.3309,
+              21.1111
+            ]
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "box": [
+              24.3566,
+              98.2562,
+              51.1949,
+              1.4353
+            ],
+            "label": "提交"
+          }
+        ]
+      }
+    },
+    "square-p3-article": {
+      "device": "phone",
+      "title": "健康知识",
+      "parent": "square-p3",
+      "capture": {
+        "header": "screens/square-p3-article-h.webp",
+        "content": "screens/square-p3-article-c.webp",
+        "footer": "screens/square-p3-article-f.webp",
+        "contentLabel": "健康知识",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              56.6667,
+              5.3309,
+              21.1111
+            ]
+          }
+        ]
+      }
+    },
+    "square-p3-tab1": {
+      "device": "phone",
+      "title": "睡眠呼吸暂停测评",
+      "parent": "square-p3",
+      "capture": {
+        "header": "screens/square-p3-tab1-h.webp",
+        "content": "screens/square-p3-tab1-c.webp",
+        "footer": "screens/square-p3-tab1-f.webp",
+        "contentLabel": "睡眠呼吸暂停测评",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              56.6667,
+              5.3309,
+              21.1111
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "立即测评",
+            "page": "square-p3-tab1-test",
+            "box": [
+              6.0662,
+              54.7771,
+              36.1213,
+              4.1614
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "心血管",
+            "page": "square-p3",
+            "box": [
+              2.8493,
+              27.1338,
+              21.7831,
+              3.5669
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "睡眠质量",
+            "page": "square-p3-tab2",
+            "box": [
+              49.5404,
+              27.1338,
+              21.7831,
+              3.5669
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "疲劳",
+            "page": "square-p3-tab3",
+            "box": [
+              72.9779,
+              27.1338,
+              21.6912,
+              3.5669
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "焦虑抑郁",
+            "page": "square-p3-tab4",
+            "box": [
+              96.3235,
+              27.1338,
+              3.6765,
+              3.5669
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          }
+        ]
+      }
+    },
+    "square-p3-tab1-test": {
+      "device": "phone",
+      "title": "睡眠呼吸暂停初筛量表",
+      "parent": "square-p3-tab1",
+      "capture": {
+        "content": "screens/square-p3-tab1-test-c.webp",
+        "contentLabel": "睡眠呼吸暂停初筛量表",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.6287,
+              6.4583,
+              5.6066,
+              2.2917
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "开始测评",
+            "page": "square-p3-tab1-test-first",
+            "box": [
+              6.0662,
+              45.5833,
+              87.8676,
+              4.9167
+            ]
+          }
+        ]
+      }
+    },
+    "square-p3-tab1-test-first": {
+      "device": "phone",
+      "title": "睡眠呼吸暂停测评 · 题目",
+      "parent": "square-p3-tab1-test",
+      "capture": {
+        "header": "screens/square-p3-tab1-test-first-h.webp",
+        "content": "screens/square-p3-tab1-test-first-c.webp",
+        "footer": "screens/square-p3-tab1-test-first-f.webp",
+        "contentLabel": "睡眠呼吸暂停测评 · 题目",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              56.6667,
+              5.3309,
+              21.1111
+            ]
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "box": [
+              24.3566,
+              96.789,
+              51.1949,
+              2.6431
+            ],
+            "label": "提交"
+          }
+        ]
+      }
+    },
+    "square-p3-tab2": {
+      "device": "phone",
+      "title": "睡眠质量测评",
+      "parent": "square-p3",
+      "capture": {
+        "header": "screens/square-p3-tab2-h.webp",
+        "content": "screens/square-p3-tab2-c.webp",
+        "footer": "screens/square-p3-tab2-f.webp",
+        "contentLabel": "睡眠质量测评",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              56.6667,
+              5.3309,
+              21.1111
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "立即测评",
+            "page": "square-p3-tab2-test",
+            "box": [
+              6.0662,
+              54.7771,
+              36.1213,
+              4.1614
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "心血管",
+            "page": "square-p3",
+            "box": [
+              2.8493,
+              27.1338,
+              21.7831,
+              3.5669
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "睡眠呼吸暂停",
+            "page": "square-p3-tab1",
+            "box": [
+              26.1949,
+              27.1338,
+              21.7831,
+              3.5669
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "疲劳",
+            "page": "square-p3-tab3",
+            "box": [
+              72.9779,
+              27.1338,
+              21.6912,
+              3.5669
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "焦虑抑郁",
+            "page": "square-p3-tab4",
+            "box": [
+              96.3235,
+              27.1338,
+              3.6765,
+              3.5669
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          }
+        ]
+      }
+    },
+    "square-p3-tab2-test": {
+      "device": "phone",
+      "title": "匹兹堡睡眠质量指数",
+      "parent": "square-p3-tab2",
+      "capture": {
+        "content": "screens/square-p3-tab2-test-c.webp",
+        "contentLabel": "匹兹堡睡眠质量指数",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.6287,
+              6.4583,
+              5.6066,
+              2.2917
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "开始测评",
+            "page": "square-p3-tab2-test-first",
+            "box": [
+              6.0662,
+              43.1667,
+              87.8676,
+              4.9583
+            ]
+          }
+        ]
+      }
+    },
+    "square-p3-tab2-test-first": {
+      "device": "phone",
+      "title": "睡眠质量测评 · 题目",
+      "parent": "square-p3-tab2-test",
+      "capture": {
+        "header": "screens/square-p3-tab2-test-first-h.webp",
+        "content": "screens/square-p3-tab2-test-first-c.webp",
+        "footer": "screens/square-p3-tab2-test-first-f.webp",
+        "contentLabel": "睡眠质量测评 · 题目",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              56.6667,
+              5.3309,
+              21.1111
+            ]
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "box": [
+              24.3566,
+              98.9617,
+              51.1949,
+              0.8508
+            ],
+            "label": "提交"
+          }
+        ]
+      }
+    },
+    "square-p3-tab3": {
+      "device": "phone",
+      "title": "疲劳测评",
+      "parent": "square-p3",
+      "capture": {
+        "content": "screens/square-p3-tab3-c.webp",
+        "contentLabel": "疲劳测评",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              6.375,
+              5.3309,
+              2.375
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "立即测评",
+            "page": "square-p3-tab3-test",
+            "box": [
+              6.0662,
+              65.0833,
+              36.1213,
+              3.9583
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "心血管",
+            "page": "square-p3",
+            "box": [
+              2.8493,
+              37.875,
+              21.7831,
+              3.5
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "睡眠呼吸暂停",
+            "page": "square-p3-tab1",
+            "box": [
+              26.1949,
+              37.875,
+              21.7831,
+              3.5
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "睡眠质量",
+            "page": "square-p3-tab2",
+            "box": [
+              49.5404,
+              37.875,
+              21.7831,
+              3.5
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "焦虑抑郁",
+            "page": "square-p3-tab4",
+            "box": [
+              96.3235,
+              37.875,
+              3.6765,
+              3.5
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          }
+        ]
+      }
+    },
+    "square-p3-tab3-test": {
+      "device": "phone",
+      "title": "疲劳量表-14",
+      "parent": "square-p3-tab3",
+      "capture": {
+        "content": "screens/square-p3-tab3-test-c.webp",
+        "contentLabel": "疲劳量表-14",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.6287,
+              6.4583,
+              5.6066,
+              2.2917
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "开始测评",
+            "page": "square-p3-tab3-test-first",
+            "box": [
+              6.0662,
+              50.625,
+              87.8676,
+              4.9583
+            ]
+          }
+        ]
+      }
+    },
+    "square-p3-tab3-test-first": {
+      "device": "phone",
+      "title": "疲劳测评 · 题目",
+      "parent": "square-p3-tab3-test",
+      "capture": {
+        "header": "screens/square-p3-tab3-test-first-h.webp",
+        "content": "screens/square-p3-tab3-test-first-c.webp",
+        "footer": "screens/square-p3-tab3-test-first-f.webp",
+        "contentLabel": "疲劳测评 · 题目",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              56.6667,
+              5.3309,
+              21.1111
+            ]
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "box": [
+              24.3566,
+              98.1409,
+              51.1949,
+              1.5303
+            ],
+            "label": "提交"
+          }
+        ]
+      }
+    },
+    "square-p3-tab4": {
+      "device": "phone",
+      "title": "焦虑抑郁测评",
+      "parent": "square-p3",
+      "capture": {
+        "content": "screens/square-p3-tab4-c.webp",
+        "contentLabel": "焦虑抑郁测评",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              6.375,
+              5.3309,
+              2.375
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "立即测评",
+            "page": "square-p3-tab4-test",
+            "box": [
+              6.0662,
+              65.0833,
+              36.1213,
+              3.9583
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "心血管",
+            "page": "square-p3",
+            "box": [
+              0.0,
+              37.875,
+              1.5625,
+              3.5
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "睡眠呼吸暂停",
+            "page": "square-p3-tab1",
+            "box": [
+              3.4007,
+              37.875,
+              21.5074,
+              3.5
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "睡眠质量",
+            "page": "square-p3-tab2",
+            "box": [
+              26.7463,
+              37.875,
+              21.5074,
+              3.5
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "疲劳",
+            "page": "square-p3-tab3",
+            "box": [
+              50.0919,
+              37.875,
+              21.5074,
+              3.5
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          }
+        ]
+      }
+    },
+    "square-p3-strip": {
+      "device": "phone",
+      "title": "更多测评分类",
+      "parent": "square-p3",
+      "capture": {
+        "content": "screens/square-p3-strip-c.webp",
+        "contentLabel": "更多测评分类",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              6.375,
+              5.3309,
+              2.375
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "焦虑抑郁",
+            "page": "square-p3-tab4",
+            "box": [
+              73.4375,
+              37.875,
+              21.5074,
+              3.5
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "心血管",
+            "page": "square-p3",
+            "box": [
+              0.0,
+              37.875,
+              1.5625,
+              3.5
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "睡眠呼吸暂停",
+            "page": "square-p3-tab1",
+            "box": [
+              3.4007,
+              37.875,
+              21.5074,
+              3.5
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "睡眠质量",
+            "page": "square-p3-tab2",
+            "box": [
+              26.7463,
+              37.875,
+              21.5074,
+              3.5
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "疲劳",
+            "page": "square-p3-tab3",
+            "box": [
+              50.0919,
+              37.875,
+              21.5074,
+              3.5
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          }
+        ],
+        "swipe": {
+          "right": "square-p3"
+        },
+        "swipeAreas": {
+          "right": [
+            0,
+            36.8333,
+            100,
+            42.4166
+          ]
+        },
+        "swipeAreaZones": {
+          "right": "content"
+        }
+      }
+    },
+    "square-p3-tab4-test": {
+      "device": "phone",
+      "title": "医院焦虑抑郁量表",
+      "parent": "square-p3-tab4",
+      "capture": {
+        "content": "screens/square-p3-tab4-test-c.webp",
+        "contentLabel": "医院焦虑抑郁量表",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.6287,
+              6.4583,
+              5.6066,
+              2.2917
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "开始测评",
+            "page": "square-p3-tab4-test-first",
+            "box": [
+              6.0662,
+              48.0,
+              87.8676,
+              4.9167
+            ]
+          }
+        ]
+      }
+    },
+    "square-p3-tab4-test-first": {
+      "device": "phone",
+      "title": "焦虑抑郁测评 · 题目",
+      "parent": "square-p3-tab4-test",
+      "capture": {
+        "header": "screens/square-p3-tab4-test-first-h.webp",
+        "content": "screens/square-p3-tab4-test-first-c.webp",
+        "footer": "screens/square-p3-tab4-test-first-f.webp",
+        "contentLabel": "焦虑抑郁测评 · 题目",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              56.6667,
+              5.3309,
+              21.1111
+            ]
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "box": [
+              24.3566,
+              98.7943,
+              51.1949,
+              0.9925
+            ],
+            "label": "提交"
+          }
+        ]
+      }
+    },
+    "square-p3-tasks": {
+      "device": "phone",
+      "title": "待完成任务",
+      "parent": "square-p3",
+      "capture": {
+        "content": "screens/square-p3-tasks-c.webp",
+        "contentLabel": "待完成任务",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              6.375,
+              5.3309,
+              2.375
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "匹兹堡睡眠质量指数",
+            "page": "square-p3-tasks-item1",
+            "box": [
+              75.5515,
+              27.6667,
+              18.3824,
+              3.5833
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "疲劳量表",
+            "page": "square-p3-tasks-item2",
+            "box": [
+              75.5515,
+              35.3333,
+              18.3824,
+              3.5
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "睡眠呼吸暂停初筛量表(Stop-Bang)",
+            "page": "square-p3-tasks-item3",
+            "box": [
+              75.5515,
+              43.0417,
+              18.3824,
+              3.5
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "心血管风险评估量表",
+            "page": "square-p3-tasks-item4",
+            "box": [
+              75.5515,
+              50.625,
+              18.3824,
+              3.625
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "医院焦虑抑郁量表（HAD）",
+            "page": "square-p3-tasks-item5",
+            "box": [
+              75.5515,
+              58.3333,
+              18.3824,
+              3.5
+            ]
+          }
+        ]
+      }
+    },
+    "square-p3-tasks-item1": {
+      "device": "phone",
+      "title": "匹兹堡睡眠质量指数",
+      "parent": "square-p3-tasks",
+      "capture": {
+        "header": "screens/square-p3-tasks-item1-h.webp",
+        "content": "screens/square-p3-tasks-item1-c.webp",
+        "footer": "screens/square-p3-tasks-item1-f.webp",
+        "contentLabel": "匹兹堡睡眠质量指数",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              56.6667,
+              5.3309,
+              21.1111
+            ]
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "box": [
+              24.3566,
+              98.9617,
+              51.1949,
+              0.8508
+            ],
+            "label": "提交"
+          }
+        ]
+      }
+    },
+    "square-p3-tasks-item2": {
+      "device": "phone",
+      "title": "疲劳量表",
+      "parent": "square-p3-tasks",
+      "capture": {
+        "header": "screens/square-p3-tasks-item2-h.webp",
+        "content": "screens/square-p3-tasks-item2-c.webp",
+        "footer": "screens/square-p3-tasks-item2-f.webp",
+        "contentLabel": "疲劳量表",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              56.6667,
+              5.3309,
+              21.1111
+            ]
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "box": [
+              24.3566,
+              98.1409,
+              51.1949,
+              1.5303
+            ],
+            "label": "提交"
+          }
+        ]
+      }
+    },
+    "square-p3-tasks-item3": {
+      "device": "phone",
+      "title": "睡眠呼吸暂停初筛量表(Stop-Bang)",
+      "parent": "square-p3-tasks",
+      "capture": {
+        "header": "screens/square-p3-tasks-item3-h.webp",
+        "content": "screens/square-p3-tasks-item3-c.webp",
+        "footer": "screens/square-p3-tasks-item3-f.webp",
+        "contentLabel": "睡眠呼吸暂停初筛量表(Stop-Bang)",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              56.6667,
+              5.3309,
+              21.1111
+            ]
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "box": [
+              24.3566,
+              96.789,
+              51.1949,
+              2.6431
+            ],
+            "label": "提交"
+          }
+        ]
+      }
+    },
+    "square-p3-tasks-item4": {
+      "device": "phone",
+      "title": "心血管风险评估量表",
+      "parent": "square-p3-tasks",
+      "capture": {
+        "header": "screens/square-p3-tasks-item4-h.webp",
+        "content": "screens/square-p3-tasks-item4-c.webp",
+        "footer": "screens/square-p3-tasks-item4-f.webp",
+        "contentLabel": "心血管风险评估量表",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              56.6667,
+              5.3309,
+              21.1111
+            ]
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "box": [
+              24.3566,
+              98.2562,
+              51.1949,
+              1.4353
+            ],
+            "label": "提交"
+          }
+        ]
+      }
+    },
+    "square-p3-tasks-item5": {
+      "device": "phone",
+      "title": "医院焦虑抑郁量表（HAD）",
+      "parent": "square-p3-tasks",
+      "capture": {
+        "header": "screens/square-p3-tasks-item5-h.webp",
+        "content": "screens/square-p3-tasks-item5-c.webp",
+        "footer": "screens/square-p3-tasks-item5-f.webp",
+        "contentLabel": "医院焦虑抑郁量表（HAD）",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              56.6667,
+              5.3309,
+              21.1111
+            ]
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "box": [
+              24.3566,
+              98.7943,
+              51.1949,
+              0.9925
+            ],
+            "label": "提交"
+          }
+        ]
+      }
+    }
+  },
+  "phoneHome": "home",
+  "phoneHomeLabel": "创新研究首页",
+  "sharedPhoneHome": "huawei-research",
+  "scenes": [
+    {
+      "id": "explore",
+      "title": "心血管健康趋势研究",
+      "hint": "点击实机界面进入详情，上下滑动浏览，右滑返回。",
+      "start": {
+        "phone": "square-p3"
+      },
+      "keys": [
+        [
+          "phone",
+          "plaza",
+          "研究广场"
+        ],
+        [
+          "phone",
+          "square-p3",
+          "心血管健康趋势研究"
+        ],
+        [
+          "phone",
+          "square-p3-menu",
+          "更多"
+        ],
+        [
+          "phone",
+          "square-p3-menu-privacy",
+          "隐私管理"
+        ],
+        [
+          "phone",
+          "square-p3-menu-privacy-consent",
+          "用户知情同意书"
+        ],
+        [
+          "phone",
+          "square-p3-menu-privacy-notice",
+          "关于心血管健康趋势研究与隐私的声明"
+        ],
+        [
+          "phone",
+          "square-p3-test",
+          "心血管风险评估量表"
+        ],
+        [
+          "phone",
+          "square-p3-test-first",
+          "心血管测评 · 题目"
+        ],
+        [
+          "phone",
+          "square-p3-article",
+          "健康知识"
+        ],
+        [
+          "phone",
+          "square-p3-tab1",
+          "睡眠呼吸暂停测评"
+        ],
+        [
+          "phone",
+          "square-p3-tab1-test",
+          "睡眠呼吸暂停初筛量表"
+        ],
+        [
+          "phone",
+          "square-p3-tab1-test-first",
+          "睡眠呼吸暂停测评 · 题目"
+        ],
+        [
+          "phone",
+          "square-p3-tab2",
+          "睡眠质量测评"
+        ],
+        [
+          "phone",
+          "square-p3-tab2-test",
+          "匹兹堡睡眠质量指数"
+        ],
+        [
+          "phone",
+          "square-p3-tab2-test-first",
+          "睡眠质量测评 · 题目"
+        ],
+        [
+          "phone",
+          "square-p3-tab3",
+          "疲劳测评"
+        ],
+        [
+          "phone",
+          "square-p3-tab3-test",
+          "疲劳量表-14"
+        ],
+        [
+          "phone",
+          "square-p3-tab3-test-first",
+          "疲劳测评 · 题目"
+        ],
+        [
+          "phone",
+          "square-p3-tab4",
+          "焦虑抑郁测评"
+        ],
+        [
+          "phone",
+          "square-p3-strip",
+          "更多测评分类"
+        ],
+        [
+          "phone",
+          "square-p3-tab4-test",
+          "医院焦虑抑郁量表"
+        ],
+        [
+          "phone",
+          "square-p3-tab4-test-first",
+          "焦虑抑郁测评 · 题目"
+        ],
+        [
+          "phone",
+          "square-p3-tasks",
+          "待完成任务"
+        ],
+        [
+          "phone",
+          "square-p3-tasks-item1",
+          "匹兹堡睡眠质量指数"
+        ],
+        [
+          "phone",
+          "square-p3-tasks-item2",
+          "疲劳量表"
+        ],
+        [
+          "phone",
+          "square-p3-tasks-item3",
+          "睡眠呼吸暂停初筛量表(Stop-Bang)"
+        ],
+        [
+          "phone",
+          "square-p3-tasks-item4",
+          "心血管风险评估量表"
+        ],
+        [
+          "phone",
+          "square-p3-tasks-item5",
+          "医院焦虑抑郁量表（HAD）"
+        ]
+      ],
+      "phonePageIndex": [
+        "plaza",
+        "square-p3",
+        "square-p3-menu",
+        "square-p3-menu-privacy",
+        "square-p3-menu-privacy-consent",
+        "square-p3-menu-privacy-notice",
+        "square-p3-test",
+        "square-p3-test-first",
+        "square-p3-article",
+        "square-p3-tab1",
+        "square-p3-tab1-test",
+        "square-p3-tab1-test-first",
+        "square-p3-tab2",
+        "square-p3-tab2-test",
+        "square-p3-tab2-test-first",
+        "square-p3-tab3",
+        "square-p3-tab3-test",
+        "square-p3-tab3-test-first",
+        "square-p3-tab4",
+        "square-p3-strip",
+        "square-p3-tab4-test",
+        "square-p3-tab4-test-first",
+        "square-p3-tasks",
+        "square-p3-tasks-item1",
+        "square-p3-tasks-item2",
+        "square-p3-tasks-item3",
+        "square-p3-tasks-item4",
+        "square-p3-tasks-item5"
+      ]
+    }
+  ],
+  "initialView": {
+    "scene": "explore",
+    "device": "phone",
+    "page": "square-p3"
+  },
+  "pendingScreens": [
+    "个人测评结果"
+  ]
+}

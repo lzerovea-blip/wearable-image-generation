@@ -1,0 +1,373 @@
+{
+  "id": "watch6-pulse-wave",
+  "name": "脉搏波心律失常分析",
+  "watchProfile": "watch6",
+  "watchScreens": {
+    "@face": "dial",
+    "@launcher": "launcher"
+  },
+  "entries": {},
+  "pages": {
+    "dial": {
+      "device": "watch",
+      "title": "实机表盘",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/dial.webp",
+        "contentLabel": "实机表盘",
+        "hotspots": []
+      }
+    },
+    "launcher": {
+      "title": "应用列表 · 微体检与情绪健康",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher.webp",
+        "contentLabel": "应用列表 · 微体检与情绪健康",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "健康洞察",
+            "box": [
+              10.866,
+              11.373,
+              78.267,
+              22.103
+            ]
+          },
+          {
+            "label": "微体检",
+            "box": [
+              2.575,
+              36.052,
+              94.85,
+              27.682
+            ]
+          },
+          {
+            "label": "情绪健康",
+            "box": [
+              10.725,
+              66.309,
+              78.549,
+              22.103
+            ]
+          },
+          {
+            "label": "华为创新研究",
+            "box": [
+              31.831,
+              90.987,
+              36.339,
+              9.013
+            ]
+          }
+        ],
+        "swipe": {
+          "up": "launcher-heart"
+        }
+      }
+    },
+    "launcher-heart": {
+      "title": "应用列表 · 研究与心率",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher-heart.webp",
+        "contentLabel": "应用列表 · 研究与心率",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "情绪健康",
+            "box": [
+              32.068,
+              0.0,
+              35.865,
+              8.798
+            ]
+          },
+          {
+            "label": "华为创新研究",
+            "box": [
+              10.866,
+              11.373,
+              78.267,
+              22.103
+            ]
+          },
+          {
+            "label": "心率",
+            "box": [
+              2.575,
+              36.052,
+              94.85,
+              27.682
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "@launcher",
+          "up": "launcher-living"
+        }
+      }
+    },
+    "launcher-living": {
+      "title": "应用列表 · 健康生活",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher-living.webp",
+        "contentLabel": "应用列表 · 健康生活",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "健康生活",
+            "box": [
+              10.725,
+              66.309,
+              78.549,
+              22.103
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "launcher-heart",
+          "up": "launcher-cycle"
+        }
+      }
+    },
+    "launcher-cycle": {
+      "title": "应用列表 · 生理周期",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher-cycle.webp",
+        "contentLabel": "应用列表 · 生理周期",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "生理周期",
+            "box": [
+              31.831,
+              90.987,
+              36.339,
+              9.013
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "launcher-living"
+        }
+      }
+    },
+    "live-151": {
+      "device": "watch",
+      "title": "脉搏波心律失常分析首页",
+      "parent": "@launcher",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-151.webp",
+        "contentLabel": "脉搏波心律失常分析首页",
+        "replay": {
+          "description": "首页显示当天统计图及「测量」入口。",
+          "actions": [
+            {
+              "label": "开始测量 · 查看检测画面",
+              "page": "live-154"
+            }
+          ],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-152"
+        },
+        "hotspots": [
+          {
+            "label": "测量",
+            "zone": "content",
+            "box": [
+              10,
+              74,
+              80,
+              17
+            ],
+            "page": "live-154"
+          }
+        ]
+      }
+    },
+    "live-152": {
+      "device": "watch",
+      "title": "今日统计",
+      "parent": "@launcher",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-152.webp",
+        "contentLabel": "今日统计",
+        "replay": {
+          "description": "查看未见心律异常、疑似早搏和疑似房颤的分类次数。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-153",
+          "down": "live-151"
+        },
+        "listBands": [
+          [
+            0,
+            35
+          ],
+          [
+            35,
+            49
+          ],
+          [
+            49,
+            63
+          ],
+          [
+            63,
+            77
+          ],
+          [
+            77,
+            100
+          ]
+        ]
+      }
+    },
+    "live-153": {
+      "device": "watch",
+      "title": "更多与关于入口",
+      "parent": "@launcher",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-153.webp",
+        "contentLabel": "更多与关于入口",
+        "replay": {
+          "description": "列表末端提供「关于」。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "down": "live-152"
+        },
+        "pendingHotspots": [
+          {
+            "label": "关于",
+            "zone": "content",
+            "box": [
+              10,
+              37,
+              80,
+              27
+            ]
+          }
+        ]
+      }
+    },
+    "live-154": {
+      "device": "watch",
+      "title": "正在检测脉搏信号",
+      "parent": "live-151",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-154.webp",
+        "contentLabel": "正在检测脉搏信号",
+        "replay": {
+          "description": "进入测量后，显示正在检测脉搏信号的画面。",
+          "actions": [],
+          "pending": [
+            "检测结果"
+          ]
+        }
+      }
+    }
+  },
+  "scenes": [
+    {
+      "id": "open",
+      "title": "从表盘进入",
+      "hint": "按表冠，在应用列表中上下滑动，点选应用。右滑返回上一页。",
+      "start": {
+        "watch": "@face"
+      },
+      "keys": [
+        [
+          "watch",
+          "@face",
+          "表盘"
+        ],
+        [
+          "watch",
+          "@launcher",
+          "应用列表"
+        ],
+        [
+          "watch",
+          "launcher-heart",
+          "应用列表 · 研究与心率"
+        ],
+        [
+          "watch",
+          "live-151",
+          "脉搏波心律失常分析"
+        ]
+      ]
+    },
+    {
+      "id": "live-group-1",
+      "title": "当天统计与测量",
+      "hint": "在表框旁选择操作。在截图上拖动可查看已经拍到的位置，右滑或点返回可退回。",
+      "start": {
+        "watch": "live-151"
+      },
+      "keys": [
+        [
+          "watch",
+          "live-151",
+          "脉搏波心律失常分析首页"
+        ],
+        [
+          "watch",
+          "live-152",
+          "今日统计"
+        ],
+        [
+          "watch",
+          "live-153",
+          "更多与关于入口"
+        ],
+        [
+          "watch",
+          "live-154",
+          "正在检测脉搏信号"
+        ]
+      ]
+    }
+  ],
+  "references": [
+    "本次腕上实机截图由 Mate 50 同步。流程控件位于表框外。"
+  ],
+  "initialView": {
+    "device": "watch",
+    "scene": "live-group-1",
+    "page": "live-151"
+  },
+  "watchReplayEntry": "live-151",
+  "pendingScreens": [
+    "检测结果"
+  ],
+  "watchScrollGroups": [
+    {
+      "mode": "paged",
+      "pages": [
+        "live-151",
+        "live-152",
+        "live-153"
+      ]
+    }
+  ]
+}

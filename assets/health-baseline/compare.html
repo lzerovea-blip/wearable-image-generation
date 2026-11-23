@@ -1,0 +1,58 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>运动健康版本比较</title>
+<style>
+:root{font-family:system-ui,"HarmonyOS Sans SC",sans-serif;color:#143b32;background:#f4f6f3}body{margin:0}main{max-width:1100px;margin:auto;padding:clamp(15px,4vw,52px)}h1{font-size:clamp(24px,4vw,38px);margin:.1em 0 .4em}p{line-height:1.65}label{display:block;font-weight:600}input{display:block;margin:.55em 0 1.2em}section{padding:18px 22px;border:1px solid #cbd9d1;background:white;border-radius:12px;margin-top:18px}details{border-top:1px solid #e4ebe5;padding:.7em 0}summary{cursor:pointer}code,pre{white-space:pre-wrap;overflow-wrap:anywhere;color:#345449}button{padding:6px 12px}.counts{font-weight:650}.change{display:grid;grid-template-columns:1fr 1fr;gap:12px}.change pre{background:#f5f7f4;padding:8px}input[type=file]{max-width:100%}
+</style></head><body><main><h1>运动健康版本比较</h1><p id="base"></p>
+<section><label>选择新版基线 JSON<input type="file" accept=".json,application/json" id="upload"></label><p id="status" role="status">请选择下一版本的 baseline.json。</p></section>
+<section id="changes" hidden><h2>变化明细</h2><p>画面变化可能来自健康数据、日期或在线内容。新版未采到的页面需要结合采集范围复核。</p><div id="rows"></div></section></main>
+<script id="frozen" type="application/json">@@BASELINE@@</script><script>
+"use strict";
+const original=JSON.parse(document.querySelector("#frozen").textContent);
+const el=id=>document.getElementById(id);
+el("base").textContent=original.device.app+" "+original.device.appVersion+" · "+original.device.model+" · "+original.scope.tabs.join("、")+" · "+Object.keys(original.pages).length+" 个页面及状态";
+function stable(v){if(Array.isArray(v))return v.map(stable);if(v && typeof v==="object")return Object.fromEntries(Object.keys(v).sort().map(k=>[k,stable(v[k])]));return v}
+const same=(a,b)=>JSON.stringify(stable(a))===JSON.stringify(stable(b));
+function compare(a,b){
+ if(b?.schema!==1||b.feature!==a.feature||!same(a.scope,b.scope))throw Error("基线格式、功能或采集范围不一致。");
+ const rows=[], ids=(x,y)=>[...new Set([...Object.keys(x),...Object.keys(y)])].sort();
+ for(const f of ids(a.navigation||{},b.navigation||{})){
+  const x=a.navigation?.[f],y=b.navigation?.[f];
+  if(!same(x,y))rows.push({page:"@navigation",kind:"导航变化",field:f,before:x??null,after:y??null});
+ }
+ for(const k of ids(a.pages,b.pages)){
+  const x=a.pages[k],y=b.pages[k],add=(kind,field,before,after)=>rows.push({page:k,kind,field,before,after});
+  if(!x||!y){add(x?"新版未采到页面":"新采到页面","title",x?.title??null,y?.title??null);continue}
+  for(const f of ["module","title","parent","controls","pending","captureBoundary","scrollEvidence"]){
+   if(!same(x[f],y[f]))add(["pending","captureBoundary","scrollEvidence"].includes(f)?"核对范围":"页面结构",f,x[f]??null,y[f]??null);
+  }
+  for(const f of ids(x.actions,y.actions)){
+   const old=x.actions[f],next=y.actions[f];if(same(old,next))continue;
+   const noBox=v=>Object.fromEntries(Object.entries(v).filter(([key])=>key!=="box"));
+   add(!old?"新增操作":!next?"未采到操作":same(noBox(old),noBox(next))?"入口位置":"操作变化",f,old??null,next??null);
+  }
+  for(const f of ids(x.images,y.images))if(x.images[f]!==y.images[f])add("画面待复核",f,x.images[f]??null,y.images[f]??null);
+ }return rows;
+}
+el("upload").addEventListener("change",async e=>{
+ el("rows").replaceChildren();el("changes").hidden=true;
+ try{
+  const b=JSON.parse(await e.target.files[0].text()),rows=compare(original,b);
+  el("status").textContent=original.device.appVersion+" → "+b.device.appVersion+"，共 "+rows.length+" 处差异。";el("changes").hidden=!rows.length;
+  for(const row of rows){
+   const d=document.createElement("details"),s=document.createElement("summary");s.textContent=row.kind+" · "+row.page+" · "+row.field;d.append(s);
+   const box=document.createElement("div");box.className="change";
+   const visual=row.kind==="画面待复核";
+   for(const [name,val,version] of [["基线",row.before,original],["新版",row.after,b]]){
+    const side=document.createElement("div"),pre=document.createElement("pre");
+    pre.textContent=name+"\n"+JSON.stringify(val,null,2);side.append(pre);
+    const preview=visual && version.pages[row.page]?.previews?.[row.field];
+    if(typeof preview==="string" && /^[A-Za-z0-9+/]+=*$/.test(preview)){
+     const img=document.createElement("img");img.src="data:image/webp;base64,"+preview;
+     img.alt=name+" "+row.page;img.loading="lazy";img.style.maxWidth="100%";side.append(img);
+    }
+    box.append(side);
+   }
+   d.append(box);el("rows").append(d);
+  }
+ }catch(error){el("status").textContent="无法比较。"+error.message}
+});
+</script></body></html>

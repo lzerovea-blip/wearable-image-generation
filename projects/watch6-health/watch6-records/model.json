@@ -1,0 +1,507 @@
+{
+  "feature": "watch6-records",
+  "devices": {
+    "watch": {
+      "model": "HUAWEI WATCH 6",
+      "productModel": "LEB-AL00",
+      "app": "锻炼记录"
+    }
+  },
+  "reviewed": false,
+  "frameEvidence": {
+    "dial": {
+      "sources": {
+        "evidence/现场表盘.jpeg": "9abc7d54cec51ac3b6fbde96faa464f154d2fc912902436581cc0b6957ca09e6"
+      },
+      "renders": {
+        "screens/dial.webp": "096b828886ee375c7779ad472917013d93f989a0a0631d52fa7d4362263746bc"
+      },
+      "observedAt": "2026-11-19T17:24:42+08:00"
+    },
+    "launcher": {
+      "sources": {
+        "evidence/healthcheck-launcher.jpeg": "d36cecf3b94fced4c746c2889c685063139286a9f4f5b35055e17c31ef6830f4",
+        "evidence/healthcheck-launcher.json": "0014dfd764307736a60e07ef5e45e6681639f5a0fded8bf8c7242637f8716692"
+      },
+      "renders": {
+        "screens/launcher.webp": "46f52b888f435192fd67277a12b815fbaa316da93a77b510fa504ad76872b1d3"
+      },
+      "observedAt": "2026-11-19T17:39:20+08:00"
+    },
+    "launcher-heart": {
+      "sources": {
+        "evidence/heart-launcher.jpeg": "58a3200bc07d597992dad1019362b9ed72ce13e2fd74b4f56ef7e85044fc313c",
+        "evidence/heart-launcher.json": "56a8f64588095956b3d8bf059e101476ad9142d5d2d9b53eff7bbf10ab9de17f"
+      },
+      "renders": {
+        "screens/launcher-heart.webp": "22ed5a4872b20d96e4cb062b107b00ffb9e8876b7b3d5808e71ee1154c46bd23"
+      },
+      "observedAt": "2026-11-19T17:46:04+08:00"
+    },
+    "launcher-living": {
+      "sources": {
+        "evidence/healthyliving-launcher.jpeg": "52f331d12cae4d51c04dbc7369307a6533f70622117bc6d0efac2172af0bc9e3",
+        "evidence/healthyliving-launcher.json": "caef8bdef40e95d2be207ecfa00f75ac59cf8d5a2d6ae37422a45be659868ac5"
+      },
+      "renders": {
+        "screens/launcher-living.webp": "49a7430a0f97f6ebff212ba1a9b251b04b7b74e8e8325ed0d3122413148c8a2a"
+      },
+      "observedAt": "2026-11-19T17:46:22+08:00"
+    },
+    "launcher-cycle": {
+      "sources": {
+        "evidence/physiologyperiod-launcher.jpeg": "dfa5ff81b62a9addc1459a7df9a73fcf14f3eaff6cc3123f579994f63e4941e9",
+        "evidence/physiologyperiod-launcher.json": "762acdbeff8f7f9f7c22f67cd1b3572824a6f5c8f59661333522c80c051b1bd0"
+      },
+      "renders": {
+        "screens/launcher-cycle.webp": "dd0918ba55900ed2f2ac3eabea05eac2f00f42fa876260baaf07848563dfd446"
+      },
+      "observedAt": "2026-11-19T17:47:05+08:00"
+    },
+    "live-013": {
+      "sources": {
+        "evidence/replay/WatchApScreenshot_20261119_205545812.png": "0bb6ec1742d8c8573bdf55cc8f6d8e18b249575bf23f4b52883466a405507201"
+      },
+      "renders": {
+        "screens/replay/live-013.webp": "4d2afb999425c6b8eb770a87b2cfa8f344867c3960b98feea6dda54b43a6cdcc"
+      },
+      "observedAt": "2026-11-19T20:55:45.812+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-014": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_205550039.png": "e236e58893c8273e45c5407fbe4d41cb17a91db20745479b268abaa813d8ae69"
+      },
+      "renders": {
+        "screens/replay/live-014.webp": "d3eddda6b547ddb4d0c96fce3611de55cde8789ce99516b82fdfc1fa7f94d180"
+      },
+      "observedAt": "2026-11-19T20:55:50.039+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-015": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_205553031.png": "2a94de00b712df9d0741b178038c6f6f385516e6ac912d199c13fbb45ff13cf9"
+      },
+      "renders": {
+        "screens/replay/live-015.webp": "383119fa623edfb64bdb2ffab9c5307b1dbab7befdc873845745d9c6974a1eef"
+      },
+      "observedAt": "2026-11-19T20:55:53.031+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-016": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_205555576.png": "9e6527a762a8d4e00177f9c8c1b55f690ceba5ebd0972709adaabd1973e439f1"
+      },
+      "renders": {
+        "screens/replay/live-016.webp": "3c10b8a4e9305db9500e6742a1bd2d44c6b69ef24281032111cbdf2c76b1f878"
+      },
+      "observedAt": "2026-11-19T20:55:55.576+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-017": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_205606871.png": "68fdcef3b4ec344e3b6e95c44a9eb9817b69ce1896a335a00b953120a8cf5a77"
+      },
+      "renders": {
+        "screens/replay/live-017.webp": "2d7fc08e7b012f0eb13e274e20be87b0f37f6c0537dc2bc344b075dcaae95ac6"
+      },
+      "observedAt": "2026-11-19T20:56:06.871+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-018": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_205608809.png": "886438a1a6a56e9b2b93746346269eb38596f112fa58dd6785324c7e004900f2"
+      },
+      "renders": {
+        "screens/replay/live-018.webp": "3d4d306cf6f957686e232d08148e682f86f4ccdf99d76c5485cbe35dc4343262"
+      },
+      "observedAt": "2026-11-19T20:56:08.809+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-019": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_205611634.png": "75b0ad6b39c8597cd297a8633a2c9beae23c4c37f341c0620781b5c1be4b01e2"
+      },
+      "renders": {
+        "screens/replay/live-019.webp": "5a2a7eb0cdc928c394aa9aa5201f8050c0717f27b38c14cc8207c60e0e97fd63"
+      },
+      "observedAt": "2026-11-19T20:56:11.634+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-020": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_205614332.png": "5a48069242ec1ddd608b5a23f8b948a18bf57c3502c3ce4787471da7c2e65480"
+      },
+      "renders": {
+        "screens/replay/live-020.webp": "ece5a2979265781e4634579cef2416f28f37a692766014af3599acecead224af"
+      },
+      "observedAt": "2026-11-19T20:56:14.332+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-021": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_205616892.png": "5627651c54682dc017df63fa21c97669f0f6e8f70ac6596e3a72f746d31d583a"
+      },
+      "renders": {
+        "screens/replay/live-021.webp": "fdf6da3da02075fe7945a8c7b31a47c84179028dd2555f8287aaa2393cd895dc"
+      },
+      "observedAt": "2026-11-19T20:56:16.892+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-022": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_205618944.png": "311fc97b0902781943eb9c264054e83be774fca664ad406df0d652dda5a89d99"
+      },
+      "renders": {
+        "screens/replay/live-022.webp": "18018d36ebcaffe86710b887fd146ba58b0853e9ddf46bb3a51b71d195be48f3"
+      },
+      "observedAt": "2026-11-19T20:56:18.944+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-023": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_205621642.png": "99a5c0d27e0631f5ef3ce2ae7adf4c55c4463baff615c5a25ec274bfed4af5b4"
+      },
+      "renders": {
+        "screens/replay/live-023.webp": "6b24b45722d2224876bc65beddfb6026a6d43adb1983dc914b1ad801fd3eb0a6"
+      },
+      "observedAt": "2026-11-19T20:56:21.642+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-024": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_205623861.png": "9348af5b6a94e652ed68fbbfe2ad50ca60679b93ea55ad7058b1951d4cbc02d5"
+      },
+      "renders": {
+        "screens/replay/live-024.webp": "16fdf1197a3b1bc60ca4891cfbd6c2f984fdca5fea7f77a77ac8b5136308cbc7"
+      },
+      "observedAt": "2026-11-19T20:56:23.861+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-025": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_205625785.png": "f88926ca8049387234777972cc71b313bfc800b3a4ce51f25ae3dea26489491b"
+      },
+      "renders": {
+        "screens/replay/live-025.webp": "84f95564840a3e4870eeefa50e56023a87a7f49f4a09e110fda57abbca778107"
+      },
+      "observedAt": "2026-11-19T20:56:25.785+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-026": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_205627936.png": "92db02bceac7196c43d11795f3040e6c5c510275ccfaa922e4078a7cc1a4c3da"
+      },
+      "renders": {
+        "screens/replay/live-026.webp": "e8da9b0be51e5c4b77d3973d98aefc61d582f0fa34b115c97ad95b92b25b97d1"
+      },
+      "observedAt": "2026-11-19T20:56:27.936+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-027": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_205637516.png": "232a253755c1a31987dd6e22b845d2aedd841b6b1cc8d521ff20abea5c1d0f62"
+      },
+      "renders": {
+        "screens/replay/live-027.webp": "b1b7b7f7ecc9138ce705c1d0766b2a7d2d062b05824bd49375477c9dce441457"
+      },
+      "observedAt": "2026-11-19T20:56:37.516+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-028": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_205651648.png": "ad3a1eb643ec761ff9f6b07dd104ce7c60822e5cbd7caa3d48f27d55b7941ad7"
+      },
+      "renders": {
+        "screens/replay/live-028.webp": "55a94d5195cfa761b782bb42d04161a86d3de81003915d8507bd604c25452e97"
+      },
+      "observedAt": "2026-11-19T20:56:51.648+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-029": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_205655708.png": "5814b0ba1fbd523b8c89a1c8974cdabcdb047c8e3a4ee774026aca8fa4ed21a2"
+      },
+      "renders": {
+        "screens/replay/live-029.webp": "51529928cc27c3c5c87fbcd622758be0a8bc75e5d767b76fdeb0fb2400c0762d"
+      },
+      "observedAt": "2026-11-19T20:56:55.708+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-030": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_205702936.png": "4d9d027957c6878bf4c1713247da614a1b69e4d217fd0882f448a8adcafea9a8"
+      },
+      "renders": {
+        "screens/replay/live-030.webp": "31a4a3e6fe08c8a086232a9e4be8caf7109aa5f8e2955f0f7a33a419af605a09"
+      },
+      "observedAt": "2026-11-19T20:57:02.936+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-031": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_205706765.png": "ba0bbecd354bc021326c54b3c0283b6822b0bcf1eb8da2e0d1afdd4f41f96c14"
+      },
+      "renders": {
+        "screens/replay/live-031.webp": "8a234cb43ea8eb18b452e9bc139640573e772405e724fb7493349b253c66e12a"
+      },
+      "observedAt": "2026-11-19T20:57:06.765+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    }
+  },
+  "steps": [
+    {
+      "scene": "open",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T17:39:20+08:00",
+      "from": "实机表盘",
+      "action": "按表冠打开应用列表",
+      "to": "腕上应用列表",
+      "files": [
+        "evidence/healthcheck-launcher.jpeg",
+        "evidence/healthcheck-launcher.json",
+        "evidence/healthyliving-launcher.jpeg",
+        "evidence/healthyliving-launcher.json",
+        "evidence/heart-launcher.jpeg",
+        "evidence/heart-launcher.json",
+        "evidence/physiologyperiod-launcher.jpeg",
+        "evidence/physiologyperiod-launcher.json",
+        "evidence/现场表盘.jpeg",
+        "screens/dial.webp",
+        "screens/launcher-cycle.webp",
+        "screens/launcher-heart.webp",
+        "screens/launcher-living.webp",
+        "screens/launcher.webp"
+      ]
+    },
+    {
+      "scene": "live-group-1",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T20:55:45.812+08:00",
+      "from": "锻炼记录",
+      "action": "在实机操作后采集并同步画面",
+      "to": "应用列表",
+      "files": [
+        "evidence/replay/WatchApScreenshot_20261119_205545812.png"
+      ]
+    },
+    {
+      "scene": "live-group-1",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T20:55:50.039+08:00",
+      "from": "锻炼记录",
+      "action": "在实机操作后采集并同步画面",
+      "to": "锻炼记录列表",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_205550039.png"
+      ]
+    },
+    {
+      "scene": "live-group-1",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T20:55:53.031+08:00",
+      "from": "锻炼记录",
+      "action": "在实机操作后采集并同步画面",
+      "to": "登山详情总览",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_205553031.png"
+      ]
+    },
+    {
+      "scene": "live-group-2",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T20:55:55.576+08:00",
+      "from": "锻炼记录",
+      "action": "在实机操作后采集并同步画面",
+      "to": "海拔曲线",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_205555576.png"
+      ]
+    },
+    {
+      "scene": "live-group-2",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T20:56:06.871+08:00",
+      "from": "锻炼记录",
+      "action": "在实机操作后采集并同步画面",
+      "to": "坡度",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_205606871.png"
+      ]
+    },
+    {
+      "scene": "live-group-2",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T20:56:08.809+08:00",
+      "from": "锻炼记录",
+      "action": "在实机操作后采集并同步画面",
+      "to": "速度曲线",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_205608809.png"
+      ]
+    },
+    {
+      "scene": "live-group-2",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T20:56:11.634+08:00",
+      "from": "锻炼记录",
+      "action": "在实机操作后采集并同步画面",
+      "to": "心率曲线",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_205611634.png"
+      ]
+    },
+    {
+      "scene": "live-group-2",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T20:56:14.332+08:00",
+      "from": "锻炼记录",
+      "action": "在实机操作后采集并同步画面",
+      "to": "心率曲线下方位置",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_205614332.png"
+      ]
+    },
+    {
+      "scene": "live-group-2",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T20:56:16.892+08:00",
+      "from": "锻炼记录",
+      "action": "在实机操作后采集并同步画面",
+      "to": "热量",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_205616892.png"
+      ]
+    },
+    {
+      "scene": "live-group-2",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T20:56:18.944+08:00",
+      "from": "锻炼记录",
+      "action": "在实机操作后采集并同步画面",
+      "to": "步伐",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_205618944.png"
+      ]
+    },
+    {
+      "scene": "live-group-2",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T20:56:21.642+08:00",
+      "from": "锻炼记录",
+      "action": "在实机操作后采集并同步画面",
+      "to": "训练压力",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_205621642.png"
+      ]
+    },
+    {
+      "scene": "live-group-2",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T20:56:23.861+08:00",
+      "from": "锻炼记录",
+      "action": "在实机操作后采集并同步画面",
+      "to": "训练负荷",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_205623861.png"
+      ]
+    },
+    {
+      "scene": "live-group-2",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T20:56:25.785+08:00",
+      "from": "锻炼记录",
+      "action": "在实机操作后采集并同步画面",
+      "to": "恢复时间",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_205625785.png"
+      ]
+    },
+    {
+      "scene": "live-group-3",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T20:56:27.936+08:00",
+      "from": "锻炼记录",
+      "action": "在实机操作后采集并同步画面",
+      "to": "分享提示",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_205627936.png"
+      ]
+    },
+    {
+      "scene": "live-group-4",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T20:56:37.516+08:00",
+      "from": "锻炼记录",
+      "action": "在实机操作后采集并同步画面",
+      "to": "正在分析数据",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_205637516.png"
+      ]
+    },
+    {
+      "scene": "live-group-4",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T20:56:51.648+08:00",
+      "from": "锻炼记录",
+      "action": "在实机操作后采集并同步画面",
+      "to": "正在总结解读",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_205651648.png"
+      ]
+    },
+    {
+      "scene": "live-group-4",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T20:56:55.708+08:00",
+      "from": "锻炼记录",
+      "action": "在实机操作后采集并同步画面",
+      "to": "总体表现",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_205655708.png"
+      ]
+    },
+    {
+      "scene": "live-group-4",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T20:57:02.936+08:00",
+      "from": "锻炼记录",
+      "action": "在实机操作后采集并同步画面",
+      "to": "展开要点分析",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_205702936.png"
+      ]
+    },
+    {
+      "scene": "live-group-4",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T20:57:06.765+08:00",
+      "from": "锻炼记录",
+      "action": "在实机操作后采集并同步画面",
+      "to": "要点分析下方",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_205706765.png"
+      ]
+    }
+  ]
+}

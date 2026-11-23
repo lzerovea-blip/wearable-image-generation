@@ -1,0 +1,1259 @@
+{
+  "feature": "research-square-p3",
+  "devices": {
+    "phone": {
+      "model": "HUAWEI Mate 50",
+      "os": "HarmonyOS 4.2.0.225",
+      "app": "华为创新研究",
+      "appVersion": "16.1.8.300"
+    }
+  },
+  "reviewed": true,
+  "steps": [
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "@home",
+      "action": "打开并查看创新研究首页",
+      "to": "创新研究首页",
+      "files": [
+        "evidence/landing-0.png",
+        "evidence/landing-1.png",
+        "evidence/landing-2.png",
+        "evidence/landing-3.png",
+        "evidence/landing-4.png",
+        "evidence/landing-5.png",
+        "evidence/landing-6.png"
+      ],
+      "observedAt": "2026-11-19T20:59:14+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "home",
+      "action": "打开并查看研究广场",
+      "to": "研究广场",
+      "files": [
+        "evidence/square.png",
+        "evidence/square-lower.png"
+      ],
+      "observedAt": "2026-11-19T20:56:18+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "plaza",
+      "action": "打开并查看中国居民睡眠健康研究",
+      "to": "中国居民睡眠健康研究",
+      "files": [
+        "evidence/square-p1.png"
+      ],
+      "observedAt": "2026-11-19T21:10:41+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "plaza",
+      "action": "打开并查看情绪与睡眠改善计划",
+      "to": "情绪与睡眠改善计划",
+      "files": [
+        "evidence/square-p2.png"
+      ],
+      "observedAt": "2026-11-19T21:18:59+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "plaza",
+      "action": "打开并查看心血管健康趋势研究",
+      "to": "心血管健康趋势研究",
+      "files": [
+        "evidence/square-p3.png",
+        "evidence/square-p3-s1.png"
+      ],
+      "observedAt": "2026-11-19T21:25:21+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "square-p3",
+      "action": "打开并查看更多",
+      "to": "更多",
+      "files": [
+        "evidence/square-p3-menu.png"
+      ],
+      "observedAt": "2026-11-19T21:26:05+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "心血管健康趋势研究",
+      "action": "Public/ic_public_more",
+      "to": "更多",
+      "files": [
+        "evidence/square-p3.png",
+        "evidence/square-p3-menu.png"
+      ],
+      "observedAt": "2026-11-19T21:26:05+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "square-p3-menu",
+      "action": "打开并查看隐私管理",
+      "to": "隐私管理",
+      "files": [
+        "evidence/square-p3-menu-privacy.png"
+      ],
+      "observedAt": "2026-11-19T21:41:53+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "更多",
+      "action": "隐私管理",
+      "to": "隐私管理",
+      "files": [
+        "evidence/square-p3-menu.png",
+        "evidence/square-p3-menu-privacy.png"
+      ],
+      "observedAt": "2026-11-19T21:41:53+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "square-p3-menu-privacy",
+      "action": "打开并查看用户知情同意书",
+      "to": "用户知情同意书",
+      "files": [
+        "evidence/square-p3-menu-privacy-consent.png",
+        "evidence/square-p3-menu-privacy-consent-v1.png",
+        "evidence/square-p3-menu-privacy-consent-v2.png",
+        "evidence/square-p3-menu-privacy-consent-v3.png"
+      ],
+      "observedAt": "2026-11-19T21:56:34+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "隐私管理",
+      "action": "用户知情同意书",
+      "to": "用户知情同意书",
+      "files": [
+        "evidence/square-p3-menu-privacy.png",
+        "evidence/square-p3-menu-privacy-consent.png"
+      ],
+      "observedAt": "2026-11-19T21:56:34+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "square-p3-menu-privacy",
+      "action": "打开并查看关于心血管健康趋势研究与隐私的声明",
+      "to": "关于心血管健康趋势研究与隐私的声明",
+      "files": [
+        "evidence/square-p3-menu-privacy-notice.png",
+        "evidence/square-p3-menu-privacy-notice-v1.png",
+        "evidence/square-p3-menu-privacy-notice-v2.png",
+        "evidence/square-p3-menu-privacy-notice-v3.png",
+        "evidence/square-p3-menu-privacy-notice-v4.png",
+        "evidence/square-p3-menu-privacy-notice-v5.png",
+        "evidence/square-p3-menu-privacy-notice-v6.png",
+        "evidence/square-p3-menu-privacy-notice-v7.png",
+        "evidence/square-p3-menu-privacy-notice-v8.png"
+      ],
+      "observedAt": "2026-11-19T21:57:21+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "隐私管理",
+      "action": "关于心血管健康趋势研究与隐私的声明",
+      "to": "关于心血管健康趋势研究与隐私的声明",
+      "files": [
+        "evidence/square-p3-menu-privacy.png",
+        "evidence/square-p3-menu-privacy-notice.png"
+      ],
+      "observedAt": "2026-11-19T21:57:21+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "square-p3",
+      "action": "打开并查看心血管风险评估量表",
+      "to": "心血管风险评估量表",
+      "files": [
+        "evidence/square-p3-test.png"
+      ],
+      "observedAt": "2026-11-19T21:26:18+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "心血管健康趋势研究",
+      "action": "立即测评",
+      "to": "心血管风险评估量表",
+      "files": [
+        "evidence/square-p3.png",
+        "evidence/square-p3-test.png"
+      ],
+      "observedAt": "2026-11-19T21:26:18+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "square-p3-test",
+      "action": "打开并查看心血管测评 · 题目",
+      "to": "心血管测评 · 题目",
+      "files": [
+        "evidence/square-p3-test-first.png",
+        "evidence/square-p3-test-first-v1.png",
+        "evidence/square-p3-test-first-v2.png",
+        "evidence/square-p3-test-first-v3.png",
+        "evidence/square-p3-test-first-v4.png",
+        "evidence/square-p3-test-first-v5.png",
+        "evidence/square-p3-test-first-v6.png",
+        "evidence/square-p3-test-first-v7.png"
+      ],
+      "observedAt": "2026-11-19T21:48:23+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "心血管风险评估量表",
+      "action": "开始测评",
+      "to": "心血管测评 · 题目",
+      "files": [
+        "evidence/square-p3-test.png",
+        "evidence/square-p3-test-first.png"
+      ],
+      "observedAt": "2026-11-19T21:48:23+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "square-p3",
+      "action": "打开并查看健康知识",
+      "to": "健康知识",
+      "files": [
+        "evidence/square-p3-article.png",
+        "evidence/square-p3-article-s1.png",
+        "evidence/square-p3-article-s2.png",
+        "evidence/square-p3-article-s3.png",
+        "evidence/square-p3-article-s4.png",
+        "evidence/square-p3-article-s5.png",
+        "evidence/square-p3-article-s6.png",
+        "evidence/square-p3-article-s7.png",
+        "evidence/square-p3-article-s8.png"
+      ],
+      "observedAt": "2026-11-19T21:26:39+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "心血管健康趋势研究",
+      "action": "了解详情",
+      "to": "健康知识",
+      "files": [
+        "evidence/square-p3-real-article.png",
+        "evidence/square-p3-article.png"
+      ],
+      "observedAt": "2026-11-19T21:26:39+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "square-p3",
+      "action": "打开并查看睡眠呼吸暂停测评",
+      "to": "睡眠呼吸暂停测评",
+      "files": [
+        "evidence/square-p3-tab1.png",
+        "evidence/square-p3-tab1-s1.png"
+      ],
+      "observedAt": "2026-11-19T21:27:29+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "心血管健康趋势研究",
+      "action": "睡眠呼吸暂停",
+      "to": "睡眠呼吸暂停测评",
+      "files": [
+        "evidence/square-p3.png",
+        "evidence/square-p3-tab1.png"
+      ],
+      "observedAt": "2026-11-19T21:27:29+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "square-p3-tab1",
+      "action": "打开并查看睡眠呼吸暂停初筛量表",
+      "to": "睡眠呼吸暂停初筛量表",
+      "files": [
+        "evidence/square-p3-tab1-test.png"
+      ],
+      "observedAt": "2026-11-19T21:27:44+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "睡眠呼吸暂停测评",
+      "action": "立即测评",
+      "to": "睡眠呼吸暂停初筛量表",
+      "files": [
+        "evidence/square-p3-tab1-s1.png",
+        "evidence/square-p3-tab1-test.png"
+      ],
+      "observedAt": "2026-11-19T21:27:44+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "square-p3-tab1-test",
+      "action": "打开并查看睡眠呼吸暂停测评 · 题目",
+      "to": "睡眠呼吸暂停测评 · 题目",
+      "files": [
+        "evidence/square-p3-tab1-test-first.png",
+        "evidence/square-p3-tab1-test-first-v1.png",
+        "evidence/square-p3-tab1-test-first-v2.png",
+        "evidence/square-p3-tab1-test-first-v3.png"
+      ],
+      "observedAt": "2026-11-19T21:49:06+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "睡眠呼吸暂停初筛量表",
+      "action": "开始测评",
+      "to": "睡眠呼吸暂停测评 · 题目",
+      "files": [
+        "evidence/square-p3-tab1-test.png",
+        "evidence/square-p3-tab1-test-first.png"
+      ],
+      "observedAt": "2026-11-19T21:49:06+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "square-p3",
+      "action": "打开并查看睡眠质量测评",
+      "to": "睡眠质量测评",
+      "files": [
+        "evidence/square-p3-tab2.png",
+        "evidence/square-p3-tab2-s1.png"
+      ],
+      "observedAt": "2026-11-19T21:28:00+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "心血管健康趋势研究",
+      "action": "睡眠质量",
+      "to": "睡眠质量测评",
+      "files": [
+        "evidence/square-p3.png",
+        "evidence/square-p3-tab2.png"
+      ],
+      "observedAt": "2026-11-19T21:28:00+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "square-p3-tab2",
+      "action": "打开并查看匹兹堡睡眠质量指数",
+      "to": "匹兹堡睡眠质量指数",
+      "files": [
+        "evidence/square-p3-tab2-test.png"
+      ],
+      "observedAt": "2026-11-19T21:28:15+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "睡眠质量测评",
+      "action": "立即测评",
+      "to": "匹兹堡睡眠质量指数",
+      "files": [
+        "evidence/square-p3-tab2-s1.png",
+        "evidence/square-p3-tab2-test.png"
+      ],
+      "observedAt": "2026-11-19T21:28:15+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "square-p3-tab2-test",
+      "action": "打开并查看睡眠质量测评 · 题目",
+      "to": "睡眠质量测评 · 题目",
+      "files": [
+        "evidence/square-p3-tab2-test-first.png",
+        "evidence/square-p3-tab2-test-first-v1.png",
+        "evidence/square-p3-tab2-test-first-v2.png",
+        "evidence/square-p3-tab2-test-first-v3.png",
+        "evidence/square-p3-tab2-test-first-v4.png",
+        "evidence/square-p3-tab2-test-first-v5.png",
+        "evidence/square-p3-tab2-test-first-v6.png",
+        "evidence/square-p3-tab2-test-first-v7.png",
+        "evidence/square-p3-tab2-test-first-v8.png",
+        "evidence/square-p3-tab2-test-first-v9.png",
+        "evidence/square-p3-tab2-test-first-v10.png",
+        "evidence/square-p3-tab2-test-first-v11.png",
+        "evidence/square-p3-tab2-test-first-v12.png",
+        "evidence/square-p3-tab2-test-first-v13.png"
+      ],
+      "observedAt": "2026-11-19T21:49:41+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "匹兹堡睡眠质量指数",
+      "action": "开始测评",
+      "to": "睡眠质量测评 · 题目",
+      "files": [
+        "evidence/square-p3-tab2-test.png",
+        "evidence/square-p3-tab2-test-first.png"
+      ],
+      "observedAt": "2026-11-19T21:49:41+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "square-p3",
+      "action": "打开并查看疲劳测评",
+      "to": "疲劳测评",
+      "files": [
+        "evidence/square-p3-tab3.png"
+      ],
+      "observedAt": "2026-11-19T21:32:44+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "心血管健康趋势研究",
+      "action": "疲劳",
+      "to": "疲劳测评",
+      "files": [
+        "evidence/square-p3.png",
+        "evidence/square-p3-tab3.png"
+      ],
+      "observedAt": "2026-11-19T21:32:44+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "square-p3-tab3",
+      "action": "打开并查看疲劳量表-14",
+      "to": "疲劳量表-14",
+      "files": [
+        "evidence/square-p3-tab3-test.png"
+      ],
+      "observedAt": "2026-11-19T21:32:48+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "疲劳测评",
+      "action": "立即测评",
+      "to": "疲劳量表-14",
+      "files": [
+        "evidence/square-p3-tab3.png",
+        "evidence/square-p3-tab3-test.png"
+      ],
+      "observedAt": "2026-11-19T21:32:48+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "square-p3-tab3-test",
+      "action": "打开并查看疲劳测评 · 题目",
+      "to": "疲劳测评 · 题目",
+      "files": [
+        "evidence/square-p3-tab3-test-first.png",
+        "evidence/square-p3-tab3-test-first-v1.png",
+        "evidence/square-p3-tab3-test-first-v2.png",
+        "evidence/square-p3-tab3-test-first-v3.png",
+        "evidence/square-p3-tab3-test-first-v4.png",
+        "evidence/square-p3-tab3-test-first-v5.png",
+        "evidence/square-p3-tab3-test-first-v6.png",
+        "evidence/square-p3-tab3-test-first-v7.png"
+      ],
+      "observedAt": "2026-11-19T21:50:36+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "疲劳量表-14",
+      "action": "开始测评",
+      "to": "疲劳测评 · 题目",
+      "files": [
+        "evidence/square-p3-tab3-test.png",
+        "evidence/square-p3-tab3-test-first.png"
+      ],
+      "observedAt": "2026-11-19T21:50:36+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "square-p3",
+      "action": "打开并查看焦虑抑郁测评",
+      "to": "焦虑抑郁测评",
+      "files": [
+        "evidence/square-p3-tab4.png"
+      ],
+      "observedAt": "2026-11-19T21:33:08+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "心血管健康趋势研究",
+      "action": "焦虑抑郁",
+      "to": "焦虑抑郁测评",
+      "files": [
+        "evidence/square-p3-strip.png",
+        "evidence/square-p3-tab4.png"
+      ],
+      "observedAt": "2026-11-19T21:33:08+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "square-p3",
+      "action": "打开并查看更多测评分类",
+      "to": "更多测评分类",
+      "files": [
+        "evidence/square-p3-strip.png"
+      ],
+      "observedAt": "2026-11-19T21:33:04+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "square-p3-tab4",
+      "action": "打开并查看医院焦虑抑郁量表",
+      "to": "医院焦虑抑郁量表",
+      "files": [
+        "evidence/square-p3-tab4-test.png"
+      ],
+      "observedAt": "2026-11-19T21:33:12+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "焦虑抑郁测评",
+      "action": "立即测评",
+      "to": "医院焦虑抑郁量表",
+      "files": [
+        "evidence/square-p3-tab4.png",
+        "evidence/square-p3-tab4-test.png"
+      ],
+      "observedAt": "2026-11-19T21:33:12+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "square-p3-tab4-test",
+      "action": "打开并查看焦虑抑郁测评 · 题目",
+      "to": "焦虑抑郁测评 · 题目",
+      "files": [
+        "evidence/square-p3-tab4-test-first.png",
+        "evidence/square-p3-tab4-test-first-v1.png",
+        "evidence/square-p3-tab4-test-first-v2.png",
+        "evidence/square-p3-tab4-test-first-v3.png",
+        "evidence/square-p3-tab4-test-first-v4.png",
+        "evidence/square-p3-tab4-test-first-v5.png",
+        "evidence/square-p3-tab4-test-first-v6.png",
+        "evidence/square-p3-tab4-test-first-v7.png",
+        "evidence/square-p3-tab4-test-first-v8.png",
+        "evidence/square-p3-tab4-test-first-v9.png",
+        "evidence/square-p3-tab4-test-first-v10.png",
+        "evidence/square-p3-tab4-test-first-v11.png"
+      ],
+      "observedAt": "2026-11-19T21:51:23+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "医院焦虑抑郁量表",
+      "action": "开始测评",
+      "to": "焦虑抑郁测评 · 题目",
+      "files": [
+        "evidence/square-p3-tab4-test.png",
+        "evidence/square-p3-tab4-test-first.png"
+      ],
+      "observedAt": "2026-11-19T21:51:23+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "square-p3",
+      "action": "打开并查看待完成任务",
+      "to": "待完成任务",
+      "files": [
+        "evidence/square-p3-tasks.png"
+      ],
+      "observedAt": "2026-11-19T21:39:32+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "心血管健康趋势研究",
+      "action": "去完成",
+      "to": "待完成任务",
+      "files": [
+        "evidence/square-p3.png",
+        "evidence/square-p3-tasks.png"
+      ],
+      "observedAt": "2026-11-19T21:39:32+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "square-p3-tasks",
+      "action": "打开并查看匹兹堡睡眠质量指数",
+      "to": "匹兹堡睡眠质量指数",
+      "files": [
+        "evidence/square-p3-tasks-item1.png",
+        "evidence/square-p3-tab2-test-first-v1.png",
+        "evidence/square-p3-tab2-test-first-v2.png",
+        "evidence/square-p3-tab2-test-first-v3.png",
+        "evidence/square-p3-tab2-test-first-v4.png",
+        "evidence/square-p3-tab2-test-first-v5.png",
+        "evidence/square-p3-tab2-test-first-v6.png",
+        "evidence/square-p3-tab2-test-first-v7.png",
+        "evidence/square-p3-tab2-test-first-v8.png",
+        "evidence/square-p3-tab2-test-first-v9.png",
+        "evidence/square-p3-tab2-test-first-v10.png",
+        "evidence/square-p3-tab2-test-first-v11.png",
+        "evidence/square-p3-tab2-test-first-v12.png",
+        "evidence/square-p3-tab2-test-first-v13.png"
+      ],
+      "observedAt": "2026-11-19T21:39:57+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "待完成任务",
+      "action": "匹兹堡睡眠质量指数",
+      "to": "匹兹堡睡眠质量指数",
+      "files": [
+        "evidence/square-p3-tasks.png",
+        "evidence/square-p3-tasks-item1.png"
+      ],
+      "observedAt": "2026-11-19T21:39:57+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "square-p3-tasks",
+      "action": "打开并查看疲劳量表",
+      "to": "疲劳量表",
+      "files": [
+        "evidence/square-p3-tasks-item2.png",
+        "evidence/square-p3-tab3-test-first-v1.png",
+        "evidence/square-p3-tab3-test-first-v2.png",
+        "evidence/square-p3-tab3-test-first-v3.png",
+        "evidence/square-p3-tab3-test-first-v4.png",
+        "evidence/square-p3-tab3-test-first-v5.png",
+        "evidence/square-p3-tab3-test-first-v6.png",
+        "evidence/square-p3-tab3-test-first-v7.png"
+      ],
+      "observedAt": "2026-11-19T21:40:20+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "待完成任务",
+      "action": "疲劳量表",
+      "to": "疲劳量表",
+      "files": [
+        "evidence/square-p3-tasks.png",
+        "evidence/square-p3-tasks-item2.png"
+      ],
+      "observedAt": "2026-11-19T21:40:20+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "square-p3-tasks",
+      "action": "打开并查看睡眠呼吸暂停初筛量表(Stop-Bang)",
+      "to": "睡眠呼吸暂停初筛量表(Stop-Bang)",
+      "files": [
+        "evidence/square-p3-tasks-item3.png",
+        "evidence/square-p3-tab1-test-first-v1.png",
+        "evidence/square-p3-tab1-test-first-v2.png",
+        "evidence/square-p3-tab1-test-first-v3.png"
+      ],
+      "observedAt": "2026-11-19T21:40:44+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "待完成任务",
+      "action": "睡眠呼吸暂停初筛量表(Stop-Bang)",
+      "to": "睡眠呼吸暂停初筛量表(Stop-Bang)",
+      "files": [
+        "evidence/square-p3-tasks.png",
+        "evidence/square-p3-tasks-item3.png"
+      ],
+      "observedAt": "2026-11-19T21:40:44+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "square-p3-tasks",
+      "action": "打开并查看心血管风险评估量表",
+      "to": "心血管风险评估量表",
+      "files": [
+        "evidence/square-p3-tasks-item4.png",
+        "evidence/square-p3-test-first-v1.png",
+        "evidence/square-p3-test-first-v2.png",
+        "evidence/square-p3-test-first-v3.png",
+        "evidence/square-p3-test-first-v4.png",
+        "evidence/square-p3-test-first-v5.png",
+        "evidence/square-p3-test-first-v6.png",
+        "evidence/square-p3-test-first-v7.png"
+      ],
+      "observedAt": "2026-11-19T21:41:07+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "待完成任务",
+      "action": "心血管风险评估量表",
+      "to": "心血管风险评估量表",
+      "files": [
+        "evidence/square-p3-tasks.png",
+        "evidence/square-p3-tasks-item4.png"
+      ],
+      "observedAt": "2026-11-19T21:41:07+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "square-p3-tasks",
+      "action": "打开并查看医院焦虑抑郁量表（HAD）",
+      "to": "医院焦虑抑郁量表（HAD）",
+      "files": [
+        "evidence/square-p3-tasks-item5.png",
+        "evidence/square-p3-tab4-test-first-v1.png",
+        "evidence/square-p3-tab4-test-first-v2.png",
+        "evidence/square-p3-tab4-test-first-v3.png",
+        "evidence/square-p3-tab4-test-first-v4.png",
+        "evidence/square-p3-tab4-test-first-v5.png",
+        "evidence/square-p3-tab4-test-first-v6.png",
+        "evidence/square-p3-tab4-test-first-v7.png",
+        "evidence/square-p3-tab4-test-first-v8.png",
+        "evidence/square-p3-tab4-test-first-v9.png",
+        "evidence/square-p3-tab4-test-first-v10.png",
+        "evidence/square-p3-tab4-test-first-v11.png"
+      ],
+      "observedAt": "2026-11-19T21:41:31+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "待完成任务",
+      "action": "医院焦虑抑郁量表（HAD）",
+      "to": "医院焦虑抑郁量表（HAD）",
+      "files": [
+        "evidence/square-p3-tasks.png",
+        "evidence/square-p3-tasks-item5.png"
+      ],
+      "observedAt": "2026-11-19T21:41:31+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "pending",
+      "device": "phone",
+      "from": "健康测评",
+      "action": "提交个人答案",
+      "to": "个人测评结果",
+      "files": []
+    }
+  ],
+  "frameEvidence": {
+    "home": {
+      "observedAt": "2026-11-19T20:59:14+08:00",
+      "sources": {
+        "evidence/landing-0.png": "c0a35b67a11ae8742fcccd953fe2134a997354b16325fa6d13cd9de4ff8c0ea9",
+        "evidence/landing-1.png": "9af550adbd8e8f49f60e930334e2612452e2281109a0f0ae8d115737ac7b1c47",
+        "evidence/landing-2.png": "d132584642beef256796f96f63a368839c8fe30ca110964e16c3e4fb39222d2c",
+        "evidence/landing-3.png": "063a5609fff594ce546dbfb9bd421a32cad7491664c3b9f35aed526cfe75e29a",
+        "evidence/landing-4.png": "0bb5cb079cd3b2c0b56d461240e2e4637525d0fd971f3d78009c6b176c27333b",
+        "evidence/landing-5.png": "93bdee7c95130105f5251fbf53b939917ebf57ceb1a135e456394c070dc22d01",
+        "evidence/landing-6.png": "10a3918d580c7c193f87f229d2c9a8112fa82bd659b9c32c87dd43d6969eeccd"
+      },
+      "renders": {
+        "screens/home-h.webp": "251fde3d5f4f568e46208589e00887695249302204b2e97fc5e53e813c4a3f91",
+        "screens/home-c.webp": "e8c832aebf4c0eaa404603391cc4b3207481f9f4f398fe6caf18e5f67ddcd60a",
+        "screens/home-f.webp": "65677a10186f4f78ecb2f1eaa61158e987dd3c9e468491b8c90a9f5412a30e0b"
+      }
+    },
+    "plaza": {
+      "observedAt": "2026-11-19T20:56:18+08:00",
+      "sources": {
+        "evidence/square.png": "602b6d0bc19a9c045795c7e8659c3198efbad2e2982997d478df3a6efed52ab5",
+        "evidence/square-lower.png": "ccfc60937c2cdf39a4656cd920cd227d385631570bbcd0e17d141c6c147ec83f"
+      },
+      "renders": {
+        "screens/plaza-h.webp": "054e74b5bd3419b754176a7bdef47c2fec1afede12e25abc7da46ea29f667aca",
+        "screens/plaza-c.webp": "74e754c0c0ad63c3d46b257f961a2bb8384e0ce2c55aa97bae97bd32163e6a00",
+        "screens/plaza-f.webp": "356f355885a0d84f6b87d5abc32c76fc91b79adb9c103acbd9355c47e02f15e1"
+      }
+    },
+    "preview-square-p1": {
+      "observedAt": "2026-11-19T21:10:41+08:00",
+      "sources": {
+        "evidence/square-p1.png": "929545948477c982c7c4fa265b709548da3f42c6ca1b32b691bbd41175195659"
+      },
+      "renders": {
+        "screens/preview-square-p1-c.webp": "59a8bfa5afe4d25c6263cbc5e102441f262de51d6b0987e42bf932d781c52358"
+      }
+    },
+    "preview-square-p2": {
+      "observedAt": "2026-11-19T21:18:59+08:00",
+      "sources": {
+        "evidence/square-p2.png": "087db6a5ed50043920017676628325dac0010844375b49c735780ed0f93875e8"
+      },
+      "renders": {
+        "screens/preview-square-p2-c.webp": "683f071597053e19e049f836fdfb40186816d01c51df760b25ddf05652cb8054"
+      }
+    },
+    "square-p3": {
+      "observedAt": "2026-11-19T21:25:21+08:00",
+      "sources": {
+        "evidence/square-p3.png": "e618df72fd363ca1d904f7dbed53d03c157d25bab3cbc2e4500c9ad7d933568a",
+        "evidence/square-p3-s1.png": "44d2472a97e7ee73b48146bd2d9032c90ae347403b4ea037d55c02791ce89ae7"
+      },
+      "renders": {
+        "screens/square-p3-h.webp": "2a8c9d86750a5d21bdc55b901c13d9b62066ace2b87476f12fa89c3fcc37b2e9",
+        "screens/square-p3-c.webp": "a570e8110db90971bdfc726a4fe2038afec14e19ab05c0049496a69fb42d4238",
+        "screens/square-p3-f.webp": "6429aa45a0d279db1a5fdb8f48de2f7aeb0680119cad3af0ff140f6d4a6b5433"
+      }
+    },
+    "square-p3-menu": {
+      "observedAt": "2026-11-19T21:26:05+08:00",
+      "sources": {
+        "evidence/square-p3-menu.png": "35f1f1f706b2edf8bec129fb16fc3b04d3145e25e3fc42c31cdf663639aa3c6c"
+      },
+      "renders": {
+        "screens/square-p3-menu-c.webp": "676dd3f5e11445070e63a904e26aa8b0001a5c1ea3cebb8ac9aa713b8a9d1300"
+      }
+    },
+    "square-p3-menu-privacy": {
+      "observedAt": "2026-11-19T21:41:53+08:00",
+      "sources": {
+        "evidence/square-p3-menu-privacy.png": "32388d03c4e7f2feef7a6eb8102e7289945fdb7394e49589eaacb8013e407e3c"
+      },
+      "renders": {
+        "screens/square-p3-menu-privacy-c.webp": "906745d23145c3f4b4f0e3c27572a8fd33b38d2ddd94eac41a8acb5bc7b50928"
+      }
+    },
+    "square-p3-menu-privacy-consent": {
+      "observedAt": "2026-11-19T21:56:34+08:00",
+      "sources": {
+        "evidence/square-p3-menu-privacy-consent.png": "3bcf17cc92e1736226c1e6853c0c6d157d9a54a273a96ea22be23d8a9af6b927",
+        "evidence/square-p3-menu-privacy-consent-v1.png": "31f3ce5265072ef47f30943a1592db8f4b954a6f49f3fd9644f63ba9b85da0ce",
+        "evidence/square-p3-menu-privacy-consent-v2.png": "bdf48cc569d290ff1d60cc8acdec025bbda1bf274e1b90f027b72079c487eac2",
+        "evidence/square-p3-menu-privacy-consent-v3.png": "52ab3867708f3865afeda4ca671173607b2e0720863295180ece2eeefe09abd8"
+      },
+      "renders": {
+        "screens/square-p3-menu-privacy-consent-h.webp": "9de0c069afb7b7b381805e1ec17ccaaf9bd50ac1b16348a530eca1c4cdad735f",
+        "screens/square-p3-menu-privacy-consent-c.webp": "b9b13f53fb37b6ec1113907896335c17f0e0f0738075148cfe1db4ebb78e9445",
+        "screens/square-p3-menu-privacy-consent-f.webp": "c85e9d82d9e1ce5cf7752b144f99654b10dfb0c505dad0ecfea952b5929bd838"
+      }
+    },
+    "square-p3-menu-privacy-notice": {
+      "observedAt": "2026-11-19T21:57:21+08:00",
+      "sources": {
+        "evidence/square-p3-menu-privacy-notice.png": "88fb49ee229c53283faf82f2b02341f035ef6715f73754f2102395a9863e56a2",
+        "evidence/square-p3-menu-privacy-notice-v1.png": "dfb3e215f931590f66cff7420f1ede27214bc80b4a841d94849a78da94bb3ea2",
+        "evidence/square-p3-menu-privacy-notice-v2.png": "4cef71594753e137f10c88c4ad87a5be49304956d60b61c4ca6291fca7157211",
+        "evidence/square-p3-menu-privacy-notice-v3.png": "6f1927a620dcc58ac62d6d955f746b0ab897109e8e118c03c88f889c7199729f",
+        "evidence/square-p3-menu-privacy-notice-v4.png": "c16a8786529e058020bf33297a554dc25c096d94f2e1fa484fcf30e6599552ca",
+        "evidence/square-p3-menu-privacy-notice-v5.png": "46a04c96253938b2cc181de251b27532983aa94e83d677ae60ccaa8171cf2b46",
+        "evidence/square-p3-menu-privacy-notice-v6.png": "01cd5325ee79c5c50840c39e0ea65828cfdd741647a8e12de0167c2e650ff68c",
+        "evidence/square-p3-menu-privacy-notice-v7.png": "931ce98ed5e0d1a03b08d0db933956e2cc56a5d39dcc1c6fe681d19881836df9",
+        "evidence/square-p3-menu-privacy-notice-v8.png": "faf3b4f5343d11332874ea264e1e02520359375c8d484a7ce75b573aa364f6db"
+      },
+      "renders": {
+        "screens/square-p3-menu-privacy-notice-h.webp": "95d3161efef671724e48be9e001b059778e3f95c6fccfd2b82c552a757d5b40b",
+        "screens/square-p3-menu-privacy-notice-c.webp": "a2651c754ec4ec98ffd3955330a5998d809550aa842a14d22c61a2d7b7ec60b4",
+        "screens/square-p3-menu-privacy-notice-f.webp": "a27f5cbdd1e30ad0911f771f87888aebc436e746fd8af5d7b2ee5f1cc9f00fd8"
+      }
+    },
+    "square-p3-test": {
+      "observedAt": "2026-11-19T21:26:18+08:00",
+      "sources": {
+        "evidence/square-p3-test.png": "9c19b9007a111a9ff7c7ebe7f08c1add830e398707ba831691a6aa3f5f63f829"
+      },
+      "renders": {
+        "screens/square-p3-test-c.webp": "54efc96dcafa84ca01aee44de390627e6d948ca771ce59492c89f3e784463b5a"
+      }
+    },
+    "square-p3-test-first": {
+      "observedAt": "2026-11-19T21:48:23+08:00",
+      "sources": {
+        "evidence/square-p3-test-first.png": "0862a636c11833b6b0072d2b3c83b7293f9a9298cf4124760133ebd803371dbf",
+        "evidence/square-p3-test-first-v1.png": "f5c2bb13d33d496f05ebc03d0911e787058cb695f42673d436621dc537e9a6ea",
+        "evidence/square-p3-test-first-v2.png": "1363145e3917a82e9876f94f4920f0f1bad0526e6b3c9d55de3d2a5467adbed0",
+        "evidence/square-p3-test-first-v3.png": "bb7115cc2b3b9b01dac739035d43fce9d984797db222fb093f8cc2abcd6b203a",
+        "evidence/square-p3-test-first-v4.png": "2fe9ea1eb8b45253c9fdc4b4934be92528bbb7288fd341eca44c4589dc8a3259",
+        "evidence/square-p3-test-first-v5.png": "a903a61d5de63c8ec800007bb10e06eb41b6d998ded5a0ab9a8a3e08d28dd303",
+        "evidence/square-p3-test-first-v6.png": "2fcdb8cd914fab0fe3c5b33ec4263ff38dde619a0ed6d7feeb4e38f15ea05d6c",
+        "evidence/square-p3-test-first-v7.png": "feb532ba41eabe4382b1ec718a1b27771a541b552f0476eab209fd0dff3702d4"
+      },
+      "renders": {
+        "screens/square-p3-test-first-h.webp": "ca7264807e41200741c4cd26f2c45fba00fd0889c4b07ad5fc7c8f8f1bf800ce",
+        "screens/square-p3-test-first-c.webp": "e16cb20557b55b2bd236d8039f7cb7cd6fe38f9c0f6888c0124e0ca164060c6e",
+        "screens/square-p3-test-first-f.webp": "c92fd8f5e7119ce35ab74f9124b3ddabebf5899e48ca3f0bb2fbdf82433f7ce5"
+      }
+    },
+    "square-p3-article": {
+      "observedAt": "2026-11-19T21:26:39+08:00",
+      "sources": {
+        "evidence/square-p3-article.png": "0012893d4560e55393f0fddf2117c93d415980de6b0ccab76293ded9cfdc5e54",
+        "evidence/square-p3-article-s1.png": "f3b0645b0b5bad9957f8625e1b6436533ab81d5e951410fa5fafeed6693d2032",
+        "evidence/square-p3-article-s2.png": "2e8764cf0a178782e6ba94c85ae8220cbc38e42280b38a4292ece246de178cb4",
+        "evidence/square-p3-article-s3.png": "ec20f4870ae81d63b7b6a2aea292b0126ed6664cffba25d1df9ea1014178924a",
+        "evidence/square-p3-article-s4.png": "1fc540f426deda6f79ca92ec8da87638b40efa953228589d13b15da482421f44",
+        "evidence/square-p3-article-s5.png": "ad520e62580db32c209a5401e6a0d90c26c25dcbd4de55f0b84944fcae68ef64",
+        "evidence/square-p3-article-s6.png": "665807ff88165439006993a0a6a52861f4cebcac234ac44af3f98fff57828bbc",
+        "evidence/square-p3-article-s7.png": "e852a921d8ff5b5b590e4964071277a51745d5e5a7c4d88201ea6645e161fdc9",
+        "evidence/square-p3-article-s8.png": "922b0d86c301f8e836248f20f15520acc867d262259dcde56b793bc0da6f3785"
+      },
+      "renders": {
+        "screens/square-p3-article-h.webp": "e9036a2d48ff497325d6a787315039ee991532089d4579fd18eec7d442899b05",
+        "screens/square-p3-article-c.webp": "594c9fea4cf47d63e4d7120b1447dc6cd9735b0a2595e7744e3fa39b920c3dbe",
+        "screens/square-p3-article-f.webp": "f2154bcdd66e201dfb6963902eb4ead8a9e482dd54e7969885c5e03978596cea"
+      }
+    },
+    "square-p3-tab1": {
+      "observedAt": "2026-11-19T21:27:29+08:00",
+      "sources": {
+        "evidence/square-p3-tab1.png": "fd937df4b18f160cbd613dc713ce271c31b79be06b5415fbffa14dcd35ec044e",
+        "evidence/square-p3-tab1-s1.png": "1da264d4f2c7ff5fcad18c05d6cc385deaaef25e263150ae0681a35bfebe3360"
+      },
+      "renders": {
+        "screens/square-p3-tab1-h.webp": "e0806f0ed4c91c2d463a19dea65e0e6ca16f5efa6c09a908606f0fb69c57dbc4",
+        "screens/square-p3-tab1-c.webp": "aecb4eb3fdbeda9125e698edd131f8470b6bb4feaff94f1cee5a513930c622af",
+        "screens/square-p3-tab1-f.webp": "6429aa45a0d279db1a5fdb8f48de2f7aeb0680119cad3af0ff140f6d4a6b5433"
+      }
+    },
+    "square-p3-tab1-test": {
+      "observedAt": "2026-11-19T21:27:44+08:00",
+      "sources": {
+        "evidence/square-p3-tab1-test.png": "eda26937bf5ef60e07c6b1586dff5ec1a0555b8cd7aeb6c91d87646e65900ea9"
+      },
+      "renders": {
+        "screens/square-p3-tab1-test-c.webp": "1e276e16de51789ec75b8df8277e52346f9cfa9d227250c16c180fda4773f9f9"
+      }
+    },
+    "square-p3-tab1-test-first": {
+      "observedAt": "2026-11-19T21:49:06+08:00",
+      "sources": {
+        "evidence/square-p3-tab1-test-first.png": "a7b84021e5ecb4acdf266b616330e851d79009decfffb6c3afcbef3eb5d6c1ff",
+        "evidence/square-p3-tab1-test-first-v1.png": "9d56cff0631aebfecd584e4ce3ba153b9ef88f2a3b891c516773865a8803fb01",
+        "evidence/square-p3-tab1-test-first-v2.png": "6e6e70a22c412622f918b491f685bcc2ea73a17b37087412f0b4e07b4210a8ef",
+        "evidence/square-p3-tab1-test-first-v3.png": "339e9af59438219bc71b7b13297a2fc7d9b6c0da0d2f1eff4976b3b408c1a97f"
+      },
+      "renders": {
+        "screens/square-p3-tab1-test-first-h.webp": "ae910f04e8da29eac075def8efef3617ab3a7425979b89011d3264af0aa82ed5",
+        "screens/square-p3-tab1-test-first-c.webp": "f415cf8ec6df4d3db24cdbebe63b965f881ea541a4b9f1b0edec17e303306e20",
+        "screens/square-p3-tab1-test-first-f.webp": "6376d9e2ae15b5cb85305f4cf639caa6c86745eb78b2b57b50a5c03baeb449c8"
+      }
+    },
+    "square-p3-tab2": {
+      "observedAt": "2026-11-19T21:28:00+08:00",
+      "sources": {
+        "evidence/square-p3-tab2.png": "cb44bdca202fd149ef2fae9f15b8bcdb801d33a1e84bc92e35731945f5733635",
+        "evidence/square-p3-tab2-s1.png": "c5ef7826742858a123dfc86f9a90dedb40575c5fc63b495eefba533e519ced29"
+      },
+      "renders": {
+        "screens/square-p3-tab2-h.webp": "86823f8630cbc10b5ec71ca3d0337c440571e5b75a8f9f8b02f699a309768080",
+        "screens/square-p3-tab2-c.webp": "898e804902faed02b5d6dfa633d354b0e612042aee65b14a6d7fe904226991b5",
+        "screens/square-p3-tab2-f.webp": "6429aa45a0d279db1a5fdb8f48de2f7aeb0680119cad3af0ff140f6d4a6b5433"
+      }
+    },
+    "square-p3-tab2-test": {
+      "observedAt": "2026-11-19T21:28:15+08:00",
+      "sources": {
+        "evidence/square-p3-tab2-test.png": "7d69edb5630bce7b15ca539895d3fb7574ff46cd6f21d80e50cf3fa2b8b03e4a"
+      },
+      "renders": {
+        "screens/square-p3-tab2-test-c.webp": "30dac1bf80d883aa8243b38bae0f83c3d3cae32c1546182278a8a5f31aa1834d"
+      }
+    },
+    "square-p3-tab2-test-first": {
+      "observedAt": "2026-11-19T21:49:41+08:00",
+      "sources": {
+        "evidence/square-p3-tab2-test-first.png": "172d6e95d7bdeec836103f17fff2e0b91648c2b8472ea5f960aaca8c4b2b3fc6",
+        "evidence/square-p3-tab2-test-first-v1.png": "1b9673aa78cc35eba23dfbd82c9a705f6d90448855d1ac4b488a8d152ca1d798",
+        "evidence/square-p3-tab2-test-first-v2.png": "8397727bd7a01cbc6a02321cb25b9ce2123d7f59c04f3502b25f24c190320d7e",
+        "evidence/square-p3-tab2-test-first-v3.png": "d53d4b8a47d6796b11acda28f604f68243289cb64011e32f550f60563b5e6039",
+        "evidence/square-p3-tab2-test-first-v4.png": "8a1093dba158dc67f9ecc6c888f12c2b4b80d693b5b3cf01463d04aff7ddf990",
+        "evidence/square-p3-tab2-test-first-v5.png": "4519cbc1f524b1c09e9e8ed334652ec0e7594ae40761eee42c574a9507bedb71",
+        "evidence/square-p3-tab2-test-first-v6.png": "1c228aa5a1140700241c90659dd5212bffa759c90e806872d23d9c66dbba577c",
+        "evidence/square-p3-tab2-test-first-v7.png": "2f875cb99408f2a0c18dbc894cd5e566221fef2d29910f9b7d8d390f4ad132d8",
+        "evidence/square-p3-tab2-test-first-v8.png": "716f359a91da9ad43679b7b2a572043bd420c5ef29f9e5c1faf009b06bbff18c",
+        "evidence/square-p3-tab2-test-first-v9.png": "1fba8971c855ad3d96c501c6948a3310a9077632184110a6b61af8975ab962db",
+        "evidence/square-p3-tab2-test-first-v10.png": "cb51d6689599aab1ed76acf1cb3e59b9577aa1209f1737561066c67e903098cb",
+        "evidence/square-p3-tab2-test-first-v11.png": "df659b1cb17e0dba9b4926db84e61846c585fdfb9efe91dc5b3bb5d35a4f11bc",
+        "evidence/square-p3-tab2-test-first-v12.png": "f2dfdc93075789aaceb6de6d1358b558105f13458a1f0168b7acb175630c780d",
+        "evidence/square-p3-tab2-test-first-v13.png": "576e1a22c34ad50cc989ba877c540c2ce2da7ad16bb8eb5f8e5bb2c232506ba8"
+      },
+      "renders": {
+        "screens/square-p3-tab2-test-first-h.webp": "c16fbe088dcb36674cfcd30b5e6f3cee2a70f943dab350811cd58e551b2d428a",
+        "screens/square-p3-tab2-test-first-c.webp": "93c7cc547f679f01167d391f1587b4188efb43f05881828b8d6345c89bfe3a1c",
+        "screens/square-p3-tab2-test-first-f.webp": "9a40f4407745bac566f49705166d03ff7ceb2d5a34e0c0079dd18263cc6047df"
+      }
+    },
+    "square-p3-tab3": {
+      "observedAt": "2026-11-19T21:32:44+08:00",
+      "sources": {
+        "evidence/square-p3-tab3.png": "3a30e73c0402fe1360190044f45de04a4f8545ee3aa2609853c63226f2f5d5e3"
+      },
+      "renders": {
+        "screens/square-p3-tab3-c.webp": "1cb2e192f9e9d569e6cc72a2c32ca1eb99320a9691cc22b8ceb25f4e2756579c"
+      }
+    },
+    "square-p3-tab3-test": {
+      "observedAt": "2026-11-19T21:32:48+08:00",
+      "sources": {
+        "evidence/square-p3-tab3-test.png": "f24f0d44c656260510a841604889b137f2b19347be7cdf0d3f07a2e94e27b85b"
+      },
+      "renders": {
+        "screens/square-p3-tab3-test-c.webp": "5085eb2b5f9751de9c4388a2d393f01edf23979e63333b2d06d58b4b3d21c03d"
+      }
+    },
+    "square-p3-tab3-test-first": {
+      "observedAt": "2026-11-19T21:50:36+08:00",
+      "sources": {
+        "evidence/square-p3-tab3-test-first.png": "9a70e92319ec7b52f680a267ec9bd0f6c53028b59263a2c8252c81f2503ed9cb",
+        "evidence/square-p3-tab3-test-first-v1.png": "b897492e5fb08d8f2ad67978c8f3dad26542cf39cb58f671383b516a0678621c",
+        "evidence/square-p3-tab3-test-first-v2.png": "6032c3734118a89afdff3e3cc74084625ffcf1a8d377817fd8efef434f083d2e",
+        "evidence/square-p3-tab3-test-first-v3.png": "7980146c0920a647ac7de2819b804d15dad69a9e0c88d8f03ca81003eb1f7f5b",
+        "evidence/square-p3-tab3-test-first-v4.png": "29db77ad06f3c4f2ea4de1c8d721d23ffdaa4a392f3036239b80443289f010f1",
+        "evidence/square-p3-tab3-test-first-v5.png": "938acc02250e390a60d570ce226bd25cf9d6dccc82bbd73bd0dcb29c00ab9911",
+        "evidence/square-p3-tab3-test-first-v6.png": "8b9491fcf848171042f71006a49cb2296e76110fd04e390fa2aa5808e53e1f12",
+        "evidence/square-p3-tab3-test-first-v7.png": "e090ff4d20eeff12d86ed876073dad47a666ef9dddce5ea61052189ff97aa307"
+      },
+      "renders": {
+        "screens/square-p3-tab3-test-first-h.webp": "359c66f9e5747b4ffa0b26c1601dc965ed6566a3fea94ac4f9319a043a5ca3d9",
+        "screens/square-p3-tab3-test-first-c.webp": "73fc6999a782327cd4862a9060082a39eb47a4d07cabf366c211f159c9aad10a",
+        "screens/square-p3-tab3-test-first-f.webp": "1f51ec3e80a78d28d90658bc9a1bec7e7f8ccc1780f3db1d29c6282478477ca3"
+      }
+    },
+    "square-p3-tab4": {
+      "observedAt": "2026-11-19T21:33:08+08:00",
+      "sources": {
+        "evidence/square-p3-tab4.png": "375c4e43d215e09659328e41eb7a992f0551a0ac530b5f263f71dea953ba751f"
+      },
+      "renders": {
+        "screens/square-p3-tab4-c.webp": "12af46791dbd9b864baa66a803f5950f74e3f1d73a042a42224f755c6ac8daf3"
+      }
+    },
+    "square-p3-strip": {
+      "observedAt": "2026-11-19T21:33:04+08:00",
+      "sources": {
+        "evidence/square-p3-strip.png": "43c209b2933e359ed340eb6cb9a0f5c5d98c3a6d7c73153bf95bb5be52d7561a"
+      },
+      "renders": {
+        "screens/square-p3-strip-c.webp": "0ed2b5c1c7d31a6d4c4aa9cc3428cc3debe2d97f8be642812d38408e1352af59"
+      }
+    },
+    "square-p3-tab4-test": {
+      "observedAt": "2026-11-19T21:33:12+08:00",
+      "sources": {
+        "evidence/square-p3-tab4-test.png": "6272d308a95d2046b1a507d5c79433c10b468a60c61a6e366e4e0080a0326e00"
+      },
+      "renders": {
+        "screens/square-p3-tab4-test-c.webp": "6b022827310e514277d8b8a105fe87424a880e7bcecd67cc41c7baa9fdcf3504"
+      }
+    },
+    "square-p3-tab4-test-first": {
+      "observedAt": "2026-11-19T21:51:23+08:00",
+      "sources": {
+        "evidence/square-p3-tab4-test-first.png": "3abeb0bb46152c18ce138475bb8d27b1b70bb0885580592e4cbb8c0d78570118",
+        "evidence/square-p3-tab4-test-first-v1.png": "acae40bf7b70a3e6ab5e3a317c10bbc72c22ecb9a52f3fa6a544215d9d4ee6a3",
+        "evidence/square-p3-tab4-test-first-v2.png": "55e5593bcf85dfe5ddaa39801e71ea3aa5345e0bd7ee63e9e1211032baeb6395",
+        "evidence/square-p3-tab4-test-first-v3.png": "7351772d541a9b12412157aa49d830a1970b647a7677e136a61bf2baf417044a",
+        "evidence/square-p3-tab4-test-first-v4.png": "12444f234aa45b267cb34dcbd7e2f09eeb97256be556e194b3404b12fb69ea03",
+        "evidence/square-p3-tab4-test-first-v5.png": "24d8db5f72014e76b362bcb9116d334103da5f5ed742abd4e7048dcafb595234",
+        "evidence/square-p3-tab4-test-first-v6.png": "db3a1e8be96b974255a917c2c34ef9ee9677a21e821bf4fc73ec9ef2b2d7084e",
+        "evidence/square-p3-tab4-test-first-v7.png": "63cef399d9c68aad65a7eb3a26fcbc9112dbc220aed22cbaca4aa41a6b1a05bf",
+        "evidence/square-p3-tab4-test-first-v8.png": "68c5e78ba90d606368b74606d916b8b1e364ee1c3bac888a4b839797d85e1601",
+        "evidence/square-p3-tab4-test-first-v9.png": "6563ca5b8cb6b2f55ff66bc606246ada9b8e40eda2f4f95fad08d6dbfcf86a15",
+        "evidence/square-p3-tab4-test-first-v10.png": "10ea700f4d1a3b9a3a74d8877387a4faf41b7291ad5c8b7f05f02493a70486a5",
+        "evidence/square-p3-tab4-test-first-v11.png": "7bf2db98ad9b27d67b41c9819ab714c77adcab1d31916f58277281ef2e2d29f4"
+      },
+      "renders": {
+        "screens/square-p3-tab4-test-first-h.webp": "c62f316810bc81871a66f60cdb11ffe9dc7184d4f163d7c45e2ce6cf1c4b9d2e",
+        "screens/square-p3-tab4-test-first-c.webp": "6da1ef15dd5863fca94f4c00fcc0cf13225b1207431b5eecff0fbf86af31a1d5",
+        "screens/square-p3-tab4-test-first-f.webp": "a1221d4fe6b7224277e9ba87c64fd017f3b10d7d91c39946f5fcc32da58b4483"
+      }
+    },
+    "square-p3-tasks": {
+      "observedAt": "2026-11-19T21:39:32+08:00",
+      "sources": {
+        "evidence/square-p3-tasks.png": "ecb31a2ea84f6b5c26075688053ac2c0521be3217e597dc265042e7dcfd5bd23"
+      },
+      "renders": {
+        "screens/square-p3-tasks-c.webp": "3217ca882478110f43f27ab49b859663fb25732468895741340a9cd3c62874a1"
+      }
+    },
+    "square-p3-tasks-item1": {
+      "observedAt": "2026-11-19T21:39:57+08:00",
+      "sources": {
+        "evidence/square-p3-tasks-item1.png": "756d6261e098a7206e69036c3d656eb5dde6a28ed1641668f54c40e4a2a5499c",
+        "evidence/square-p3-tab2-test-first-v1.png": "1b9673aa78cc35eba23dfbd82c9a705f6d90448855d1ac4b488a8d152ca1d798",
+        "evidence/square-p3-tab2-test-first-v2.png": "8397727bd7a01cbc6a02321cb25b9ce2123d7f59c04f3502b25f24c190320d7e",
+        "evidence/square-p3-tab2-test-first-v3.png": "d53d4b8a47d6796b11acda28f604f68243289cb64011e32f550f60563b5e6039",
+        "evidence/square-p3-tab2-test-first-v4.png": "8a1093dba158dc67f9ecc6c888f12c2b4b80d693b5b3cf01463d04aff7ddf990",
+        "evidence/square-p3-tab2-test-first-v5.png": "4519cbc1f524b1c09e9e8ed334652ec0e7594ae40761eee42c574a9507bedb71",
+        "evidence/square-p3-tab2-test-first-v6.png": "1c228aa5a1140700241c90659dd5212bffa759c90e806872d23d9c66dbba577c",
+        "evidence/square-p3-tab2-test-first-v7.png": "2f875cb99408f2a0c18dbc894cd5e566221fef2d29910f9b7d8d390f4ad132d8",
+        "evidence/square-p3-tab2-test-first-v8.png": "716f359a91da9ad43679b7b2a572043bd420c5ef29f9e5c1faf009b06bbff18c",
+        "evidence/square-p3-tab2-test-first-v9.png": "1fba8971c855ad3d96c501c6948a3310a9077632184110a6b61af8975ab962db",
+        "evidence/square-p3-tab2-test-first-v10.png": "cb51d6689599aab1ed76acf1cb3e59b9577aa1209f1737561066c67e903098cb",
+        "evidence/square-p3-tab2-test-first-v11.png": "df659b1cb17e0dba9b4926db84e61846c585fdfb9efe91dc5b3bb5d35a4f11bc",
+        "evidence/square-p3-tab2-test-first-v12.png": "f2dfdc93075789aaceb6de6d1358b558105f13458a1f0168b7acb175630c780d",
+        "evidence/square-p3-tab2-test-first-v13.png": "576e1a22c34ad50cc989ba877c540c2ce2da7ad16bb8eb5f8e5bb2c232506ba8"
+      },
+      "renders": {
+        "screens/square-p3-tasks-item1-h.webp": "057d6e79500e4087e997d770ac153eb603dac52242c56e8ea5d3e4edfa84eccd",
+        "screens/square-p3-tasks-item1-c.webp": "93c7cc547f679f01167d391f1587b4188efb43f05881828b8d6345c89bfe3a1c",
+        "screens/square-p3-tasks-item1-f.webp": "9a40f4407745bac566f49705166d03ff7ceb2d5a34e0c0079dd18263cc6047df"
+      }
+    },
+    "square-p3-tasks-item2": {
+      "observedAt": "2026-11-19T21:40:20+08:00",
+      "sources": {
+        "evidence/square-p3-tasks-item2.png": "5925d78c8ff2f8ead3e2161d4689e57371e1874d3f2c0abb2359154b64e7dcce",
+        "evidence/square-p3-tab3-test-first-v1.png": "b897492e5fb08d8f2ad67978c8f3dad26542cf39cb58f671383b516a0678621c",
+        "evidence/square-p3-tab3-test-first-v2.png": "6032c3734118a89afdff3e3cc74084625ffcf1a8d377817fd8efef434f083d2e",
+        "evidence/square-p3-tab3-test-first-v3.png": "7980146c0920a647ac7de2819b804d15dad69a9e0c88d8f03ca81003eb1f7f5b",
+        "evidence/square-p3-tab3-test-first-v4.png": "29db77ad06f3c4f2ea4de1c8d721d23ffdaa4a392f3036239b80443289f010f1",
+        "evidence/square-p3-tab3-test-first-v5.png": "938acc02250e390a60d570ce226bd25cf9d6dccc82bbd73bd0dcb29c00ab9911",
+        "evidence/square-p3-tab3-test-first-v6.png": "8b9491fcf848171042f71006a49cb2296e76110fd04e390fa2aa5808e53e1f12",
+        "evidence/square-p3-tab3-test-first-v7.png": "e090ff4d20eeff12d86ed876073dad47a666ef9dddce5ea61052189ff97aa307"
+      },
+      "renders": {
+        "screens/square-p3-tasks-item2-h.webp": "c1e03232bede8b52a6d0b605f712e9768cc881563ec9b6c5e6171ea2d3df0eb7",
+        "screens/square-p3-tasks-item2-c.webp": "73fc6999a782327cd4862a9060082a39eb47a4d07cabf366c211f159c9aad10a",
+        "screens/square-p3-tasks-item2-f.webp": "1f51ec3e80a78d28d90658bc9a1bec7e7f8ccc1780f3db1d29c6282478477ca3"
+      }
+    },
+    "square-p3-tasks-item3": {
+      "observedAt": "2026-11-19T21:40:44+08:00",
+      "sources": {
+        "evidence/square-p3-tasks-item3.png": "cc74714c2620e4746c9481af430c16f457fb0ffeb2e35b2604a367427448134b",
+        "evidence/square-p3-tab1-test-first-v1.png": "9d56cff0631aebfecd584e4ce3ba153b9ef88f2a3b891c516773865a8803fb01",
+        "evidence/square-p3-tab1-test-first-v2.png": "6e6e70a22c412622f918b491f685bcc2ea73a17b37087412f0b4e07b4210a8ef",
+        "evidence/square-p3-tab1-test-first-v3.png": "339e9af59438219bc71b7b13297a2fc7d9b6c0da0d2f1eff4976b3b408c1a97f"
+      },
+      "renders": {
+        "screens/square-p3-tasks-item3-h.webp": "81a915fa8aab5bfd383b0ce7ef0c8dc6033b13d3bd1fe5430740887c5086e3b8",
+        "screens/square-p3-tasks-item3-c.webp": "f415cf8ec6df4d3db24cdbebe63b965f881ea541a4b9f1b0edec17e303306e20",
+        "screens/square-p3-tasks-item3-f.webp": "6376d9e2ae15b5cb85305f4cf639caa6c86745eb78b2b57b50a5c03baeb449c8"
+      }
+    },
+    "square-p3-tasks-item4": {
+      "observedAt": "2026-11-19T21:41:07+08:00",
+      "sources": {
+        "evidence/square-p3-tasks-item4.png": "e872f8ba8607d1a8da84903742f81fb13a46cd1e463088cfcc20b59ce071ae9a",
+        "evidence/square-p3-test-first-v1.png": "f5c2bb13d33d496f05ebc03d0911e787058cb695f42673d436621dc537e9a6ea",
+        "evidence/square-p3-test-first-v2.png": "1363145e3917a82e9876f94f4920f0f1bad0526e6b3c9d55de3d2a5467adbed0",
+        "evidence/square-p3-test-first-v3.png": "bb7115cc2b3b9b01dac739035d43fce9d984797db222fb093f8cc2abcd6b203a",
+        "evidence/square-p3-test-first-v4.png": "2fe9ea1eb8b45253c9fdc4b4934be92528bbb7288fd341eca44c4589dc8a3259",
+        "evidence/square-p3-test-first-v5.png": "a903a61d5de63c8ec800007bb10e06eb41b6d998ded5a0ab9a8a3e08d28dd303",
+        "evidence/square-p3-test-first-v6.png": "2fcdb8cd914fab0fe3c5b33ec4263ff38dde619a0ed6d7feeb4e38f15ea05d6c",
+        "evidence/square-p3-test-first-v7.png": "feb532ba41eabe4382b1ec718a1b27771a541b552f0476eab209fd0dff3702d4"
+      },
+      "renders": {
+        "screens/square-p3-tasks-item4-h.webp": "c68c7db7488b34b7f14ee76e802f502eec58833ef7f588528c90923f9dbed46b",
+        "screens/square-p3-tasks-item4-c.webp": "e16cb20557b55b2bd236d8039f7cb7cd6fe38f9c0f6888c0124e0ca164060c6e",
+        "screens/square-p3-tasks-item4-f.webp": "c92fd8f5e7119ce35ab74f9124b3ddabebf5899e48ca3f0bb2fbdf82433f7ce5"
+      }
+    },
+    "square-p3-tasks-item5": {
+      "observedAt": "2026-11-19T21:41:31+08:00",
+      "sources": {
+        "evidence/square-p3-tasks-item5.png": "48b4f0cb0ae3057b3a9bfdd43b7778edb1bf8053bcc6108c4a98e1a0904d2036",
+        "evidence/square-p3-tab4-test-first-v1.png": "acae40bf7b70a3e6ab5e3a317c10bbc72c22ecb9a52f3fa6a544215d9d4ee6a3",
+        "evidence/square-p3-tab4-test-first-v2.png": "55e5593bcf85dfe5ddaa39801e71ea3aa5345e0bd7ee63e9e1211032baeb6395",
+        "evidence/square-p3-tab4-test-first-v3.png": "7351772d541a9b12412157aa49d830a1970b647a7677e136a61bf2baf417044a",
+        "evidence/square-p3-tab4-test-first-v4.png": "12444f234aa45b267cb34dcbd7e2f09eeb97256be556e194b3404b12fb69ea03",
+        "evidence/square-p3-tab4-test-first-v5.png": "24d8db5f72014e76b362bcb9116d334103da5f5ed742abd4e7048dcafb595234",
+        "evidence/square-p3-tab4-test-first-v6.png": "db3a1e8be96b974255a917c2c34ef9ee9677a21e821bf4fc73ec9ef2b2d7084e",
+        "evidence/square-p3-tab4-test-first-v7.png": "63cef399d9c68aad65a7eb3a26fcbc9112dbc220aed22cbaca4aa41a6b1a05bf",
+        "evidence/square-p3-tab4-test-first-v8.png": "68c5e78ba90d606368b74606d916b8b1e364ee1c3bac888a4b839797d85e1601",
+        "evidence/square-p3-tab4-test-first-v9.png": "6563ca5b8cb6b2f55ff66bc606246ada9b8e40eda2f4f95fad08d6dbfcf86a15",
+        "evidence/square-p3-tab4-test-first-v10.png": "10ea700f4d1a3b9a3a74d8877387a4faf41b7291ad5c8b7f05f02493a70486a5",
+        "evidence/square-p3-tab4-test-first-v11.png": "7bf2db98ad9b27d67b41c9819ab714c77adcab1d31916f58277281ef2e2d29f4"
+      },
+      "renders": {
+        "screens/square-p3-tasks-item5-h.webp": "c4eec4cd4fd08a50e60423d24da20459b8e66047870ab875253108f8dd2cdee9",
+        "screens/square-p3-tasks-item5-c.webp": "6da1ef15dd5863fca94f4c00fcc0cf13225b1207431b5eecff0fbf86af31a1d5",
+        "screens/square-p3-tasks-item5-f.webp": "a1221d4fe6b7224277e9ba87c64fd017f3b10d7d91c39946f5fcc32da58b4483"
+      }
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "id": "research-altitude",
+  "name": "高原健康研究",
+  "phoneProfile": "mate50",
+  "entries": {},
+  "pages": {
+    "home": {
+      "device": "phone",
+      "title": "创新研究首页",
+      "parent": "@home",
+      "capture": {
+        "header": "screens/home-h.webp",
+        "content": "screens/home-c.webp",
+        "footer": "screens/home-f.webp",
+        "contentLabel": "创新研究首页",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "高原健康研究",
+            "page": "entry-altitude",
+            "box": [
+              2.8493,
+              27.2739,
+              94.2096,
+              5.8831
+            ]
+          }
+        ]
+      }
+    },
+    "entry-altitude": {
+      "device": "phone",
+      "title": "高原健康研究",
+      "parent": "home",
+      "capture": {
+        "content": "screens/entry-altitude-c.webp",
+        "contentLabel": "高原健康研究",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              0.0,
+              4.5,
+              14.8897,
+              6.75
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "开始体验",
+            "page": "entry-altitude-main",
+            "box": [
+              22.3346,
+              92.2917,
+              55.3309,
+              3.2083
+            ]
+          }
+        ]
+      }
+    },
+    "entry-altitude-main": {
+      "device": "phone",
+      "title": "高原反应评估",
+      "parent": "entry-altitude",
+      "capture": {
+        "header": "screens/entry-altitude-main-h.webp",
+        "content": "screens/entry-altitude-main-c.webp",
+        "footer": "screens/entry-altitude-main-f.webp",
+        "contentLabel": "高原反应评估",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              2.2059,
+              47.4074,
+              11.3971,
+              42.963
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "phoneHome": "home",
+  "phoneHomeLabel": "创新研究首页",
+  "sharedPhoneHome": "huawei-research",
+  "scenes": [
+    {
+      "id": "explore",
+      "title": "高原健康研究",
+      "hint": "点击实机界面进入详情，上下滑动浏览，右滑返回。",
+      "start": {
+        "phone": "entry-altitude"
+      },
+      "keys": [
+        [
+          "phone",
+          "entry-altitude",
+          "高原健康研究"
+        ],
+        [
+          "phone",
+          "entry-altitude-main",
+          "高原反应评估"
+        ]
+      ],
+      "phonePageIndex": [
+        "entry-altitude",
+        "entry-altitude-main"
+      ]
+    }
+  ],
+  "initialView": {
+    "scene": "explore",
+    "device": "phone",
+    "page": "entry-altitude"
+  }
+}

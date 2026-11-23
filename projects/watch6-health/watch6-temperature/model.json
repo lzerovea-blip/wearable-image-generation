@@ -1,0 +1,164 @@
+{
+  "feature": "watch6-temperature",
+  "devices": {
+    "watch": {
+      "model": "HUAWEI WATCH 6",
+      "productModel": "LEB-AL00",
+      "app": "体温研究"
+    }
+  },
+  "reviewed": false,
+  "frameEvidence": {
+    "dial": {
+      "sources": {
+        "evidence/现场表盘.jpeg": "9abc7d54cec51ac3b6fbde96faa464f154d2fc912902436581cc0b6957ca09e6"
+      },
+      "renders": {
+        "screens/dial.webp": "096b828886ee375c7779ad472917013d93f989a0a0631d52fa7d4362263746bc"
+      },
+      "observedAt": "2026-11-19T17:24:42+08:00"
+    },
+    "launcher": {
+      "sources": {
+        "evidence/healthcheck-launcher.jpeg": "d36cecf3b94fced4c746c2889c685063139286a9f4f5b35055e17c31ef6830f4",
+        "evidence/healthcheck-launcher.json": "0014dfd764307736a60e07ef5e45e6681639f5a0fded8bf8c7242637f8716692"
+      },
+      "renders": {
+        "screens/launcher.webp": "46f52b888f435192fd67277a12b815fbaa316da93a77b510fa504ad76872b1d3"
+      },
+      "observedAt": "2026-11-19T17:39:20+08:00"
+    },
+    "launcher-heart": {
+      "sources": {
+        "evidence/heart-launcher.jpeg": "58a3200bc07d597992dad1019362b9ed72ce13e2fd74b4f56ef7e85044fc313c",
+        "evidence/heart-launcher.json": "56a8f64588095956b3d8bf059e101476ad9142d5d2d9b53eff7bbf10ab9de17f"
+      },
+      "renders": {
+        "screens/launcher-heart.webp": "22ed5a4872b20d96e4cb062b107b00ffb9e8876b7b3d5808e71ee1154c46bd23"
+      },
+      "observedAt": "2026-11-19T17:46:04+08:00"
+    },
+    "launcher-living": {
+      "sources": {
+        "evidence/healthyliving-launcher.jpeg": "52f331d12cae4d51c04dbc7369307a6533f70622117bc6d0efac2172af0bc9e3",
+        "evidence/healthyliving-launcher.json": "caef8bdef40e95d2be207ecfa00f75ac59cf8d5a2d6ae37422a45be659868ac5"
+      },
+      "renders": {
+        "screens/launcher-living.webp": "49a7430a0f97f6ebff212ba1a9b251b04b7b74e8e8325ed0d3122413148c8a2a"
+      },
+      "observedAt": "2026-11-19T17:46:22+08:00"
+    },
+    "launcher-cycle": {
+      "sources": {
+        "evidence/physiologyperiod-launcher.jpeg": "dfa5ff81b62a9addc1459a7df9a73fcf14f3eaff6cc3123f579994f63e4941e9",
+        "evidence/physiologyperiod-launcher.json": "762acdbeff8f7f9f7c22f67cd1b3572824a6f5c8f59661333522c80c051b1bd0"
+      },
+      "renders": {
+        "screens/launcher-cycle.webp": "dd0918ba55900ed2f2ac3eabea05eac2f00f42fa876260baaf07848563dfd446"
+      },
+      "observedAt": "2026-11-19T17:47:05+08:00"
+    },
+    "live-168": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_215941432.png": "6f746e25cf2333492d71f537285e491f154a8c19ed01c494bf2421cacfa9859d"
+      },
+      "renders": {
+        "screens/replay/live-168.webp": "d067ce2915b2aca67c2445ce3d06f46c8cd704340fda5908582f8d1081ae4e06"
+      },
+      "observedAt": "2026-11-19T21:59:41.432+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-169": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_215943450.png": "7a92e66e396856110fb8fd1926d2f198782fb9c59d3e478d004fe9370e0a1a58"
+      },
+      "renders": {
+        "screens/replay/live-169.webp": "9a31f311a62da30558cbcb3a5b7cdbb8b345f97a2f1ae75682f19f84d73a2156"
+      },
+      "observedAt": "2026-11-19T21:59:43.450+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-170": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_215945882.png": "dbc30f88ca6d2a531af2d30df99b0291dfc8fc9375eddde8b1cad9e5905e668b"
+      },
+      "renders": {
+        "screens/replay/live-170.webp": "3b48b160e2330bd47ef7d85b2e78a6712dcc2bfa0de4f7687e0f8ba17ad348f9"
+      },
+      "observedAt": "2026-11-19T21:59:45.882+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    }
+  },
+  "steps": [
+    {
+      "scene": "open",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T17:39:20+08:00",
+      "from": "实机表盘",
+      "action": "按表冠打开应用列表",
+      "to": "腕上应用列表",
+      "files": [
+        "evidence/healthcheck-launcher.jpeg",
+        "evidence/healthcheck-launcher.json",
+        "evidence/healthyliving-launcher.jpeg",
+        "evidence/healthyliving-launcher.json",
+        "evidence/heart-launcher.jpeg",
+        "evidence/heart-launcher.json",
+        "evidence/physiologyperiod-launcher.jpeg",
+        "evidence/physiologyperiod-launcher.json",
+        "evidence/现场表盘.jpeg",
+        "screens/dial.webp",
+        "screens/launcher-cycle.webp",
+        "screens/launcher-heart.webp",
+        "screens/launcher-living.webp",
+        "screens/launcher.webp"
+      ]
+    },
+    {
+      "scene": "live-group-1",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:59:41.432+08:00",
+      "from": "体温研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "体温研究首页",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_215941432.png"
+      ]
+    },
+    {
+      "scene": "live-group-1",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:59:43.450+08:00",
+      "from": "体温研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "更多 · 退出与关于",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_215943450.png"
+      ]
+    },
+    {
+      "scene": "live-group-1",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:59:45.882+08:00",
+      "from": "体温研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "正在测量",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_215945882.png"
+      ]
+    },
+    {
+      "scene": "live-group-1",
+      "device": "watch",
+      "source": "pending",
+      "from": "体温研究",
+      "action": "补采后续实机画面",
+      "to": "体温测量结果",
+      "files": []
+    }
+  ]
+}

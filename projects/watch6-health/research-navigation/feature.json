@@ -1,0 +1,771 @@
+{
+  "id": "research-navigation",
+  "name": "创新研究主标签页",
+  "phoneProfile": "mate50",
+  "entries": {},
+  "pages": {
+    "home": {
+      "device": "phone",
+      "title": "创新研究首页",
+      "parent": "@home",
+      "capture": {
+        "header": "screens/home-h.webp",
+        "content": "screens/home-c.webp",
+        "footer": "screens/home-f.webp",
+        "contentLabel": "创新研究首页",
+        "hotspots": [
+          {
+            "zone": "footer",
+            "label": "健康",
+            "page": "health",
+            "box": [
+              20.0,
+              0.0,
+              20.0,
+              100.0
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "footer",
+            "label": "发现",
+            "page": "discover",
+            "box": [
+              40.0,
+              0.0,
+              20.0,
+              100.0
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "footer",
+            "label": "设备",
+            "page": "devices",
+            "box": [
+              60.0,
+              0.0,
+              20.0,
+              100.0
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "footer",
+            "label": "我的",
+            "page": "mine",
+            "box": [
+              80.0,
+              0.0,
+              20.0,
+              100.0
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "header",
+            "label": "编辑",
+            "page": "entry-edit",
+            "box": [
+              85.9375,
+              60.9023,
+              7.9963,
+              21.8045
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "亲友关怀",
+            "page": "entry-family",
+            "box": [
+              6.0662,
+              89.4852,
+              87.8676,
+              2.2707
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "研究广场",
+            "page": "plaza",
+            "box": [
+              2.8493,
+              92.2075,
+              94.2096,
+              5.8186
+            ]
+          }
+        ]
+      }
+    },
+    "health": {
+      "device": "phone",
+      "title": "健康",
+      "parent": "home",
+      "capture": {
+        "content": "screens/health-content.webp",
+        "contentLabel": "健康",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "首页",
+            "page": "home",
+            "box": [
+              0.0,
+              92.7917,
+              20.0368,
+              7.2083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "发现",
+            "page": "discover",
+            "box": [
+              39.9816,
+              92.7917,
+              20.0368,
+              7.2083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "设备",
+            "page": "devices",
+            "box": [
+              60.0184,
+              92.7917,
+              19.9449,
+              7.2083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "我的",
+            "page": "mine",
+            "box": [
+              79.9632,
+              92.7917,
+              20.0368,
+              7.2083
+            ],
+            "mode": "replace"
+          }
+        ]
+      }
+    },
+    "discover": {
+      "device": "phone",
+      "title": "发现 · 精选",
+      "parent": "home",
+      "capture": {
+        "content": "screens/discover-content.webp",
+        "contentLabel": "发现 · 精选",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "首页",
+            "page": "home",
+            "box": [
+              0.0,
+              92.7917,
+              20.0368,
+              7.2083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "健康",
+            "page": "health",
+            "box": [
+              20.0368,
+              92.7917,
+              19.9449,
+              7.2083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "设备",
+            "page": "devices",
+            "box": [
+              60.0184,
+              92.7917,
+              19.9449,
+              7.2083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "我的",
+            "page": "mine",
+            "box": [
+              79.9632,
+              92.7917,
+              20.0368,
+              7.2083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "心血管",
+            "page": "discover-heart",
+            "box": [
+              19.9449,
+              4.625,
+              18.75,
+              6.4167
+            ],
+            "mode": "replace"
+          }
+        ]
+      }
+    },
+    "discover-heart": {
+      "device": "phone",
+      "title": "发现 · 心血管",
+      "parent": "home",
+      "capture": {
+        "content": "screens/discover-heart-content.webp",
+        "contentLabel": "发现 · 心血管",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "首页",
+            "page": "home",
+            "box": [
+              0.0,
+              92.7917,
+              20.0368,
+              7.2083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "健康",
+            "page": "health",
+            "box": [
+              20.0368,
+              92.7917,
+              19.9449,
+              7.2083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "设备",
+            "page": "devices",
+            "box": [
+              60.0184,
+              92.7917,
+              19.9449,
+              7.2083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "我的",
+            "page": "mine",
+            "box": [
+              79.9632,
+              92.7917,
+              20.0368,
+              7.2083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "精选",
+            "page": "discover",
+            "box": [
+              3.2169,
+              4.625,
+              16.7279,
+              6.4167
+            ],
+            "mode": "replace"
+          }
+        ]
+      }
+    },
+    "devices": {
+      "device": "phone",
+      "title": "设备",
+      "parent": "home",
+      "capture": {
+        "content": "screens/devices-content.webp",
+        "contentLabel": "设备",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "首页",
+            "page": "home",
+            "box": [
+              0.0,
+              92.7917,
+              20.0368,
+              7.2083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "健康",
+            "page": "health",
+            "box": [
+              20.0368,
+              92.7917,
+              19.9449,
+              7.2083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "发现",
+            "page": "discover",
+            "box": [
+              39.9816,
+              92.7917,
+              20.0368,
+              7.2083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "我的",
+            "page": "mine",
+            "box": [
+              79.9632,
+              92.7917,
+              20.0368,
+              7.2083
+            ],
+            "mode": "replace"
+          }
+        ]
+      }
+    },
+    "mine": {
+      "device": "phone",
+      "title": "我的",
+      "parent": "home",
+      "capture": {
+        "content": "screens/mine-content.webp",
+        "contentLabel": "我的",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "首页",
+            "page": "home",
+            "box": [
+              0.0,
+              92.7917,
+              20.0368,
+              7.2083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "健康",
+            "page": "health",
+            "box": [
+              20.0368,
+              92.7917,
+              19.9449,
+              7.2083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "发现",
+            "page": "discover",
+            "box": [
+              39.9816,
+              92.7917,
+              20.0368,
+              7.2083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "设备",
+            "page": "devices",
+            "box": [
+              60.0184,
+              92.7917,
+              19.9449,
+              7.2083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "调查问卷",
+            "page": "my-surveys",
+            "box": [
+              40.0735,
+              33.2917,
+              19.9449,
+              7.1667
+            ]
+          }
+        ]
+      }
+    },
+    "my-surveys": {
+      "device": "phone",
+      "title": "调查问卷",
+      "parent": "mine",
+      "capture": {
+        "content": "screens/my-surveys-content.webp",
+        "contentLabel": "调查问卷",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              1.3787,
+              4.5,
+              14.4301,
+              6.75
+            ]
+          }
+        ]
+      }
+    },
+    "entry-edit": {
+      "device": "phone",
+      "title": "编辑",
+      "parent": "home",
+      "capture": {
+        "header": "screens/entry-edit-h.webp",
+        "content": "screens/entry-edit-c.webp",
+        "footer": "screens/entry-edit-f.webp",
+        "contentLabel": "编辑",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              2.2059,
+              47.4074,
+              11.3971,
+              42.963
+            ]
+          }
+        ]
+      }
+    },
+    "entry-family": {
+      "device": "phone",
+      "title": "亲友关怀",
+      "parent": "home",
+      "capture": {
+        "content": "screens/entry-family-c.webp",
+        "contentLabel": "亲友关怀",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              2.2059,
+              5.3333,
+              11.3971,
+              4.8333
+            ]
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "box": [
+              21.3235,
+              49.7917,
+              16.9118,
+              2.5833
+            ],
+            "label": "扫码添加"
+          },
+          {
+            "zone": "content",
+            "box": [
+              21.3235,
+              59.9167,
+              29.5956,
+              2.5833
+            ],
+            "label": "分享我的二维码"
+          }
+        ]
+      }
+    },
+    "plaza": {
+      "device": "phone",
+      "title": "研究广场",
+      "parent": "home",
+      "capture": {
+        "header": "screens/plaza-h.webp",
+        "content": "screens/plaza-c.webp",
+        "footer": "screens/plaza-f.webp",
+        "contentLabel": "研究广场",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              2.2059,
+              50.3937,
+              11.8566,
+              43.7008
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "中国居民睡眠健康研究",
+            "page": "preview-square-p1",
+            "box": [
+              2.8493,
+              0.0706,
+              94.2096,
+              32.8158
+            ],
+            "openFeature": {
+              "id": "research-square-p1",
+              "page": "square-p1"
+            }
+          },
+          {
+            "zone": "content",
+            "label": "情绪与睡眠改善计划",
+            "page": "preview-square-p2",
+            "box": [
+              2.8493,
+              34.1214,
+              94.2096,
+              32.8158
+            ],
+            "openFeature": {
+              "id": "research-square-p2",
+              "page": "square-p2"
+            }
+          },
+          {
+            "zone": "content",
+            "label": "心血管健康趋势研究",
+            "page": "preview-square-p3",
+            "box": [
+              2.8493,
+              68.2075,
+              94.2096,
+              31.7925
+            ],
+            "openFeature": {
+              "id": "research-square-p3",
+              "page": "square-p3"
+            }
+          }
+        ]
+      }
+    },
+    "preview-square-p1": {
+      "device": "phone",
+      "title": "中国居民睡眠健康研究",
+      "parent": "plaza",
+      "capture": {
+        "content": "screens/preview-square-p1-c.webp",
+        "contentLabel": "中国居民睡眠健康研究",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              2.2978,
+              5.2083,
+              11.489,
+              4.75
+            ]
+          }
+        ]
+      }
+    },
+    "preview-square-p2": {
+      "device": "phone",
+      "title": "情绪与睡眠改善计划",
+      "parent": "plaza",
+      "capture": {
+        "content": "screens/preview-square-p2-c.webp",
+        "contentLabel": "情绪与睡眠改善计划",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              2.2978,
+              5.2083,
+              11.489,
+              4.75
+            ]
+          }
+        ]
+      }
+    },
+    "preview-square-p3": {
+      "device": "phone",
+      "title": "心血管健康趋势研究",
+      "parent": "plaza",
+      "capture": {
+        "content": "screens/preview-square-p3-c.webp",
+        "contentLabel": "心血管健康趋势研究",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              2.2978,
+              5.2083,
+              11.489,
+              4.75
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "scenes": [
+    {
+      "id": "navigation",
+      "title": "切换主标签页",
+      "hint": "点击手机底部的首页、健康、发现、设备或我的。",
+      "start": {
+        "phone": "home"
+      },
+      "keys": [
+        [
+          "phone",
+          "home",
+          "首页"
+        ],
+        [
+          "phone",
+          "health",
+          "健康"
+        ],
+        [
+          "phone",
+          "discover",
+          "发现"
+        ],
+        [
+          "phone",
+          "devices",
+          "设备"
+        ],
+        [
+          "phone",
+          "mine",
+          "我的"
+        ],
+        [
+          "phone",
+          "entry-edit",
+          "编辑"
+        ],
+        [
+          "phone",
+          "entry-family",
+          "亲友关怀"
+        ],
+        [
+          "phone",
+          "plaza",
+          "研究广场"
+        ]
+      ],
+      "phonePageIndex": [
+        "home",
+        "plaza",
+        "entry-edit",
+        "entry-family",
+        "health",
+        "discover",
+        "devices",
+        "mine"
+      ]
+    },
+    {
+      "id": "channel",
+      "title": "发现 · 心血管",
+      "hint": "在发现页切换精选与心血管，查看研究相关内容。",
+      "start": {
+        "phone": "discover"
+      },
+      "keys": [
+        [
+          "phone",
+          "discover",
+          "精选"
+        ],
+        [
+          "phone",
+          "discover-heart",
+          "心血管"
+        ]
+      ]
+    },
+    {
+      "id": "questionnaires",
+      "title": "我的 · 调查问卷",
+      "hint": "在我的页打开调查问卷，查看当前待填状态。",
+      "start": {
+        "phone": "mine"
+      },
+      "keys": [
+        [
+          "phone",
+          "mine",
+          "我的"
+        ],
+        [
+          "phone",
+          "my-surveys",
+          "调查问卷"
+        ]
+      ]
+    }
+  ],
+  "references": [
+    "来自 Mate 50 上华为创新研究 16.1.8.300 的实际画面和操作。",
+    "设备卡的个人标识、我的页的账号与头像区域已在模型截图和备份中遮盖。"
+  ],
+  "phoneHome": "home",
+  "phoneHomeLabel": "创新研究首页",
+  "sharedPhoneHome": "huawei-research",
+  "initialView": {
+    "device": "phone",
+    "scene": "navigation",
+    "page": "home"
+  }
+}

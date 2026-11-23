@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light"><title>穿戴交互演示</title>
+<style>@@STYLE@@</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand"><span class="brandmark" aria-hidden="true"><i></i><i></i><i></i></span><span id="app-name">穿戴交互演示</span></div>
+  <div class="feature-picker"><label for="feature">演示功能</label><select id="feature"></select></div>
+  <button type="button" id="help" class="help">操作说明</button>
+</header>
+<div class="workspace">
+  <aside class="sidebar">
+    <details id="page-directory" hidden>
+      <summary>界面目录</summary>
+      <div class="directory-body">
+        <input type="search" aria-label="搜索所有界面" placeholder="搜索应用、功能或界面">
+        <div id="directory-results" aria-label="界面列表"></div>
+        <div id="directory-current"></div>
+        <div class="directory-actions">
+          <button type="button" id="copy-location">复制页面定位</button>
+          <button type="button" id="pin-opening">设为本机开场</button>
+          <button type="button" id="reset-opening">恢复默认开场</button>
+        </div>
+        <textarea id="location-text" aria-label="当前页面定位" readonly hidden></textarea>
+        <output id="directory-status" aria-live="polite"></output>
+      </div>
+    </details>
+    <div id="module-links"></div><h2>场景导航</h2><nav id="scenes" aria-label="演示场景"></nav><div id="scene-tools"></div></aside>
+  <main id="main" tabindex="-1"></main>
+</div>
+<dialog id="instructions"><h2>操作说明</h2><p>选择功能和场景，或在总览中点选一张界面图，直接进入该步骤。</p><p>在设备屏幕内从左向右拖动，或在触控板上用双指向右滑，可返回上一级。分页引导支持左右翻页。也可聚焦屏幕后按 Esc 返回。</p><p>上下滑动或使用滚轮浏览长页。</p><p class="watch-help">点表冠打开应用列表。表盘右滑进入负一屏，左滑进入超级卡片。</p><div id="phone-actions" class="device-controls"></div><button type="button" id="close-help">知道了</button></dialog>
+<script id="demo-data" type="application/json">@@DATA@@</script>
+<dialog id="baseline-report" aria-labelledby="report-title">
+  <header><h2 id="report-title"></h2><form method="dialog"><button type="submit">关闭</button></form></header>
+  <iframe sandbox="allow-scripts" title="手机基线报告"></iframe>
+</dialog>
+<script>@@SCRIPT@@</script>
+</body></html>

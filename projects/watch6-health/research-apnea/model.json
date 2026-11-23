@@ -1,0 +1,112 @@
+{
+  "feature": "research-apnea",
+  "devices": {
+    "phone": {
+      "model": "HUAWEI Mate 50",
+      "os": "HarmonyOS 4.2.0.225",
+      "app": "华为创新研究",
+      "appVersion": "16.1.8.300"
+    }
+  },
+  "reviewed": true,
+  "steps": [
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "@home",
+      "action": "打开并查看创新研究首页",
+      "to": "创新研究首页",
+      "files": [
+        "evidence/landing-0.png",
+        "evidence/landing-1.png",
+        "evidence/landing-2.png",
+        "evidence/landing-3.png",
+        "evidence/landing-4.png",
+        "evidence/landing-5.png",
+        "evidence/landing-6.png"
+      ],
+      "observedAt": "2026-11-19T20:59:14+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "home",
+      "action": "打开并查看睡眠呼吸暂停研究",
+      "to": "睡眠呼吸暂停研究",
+      "files": [
+        "evidence/entry-apnea-walk.png",
+        "evidence/entry-apnea-walk-v1.png",
+        "evidence/entry-apnea-walk-v2.png"
+      ],
+      "observedAt": "2026-11-19T21:36:51+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "entry-apnea",
+      "action": "打开并查看调查问卷",
+      "to": "调查问卷",
+      "files": [
+        "evidence/entry-apnea-form.png"
+      ],
+      "observedAt": "2026-11-19T21:17:52+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "睡眠呼吸暂停研究",
+      "action": "去填写",
+      "to": "调查问卷",
+      "files": [
+        "evidence/entry-apnea.png",
+        "evidence/entry-apnea-form.png"
+      ],
+      "observedAt": "2026-11-19T21:17:52+08:00"
+    }
+  ],
+  "frameEvidence": {
+    "home": {
+      "observedAt": "2026-11-19T20:59:14+08:00",
+      "sources": {
+        "evidence/landing-0.png": "c0a35b67a11ae8742fcccd953fe2134a997354b16325fa6d13cd9de4ff8c0ea9",
+        "evidence/landing-1.png": "9af550adbd8e8f49f60e930334e2612452e2281109a0f0ae8d115737ac7b1c47",
+        "evidence/landing-2.png": "d132584642beef256796f96f63a368839c8fe30ca110964e16c3e4fb39222d2c",
+        "evidence/landing-3.png": "063a5609fff594ce546dbfb9bd421a32cad7491664c3b9f35aed526cfe75e29a",
+        "evidence/landing-4.png": "0bb5cb079cd3b2c0b56d461240e2e4637525d0fd971f3d78009c6b176c27333b",
+        "evidence/landing-5.png": "93bdee7c95130105f5251fbf53b939917ebf57ceb1a135e456394c070dc22d01",
+        "evidence/landing-6.png": "10a3918d580c7c193f87f229d2c9a8112fa82bd659b9c32c87dd43d6969eeccd"
+      },
+      "renders": {
+        "screens/home-h.webp": "251fde3d5f4f568e46208589e00887695249302204b2e97fc5e53e813c4a3f91",
+        "screens/home-c.webp": "e8c832aebf4c0eaa404603391cc4b3207481f9f4f398fe6caf18e5f67ddcd60a",
+        "screens/home-f.webp": "65677a10186f4f78ecb2f1eaa61158e987dd3c9e468491b8c90a9f5412a30e0b"
+      }
+    },
+    "entry-apnea": {
+      "observedAt": "2026-11-19T21:36:51+08:00",
+      "sources": {
+        "evidence/entry-apnea-walk.png": "6507c7b1e8d0d1bc4ecb87de620a886b12e1e7009fac6d352782cdabbd8b86a8",
+        "evidence/entry-apnea-walk-v1.png": "33a99701af3bd2caa9585349a1f8c37373ea216f2ceb8f630d7ca62cb439cbff",
+        "evidence/entry-apnea-walk-v2.png": "a990d09433b5661831c469c805ff7f637aca8141665de0494a4f18f812179bb2"
+      },
+      "renders": {
+        "screens/entry-apnea-h.webp": "3a1ff427f0ee9e8ddc7f27ae1855e755e01693f794f8c6a5c46b47062f93b773",
+        "screens/entry-apnea-c.webp": "5ef3774c61f2e9fc9701bbf50762ac57c1faae42b240439a17fdb8f5c1c4e8fd",
+        "screens/entry-apnea-f.webp": "b220846ae3c231f6c2cfd7667d8fd4b0fc42fbb93f4425aedcbb5d22a421190a"
+      }
+    },
+    "entry-apnea-form": {
+      "observedAt": "2026-11-19T21:17:52+08:00",
+      "sources": {
+        "evidence/entry-apnea-form.png": "17b2c566465094b47b5eaf4325e1ffeac9f560760addeb31a90c90f921b42ee8"
+      },
+      "renders": {
+        "screens/entry-apnea-form-c.webp": "3b78813f1e435f3e06ea50fc5eb6fae94530aa729e0cec6a40cfce06fa597ad8"
+      }
+    }
+  }
+}

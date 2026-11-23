@@ -1,0 +1,865 @@
+{
+  "id": "watch6-records",
+  "name": "锻炼记录",
+  "watchProfile": "watch6",
+  "watchScreens": {
+    "@face": "dial",
+    "@launcher": "launcher"
+  },
+  "entries": {},
+  "pages": {
+    "dial": {
+      "device": "watch",
+      "title": "实机表盘",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/dial.webp",
+        "contentLabel": "实机表盘",
+        "hotspots": []
+      }
+    },
+    "launcher": {
+      "title": "应用列表 · 微体检与情绪健康",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher.webp",
+        "contentLabel": "应用列表 · 微体检与情绪健康",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "健康洞察",
+            "box": [
+              10.866,
+              11.373,
+              78.267,
+              22.103
+            ]
+          },
+          {
+            "label": "微体检",
+            "box": [
+              2.575,
+              36.052,
+              94.85,
+              27.682
+            ]
+          },
+          {
+            "label": "情绪健康",
+            "box": [
+              10.725,
+              66.309,
+              78.549,
+              22.103
+            ]
+          },
+          {
+            "label": "华为创新研究",
+            "box": [
+              31.831,
+              90.987,
+              36.339,
+              9.013
+            ]
+          }
+        ],
+        "swipe": {
+          "up": "launcher-heart"
+        }
+      }
+    },
+    "launcher-heart": {
+      "title": "应用列表 · 研究与心率",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher-heart.webp",
+        "contentLabel": "应用列表 · 研究与心率",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "情绪健康",
+            "box": [
+              32.068,
+              0.0,
+              35.865,
+              8.798
+            ]
+          },
+          {
+            "label": "华为创新研究",
+            "box": [
+              10.866,
+              11.373,
+              78.267,
+              22.103
+            ]
+          },
+          {
+            "label": "心率",
+            "box": [
+              2.575,
+              36.052,
+              94.85,
+              27.682
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "@launcher",
+          "up": "launcher-living"
+        }
+      }
+    },
+    "launcher-living": {
+      "title": "应用列表 · 健康生活",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher-living.webp",
+        "contentLabel": "应用列表 · 健康生活",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "健康生活",
+            "box": [
+              10.725,
+              66.309,
+              78.549,
+              22.103
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "launcher-heart",
+          "up": "launcher-cycle"
+        }
+      }
+    },
+    "launcher-cycle": {
+      "title": "应用列表 · 生理周期",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher-cycle.webp",
+        "contentLabel": "应用列表 · 生理周期",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "生理周期",
+            "box": [
+              31.831,
+              90.987,
+              36.339,
+              9.013
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "launcher-living"
+        }
+      }
+    },
+    "live-013": {
+      "device": "watch",
+      "title": "应用列表",
+      "parent": "@launcher",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-013.webp",
+        "contentLabel": "应用列表",
+        "replay": {
+          "description": "在应用列表点「锻炼记录」。",
+          "actions": [
+            {
+              "label": "打开锻炼记录",
+              "page": "live-014"
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    "live-014": {
+      "device": "watch",
+      "title": "锻炼记录列表",
+      "parent": "live-013",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-014.webp",
+        "contentLabel": "锻炼记录列表",
+        "replay": {
+          "description": "选择第一条登山记录。",
+          "actions": [
+            {
+              "label": "打开登山记录",
+              "page": "live-015"
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    "live-015": {
+      "device": "watch",
+      "title": "登山详情总览",
+      "parent": "live-014",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-015.webp",
+        "contentLabel": "登山详情总览",
+        "replay": {
+          "description": "这一页提供登山概览和 AI 解读入口。",
+          "actions": [
+            {
+              "label": "查看分享提示",
+              "page": "live-026"
+            },
+            {
+              "label": "打开 AI 解读",
+              "page": "live-027"
+            }
+          ],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-016"
+        },
+        "hotspots": [
+          {
+            "label": "AI 解读",
+            "zone": "content",
+            "box": [
+              23,
+              80,
+              55,
+              15
+            ],
+            "page": "live-027"
+          }
+        ]
+      }
+    },
+    "live-016": {
+      "device": "watch",
+      "title": "海拔曲线",
+      "parent": "live-014",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-016.webp",
+        "contentLabel": "海拔曲线",
+        "replay": {
+          "description": "在同一条登山记录中查看海拔变化。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-017",
+          "down": "live-015"
+        }
+      }
+    },
+    "live-017": {
+      "device": "watch",
+      "title": "坡度",
+      "parent": "live-014",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-017.webp",
+        "contentLabel": "坡度",
+        "replay": {
+          "description": "翻阅坡度、坡度范围和坡度校正配速。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-018",
+          "down": "live-016"
+        },
+        "listBands": [
+          [
+            0,
+            34
+          ],
+          [
+            34,
+            61
+          ],
+          [
+            61,
+            100
+          ]
+        ]
+      }
+    },
+    "live-018": {
+      "device": "watch",
+      "title": "速度曲线",
+      "parent": "live-014",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-018.webp",
+        "contentLabel": "速度曲线",
+        "replay": {
+          "description": "翻阅速度变化。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-019",
+          "down": "live-017"
+        }
+      }
+    },
+    "live-019": {
+      "device": "watch",
+      "title": "心率曲线",
+      "parent": "live-014",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-019.webp",
+        "contentLabel": "心率曲线",
+        "replay": {
+          "description": "查看心率变化与最高、最低及平均心率。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-021",
+          "down": "live-018"
+        }
+      }
+    },
+    "live-020": {
+      "device": "watch",
+      "title": "心率曲线下方位置",
+      "parent": "live-014",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-020.webp",
+        "contentLabel": "心率曲线下方位置",
+        "replay": {
+          "description": "同一张心率曲线在另一处滚动位置。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-021",
+          "down": "live-019"
+        }
+      },
+      "aliasOf": "live-019"
+    },
+    "live-021": {
+      "device": "watch",
+      "title": "热量",
+      "parent": "live-014",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-021.webp",
+        "contentLabel": "热量",
+        "replay": {
+          "description": "查看总消耗和活动热量。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-022",
+          "down": "live-019"
+        },
+        "listBands": [
+          [
+            0,
+            34
+          ],
+          [
+            34,
+            61
+          ],
+          [
+            61,
+            100
+          ]
+        ]
+      }
+    },
+    "live-022": {
+      "device": "watch",
+      "title": "步伐",
+      "parent": "live-014",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-022.webp",
+        "contentLabel": "步伐",
+        "replay": {
+          "description": "查看步数、平均步频及平均步幅。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-023",
+          "down": "live-021"
+        },
+        "listBands": [
+          [
+            0,
+            34
+          ],
+          [
+            34,
+            61
+          ],
+          [
+            61,
+            100
+          ]
+        ]
+      }
+    },
+    "live-023": {
+      "device": "watch",
+      "title": "训练压力",
+      "parent": "live-014",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-023.webp",
+        "contentLabel": "训练压力",
+        "replay": {
+          "description": "查看有氧和无氧压力。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-024",
+          "down": "live-022"
+        },
+        "listBands": [
+          [
+            0,
+            34
+          ],
+          [
+            34,
+            61
+          ],
+          [
+            61,
+            100
+          ]
+        ]
+      }
+    },
+    "live-024": {
+      "device": "watch",
+      "title": "训练负荷",
+      "parent": "live-014",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-024.webp",
+        "contentLabel": "训练负荷",
+        "replay": {
+          "description": "查看本次训练负荷。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-025",
+          "down": "live-023"
+        }
+      }
+    },
+    "live-025": {
+      "device": "watch",
+      "title": "恢复时间",
+      "parent": "live-014",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-025.webp",
+        "contentLabel": "恢复时间",
+        "replay": {
+          "description": "查看本次运动的恢复时间。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "down": "live-024"
+        }
+      }
+    },
+    "live-026": {
+      "device": "watch",
+      "title": "分享提示",
+      "parent": "live-015",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-026.webp",
+        "contentLabel": "分享提示",
+        "replay": {
+          "description": "分享入口会提示前往手机运动健康完成分享。",
+          "actions": [
+            {
+              "label": "关闭提示",
+              "page": "live-015"
+            }
+          ],
+          "pending": []
+        },
+        "hotspots": [
+          {
+            "label": "关闭",
+            "zone": "content",
+            "box": [
+              10,
+              80,
+              80,
+              17
+            ],
+            "page": "@back"
+          }
+        ]
+      }
+    },
+    "live-027": {
+      "device": "watch",
+      "title": "正在分析数据",
+      "parent": "live-015",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-027.webp",
+        "contentLabel": "正在分析数据",
+        "replay": {
+          "description": "从登山详情总览点「AI 解读」。",
+          "actions": [
+            {
+              "label": "查看后续分析状态",
+              "page": "live-028"
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    "live-028": {
+      "device": "watch",
+      "title": "正在总结解读",
+      "parent": "live-027",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-028.webp",
+        "contentLabel": "正在总结解读",
+        "replay": {
+          "description": "等待分析进度推进。",
+          "actions": [
+            {
+              "label": "查看解读结果",
+              "page": "live-029"
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    "live-029": {
+      "device": "watch",
+      "title": "总体表现",
+      "parent": "live-028",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-029.webp",
+        "contentLabel": "总体表现",
+        "replay": {
+          "description": "查看解读概要，底部可见「展开」。",
+          "actions": [
+            {
+              "label": "展开",
+              "page": "live-030"
+            }
+          ],
+          "pending": []
+        },
+        "hotspots": [
+          {
+            "label": "展开",
+            "zone": "content",
+            "box": [
+              10,
+              83,
+              80,
+              14
+            ],
+            "page": "live-030"
+          }
+        ]
+      }
+    },
+    "live-030": {
+      "device": "watch",
+      "title": "展开要点分析",
+      "parent": "live-029",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-030.webp",
+        "contentLabel": "展开要点分析",
+        "replay": {
+          "description": "展开后可继续阅读要点。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-031"
+        }
+      }
+    },
+    "live-031": {
+      "device": "watch",
+      "title": "要点分析下方",
+      "parent": "live-029",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-031.webp",
+        "contentLabel": "要点分析下方",
+        "replay": {
+          "description": "沿正文继续上滑。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "down": "live-030"
+        }
+      }
+    }
+  },
+  "scenes": [
+    {
+      "id": "open",
+      "title": "从表盘进入",
+      "hint": "按表冠，在应用列表中上下滑动，点选应用。右滑返回上一页。",
+      "start": {
+        "watch": "@face"
+      },
+      "keys": [
+        [
+          "watch",
+          "@face",
+          "表盘"
+        ],
+        [
+          "watch",
+          "@launcher",
+          "应用列表"
+        ],
+        [
+          "watch",
+          "launcher-heart",
+          "应用列表 · 研究与心率"
+        ],
+        [
+          "watch",
+          "live-014",
+          "锻炼记录"
+        ]
+      ]
+    },
+    {
+      "id": "live-group-1",
+      "title": "记录入口与详情",
+      "hint": "在表框旁选择操作。在截图上拖动可查看已经拍到的位置，右滑或点返回可退回。",
+      "start": {
+        "watch": "live-014"
+      },
+      "keys": [
+        [
+          "watch",
+          "live-013",
+          "应用列表"
+        ],
+        [
+          "watch",
+          "live-014",
+          "锻炼记录列表"
+        ],
+        [
+          "watch",
+          "live-015",
+          "登山详情总览"
+        ]
+      ]
+    },
+    {
+      "id": "live-group-2",
+      "title": "指标与训练效果",
+      "hint": "在表框旁选择操作。在截图上拖动可查看已经拍到的位置，右滑或点返回可退回。",
+      "start": {
+        "watch": "live-016"
+      },
+      "keys": [
+        [
+          "watch",
+          "live-016",
+          "海拔曲线"
+        ],
+        [
+          "watch",
+          "live-017",
+          "坡度"
+        ],
+        [
+          "watch",
+          "live-018",
+          "速度曲线"
+        ],
+        [
+          "watch",
+          "live-019",
+          "心率曲线"
+        ],
+        [
+          "watch",
+          "live-021",
+          "热量"
+        ],
+        [
+          "watch",
+          "live-022",
+          "步伐"
+        ],
+        [
+          "watch",
+          "live-023",
+          "训练压力"
+        ],
+        [
+          "watch",
+          "live-024",
+          "训练负荷"
+        ],
+        [
+          "watch",
+          "live-025",
+          "恢复时间"
+        ]
+      ]
+    },
+    {
+      "id": "live-group-3",
+      "title": "分享",
+      "hint": "在表框旁选择操作。在截图上拖动可查看已经拍到的位置，右滑或点返回可退回。",
+      "start": {
+        "watch": "live-026"
+      },
+      "keys": [
+        [
+          "watch",
+          "live-026",
+          "分享提示"
+        ]
+      ]
+    },
+    {
+      "id": "live-group-4",
+      "title": "AI 解读",
+      "hint": "在表框旁选择操作。在截图上拖动可查看已经拍到的位置，右滑或点返回可退回。",
+      "start": {
+        "watch": "live-027"
+      },
+      "keys": [
+        [
+          "watch",
+          "live-027",
+          "正在分析数据"
+        ],
+        [
+          "watch",
+          "live-028",
+          "正在总结解读"
+        ],
+        [
+          "watch",
+          "live-029",
+          "总体表现"
+        ],
+        [
+          "watch",
+          "live-030",
+          "展开要点分析"
+        ],
+        [
+          "watch",
+          "live-031",
+          "要点分析下方"
+        ]
+      ]
+    }
+  ],
+  "references": [
+    "本次腕上实机截图由 Mate 50 同步。流程控件位于表框外。"
+  ],
+  "initialView": {
+    "device": "watch",
+    "scene": "live-group-1",
+    "page": "live-014"
+  },
+  "watchReplayEntry": "live-014",
+  "pendingScreens": [
+    "350 米游泳记录详情",
+    "列表下方尚未采集的记录"
+  ],
+  "watchLists": [
+    {
+      "label": "锻炼记录",
+      "anchors": {
+        "live-014": 0
+      },
+      "naturalRows": true,
+      "rows": [
+        {
+          "label": "登山 · 2.45 公里",
+          "source": "live-014",
+          "location": "live-014",
+          "crop": [
+            1.66667,
+            33.0,
+            96.66667,
+            33.66667
+          ],
+          "page": "live-015",
+          "heading": "锻炼记录"
+        },
+        {
+          "label": "游泳 · 350 米",
+          "source": "live-014",
+          "location": "live-014",
+          "crop": [
+            13.33333,
+            69.0,
+            73.33333,
+            25.66667
+          ],
+          "pending": true
+        }
+      ]
+    }
+  ],
+  "watchScrollGroups": [
+    {
+      "mode": "paged",
+      "pages": [
+        "live-015",
+        "live-016",
+        "live-017",
+        "live-018",
+        "live-019",
+        "live-021",
+        "live-022",
+        "live-023",
+        "live-024",
+        "live-025"
+      ]
+    },
+    [
+      "live-030",
+      "live-031"
+    ]
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "id": "research-square-p1",
+  "name": "中国居民睡眠健康研究",
+  "phoneProfile": "mate50",
+  "entries": {},
+  "pages": {
+    "home": {
+      "device": "phone",
+      "title": "创新研究首页",
+      "parent": "@home",
+      "capture": {
+        "header": "screens/home-h.webp",
+        "content": "screens/home-c.webp",
+        "footer": "screens/home-f.webp",
+        "contentLabel": "创新研究首页",
+        "hotspots": []
+      }
+    },
+    "plaza": {
+      "device": "phone",
+      "title": "研究广场",
+      "parent": "home",
+      "capture": {
+        "header": "screens/plaza-h.webp",
+        "content": "screens/plaza-c.webp",
+        "footer": "screens/plaza-f.webp",
+        "contentLabel": "研究广场",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              2.2059,
+              50.3937,
+              11.8566,
+              43.7008
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "中国居民睡眠健康研究",
+            "page": "square-p1",
+            "box": [
+              2.8493,
+              0.0706,
+              94.2096,
+              32.8158
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "情绪与睡眠改善计划",
+            "page": "preview-square-p2",
+            "box": [
+              2.8493,
+              34.1214,
+              94.2096,
+              32.8158
+            ],
+            "openFeature": {
+              "id": "research-square-p2",
+              "page": "square-p2"
+            }
+          },
+          {
+            "zone": "content",
+            "label": "心血管健康趋势研究",
+            "page": "preview-square-p3",
+            "box": [
+              2.8493,
+              68.2075,
+              94.2096,
+              31.7925
+            ],
+            "openFeature": {
+              "id": "research-square-p3",
+              "page": "square-p3"
+            }
+          }
+        ]
+      }
+    },
+    "preview-square-p2": {
+      "device": "phone",
+      "title": "情绪与睡眠改善计划",
+      "parent": "plaza",
+      "capture": {
+        "content": "screens/preview-square-p2-c.webp",
+        "contentLabel": "情绪与睡眠改善计划",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              2.2978,
+              5.2083,
+              11.489,
+              4.75
+            ]
+          }
+        ]
+      }
+    },
+    "preview-square-p3": {
+      "device": "phone",
+      "title": "心血管健康趋势研究",
+      "parent": "plaza",
+      "capture": {
+        "content": "screens/preview-square-p3-c.webp",
+        "contentLabel": "心血管健康趋势研究",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              2.2978,
+              5.2083,
+              11.489,
+              4.75
+            ]
+          }
+        ]
+      }
+    },
+    "square-p1": {
+      "device": "phone",
+      "title": "中国居民睡眠健康研究",
+      "parent": "plaza",
+      "capture": {
+        "header": "screens/square-p1-h.webp",
+        "content": "screens/square-p1-c.webp",
+        "footer": "screens/square-p1-f.webp",
+        "contentLabel": "中国居民睡眠健康研究",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              56.6667,
+              5.3309,
+              21.1111
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "出生年月",
+            "page": "square-p1-picker1",
+            "box": [
+              5.5147,
+              1.1432,
+              91.5441,
+              0.9749
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "身高",
+            "page": "square-p1-picker2",
+            "box": [
+              5.5147,
+              3.3252,
+              91.5441,
+              0.9517
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "体重",
+            "page": "square-p1-picker3",
+            "box": [
+              5.5147,
+              5.484,
+              91.5441,
+              0.9575
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "居住城市",
+            "page": "square-p1-picker4",
+            "box": [
+              5.5147,
+              15.0766,
+              91.5441,
+              0.9749
+            ]
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "box": [
+              24.3566,
+              99.1469,
+              51.1949,
+              0.7022
+            ],
+            "label": "提交"
+          }
+        ]
+      }
+    },
+    "square-p1-picker1": {
+      "device": "phone",
+      "title": "出生年月",
+      "parent": "square-p1",
+      "capture": {
+        "content": "screens/square-p1-picker1-c.webp",
+        "contentLabel": "出生年月",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "取消",
+            "page": "@back",
+            "box": [
+              9.2831,
+              89.75,
+              40.8088,
+              5.0417
+            ]
+          }
+        ]
+      }
+    },
+    "square-p1-picker2": {
+      "device": "phone",
+      "title": "身高",
+      "parent": "square-p1",
+      "capture": {
+        "content": "screens/square-p1-picker2-c.webp",
+        "contentLabel": "身高",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "取消",
+            "page": "@back",
+            "box": [
+              9.2831,
+              90.3333,
+              40.8088,
+              5.0417
+            ]
+          }
+        ]
+      }
+    },
+    "square-p1-picker3": {
+      "device": "phone",
+      "title": "体重",
+      "parent": "square-p1",
+      "capture": {
+        "content": "screens/square-p1-picker3-c.webp",
+        "contentLabel": "体重",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "取消",
+            "page": "@back",
+            "box": [
+              9.2831,
+              90.3333,
+              40.8088,
+              5.0417
+            ]
+          }
+        ]
+      }
+    },
+    "square-p1-picker4": {
+      "device": "phone",
+      "title": "居住城市",
+      "parent": "square-p1",
+      "capture": {
+        "content": "screens/square-p1-picker4-c.webp",
+        "contentLabel": "居住城市",
+        "hotspots": []
+      }
+    }
+  },
+  "phoneHome": "home",
+  "phoneHomeLabel": "创新研究首页",
+  "sharedPhoneHome": "huawei-research",
+  "scenes": [
+    {
+      "id": "explore",
+      "title": "中国居民睡眠健康研究",
+      "hint": "点击实机界面进入详情，上下滑动浏览，右滑返回。",
+      "start": {
+        "phone": "square-p1"
+      },
+      "keys": [
+        [
+          "phone",
+          "plaza",
+          "研究广场"
+        ],
+        [
+          "phone",
+          "square-p1",
+          "中国居民睡眠健康研究"
+        ],
+        [
+          "phone",
+          "square-p1-picker1",
+          "出生年月"
+        ],
+        [
+          "phone",
+          "square-p1-picker2",
+          "身高"
+        ],
+        [
+          "phone",
+          "square-p1-picker3",
+          "体重"
+        ],
+        [
+          "phone",
+          "square-p1-picker4",
+          "居住城市"
+        ]
+      ],
+      "phonePageIndex": [
+        "plaza",
+        "square-p1",
+        "square-p1-picker1",
+        "square-p1-picker2",
+        "square-p1-picker3",
+        "square-p1-picker4"
+      ]
+    }
+  ],
+  "initialView": {
+    "scene": "explore",
+    "device": "phone",
+    "page": "square-p1"
+  },
+  "pendingScreens": [
+    "问卷提交后的研究页面"
+  ]
+}

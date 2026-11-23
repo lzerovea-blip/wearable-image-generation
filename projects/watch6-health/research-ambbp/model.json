@@ -1,0 +1,127 @@
+{
+  "feature": "research-ambbp",
+  "devices": {
+    "phone": {
+      "model": "HUAWEI Mate 50",
+      "os": "HarmonyOS 4.2.0.225",
+      "app": "华为创新研究",
+      "appVersion": "16.1.8.300"
+    }
+  },
+  "reviewed": true,
+  "steps": [
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "@home",
+      "action": "打开并查看创新研究首页",
+      "to": "创新研究首页",
+      "files": [
+        "evidence/landing-0.png",
+        "evidence/landing-1.png",
+        "evidence/landing-2.png",
+        "evidence/landing-3.png",
+        "evidence/landing-4.png",
+        "evidence/landing-5.png",
+        "evidence/landing-6.png"
+      ],
+      "observedAt": "2026-11-19T20:59:14+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "home",
+      "action": "打开并查看轻扰动态血压研究",
+      "to": "轻扰动态血压研究",
+      "files": [
+        "evidence/entry-ambbp.png"
+      ],
+      "observedAt": "2026-11-19T21:03:41+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "entry-ambbp",
+      "action": "打开并查看可用设备",
+      "to": "可用设备",
+      "files": [
+        "evidence/entry-ambbp-devices.png"
+      ],
+      "observedAt": "2026-11-19T21:14:39+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "轻扰动态血压研究",
+      "action": "查看可用设备",
+      "to": "可用设备",
+      "files": [
+        "evidence/entry-ambbp.png",
+        "evidence/entry-ambbp-devices.png"
+      ],
+      "observedAt": "2026-11-19T21:14:39+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "home",
+      "action": "打开并查看研究主页",
+      "to": "研究主页",
+      "files": [
+        "evidence/entry-ambbp-main.png"
+      ],
+      "observedAt": "2026-11-19T21:14:55+08:00"
+    }
+  ],
+  "frameEvidence": {
+    "home": {
+      "observedAt": "2026-11-19T20:59:14+08:00",
+      "sources": {
+        "evidence/landing-0.png": "c0a35b67a11ae8742fcccd953fe2134a997354b16325fa6d13cd9de4ff8c0ea9",
+        "evidence/landing-1.png": "9af550adbd8e8f49f60e930334e2612452e2281109a0f0ae8d115737ac7b1c47",
+        "evidence/landing-2.png": "d132584642beef256796f96f63a368839c8fe30ca110964e16c3e4fb39222d2c",
+        "evidence/landing-3.png": "063a5609fff594ce546dbfb9bd421a32cad7491664c3b9f35aed526cfe75e29a",
+        "evidence/landing-4.png": "0bb5cb079cd3b2c0b56d461240e2e4637525d0fd971f3d78009c6b176c27333b",
+        "evidence/landing-5.png": "93bdee7c95130105f5251fbf53b939917ebf57ceb1a135e456394c070dc22d01",
+        "evidence/landing-6.png": "10a3918d580c7c193f87f229d2c9a8112fa82bd659b9c32c87dd43d6969eeccd"
+      },
+      "renders": {
+        "screens/home-h.webp": "251fde3d5f4f568e46208589e00887695249302204b2e97fc5e53e813c4a3f91",
+        "screens/home-c.webp": "e8c832aebf4c0eaa404603391cc4b3207481f9f4f398fe6caf18e5f67ddcd60a",
+        "screens/home-f.webp": "65677a10186f4f78ecb2f1eaa61158e987dd3c9e468491b8c90a9f5412a30e0b"
+      }
+    },
+    "entry-ambbp": {
+      "observedAt": "2026-11-19T21:03:41+08:00",
+      "sources": {
+        "evidence/entry-ambbp.png": "1b98e75528ec59e7f5ede515ad4b5a7ab8b1c10d6edf36a25417a90d8218d871"
+      },
+      "renders": {
+        "screens/entry-ambbp-c.webp": "670e0daf86667c5f9639f60800a7c18859b14b2d69befec7b4d1e91fb30ed073"
+      }
+    },
+    "entry-ambbp-devices": {
+      "observedAt": "2026-11-19T21:14:39+08:00",
+      "sources": {
+        "evidence/entry-ambbp-devices.png": "672f5884d66cb4553da826495fb1a0778c8db26aca1b7789c606d641720a3e89"
+      },
+      "renders": {
+        "screens/entry-ambbp-devices-c.webp": "53945966f6bf1d6e58bfece0a5d59af5aeb9fbfa2e1190df6e1fe0ef47f2f221"
+      }
+    },
+    "entry-ambbp-main": {
+      "observedAt": "2026-11-19T21:14:55+08:00",
+      "sources": {
+        "evidence/entry-ambbp-main.png": "d7bc8a94cf03a727708255e6d8721ff17c9683bc3363e2d9ee68609efdecbf23"
+      },
+      "renders": {
+        "screens/entry-ambbp-main-c.webp": "13dfa059bf4b20769a0f0084059fe06233ce73c7b469e4dd1b6beb2bc6d31f79"
+      }
+    }
+  }
+}

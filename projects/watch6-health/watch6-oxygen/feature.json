@@ -1,0 +1,389 @@
+{
+  "id": "watch6-oxygen",
+  "name": "血氧",
+  "watchProfile": "watch6",
+  "watchScreens": {
+    "@face": "dial",
+    "@launcher": "launcher"
+  },
+  "entries": {},
+  "pages": {
+    "dial": {
+      "device": "watch",
+      "title": "实机表盘",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/dial.webp",
+        "contentLabel": "实机表盘",
+        "hotspots": []
+      }
+    },
+    "launcher": {
+      "title": "应用列表 · 微体检与情绪健康",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher.webp",
+        "contentLabel": "应用列表 · 微体检与情绪健康",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "健康洞察",
+            "box": [
+              10.866,
+              11.373,
+              78.267,
+              22.103
+            ]
+          },
+          {
+            "label": "微体检",
+            "box": [
+              2.575,
+              36.052,
+              94.85,
+              27.682
+            ]
+          },
+          {
+            "label": "情绪健康",
+            "box": [
+              10.725,
+              66.309,
+              78.549,
+              22.103
+            ]
+          },
+          {
+            "label": "华为创新研究",
+            "box": [
+              31.831,
+              90.987,
+              36.339,
+              9.013
+            ]
+          }
+        ],
+        "swipe": {
+          "up": "launcher-heart"
+        }
+      }
+    },
+    "launcher-heart": {
+      "title": "应用列表 · 研究与心率",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher-heart.webp",
+        "contentLabel": "应用列表 · 研究与心率",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "情绪健康",
+            "box": [
+              32.068,
+              0.0,
+              35.865,
+              8.798
+            ]
+          },
+          {
+            "label": "华为创新研究",
+            "box": [
+              10.866,
+              11.373,
+              78.267,
+              22.103
+            ]
+          },
+          {
+            "label": "心率",
+            "box": [
+              2.575,
+              36.052,
+              94.85,
+              27.682
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "@launcher",
+          "up": "launcher-living"
+        }
+      }
+    },
+    "launcher-living": {
+      "title": "应用列表 · 健康生活",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher-living.webp",
+        "contentLabel": "应用列表 · 健康生活",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "健康生活",
+            "box": [
+              10.725,
+              66.309,
+              78.549,
+              22.103
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "launcher-heart",
+          "up": "launcher-cycle"
+        }
+      }
+    },
+    "launcher-cycle": {
+      "title": "应用列表 · 生理周期",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher-cycle.webp",
+        "contentLabel": "应用列表 · 生理周期",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "生理周期",
+            "box": [
+              31.831,
+              90.987,
+              36.339,
+              9.013
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "launcher-living"
+        }
+      }
+    },
+    "live-155": {
+      "device": "watch",
+      "title": "血氧首页",
+      "parent": "@launcher",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-155.webp",
+        "contentLabel": "血氧首页",
+        "replay": {
+          "description": "显示最近一次血氧读数和测量提示。",
+          "actions": [
+            {
+              "label": "查看首页动画位置一",
+              "page": "live-157"
+            }
+          ],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-156"
+        }
+      }
+    },
+    "live-156": {
+      "device": "watch",
+      "title": "今日血氧",
+      "parent": "@launcher",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-156.webp",
+        "contentLabel": "今日血氧",
+        "replay": {
+          "description": "上滑查看当天的血氧记录、平均值及范围。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-159",
+          "down": "live-155"
+        }
+      }
+    },
+    "live-157": {
+      "device": "watch",
+      "title": "血氧首页 · 动画位置一",
+      "parent": "live-155",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-157.webp",
+        "contentLabel": "血氧首页 · 动画位置一",
+        "replay": {
+          "description": "回到首页取图，保留本次画面中的动画位置。",
+          "actions": [
+            {
+              "label": "查看首页动画位置二",
+              "page": "live-158"
+            }
+          ],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-156"
+        }
+      }
+    },
+    "live-158": {
+      "device": "watch",
+      "title": "血氧首页 · 动画位置二",
+      "parent": "live-157",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-158.webp",
+        "contentLabel": "血氧首页 · 动画位置二",
+        "replay": {
+          "description": "同一首页的另一张实机取图。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-156"
+        }
+      }
+    },
+    "live-159": {
+      "device": "watch",
+      "title": "更多 · 测量说明与关于",
+      "parent": "@launcher",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-159.webp",
+        "contentLabel": "更多 · 测量说明与关于",
+        "replay": {
+          "description": "列表末端提供测量说明和关于。",
+          "actions": [],
+          "pending": [
+            "打开测量说明或关于"
+          ]
+        },
+        "swipe": {
+          "down": "live-156"
+        },
+        "listBands": [
+          [
+            0,
+            50
+          ],
+          [
+            50,
+            100
+          ]
+        ],
+        "pendingHotspots": [
+          {
+            "label": "测量说明",
+            "zone": "content",
+            "box": [
+              10,
+              24,
+              80,
+              21
+            ]
+          },
+          {
+            "label": "关于",
+            "zone": "content",
+            "box": [
+              10,
+              54,
+              80,
+              23
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "scenes": [
+    {
+      "id": "open",
+      "title": "从表盘进入",
+      "hint": "按表冠，在应用列表中上下滑动，点选应用。右滑返回上一页。",
+      "start": {
+        "watch": "@face"
+      },
+      "keys": [
+        [
+          "watch",
+          "@face",
+          "表盘"
+        ],
+        [
+          "watch",
+          "@launcher",
+          "应用列表"
+        ],
+        [
+          "watch",
+          "launcher-heart",
+          "应用列表 · 研究与心率"
+        ],
+        [
+          "watch",
+          "live-155",
+          "血氧"
+        ]
+      ]
+    },
+    {
+      "id": "live-group-1",
+      "title": "最近血氧与当天趋势",
+      "hint": "在表框旁选择操作。在截图上拖动可查看已经拍到的位置，右滑或点返回可退回。",
+      "start": {
+        "watch": "live-155"
+      },
+      "keys": [
+        [
+          "watch",
+          "live-155",
+          "血氧首页"
+        ],
+        [
+          "watch",
+          "live-156",
+          "今日血氧"
+        ],
+        [
+          "watch",
+          "live-157",
+          "血氧首页 · 动画位置一"
+        ],
+        [
+          "watch",
+          "live-158",
+          "血氧首页 · 动画位置二"
+        ],
+        [
+          "watch",
+          "live-159",
+          "更多 · 测量说明与关于"
+        ]
+      ]
+    }
+  ],
+  "references": [
+    "本次腕上实机截图由 Mate 50 同步。流程控件位于表框外。"
+  ],
+  "initialView": {
+    "device": "watch",
+    "scene": "live-group-1",
+    "page": "live-155"
+  },
+  "watchReplayEntry": "live-155",
+  "pendingScreens": [
+    "打开测量说明或关于"
+  ],
+  "watchScrollGroups": [
+    {
+      "mode": "paged",
+      "pages": [
+        "live-155",
+        "live-156",
+        "live-159"
+      ]
+    }
+  ]
+}

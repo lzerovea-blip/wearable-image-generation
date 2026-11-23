@@ -1,0 +1,546 @@
+{
+  "id": "watch6-altitude-care",
+  "name": "高原关爱",
+  "watchProfile": "watch6",
+  "watchScreens": {
+    "@face": "dial",
+    "@launcher": "launcher"
+  },
+  "entries": {},
+  "pages": {
+    "dial": {
+      "device": "watch",
+      "title": "实机表盘",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/dial.webp",
+        "contentLabel": "实机表盘",
+        "hotspots": []
+      }
+    },
+    "launcher": {
+      "title": "应用列表 · 微体检与情绪健康",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher.webp",
+        "contentLabel": "应用列表 · 微体检与情绪健康",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "健康洞察",
+            "box": [
+              10.866,
+              11.373,
+              78.267,
+              22.103
+            ]
+          },
+          {
+            "label": "微体检",
+            "box": [
+              2.575,
+              36.052,
+              94.85,
+              27.682
+            ]
+          },
+          {
+            "label": "情绪健康",
+            "box": [
+              10.725,
+              66.309,
+              78.549,
+              22.103
+            ]
+          },
+          {
+            "label": "华为创新研究",
+            "box": [
+              31.831,
+              90.987,
+              36.339,
+              9.013
+            ]
+          }
+        ],
+        "swipe": {
+          "up": "launcher-heart"
+        }
+      }
+    },
+    "launcher-heart": {
+      "title": "应用列表 · 研究与心率",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher-heart.webp",
+        "contentLabel": "应用列表 · 研究与心率",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "情绪健康",
+            "box": [
+              32.068,
+              0.0,
+              35.865,
+              8.798
+            ]
+          },
+          {
+            "label": "华为创新研究",
+            "box": [
+              10.866,
+              11.373,
+              78.267,
+              22.103
+            ]
+          },
+          {
+            "label": "心率",
+            "box": [
+              2.575,
+              36.052,
+              94.85,
+              27.682
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "@launcher",
+          "up": "launcher-living"
+        }
+      }
+    },
+    "launcher-living": {
+      "title": "应用列表 · 健康生活",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher-living.webp",
+        "contentLabel": "应用列表 · 健康生活",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "健康生活",
+            "box": [
+              10.725,
+              66.309,
+              78.549,
+              22.103
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "launcher-heart",
+          "up": "launcher-cycle"
+        }
+      }
+    },
+    "launcher-cycle": {
+      "title": "应用列表 · 生理周期",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher-cycle.webp",
+        "contentLabel": "应用列表 · 生理周期",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "生理周期",
+            "box": [
+              31.831,
+              90.987,
+              36.339,
+              9.013
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "launcher-living"
+        }
+      }
+    },
+    "live-160": {
+      "device": "watch",
+      "title": "高原关爱首页",
+      "parent": "@launcher",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-160.webp",
+        "contentLabel": "高原关爱首页",
+        "replay": {
+          "description": "打开高原关爱，可见高反评估入口。",
+          "actions": [
+            {
+              "label": "打开高反评估",
+              "page": "live-163"
+            }
+          ],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-161"
+        },
+        "hotspots": [
+          {
+            "label": "高反评估",
+            "zone": "content",
+            "box": [
+              10,
+              73,
+              80,
+              18
+            ],
+            "page": "live-163"
+          }
+        ]
+      }
+    },
+    "live-161": {
+      "device": "watch",
+      "title": "高原血氧",
+      "parent": "@launcher",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-161.webp",
+        "contentLabel": "高原血氧",
+        "replay": {
+          "description": "查看高原血氧和海拔的当天曲线。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-162",
+          "down": "live-160"
+        }
+      }
+    },
+    "live-162": {
+      "device": "watch",
+      "title": "更多与关于入口",
+      "parent": "@launcher",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-162.webp",
+        "contentLabel": "更多与关于入口",
+        "replay": {
+          "description": "列表末端提供关于入口。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "down": "live-161"
+        },
+        "pendingHotspots": [
+          {
+            "label": "关于",
+            "zone": "content",
+            "box": [
+              10,
+              36,
+              80,
+              27
+            ]
+          }
+        ]
+      }
+    },
+    "live-163": {
+      "device": "watch",
+      "title": "高反评估 · 测量教程",
+      "parent": "live-160",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-163.webp",
+        "contentLabel": "高反评估 · 测量教程",
+        "replay": {
+          "description": "显示四步问卷的说明和下一步入口。",
+          "actions": [
+            {
+              "label": "下一步 · 开始问卷",
+              "page": "live-164"
+            }
+          ],
+          "pending": []
+        },
+        "hotspots": [
+          {
+            "label": "下一步",
+            "zone": "content",
+            "box": [
+              10,
+              83,
+              80,
+              14
+            ],
+            "page": "live-164"
+          }
+        ]
+      }
+    },
+    "live-164": {
+      "device": "watch",
+      "title": "问卷 · 头痛",
+      "parent": "live-163",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-164.webp",
+        "contentLabel": "问卷 · 头痛",
+        "replay": {
+          "description": "询问是否有头痛及其程度。",
+          "actions": [
+            {
+              "label": "查看下一题",
+              "page": "live-165"
+            }
+          ],
+          "pending": []
+        },
+        "listBands": [
+          [
+            0,
+            31
+          ],
+          [
+            31,
+            64
+          ],
+          [
+            64,
+            88
+          ],
+          [
+            88,
+            100
+          ]
+        ]
+      }
+    },
+    "live-165": {
+      "device": "watch",
+      "title": "问卷 · 恶心、呕吐和胃口",
+      "parent": "live-164",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-165.webp",
+        "contentLabel": "问卷 · 恶心、呕吐和胃口",
+        "replay": {
+          "description": "询问胃口及恶心、呕吐情况。",
+          "actions": [
+            {
+              "label": "查看下一题",
+              "page": "live-166"
+            }
+          ],
+          "pending": []
+        },
+        "listBands": [
+          [
+            0,
+            31
+          ],
+          [
+            31,
+            64
+          ],
+          [
+            64,
+            88
+          ],
+          [
+            88,
+            100
+          ]
+        ]
+      }
+    },
+    "live-166": {
+      "device": "watch",
+      "title": "问卷 · 疲惫或虚弱",
+      "parent": "live-165",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-166.webp",
+        "contentLabel": "问卷 · 疲惫或虚弱",
+        "replay": {
+          "description": "询问是否疲惫或虚弱。",
+          "actions": [
+            {
+              "label": "查看下一题",
+              "page": "live-167"
+            }
+          ],
+          "pending": []
+        },
+        "listBands": [
+          [
+            0,
+            31
+          ],
+          [
+            31,
+            64
+          ],
+          [
+            64,
+            88
+          ],
+          [
+            88,
+            100
+          ]
+        ]
+      }
+    },
+    "live-167": {
+      "device": "watch",
+      "title": "问卷 · 头晕",
+      "parent": "live-166",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-167.webp",
+        "contentLabel": "问卷 · 头晕",
+        "replay": {
+          "description": "询问头晕或头重脚轻，并显示下一步。",
+          "actions": [],
+          "pending": [
+            "问卷提交后的测量和评估结果"
+          ]
+        },
+        "listBands": [
+          [
+            0,
+            31
+          ],
+          [
+            31,
+            64
+          ],
+          [
+            64,
+            88
+          ],
+          [
+            88,
+            100
+          ]
+        ]
+      }
+    }
+  },
+  "scenes": [
+    {
+      "id": "open",
+      "title": "从表盘进入",
+      "hint": "按表冠，在应用列表中上下滑动，点选应用。右滑返回上一页。",
+      "start": {
+        "watch": "@face"
+      },
+      "keys": [
+        [
+          "watch",
+          "@face",
+          "表盘"
+        ],
+        [
+          "watch",
+          "@launcher",
+          "应用列表"
+        ],
+        [
+          "watch",
+          "launcher-heart",
+          "应用列表 · 研究与心率"
+        ],
+        [
+          "watch",
+          "live-160",
+          "高原关爱"
+        ]
+      ]
+    },
+    {
+      "id": "live-group-1",
+      "title": "高原血氧与更多",
+      "hint": "在表框旁选择操作。在截图上拖动可查看已经拍到的位置，右滑或点返回可退回。",
+      "start": {
+        "watch": "live-160"
+      },
+      "keys": [
+        [
+          "watch",
+          "live-160",
+          "高原关爱首页"
+        ],
+        [
+          "watch",
+          "live-161",
+          "高原血氧"
+        ],
+        [
+          "watch",
+          "live-162",
+          "更多与关于入口"
+        ]
+      ]
+    },
+    {
+      "id": "live-group-2",
+      "title": "高反评估与问卷",
+      "hint": "在表框旁选择操作。在截图上拖动可查看已经拍到的位置，右滑或点返回可退回。",
+      "start": {
+        "watch": "live-163"
+      },
+      "keys": [
+        [
+          "watch",
+          "live-163",
+          "高反评估 · 测量教程"
+        ],
+        [
+          "watch",
+          "live-164",
+          "问卷 · 头痛"
+        ],
+        [
+          "watch",
+          "live-165",
+          "问卷 · 恶心、呕吐和胃口"
+        ],
+        [
+          "watch",
+          "live-166",
+          "问卷 · 疲惫或虚弱"
+        ],
+        [
+          "watch",
+          "live-167",
+          "问卷 · 头晕"
+        ]
+      ]
+    }
+  ],
+  "references": [
+    "本次腕上实机截图由 Mate 50 同步。流程控件位于表框外。"
+  ],
+  "initialView": {
+    "device": "watch",
+    "scene": "live-group-1",
+    "page": "live-160"
+  },
+  "watchReplayEntry": "live-160",
+  "pendingScreens": [
+    "问卷提交后的测量和评估结果"
+  ],
+  "watchScrollGroups": [
+    {
+      "mode": "paged",
+      "pages": [
+        "live-160",
+        "live-161",
+        "live-162"
+      ]
+    }
+  ]
+}

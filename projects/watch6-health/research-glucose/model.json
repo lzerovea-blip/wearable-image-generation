@@ -1,0 +1,269 @@
+{
+  "feature": "research-glucose",
+  "devices": {
+    "phone": {
+      "model": "HUAWEI Mate 50",
+      "os": "HarmonyOS 4.2.0.225",
+      "app": "华为创新研究",
+      "appVersion": "16.1.8.300"
+    }
+  },
+  "reviewed": true,
+  "steps": [
+    {
+      "scene": "g-documents",
+      "device": "phone",
+      "from": "升级通知",
+      "action": "打开每份文档，逐屏阅读到末尾并返回通知",
+      "to": "同意前的文书全文",
+      "source": "live",
+      "observedAt": "2026-11-19T14:11:35+08:00",
+      "files": [
+        "evidence/rg-notice.png",
+        "evidence/doc-g-privacy-000.png",
+        "evidence/doc-g-privacy-001.png",
+        "evidence/doc-g-privacy-002.png",
+        "evidence/doc-g-privacy-003.png",
+        "evidence/doc-g-privacy-004.png",
+        "evidence/doc-g-privacy-005.png",
+        "evidence/doc-g-privacy-006.png",
+        "evidence/doc-g-privacy-007.png",
+        "evidence/doc-g-consent-000.png",
+        "evidence/doc-g-consent-001.png",
+        "evidence/doc-g-consent-002.png",
+        "evidence/doc-g-consent-003.png",
+        "evidence/doc-g-consent-004.png",
+        "evidence/关于血糖健康研究与隐私的声明（同意前）.png",
+        "evidence/血糖健康研究用户知情同意书（同意前）.png"
+      ]
+    },
+    {
+      "scene": "glucose-screen",
+      "device": "phone",
+      "from": "创新研究首页",
+      "action": "打开血糖研究；由用户处理知情同意后进入主页，查看初筛说明",
+      "to": "风险初筛与说明",
+      "source": "live",
+      "observedAt": "2026-11-19T14:18:39+08:00",
+      "files": [
+        "evidence/r-home.png",
+        "evidence/rg-notice.png",
+        "evidence/r-after-user.png",
+        "evidence/rg-info.png",
+        "evidence/rg-guide-000.png",
+        "evidence/rg-guide-001.png",
+        "evidence/rg-guide-002.png",
+        "evidence/糖尿病风险评估说明（实机长页）.png"
+      ]
+    },
+    {
+      "scene": "glucose-survey",
+      "device": "phone",
+      "from": "血糖研究主页",
+      "action": "从卡片与菜单打开问卷，从卡片查看设备和了解血糖",
+      "to": "问卷、设备与研究介绍",
+      "source": "live",
+      "observedAt": "2026-11-19T14:20:31+08:00",
+      "files": [
+        "evidence/r-after-user.png",
+        "evidence/rg-menu.png",
+        "evidence/rg-surveys.png",
+        "evidence/rg-risk-form.png",
+        "evidence/rg-form.png",
+        "evidence/rg-devices.png",
+        "evidence/rg-about.png",
+        "evidence/rg-survey-full-000.png",
+        "evidence/rg-survey-full-001.png",
+        "evidence/rg-survey-full-002.png",
+        "evidence/rg-survey-full-003.png",
+        "evidence/rg-survey-full-004.png",
+        "evidence/rg-survey-full-005.png",
+        "evidence/rg-survey-full-006.png",
+        "evidence/rg-survey-full-007.png",
+        "evidence/血糖健康研究调查问卷（实机长页）.png",
+        "evidence/rg-about-full-000.png",
+        "evidence/rg-about-full-001.png",
+        "evidence/rg-about-full-002.png",
+        "evidence/rg-about-full-003.png",
+        "evidence/了解血糖（实机长页）.png"
+      ]
+    },
+    {
+      "scene": "glucose-round",
+      "device": "phone",
+      "from": "暂无本轮数据",
+      "action": "启动评估，查看日历和当日进度；取消一次终止，再次打开并确定终止",
+      "to": "回到可再次启动的初筛主页",
+      "source": "live",
+      "observedAt": "2026-11-19T15:55:01+08:00",
+      "files": [
+        "evidence/start-g-home.png",
+        "evidence/start-g-open.png",
+        "evidence/start-g-day.png",
+        "evidence/start-g-stop.png",
+        "evidence/start-g-continued.png",
+        "evidence/start-g-ended.png",
+        "evidence/start-g-running-000.png",
+        "evidence/start-g-running-001.png",
+        "evidence/start-g-running-002.png",
+        "evidence/血糖评估进度（实机长页）.png"
+      ]
+    },
+    {
+      "scene": "glucose-screen",
+      "source": "live",
+      "device": "phone",
+      "from": "@home",
+      "action": "打开并查看创新研究首页",
+      "to": "创新研究首页",
+      "files": [
+        "evidence/landing-0.png",
+        "evidence/landing-1.png",
+        "evidence/landing-2.png",
+        "evidence/landing-3.png",
+        "evidence/landing-4.png",
+        "evidence/landing-5.png",
+        "evidence/landing-6.png"
+      ],
+      "observedAt": "2026-11-19T20:59:14+08:00"
+    }
+  ],
+  "frameEvidence": {
+    "home": {
+      "observedAt": "2026-11-19T20:59:14+08:00",
+      "sources": {
+        "evidence/landing-0.png": "c0a35b67a11ae8742fcccd953fe2134a997354b16325fa6d13cd9de4ff8c0ea9",
+        "evidence/landing-1.png": "9af550adbd8e8f49f60e930334e2612452e2281109a0f0ae8d115737ac7b1c47",
+        "evidence/landing-2.png": "d132584642beef256796f96f63a368839c8fe30ca110964e16c3e4fb39222d2c",
+        "evidence/landing-3.png": "063a5609fff594ce546dbfb9bd421a32cad7491664c3b9f35aed526cfe75e29a",
+        "evidence/landing-4.png": "0bb5cb079cd3b2c0b56d461240e2e4637525d0fd971f3d78009c6b176c27333b",
+        "evidence/landing-5.png": "93bdee7c95130105f5251fbf53b939917ebf57ceb1a135e456394c070dc22d01",
+        "evidence/landing-6.png": "10a3918d580c7c193f87f229d2c9a8112fa82bd659b9c32c87dd43d6969eeccd"
+      },
+      "renders": {
+        "screens/home-h.webp": "251fde3d5f4f568e46208589e00887695249302204b2e97fc5e53e813c4a3f91",
+        "screens/home-c.webp": "e8c832aebf4c0eaa404603391cc4b3207481f9f4f398fe6caf18e5f67ddcd60a",
+        "screens/home-f.webp": "65677a10186f4f78ecb2f1eaa61158e987dd3c9e468491b8c90a9f5412a30e0b"
+      }
+    },
+    "g-notice": {
+      "sources": {
+        "evidence/rg-notice.png": "309e98e2fafc5d872350d4084510bcbc230c6ccb6c29e14ffb00de22a45ed2bd"
+      },
+      "renders": {
+        "screens/g-notice-content.webp": "32a82fecf4b51418bbc1edd0bac13fa9c8fd4f965b7b12054fa9812773d99dc2"
+      }
+    },
+    "g-privacy": {
+      "sources": {
+        "evidence/关于血糖健康研究与隐私的声明（同意前）.png": "8a2df99e79d125bdd4ecb5a7aa1365f0c97ada045ef9f665bcb4c436b5fa8e0f"
+      },
+      "renders": {
+        "screens/g-privacy-header.webp": "789fc01da627624f78a9a589effb6281793d1206f6087e1ac5f4bbd2d371bdc6",
+        "screens/g-privacy-content.webp": "79bbb4b3c28326ee6b37c250fb81ebf0f0d830c1c16698d0ad1aa3eab5e7b31d"
+      }
+    },
+    "g-consent": {
+      "sources": {
+        "evidence/血糖健康研究用户知情同意书（同意前）.png": "eaa9cac16733cc006d73d573d0f357bc99a88bef9b2936d92f04fbd7ff3f7e5b",
+        "evidence/doc-g-consent-000.png": "274dda145304ed91612d263014e98d9817c60f27ca378e4e656d61c31829635c"
+      },
+      "renders": {
+        "screens/g-consent-header.webp": "bd46869f5324501401f18d6a477b0f1abb9947ca553b05ff73c3b41902c27cb4",
+        "screens/g-consent-content.webp": "d4ed4c5eccc747232ee9630dd82b83b0ae3b88eb655dd430c5d55a06dd8657b1"
+      }
+    },
+    "g-main": {
+      "sources": {
+        "evidence/r-after-user.png": "f40f894b68316c8eb53bd6e08f132e51d76988766f435869dd73404c56383310"
+      },
+      "renders": {
+        "screens/g-main-content.webp": "198b269b8316919af3e99bfa396ae1d5ebdcc5d038eb34a1e1b694fc6cb09c3d"
+      }
+    },
+    "g-menu": {
+      "sources": {
+        "evidence/r-after-user.png": "f40f894b68316c8eb53bd6e08f132e51d76988766f435869dd73404c56383310",
+        "evidence/rg-menu.png": "e7d1915ca63ff7296910275763f65345a48e0b6d923cf615bb42478c53f98e83"
+      },
+      "renders": {
+        "screens/g-menu-content.webp": "6dab3cbc224cbdc59df4d8e3b974baa531e2b24b6ee11b9b259fdf14c615daf6"
+      }
+    },
+    "g-surveys": {
+      "sources": {
+        "evidence/rg-surveys.png": "88bba7832b02352ecd5c757e16e70877e2b6b069f0fefa9527fb7721a4198b91"
+      },
+      "renders": {
+        "screens/g-surveys-content.webp": "a8b7f8674a949cfbb1b3ef8683b62f7462563398a99a6a63acf13ff748c3c5db"
+      }
+    },
+    "g-devices": {
+      "sources": {
+        "evidence/rg-devices.png": "aa5b47f1843f03df9eed5541095604fb0a5dd66e47a3a7a6f625cbb870ec542d"
+      },
+      "renders": {
+        "screens/g-devices-content.webp": "111c5f81f8021e74663d6fc9630e447d943a3ad2be333db2c8a0a17d13151993"
+      }
+    },
+    "g-guide": {
+      "sources": {
+        "evidence/rg-guide-001.png": "f603309694f60877df46d38cb78ac0c6a5df68a0003f035a894d1ed61775f64c"
+      },
+      "renders": {
+        "screens/g-guide-header.webp": "3e80b93905a585c0302e2da8ceb95dc425f0aa74b5eb3142946979e83e744330",
+        "screens/g-guide-content.webp": "d62d445e05dbddd547f3672cc1e562d36d8d7d2ec43a825beb198d6126259463"
+      }
+    },
+    "g-form": {
+      "sources": {
+        "evidence/rg-survey-full-006.png": "d0780595dcac0cae42fe33110cc122ef3de9119ecdbc6b9918e78426a3520f75",
+        "evidence/rg-survey-full-003.png": "b607a1e3ac64d8cfbd005ad3f4dc90f0790007e8317c750063ecca756785fbf6",
+        "evidence/rg-survey-full-004.png": "a458f32ce11b50020f6be383a2748f53ae4beee558d6f92e85d96f01eedc67bd",
+        "evidence/血糖健康研究调查问卷（实机长页）.png": "e53e2e9e024542964ce5bf6ba6cd3dd2500430bbc45edf83228fb8c6f9233168"
+      },
+      "renders": {
+        "screens/g-form-header.webp": "ec85b2edb5cad797dd717016515f730761d2b773dec72a75c5c64189efdbdd00",
+        "screens/g-form-content.webp": "c9c9b63b3c1b273746b9bc6be301d19fe3a7de11c88d638de26dcfc39d005fd1"
+      }
+    },
+    "g-about": {
+      "sources": {
+        "evidence/rg-about-full-002.png": "1ad892007d0dd7ac388c381d6233aca46c04dad2169b2e85f03f7dd16f54425f",
+        "evidence/了解血糖（实机长页）.png": "7531457b01c97c504685cf95930a86a5753831be71962c9413e8c40259b7762b",
+        "evidence/rg-about-full-000.png": "1fba9cba872e111373d873a88979aa00fbfbfa2a9255e35b16a64dc4013581d9"
+      },
+      "renders": {
+        "screens/g-about-header.webp": "b53e71a967c5a14692f9f32e0da077b192afce22e6c192f104e799d598282230",
+        "screens/g-about-content.webp": "be81d1b1540424665a58316895c732a2952a4f3b5cc748445765ee871240fdca"
+      }
+    },
+    "home-first": {
+      "sources": {
+        "evidence/r-home.png": "76300bcb11db7962733d496dd80d2b8806baad6f7a8d712aa6ae68228c47ebf1"
+      },
+      "renders": {
+        "screens/home-content.webp": "b57d8f57d225245a52709c3c9f40079a9dc74879a116e7bf4822328bf4e5afcc"
+      }
+    },
+    "g-progress": {
+      "sources": {
+        "evidence/血糖评估进度（实机长页）.png": "86714516b2ca2493a266904cf85a5d51f5547c014f98dbfdf38051535ace59e5",
+        "evidence/start-g-running-001.png": "e4ec5c0e4d8c2907cba0e0d2c2632d5eb92f2b41ef0052cf35db0a7f9b384e74"
+      },
+      "renders": {
+        "screens/g-progress-header.webp": "bbe1af745846a39cf8b431ded57fa30d7b5deb50110a8a89aa5887dc5ccca5ac",
+        "screens/g-progress-content.webp": "933ab22b3283e5bab0af433477fbeb2694e19ee8e1af36ed41ad915101e336d6",
+        "screens/g-progress-footer.webp": "1c5630a70bd11f74dd3a84676f3d2f472536b9b602db2ace164b1d8336461d40"
+      }
+    },
+    "g-stop": {
+      "sources": {
+        "evidence/start-g-stop.png": "89e818760614d71fb216082c7cbbb392606aeabc758f5543fe9f79edf362070e"
+      },
+      "renders": {
+        "screens/g-stop-content.webp": "bdd169e2a1b3de2edcc614032ae2d4d487c038674b45296e3edd211254b509b8"
+      }
+    }
+  }
+}

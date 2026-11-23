@@ -1,0 +1,505 @@
+{
+  "id": "blood-glucose",
+  "name": "血糖管理",
+  "phoneProfile": "mate50",
+  "entries": {},
+  "pages": {
+    "entry": {
+      "device": "phone",
+      "title": "搜索结果 · 血糖",
+      "parent": "@home",
+      "capture": {
+        "content": "screens/entry-content.webp",
+        "contentLabel": "搜索结果 · 血糖",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "血糖管理",
+            "page": "day",
+            "box": [
+              3.3088,
+              23.125,
+              93.1985,
+              9.625
+            ]
+          }
+        ]
+      }
+    },
+    "day": {
+      "device": "phone",
+      "title": "日 · 血糖图表",
+      "parent": "entry",
+      "capture": {
+        "content": "screens/day-content.webp",
+        "contentLabel": "日 · 血糖图表",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "周",
+            "page": "week",
+            "box": [
+              26.6544,
+              12.0833,
+              22.9779,
+              5.0
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "月",
+            "page": "month",
+            "box": [
+              49.6324,
+              12.0833,
+              22.9779,
+              5.0
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "年",
+            "page": "year",
+            "box": [
+              72.6103,
+              12.0833,
+              22.9779,
+              5.0
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "更多选项",
+            "page": "menu",
+            "box": [
+              81.8015,
+              4.9167,
+              14.7059,
+              6.0
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "查看更多血糖数据",
+            "page": "details",
+            "box": [
+              4.136,
+              55.9167,
+              91.636,
+              5.625
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.4926,
+              4.7917,
+              12.8676,
+              6.125
+            ]
+          }
+        ]
+      }
+    },
+    "week": {
+      "device": "phone",
+      "title": "周 · 血糖图表",
+      "parent": "entry",
+      "capture": {
+        "content": "screens/week-content.webp",
+        "contentLabel": "周 · 血糖图表",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "日",
+            "page": "day",
+            "box": [
+              3.6765,
+              12.0833,
+              22.9779,
+              5.0
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "月",
+            "page": "month",
+            "box": [
+              49.6324,
+              12.0833,
+              22.9779,
+              5.0
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "年",
+            "page": "year",
+            "box": [
+              72.6103,
+              12.0833,
+              22.9779,
+              5.0
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "更多选项",
+            "page": "menu",
+            "box": [
+              81.8015,
+              4.9167,
+              14.7059,
+              6.0
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.4926,
+              4.7917,
+              12.8676,
+              6.125
+            ]
+          }
+        ]
+      }
+    },
+    "month": {
+      "device": "phone",
+      "title": "月 · 血糖图表",
+      "parent": "entry",
+      "capture": {
+        "content": "screens/month-content.webp",
+        "contentLabel": "月 · 血糖图表",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "日",
+            "page": "day",
+            "box": [
+              3.6765,
+              12.0833,
+              22.9779,
+              5.0
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "周",
+            "page": "week",
+            "box": [
+              26.6544,
+              12.0833,
+              22.9779,
+              5.0
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "年",
+            "page": "year",
+            "box": [
+              72.6103,
+              12.0833,
+              22.9779,
+              5.0
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "更多选项",
+            "page": "menu",
+            "box": [
+              81.8015,
+              4.9167,
+              14.7059,
+              6.0
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.4926,
+              4.7917,
+              12.8676,
+              6.125
+            ]
+          }
+        ]
+      }
+    },
+    "year": {
+      "device": "phone",
+      "title": "年 · 血糖图表",
+      "parent": "entry",
+      "capture": {
+        "content": "screens/year-content.webp",
+        "contentLabel": "年 · 血糖图表",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "日",
+            "page": "day",
+            "box": [
+              3.6765,
+              12.0833,
+              22.9779,
+              5.0
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "周",
+            "page": "week",
+            "box": [
+              26.6544,
+              12.0833,
+              22.9779,
+              5.0
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "月",
+            "page": "month",
+            "box": [
+              49.6324,
+              12.0833,
+              22.9779,
+              5.0
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "更多选项",
+            "page": "menu",
+            "box": [
+              81.8015,
+              4.9167,
+              14.7059,
+              6.0
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.4926,
+              4.7917,
+              12.8676,
+              6.125
+            ]
+          }
+        ]
+      }
+    },
+    "details": {
+      "device": "phone",
+      "title": "指尖血糖明细",
+      "parent": "day",
+      "capture": {
+        "content": "screens/details-content.webp",
+        "contentLabel": "指尖血糖明细",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "关闭明细",
+            "page": "@back",
+            "box": [
+              85.9375,
+              5.2083,
+              11.9485,
+              7.7917
+            ]
+          }
+        ]
+      }
+    },
+    "menu": {
+      "device": "phone",
+      "title": "更多选项",
+      "parent": "day",
+      "capture": {
+        "content": "screens/menu-content.webp",
+        "contentLabel": "更多选项",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "所有数据",
+            "page": "log",
+            "box": [
+              37.3162,
+              12.4583,
+              57.4449,
+              5.8333
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "相关知识",
+            "page": "guide",
+            "box": [
+              37.3162,
+              18.2917,
+              57.4449,
+              5.8333
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "关闭菜单",
+            "page": "@back",
+            "box": [
+              0.9191,
+              25.2083,
+              95.5882,
+              49.7917
+            ]
+          }
+        ]
+      }
+    },
+    "log": {
+      "device": "phone",
+      "title": "所有数据",
+      "parent": "day",
+      "capture": {
+        "content": "screens/log-content.webp",
+        "contentLabel": "所有数据",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.2169,
+              4.5833,
+              11.9485,
+              6.0417
+            ]
+          }
+        ]
+      }
+    },
+    "guide": {
+      "device": "phone",
+      "title": "相关知识 · 血糖",
+      "parent": "day",
+      "capture": {
+        "content": "screens/guide-content.webp",
+        "contentLabel": "相关知识 · 血糖",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.2169,
+              4.5833,
+              11.9485,
+              6.0417
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "scenes": [
+    {
+      "id": "chart",
+      "title": "查看血糖与时间范围",
+      "hint": "从功能结果进入血糖管理，点图表上方切换日、周、月、年。",
+      "start": {
+        "phone": "entry"
+      },
+      "keys": [
+        [
+          "phone",
+          "entry",
+          "功能入口"
+        ],
+        [
+          "phone",
+          "day",
+          "日"
+        ],
+        [
+          "phone",
+          "week",
+          "周"
+        ],
+        [
+          "phone",
+          "month",
+          "月"
+        ],
+        [
+          "phone",
+          "year",
+          "年"
+        ]
+      ]
+    },
+    {
+      "id": "data",
+      "title": "血糖明细与所有数据",
+      "hint": "日图可打开指尖血糖明细，更多选项提供历史数据和相关知识。",
+      "start": {
+        "phone": "day"
+      },
+      "keys": [
+        [
+          "phone",
+          "day",
+          "血糖管理"
+        ],
+        [
+          "phone",
+          "details",
+          "数据明细"
+        ],
+        [
+          "phone",
+          "menu",
+          "更多"
+        ],
+        [
+          "phone",
+          "log",
+          "所有数据"
+        ],
+        [
+          "phone",
+          "guide",
+          "相关知识"
+        ]
+      ]
+    }
+  ],
+  "references": [
+    "来自 Mate 50 的华为运动健康 17.0.10.320，记录了四种周期、指尖血糖明细、所有数据与相关知识入口。示例沿用设备上的历史记录。"
+  ],
+  "phoneHome": "entry"
+}

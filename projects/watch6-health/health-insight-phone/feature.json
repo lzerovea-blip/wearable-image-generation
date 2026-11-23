@@ -1,0 +1,392 @@
+{
+  "id": "health-insight-phone",
+  "name": "健康洞察 · 手机端",
+  "phoneProfile": "mate50",
+  "entries": {},
+  "pages": {
+    "today": {
+      "device": "phone",
+      "title": "今日",
+      "parent": "@home",
+      "capture": {
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "打开健康摘要",
+            "page": "digest",
+            "box": [
+              3.6765,
+              73.367,
+              92.6471,
+              13.485
+            ]
+          }
+        ],
+        "contentLabel": "今日",
+        "header": "screens/today-header.webp",
+        "content": "screens/today-content.webp",
+        "footer": "screens/today-footer.webp"
+      }
+    },
+    "digest": {
+      "device": "phone",
+      "title": "健康摘要 · 精选摘要",
+      "parent": "@home",
+      "capture": {
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              2.9412,
+              24.7059,
+              13.4191,
+              37.4118
+            ]
+          },
+          {
+            "zone": "header",
+            "label": "更多选项",
+            "page": "menu",
+            "box": [
+              82.9963,
+              24.4706,
+              14.0625,
+              37.4118
+            ]
+          },
+          {
+            "zone": "header",
+            "label": "趋势列表",
+            "page": "trend",
+            "box": [
+              49.6324,
+              67.5294,
+              45.9559,
+              29.8824
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "身体状态准备度说明",
+            "page": "info",
+            "box": [
+              49.6324,
+              1.3795,
+              33.0882,
+              1.6774
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "展开或收起健康解读",
+            "page": "folded",
+            "box": [
+              4.3199,
+              3.5272,
+              91.5441,
+              2.2417
+            ],
+            "mode": "replace"
+          }
+        ],
+        "contentLabel": "健康摘要 · 精选摘要",
+        "header": "screens/digest-header.webp",
+        "content": "screens/digest-content.webp"
+      }
+    },
+    "folded": {
+      "device": "phone",
+      "title": "收起健康解读",
+      "parent": "digest",
+      "capture": {
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              2.9412,
+              24.7059,
+              13.4191,
+              37.4118
+            ]
+          },
+          {
+            "zone": "header",
+            "label": "更多选项",
+            "page": "menu",
+            "box": [
+              82.9963,
+              24.4706,
+              14.0625,
+              37.4118
+            ]
+          },
+          {
+            "zone": "header",
+            "label": "趋势列表",
+            "page": "trend",
+            "box": [
+              49.6324,
+              67.5294,
+              45.9559,
+              29.8824
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "身体状态准备度说明",
+            "page": "info",
+            "box": [
+              49.6324,
+              1.666,
+              33.0882,
+              2.0257
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "展开或收起健康解读",
+            "page": "digest",
+            "box": [
+              4.3199,
+              4.2598,
+              91.5441,
+              2.7073
+            ],
+            "mode": "replace"
+          }
+        ],
+        "contentLabel": "收起健康解读",
+        "header": "screens/folded-header.webp",
+        "content": "screens/folded-content.webp"
+      }
+    },
+    "trend": {
+      "device": "phone",
+      "title": "趋势列表",
+      "parent": "digest",
+      "capture": {
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              2.9412,
+              24.7059,
+              13.4191,
+              37.4118
+            ]
+          },
+          {
+            "zone": "header",
+            "label": "更多选项",
+            "page": "menu",
+            "box": [
+              82.9963,
+              24.4706,
+              14.0625,
+              37.4118
+            ]
+          },
+          {
+            "zone": "header",
+            "label": "精选摘要",
+            "page": "digest",
+            "box": [
+              3.9522,
+              67.5294,
+              46.1397,
+              29.8824
+            ],
+            "mode": "replace"
+          }
+        ],
+        "contentLabel": "趋势列表",
+        "header": "screens/trend-header.webp",
+        "content": "screens/trend-content.webp"
+      }
+    },
+    "info": {
+      "device": "phone",
+      "title": "身体状态准备度 · 相关知识",
+      "parent": "digest",
+      "capture": {
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              2.7574,
+              39.4737,
+              13.3272,
+              57.1429
+            ]
+          }
+        ],
+        "contentLabel": "身体状态准备度 · 相关知识",
+        "header": "screens/info-header.webp",
+        "content": "screens/info-content.webp"
+      }
+    },
+    "menu": {
+      "device": "phone",
+      "title": "更多选项",
+      "parent": "digest",
+      "capture": {
+        "content": "screens/menu-content.webp",
+        "contentLabel": "更多选项",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "设置",
+            "page": "settings",
+            "box": [
+              36.2132,
+              17.4583,
+              60.0184,
+              6.125
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "关闭菜单",
+            "page": "@back",
+            "box": [
+              0.0,
+              23.5417,
+              100.0,
+              71.875
+            ]
+          }
+        ]
+      }
+    },
+    "settings": {
+      "device": "phone",
+      "title": "健康摘要设置",
+      "parent": "digest",
+      "capture": {
+        "content": "screens/settings-content.webp",
+        "contentLabel": "健康摘要设置",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.2169,
+              4.5833,
+              11.9485,
+              6.0833
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "scenes": [
+    {
+      "id": "enter",
+      "title": "从今日进入健康摘要",
+      "hint": "在今日页向下滑动，点击健康摘要卡片。",
+      "start": {
+        "phone": "@home"
+      },
+      "keys": [
+        [
+          "phone",
+          "@home",
+          "今日"
+        ],
+        [
+          "phone",
+          "digest",
+          "精选摘要"
+        ]
+      ]
+    },
+    {
+      "id": "read",
+      "title": "阅读健康解读",
+      "hint": "展开或收起解读，滚动查看洞察分析和今日建议。",
+      "start": {
+        "phone": "digest"
+      },
+      "keys": [
+        [
+          "phone",
+          "digest",
+          "展开"
+        ],
+        [
+          "phone",
+          "folded",
+          "收起"
+        ]
+      ]
+    },
+    {
+      "id": "compare",
+      "title": "趋势与准备度",
+      "hint": "切换趋势列表，或点身体状态准备度旁的信息图标阅读说明。",
+      "start": {
+        "phone": "digest"
+      },
+      "keys": [
+        [
+          "phone",
+          "digest",
+          "精选摘要"
+        ],
+        [
+          "phone",
+          "trend",
+          "趋势列表"
+        ],
+        [
+          "phone",
+          "info",
+          "相关知识"
+        ]
+      ]
+    },
+    {
+      "id": "options",
+      "title": "摘要设置",
+      "hint": "点右上角更多选项，进入设置查看本机通知状态。",
+      "start": {
+        "phone": "digest"
+      },
+      "keys": [
+        [
+          "phone",
+          "digest",
+          "精选摘要"
+        ],
+        [
+          "phone",
+          "menu",
+          "更多选项"
+        ],
+        [
+          "phone",
+          "settings",
+          "设置"
+        ]
+      ]
+    }
+  ],
+  "references": [
+    "取自 Mate 50 的华为运动健康 17.0.10.320。「今日 → 健康摘要 → 精选摘要」直接展示穿戴端生成的解读。各时间、图表和正文仅代表采集当时。",
+    "设置记录当时的通知状态；未修改实机开关。实机屏幕配合通用展示边框，滚动内容由实机连续截图重组。"
+  ],
+  "phoneHome": "today"
+}

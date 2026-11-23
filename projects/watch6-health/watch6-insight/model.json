@@ -1,0 +1,578 @@
+{
+  "feature": "watch6-insight",
+  "devices": {
+    "watch": {
+      "model": "HUAWEI WATCH 6",
+      "productModel": "LEB-AL00",
+      "os": "LEB-AL00CN 7.0.0.115(SP8C00E100R1P102log)",
+      "app": "健康洞察",
+      "appVersion": "7.0.0.306"
+    }
+  },
+  "reviewed": false,
+  "steps": [
+    {
+      "scene": "open",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T17:39:20+08:00",
+      "from": "表盘",
+      "action": "按表冠并浏览应用列表",
+      "to": "健康洞察",
+      "files": [
+        "evidence/现场表盘.jpeg",
+        "evidence/healthcheck-launcher.jpeg",
+        "evidence/healthcheck-launcher.json",
+        "evidence/heart-launcher.jpeg",
+        "evidence/heart-launcher.json",
+        "evidence/healthyliving-launcher.jpeg",
+        "evidence/healthyliving-launcher.json",
+        "evidence/physiologyperiod-launcher.jpeg",
+        "evidence/physiologyperiod-launcher.json"
+      ]
+    },
+    {
+      "scene": "application",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T19:20:48+08:00",
+      "from": "应用列表",
+      "action": "进入应用并核对实机画面",
+      "to": "健康洞察首页",
+      "files": [
+        "evidence/联机-healthdigest-main.jpeg",
+        "evidence/联机-healthdigest-main.json"
+      ]
+    },
+    {
+      "scene": "application",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:31:03.531+08:00",
+      "from": "健康洞察",
+      "action": "在实机操作后采集并同步画面",
+      "to": "应用列表",
+      "files": [
+        "evidence/replay/WatchApScreenshot_20261119_213103531.png"
+      ]
+    },
+    {
+      "scene": "application",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:31:07.129+08:00",
+      "from": "健康洞察",
+      "action": "在实机操作后采集并同步画面",
+      "to": "健康洞察首页",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213107129.png"
+      ]
+    },
+    {
+      "scene": "application",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:31:08.789+08:00",
+      "from": "健康洞察",
+      "action": "在实机操作后采集并同步画面",
+      "to": "AI 解读 · 总体概览",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213108789.png"
+      ]
+    },
+    {
+      "scene": "live-group-2",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:31:10.367+08:00",
+      "from": "健康洞察",
+      "action": "在实机操作后采集并同步画面",
+      "to": "锻炼时长",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213110367.png"
+      ]
+    },
+    {
+      "scene": "live-group-2",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:31:11.815+08:00",
+      "from": "健康洞察",
+      "action": "在实机操作后采集并同步画面",
+      "to": "入睡时间",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213111815.png"
+      ]
+    },
+    {
+      "scene": "live-group-2",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:31:13.430+08:00",
+      "from": "健康洞察",
+      "action": "在实机操作后采集并同步画面",
+      "to": "睡眠平均 HRV",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213113430.png"
+      ]
+    },
+    {
+      "scene": "live-group-2",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:31:18.954+08:00",
+      "from": "健康洞察",
+      "action": "在实机操作后采集并同步画面",
+      "to": "前往手机查看",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213118954.png"
+      ]
+    },
+    {
+      "scene": "live-group-2",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:31:20.632+08:00",
+      "from": "健康洞察",
+      "action": "在实机操作后采集并同步画面",
+      "to": "更多与说明入口",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213120632.png"
+      ]
+    },
+    {
+      "scene": "live-group-3",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:31:24.992+08:00",
+      "from": "健康洞察",
+      "action": "在实机操作后采集并同步画面",
+      "to": "AI 解读 · 展开",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213124992.png"
+      ]
+    },
+    {
+      "scene": "live-group-3",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:31:33.608+08:00",
+      "from": "健康洞察",
+      "action": "在实机操作后采集并同步画面",
+      "to": "健康洞察说明",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213133608.png"
+      ]
+    },
+    {
+      "scene": "live-group-3",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:31:36.650+08:00",
+      "from": "健康洞察",
+      "action": "在实机操作后采集并同步画面",
+      "to": "说明 · 影响因素",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213136650.png"
+      ]
+    },
+    {
+      "scene": "application",
+      "device": "watch",
+      "source": "pending",
+      "from": "健康洞察",
+      "action": "补采后续实机画面",
+      "to": "未展开的各指标说明；前往手机继续查看；打开关于",
+      "files": []
+    },
+    {
+      "scene": "application",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-20T10:21:32+08:00",
+      "files": [
+        "evidence/replay/WatchApScreenshot_20261120_102132412.png"
+      ],
+      "from": "健康洞察",
+      "action": "用户实机操作并截图，Mate 50 同步",
+      "to": "应用列表"
+    },
+    {
+      "scene": "application",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-20T10:21:35+08:00",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261120_102135715.png"
+      ],
+      "from": "健康洞察",
+      "action": "用户实机操作并截图，Mate 50 同步",
+      "to": "健康洞察首页"
+    },
+    {
+      "scene": "live-group-2",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-20T10:21:37+08:00",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261120_102137887.png"
+      ],
+      "from": "健康洞察",
+      "action": "用户实机操作并截图，Mate 50 同步",
+      "to": "身体状态准备度"
+    },
+    {
+      "scene": "live-group-2",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-20T10:21:40+08:00",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261120_102140010.png"
+      ],
+      "from": "健康洞察",
+      "action": "用户实机操作并截图，Mate 50 同步",
+      "to": "睡眠质量评分"
+    },
+    {
+      "scene": "live-group-2",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-20T10:21:41+08:00",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261120_102141871.png"
+      ],
+      "from": "健康洞察",
+      "action": "用户实机操作并截图，Mate 50 同步",
+      "to": "深度睡眠 N3 比例"
+    },
+    {
+      "scene": "live-group-2",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-20T10:21:43+08:00",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261120_102143650.png"
+      ],
+      "from": "健康洞察",
+      "action": "用户实机操作并截图，Mate 50 同步",
+      "to": "锻炼时长"
+    },
+    {
+      "scene": "live-group-2",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-20T10:21:52+08:00",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261120_102152478.png"
+      ],
+      "from": "健康洞察",
+      "action": "用户实机操作并截图，Mate 50 同步",
+      "to": "入睡时间"
+    },
+    {
+      "scene": "live-group-2",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-20T10:21:53+08:00",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261120_102153960.png"
+      ],
+      "from": "健康洞察",
+      "action": "用户实机操作并截图，Mate 50 同步",
+      "to": "睡眠时长"
+    },
+    {
+      "scene": "live-group-2",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-20T10:21:55+08:00",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261120_102155426.png"
+      ],
+      "from": "健康洞察",
+      "action": "用户实机操作并截图，Mate 50 同步",
+      "to": "前往手机查看"
+    },
+    {
+      "scene": "live-group-2",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-20T10:21:56+08:00",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261120_102156991.png"
+      ],
+      "from": "健康洞察",
+      "action": "用户实机操作并截图，Mate 50 同步",
+      "to": "更多与说明入口"
+    },
+    {
+      "scene": "live-group-3",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-20T10:22:05+08:00",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261120_102205764.png"
+      ],
+      "from": "健康洞察",
+      "action": "用户实机操作并截图，Mate 50 同步",
+      "to": "AI 解读 · 正在分析数据"
+    },
+    {
+      "scene": "live-group-3",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-20T10:22:09+08:00",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261120_102209209.png"
+      ],
+      "from": "健康洞察",
+      "action": "用户实机操作并截图，Mate 50 同步",
+      "to": "AI 解读 · 整体概览"
+    },
+    {
+      "scene": "live-group-3",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-20T10:22:11+08:00",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261120_102211791.png"
+      ],
+      "from": "健康洞察",
+      "action": "用户实机操作并截图，Mate 50 同步",
+      "to": "AI 解读 · 洞察分析"
+    },
+    {
+      "scene": "live-group-3",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-20T10:22:14+08:00",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261120_102214457.png"
+      ],
+      "from": "健康洞察",
+      "action": "用户实机操作并截图，Mate 50 同步",
+      "to": "AI 解读 · 转入今日建议"
+    },
+    {
+      "scene": "live-group-3",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-20T10:22:17+08:00",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261120_102217124.png"
+      ],
+      "from": "健康洞察",
+      "action": "用户实机操作并截图，Mate 50 同步",
+      "to": "AI 解读 · 今日建议"
+    }
+  ],
+  "frameEvidence": {
+    "dial": {
+      "sources": {
+        "evidence/现场表盘.jpeg": "9abc7d54cec51ac3b6fbde96faa464f154d2fc912902436581cc0b6957ca09e6"
+      },
+      "renders": {
+        "screens/dial.webp": "096b828886ee375c7779ad472917013d93f989a0a0631d52fa7d4362263746bc"
+      },
+      "observedAt": "2026-11-19T17:24:42+08:00"
+    },
+    "launcher": {
+      "sources": {
+        "evidence/healthcheck-launcher.jpeg": "d36cecf3b94fced4c746c2889c685063139286a9f4f5b35055e17c31ef6830f4",
+        "evidence/healthcheck-launcher.json": "0014dfd764307736a60e07ef5e45e6681639f5a0fded8bf8c7242637f8716692"
+      },
+      "renders": {
+        "screens/launcher.webp": "46f52b888f435192fd67277a12b815fbaa316da93a77b510fa504ad76872b1d3"
+      },
+      "observedAt": "2026-11-19T17:39:20+08:00"
+    },
+    "launcher-heart": {
+      "sources": {
+        "evidence/heart-launcher.jpeg": "58a3200bc07d597992dad1019362b9ed72ce13e2fd74b4f56ef7e85044fc313c",
+        "evidence/heart-launcher.json": "56a8f64588095956b3d8bf059e101476ad9142d5d2d9b53eff7bbf10ab9de17f"
+      },
+      "renders": {
+        "screens/launcher-heart.webp": "22ed5a4872b20d96e4cb062b107b00ffb9e8876b7b3d5808e71ee1154c46bd23"
+      },
+      "observedAt": "2026-11-19T17:46:04+08:00"
+    },
+    "launcher-living": {
+      "sources": {
+        "evidence/healthyliving-launcher.jpeg": "52f331d12cae4d51c04dbc7369307a6533f70622117bc6d0efac2172af0bc9e3",
+        "evidence/healthyliving-launcher.json": "caef8bdef40e95d2be207ecfa00f75ac59cf8d5a2d6ae37422a45be659868ac5"
+      },
+      "renders": {
+        "screens/launcher-living.webp": "49a7430a0f97f6ebff212ba1a9b251b04b7b74e8e8325ed0d3122413148c8a2a"
+      },
+      "observedAt": "2026-11-19T17:46:22+08:00"
+    },
+    "launcher-cycle": {
+      "sources": {
+        "evidence/physiologyperiod-launcher.jpeg": "dfa5ff81b62a9addc1459a7df9a73fcf14f3eaff6cc3123f579994f63e4941e9",
+        "evidence/physiologyperiod-launcher.json": "762acdbeff8f7f9f7c22f67cd1b3572824a6f5c8f59661333522c80c051b1bd0"
+      },
+      "renders": {
+        "screens/launcher-cycle.webp": "dd0918ba55900ed2f2ac3eabea05eac2f00f42fa876260baaf07848563dfd446"
+      },
+      "observedAt": "2026-11-19T17:47:05+08:00"
+    },
+    "main": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261120_102135715.png": "5b53b8995b3f2cd5af4edb37efc59c6859bd0aeab4d4fb2b16febe34b8d507c0"
+      },
+      "renders": {
+        "screens/replay/20261120-live-055.webp": "25a33f8caab55666087d06065f0d4ad2cd1a7c15dc8ecc71ccc8a48801852efa"
+      }
+    },
+    "live-054": {
+      "sources": {
+        "evidence/replay/WatchApScreenshot_20261120_102132412.png": "e62a93fd012227e5343598ede17af08941dbe9f1995ecc43441b367d6c7ba417"
+      },
+      "renders": {
+        "screens/replay/20261120-live-054.webp": "af4306610dd16e17ac4a84da3ed6d9252ecbb9c73f524c4fd80b134bb33ffff8"
+      }
+    },
+    "live-055": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261120_102135715.png": "5b53b8995b3f2cd5af4edb37efc59c6859bd0aeab4d4fb2b16febe34b8d507c0"
+      },
+      "renders": {
+        "screens/replay/20261120-live-055.webp": "25a33f8caab55666087d06065f0d4ad2cd1a7c15dc8ecc71ccc8a48801852efa"
+      }
+    },
+    "live-056": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261120_102209209.png": "f7a0f11321c5718ee5e0a5b03b50b53080116d49d1dcbfa08705ad925c930e96"
+      },
+      "renders": {
+        "screens/replay/20261120-live-056.webp": "f70594888b2c198164cbc78a6e2df5d2d51e41e14ed02b3a4f052ce4fb8b895e"
+      }
+    },
+    "live-057": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261120_102143650.png": "31fd4e8a2b266d2efafaea2d7154b0f2afb7e4d9b4d38a22470cdbc1c1089619"
+      },
+      "renders": {
+        "screens/replay/20261120-live-057.webp": "087702f603a4b5fe2d7ebad06bb0f784afbf7fd4fcaeb6b73f2455600d687007"
+      }
+    },
+    "live-058": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261120_102152478.png": "dbf5941bd03d15eb6f6f1b21cf2ec8785f3eb85ec3697b253b51c85aee271c63"
+      },
+      "renders": {
+        "screens/replay/20261120-live-058.webp": "a61498e5e871f6d8f3fd6e0e3660dac8f7aa8db122cea90a00626f4344c7dcae"
+      }
+    },
+    "live-059": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_213113430.png": "7af259e3bb4c1eb1a18d9e7b93ce8060003a4625c7d5dbf434cd36a03e4e9c35"
+      },
+      "renders": {
+        "screens/replay/live-059.webp": "f9f944bc94392973c03b65e947e38867a258539f72063e613d0c21485453e81c"
+      },
+      "observedAt": "2026-11-19T21:31:13.430+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-060": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261120_102155426.png": "d3a38c6318cfa3966c2d3c09eb651dc1f048e0203e80ceb1d3aca9f6efef621d"
+      },
+      "renders": {
+        "screens/replay/20261120-live-060.webp": "48ab909b170f75401a010fd90c79295e5bfa2f831823b90b12e909318f52f42e"
+      }
+    },
+    "live-061": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261120_102156991.png": "20eedd44f4173bf1b6c493c56ed68e37003dceb317f86a64a7395bf89c551ad2"
+      },
+      "renders": {
+        "screens/replay/20261120-live-061.webp": "4a868b55effc1eb9499cd3662e18ab481876671d60ed1dc81ea2f1bec9ba5b22"
+      }
+    },
+    "live-062": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261120_102211791.png": "c49bd801a5be32ce84f30b3cd64f5520dd3e7f1602400afb1b660486f0615913"
+      },
+      "renders": {
+        "screens/replay/20261120-live-062.webp": "0101e6ccb70efeaec8dec8f7677ea18e4beca4a71e4d69d7b66bfe5232d21938"
+      }
+    },
+    "live-063": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_213133608.png": "087a8e728299861aba0ca9e498c21b1f1631dd612c1d0779d22788ac53df2514"
+      },
+      "renders": {
+        "screens/replay/live-063.webp": "276c9e74401a8a0c290c817654deb215966ace1a373f277aee507fa2ee63f62c"
+      },
+      "observedAt": "2026-11-19T21:31:33.608+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-064": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_213136650.png": "845bcde435eb98460c1f5495398a23cbb574e2a90d0ff322b36d8dbb22ce9d5d"
+      },
+      "renders": {
+        "screens/replay/live-064.webp": "8b2ed9725583f7bec9502a02f6d57b1721899da317d621a4a1b4aff6c874cf2d"
+      },
+      "observedAt": "2026-11-19T21:31:36.650+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "readiness": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261120_102137887.png": "cd95d5dda065c5c3cfb0234fd190f1dc967ee863937ac7f30a3eaca5ea8cffbc"
+      },
+      "renders": {
+        "screens/replay/20261120-readiness.webp": "76bd796d7d0e331b3ea4024ef6820ed22148b5a54c344d1159dbd9f9bb067ec9"
+      }
+    },
+    "sleep-score": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261120_102140010.png": "fd8195681b15f41e1ab102cc6dca5021a9a16c0e7b6a46c5a25c54b1f4adb821"
+      },
+      "renders": {
+        "screens/replay/20261120-sleep-score.webp": "d5d331f0c76471a0929b7bcfe386613fc27267fe6a77c75dda5e5ea53210dd47"
+      }
+    },
+    "deep-sleep-ratio": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261120_102141871.png": "5093e57f742407ad1abbc15eaef2720467cc8391c33e11de6d1d1352bd38a6c9"
+      },
+      "renders": {
+        "screens/replay/20261120-deep-sleep-ratio.webp": "74b9ceffbacca3fa9145f45af906e5bf256612fee00ec91ea085392ae325ba09"
+      }
+    },
+    "sleep-hours": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261120_102153960.png": "e1df1e50c944945ebb2f0b6adc592fdf99ba442f5d1858a71f25fe800d01afe9"
+      },
+      "renders": {
+        "screens/replay/20261120-sleep-hours.webp": "59a3d7821d8966e8460135b45901c8a5da94d07d671518cee9c962c68a16bca4"
+      }
+    },
+    "ai-loading": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261120_102205764.png": "4ed7b693eb4cca0dad2a6dc12c4016bec7cb5dfa1d887b4d81011aa985a5783e"
+      },
+      "renders": {
+        "screens/replay/20261120-ai-loading.webp": "663f5a798b6e8404035fdb10136da21f16e3f016889a329e887c8b0a9aae850a"
+      }
+    },
+    "ai-advice-intro": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261120_102214457.png": "803508d64d14a0bcb2eb4ca001ddb42c9286c3c8859b3d711611066882b5e780"
+      },
+      "renders": {
+        "screens/replay/20261120-ai-advice-intro.webp": "7c95439779400aa0406c3048c089d20e36ee2c54a25dce08f734dc73fa585905"
+      }
+    },
+    "ai-advice": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261120_102217124.png": "0c686de4f4f41c63888eba16dfecaf47d4372ca54e4f2a552fcd5c6597671b3d"
+      },
+      "renders": {
+        "screens/replay/20261120-ai-advice.webp": "fa3ea0c8ef7e59e8f01d989627d627fc40d06c4faefb0f68094f76f7cfabed5b"
+      }
+    }
+  }
+}

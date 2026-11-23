@@ -1,0 +1,134 @@
+{
+  "id": "huawei-watch6-phone-complete",
+  "name": "华为 WATCH 6、运动健康与创新研究全功能演示",
+  "navigation": {
+    "default": "health",
+    "groups": [
+      {
+        "id": "research",
+        "label": "创新研究 App",
+        "home": {
+          "feature": "research-navigation",
+          "page": "home",
+          "device": "phone"
+        }
+      },
+      {
+        "id": "health",
+        "label": "运动健康 App",
+        "home": {
+          "feature": "huawei-health-today-devices",
+          "page": "today",
+          "device": "phone"
+        }
+      },
+      {
+        "id": "watch",
+        "label": "手表",
+        "home": {
+          "feature": "watch6-heart-rate",
+          "page": "@face",
+          "device": "watch"
+        }
+      }
+    ],
+    "links": [
+      {
+        "from": {
+          "feature": "huawei-health-today-devices",
+          "page": "today-insight",
+          "device": "phone"
+        },
+        "to": {
+          "feature": "health-insight-phone",
+          "page": "digest",
+          "device": "phone"
+        },
+        "label": "完整健康解读"
+      },
+      {
+        "from": {
+          "feature": "huawei-health-today-devices",
+          "page": "today-heart",
+          "device": "phone"
+        },
+        "to": {
+          "feature": "heart-health",
+          "page": "day",
+          "device": "phone"
+        },
+        "label": "心脏健康详细记录"
+      },
+      {
+        "from": {
+          "feature": "huawei-health-today-devices",
+          "page": "today-glucose",
+          "device": "phone"
+        },
+        "to": {
+          "feature": "blood-glucose",
+          "page": "day",
+          "device": "phone"
+        },
+        "label": "血糖图表与明细"
+      },
+      {
+        "from": {
+          "feature": "huawei-health-today-devices",
+          "page": "today-profile-micro",
+          "device": "phone"
+        },
+        "to": {
+          "feature": "micro-checkup",
+          "page": "list",
+          "device": "phone"
+        },
+        "label": "微体检报告与详情"
+      }
+    ]
+  },
+  "features": [
+    "huawei-health-today-devices/feature.json",
+    "health-insight-phone/feature.json",
+    "heart-health/feature.json",
+    "blood-glucose/feature.json",
+    "micro-checkup/feature.json",
+    "research-navigation/feature.json",
+    "research-glucose/feature.json",
+    "research-heart/feature.json",
+    "research-blood-pressure/feature.json",
+    "research-artery/feature.json",
+    "research-uric/feature.json",
+    "research-lung/feature.json",
+    "research-altitude/feature.json",
+    "research-liver/feature.json",
+    "research-mood/feature.json",
+    "research-ambbp/feature.json",
+    "research-hypertension/feature.json",
+    "research-coronary/feature.json",
+    "research-sportbp/feature.json",
+    "research-apnea/feature.json",
+    "research-female/feature.json",
+    "research-hearing/feature.json",
+    "research-square-p1/feature.json",
+    "research-square-p2/feature.json",
+    "research-square-p3/feature.json",
+    "watch6-heart-rate/feature.json",
+    "watch6-emotions/feature.json",
+    "watch6-healthy-living/feature.json",
+    "watch6-health-check/feature.json",
+    "watch6-research/feature.json",
+    "watch6-cycle/feature.json",
+    "watch6-insight/feature.json",
+    "watch6-exercise/feature.json",
+    "watch6-records/feature.json",
+    "watch6-training/feature.json",
+    "watch6-activity/feature.json",
+    "watch6-ecg/feature.json",
+    "watch6-pulse-wave/feature.json",
+    "watch6-oxygen/feature.json",
+    "watch6-altitude-care/feature.json",
+    "watch6-temperature/feature.json"
+  ],
+  "stylesFile": "styles.json"
+}

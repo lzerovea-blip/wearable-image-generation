@@ -1,0 +1,112 @@
+{
+  "id": "research-uric",
+  "name": "高尿酸研究",
+  "phoneProfile": "mate50",
+  "entries": {},
+  "pages": {
+    "home": {
+      "device": "phone",
+      "title": "创新研究首页",
+      "parent": "@home",
+      "capture": {
+        "header": "screens/home-h.webp",
+        "content": "screens/home-c.webp",
+        "footer": "screens/home-f.webp",
+        "contentLabel": "创新研究首页",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "高尿酸研究",
+            "page": "entry-uric-main",
+            "box": [
+              2.8493,
+              17.7267,
+              94.2096,
+              4.3607
+            ]
+          }
+        ]
+      }
+    },
+    "entry-uric": {
+      "device": "phone",
+      "title": "高尿酸研究",
+      "parent": "home",
+      "capture": {
+        "content": "screens/entry-uric-c.webp",
+        "contentLabel": "高尿酸研究",
+        "hotspots": []
+      }
+    },
+    "entry-uric-main": {
+      "device": "phone",
+      "title": "研究主页",
+      "parent": "home",
+      "capture": {
+        "header": "screens/entry-uric-main-h.webp",
+        "content": "screens/entry-uric-main-c.webp",
+        "footer": "screens/entry-uric-main-f.webp",
+        "contentLabel": "研究主页",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.9522,
+              0.0,
+              11.1213,
+              0.7401
+            ]
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "box": [
+              8.1801,
+              21.5461,
+              83.6397,
+              3.2621
+            ],
+            "label": "启动新一轮评估"
+          }
+        ]
+      }
+    }
+  },
+  "phoneHome": "home",
+  "phoneHomeLabel": "创新研究首页",
+  "sharedPhoneHome": "huawei-research",
+  "scenes": [
+    {
+      "id": "explore",
+      "title": "高尿酸研究",
+      "hint": "点击实机界面进入详情，上下滑动浏览，右滑返回。",
+      "start": {
+        "phone": "entry-uric-main"
+      },
+      "keys": [
+        [
+          "phone",
+          "entry-uric",
+          "高尿酸研究"
+        ],
+        [
+          "phone",
+          "entry-uric-main",
+          "研究主页"
+        ]
+      ],
+      "phonePageIndex": [
+        "entry-uric",
+        "entry-uric-main"
+      ]
+    }
+  ],
+  "initialView": {
+    "scene": "explore",
+    "device": "phone",
+    "page": "entry-uric-main"
+  }
+}

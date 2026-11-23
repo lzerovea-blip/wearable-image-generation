@@ -1,0 +1,2028 @@
+{
+  "id": "research-square-p2",
+  "name": "情绪与睡眠改善计划",
+  "phoneProfile": "mate50",
+  "entries": {},
+  "pages": {
+    "home": {
+      "device": "phone",
+      "title": "创新研究首页",
+      "parent": "@home",
+      "capture": {
+        "header": "screens/home-h.webp",
+        "content": "screens/home-c.webp",
+        "footer": "screens/home-f.webp",
+        "contentLabel": "创新研究首页",
+        "hotspots": []
+      }
+    },
+    "plaza": {
+      "device": "phone",
+      "title": "研究广场",
+      "parent": "home",
+      "capture": {
+        "header": "screens/plaza-h.webp",
+        "content": "screens/plaza-c.webp",
+        "footer": "screens/plaza-f.webp",
+        "contentLabel": "研究广场",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              2.2059,
+              50.3937,
+              11.8566,
+              43.7008
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "中国居民睡眠健康研究",
+            "page": "preview-square-p1",
+            "box": [
+              2.8493,
+              0.0706,
+              94.2096,
+              32.8158
+            ],
+            "openFeature": {
+              "id": "research-square-p1",
+              "page": "square-p1"
+            }
+          },
+          {
+            "zone": "content",
+            "label": "情绪与睡眠改善计划",
+            "page": "square-p2",
+            "box": [
+              2.8493,
+              34.1214,
+              94.2096,
+              32.8158
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "心血管健康趋势研究",
+            "page": "preview-square-p3",
+            "box": [
+              2.8493,
+              68.2075,
+              94.2096,
+              31.7925
+            ],
+            "openFeature": {
+              "id": "research-square-p3",
+              "page": "square-p3"
+            }
+          }
+        ]
+      }
+    },
+    "preview-square-p1": {
+      "device": "phone",
+      "title": "中国居民睡眠健康研究",
+      "parent": "plaza",
+      "capture": {
+        "content": "screens/preview-square-p1-c.webp",
+        "contentLabel": "中国居民睡眠健康研究",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              2.2978,
+              5.2083,
+              11.489,
+              4.75
+            ]
+          }
+        ]
+      }
+    },
+    "preview-square-p3": {
+      "device": "phone",
+      "title": "心血管健康趋势研究",
+      "parent": "plaza",
+      "capture": {
+        "content": "screens/preview-square-p3-c.webp",
+        "contentLabel": "心血管健康趋势研究",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              2.2978,
+              5.2083,
+              11.489,
+              4.75
+            ]
+          }
+        ]
+      }
+    },
+    "square-p2": {
+      "device": "phone",
+      "title": "情绪与睡眠改善计划",
+      "parent": "plaza",
+      "capture": {
+        "header": "screens/square-p2-h.webp",
+        "content": "screens/square-p2-c.webp",
+        "footer": "screens/square-p2-f.webp",
+        "contentLabel": "情绪与睡眠改善计划",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              56.6667,
+              5.3309,
+              21.1111
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "去完成",
+            "page": "square-p2-tasks",
+            "box": [
+              6.0662,
+              16.9794,
+              87.8676,
+              3.7527
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "去填写",
+            "page": "square-p2-survey",
+            "box": [
+              75.5515,
+              38.1421,
+              18.3824,
+              2.5531
+            ]
+          },
+          {
+            "zone": "header",
+            "label": "更多",
+            "page": "square-p2-menu",
+            "box": [
+              88.3272,
+              56.6667,
+              4.2279,
+              17.037
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "立即测评",
+            "page": "square-p2-test",
+            "box": [
+              6.0662,
+              67.2408,
+              36.1213,
+              3.0145
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "了解详情",
+            "page": "square-p2-article",
+            "box": [
+              6.0662,
+              93.5097,
+              36.1213,
+              2.9529
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "焦虑",
+            "page": "square-p2-tab1",
+            "box": [
+              26.1949,
+              47.1855,
+              21.7831,
+              2.6761
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "抑郁",
+            "page": "square-p2-tab2",
+            "box": [
+              49.5404,
+              47.1855,
+              21.7831,
+              2.6761
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "睡眠质量",
+            "page": "square-p2-tab3",
+            "box": [
+              72.9779,
+              47.1855,
+              21.6912,
+              2.6761
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          }
+        ],
+        "swipe": {
+          "left": "square-p2-strip"
+        },
+        "swipeAreas": {
+          "left": [
+            0,
+            46.4165,
+            100,
+            50.6306
+          ]
+        },
+        "swipeAreaZones": {
+          "left": "content"
+        }
+      }
+    },
+    "square-p2-tasks": {
+      "device": "phone",
+      "title": "待完成任务",
+      "parent": "square-p2",
+      "capture": {
+        "header": "screens/square-p2-tasks-h.webp",
+        "content": "screens/square-p2-tasks-c.webp",
+        "footer": "screens/square-p2-tasks-f.webp",
+        "contentLabel": "待完成任务",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              56.6667,
+              5.3309,
+              21.1111
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "情绪与睡眠改善计划问卷",
+            "page": "square-p2-tasks-item1",
+            "box": [
+              75.5515,
+              15.76,
+              18.3824,
+              3.44
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "抑郁自评量表",
+            "page": "square-p2-tasks-item2",
+            "box": [
+              75.5515,
+              30.88,
+              18.3824,
+              3.36
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "焦虑自评量表",
+            "page": "square-p2-tasks-item3",
+            "box": [
+              75.5515,
+              38.28,
+              18.3824,
+              3.32
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "匹兹堡睡眠质量指数",
+            "page": "square-p2-tasks-item4",
+            "box": [
+              75.5515,
+              45.64,
+              18.3824,
+              3.36
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "压力知觉量表",
+            "page": "square-p2-tasks-item5",
+            "box": [
+              75.5515,
+              52.92,
+              18.3824,
+              3.48
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "Epworth嗜睡量表",
+            "page": "square-p2-tasks-item6",
+            "box": [
+              75.5515,
+              60.32,
+              18.3824,
+              3.36
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "阿森斯失眠量表",
+            "page": "square-p2-tasks-item7",
+            "box": [
+              75.5515,
+              67.72,
+              18.3824,
+              3.36
+            ]
+          }
+        ]
+      }
+    },
+    "square-p2-tasks-item1": {
+      "device": "phone",
+      "title": "情绪与睡眠改善计划问卷",
+      "parent": "square-p2-tasks",
+      "capture": {
+        "header": "screens/square-p2-tasks-item1-h.webp",
+        "content": "screens/square-p2-tasks-item1-c.webp",
+        "footer": "screens/square-p2-tasks-item1-f.webp",
+        "contentLabel": "情绪与睡眠改善计划问卷",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.9522,
+              56.6667,
+              5.7904,
+              21.1111
+            ]
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "box": [
+              24.3566,
+              99.2466,
+              51.1949,
+              0.6202
+            ],
+            "label": "提交"
+          }
+        ]
+      }
+    },
+    "square-p2-tasks-item2": {
+      "device": "phone",
+      "title": "抑郁自评量表",
+      "parent": "square-p2-tasks",
+      "capture": {
+        "content": "screens/square-p2-tasks-item2-c.webp",
+        "contentLabel": "抑郁自评量表",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.6287,
+              6.4583,
+              5.6066,
+              2.2917
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "开始测评",
+            "page": "square-p2-tasks-item2-first",
+            "box": [
+              6.0662,
+              48.0,
+              87.8676,
+              4.9167
+            ]
+          }
+        ]
+      }
+    },
+    "square-p2-tasks-item2-first": {
+      "device": "phone",
+      "title": "抑郁自评量表 · 题目",
+      "parent": "square-p2-tasks-item2",
+      "capture": {
+        "header": "screens/square-p2-tasks-item2-first-h.webp",
+        "content": "screens/square-p2-tasks-item2-first-c.webp",
+        "footer": "screens/square-p2-tasks-item2-first-f.webp",
+        "contentLabel": "抑郁自评量表 · 题目",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              56.6667,
+              5.3309,
+              21.1111
+            ]
+          }
+        ]
+      }
+    },
+    "square-p2-tasks-item3": {
+      "device": "phone",
+      "title": "焦虑自评量表",
+      "parent": "square-p2-tasks",
+      "capture": {
+        "content": "screens/square-p2-tasks-item3-c.webp",
+        "contentLabel": "焦虑自评量表",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.6287,
+              6.4583,
+              5.6066,
+              2.2917
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "开始测评",
+            "page": "square-p2-tasks-item3-first",
+            "box": [
+              6.0662,
+              48.0,
+              87.8676,
+              4.9167
+            ]
+          }
+        ]
+      }
+    },
+    "square-p2-tasks-item3-first": {
+      "device": "phone",
+      "title": "焦虑自评量表 · 题目",
+      "parent": "square-p2-tasks-item3",
+      "capture": {
+        "header": "screens/square-p2-tasks-item3-first-h.webp",
+        "content": "screens/square-p2-tasks-item3-first-c.webp",
+        "footer": "screens/square-p2-tasks-item3-first-f.webp",
+        "contentLabel": "焦虑自评量表 · 题目",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              56.6667,
+              5.3309,
+              21.1111
+            ]
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "box": [
+              24.3566,
+              99.1527,
+              51.1949,
+              0.6974
+            ],
+            "label": "提交"
+          }
+        ]
+      }
+    },
+    "square-p2-tasks-item4": {
+      "device": "phone",
+      "title": "匹兹堡睡眠质量指数",
+      "parent": "square-p2-tasks",
+      "capture": {
+        "content": "screens/square-p2-tasks-item4-c.webp",
+        "contentLabel": "匹兹堡睡眠质量指数",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.6287,
+              6.4583,
+              5.6066,
+              2.2917
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "开始测评",
+            "page": "square-p2-tasks-item4-first",
+            "box": [
+              6.0662,
+              43.1667,
+              87.8676,
+              4.9583
+            ]
+          }
+        ]
+      }
+    },
+    "square-p2-tasks-item4-first": {
+      "device": "phone",
+      "title": "匹兹堡睡眠质量指数 · 题目",
+      "parent": "square-p2-tasks-item4",
+      "capture": {
+        "header": "screens/square-p2-tasks-item4-first-h.webp",
+        "content": "screens/square-p2-tasks-item4-first-c.webp",
+        "footer": "screens/square-p2-tasks-item4-first-f.webp",
+        "contentLabel": "匹兹堡睡眠质量指数 · 题目",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              56.6667,
+              5.3309,
+              21.1111
+            ]
+          }
+        ]
+      }
+    },
+    "square-p2-tasks-item5": {
+      "device": "phone",
+      "title": "压力知觉量表",
+      "parent": "square-p2-tasks",
+      "capture": {
+        "content": "screens/square-p2-tasks-item5-c.webp",
+        "contentLabel": "压力知觉量表",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.6287,
+              6.4583,
+              5.6066,
+              2.2917
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "开始测评",
+            "page": "square-p2-tasks-item5-first",
+            "box": [
+              6.0662,
+              50.375,
+              87.8676,
+              4.9583
+            ]
+          }
+        ]
+      }
+    },
+    "square-p2-tasks-item5-first": {
+      "device": "phone",
+      "title": "压力知觉量表 · 题目",
+      "parent": "square-p2-tasks-item5",
+      "capture": {
+        "header": "screens/square-p2-tasks-item5-first-h.webp",
+        "content": "screens/square-p2-tasks-item5-first-c.webp",
+        "footer": "screens/square-p2-tasks-item5-first-f.webp",
+        "contentLabel": "压力知觉量表 · 题目",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              56.6667,
+              5.3309,
+              21.1111
+            ]
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "box": [
+              24.3566,
+              98.9611,
+              51.1949,
+              0.8552
+            ],
+            "label": "提交"
+          }
+        ]
+      }
+    },
+    "square-p2-tasks-item6": {
+      "device": "phone",
+      "title": "Epworth嗜睡量表",
+      "parent": "square-p2-tasks",
+      "capture": {
+        "content": "screens/square-p2-tasks-item6-c.webp",
+        "contentLabel": "Epworth嗜睡量表",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.6287,
+              6.4583,
+              5.6066,
+              2.2917
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "开始测评",
+            "page": "square-p2-tasks-item6-first",
+            "box": [
+              6.0662,
+              43.1667,
+              87.8676,
+              4.9583
+            ]
+          }
+        ]
+      }
+    },
+    "square-p2-tasks-item6-first": {
+      "device": "phone",
+      "title": "Epworth嗜睡量表 · 题目",
+      "parent": "square-p2-tasks-item6",
+      "capture": {
+        "header": "screens/square-p2-tasks-item6-first-h.webp",
+        "content": "screens/square-p2-tasks-item6-first-c.webp",
+        "footer": "screens/square-p2-tasks-item6-first-f.webp",
+        "contentLabel": "Epworth嗜睡量表 · 题目",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              56.6667,
+              5.3309,
+              21.1111
+            ]
+          }
+        ]
+      }
+    },
+    "square-p2-tasks-item7": {
+      "device": "phone",
+      "title": "阿森斯失眠量表",
+      "parent": "square-p2-tasks",
+      "capture": {
+        "content": "screens/square-p2-tasks-item7-c.webp",
+        "contentLabel": "阿森斯失眠量表",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.6287,
+              6.4583,
+              5.6066,
+              2.2917
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "开始测评",
+            "page": "square-p2-tasks-item7-first",
+            "box": [
+              6.0662,
+              43.1667,
+              87.8676,
+              4.9583
+            ]
+          }
+        ]
+      }
+    },
+    "square-p2-tasks-item7-first": {
+      "device": "phone",
+      "title": "阿森斯失眠量表 · 题目",
+      "parent": "square-p2-tasks-item7",
+      "capture": {
+        "header": "screens/square-p2-tasks-item7-first-h.webp",
+        "content": "screens/square-p2-tasks-item7-first-c.webp",
+        "footer": "screens/square-p2-tasks-item7-first-f.webp",
+        "contentLabel": "阿森斯失眠量表 · 题目",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              56.6667,
+              5.3309,
+              21.1111
+            ]
+          }
+        ]
+      }
+    },
+    "square-p2-survey": {
+      "device": "phone",
+      "title": "健康调查",
+      "parent": "square-p2",
+      "capture": {
+        "header": "screens/square-p2-survey-h.webp",
+        "content": "screens/square-p2-survey-c.webp",
+        "footer": "screens/square-p2-survey-f.webp",
+        "contentLabel": "健康调查",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.9522,
+              56.6667,
+              5.7904,
+              21.1111
+            ]
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "box": [
+              24.3566,
+              99.2466,
+              51.1949,
+              0.6202
+            ],
+            "label": "提交"
+          }
+        ]
+      }
+    },
+    "square-p2-menu": {
+      "device": "phone",
+      "title": "更多",
+      "parent": "square-p2",
+      "capture": {
+        "content": "screens/square-p2-menu-c.webp",
+        "contentLabel": "更多",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              6.375,
+              5.3309,
+              2.375
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "隐私管理",
+            "page": "square-p2-menu-privacy",
+            "box": [
+              59.6507,
+              11.1667,
+              21.5074,
+              5.9167
+            ]
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "box": [
+              59.6507,
+              17.0833,
+              17.2794,
+              6.0
+            ],
+            "label": "退出研究"
+          }
+        ]
+      }
+    },
+    "square-p2-menu-privacy": {
+      "device": "phone",
+      "title": "隐私管理",
+      "parent": "square-p2-menu",
+      "capture": {
+        "content": "screens/square-p2-menu-privacy-c.webp",
+        "contentLabel": "隐私管理",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              6.4583,
+              5.3309,
+              2.4167
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "用户知情同意书",
+            "page": "square-p2-menu-privacy-consent",
+            "box": [
+              6.0662,
+              30.2917,
+              30.239,
+              6.0417
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "关于情绪与睡眠改善计划与隐私的声明",
+            "page": "square-p2-menu-privacy-notice",
+            "box": [
+              6.0662,
+              36.2083,
+              76.9301,
+              6.0
+            ]
+          }
+        ]
+      }
+    },
+    "square-p2-menu-privacy-consent": {
+      "device": "phone",
+      "title": "用户知情同意书",
+      "parent": "square-p2-menu-privacy",
+      "capture": {
+        "content": "screens/square-p2-menu-privacy-consent-c.webp",
+        "contentLabel": "用户知情同意书",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              6.375,
+              5.3309,
+              2.375
+            ]
+          }
+        ],
+        "swipe": {
+          "up": "square-p2-menu-privacy-consent-section1"
+        }
+      }
+    },
+    "square-p2-menu-privacy-consent-section1": {
+      "device": "phone",
+      "title": "用户知情同意书 · 第2屏",
+      "parent": "square-p2-menu-privacy",
+      "capture": {
+        "content": "screens/square-p2-menu-privacy-consent-section1-c.webp",
+        "contentLabel": "用户知情同意书 · 第2屏",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              6.375,
+              5.3309,
+              2.375
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "square-p2-menu-privacy-consent",
+          "up": "square-p2-menu-privacy-consent-section2"
+        }
+      }
+    },
+    "square-p2-menu-privacy-consent-section2": {
+      "device": "phone",
+      "title": "用户知情同意书 · 第3屏",
+      "parent": "square-p2-menu-privacy",
+      "capture": {
+        "content": "screens/square-p2-menu-privacy-consent-section2-c.webp",
+        "contentLabel": "用户知情同意书 · 第3屏",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              6.375,
+              5.3309,
+              2.375
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "square-p2-menu-privacy-consent-section1",
+          "up": "square-p2-menu-privacy-consent-section3"
+        }
+      }
+    },
+    "square-p2-menu-privacy-consent-section3": {
+      "device": "phone",
+      "title": "用户知情同意书 · 第4屏",
+      "parent": "square-p2-menu-privacy",
+      "capture": {
+        "content": "screens/square-p2-menu-privacy-consent-section3-c.webp",
+        "contentLabel": "用户知情同意书 · 第4屏",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              6.375,
+              5.3309,
+              2.375
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "square-p2-menu-privacy-consent-section2",
+          "up": "square-p2-menu-privacy-consent-section4"
+        }
+      }
+    },
+    "square-p2-menu-privacy-consent-section4": {
+      "device": "phone",
+      "title": "用户知情同意书 · 第5屏",
+      "parent": "square-p2-menu-privacy",
+      "capture": {
+        "content": "screens/square-p2-menu-privacy-consent-section4-c.webp",
+        "contentLabel": "用户知情同意书 · 第5屏",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              6.375,
+              5.3309,
+              2.375
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "square-p2-menu-privacy-consent-section3"
+        }
+      }
+    },
+    "square-p2-menu-privacy-notice": {
+      "device": "phone",
+      "title": "关于情绪与睡眠改善计划与隐私的声明",
+      "parent": "square-p2-menu-privacy",
+      "capture": {
+        "header": "screens/square-p2-menu-privacy-notice-h.webp",
+        "content": "screens/square-p2-menu-privacy-notice-c.webp",
+        "footer": "screens/square-p2-menu-privacy-notice-f.webp",
+        "contentLabel": "关于情绪与睡眠改善计划与隐私的声明",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              0.0,
+              40.0,
+              14.8897,
+              60.0
+            ]
+          }
+        ]
+      }
+    },
+    "square-p2-test": {
+      "device": "phone",
+      "title": "压力知觉量表",
+      "parent": "square-p2",
+      "capture": {
+        "content": "screens/square-p2-test-c.webp",
+        "contentLabel": "压力知觉量表",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.6287,
+              6.4583,
+              5.6066,
+              2.2917
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "开始测评",
+            "page": "square-p2-tasks-item5-first",
+            "box": [
+              6.0662,
+              50.375,
+              87.8676,
+              4.9583
+            ]
+          }
+        ]
+      }
+    },
+    "square-p2-article": {
+      "device": "phone",
+      "title": "健康知识",
+      "parent": "square-p2",
+      "capture": {
+        "header": "screens/square-p2-article-h.webp",
+        "content": "screens/square-p2-article-c.webp",
+        "footer": "screens/square-p2-article-f.webp",
+        "contentLabel": "健康知识",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              56.6667,
+              5.3309,
+              21.1111
+            ]
+          }
+        ]
+      }
+    },
+    "square-p2-tab1": {
+      "device": "phone",
+      "title": "焦虑测评",
+      "parent": "square-p2",
+      "capture": {
+        "header": "screens/square-p2-tab1-h.webp",
+        "content": "screens/square-p2-tab1-c.webp",
+        "footer": "screens/square-p2-tab1-f.webp",
+        "contentLabel": "焦虑测评",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              56.6667,
+              5.3309,
+              21.1111
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "立即测评",
+            "page": "square-p2-tab1-test",
+            "box": [
+              6.0662,
+              67.2408,
+              36.1213,
+              3.0145
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "压力",
+            "page": "square-p2",
+            "box": [
+              2.8493,
+              47.1855,
+              21.7831,
+              2.6761
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "抑郁",
+            "page": "square-p2-tab2",
+            "box": [
+              49.5404,
+              47.1855,
+              21.7831,
+              2.6761
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "睡眠质量",
+            "page": "square-p2-tab3",
+            "box": [
+              72.9779,
+              47.1855,
+              21.6912,
+              2.6761
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "失眠状况",
+            "page": "square-p2-tab4",
+            "box": [
+              96.3235,
+              47.1855,
+              3.6765,
+              2.6761
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          }
+        ]
+      }
+    },
+    "square-p2-tab1-test": {
+      "device": "phone",
+      "title": "焦虑自评量表",
+      "parent": "square-p2-tab1",
+      "capture": {
+        "content": "screens/square-p2-tab1-test-c.webp",
+        "contentLabel": "焦虑自评量表",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.6287,
+              6.4583,
+              5.6066,
+              2.2917
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "开始测评",
+            "page": "square-p2-tasks-item3-first",
+            "box": [
+              6.0662,
+              48.0,
+              87.8676,
+              4.9167
+            ]
+          }
+        ]
+      }
+    },
+    "square-p2-tab2": {
+      "device": "phone",
+      "title": "抑郁测评",
+      "parent": "square-p2",
+      "capture": {
+        "header": "screens/square-p2-tab2-h.webp",
+        "content": "screens/square-p2-tab2-c.webp",
+        "footer": "screens/square-p2-tab2-f.webp",
+        "contentLabel": "抑郁测评",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              56.6667,
+              5.3309,
+              21.1111
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "立即测评",
+            "page": "square-p2-tab2-test",
+            "box": [
+              6.0662,
+              67.2408,
+              36.1213,
+              3.0145
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "压力",
+            "page": "square-p2",
+            "box": [
+              2.8493,
+              47.1855,
+              21.7831,
+              2.6761
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "焦虑",
+            "page": "square-p2-tab1",
+            "box": [
+              26.1949,
+              47.1855,
+              21.7831,
+              2.6761
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "睡眠质量",
+            "page": "square-p2-tab3",
+            "box": [
+              72.9779,
+              47.1855,
+              21.6912,
+              2.6761
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "失眠状况",
+            "page": "square-p2-tab4",
+            "box": [
+              96.3235,
+              47.1855,
+              3.6765,
+              2.6761
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          }
+        ]
+      }
+    },
+    "square-p2-tab2-test": {
+      "device": "phone",
+      "title": "抑郁自评量表",
+      "parent": "square-p2-tab2",
+      "capture": {
+        "content": "screens/square-p2-tab2-test-c.webp",
+        "contentLabel": "抑郁自评量表",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.6287,
+              6.4583,
+              5.6066,
+              2.2917
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "开始测评",
+            "page": "square-p2-tasks-item2-first",
+            "box": [
+              6.0662,
+              48.0,
+              87.8676,
+              4.9167
+            ]
+          }
+        ]
+      }
+    },
+    "square-p2-tab3": {
+      "device": "phone",
+      "title": "睡眠质量测评",
+      "parent": "square-p2",
+      "capture": {
+        "header": "screens/square-p2-tab3-h.webp",
+        "content": "screens/square-p2-tab3-c.webp",
+        "footer": "screens/square-p2-tab3-f.webp",
+        "contentLabel": "睡眠质量测评",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              56.6667,
+              5.3309,
+              21.1111
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "立即测评",
+            "page": "square-p2-tab3-test",
+            "box": [
+              6.0662,
+              67.2408,
+              36.1213,
+              3.0145
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "压力",
+            "page": "square-p2",
+            "box": [
+              2.8493,
+              47.1855,
+              21.7831,
+              2.6761
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "焦虑",
+            "page": "square-p2-tab1",
+            "box": [
+              26.1949,
+              47.1855,
+              21.7831,
+              2.6761
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "抑郁",
+            "page": "square-p2-tab2",
+            "box": [
+              49.5404,
+              47.1855,
+              21.7831,
+              2.6761
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "失眠状况",
+            "page": "square-p2-tab4",
+            "box": [
+              96.3235,
+              47.1855,
+              3.6765,
+              2.6761
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          }
+        ]
+      }
+    },
+    "square-p2-tab3-test": {
+      "device": "phone",
+      "title": "匹兹堡睡眠质量指数",
+      "parent": "square-p2-tab3",
+      "capture": {
+        "content": "screens/square-p2-tab3-test-c.webp",
+        "contentLabel": "匹兹堡睡眠质量指数",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.6287,
+              6.4583,
+              5.6066,
+              2.2917
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "开始测评",
+            "page": "square-p2-tasks-item4-first",
+            "box": [
+              6.0662,
+              43.1667,
+              87.8676,
+              4.9583
+            ]
+          }
+        ]
+      }
+    },
+    "square-p2-tab4": {
+      "device": "phone",
+      "title": "失眠状况测评",
+      "parent": "square-p2",
+      "capture": {
+        "header": "screens/square-p2-tab4-h.webp",
+        "content": "screens/square-p2-tab4-c.webp",
+        "footer": "screens/square-p2-tab4-f.webp",
+        "contentLabel": "失眠状况测评",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              56.6667,
+              5.3309,
+              21.1111
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "立即测评",
+            "page": "square-p2-tab4-test",
+            "box": [
+              6.0662,
+              67.2408,
+              36.1213,
+              3.0145
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "焦虑",
+            "page": "square-p2-tab1",
+            "box": [
+              0.0,
+              47.1855,
+              1.5625,
+              2.6761
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "抑郁",
+            "page": "square-p2-tab2",
+            "box": [
+              3.125,
+              47.1855,
+              21.7831,
+              2.6761
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "睡眠质量",
+            "page": "square-p2-tab3",
+            "box": [
+              26.4706,
+              47.1855,
+              21.7831,
+              2.6761
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "嗜睡",
+            "page": "square-p2-tab5",
+            "box": [
+              73.4375,
+              47.1855,
+              21.5074,
+              2.6761
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          }
+        ]
+      }
+    },
+    "square-p2-strip": {
+      "device": "phone",
+      "title": "更多测评分类",
+      "parent": "square-p2",
+      "capture": {
+        "content": "screens/square-p2-strip-c.webp",
+        "contentLabel": "更多测评分类",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              6.375,
+              5.3309,
+              2.375
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "失眠状况",
+            "page": "square-p2-tab4",
+            "box": [
+              50.0919,
+              75.1667,
+              21.5074,
+              3.625
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "嗜睡",
+            "page": "square-p2-tab5",
+            "box": [
+              73.4375,
+              75.1667,
+              21.5074,
+              3.625
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "焦虑",
+            "page": "square-p2-tab1",
+            "box": [
+              0.0,
+              75.1667,
+              1.5625,
+              3.625
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "抑郁",
+            "page": "square-p2-tab2",
+            "box": [
+              3.125,
+              75.1667,
+              21.7831,
+              3.625
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "睡眠质量",
+            "page": "square-p2-tab3",
+            "box": [
+              26.4706,
+              75.1667,
+              21.7831,
+              3.625
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          }
+        ],
+        "swipe": {
+          "right": "square-p2"
+        },
+        "swipeAreas": {
+          "right": [
+            0,
+            74.125,
+            100,
+            79.8333
+          ]
+        },
+        "swipeAreaZones": {
+          "right": "content"
+        }
+      }
+    },
+    "square-p2-tab4-test": {
+      "device": "phone",
+      "title": "阿森斯失眠量表",
+      "parent": "square-p2-tab4",
+      "capture": {
+        "content": "screens/square-p2-tab4-test-c.webp",
+        "contentLabel": "阿森斯失眠量表",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.6287,
+              6.4583,
+              5.6066,
+              2.2917
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "开始测评",
+            "page": "square-p2-tasks-item7-first",
+            "box": [
+              6.0662,
+              43.1667,
+              87.8676,
+              4.9583
+            ]
+          }
+        ]
+      }
+    },
+    "square-p2-tab5": {
+      "device": "phone",
+      "title": "嗜睡测评",
+      "parent": "square-p2",
+      "capture": {
+        "header": "screens/square-p2-tab5-h.webp",
+        "content": "screens/square-p2-tab5-c.webp",
+        "footer": "screens/square-p2-tab5-f.webp",
+        "contentLabel": "嗜睡测评",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.3529,
+              56.6667,
+              5.3309,
+              21.1111
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "立即测评",
+            "page": "square-p2-tab5-test",
+            "box": [
+              6.0662,
+              67.2408,
+              36.1213,
+              3.0145
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "焦虑",
+            "page": "square-p2-tab1",
+            "box": [
+              0.0,
+              47.1855,
+              1.5625,
+              2.6761
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "抑郁",
+            "page": "square-p2-tab2",
+            "box": [
+              3.125,
+              47.1855,
+              21.7831,
+              2.6761
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "睡眠质量",
+            "page": "square-p2-tab3",
+            "box": [
+              26.4706,
+              47.1855,
+              21.7831,
+              2.6761
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "失眠状况",
+            "page": "square-p2-tab4",
+            "box": [
+              50.0919,
+              47.1855,
+              21.5074,
+              2.6761
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          }
+        ]
+      }
+    },
+    "square-p2-tab5-test": {
+      "device": "phone",
+      "title": "Epworth嗜睡量表",
+      "parent": "square-p2-tab5",
+      "capture": {
+        "content": "screens/square-p2-tab5-test-c.webp",
+        "contentLabel": "Epworth嗜睡量表",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              7.6287,
+              6.4583,
+              5.6066,
+              2.2917
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "开始测评",
+            "page": "square-p2-tasks-item6-first",
+            "box": [
+              6.0662,
+              43.1667,
+              87.8676,
+              4.9583
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "phoneHome": "home",
+  "phoneHomeLabel": "创新研究首页",
+  "sharedPhoneHome": "huawei-research",
+  "scenes": [
+    {
+      "id": "explore",
+      "title": "情绪与睡眠改善计划",
+      "hint": "点击实机界面进入详情，上下滑动浏览，右滑返回。",
+      "start": {
+        "phone": "square-p2"
+      },
+      "keys": [
+        [
+          "phone",
+          "plaza",
+          "研究广场"
+        ],
+        [
+          "phone",
+          "square-p2",
+          "情绪与睡眠改善计划"
+        ],
+        [
+          "phone",
+          "square-p2-tasks",
+          "待完成任务"
+        ],
+        [
+          "phone",
+          "square-p2-tasks-item1",
+          "情绪与睡眠改善计划问卷"
+        ],
+        [
+          "phone",
+          "square-p2-tasks-item2",
+          "抑郁自评量表"
+        ],
+        [
+          "phone",
+          "square-p2-tasks-item2-first",
+          "抑郁自评量表 · 题目"
+        ],
+        [
+          "phone",
+          "square-p2-tasks-item3",
+          "焦虑自评量表"
+        ],
+        [
+          "phone",
+          "square-p2-tasks-item3-first",
+          "焦虑自评量表 · 题目"
+        ],
+        [
+          "phone",
+          "square-p2-tasks-item4",
+          "匹兹堡睡眠质量指数"
+        ],
+        [
+          "phone",
+          "square-p2-tasks-item4-first",
+          "匹兹堡睡眠质量指数 · 题目"
+        ],
+        [
+          "phone",
+          "square-p2-tasks-item5",
+          "压力知觉量表"
+        ],
+        [
+          "phone",
+          "square-p2-tasks-item5-first",
+          "压力知觉量表 · 题目"
+        ],
+        [
+          "phone",
+          "square-p2-tasks-item6",
+          "Epworth嗜睡量表"
+        ],
+        [
+          "phone",
+          "square-p2-tasks-item6-first",
+          "Epworth嗜睡量表 · 题目"
+        ],
+        [
+          "phone",
+          "square-p2-tasks-item7",
+          "阿森斯失眠量表"
+        ],
+        [
+          "phone",
+          "square-p2-tasks-item7-first",
+          "阿森斯失眠量表 · 题目"
+        ],
+        [
+          "phone",
+          "square-p2-survey",
+          "健康调查"
+        ],
+        [
+          "phone",
+          "square-p2-menu",
+          "更多"
+        ],
+        [
+          "phone",
+          "square-p2-menu-privacy",
+          "隐私管理"
+        ],
+        [
+          "phone",
+          "square-p2-menu-privacy-consent",
+          "用户知情同意书"
+        ],
+        [
+          "phone",
+          "square-p2-menu-privacy-notice",
+          "关于情绪与睡眠改善计划与隐私的声明"
+        ],
+        [
+          "phone",
+          "square-p2-test",
+          "压力知觉量表"
+        ],
+        [
+          "phone",
+          "square-p2-article",
+          "健康知识"
+        ],
+        [
+          "phone",
+          "square-p2-tab1",
+          "焦虑测评"
+        ],
+        [
+          "phone",
+          "square-p2-tab1-test",
+          "焦虑自评量表"
+        ],
+        [
+          "phone",
+          "square-p2-tab2",
+          "抑郁测评"
+        ],
+        [
+          "phone",
+          "square-p2-tab2-test",
+          "抑郁自评量表"
+        ],
+        [
+          "phone",
+          "square-p2-tab3",
+          "睡眠质量测评"
+        ],
+        [
+          "phone",
+          "square-p2-tab3-test",
+          "匹兹堡睡眠质量指数"
+        ],
+        [
+          "phone",
+          "square-p2-tab4",
+          "失眠状况测评"
+        ],
+        [
+          "phone",
+          "square-p2-strip",
+          "更多测评分类"
+        ],
+        [
+          "phone",
+          "square-p2-tab4-test",
+          "阿森斯失眠量表"
+        ],
+        [
+          "phone",
+          "square-p2-tab5",
+          "嗜睡测评"
+        ],
+        [
+          "phone",
+          "square-p2-tab5-test",
+          "Epworth嗜睡量表"
+        ]
+      ],
+      "phonePageIndex": [
+        "plaza",
+        "square-p2",
+        "square-p2-tasks",
+        "square-p2-tasks-item1",
+        "square-p2-tasks-item2",
+        "square-p2-tasks-item2-first",
+        "square-p2-tasks-item3",
+        "square-p2-tasks-item3-first",
+        "square-p2-tasks-item4",
+        "square-p2-tasks-item4-first",
+        "square-p2-tasks-item5",
+        "square-p2-tasks-item5-first",
+        "square-p2-tasks-item6",
+        "square-p2-tasks-item6-first",
+        "square-p2-tasks-item7",
+        "square-p2-tasks-item7-first",
+        "square-p2-survey",
+        "square-p2-menu",
+        "square-p2-menu-privacy",
+        "square-p2-menu-privacy-consent",
+        "square-p2-menu-privacy-notice",
+        "square-p2-test",
+        "square-p2-article",
+        "square-p2-tab1",
+        "square-p2-tab1-test",
+        "square-p2-tab2",
+        "square-p2-tab2-test",
+        "square-p2-tab3",
+        "square-p2-tab3-test",
+        "square-p2-tab4",
+        "square-p2-strip",
+        "square-p2-tab4-test",
+        "square-p2-tab5",
+        "square-p2-tab5-test"
+      ]
+    }
+  ],
+  "initialView": {
+    "scene": "explore",
+    "device": "phone",
+    "page": "square-p2"
+  },
+  "pendingScreens": [
+    "解锁后的健康干预课程"
+  ]
+}

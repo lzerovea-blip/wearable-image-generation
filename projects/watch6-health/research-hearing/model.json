@@ -1,0 +1,115 @@
+{
+  "feature": "research-hearing",
+  "devices": {
+    "phone": {
+      "model": "HUAWEI Mate 50",
+      "os": "HarmonyOS 4.2.0.225",
+      "app": "华为创新研究",
+      "appVersion": "16.1.8.300"
+    }
+  },
+  "reviewed": true,
+  "steps": [
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "@home",
+      "action": "打开并查看创新研究首页",
+      "to": "创新研究首页",
+      "files": [
+        "evidence/landing-0.png",
+        "evidence/landing-1.png",
+        "evidence/landing-2.png",
+        "evidence/landing-3.png",
+        "evidence/landing-4.png",
+        "evidence/landing-5.png",
+        "evidence/landing-6.png"
+      ],
+      "observedAt": "2026-11-19T20:59:14+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "home",
+      "action": "打开并查看听力检测与助听研究",
+      "to": "听力检测与助听研究",
+      "files": [
+        "evidence/entry-hearing.png"
+      ],
+      "observedAt": "2026-11-19T21:09:39+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "entry-hearing",
+      "action": "打开并查看隐私声明",
+      "to": "隐私声明",
+      "files": [
+        "evidence/entry-hearing-info.png"
+      ],
+      "observedAt": "2026-11-19T21:13:37+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "听力检测与助听研究",
+      "action": "关于听力检测与助听研究与隐私的声明",
+      "to": "隐私声明",
+      "files": [
+        "evidence/entry-hearing.png",
+        "evidence/entry-hearing-info.png"
+      ],
+      "observedAt": "2026-11-19T21:13:37+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "pending",
+      "device": "phone",
+      "from": "研究隐私声明",
+      "action": "用户自行授权",
+      "to": "加入后的听力研究主页",
+      "files": []
+    }
+  ],
+  "frameEvidence": {
+    "home": {
+      "observedAt": "2026-11-19T20:59:14+08:00",
+      "sources": {
+        "evidence/landing-0.png": "c0a35b67a11ae8742fcccd953fe2134a997354b16325fa6d13cd9de4ff8c0ea9",
+        "evidence/landing-1.png": "9af550adbd8e8f49f60e930334e2612452e2281109a0f0ae8d115737ac7b1c47",
+        "evidence/landing-2.png": "d132584642beef256796f96f63a368839c8fe30ca110964e16c3e4fb39222d2c",
+        "evidence/landing-3.png": "063a5609fff594ce546dbfb9bd421a32cad7491664c3b9f35aed526cfe75e29a",
+        "evidence/landing-4.png": "0bb5cb079cd3b2c0b56d461240e2e4637525d0fd971f3d78009c6b176c27333b",
+        "evidence/landing-5.png": "93bdee7c95130105f5251fbf53b939917ebf57ceb1a135e456394c070dc22d01",
+        "evidence/landing-6.png": "10a3918d580c7c193f87f229d2c9a8112fa82bd659b9c32c87dd43d6969eeccd"
+      },
+      "renders": {
+        "screens/home-h.webp": "251fde3d5f4f568e46208589e00887695249302204b2e97fc5e53e813c4a3f91",
+        "screens/home-c.webp": "e8c832aebf4c0eaa404603391cc4b3207481f9f4f398fe6caf18e5f67ddcd60a",
+        "screens/home-f.webp": "65677a10186f4f78ecb2f1eaa61158e987dd3c9e468491b8c90a9f5412a30e0b"
+      }
+    },
+    "entry-hearing": {
+      "observedAt": "2026-11-19T21:09:39+08:00",
+      "sources": {
+        "evidence/entry-hearing.png": "591cc5175a856d609ca414ba9272c2d71de9c5d7dcb059115f75ffbc27a2be95"
+      },
+      "renders": {
+        "screens/entry-hearing-c.webp": "778acdd8ba2bf199fdac7ace6d4f12aae0edf6e1edb2def12bdeb229f1ecf1ae"
+      }
+    },
+    "entry-hearing-info": {
+      "observedAt": "2026-11-19T21:13:37+08:00",
+      "sources": {
+        "evidence/entry-hearing-info.png": "091b145df914ee1c9107a52aa5a3ae9154857a6a0a9b8470eca325056a69c345"
+      },
+      "renders": {
+        "screens/entry-hearing-info-c.webp": "e5abc78100edf8f8ae455e1f7dafc6c31a5438f8ed180726bbdd8100682cc197"
+      }
+    }
+  }
+}

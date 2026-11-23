@@ -1,0 +1,739 @@
+{
+  "id": "watch6-activity",
+  "name": "活动记录",
+  "watchProfile": "watch6",
+  "watchScreens": {
+    "@face": "dial",
+    "@launcher": "launcher"
+  },
+  "entries": {},
+  "pages": {
+    "dial": {
+      "device": "watch",
+      "title": "实机表盘",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/dial.webp",
+        "contentLabel": "实机表盘",
+        "hotspots": []
+      }
+    },
+    "launcher": {
+      "title": "应用列表 · 微体检与情绪健康",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher.webp",
+        "contentLabel": "应用列表 · 微体检与情绪健康",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "健康洞察",
+            "box": [
+              10.866,
+              11.373,
+              78.267,
+              22.103
+            ]
+          },
+          {
+            "label": "微体检",
+            "box": [
+              2.575,
+              36.052,
+              94.85,
+              27.682
+            ]
+          },
+          {
+            "label": "情绪健康",
+            "box": [
+              10.725,
+              66.309,
+              78.549,
+              22.103
+            ]
+          },
+          {
+            "label": "华为创新研究",
+            "box": [
+              31.831,
+              90.987,
+              36.339,
+              9.013
+            ]
+          }
+        ],
+        "swipe": {
+          "up": "launcher-heart"
+        }
+      }
+    },
+    "launcher-heart": {
+      "title": "应用列表 · 研究与心率",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher-heart.webp",
+        "contentLabel": "应用列表 · 研究与心率",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "情绪健康",
+            "box": [
+              32.068,
+              0.0,
+              35.865,
+              8.798
+            ]
+          },
+          {
+            "label": "华为创新研究",
+            "box": [
+              10.866,
+              11.373,
+              78.267,
+              22.103
+            ]
+          },
+          {
+            "label": "心率",
+            "box": [
+              2.575,
+              36.052,
+              94.85,
+              27.682
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "@launcher",
+          "up": "launcher-living"
+        }
+      }
+    },
+    "launcher-living": {
+      "title": "应用列表 · 健康生活",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher-living.webp",
+        "contentLabel": "应用列表 · 健康生活",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "健康生活",
+            "box": [
+              10.725,
+              66.309,
+              78.549,
+              22.103
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "launcher-heart",
+          "up": "launcher-cycle"
+        }
+      }
+    },
+    "launcher-cycle": {
+      "title": "应用列表 · 生理周期",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher-cycle.webp",
+        "contentLabel": "应用列表 · 生理周期",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "生理周期",
+            "box": [
+              31.831,
+              90.987,
+              36.339,
+              9.013
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "launcher-living"
+        }
+      }
+    },
+    "live-041": {
+      "device": "watch",
+      "title": "应用列表",
+      "parent": "@launcher",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-041.webp",
+        "contentLabel": "应用列表",
+        "replay": {
+          "description": "在手表应用列表点「活动记录」。",
+          "actions": [
+            {
+              "label": "打开活动记录",
+              "page": "live-042"
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    "live-042": {
+      "device": "watch",
+      "title": "三环总览",
+      "parent": "live-041",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-042.webp",
+        "contentLabel": "三环总览",
+        "replay": {
+          "description": "首页显示活动热量、锻炼时长和活动小时数。",
+          "actions": [
+            {
+              "label": "查看今日详情",
+              "page": "live-043"
+            }
+          ],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-043"
+        }
+      }
+    },
+    "live-043": {
+      "device": "watch",
+      "title": "今日详情 · 三环进度",
+      "parent": "live-041",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-043.webp",
+        "contentLabel": "今日详情 · 三环进度",
+        "replay": {
+          "description": "查看三项指标的当前进度和目标。",
+          "actions": [
+            {
+              "label": "查看活动热量",
+              "page": "live-047"
+            },
+            {
+              "label": "查看锻炼时长",
+              "page": "live-048"
+            },
+            {
+              "label": "查看活动小时数",
+              "page": "live-049"
+            }
+          ],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-044",
+          "down": "live-042"
+        },
+        "listBands": [
+          [
+            0,
+            25
+          ],
+          [
+            25,
+            47
+          ],
+          [
+            47,
+            70
+          ],
+          [
+            70,
+            100
+          ]
+        ],
+        "hotspots": [
+          {
+            "label": "活动热量",
+            "zone": "content",
+            "box": [
+              14,
+              24,
+              72,
+              19
+            ],
+            "page": "live-047"
+          },
+          {
+            "label": "锻炼时长",
+            "zone": "content",
+            "box": [
+              14,
+              47,
+              72,
+              19
+            ],
+            "page": "live-048"
+          },
+          {
+            "label": "活动小时数",
+            "zone": "content",
+            "box": [
+              14,
+              71,
+              72,
+              19
+            ],
+            "page": "live-049"
+          }
+        ]
+      }
+    },
+    "live-044": {
+      "device": "watch",
+      "title": "今日详情 · 其他指标",
+      "parent": "live-041",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-044.webp",
+        "contentLabel": "今日详情 · 其他指标",
+        "replay": {
+          "description": "继续查看步数、距离、爬楼及微运动。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-045",
+          "down": "live-043"
+        },
+        "listBands": [
+          [
+            0,
+            49
+          ],
+          [
+            49,
+            100
+          ]
+        ]
+      }
+    },
+    "live-045": {
+      "device": "watch",
+      "title": "运动建议",
+      "parent": "live-041",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-045.webp",
+        "contentLabel": "运动建议",
+        "replay": {
+          "description": "查看推荐运动，底部提供「换一换」。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-046",
+          "down": "live-044"
+        }
+      }
+    },
+    "live-046": {
+      "device": "watch",
+      "title": "今日运动记录",
+      "parent": "live-041",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-046.webp",
+        "contentLabel": "今日运动记录",
+        "replay": {
+          "description": "这次采集的当天暂无运动记录，底部提供「更多记录」入口。",
+          "actions": [],
+          "pending": [
+            "打开更多记录"
+          ]
+        },
+        "swipe": {
+          "up": "live-047",
+          "down": "live-045"
+        },
+        "pendingHotspots": [
+          {
+            "label": "更多记录",
+            "zone": "content",
+            "box": [
+              10,
+              81,
+              80,
+              14
+            ]
+          }
+        ]
+      }
+    },
+    "live-047": {
+      "device": "watch",
+      "title": "活动热量",
+      "parent": "live-043",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-047.webp",
+        "contentLabel": "活动热量",
+        "replay": {
+          "description": "查看一天内的活动热量分布。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-048",
+          "down": "live-046"
+        }
+      }
+    },
+    "live-048": {
+      "device": "watch",
+      "title": "锻炼时长",
+      "parent": "live-043",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-048.webp",
+        "contentLabel": "锻炼时长",
+        "replay": {
+          "description": "查看一天内的锻炼时长分布。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-049",
+          "down": "live-047"
+        }
+      }
+    },
+    "live-049": {
+      "device": "watch",
+      "title": "活动小时数",
+      "parent": "live-043",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-049.webp",
+        "contentLabel": "活动小时数",
+        "replay": {
+          "description": "查看当天已达标的活动小时。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-050",
+          "down": "live-048"
+        }
+      }
+    },
+    "live-050": {
+      "device": "watch",
+      "title": "设置与关于入口",
+      "parent": "live-043",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-050.webp",
+        "contentLabel": "设置与关于入口",
+        "replay": {
+          "description": "列表末端提供三环设置和关于。",
+          "actions": [
+            {
+              "label": "打开三环设置",
+              "page": "live-051"
+            }
+          ],
+          "pending": [
+            "打开关于"
+          ]
+        },
+        "swipe": {
+          "down": "live-049"
+        },
+        "listBands": [
+          [
+            0,
+            48
+          ],
+          [
+            48,
+            100
+          ]
+        ],
+        "hotspots": [
+          {
+            "label": "三环设置",
+            "zone": "content",
+            "box": [
+              10,
+              23,
+              80,
+              26
+            ],
+            "page": "live-051"
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "label": "关于",
+            "zone": "content",
+            "box": [
+              10,
+              53,
+              80,
+              26
+            ]
+          }
+        ]
+      }
+    },
+    "live-051": {
+      "device": "watch",
+      "title": "活动提醒",
+      "parent": "live-050",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-051.webp",
+        "contentLabel": "活动提醒",
+        "replay": {
+          "description": "进入三环设置，显示活动提醒开关与说明。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-052"
+        },
+        "listBands": [
+          [
+            0,
+            93
+          ]
+        ]
+      }
+    },
+    "live-052": {
+      "device": "watch",
+      "title": "进度和目标提醒",
+      "parent": "live-050",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-052.webp",
+        "contentLabel": "进度和目标提醒",
+        "replay": {
+          "description": "上滑查看进度提醒和目标达成提醒。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-053",
+          "down": "live-051"
+        },
+        "listBands": [
+          [
+            0,
+            74
+          ],
+          [
+            74,
+            100
+          ]
+        ]
+      }
+    },
+    "live-053": {
+      "device": "watch",
+      "title": "轮椅模式",
+      "parent": "live-050",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-053.webp",
+        "contentLabel": "轮椅模式",
+        "replay": {
+          "description": "继续上滑查看轮椅模式开关与说明。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "down": "live-052"
+        },
+        "listBands": [
+          [
+            15,
+            100
+          ]
+        ]
+      }
+    }
+  },
+  "scenes": [
+    {
+      "id": "open",
+      "title": "从表盘进入",
+      "hint": "按表冠，在应用列表中上下滑动，点选应用。右滑返回上一页。",
+      "start": {
+        "watch": "@face"
+      },
+      "keys": [
+        [
+          "watch",
+          "@face",
+          "表盘"
+        ],
+        [
+          "watch",
+          "@launcher",
+          "应用列表"
+        ],
+        [
+          "watch",
+          "launcher-heart",
+          "应用列表 · 研究与心率"
+        ],
+        [
+          "watch",
+          "live-042",
+          "活动记录"
+        ]
+      ]
+    },
+    {
+      "id": "live-group-1",
+      "title": "入口与三环",
+      "hint": "在表框旁选择操作。在截图上拖动可查看已经拍到的位置，右滑或点返回可退回。",
+      "start": {
+        "watch": "live-042"
+      },
+      "keys": [
+        [
+          "watch",
+          "live-041",
+          "应用列表"
+        ],
+        [
+          "watch",
+          "live-042",
+          "三环总览"
+        ],
+        [
+          "watch",
+          "live-043",
+          "今日详情 · 三环进度"
+        ],
+        [
+          "watch",
+          "live-044",
+          "今日详情 · 其他指标"
+        ]
+      ]
+    },
+    {
+      "id": "live-group-2",
+      "title": "运动建议与记录",
+      "hint": "在表框旁选择操作。在截图上拖动可查看已经拍到的位置，右滑或点返回可退回。",
+      "start": {
+        "watch": "live-045"
+      },
+      "keys": [
+        [
+          "watch",
+          "live-045",
+          "运动建议"
+        ],
+        [
+          "watch",
+          "live-046",
+          "今日运动记录"
+        ]
+      ]
+    },
+    {
+      "id": "live-group-3",
+      "title": "三项指标",
+      "hint": "在表框旁选择操作。在截图上拖动可查看已经拍到的位置，右滑或点返回可退回。",
+      "start": {
+        "watch": "live-047"
+      },
+      "keys": [
+        [
+          "watch",
+          "live-047",
+          "活动热量"
+        ],
+        [
+          "watch",
+          "live-048",
+          "锻炼时长"
+        ],
+        [
+          "watch",
+          "live-049",
+          "活动小时数"
+        ]
+      ]
+    },
+    {
+      "id": "live-group-4",
+      "title": "三环设置",
+      "hint": "在表框旁选择操作。在截图上拖动可查看已经拍到的位置，右滑或点返回可退回。",
+      "start": {
+        "watch": "live-050"
+      },
+      "keys": [
+        [
+          "watch",
+          "live-050",
+          "设置与关于入口"
+        ],
+        [
+          "watch",
+          "live-051",
+          "活动提醒"
+        ],
+        [
+          "watch",
+          "live-052",
+          "进度和目标提醒"
+        ],
+        [
+          "watch",
+          "live-053",
+          "轮椅模式"
+        ]
+      ]
+    }
+  ],
+  "references": [
+    "本次腕上实机截图由 Mate 50 同步。流程控件位于表框外。"
+  ],
+  "initialView": {
+    "device": "watch",
+    "scene": "live-group-1",
+    "page": "live-042"
+  },
+  "watchReplayEntry": "live-042",
+  "pendingScreens": [
+    "打开更多记录",
+    "打开关于"
+  ],
+  "watchScrollGroups": [
+    {
+      "mode": "paged",
+      "pages": [
+        "live-042",
+        "live-043",
+        "live-044",
+        "live-045",
+        "live-046",
+        "live-047",
+        "live-048",
+        "live-049",
+        "live-050"
+      ]
+    },
+    [
+      "live-051",
+      "live-052",
+      "live-053"
+    ]
+  ]
+}

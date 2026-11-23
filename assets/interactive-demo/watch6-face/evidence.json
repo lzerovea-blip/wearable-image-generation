@@ -1,0 +1,228 @@
+{
+  "device": "HUAWEI WATCH 6",
+  "productModel": "LEB-AL00",
+  "captureDate": "2026-11-19",
+  "display": [
+    466,
+    466
+  ],
+  "method": "HDC WLAN · uinput / uitest · snapshot_display · dumpLayout",
+  "captureBuild": "7.0.0.115(SP8C00E100R1P102log)",
+  "officialGestures": "https://consumer.huawei.com/cn/support/content/zh-cn16066724/",
+  "pages": [
+    {
+      "page": "face-notifications",
+      "label": "消息通知",
+      "sourceFrameSHA256": "dbeb7fd715ea090d1644a3d6992f055503aee6e4751ef86795ee1f59acc4e6b1",
+      "sourceLayoutSHA256": "eeff1cc669b1911273ea3ec55eacbe51a03aae4ddde536c6177a7b2e566742ae",
+      "systemNodes": [
+        "notification_center_page",
+        "nc_NtfListComponent"
+      ],
+      "archivedFrame": "face-notifications.webp",
+      "archivedFrameSHA256": "a41d51484a1c0c8577adced78062baa3844aecb5587251c494b6350e11805f8d",
+      "treatment": "按原始像素转存",
+      "processing": "original"
+    },
+    {
+      "page": "face-updates",
+      "label": "运动健康通知",
+      "sourceFrameSHA256": "1067ca5259149d9a57c4eec9dfdd8e733ce10acc0a7bcbb10f5b272b7203e926",
+      "sourceLayoutSHA256": "0a3044e15e1aedba97fbc15a69ed466622d6138cc7ae9232ecbcd7326f48c0a3",
+      "systemNodes": [
+        "notification_center_page",
+        "nc_NtfListComponent"
+      ],
+      "archivedFrame": "face-updates.webp",
+      "archivedFrameSHA256": "4d42a85988e779531da18e0e722c88643b12369d6bb573e9fb8acf52da1cb4b5",
+      "treatment": "按原始像素转存",
+      "processing": "original"
+    },
+    {
+      "page": "face-battery",
+      "label": "电池通知详情",
+      "sourceFrameSHA256": "200e9b85df60a564ed5b4c772f64331aaec9e57a754821d43f70422d1a804e60",
+      "sourceLayoutSHA256": "88e0fea42c4bebeb6d163f8f62917a8365a3f629ab3cfee8ba87b5333f73d818",
+      "systemNodes": [
+        "notification_center_page",
+        "nc_NtfListComponent"
+      ],
+      "archivedFrame": "face-battery.webp",
+      "archivedFrameSHA256": "f4b537b59a82bc0aac97e43da284b252bff7a7f1739f39a3b44ffe57b087ade8",
+      "treatment": "按原始像素转存",
+      "processing": "original"
+    },
+    {
+      "page": "face-control",
+      "label": "控制中心",
+      "sourceFrameSHA256": "a8a0b4c6f7de8474a9082ff6448d0fb3de36bb4b08c609a743c2df16dd5112db",
+      "sourceLayoutSHA256": "042a9f940d7115bd69888f4498a9df643ff53c3646fe7c75dc4ce70519f18d4e",
+      "systemNodes": [
+        "dropdown_page",
+        "scroller_id"
+      ],
+      "archivedFrame": "face-control.webp",
+      "archivedFrameSHA256": "2d7836afcc8a00bbc58163ee71a8537d651d2f7eef86bcc30a5e98ed8c6b91e8",
+      "treatment": "按原始像素转存",
+      "processing": "original"
+    },
+    {
+      "page": "face-controls-more",
+      "label": "控制中心 · 快捷开关",
+      "sourceFrameSHA256": "c82baeceff22c421a143fe3d51b8eb0fd511081bfd5d0eb4538ee3f0b4d71488",
+      "sourceLayoutSHA256": "210fa52d5cd1914559ea7a0da979781c24c952646973fb957f9cd37006a8456e",
+      "systemNodes": [
+        "dropdown_page",
+        "scroller_id"
+      ],
+      "archivedFrame": "face-controls-more.webp",
+      "archivedFrameSHA256": "e6241934dae5be940c409967263e045e3c0d22becaea7f734d3cf32f842c1368",
+      "treatment": "按原始像素转存",
+      "processing": "original"
+    },
+    {
+      "page": "face-controls-top",
+      "label": "控制中心 · 排水与 WLAN",
+      "sourceFrameSHA256": "a9e86b18aea25db15e2da9af114facb8540fc8f2bdbf5fa45f092082c598f938",
+      "sourceLayoutSHA256": "633c50365fae4392e9454c13854cae62afe0a6bad2920673b4761f1200ab6961",
+      "systemNodes": [
+        "dropdown_page",
+        "scroller_id"
+      ],
+      "archivedFrame": "face-controls-top.webp",
+      "archivedFrameSHA256": "4975f10a1c16366654d124f784cb1f0db7965f670333a057b6176ab3b3f35406",
+      "treatment": "按原始像素转存",
+      "processing": "original"
+    },
+    {
+      "page": "face-modes",
+      "label": "情景模式",
+      "sourceFrameSHA256": "6dc08d44c622ffe5c3c61eb72bd836a566233a06afa3e6a76cd6f4d898b59f7f",
+      "sourceLayoutSHA256": "e937e1ae1754725670fa7370c89c4f6b9551a80bc89ecbcf0b881877a21f5f19",
+      "systemNodes": [
+        "dropdown_page",
+        "scroller_id"
+      ],
+      "archivedFrame": "face-modes.webp",
+      "archivedFrameSHA256": "046690fdebc2fe1a30fd48b1fbbe85a398a29bbed4d5cebcd616b5b8debbc3d1",
+      "treatment": "按原始像素转存",
+      "processing": "original"
+    },
+    {
+      "page": "face-cards",
+      "label": "手表卡片 · 应用与天气",
+      "sourceFrameSHA256": "f44c60adeae1220d63fa7248ac625b194d1fc72a809a534a3e8397302e1ad18b",
+      "sourceLayoutSHA256": "1dc9e0c4ee3f693a0e7139fe312c0b5f3f9f0399df8439f7675278896b769383",
+      "systemNodes": [
+        "card_page",
+        "cardHome"
+      ],
+      "archivedFrame": "face-cards.webp",
+      "archivedFrameSHA256": "487e2b9bb0e685d65aa4825bef1f5b24a2cc139aa87f897d61b296d1d93e5abd",
+      "treatment": "隐去地名",
+      "processing": "redacted"
+    },
+    {
+      "page": "face-health-cards",
+      "label": "手表卡片 · 健康",
+      "sourceFrameSHA256": "ab21e4ef2277a5c69fdb8580b5fbea983ce36c9e09d0c2ca374e82fa4cf98f11",
+      "sourceLayoutSHA256": "1cd7969f8a27e4e5d8478d746511dc1311601fa5d123fdc0a01919a2c10c9774",
+      "systemNodes": [
+        "card_page",
+        "cardHome"
+      ],
+      "archivedFrame": "face-health-cards.webp",
+      "archivedFrameSHA256": "6c860cb56a624ddb18bc440df683a48e843180363dd82281208ab448afd8171a",
+      "treatment": "实机原图转存",
+      "processing": "original"
+    },
+    {
+      "page": "face-assistant",
+      "label": "负一屏 · 小艺建议",
+      "sourceFrameSHA256": "4bfebc7e42655a234d96587c7dea347370709d76939bcffc442a0ed3f9f67730",
+      "sourceLayoutSHA256": "f696f435c756c16911d8cd6266e4d5e7c5404127a635e90bd1a401e4cc11232d",
+      "systemNodes": [
+        "negative_screen_page",
+        "theme_home_root_stack"
+      ],
+      "archivedFrame": "face-assistant.webp",
+      "archivedFrameSHA256": "31a1e58c08fbfe52761c8e89dd4cf16e93b770046d86b77c4e5af0909513b226",
+      "treatment": "按原始像素转存",
+      "processing": "original"
+    },
+    {
+      "page": "face-agenda",
+      "label": "小艺建议 · 明日日程",
+      "sourceFrameSHA256": "c7d74e604b40d0f53224d183da6c05c5506e864812aa98e140e329c4ba050ce0",
+      "sourceLayoutSHA256": "4401e41d4c44b9acf3bc07e368c24fcae2d3adab257bc5303b578013d98e8ff8",
+      "systemNodes": [
+        "negative_screen_page",
+        "theme_home_root_stack"
+      ],
+      "archivedFrame": "face-agenda.webp",
+      "archivedFrameSHA256": "a7c56f4f55be514bf0d3753eff7d1620347d4bbbff615af7ffeef3e58532c4de",
+      "treatment": "隐去私人日程名称",
+      "processing": "redacted"
+    },
+    {
+      "page": "face-weather",
+      "label": "小艺建议 · 智慧天气",
+      "sourceFrameSHA256": "4c5a72376c2a0a489cafd73c6f2af9f84cf063c256e54d999ceec9a0b84cff06",
+      "sourceLayoutSHA256": "416439d124353b9eaf414cf8957b1fd8f647bd2fe05e14e05af12fe9dccda9ab",
+      "systemNodes": [
+        "negative_screen_page",
+        "theme_home_root_stack"
+      ],
+      "archivedFrame": "face-weather.webp",
+      "archivedFrameSHA256": "a355f1e3dde0df5a2ac9b54fa7c26355b151627b6b59bc9544c0885829fc9d3b",
+      "treatment": "隐去地名",
+      "processing": "redacted"
+    },
+    {
+      "page": "face-insight",
+      "label": "小艺建议 · 健康洞察",
+      "sourceFrameSHA256": "7ac1b1b5f645b92d3d5b85c28cb02147b62bb6f7b5b66fe68367fa89a51d7220",
+      "sourceLayoutSHA256": "c86bacc2c9e408a603097874af9409350d7552b1731fdd98242da154c7746b9c",
+      "systemNodes": [
+        "negative_screen_page",
+        "theme_home_root_stack"
+      ],
+      "archivedFrame": "face-insight.webp",
+      "archivedFrameSHA256": "e9514988a86c6dd0122d4d3af50ce00f91f1ecb23d3f05a71945bc48518a7c20",
+      "treatment": "按原始像素转存",
+      "processing": "original"
+    },
+    {
+      "page": "face-music",
+      "label": "我的卡片 · 音乐",
+      "sourceFrameSHA256": "96f0b26c105b1dfe7f074729588d088079845b1027a4937caf6588cab992785e",
+      "sourceLayoutSHA256": "b3182e8a2e6e3868ebd91ca9feab24059a16c3397ed658928cf7d4d6ec5be1be",
+      "systemNodes": [
+        "negative_screen_page",
+        "theme_home_root_stack"
+      ],
+      "archivedFrame": "face-music.webp",
+      "archivedFrameSHA256": "d29727d5c26202762f16f19c31010c7c0e692f266e3b943601cc634abfeb9ef9",
+      "treatment": "按原始像素转存",
+      "processing": "original"
+    }
+  ],
+  "returnToFace": {
+    "up": {
+      "sourceFrameSHA256": "37719540edbb4d009e1b87331efa1152d2ade41cbc2c3071ba7b119544baa0e3",
+      "sourceLayoutSHA256": "f5935e71a6448b1afce087ca67d37a5dde11d28ee3c352ae7db50391a280e1cd"
+    },
+    "down": {
+      "sourceFrameSHA256": "dab4cdec9dff75f977bb3b656cabcc154cc8872aa7ecc701e7995b985ceabd95",
+      "sourceLayoutSHA256": "a49d46d3fbbcc839aae2abba43d76a77d336c970cc02fcf3eee9dc3fd5ebea0b"
+    },
+    "left": {
+      "sourceFrameSHA256": "af414d19b560ccb7d5a80ee309d4ec56b34383fa90405cf26c97ff1ce92eac5a",
+      "sourceLayoutSHA256": "a49d46d3fbbcc839aae2abba43d76a77d336c970cc02fcf3eee9dc3fd5ebea0b"
+    },
+    "right": {
+      "sourceFrameSHA256": "0b4205e71a5e8934d3481795d814046f35acc332909330674a615d01243efe59",
+      "sourceLayoutSHA256": "a49d46d3fbbcc839aae2abba43d76a77d336c970cc02fcf3eee9dc3fd5ebea0b"
+    }
+  }
+}

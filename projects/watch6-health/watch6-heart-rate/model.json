@@ -1,0 +1,228 @@
+{
+  "feature": "watch6-heart-rate",
+  "devices": {
+    "watch": {
+      "model": "HUAWEI WATCH 6",
+      "productModel": "LEB-AL00",
+      "os": "LEB-AL00CN 7.0.0.115(SP8C00E100R1P102log)",
+      "app": "心率",
+      "appVersion": "7.0.0.303"
+    }
+  },
+  "reviewed": false,
+  "steps": [
+    {
+      "scene": "open",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T17:39:20+08:00",
+      "from": "表盘",
+      "action": "按表冠并浏览应用列表",
+      "to": "心率",
+      "files": [
+        "evidence/现场表盘.jpeg",
+        "evidence/healthcheck-launcher.jpeg",
+        "evidence/healthcheck-launcher.json",
+        "evidence/heart-launcher.jpeg",
+        "evidence/heart-launcher.json",
+        "evidence/healthyliving-launcher.jpeg",
+        "evidence/healthyliving-launcher.json",
+        "evidence/physiologyperiod-launcher.jpeg",
+        "evidence/physiologyperiod-launcher.json"
+      ]
+    },
+    {
+      "scene": "application",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T19:20:23+08:00",
+      "from": "应用列表",
+      "action": "进入应用并核对实机画面",
+      "to": "最近心率",
+      "files": [
+        "evidence/联机-heart-main.jpeg",
+        "evidence/联机-heart-main.json"
+      ]
+    },
+    {
+      "scene": "application",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:56:35.662+08:00",
+      "from": "心率",
+      "action": "在实机操作后采集并同步画面",
+      "to": "即时心率",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_215635662.png"
+      ]
+    },
+    {
+      "scene": "application",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:56:37.105+08:00",
+      "from": "心率",
+      "action": "在实机操作后采集并同步画面",
+      "to": "全天心率曲线",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_215637105.png"
+      ]
+    },
+    {
+      "scene": "application",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:56:38.567+08:00",
+      "from": "心率",
+      "action": "在实机操作后采集并同步画面",
+      "to": "静息心率",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_215638567.png"
+      ]
+    },
+    {
+      "scene": "application",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:56:40.013+08:00",
+      "from": "心率",
+      "action": "在实机操作后采集并同步画面",
+      "to": "心率变异性 HRV",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_215640013.png"
+      ]
+    },
+    {
+      "scene": "application",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:56:41.360+08:00",
+      "from": "心率",
+      "action": "在实机操作后采集并同步画面",
+      "to": "更多与关于入口",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_215641360.png"
+      ]
+    },
+    {
+      "scene": "application",
+      "device": "watch",
+      "source": "pending",
+      "from": "心率",
+      "action": "补采后续实机画面",
+      "to": "静息心率与 HRV 的说明；打开关于",
+      "files": []
+    }
+  ],
+  "frameEvidence": {
+    "dial": {
+      "sources": {
+        "evidence/现场表盘.jpeg": "9abc7d54cec51ac3b6fbde96faa464f154d2fc912902436581cc0b6957ca09e6"
+      },
+      "renders": {
+        "screens/dial.webp": "096b828886ee375c7779ad472917013d93f989a0a0631d52fa7d4362263746bc"
+      },
+      "observedAt": "2026-11-19T17:24:42+08:00"
+    },
+    "launcher": {
+      "sources": {
+        "evidence/healthcheck-launcher.jpeg": "d36cecf3b94fced4c746c2889c685063139286a9f4f5b35055e17c31ef6830f4",
+        "evidence/healthcheck-launcher.json": "0014dfd764307736a60e07ef5e45e6681639f5a0fded8bf8c7242637f8716692"
+      },
+      "renders": {
+        "screens/launcher.webp": "46f52b888f435192fd67277a12b815fbaa316da93a77b510fa504ad76872b1d3"
+      },
+      "observedAt": "2026-11-19T17:39:20+08:00"
+    },
+    "launcher-heart": {
+      "sources": {
+        "evidence/heart-launcher.jpeg": "58a3200bc07d597992dad1019362b9ed72ce13e2fd74b4f56ef7e85044fc313c",
+        "evidence/heart-launcher.json": "56a8f64588095956b3d8bf059e101476ad9142d5d2d9b53eff7bbf10ab9de17f"
+      },
+      "renders": {
+        "screens/launcher-heart.webp": "22ed5a4872b20d96e4cb062b107b00ffb9e8876b7b3d5808e71ee1154c46bd23"
+      },
+      "observedAt": "2026-11-19T17:46:04+08:00"
+    },
+    "launcher-living": {
+      "sources": {
+        "evidence/healthyliving-launcher.jpeg": "52f331d12cae4d51c04dbc7369307a6533f70622117bc6d0efac2172af0bc9e3",
+        "evidence/healthyliving-launcher.json": "caef8bdef40e95d2be207ecfa00f75ac59cf8d5a2d6ae37422a45be659868ac5"
+      },
+      "renders": {
+        "screens/launcher-living.webp": "49a7430a0f97f6ebff212ba1a9b251b04b7b74e8e8325ed0d3122413148c8a2a"
+      },
+      "observedAt": "2026-11-19T17:46:22+08:00"
+    },
+    "launcher-cycle": {
+      "sources": {
+        "evidence/physiologyperiod-launcher.jpeg": "dfa5ff81b62a9addc1459a7df9a73fcf14f3eaff6cc3123f579994f63e4941e9",
+        "evidence/physiologyperiod-launcher.json": "762acdbeff8f7f9f7c22f67cd1b3572824a6f5c8f59661333522c80c051b1bd0"
+      },
+      "renders": {
+        "screens/launcher-cycle.webp": "dd0918ba55900ed2f2ac3eabea05eac2f00f42fa876260baaf07848563dfd446"
+      },
+      "observedAt": "2026-11-19T17:47:05+08:00"
+    },
+    "main": {
+      "sources": {
+        "evidence/联机-heart-main.jpeg": "4c99b2eca456ca2b0a67a3dbea20afc14ee7d76f11690c5e4ce3954d2777b8af",
+        "evidence/联机-heart-main.json": "9c036d00ae45bcec97787066c3b64c8e29f7890a8f00514bf0717a631ca7b3f5"
+      },
+      "renders": {
+        "screens/real-main.webp": "8da3e9fe027cc65d81936eb2f8d885be6fa301fafd563124d7401790cbf0b762"
+      },
+      "observedAt": "2026-11-19T19:20:23+08:00"
+    },
+    "live-142": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_215635662.png": "91751b5fa44bffdaaeeac9df618f0cec740afd5dbf18dda3e68537e80aa5d69f"
+      },
+      "renders": {
+        "screens/replay/live-142.webp": "b58ee2b31d39ab0273c186f5c1323bbcacb81b644c7beed55150b93d84796523"
+      },
+      "observedAt": "2026-11-19T21:56:35.662+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-143": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_215637105.png": "9a290c2c66b3857ea01d5dad4948f254dccf38a5e9ec488d8e26aefab46c4866"
+      },
+      "renders": {
+        "screens/replay/live-143.webp": "d5b1a771bd999d7ac7ef7180e4be3747e17eb9d96dd1500433cf584967248069"
+      },
+      "observedAt": "2026-11-19T21:56:37.105+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-144": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_215638567.png": "a59d6a802655c2d5122deb8a6d2cbde9bd109bbd4c72681c34d983a81848f134"
+      },
+      "renders": {
+        "screens/replay/live-144.webp": "16140b20c016ea839df51046c17c8869dc92419324af97ca4f2fe19edfee7279"
+      },
+      "observedAt": "2026-11-19T21:56:38.567+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-145": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_215640013.png": "3b0c0001ee63c6828407ed79a24d85ee5e200427b9f0c63c89adfd2c03dd1ab7"
+      },
+      "renders": {
+        "screens/replay/live-145.webp": "dc1a774d005d005e31d4d74e1b07ebf8f9133cc2ba22e7cde2e2d474f34622e2"
+      },
+      "observedAt": "2026-11-19T21:56:40.013+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-146": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_215641360.png": "41783a48a483f2a9946b033b982208897b88374b86f7fde69e5a68594cad5495"
+      },
+      "renders": {
+        "screens/replay/live-146.webp": "3d51b0e1b98902275cc2da7b1753e38073bd47534ce805868bf1f7ab3c99540b"
+      },
+      "observedAt": "2026-11-19T21:56:41.360+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    }
+  }
+}

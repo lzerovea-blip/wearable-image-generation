@@ -1,0 +1,172 @@
+{
+  "id": "research-ambbp",
+  "name": "轻扰动态血压研究",
+  "phoneProfile": "mate50",
+  "entries": {},
+  "pages": {
+    "home": {
+      "device": "phone",
+      "title": "创新研究首页",
+      "parent": "@home",
+      "capture": {
+        "header": "screens/home-h.webp",
+        "content": "screens/home-c.webp",
+        "footer": "screens/home-f.webp",
+        "contentLabel": "创新研究首页",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "轻扰动态血压研究",
+            "page": "entry-ambbp-main",
+            "box": [
+              6.0662,
+              45.9554,
+              87.8676,
+              4.2575
+            ]
+          }
+        ]
+      }
+    },
+    "entry-ambbp": {
+      "device": "phone",
+      "title": "轻扰动态血压研究",
+      "parent": "home",
+      "capture": {
+        "content": "screens/entry-ambbp-c.webp",
+        "contentLabel": "轻扰动态血压研究",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "查看可用设备",
+            "page": "entry-ambbp-devices",
+            "box": [
+              49.8162,
+              53.1667,
+              39.7978,
+              5.0417
+            ]
+          }
+        ]
+      }
+    },
+    "entry-ambbp-devices": {
+      "device": "phone",
+      "title": "可用设备",
+      "parent": "entry-ambbp",
+      "capture": {
+        "content": "screens/entry-ambbp-devices-c.webp",
+        "contentLabel": "可用设备",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.9522,
+              6.375,
+              11.1213,
+              5.0417
+            ]
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "box": [
+              3.9522,
+              91.4167,
+              92.0956,
+              4.0833
+            ],
+            "label": "前往连接"
+          }
+        ]
+      }
+    },
+    "entry-ambbp-main": {
+      "device": "phone",
+      "title": "研究主页",
+      "parent": "home",
+      "capture": {
+        "content": "screens/entry-ambbp-main-c.webp",
+        "contentLabel": "研究主页",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.9522,
+              6.375,
+              11.1213,
+              5.0417
+            ]
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "box": [
+              81.1581,
+              24.75,
+              11.6728,
+              2.1667
+            ],
+            "label": "去授权"
+          },
+          {
+            "zone": "content",
+            "box": [
+              7.0772,
+              47.625,
+              85.7537,
+              5.0417
+            ],
+            "label": "启动计划"
+          }
+        ]
+      }
+    }
+  },
+  "phoneHome": "home",
+  "phoneHomeLabel": "创新研究首页",
+  "sharedPhoneHome": "huawei-research",
+  "scenes": [
+    {
+      "id": "explore",
+      "title": "轻扰动态血压研究",
+      "hint": "点击实机界面进入详情，上下滑动浏览，右滑返回。",
+      "start": {
+        "phone": "entry-ambbp-main"
+      },
+      "keys": [
+        [
+          "phone",
+          "entry-ambbp",
+          "轻扰动态血压研究"
+        ],
+        [
+          "phone",
+          "entry-ambbp-devices",
+          "可用设备"
+        ],
+        [
+          "phone",
+          "entry-ambbp-main",
+          "研究主页"
+        ]
+      ],
+      "phonePageIndex": [
+        "entry-ambbp",
+        "entry-ambbp-devices",
+        "entry-ambbp-main"
+      ]
+    }
+  ],
+  "initialView": {
+    "scene": "explore",
+    "device": "phone",
+    "page": "entry-ambbp-main"
+  }
+}

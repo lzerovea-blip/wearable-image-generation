@@ -1,0 +1,258 @@
+{
+  "rows": [
+    {
+      "feature": "watch6-exercise",
+      "label": "锻炼",
+      "image": "exercise.webp",
+      "sha256": "1dfb23da8f68404548f01ce8c0522f1e91e48a0badf502da4f907d6dc0a72a43",
+      "source": "94efa9902e8d80.webp",
+      "crop": [
+        66,
+        64,
+        145,
+        143
+      ],
+      "origin": "实机应用列表"
+    },
+    {
+      "feature": "watch6-records",
+      "label": "锻炼记录",
+      "image": "records.webp",
+      "sha256": "fa0724792dc5200e5f470927900660f1200b7df31432385719d1b02aa9a05f0c",
+      "source": "4d2afb999425c6.webp",
+      "crop": [
+        24,
+        181,
+        122,
+        280
+      ],
+      "origin": "实机应用列表"
+    },
+    {
+      "feature": "watch6-training",
+      "label": "训练状态",
+      "image": "training.webp",
+      "sha256": "4b02a8fb6ece8fe17170e454fb431d0261cb81275e2d46ac6a4661bb0f43674a",
+      "source": "2b2722d2ca5f47.webp",
+      "crop": [
+        24,
+        181,
+        122,
+        280
+      ],
+      "origin": "实机应用列表"
+    },
+    {
+      "feature": "watch6-activity",
+      "label": "活动记录",
+      "image": "activity.webp",
+      "sha256": "8b5533bb159ee1ae15b2ba0e5a742cf3984c6fd8c47240cfd05e7b3c1a84ddfe",
+      "source": "7edd8c17212e36.webp",
+      "crop": [
+        24,
+        181,
+        122,
+        280
+      ],
+      "origin": "实机应用列表"
+    },
+    {
+      "feature": "watch6-insight",
+      "label": "健康洞察",
+      "image": "insight.webp",
+      "sha256": "eac43c064cedd208eb615d696df239bb5da69948505aa405cbb58a5c1e2b6af0",
+      "source": "aabce8090d34ca.webp",
+      "crop": [
+        24,
+        181,
+        122,
+        280
+      ],
+      "origin": "实机应用列表"
+    },
+    {
+      "feature": "watch6-health-check",
+      "label": "微体检",
+      "image": "health-check.webp",
+      "sha256": "6e1e1089b0a1821957d5a3912e03ad46d2ad0853e47f1ea11acc8ef9f69a3643",
+      "source": "f02d516092b50f.webp",
+      "crop": [
+        24,
+        181,
+        122,
+        280
+      ],
+      "origin": "实机应用列表"
+    },
+    {
+      "feature": "watch6-emotions",
+      "label": "情绪健康",
+      "image": "emotions.webp",
+      "sha256": "7bc5a210f4269f752960c15c7636f60c583c50a7e87ef314d528fe80278cfcb9",
+      "source": "673bfe3a66c585.webp",
+      "crop": [
+        24,
+        181,
+        122,
+        280
+      ],
+      "origin": "实机应用列表"
+    },
+    {
+      "feature": "watch6-research",
+      "label": "华为创新研究",
+      "image": "research.webp",
+      "sha256": "c2c3ad07aebaacbad37e666b53155c5ea07e0770716314c21c42ada7e0e8b03d",
+      "source": "c55b8f1cc747f1.webp",
+      "crop": [
+        24,
+        181,
+        122,
+        280
+      ],
+      "origin": "实机应用列表"
+    },
+    {
+      "feature": "watch6-heart-rate",
+      "label": "心率",
+      "image": "heart-rate.webp",
+      "sha256": "a6ab9e13be076e178797db8a666a3c1885830ef12c70c0290f14afc7baa88d2d",
+      "source": "22ed5a4872b20d.webp",
+      "crop": [
+        24,
+        183,
+        123,
+        282
+      ],
+      "origin": "实机应用列表"
+    },
+    {
+      "feature": "watch6-ecg",
+      "label": "心电图",
+      "image": "ecg.webp",
+      "sha256": "2859bab2ccf05481102f3277d69cf6f530830f56fb686e31ca454ac85b88dfc2",
+      "source": "4eed7dae580508.jpeg",
+      "crop": [
+        24,
+        183,
+        123,
+        282
+      ],
+      "origin": "实机应用列表"
+    },
+    {
+      "feature": "watch6-pulse-wave",
+      "label": "脉搏波心律失常分析",
+      "image": "pulse-wave.webp",
+      "sha256": "f251c922cc5452f14cf207cb07f8d4f8e57c95c1a2f839cf80d857d50805314d",
+      "source": "4eed7dae580508.jpeg",
+      "crop": [
+        67,
+        321,
+        146,
+        400
+      ],
+      "origin": "实机应用列表"
+    },
+    {
+      "feature": "watch6-oxygen",
+      "label": "血氧饱和度",
+      "image": "oxygen.webp",
+      "sha256": "0a4f8d20055f94dccb3522dbc4b17b4ba1d44eaae581dcac4c0f1c554d3e7ae7",
+      "source": "4eed7dae580508.jpeg",
+      "crop": [
+        142,
+        432,
+        174,
+        464
+      ],
+      "origin": "实机应用列表"
+    },
+    {
+      "feature": "watch6-altitude-care",
+      "label": "高原关爱",
+      "image": "altitude-care.webp",
+      "sha256": "a4cbdaa4bfd706069ec9c51982c21cda48eaff5381e92d48feb1357ee49a5760",
+      "source": "09464fb89171b1.webp",
+      "crop": [
+        152,
+        136,
+        309,
+        293
+      ],
+      "origin": "实机应用首页"
+    },
+    {
+      "feature": "watch6-temperature",
+      "label": "体温",
+      "image": "temperature.webp",
+      "sha256": "380ea9fef29d46eadb130e68124aa3892af9881ea7b5034a2e0e6f7f6fbafd2f",
+      "source": "49a7430a0f97f6.webp",
+      "crop": [
+        142,
+        2,
+        174,
+        34
+      ],
+      "origin": "实机应用列表"
+    },
+    {
+      "feature": "watch6-healthy-living",
+      "label": "健康生活",
+      "image": "healthy-living.webp",
+      "sha256": "9eb84f6683ad2716797de7e12235ae0baf6ee75ce88666e6415543d3e9955351",
+      "source": "49a7430a0f97f6.webp",
+      "crop": [
+        67,
+        321,
+        146,
+        400
+      ],
+      "origin": "实机应用列表"
+    },
+    {
+      "feature": "watch6-cycle",
+      "label": "生理周期",
+      "image": "cycle.webp",
+      "sha256": "d3fc8343720025460b30b523a55c22435d6a5af8f530bc05ccd1242217d61a9c",
+      "source": "dd0918ba55900e.webp",
+      "crop": [
+        142,
+        432,
+        174,
+        464
+      ],
+      "origin": "实机应用列表"
+    }
+  ],
+  "sources": {
+    "94efa9902e8d80.webp": "94efa9902e8d80e1547b92f2e1983c478b2c963b3d31372375164f9b6ca12b40",
+    "4d2afb999425c6.webp": "4d2afb999425c6b8eb770a87b2cfa8f344867c3960b98feea6dda54b43a6cdcc",
+    "2b2722d2ca5f47.webp": "2b2722d2ca5f47f10cc13d17a2c119780dcb7180c4af54ecf6a4c8c5404f11be",
+    "7edd8c17212e36.webp": "7edd8c17212e36e3ba74c946c098daabfd201d816f413164b90cca49acbcb456",
+    "aabce8090d34ca.webp": "aabce8090d34ca189ecda8d1848f7914321f19ddcd67388a8ffb9f2e0e3542f3",
+    "f02d516092b50f.webp": "f02d516092b50fb15a7574685a099baed1a712e53ac3872f5ea9a0422c514850",
+    "673bfe3a66c585.webp": "673bfe3a66c585e12efaf37dbc2447ff39fecf9704d1c256e40d6c06f6b68012",
+    "c55b8f1cc747f1.webp": "c55b8f1cc747f1dd7fca63f2df5884e2b526012483e888cfc23ecf0912dfc721",
+    "22ed5a4872b20d.webp": "22ed5a4872b20d96e4cb062b107b00ffb9e8876b7b3d5808e71ee1154c46bd23",
+    "4eed7dae580508.jpeg": "4eed7dae5805083f5637814862a91d48ad876cf524f3ec3465369a454ca992e2",
+    "09464fb89171b1.webp": "09464fb89171b1e80f36a90b9f7ecf80a21c2ad2dcc723efaa8ef2c97a4df648",
+    "49a7430a0f97f6.webp": "49a7430a0f97f6ebff212ba1a9b251b04b7b74e8e8325ed0d3122413148c8a2a",
+    "dd0918ba55900e.webp": "dd0918ba55900ed2f2ac3eabea05eac2f00f42fa876260baaf07848563dfd446"
+  },
+  "anchors": {
+    "@launcher": "health-check",
+    "launcher": "health-check",
+    "launcher-heart": "heart-rate",
+    "launcher-living": "healthy-living",
+    "launcher-cycle": "cycle",
+    "live-001": "exercise",
+    "live-013": "records",
+    "live-032": "training",
+    "live-041": "activity",
+    "live-054": "insight",
+    "live-065": "health-check",
+    "live-075": "emotions",
+    "live-083": "research"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "feature": "blood-glucose",
+  "devices": {
+    "phone": {
+      "model": "HUAWEI Mate 50",
+      "os": "HarmonyOS 4.2.0.225",
+      "app": "华为运动健康",
+      "appVersion": "17.0.10.320"
+    }
+  },
+  "reviewed": true,
+  "steps": [
+    {
+      "scene": "chart",
+      "device": "phone",
+      "from": "运动健康搜索",
+      "action": "点击血糖管理，切换四种周期",
+      "to": "指尖血糖趋势与概览",
+      "source": "live",
+      "observedAt": "2026-11-19T12:36:25+08:00",
+      "files": [
+        "evidence/g-search.png",
+        "evidence/g-day.png",
+        "evidence/g-week.png",
+        "evidence/g-month.png",
+        "evidence/g-year.png"
+      ]
+    },
+    {
+      "scene": "data",
+      "device": "phone",
+      "from": "日图",
+      "action": "点击查看更多血糖数据后关闭",
+      "to": "数据明细",
+      "source": "live",
+      "observedAt": "2026-11-19T12:36:25+08:00",
+      "files": [
+        "evidence/g-day.png",
+        "evidence/g-details.png"
+      ]
+    },
+    {
+      "scene": "data",
+      "device": "phone",
+      "from": "更多选项",
+      "action": "分别打开所有数据和相关知识后返回",
+      "to": "记录与知识页",
+      "source": "live",
+      "observedAt": "2026-11-19T12:36:25+08:00",
+      "files": [
+        "evidence/g-menu.png",
+        "evidence/g-log.png",
+        "evidence/g-guide.png"
+      ]
+    }
+  ],
+  "frameEvidence": {
+    "entry": {
+      "sources": {
+        "evidence/g-search.png": "1bc43d3172bf8f963f6aee153047d97161e531264c7c4d716bd0f9513f5484c7"
+      },
+      "renders": {
+        "screens/entry-content.webp": "0c2b33dc86ec884411cbe22f7b7a4432d947e07ed131920351253ae0f99c971e"
+      }
+    },
+    "day": {
+      "sources": {
+        "evidence/g-day.png": "1b6c0f93201f0ca96d43c7d64e1ec2639521e22ed1ff511b94a08c53507a132c"
+      },
+      "renders": {
+        "screens/day-content.webp": "1443e8e5be002fa63abceee56e2654d66f0e7ffebcd1de05b2aed962c41bc8cb"
+      }
+    },
+    "week": {
+      "sources": {
+        "evidence/g-month.png": "6855a9664d283764e776a48dc5b9b4195991fe3f6784853fd5e1eca8f7d4345f",
+        "evidence/g-week.png": "b7035063511331fc3880d3d8bdd70f6fd927d975f6d04081022f2c04c0773f9b"
+      },
+      "renders": {
+        "screens/week-content.webp": "333af66ec9a259f7ece6a062e83809d7f20f3f002f8dc65a74b03dde915fc47f"
+      }
+    },
+    "month": {
+      "sources": {
+        "evidence/g-month.png": "6855a9664d283764e776a48dc5b9b4195991fe3f6784853fd5e1eca8f7d4345f"
+      },
+      "renders": {
+        "screens/month-content.webp": "c70c606afaad3e03e4b94d7a299a442bb84e02202a02902f6d82ff703d544633"
+      }
+    },
+    "year": {
+      "sources": {
+        "evidence/g-month.png": "6855a9664d283764e776a48dc5b9b4195991fe3f6784853fd5e1eca8f7d4345f",
+        "evidence/g-year.png": "701755bc49cb584ef9ecae016260c13d799ee8f6d22cc594cbe00df3ac86ab7b"
+      },
+      "renders": {
+        "screens/year-content.webp": "1eb33f622f820da2079b3412689912f11af6b62f17297fd3543c4b97b76d04e0"
+      }
+    },
+    "details": {
+      "sources": {
+        "evidence/g-details.png": "1077fb1a40ae7ce7c3e41f87c3dd6e78ff8f752203ec4c9ce0b498bff39e2b59"
+      },
+      "renders": {
+        "screens/details-content.webp": "2353503ba11cf1b0f9b435f494b9f09b53d66966ff482181c410a431578da0cf"
+      }
+    },
+    "menu": {
+      "sources": {
+        "evidence/g-menu.png": "459546607abdb33f0c7e9f4388f2c8467fbd0abc29b8d918ef9fa8f8f858972e",
+        "evidence/g-day.png": "1b6c0f93201f0ca96d43c7d64e1ec2639521e22ed1ff511b94a08c53507a132c"
+      },
+      "renders": {
+        "screens/menu-content.webp": "599a698d6289c2258330057cb52f277729d9439cfe7f71095bee8df2d7735a94"
+      }
+    },
+    "log": {
+      "sources": {
+        "evidence/g-log.png": "01ef51136bf7451562176ebf37000494065b3fc5084c02131c7df42d12e80bd3"
+      },
+      "renders": {
+        "screens/log-content.webp": "feddbdad4eabe7c755d8d913f8dcd506e45d34df927a3722881fdcb28a1022cd"
+      }
+    },
+    "guide": {
+      "sources": {
+        "evidence/g-guide.png": "e2c0af6924844423d72a6e331553c6276c9ffa96154dffcedf91b5ba624b800d"
+      },
+      "renders": {
+        "screens/guide-content.webp": "f0778b860eac998299fe93ec30d0a3f029f5a39074fa75908cd153909996165e"
+      }
+    }
+  }
+}

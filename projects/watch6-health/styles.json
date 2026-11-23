@@ -1,0 +1,17 @@
+{
+  "global": {
+    "directory": {"font-size": "13px"}
+  },
+  "devices": {
+    "phone": {
+      "body": {"font-size": "14px", "line-height": "1.65"},
+      "metric": {"font-size": "34px"},
+      "unit": {"font-size": "9px"}
+    },
+    "watch": {
+      "launcherRow": {"font-size": "24px", "font-weight": "500", "line-height": "1.13"}
+    }
+  },
+  "features": {},
+  "pages": {}
+}

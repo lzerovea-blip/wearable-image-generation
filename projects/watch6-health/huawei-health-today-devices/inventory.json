@@ -1,0 +1,5280 @@
+{
+  "scope": {
+    "app": "com.huawei.health",
+    "tabs": [
+      "今日",
+      "设备"
+    ],
+    "deviceContext": "当前连接设备的运动健康相关功能",
+    "excluded": [
+      "运动标签",
+      "会员和商城",
+      "非运动健康设备服务",
+      "我的标签"
+    ]
+  },
+  "capturedAt": "2026-11-20T11:25:10+08:00",
+  "pages": {
+    "today": {
+      "module": "今日 · 看板与快捷功能",
+      "controls": [
+        "设备",
+        "搜索",
+        "更多选项",
+        "测测你的BMI",
+        "血压",
+        "生理周期",
+        "情绪健康",
+        "运动记录",
+        "睡眠",
+        "体温",
+        "体重管理",
+        "血糖管理",
+        "健康档案",
+        "心脏健康",
+        "血氧饱和度",
+        "活动记录",
+        "自定义数据看板",
+        "锻炼时长",
+        "活动小时数",
+        "活动热量",
+        "查看详情",
+        "步数",
+        "添加",
+        "收起",
+        "更多",
+        "展开活动记录卡片",
+        "健康动态 · 查看详情",
+        "健康洞察",
+        "刷新",
+        "完成 15 项检测",
+        "拍照录入",
+        "添加您喜爱的快捷功能"
+      ],
+      "pending": [
+        "健康洞察",
+        "刷新",
+        "完成 15 项检测",
+        "拍照录入",
+        "添加您喜爱的快捷功能"
+      ],
+      "excluded": [],
+      "scrollEvidence": "实机从首屏连续滚动至底部 · 5 个位置",
+      "boundaries": {
+        "拍照录入": "需要新测量或个人输入"
+      },
+      "provenance": "2026-11-20 Mate 50 实机复采",
+      "capturedAt": "2026-11-20T11:25:10+08:00"
+    },
+    "device": {
+      "module": "设备 · 设备与服务",
+      "controls": [
+        "card_mywatch_custom_view",
+        "card_watch_market_carousel_view",
+        "carousel_item_0",
+        "carousel_item_1",
+        "carousel_item_8",
+        "device_icon_layout",
+        "im_mywatch_custom",
+        "体温",
+        "使用指南",
+        "全部设备 (30)",
+        "华为创新研究",
+        "商城",
+        "天气",
+        "应用市场",
+        "微信设备绑定",
+        "心率",
+        "心电图",
+        "您的专属会员权益已激活",
+        "情绪健康",
+        "我的表盘",
+        "找设备",
+        "搜索",
+        "日历",
+        "智慧生活联动",
+        "更多选项",
+        "活动记录",
+        "消息",
+        "消息通知",
+        "生理周期",
+        "相机",
+        "睡眠",
+        "睡眠呼吸暂停检测",
+        "离线地图",
+        "联系人",
+        "脉搏波心律失常分析",
+        "血氧",
+        "表盘市场",
+        "设备",
+        "通用设置",
+        "钱包",
+        "闹钟",
+        "音乐",
+        "高原关爱",
+        "高尔夫"
+      ],
+      "pending": [
+        "使用指南",
+        "搜索",
+        "更多选项"
+      ],
+      "excluded": [
+        "天气",
+        "应用市场",
+        "微信设备绑定",
+        "您的专属会员权益已激活",
+        "我的表盘",
+        "找设备",
+        "日历",
+        "智慧生活联动",
+        "消息",
+        "消息通知",
+        "相机",
+        "离线地图",
+        "联系人",
+        "表盘市场",
+        "钱包",
+        "闹钟",
+        "音乐"
+      ],
+      "scrollEvidence": "已采多段滚动视图",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-altitude": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "auto_monitor_button",
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-altitude-switch-1": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "知道了"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-apnea": {
+      "module": "设备 · 健康检测与研究",
+      "controls": [
+        "取消",
+        "忽略",
+        "更多选项",
+        "未见异常 12 次",
+        "激活",
+        "疑似中度 0 次",
+        "疑似轻度 0 次",
+        "疑似重度 0 次",
+        "返回"
+      ],
+      "pending": [
+        "忽略",
+        "更多选项",
+        "未见异常 12 次",
+        "疑似中度 0 次",
+        "疑似轻度 0 次",
+        "疑似重度 0 次"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采多段滚动视图",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-apnea-success": {
+      "module": "设备 · 健康检测与研究",
+      "controls": [
+        "更多选项",
+        "未见异常 12 次",
+        "疑似中度 0 次",
+        "疑似轻度 0 次",
+        "疑似重度 0 次",
+        "返回"
+      ],
+      "pending": [
+        "更多选项",
+        "未见异常 12 次",
+        "疑似中度 0 次",
+        "疑似轻度 0 次",
+        "疑似重度 0 次"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-arrhythmia": {
+      "module": "设备 · 健康检测与研究",
+      "controls": [
+        "周",
+        "年",
+        "心律异常记录",
+        "收起",
+        "日",
+        "更多选项",
+        "月",
+        "查看更多",
+        "疑似早搏",
+        "脉搏波心律失常分析",
+        "返回"
+      ],
+      "pending": [
+        "心律异常记录",
+        "收起",
+        "日",
+        "查看更多",
+        "疑似早搏",
+        "脉搏波心律失常分析"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采多段滚动视图",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-arrhythmia-month": {
+      "module": "设备 · 健康检测与研究",
+      "controls": [
+        "周",
+        "年",
+        "收起",
+        "日",
+        "更多选项",
+        "月",
+        "脉搏波心律失常分析",
+        "返回"
+      ],
+      "pending": [
+        "收起",
+        "月",
+        "脉搏波心律失常分析"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-arrhythmia-more": {
+      "module": "设备 · 健康检测与研究",
+      "controls": [
+        "关于",
+        "周",
+        "常见问题",
+        "年",
+        "所有数据",
+        "收起",
+        "日",
+        "更多选项",
+        "月",
+        "脉搏波心律失常分析",
+        "自动检测",
+        "说明",
+        "返回"
+      ],
+      "pending": [
+        "周",
+        "年",
+        "收起",
+        "日",
+        "更多选项",
+        "月",
+        "脉搏波心律失常分析"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-arrhythmia-more-about": {
+      "module": "设备 · 健康检测与研究",
+      "controls": [
+        "产品说明书和标签",
+        "关于",
+        "返回"
+      ],
+      "pending": [
+        "产品说明书和标签",
+        "关于"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-arrhythmia-more-all": {
+      "module": "设备 · 健康检测与研究",
+      "controls": [
+        "所有数据",
+        "测量 1 次，0 次异常",
+        "测量 12 次，0 次异常",
+        "测量 18 次，0 次异常",
+        "测量 19 次，0 次异常",
+        "测量 21 次，0 次异常",
+        "测量 22 次，0 次异常",
+        "测量 26 次，0 次异常",
+        "测量 27 次，0 次异常",
+        "测量 27 次，1 次异常",
+        "测量 3 次，1 次异常",
+        "返回"
+      ],
+      "pending": [
+        "所有数据",
+        "测量 1 次，0 次异常",
+        "测量 12 次，0 次异常",
+        "测量 18 次，0 次异常",
+        "测量 19 次，0 次异常",
+        "测量 21 次，0 次异常",
+        "测量 22 次，0 次异常",
+        "测量 26 次，0 次异常",
+        "测量 27 次，0 次异常",
+        "测量 27 次，1 次异常",
+        "测量 3 次，1 次异常"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-arrhythmia-more-auto": {
+      "module": "设备 · 健康检测与研究",
+      "controls": [
+        "自动检测",
+        "返回"
+      ],
+      "pending": [
+        "自动检测"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-arrhythmia-more-faq": {
+      "module": "设备 · 健康检测与研究",
+      "controls": [
+        "为什么健康人群测量会出现早搏？",
+        "存在胸闷、心慌、心悸等心脏不适症状，为什么测量结果却是“未见心律异常”？",
+        "常见问题",
+        "心律失常测量失败怎么解决？",
+        "返回"
+      ],
+      "pending": [
+        "为什么健康人群测量会出现早搏？",
+        "存在胸闷、心慌、心悸等心脏不适症状，为什么测量结果却是“未见心律异常”？",
+        "常见问题",
+        "心律失常测量失败怎么解决？"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-arrhythmia-more-info": {
+      "module": "设备 · 健康检测与研究",
+      "controls": [
+        "说明",
+        "返回"
+      ],
+      "pending": [
+        "说明"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-arrhythmia-week": {
+      "module": "设备 · 健康检测与研究",
+      "controls": [
+        "周",
+        "年",
+        "收起",
+        "日",
+        "更多选项",
+        "月",
+        "脉搏波心律失常分析",
+        "返回"
+      ],
+      "pending": [
+        "周",
+        "收起",
+        "脉搏波心律失常分析"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-arrhythmia-year": {
+      "module": "设备 · 健康检测与研究",
+      "controls": [
+        "周",
+        "年",
+        "收起",
+        "日",
+        "更多选项",
+        "月",
+        "脉搏波心律失常分析",
+        "返回"
+      ],
+      "pending": [
+        "年",
+        "收起",
+        "脉搏波心律失常分析"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-cycle": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "全部关闭",
+        "排卵日及排卵期预测",
+        "排卵期开始",
+        "排卵期结束",
+        "经期开始",
+        "经期结束",
+        "结合穿戴设备改进预测结果",
+        "返回"
+      ],
+      "pending": [
+        "全部关闭",
+        "排卵日及排卵期预测",
+        "排卵期开始",
+        "排卵期结束",
+        "经期开始",
+        "经期结束",
+        "结合穿戴设备改进预测结果"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-ecg": {
+      "module": "设备 · 健康检测与研究",
+      "controls": [
+        "不确定 28 次",
+        "室性早搏",
+        "室性早搏 22 次",
+        "房性早搏 3 次",
+        "房颤 0 次",
+        "打开心电采集软件",
+        "更多",
+        "窦性心律",
+        "返回"
+      ],
+      "pending": [
+        "不确定 28 次",
+        "室性早搏",
+        "室性早搏 22 次",
+        "房性早搏 3 次",
+        "房颤 0 次",
+        "打开心电采集软件"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采多段滚动视图",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-ecg-more": {
+      "module": "设备 · 健康检测与研究",
+      "controls": [
+        "关于",
+        "所有数据",
+        "更多",
+        "相关知识",
+        "窦性心律",
+        "设置",
+        "返回"
+      ],
+      "pending": [
+        "更多",
+        "窦性心律"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-ecg-more-about": {
+      "module": "设备 · 健康检测与研究",
+      "controls": [
+        "UDI",
+        "关于华为心电图与隐私的声明",
+        "华为心电图用户协议",
+        "注销服务",
+        "用户说明书",
+        "返回"
+      ],
+      "pending": [
+        "关于华为心电图与隐私的声明",
+        "华为心电图用户协议",
+        "注销服务",
+        "用户说明书"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-ecg-more-all": {
+      "module": "设备 · 健康检测与研究",
+      "controls": [
+        "historyMenuListActivator",
+        "不确定",
+        "全部",
+        "删除",
+        "历史记录",
+        "室性早搏",
+        "房性早搏",
+        "房颤",
+        "收起",
+        "窦性心律",
+        "返回"
+      ],
+      "pending": [
+        "不确定",
+        "全部",
+        "删除",
+        "历史记录",
+        "室性早搏",
+        "房性早搏",
+        "房颤",
+        "收起",
+        "窦性心律"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {
+        "删除": "会写入或修改真实个人数据"
+      },
+      "provenance": "本次实机采集"
+    },
+    "device-ecg-more-knowledge": {
+      "module": "设备 · 健康检测与研究",
+      "controls": [
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-ecg-more-settings": {
+      "module": "设备 · 健康检测与研究",
+      "controls": [
+        "工作日",
+        "测量时间",
+        "返回",
+        "重复"
+      ],
+      "pending": [
+        "工作日",
+        "测量时间",
+        "重复"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-ecg-result": {
+      "module": "设备 · 健康检测与研究",
+      "controls": [
+        "分享",
+        "展开",
+        "更多",
+        "添加",
+        "返回"
+      ],
+      "pending": [
+        "分享",
+        "展开",
+        "更多",
+        "添加"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {
+        "分享": "涉及系统分享入口"
+      },
+      "provenance": "本次实机采集"
+    },
+    "device-general": {
+      "module": "设备 · 设备与服务",
+      "controls": [
+        "SOS 紧急求助",
+        "eSIM 管理",
+        "删除设备",
+        "同步 WLAN 配置 不支持同步 WEP 加密模式的网络",
+        "固件更新",
+        "实况窗",
+        "恢复出厂设置",
+        "截屏设置",
+        "服务与支持",
+        "法律信息",
+        "蓝牙断开提醒",
+        "设备信息",
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [
+        "SOS 紧急求助",
+        "eSIM 管理",
+        "删除设备",
+        "同步 WLAN 配置 不支持同步 WEP 加密模式的网络",
+        "固件更新",
+        "实况窗",
+        "恢复出厂设置",
+        "截屏设置",
+        "服务与支持",
+        "法律信息",
+        "蓝牙断开提醒",
+        "设备信息"
+      ],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-golf": {
+      "module": "设备 · 设备与服务",
+      "controls": [
+        "发现球场",
+        "导航",
+        "已下载地图",
+        "手表地图",
+        "搜索球场",
+        "秦岭国际高尔夫俱乐部",
+        "西安国际高尔夫俱乐部",
+        "返回",
+        "选择城市"
+      ],
+      "pending": [
+        "发现球场",
+        "导航",
+        "已下载地图",
+        "手表地图",
+        "搜索球场",
+        "秦岭国际高尔夫俱乐部",
+        "西安国际高尔夫俱乐部",
+        "选择城市"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-heart": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "运动心率设置",
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采多段滚动视图",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-heart-down": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "关闭",
+        "运动心率设置",
+        "返回"
+      ],
+      "pending": [
+        "运动心率设置"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-heart-sport-hr": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "乳酸阈心率百分比，单选按钮，未选中",
+        "了解更多",
+        "储备心率百分比，单选按钮，已选中",
+        "其他",
+        "最大心率百分比，单选按钮，未选中",
+        "游泳类",
+        "跑步类",
+        "返回",
+        "骑行类"
+      ],
+      "pending": [
+        "乳酸阈心率百分比，单选按钮，未选中",
+        "了解更多",
+        "储备心率百分比，单选按钮，已选中",
+        "其他",
+        "最大心率百分比，单选按钮，未选中",
+        "游泳类",
+        "跑步类",
+        "骑行类"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-heart-switch-1": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "关闭",
+        "取消"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-heart-switch-3": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "运动心率设置",
+        "返回"
+      ],
+      "pending": [
+        "运动心率设置"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-heart-up": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "关闭",
+        "运动心率设置",
+        "返回"
+      ],
+      "pending": [
+        "运动心率设置"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-list": {
+      "module": "设备 · 设备与服务",
+      "controls": [
+        "HUAWEI S-TAG",
+        "HUAWEI SEIYA",
+        "HUAWEI WATCH 5",
+        "HUAWEI WATCH 6",
+        "HUAWEI WATCH Rates",
+        "更多选项",
+        "返回",
+        "重新连接"
+      ],
+      "pending": [
+        "HUAWEI S-TAG",
+        "HUAWEI SEIYA",
+        "HUAWEI WATCH 5",
+        "HUAWEI WATCH 6",
+        "HUAWEI WATCH Rates",
+        "更多选项",
+        "重新连接"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-mood": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        ">",
+        "event_emotion_monitor_switch_btn",
+        "event_emotion_risk_waring_switch_btn",
+        "了解更多",
+        "返回"
+      ],
+      "pending": [
+        ">"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-mood-about": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "更多选项",
+        "注销服务",
+        "返回"
+      ],
+      "pending": [
+        "更多选项",
+        "注销服务"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-mood-switch-1": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        ">",
+        "event_emotion_monitor_switch_btn",
+        "event_emotion_risk_waring_switch_btn",
+        "了解更多",
+        "返回"
+      ],
+      "pending": [
+        ">"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-mood-switch-2": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        ">",
+        "event_emotion_monitor_switch_btn",
+        "event_emotion_risk_waring_switch_btn",
+        "了解更多",
+        "返回"
+      ],
+      "pending": [
+        ">"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-oxygen": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "blood_oxygen_switch_button",
+        "说明",
+        "较低血氧提醒",
+        "返回"
+      ],
+      "pending": [
+        "说明",
+        "较低血氧提醒"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-oxygen-limit": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "关闭",
+        "取消",
+        "确定"
+      ],
+      "pending": [
+        "确定"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-research": {
+      "module": "设备 · 健康检测与研究",
+      "controls": [
+        "前往",
+        "取消"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-research-open": {
+      "module": "设备 · 健康检测与研究",
+      "controls": [
+        "--%",
+        "iv_afib_explain",
+        "iv_detection_explain",
+        "iv_home_add",
+        "图标",
+        "开始检测",
+        "心脏健康风险评估问卷",
+        "检测",
+        "转到上一层级",
+        "预测"
+      ],
+      "pending": [
+        "--%",
+        "图标",
+        "开始检测",
+        "心脏健康风险评估问卷",
+        "检测",
+        "预测"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {
+        "开始检测": "需要新测量或个人输入"
+      },
+      "provenance": "本次实机采集"
+    },
+    "device-rings": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "reminder_switch_btn",
+        "久坐提醒",
+        "任务提醒",
+        "目标达成提醒",
+        "返回",
+        "进度提醒"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-rings-confirm-task": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "取消",
+        "确认关闭"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-rings-switch-1": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "reminder_switch_btn",
+        "久坐提醒",
+        "任务提醒",
+        "目标达成提醒",
+        "返回",
+        "进度提醒"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-rings-switch-2": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "reminder_switch_btn",
+        "久坐提醒",
+        "任务提醒",
+        "目标达成提醒",
+        "返回",
+        "进度提醒"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-rings-switch-3": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "reminder_switch_btn",
+        "久坐提醒",
+        "任务提醒",
+        "目标达成提醒",
+        "返回",
+        "进度提醒"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-rings-switch-4": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "reminder_switch_btn",
+        "久坐提醒",
+        "任务提醒",
+        "目标达成提醒",
+        "返回",
+        "进度提醒"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-sleep": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "event_core_sleep_switch_btn",
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-temp": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "temp_monitoring_switch",
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-temp-switch-1": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "temp_monitoring_switch",
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-bmi": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "关于华为运动健康与隐私的声明",
+        "取消",
+        "同意"
+      ],
+      "pending": [
+        "关于华为运动健康与隐私的声明"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "captureBoundary": "按用户要求保留智能体重管理数据授权页，计划未激活",
+      "boundaries": {
+        "同意": "激活计划需要用户数据授权"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-bp": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "compid_CalendarSection_spinner_1",
+        "定时测量",
+        "手动输入",
+        "更多",
+        "最高舒张压 , 81mmHg, 正常高值, 参考值：80-89 mmHg",
+        "查看更多血压数据",
+        "睡眠期间平均血压",
+        "返回",
+        "高压 (收缩压)"
+      ],
+      "pending": [
+        "最高舒张压 , 81mmHg, 正常高值, 参考值：80-89 mmHg",
+        "睡眠期间平均血压",
+        "高压 (收缩压)"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采多段滚动视图",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-bp-view-1": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "动态血压",
+        "参考值：61-79 mmHg",
+        "参考值：80-89 mmHg",
+        "图表\n双击并按住即可弹出更多选项",
+        "定时测量",
+        "手动输入",
+        "更多",
+        "最低舒张压 , 62mmHg, 正常, 参考值：61-79 mmHg",
+        "最高舒张压 , 81mmHg, 正常高值, 参考值：80-89 mmHg",
+        "查看更多血压数据",
+        "睡眠期间平均血压",
+        "返回",
+        "高压 (收缩压)"
+      ],
+      "pending": [
+        "动态血压",
+        "参考值：61-79 mmHg",
+        "参考值：80-89 mmHg",
+        "图表\n双击并按住即可弹出更多选项",
+        "最低舒张压 , 62mmHg, 正常, 参考值：61-79 mmHg",
+        "最高舒张压 , 81mmHg, 正常高值, 参考值：80-89 mmHg",
+        "睡眠期间平均血压",
+        "高压 (收缩压)"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采多段滚动视图",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-bp-view-2": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "HUAWEI WATCH D3",
+        "会员",
+        "会员, 第一讲：揭秘你的血压终极归宿",
+        "会员, 第二讲：哪些事决定了血压的上升速度",
+        "动态血压",
+        "参考值：61-79 mmHg",
+        "参考值：80-89 mmHg",
+        "发刊词：科学降压的生活方式处方",
+        "定时测量",
+        "手动输入",
+        "更多",
+        "最低舒张压 , 62mmHg, 正常, 参考值：61-79 mmHg",
+        "最高舒张压 , 81mmHg, 正常高值, 参考值：80-89 mmHg",
+        "返回"
+      ],
+      "pending": [
+        "HUAWEI WATCH D3",
+        "会员, 第一讲：揭秘你的血压终极归宿",
+        "会员, 第二讲：哪些事决定了血压的上升速度",
+        "动态血压",
+        "参考值：61-79 mmHg",
+        "参考值：80-89 mmHg",
+        "发刊词：科学降压的生活方式处方",
+        "最低舒张压 , 62mmHg, 正常, 参考值：61-79 mmHg",
+        "最高舒张压 , 81mmHg, 正常高值, 参考值：80-89 mmHg"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采多段滚动视图",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-bp-view-3": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "HUAWEI WATCH D3",
+        "会员",
+        "会员, 第一讲：揭秘你的血压终极归宿",
+        "会员, 第二讲：哪些事决定了血压的上升速度",
+        "发刊词：科学降压的生活方式处方",
+        "定时测量",
+        "手动输入",
+        "时刻提醒 守护安心",
+        "更多",
+        "血压健康研究",
+        "运动与血压研究",
+        "返回"
+      ],
+      "pending": [
+        "HUAWEI WATCH D3",
+        "会员, 第一讲：揭秘你的血压终极归宿",
+        "会员, 第二讲：哪些事决定了血压的上升速度",
+        "发刊词：科学降压的生活方式处方",
+        "时刻提醒 守护安心",
+        "血压健康研究",
+        "运动与血压研究"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采多段滚动视图",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-bp-details": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "compid_CalendarSection_spinner_1",
+        "定时测量",
+        "手动输入",
+        "更多",
+        "最高舒张压 , 81mmHg, 正常高值, 参考值：80-89 mmHg",
+        "查看更多血压数据",
+        "睡眠期间平均血压",
+        "血压",
+        "运动前平均血压",
+        "运动后平均血压",
+        "返回",
+        "高压 (收缩压)",
+        "高海拔平均血压"
+      ],
+      "pending": [
+        "定时测量",
+        "手动输入",
+        "更多",
+        "最高舒张压 , 81mmHg, 正常高值, 参考值：80-89 mmHg",
+        "查看更多血压数据",
+        "睡眠期间平均血压",
+        "血压",
+        "运动前平均血压",
+        "运动后平均血压",
+        "高压 (收缩压)",
+        "高海拔平均血压"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-bp-manual": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "低压 (mmHg)*",
+        "其他",
+        "吃饭",
+        "吸烟",
+        "喝咖啡",
+        "待输入",
+        "情绪波动",
+        "日期",
+        "未服药",
+        "测量时间",
+        "环境温度下降",
+        "睡眠不足",
+        "确定",
+        "身体活动",
+        "运动/做家务",
+        "返回",
+        "饮酒",
+        "高压 (mmHg)*"
+      ],
+      "pending": [
+        "低压 (mmHg)*",
+        "其他",
+        "吃饭",
+        "吸烟",
+        "喝咖啡",
+        "待输入",
+        "情绪波动",
+        "日期",
+        "未服药",
+        "测量时间",
+        "环境温度下降",
+        "睡眠不足",
+        "确定",
+        "身体活动",
+        "运动/做家务",
+        "饮酒",
+        "高压 (mmHg)*"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-bp-more": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "compid_CalendarSection_spinner_1",
+        "定时测量",
+        "所有数据",
+        "手动输入",
+        "更多",
+        "最高舒张压 , 81mmHg, 正常高值, 参考值：80-89 mmHg",
+        "查看更多血压数据",
+        "相关知识",
+        "睡眠期间平均血压",
+        "返回",
+        "高压 (收缩压)"
+      ],
+      "pending": [
+        "定时测量",
+        "手动输入",
+        "更多",
+        "最高舒张压 , 81mmHg, 正常高值, 参考值：80-89 mmHg",
+        "查看更多血压数据",
+        "睡眠期间平均血压",
+        "高压 (收缩压)"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-bp-more-all": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "中度",
+        "全部",
+        "删除",
+        "导出",
+        "正常血压",
+        "筛选",
+        "轻度",
+        "返回",
+        "重度"
+      ],
+      "pending": [
+        "中度",
+        "全部",
+        "删除",
+        "导出",
+        "正常血压",
+        "筛选",
+        "轻度",
+        "重度"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {
+        "删除": "会写入或修改真实个人数据"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-bp-more-knowledge": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-bp-schedule": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "添加“单次定时”",
+        "添加“连续定时”",
+        "返回"
+      ],
+      "pending": [
+        "添加“单次定时”",
+        "添加“连续定时”"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-collapse": {
+      "module": "今日 · 看板与快捷功能",
+      "controls": [
+        "close_button_layout",
+        "体温",
+        "体重管理",
+        "健康档案",
+        "健康洞察",
+        "健康生活",
+        "减压放松",
+        "刷新",
+        "完成 15 项检测",
+        "定制专属食谱",
+        "心脏健康",
+        "情绪健康",
+        "拍照录入",
+        "搜索",
+        "收起",
+        "更多",
+        "更多选项",
+        "查看详情",
+        "活动小时数",
+        "活动热量",
+        "活动记录",
+        "测测你的BMI",
+        "添加",
+        "添加您喜爱的快捷功能",
+        "点击恢复展开模型",
+        "生理周期",
+        "睡眠",
+        "自定义数据看板",
+        "血压",
+        "血氧饱和度",
+        "血糖管理",
+        "规律起床",
+        "记录饮食",
+        "运动记录",
+        "锻炼时长",
+        "饮食热量"
+      ],
+      "pending": [
+        "健康洞察",
+        "健康生活",
+        "减压放松",
+        "刷新",
+        "完成 15 项检测",
+        "拍照录入",
+        "活动小时数",
+        "活动热量",
+        "添加您喜爱的快捷功能",
+        "点击恢复展开模型",
+        "规律起床",
+        "锻炼时长",
+        "饮食热量"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采多段滚动视图",
+      "boundaries": {
+        "拍照录入": "需要新测量或个人输入"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-custom": {
+      "module": "今日 · 看板与快捷功能",
+      "controls": [
+        "体温",
+        "体重管理",
+        "健康档案",
+        "心脏健康",
+        "情绪健康",
+        "生理周期",
+        "睡眠",
+        "确认",
+        "移除",
+        "血压",
+        "血氧饱和度",
+        "血糖管理",
+        "运动记录",
+        "返回"
+      ],
+      "pending": [
+        "体温",
+        "体重管理",
+        "健康档案",
+        "心脏健康",
+        "情绪健康",
+        "生理周期",
+        "睡眠",
+        "确认",
+        "移除",
+        "血压",
+        "血氧饱和度",
+        "血糖管理",
+        "运动记录"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-cycle": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "周期视图",
+        "心情",
+        "性行为",
+        "手腕温度",
+        "更多选项",
+        "查看生理周期期间的健康数据",
+        "身体症状",
+        "返回"
+      ],
+      "pending": [
+        "心情",
+        "性行为",
+        "手腕温度",
+        "查看生理周期期间的健康数据",
+        "身体症状"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-cycle-more": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "历史周期",
+        "周期视图",
+        "心情",
+        "性行为",
+        "所有数据",
+        "手腕温度",
+        "更多选项",
+        "查看生理周期期间的健康数据",
+        "生理周期设置",
+        "说明",
+        "身体症状",
+        "返回"
+      ],
+      "pending": [
+        "历史周期",
+        "周期视图",
+        "心情",
+        "性行为",
+        "手腕温度",
+        "更多选项",
+        "查看生理周期期间的健康数据",
+        "生理周期设置",
+        "说明",
+        "身体症状"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-cycle-more-all": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "删除",
+        "经期第 1 天",
+        "经期第 5 天",
+        "返回"
+      ],
+      "pending": [
+        "删除",
+        "经期第 1 天",
+        "经期第 5 天"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {
+        "删除": "会写入或修改真实个人数据"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-cycle-view": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "心情",
+        "性行为",
+        "手腕温度",
+        "日历视图",
+        "更多记录",
+        "更多选项",
+        "查看生理周期期间的健康数据",
+        "生理周期小知识",
+        "身体症状",
+        "近 6 周期经期报告 Badge 上次经期延长了 2 天",
+        "返回"
+      ],
+      "pending": [
+        "心情",
+        "性行为",
+        "手腕温度",
+        "更多记录",
+        "更多选项",
+        "生理周期小知识",
+        "身体症状",
+        "近 6 周期经期报告 Badge 上次经期延长了 2 天"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采多段滚动视图",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-diet": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "完成打卡",
+        "快速录入",
+        "拍摄菜肴",
+        "返回"
+      ],
+      "pending": [
+        "完成打卡",
+        "拍摄菜肴"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {
+        "完成打卡": "会写入或修改真实个人数据",
+        "拍摄菜肴": "需要新测量或个人输入"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-diet-quick": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "取消",
+        "完成打卡",
+        "快速录入",
+        "拍摄菜肴",
+        "搜索",
+        "晚餐",
+        "确认打卡",
+        "自定义热量",
+        "返回"
+      ],
+      "pending": [
+        "完成打卡",
+        "快速录入",
+        "拍摄菜肴",
+        "搜索",
+        "晚餐",
+        "确认打卡",
+        "自定义热量"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {
+        "完成打卡": "会写入或修改真实个人数据",
+        "拍摄菜肴": "需要新测量或个人输入"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-duration": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "修改目标",
+        "前一天",
+        "周",
+        "年",
+        "月",
+        "编辑",
+        "返回"
+      ],
+      "pending": [
+        "修改目标",
+        "前一天",
+        "编辑"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-duration-month": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "上个月",
+        "周",
+        "年",
+        "日",
+        "返回"
+      ],
+      "pending": [
+        "上个月"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-duration-week": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "data_explain_icon",
+        "上一周",
+        "年",
+        "日",
+        "月",
+        "返回"
+      ],
+      "pending": [
+        "上一周"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-duration-year": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "上一年",
+        "周",
+        "日",
+        "日均",
+        "月",
+        "返回"
+      ],
+      "pending": [
+        "上一年",
+        "日均"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-dynamic-collapse": {
+      "module": "今日 · 看板与快捷功能",
+      "controls": [
+        "close_button_layout",
+        "健康生活",
+        "减压放松",
+        "展开",
+        "心脏健康",
+        "搜索",
+        "更多选项",
+        "活动小时数",
+        "活动热量",
+        "活动记录",
+        "测测你的BMI",
+        "添加",
+        "添加您喜爱的快捷功能",
+        "点击恢复展开模型",
+        "睡眠",
+        "血压",
+        "血氧饱和度",
+        "规律起床",
+        "运动记录",
+        "锻炼时长",
+        "饮食热量"
+      ],
+      "pending": [
+        "健康生活",
+        "减压放松",
+        "活动小时数",
+        "活动热量",
+        "添加您喜爱的快捷功能",
+        "点击恢复展开模型",
+        "规律起床",
+        "锻炼时长",
+        "饮食热量"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-ecg-inbox": {
+      "module": "今日 · 洞察与报告",
+      "controls": [
+        "更多",
+        "窦性心律",
+        "返回"
+      ],
+      "pending": [
+        "更多",
+        "窦性心律"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-energy": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "修改目标",
+        "前一天",
+        "周",
+        "年",
+        "更多选项",
+        "月",
+        "立即健走",
+        "编辑",
+        "返回"
+      ],
+      "pending": [
+        "修改目标",
+        "前一天",
+        "更多选项",
+        "立即健走",
+        "编辑"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-energy-month": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "上个月",
+        "周",
+        "年",
+        "日",
+        "更多选项",
+        "返回"
+      ],
+      "pending": [
+        "上个月",
+        "更多选项"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-energy-week": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "上一周",
+        "年",
+        "日",
+        "更多选项",
+        "月",
+        "返回"
+      ],
+      "pending": [
+        "上一周",
+        "更多选项"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-energy-year": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "上一年",
+        "周",
+        "日",
+        "日均",
+        "更多选项",
+        "月",
+        "返回"
+      ],
+      "pending": [
+        "上一年",
+        "日均",
+        "更多选项"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-glucose": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "compid_CalendarSection_spinner_1",
+        "周",
+        "年",
+        "更多",
+        "更多选项",
+        "月",
+        "极低",
+        "查看更多血糖数据",
+        "测量指血",
+        "返回"
+      ],
+      "pending": [
+        "更多",
+        "极低",
+        "测量指血"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {
+        "测量指血": "需要新测量或个人输入"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-heart": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "compid_CalendarSection_spinner_1",
+        "周",
+        "年",
+        "心率变异性",
+        "心电图",
+        "更多",
+        "月",
+        "查看全部心率数据",
+        "查看全部数据",
+        "横屏",
+        "脉搏波心律失常分析",
+        "返回"
+      ],
+      "pending": [
+        "更多",
+        "查看全部心率数据",
+        "横屏"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-hours": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "active_hours_arrow_left",
+        "修改目标",
+        "周",
+        "年",
+        "更多选项",
+        "月",
+        "立即站立",
+        "编辑",
+        "返回"
+      ],
+      "pending": [
+        "修改目标",
+        "更多选项",
+        "立即站立",
+        "编辑"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-hours-month": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "active_hours_arrow_left",
+        "会员",
+        "周",
+        "年",
+        "日",
+        "更多选项",
+        "返回"
+      ],
+      "pending": [
+        "更多选项"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-hours-week": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "active_hours_arrow_left",
+        "会员",
+        "年",
+        "日",
+        "更多选项",
+        "月",
+        "返回"
+      ],
+      "pending": [
+        "更多选项"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-hours-year": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "active_hours_arrow_left",
+        "会员",
+        "周",
+        "日",
+        "更多选项",
+        "月",
+        "返回"
+      ],
+      "pending": [
+        "更多选项"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-insight": {
+      "module": "今日 · 洞察与报告",
+      "controls": [
+        "趋势列表",
+        "返回",
+        "更多选项"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "实机从首屏连续滚动至底部 · 7 个位置",
+      "boundaries": {},
+      "provenance": "2026-11-20 Mate 50 实机复采",
+      "capturedAt": "2026-11-20T10:15:22+08:00"
+    },
+    "today-insight-card-more": {
+      "module": "今日 · 洞察与报告",
+      "controls": [
+        "更多选项",
+        "精选洞察",
+        "趋势列表",
+        "返回"
+      ],
+      "pending": [
+        "精选洞察"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-insight-menu": {
+      "module": "今日 · 洞察与报告",
+      "controls": [
+        "更多选项",
+        "相关知识",
+        "精选洞察",
+        "设置",
+        "趋势列表",
+        "返回"
+      ],
+      "pending": [
+        "更多选项",
+        "相关知识",
+        "精选洞察",
+        "趋势列表"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-insight-menu-settings": {
+      "module": "今日 · 洞察与报告",
+      "controls": [
+        "关闭",
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-insight-trend": {
+      "module": "今日 · 洞察与报告",
+      "controls": [
+        "更多选项",
+        "精选洞察",
+        "趋势列表",
+        "返回"
+      ],
+      "pending": [
+        "更多选项",
+        "精选洞察",
+        "趋势列表"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-life": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "close_button_layout",
+        "体温",
+        "体重管理",
+        "健康档案",
+        "健康洞察",
+        "健康生活",
+        "减压放松，0，/1 次",
+        "刷新",
+        "前往查看",
+        "完成 15 项检测",
+        "定制专属食谱",
+        "心脏健康",
+        "忽略",
+        "情绪健康",
+        "拍照录入",
+        "搜索",
+        "收起",
+        "更多",
+        "更多选项",
+        "查看详情",
+        "活力三环",
+        "测测你的BMI",
+        "添加",
+        "添加您喜爱的快捷功能",
+        "点击收起模型",
+        "生理周期",
+        "睡眠",
+        "自定义数据看板",
+        "血压",
+        "血氧饱和度",
+        "血糖管理",
+        "记录饮食",
+        "运动记录",
+        "锻炼时长，26，/25 分钟"
+      ],
+      "pending": [
+        "健康洞察",
+        "健康生活",
+        "减压放松，0，/1 次",
+        "刷新",
+        "完成 15 项检测",
+        "忽略",
+        "拍照录入",
+        "添加您喜爱的快捷功能",
+        "锻炼时长，26，/25 分钟"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采多段滚动视图",
+      "boundaries": {
+        "拍照录入": "需要新测量或个人输入"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-meal-plan": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "开始创建",
+        "返回"
+      ],
+      "pending": [
+        "开始创建"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采多段滚动视图",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-mood": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "compid_CalendarSection_spinner_1",
+        "会员",
+        "分享",
+        "压力",
+        "展开",
+        "愉悦",
+        "更多",
+        "查看更多",
+        "返回",
+        "选择情绪类型",
+        "醒神逆式呼吸"
+      ],
+      "pending": [
+        "分享",
+        "压力",
+        "愉悦",
+        "查看更多",
+        "醒神逆式呼吸"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采多段滚动视图",
+      "boundaries": {
+        "分享": "涉及系统分享入口"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-mood-choose": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "不愉悦",
+        "平静",
+        "愉悦"
+      ],
+      "pending": [
+        "不愉悦",
+        "平静",
+        "愉悦"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-mood-expand": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "compid_CalendarSection_spinner_1",
+        "分享",
+        "愉悦",
+        "收起",
+        "更多",
+        "返回",
+        "选择情绪类型"
+      ],
+      "pending": [
+        "分享",
+        "愉悦",
+        "收起",
+        "更多",
+        "选择情绪类型"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {
+        "分享": "涉及系统分享入口"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-mood-more": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "compid_CalendarSection_spinner_1",
+        "分享",
+        "展开",
+        "愉悦",
+        "所有数据",
+        "更多",
+        "相关知识",
+        "设置",
+        "返回",
+        "选择情绪类型"
+      ],
+      "pending": [
+        "分享",
+        "展开",
+        "愉悦",
+        "更多",
+        "选择情绪类型"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {
+        "分享": "涉及系统分享入口"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-mood-more-all": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "删除",
+        "压力",
+        "情绪",
+        "日均最高频情绪 平静",
+        "日均最高频情绪 愉悦",
+        "返回"
+      ],
+      "pending": [
+        "删除",
+        "压力",
+        "情绪",
+        "日均最高频情绪 平静",
+        "日均最高频情绪 愉悦"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {
+        "删除": "会写入或修改真实个人数据"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-mood-more-knowledge": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-mood-more-settings": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        ">",
+        "event_emotion_monitor_switch_btn",
+        "event_emotion_risk_waring_switch_btn",
+        "了解更多",
+        "返回"
+      ],
+      "pending": [
+        ">",
+        "了解更多"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-more": {
+      "module": "今日 · 看板与快捷功能",
+      "controls": [],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-more-settings": {
+      "module": "今日 · 看板与快捷功能",
+      "controls": [
+        "share_userinfo_switch",
+        "单位设置",
+        "同步",
+        "地图引擎",
+        "应用服务设置",
+        "插件设置",
+        "智能助手",
+        "消息管理",
+        "添加桌面卡片",
+        "目标",
+        "离线地图",
+        "自动识别锻炼状态",
+        "设备能力开放",
+        "运动设置",
+        "返回"
+      ],
+      "pending": [
+        "单位设置",
+        "同步",
+        "地图引擎",
+        "应用服务设置",
+        "插件设置",
+        "智能助手",
+        "消息管理",
+        "添加桌面卡片",
+        "目标",
+        "离线地图",
+        "自动识别锻炼状态",
+        "设备能力开放",
+        "运动设置"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-more-source": {
+      "module": "今日 · 看板与快捷功能",
+      "controls": [
+        "了解计步原理与活力三环",
+        "知道了"
+      ],
+      "pending": [
+        "了解计步原理与活力三环",
+        "知道了"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-oxygen": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "前一天",
+        "周",
+        "呼吸健康研究",
+        "年",
+        "改善血氧",
+        "更多选项",
+        "月",
+        "横屏",
+        "睡眠呼吸暂停研究",
+        "血氧低",
+        "返回",
+        "隐藏海拔",
+        "高原健康研究"
+      ],
+      "pending": [
+        "呼吸健康研究",
+        "改善血氧",
+        "横屏",
+        "睡眠呼吸暂停研究",
+        "高原健康研究"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采多段滚动视图",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-oxygen-altitude": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "前一天",
+        "周",
+        "年",
+        "改善血氧",
+        "显示海拔",
+        "更多选项",
+        "月",
+        "横屏",
+        "血氧低",
+        "血氧低却没有症状？警惕沉默性缺氧",
+        "返回"
+      ],
+      "pending": [
+        "前一天",
+        "周",
+        "年",
+        "改善血氧",
+        "显示海拔",
+        "更多选项",
+        "月",
+        "横屏",
+        "血氧低",
+        "血氧低却没有症状？警惕沉默性缺氧"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-oxygen-low": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "上一首",
+        "下一首",
+        "分享",
+        "播放列表",
+        "正在加载…",
+        "返回",
+        "顺序播放 (30 首)"
+      ],
+      "pending": [
+        "上一首",
+        "下一首",
+        "分享",
+        "播放列表",
+        "正在加载…",
+        "顺序播放 (30 首)"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {
+        "分享": "涉及系统分享入口"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-oxygen-month": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "上个月",
+        "周",
+        "年",
+        "日",
+        "更多选项",
+        "较低血氧",
+        "返回"
+      ],
+      "pending": [
+        "上个月",
+        "较低血氧"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-oxygen-more": {
+      "module": "今日 · 健康指标",
+      "controls": [],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-oxygen-more-all": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "所有数据",
+        "血氧范围 89%-99%",
+        "血氧范围 90%-99%",
+        "血氧范围 93%-98%",
+        "血氧范围 94%-98%",
+        "血氧范围 95%-97%",
+        "血氧范围 95%-98%",
+        "血氧范围 95%-99%",
+        "血氧范围 99%-99%",
+        "返回"
+      ],
+      "pending": [
+        "所有数据",
+        "血氧范围 89%-99%",
+        "血氧范围 90%-99%",
+        "血氧范围 93%-98%",
+        "血氧范围 94%-98%",
+        "血氧范围 95%-97%",
+        "血氧范围 95%-98%",
+        "血氧范围 95%-99%",
+        "血氧范围 99%-99%"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-oxygen-more-altitude": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "auto_monitor_button",
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-oxygen-more-info": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-oxygen-more-oxygen": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "blood_oxygen_switch_button",
+        "说明",
+        "较低血氧提醒",
+        "返回"
+      ],
+      "pending": [
+        "说明",
+        "较低血氧提醒"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-oxygen-previous": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "前一天",
+        "后一天",
+        "周",
+        "年",
+        "改善血氧",
+        "显示海拔",
+        "更多选项",
+        "月",
+        "横屏",
+        "血氧低",
+        "血氧低却没有症状？警惕沉默性缺氧",
+        "返回"
+      ],
+      "pending": [
+        "前一天",
+        "后一天",
+        "周",
+        "年",
+        "改善血氧",
+        "显示海拔",
+        "更多选项",
+        "月",
+        "横屏",
+        "血氧低",
+        "血氧低却没有症状？警惕沉默性缺氧"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-oxygen-week": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "上一周",
+        "年",
+        "改善血氧",
+        "日",
+        "更多选项",
+        "月",
+        "血氧低",
+        "返回"
+      ],
+      "pending": [
+        "上一周",
+        "改善血氧",
+        "血氧低"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-oxygen-year": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "上一年",
+        "周",
+        "日",
+        "更多选项",
+        "月",
+        "较低血氧",
+        "返回"
+      ],
+      "pending": [
+        "上一年",
+        "较低血氧"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-profile": {
+      "module": "今日 · 洞察与报告",
+      "controls": [
+        "体检报告",
+        "展开",
+        "微体检报告",
+        "打开上一份报告",
+        "打开最近报告",
+        "更多选项",
+        "检测设备来源",
+        "添加体检报告",
+        "返回"
+      ],
+      "pending": [
+        "检测设备来源"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-profile-add": {
+      "module": "今日 · 洞察与报告",
+      "controls": [
+        "institutions",
+        "organizationName",
+        "userName",
+        "上传 PDF",
+        "上传图片",
+        "体检时间*",
+        "保存",
+        "返回"
+      ],
+      "pending": [
+        "上传 PDF",
+        "上传图片",
+        "体检时间*",
+        "保存"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {
+        "保存": "会写入或修改真实个人数据"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-profile-expand": {
+      "module": "今日 · 洞察与报告",
+      "controls": [
+        "体检报告",
+        "展开",
+        "微体检报告",
+        "收起",
+        "更多选项",
+        "检测设备来源",
+        "返回"
+      ],
+      "pending": [
+        "体检报告",
+        "展开",
+        "微体检报告",
+        "收起",
+        "更多选项",
+        "检测设备来源"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-profile-micro": {
+      "module": "今日 · 洞察与报告",
+      "controls": [
+        "展开",
+        "打开上一份报告",
+        "打开最近报告",
+        "更多选项",
+        "检测设备来源",
+        "返回"
+      ],
+      "pending": [
+        "展开",
+        "更多选项",
+        "检测设备来源"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-profile-more": {
+      "module": "今日 · 洞察与报告",
+      "controls": [
+        "体检报告",
+        "删除",
+        "展开",
+        "微体检报告",
+        "更多选项",
+        "检测设备来源",
+        "添加体检报告",
+        "返回"
+      ],
+      "pending": [
+        "体检报告",
+        "删除",
+        "展开",
+        "微体检报告",
+        "更多选项",
+        "检测设备来源",
+        "添加体检报告"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {
+        "删除": "会写入或修改真实个人数据",
+        "添加体检报告": "会写入或修改真实个人数据"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-profile-reports": {
+      "module": "今日 · 洞察与报告",
+      "controls": [
+        "添加体检报告",
+        "返回"
+      ],
+      "pending": [
+        "添加体检报告"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {
+        "添加体检报告": "会写入或修改真实个人数据"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-records": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "上一页",
+        "所有运动",
+        "添加",
+        "统计",
+        "返回"
+      ],
+      "pending": [
+        "上一页",
+        "所有运动"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-records-add": {
+      "module": "今日 · 活动与饮食",
+      "controls": [],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-records-stats": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "--",
+        "上一周",
+        "分享",
+        "年",
+        "总",
+        "总消耗热量",
+        "所有运动",
+        "月",
+        "运动时长",
+        "运动次数",
+        "返回"
+      ],
+      "pending": [
+        "上一周",
+        "分享",
+        "年",
+        "总",
+        "总消耗热量",
+        "所有运动",
+        "月",
+        "运动时长",
+        "运动次数"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {
+        "分享": "涉及系统分享入口"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-rings": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "tips_description",
+        "上一周",
+        "上新，课程",
+        "今日微运动",
+        "会员，课程",
+        "分享",
+        "更多",
+        "更多选项",
+        "查看更多",
+        "标记站立",
+        "步数",
+        "活动小时数",
+        "活动热量",
+        "爬楼",
+        "距离",
+        "返回",
+        "锻炼时长"
+      ],
+      "pending": [
+        "上新，课程",
+        "今日微运动",
+        "会员，课程",
+        "分享",
+        "更多",
+        "标记站立",
+        "步数",
+        "爬楼",
+        "距离"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采多段滚动视图",
+      "boundaries": {
+        "分享": "涉及系统分享入口",
+        "标记站立": "会写入或修改真实个人数据"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-rings-insights": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "洞察",
+        "趋势",
+        "返回",
+        "锻炼时长"
+      ],
+      "pending": [
+        "洞察",
+        "趋势",
+        "锻炼时长"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-rings-more": {
+      "module": "今日 · 活动与饮食",
+      "controls": [],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-rings-more-notifications": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "reminder_switch_btn",
+        "久坐提醒",
+        "任务提醒",
+        "目标达成提醒",
+        "返回",
+        "进度提醒"
+      ],
+      "pending": [
+        "久坐提醒",
+        "任务提醒",
+        "目标达成提醒",
+        "进度提醒"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-rings-more-targets": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "活动小时数",
+        "活动热量",
+        "返回",
+        "锻炼时长"
+      ],
+      "pending": [
+        "活动小时数",
+        "活动热量",
+        "锻炼时长"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-rings-previous-week": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "上一周",
+        "下一周",
+        "分享",
+        "微运动记录",
+        "更多选项",
+        "查看更多",
+        "步数",
+        "活动小时数",
+        "活动热量",
+        "爬楼",
+        "距离",
+        "返回",
+        "锻炼时长"
+      ],
+      "pending": [
+        "上一周",
+        "分享",
+        "微运动记录",
+        "更多选项",
+        "查看更多",
+        "步数",
+        "活动小时数",
+        "活动热量",
+        "爬楼",
+        "距离",
+        "锻炼时长"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {
+        "分享": "涉及系统分享入口"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-search": {
+      "module": "今日 · 看板与快捷功能",
+      "controls": [
+        "search_src_text",
+        "心脏",
+        "搜索",
+        "档案",
+        "清空",
+        "血糖",
+        "返回"
+      ],
+      "pending": [
+        "心脏",
+        "搜索",
+        "档案",
+        "清空",
+        "血糖"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-shortcuts": {
+      "module": "今日 · 看板与快捷功能",
+      "controls": [
+        "AI 助眠音乐",
+        "健康课程",
+        "健身课程",
+        "删除睡眠监测",
+        "助眠音乐",
+        "呼吸训练",
+        "定制食谱",
+        "开始步行",
+        "开始跑步",
+        "开始骑行",
+        "智能减脂",
+        "智能训练",
+        "正念冥想",
+        "热身拉伸",
+        "睡眠监测",
+        "确定",
+        "蓝星环游",
+        "返回",
+        "饮食分析"
+      ],
+      "pending": [
+        "AI 助眠音乐",
+        "健康课程",
+        "健身课程",
+        "删除睡眠监测",
+        "助眠音乐",
+        "呼吸训练",
+        "定制食谱",
+        "开始步行",
+        "开始跑步",
+        "开始骑行",
+        "智能减脂",
+        "智能训练",
+        "正念冥想",
+        "热身拉伸",
+        "睡眠监测",
+        "确定",
+        "蓝星环游",
+        "饮食分析"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-sleep": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "高效午休",
+        "月",
+        "周",
+        "年",
+        "更多选项",
+        "返回",
+        "助眠音乐",
+        "记录睡眠",
+        "前一天",
+        "后一天",
+        "手动输入",
+        "规律起床"
+      ],
+      "pending": [
+        "后一天",
+        "手动输入",
+        "规律起床"
+      ],
+      "excluded": [],
+      "scrollEvidence": "实机从首屏连续滚动至底部 · 6 个位置",
+      "boundaries": {},
+      "provenance": "2026-11-20 Mate 50 实机复采",
+      "capturedAt": "2026-11-20T10:16:09+08:00"
+    },
+    "today-sleep-month": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "上个月",
+        "参考值：10-30%",
+        "参考值：6-10 小时",
+        "参考值：<65%",
+        "周",
+        "年",
+        "日",
+        "日均夜间睡眠，6 小时 39 分钟正常，参考值：6-10 小时",
+        "日均浅度睡眠 N1/N2 比例，56%正常，参考值：<65%",
+        "日均深度睡眠 N3 比例，19%正常，参考值：10-30%",
+        "更多选项",
+        "返回"
+      ],
+      "pending": [
+        "上个月",
+        "参考值：10-30%",
+        "参考值：6-10 小时",
+        "参考值：<65%",
+        "日均夜间睡眠，6 小时 39 分钟正常，参考值：6-10 小时",
+        "日均浅度睡眠 N1/N2 比例，56%正常，参考值：<65%",
+        "日均深度睡眠 N3 比例，19%正常，参考值：10-30%"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-sleep-more": {
+      "module": "今日 · 健康指标",
+      "controls": [],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-sleep-more-all": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "删除",
+        "所有数据",
+        "返回"
+      ],
+      "pending": [
+        "删除",
+        "所有数据"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {
+        "删除": "会写入或修改真实个人数据"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-sleep-more-favourites": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "梦话",
+        "返回",
+        "鼾声"
+      ],
+      "pending": [
+        "梦话",
+        "鼾声"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-sleep-more-info": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "关于手动输入睡眠",
+        "关于手机记录睡眠",
+        "关于穿戴设备监测睡眠",
+        "返回"
+      ],
+      "pending": [
+        "关于手动输入睡眠",
+        "关于手机记录睡眠",
+        "关于穿戴设备监测睡眠"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-sleep-more-settings": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "下载",
+        "取消"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-sleep-more-settings-download": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "input-14",
+        "input-19",
+        "input-24",
+        "作息计划",
+        "就寝",
+        "忽略电池优化",
+        "手机记录睡眠最大时长",
+        "梦话鼾声",
+        "返回",
+        "锁定后台任务"
+      ],
+      "pending": [
+        "作息计划",
+        "就寝",
+        "忽略电池优化",
+        "手机记录睡眠最大时长",
+        "梦话鼾声",
+        "锁定后台任务"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-sleep-more-sleep-plan": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "停止智能睡眠改善计划",
+        "关于",
+        "用户须知"
+      ],
+      "pending": [
+        "停止智能睡眠改善计划",
+        "关于",
+        "用户须知"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-sleep-more-sleep-switch": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "event_core_sleep_switch_btn",
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-sleep-music": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "AI动态声景",
+        "前一天",
+        "后一天",
+        "周",
+        "年",
+        "快速入睡",
+        "手动输入",
+        "放松减压",
+        "晨间唤醒",
+        "更多选项",
+        "月",
+        "深睡提升",
+        "睡眠分析与建议",
+        "舒适小憩",
+        "记录睡眠",
+        "返回",
+        "高效午休"
+      ],
+      "pending": [
+        "AI动态声景",
+        "前一天",
+        "后一天",
+        "周",
+        "年",
+        "快速入睡",
+        "手动输入",
+        "放松减压",
+        "晨间唤醒",
+        "更多选项",
+        "月",
+        "深睡提升",
+        "睡眠分析与建议",
+        "舒适小憩",
+        "记录睡眠",
+        "高效午休"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-sleep-nap": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "下载",
+        "取消"
+      ],
+      "pending": [
+        "下载"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-sleep-previous": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "前一天",
+        "助眠音乐",
+        "后一天",
+        "周",
+        "年",
+        "手动输入",
+        "更多选项",
+        "月",
+        "记录睡眠",
+        "返回",
+        "高效午休"
+      ],
+      "pending": [
+        "前一天",
+        "助眠音乐",
+        "后一天",
+        "周",
+        "年",
+        "手动输入",
+        "更多选项",
+        "月",
+        "记录睡眠",
+        "高效午休"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-sleep-record": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "back_layout",
+        "image_setting",
+        "music_img",
+        "play_img",
+        "timer_img",
+        "开始"
+      ],
+      "pending": [
+        "开始"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-sleep-week": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "上一周",
+        "年",
+        "手动输入",
+        "日",
+        "日均零星小睡，2 小时 4 分钟",
+        "更多选项",
+        "月",
+        "查看更多",
+        "睡眠呼吸暂停检测",
+        "记录睡眠",
+        "返回",
+        "高效午休"
+      ],
+      "pending": [
+        "上一周",
+        "手动输入",
+        "日均零星小睡，2 小时 4 分钟",
+        "查看更多",
+        "睡眠呼吸暂停检测",
+        "记录睡眠",
+        "高效午休"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-sleep-year": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "hw_health_fitness_data_origin_icon",
+        "上一年",
+        "周",
+        "日",
+        "日均睡眠时长，6 小时 30 分钟正常，参考值：6-10 小时",
+        "更多选项",
+        "月",
+        "返回"
+      ],
+      "pending": [
+        "上一年",
+        "日均睡眠时长，6 小时 30 分钟正常，参考值：6-10 小时"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-steps": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "step_switch_btn",
+        "分享",
+        "前一天",
+        "周",
+        "年",
+        "更多选项",
+        "月",
+        "立即健走",
+        "编辑",
+        "达标提醒",
+        "返回"
+      ],
+      "pending": [
+        "分享",
+        "前一天",
+        "立即健走",
+        "达标提醒"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采多段滚动视图",
+      "boundaries": {
+        "分享": "涉及系统分享入口"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-steps-view-1": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "HUAWEI Pura X",
+        "WATCH 5",
+        "分享",
+        "周",
+        "年",
+        "更多选项",
+        "月",
+        "来源管理",
+        "查看更多",
+        "立即健走",
+        "返回"
+      ],
+      "pending": [
+        "HUAWEI Pura X",
+        "WATCH 5",
+        "分享",
+        "来源管理",
+        "查看更多",
+        "立即健走"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采多段滚动视图",
+      "boundaries": {
+        "分享": "涉及系统分享入口"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-steps-view-2": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "cl_step_source_item_container",
+        "久坐激活",
+        "分享",
+        "周",
+        "年",
+        "更多选项",
+        "月",
+        "查看更多",
+        "深度久坐放松",
+        "臀部酸痛缓解",
+        "解压音乐走",
+        "趣味城市走",
+        "轻松燃脂走",
+        "轻松走起",
+        "返回"
+      ],
+      "pending": [
+        "久坐激活",
+        "分享",
+        "查看更多",
+        "深度久坐放松",
+        "臀部酸痛缓解",
+        "解压音乐走",
+        "趣味城市走",
+        "轻松燃脂走",
+        "轻松走起"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采多段滚动视图",
+      "boundaries": {
+        "分享": "涉及系统分享入口"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-steps-view-3": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "会员",
+        "分享",
+        "周",
+        "年",
+        "拉伸放松",
+        "放松小腿",
+        "放松足底",
+        "更多选项",
+        "月",
+        "步数奖励",
+        "深度久坐放松",
+        "脚踝灵活",
+        "臀部酸痛缓解",
+        "解压音乐走",
+        "趣味城市走",
+        "返回"
+      ],
+      "pending": [
+        "分享",
+        "拉伸放松",
+        "放松小腿",
+        "放松足底",
+        "步数奖励",
+        "深度久坐放松",
+        "脚踝灵活",
+        "臀部酸痛缓解",
+        "解压音乐走",
+        "趣味城市走"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采多段滚动视图",
+      "boundaries": {
+        "分享": "涉及系统分享入口"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-steps-view-4": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "分享",
+        "周",
+        "年",
+        "放松小腿",
+        "放松足底",
+        "更多选项",
+        "月",
+        "步数奖励",
+        "蓝星环游",
+        "返回"
+      ],
+      "pending": [
+        "分享",
+        "放松小腿",
+        "放松足底",
+        "步数奖励",
+        "蓝星环游"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采多段滚动视图",
+      "boundaries": {
+        "分享": "涉及系统分享入口"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-steps-month": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "上个月",
+        "周",
+        "年",
+        "日",
+        "更多选项",
+        "查看更多",
+        "返回"
+      ],
+      "pending": [
+        "上个月",
+        "查看更多"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-steps-more": {
+      "module": "今日 · 活动与饮食",
+      "controls": [],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-steps-more-all": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-steps-more-knowledge": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-steps-target": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "set_step_goal_seekbar",
+        "保存目标",
+        "大量",
+        "少量",
+        "编辑目标",
+        "返回",
+        "适量"
+      ],
+      "pending": [
+        "保存目标",
+        "大量",
+        "少量",
+        "编辑目标",
+        "适量"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-steps-week": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "上一周",
+        "年",
+        "日",
+        "更多选项",
+        "月",
+        "查看更多",
+        "返回"
+      ],
+      "pending": [
+        "上一周",
+        "查看更多"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-steps-year": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "上一年",
+        "周",
+        "日",
+        "日均",
+        "更多选项",
+        "月",
+        "查看更多",
+        "返回"
+      ],
+      "pending": [
+        "上一年",
+        "日均",
+        "查看更多"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-temp": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "toolbar_item_left",
+        "toolbar_item_right",
+        "体温",
+        "前一天",
+        "后一天",
+        "周",
+        "呼吸健康研究",
+        "更多选项",
+        "月",
+        "皮肤温度",
+        "返回"
+      ],
+      "pending": [
+        "体温",
+        "前一天",
+        "后一天",
+        "呼吸健康研究",
+        "皮肤温度"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-temp-month": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "toolbar_item_left",
+        "toolbar_item_right",
+        "上个月",
+        "体温",
+        "历史体温提醒记录",
+        "周",
+        "呼吸健康研究",
+        "日",
+        "更多选项",
+        "皮肤温度",
+        "返回"
+      ],
+      "pending": [
+        "上个月",
+        "体温",
+        "历史体温提醒记录",
+        "呼吸健康研究",
+        "皮肤温度"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-temp-more": {
+      "module": "今日 · 健康指标",
+      "controls": [],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-temp-more-all": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "删除",
+        "所有数据",
+        "疑似 ≥ 37.2℃",
+        "皮肤温度",
+        "返回"
+      ],
+      "pending": [
+        "删除",
+        "所有数据",
+        "疑似 ≥ 37.2℃",
+        "皮肤温度"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {
+        "删除": "会写入或修改真实个人数据"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-temp-more-info": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-temp-more-temperature": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "temp_monitoring_switch",
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-temp-week": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "toolbar_item_left",
+        "toolbar_item_right",
+        "上一周",
+        "下一周",
+        "体温",
+        "历史体温提醒记录",
+        "呼吸健康研究",
+        "日",
+        "更多选项",
+        "月",
+        "皮肤温度",
+        "返回"
+      ],
+      "pending": [
+        "上一周",
+        "下一周",
+        "体温",
+        "历史体温提醒记录",
+        "呼吸健康研究",
+        "皮肤温度"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-weight": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "了解详情",
+        "关闭",
+        "加餐",
+        "半年",
+        "取消",
+        "周",
+        "年",
+        "忽略",
+        "总消耗",
+        "手动输入",
+        "日",
+        "更多选项",
+        "月",
+        "测量体重",
+        "添加快捷卡片",
+        "添加服务快捷卡片至桌面，更方便您随时使用饮食管理服务。",
+        "热量缺口",
+        "解决方法",
+        "返回",
+        "饮食记录"
+      ],
+      "pending": [
+        "了解详情",
+        "加餐",
+        "忽略",
+        "日",
+        "添加快捷卡片",
+        "添加服务快捷卡片至桌面，更方便您随时使用饮食管理服务。",
+        "热量缺口"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采多段滚动视图",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-weight-view-1": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "了解详情",
+        "关闭",
+        "加餐",
+        "午餐",
+        "半年",
+        "取消",
+        "周",
+        "年",
+        "忽略",
+        "总消耗",
+        "手动输入",
+        "拍照录入",
+        "日",
+        "早餐",
+        "晚餐",
+        "更多选项",
+        "月",
+        "测量体重",
+        "添加快捷卡片",
+        "添加服务快捷卡片至桌面，更方便您随时使用饮食管理服务。",
+        "热量缺口",
+        "解决方法",
+        "返回",
+        "饮食分析 录入今日饮食，生成分析",
+        "饮食记录"
+      ],
+      "pending": [
+        "了解详情",
+        "加餐",
+        "午餐",
+        "忽略",
+        "拍照录入",
+        "日",
+        "早餐",
+        "晚餐",
+        "添加快捷卡片",
+        "添加服务快捷卡片至桌面，更方便您随时使用饮食管理服务。",
+        "热量缺口",
+        "饮食分析 录入今日饮食，生成分析"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采多段滚动视图",
+      "boundaries": {
+        "拍照录入": "需要新测量或个人输入"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-weight-view-2": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "了解详情",
+        "加餐",
+        "午餐",
+        "半年",
+        "去定制",
+        "取消",
+        "周",
+        "年",
+        "忽略",
+        "总消耗",
+        "手动输入",
+        "拍照录入",
+        "日",
+        "早餐",
+        "晚餐",
+        "智能体重管理计划 精准控热量，收获健康好身材",
+        "更多选项",
+        "月",
+        "测量体重",
+        "添加快捷卡片",
+        "添加服务快捷卡片至桌面，更方便您随时使用饮食管理服务。",
+        "热量缺口",
+        "解决方法",
+        "返回",
+        "饮食分析 录入今日饮食，生成分析"
+      ],
+      "pending": [
+        "了解详情",
+        "加餐",
+        "午餐",
+        "去定制",
+        "忽略",
+        "拍照录入",
+        "日",
+        "早餐",
+        "晚餐",
+        "智能体重管理计划 精准控热量，收获健康好身材",
+        "添加快捷卡片",
+        "添加服务快捷卡片至桌面，更方便您随时使用饮食管理服务。",
+        "热量缺口",
+        "饮食分析 录入今日饮食，生成分析"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采多段滚动视图",
+      "boundaries": {
+        "拍照录入": "需要新测量或个人输入"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-weight-view-3": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "AI 体型分析 智能拍照识别",
+        "上新",
+        "了解详情",
+        "午餐",
+        "半年",
+        "去定制",
+        "取消",
+        "周",
+        "年",
+        "忽略",
+        "懒人一周减脂计划",
+        "手动输入",
+        "拍照录入",
+        "日",
+        "早餐",
+        "晚餐",
+        "智能体重管理计划 精准控热量，收获健康好身材",
+        "更多",
+        "更多选项",
+        "月",
+        "测量体重",
+        "添加快捷卡片",
+        "添加服务快捷卡片至桌面，更方便您随时使用饮食管理服务。",
+        "精选燃脂系列",
+        "解决方法",
+        "轻断食 设置饮食窗口",
+        "返回",
+        "饮食分析 录入今日饮食，生成分析"
+      ],
+      "pending": [
+        "AI 体型分析 智能拍照识别",
+        "上新",
+        "了解详情",
+        "午餐",
+        "去定制",
+        "忽略",
+        "懒人一周减脂计划",
+        "拍照录入",
+        "日",
+        "早餐",
+        "晚餐",
+        "智能体重管理计划 精准控热量，收获健康好身材",
+        "更多",
+        "添加快捷卡片",
+        "添加服务快捷卡片至桌面，更方便您随时使用饮食管理服务。",
+        "精选燃脂系列",
+        "轻断食 设置饮食窗口",
+        "饮食分析 录入今日饮食，生成分析"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采多段滚动视图",
+      "boundaries": {
+        "拍照录入": "需要新测量或个人输入"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-weight-view-4": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "AI 体型分析 智能拍照识别",
+        "上新",
+        "了解详情",
+        "半年",
+        "去定制",
+        "取消",
+        "周",
+        "年",
+        "忽略",
+        "懒人一周减脂计划",
+        "手动输入",
+        "拍照录入",
+        "日",
+        "智能体重管理计划 精准控热量，收获健康好身材",
+        "更多",
+        "更多选项",
+        "月",
+        "测量体重",
+        "添加快捷卡片",
+        "添加服务快捷卡片至桌面，更方便您随时使用饮食管理服务。",
+        "精选燃脂系列",
+        "解决方法",
+        "轻断食 设置饮食窗口",
+        "返回",
+        "饮食分析 录入今日饮食，生成分析"
+      ],
+      "pending": [
+        "AI 体型分析 智能拍照识别",
+        "上新",
+        "了解详情",
+        "去定制",
+        "忽略",
+        "懒人一周减脂计划",
+        "拍照录入",
+        "日",
+        "智能体重管理计划 精准控热量，收获健康好身材",
+        "更多",
+        "添加快捷卡片",
+        "添加服务快捷卡片至桌面，更方便您随时使用饮食管理服务。",
+        "精选燃脂系列",
+        "轻断食 设置饮食窗口",
+        "饮食分析 录入今日饮食，生成分析"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采多段滚动视图",
+      "boundaries": {
+        "拍照录入": "需要新测量或个人输入"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-weight-diet": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "今日食谱",
+        "前一天",
+        "加餐",
+        "午餐",
+        "后一天",
+        "录入饮食，获取分析",
+        "总消耗",
+        "拍照录入",
+        "搜索",
+        "早餐",
+        "晚餐",
+        "更多选项",
+        "本周统计",
+        "热量缺口",
+        "请输入食物名称",
+        "返回",
+        "饮食分析"
+      ],
+      "pending": [
+        "今日食谱",
+        "前一天",
+        "加餐",
+        "午餐",
+        "后一天",
+        "录入饮食，获取分析",
+        "总消耗",
+        "拍照录入",
+        "搜索",
+        "早餐",
+        "晚餐",
+        "更多选项",
+        "本周统计",
+        "热量缺口",
+        "请输入食物名称",
+        "饮食分析"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {
+        "拍照录入": "需要新测量或个人输入"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-weight-halfyear": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "下一步",
+        "了解详情",
+        "体重趋势查看更灵活",
+        "关闭",
+        "加餐",
+        "半年",
+        "周",
+        "年",
+        "忽略",
+        "总消耗",
+        "手动输入",
+        "日",
+        "更多选项",
+        "月",
+        "测量体重",
+        "热量缺口",
+        "解决方法",
+        "返回",
+        "饮食记录"
+      ],
+      "pending": [
+        "下一步",
+        "了解详情",
+        "体重趋势查看更灵活",
+        "加餐",
+        "半年",
+        "忽略",
+        "总消耗",
+        "手动输入",
+        "测量体重",
+        "热量缺口",
+        "解决方法",
+        "饮食记录"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {
+        "测量体重": "需要新测量或个人输入"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-weight-help": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-weight-manual": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "体重 (公斤)",
+        "待输入",
+        "确认",
+        "脂肪率 (%)",
+        "返回"
+      ],
+      "pending": [
+        "体重 (公斤)",
+        "待输入",
+        "确认",
+        "脂肪率 (%)"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-weight-measure": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "取消",
+        "重新配对"
+      ],
+      "pending": [
+        "重新配对"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-weight-month": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "下一步",
+        "了解详情",
+        "体重趋势查看更灵活",
+        "关闭",
+        "加餐",
+        "半年",
+        "周",
+        "年",
+        "忽略",
+        "总消耗",
+        "手动输入",
+        "日",
+        "更多选项",
+        "月",
+        "测量体重",
+        "热量缺口",
+        "解决方法",
+        "返回",
+        "饮食记录"
+      ],
+      "pending": [
+        "下一步",
+        "了解详情",
+        "体重趋势查看更灵活",
+        "加餐",
+        "忽略",
+        "总消耗",
+        "手动输入",
+        "月",
+        "测量体重",
+        "热量缺口",
+        "解决方法",
+        "饮食记录"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {
+        "测量体重": "需要新测量或个人输入"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-weight-more": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "了解详情",
+        "关闭",
+        "加餐",
+        "半年",
+        "周",
+        "年",
+        "忽略",
+        "总消耗",
+        "手动输入",
+        "日",
+        "更多选项",
+        "月",
+        "测量体重",
+        "热量缺口",
+        "解决方法",
+        "返回",
+        "饮食记录"
+      ],
+      "pending": [
+        "了解详情",
+        "加餐",
+        "半年",
+        "周",
+        "年",
+        "忽略",
+        "总消耗",
+        "手动输入",
+        "日",
+        "更多选项",
+        "月",
+        "测量体重",
+        "热量缺口",
+        "解决方法",
+        "饮食记录"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {
+        "测量体重": "需要新测量或个人输入"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-weight-total": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "了解详情",
+        "关闭",
+        "加餐",
+        "午餐",
+        "半年",
+        "周",
+        "年",
+        "忽略",
+        "总消耗",
+        "手动输入",
+        "日",
+        "早餐",
+        "晚餐",
+        "更多选项",
+        "月",
+        "测量体重",
+        "热量缺口",
+        "返回",
+        "饮食记录"
+      ],
+      "pending": [
+        "了解详情",
+        "加餐",
+        "午餐",
+        "半年",
+        "周",
+        "年",
+        "忽略",
+        "总消耗",
+        "手动输入",
+        "日",
+        "早餐",
+        "晚餐",
+        "更多选项",
+        "月",
+        "测量体重",
+        "热量缺口",
+        "饮食记录"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {
+        "测量体重": "需要新测量或个人输入"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-weight-week": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "下一步",
+        "了解详情",
+        "体重趋势查看更灵活",
+        "关闭",
+        "加餐",
+        "半年",
+        "周",
+        "年",
+        "忽略",
+        "总消耗",
+        "手动输入",
+        "日",
+        "更多选项",
+        "月",
+        "测量体重",
+        "热量缺口",
+        "解决方法",
+        "返回",
+        "饮食记录"
+      ],
+      "pending": [
+        "下一步",
+        "了解详情",
+        "体重趋势查看更灵活",
+        "加餐",
+        "周",
+        "忽略",
+        "总消耗",
+        "手动输入",
+        "测量体重",
+        "热量缺口",
+        "解决方法",
+        "饮食记录"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {
+        "测量体重": "需要新测量或个人输入"
+      },
+      "provenance": "本次实机采集"
+    },
+    "today-weight-year": {
+      "module": "今日 · 活动与饮食",
+      "controls": [
+        "下一步",
+        "了解详情",
+        "体重趋势查看更灵活",
+        "关闭",
+        "加餐",
+        "半年",
+        "周",
+        "年",
+        "忽略",
+        "总消耗",
+        "手动输入",
+        "日",
+        "更多选项",
+        "月",
+        "测量体重",
+        "热量缺口",
+        "解决方法",
+        "返回",
+        "饮食记录"
+      ],
+      "pending": [
+        "下一步",
+        "了解详情",
+        "体重趋势查看更灵活",
+        "加餐",
+        "年",
+        "忽略",
+        "总消耗",
+        "手动输入",
+        "测量体重",
+        "热量缺口",
+        "解决方法",
+        "饮食记录"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {
+        "测量体重": "需要新测量或个人输入"
+      },
+      "provenance": "本次实机采集"
+    },
+    "device-altitude-off": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "auto_monitor_button",
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-apnea-active": {
+      "module": "设备 · 健康检测与研究",
+      "controls": [
+        "更多选项",
+        "未见异常 12 次",
+        "疑似中度 0 次",
+        "疑似轻度 0 次",
+        "疑似重度 0 次",
+        "返回"
+      ],
+      "pending": [
+        "未见异常 12 次",
+        "疑似中度 0 次",
+        "疑似轻度 0 次",
+        "疑似重度 0 次"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采多段滚动视图",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-apnea-menu": {
+      "module": "设备 · 健康检测与研究",
+      "controls": [
+        "关于",
+        "所有数据",
+        "更多选项",
+        "未见异常 12 次",
+        "疑似中度 0 次",
+        "疑似轻度 0 次",
+        "疑似重度 0 次",
+        "设置",
+        "说明",
+        "返回"
+      ],
+      "pending": [
+        "更多选项",
+        "未见异常 12 次",
+        "疑似中度 0 次",
+        "疑似轻度 0 次",
+        "疑似重度 0 次"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-apnea-menu-about": {
+      "module": "设备 · 健康检测与研究",
+      "controls": [
+        "产品说明书和标签",
+        "华为睡眠呼吸暂停检测用户协议 和 关于华为睡眠呼吸暂停检测与隐私的声明",
+        "注销服务",
+        "返回"
+      ],
+      "pending": [
+        "产品说明书和标签",
+        "华为睡眠呼吸暂停检测用户协议 和 关于华为睡眠呼吸暂停检测与隐私的声明",
+        "注销服务"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-apnea-menu-all": {
+      "module": "设备 · 健康检测与研究",
+      "controls": [
+        "全部",
+        "删除",
+        "未见异常",
+        "疑似中度",
+        "疑似轻度",
+        "疑似重度",
+        "返回"
+      ],
+      "pending": [
+        "全部",
+        "删除"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {
+        "删除": "会写入或修改真实个人数据"
+      },
+      "provenance": "本次实机采集"
+    },
+    "device-apnea-menu-all-filter-strip": {
+      "module": "设备 · 健康检测与研究",
+      "controls": [
+        "删除",
+        "未见异常",
+        "疑似中度",
+        "疑似轻度",
+        "疑似重度",
+        "返回"
+      ],
+      "pending": [
+        "删除",
+        "未见异常",
+        "疑似中度",
+        "疑似轻度"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {
+        "删除": "会写入或修改真实个人数据"
+      },
+      "provenance": "本次实机采集"
+    },
+    "device-apnea-menu-all-filter-strip-severe": {
+      "module": "设备 · 健康检测与研究",
+      "controls": [
+        "未见异常",
+        "疑似中度",
+        "疑似轻度",
+        "疑似重度",
+        "返回"
+      ],
+      "pending": [
+        "未见异常",
+        "疑似中度",
+        "疑似轻度",
+        "疑似重度"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-apnea-menu-all-latest": {
+      "module": "设备 · 健康检测与研究",
+      "controls": [
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-apnea-menu-all-type-1": {
+      "module": "设备 · 健康检测与研究",
+      "controls": [
+        "全部",
+        "删除",
+        "未见异常",
+        "疑似中度",
+        "疑似轻度",
+        "疑似重度",
+        "返回"
+      ],
+      "pending": [
+        "删除",
+        "未见异常"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {
+        "删除": "会写入或修改真实个人数据"
+      },
+      "provenance": "本次实机采集"
+    },
+    "device-apnea-menu-all-type-2": {
+      "module": "设备 · 健康检测与研究",
+      "controls": [
+        "全部",
+        "未见异常",
+        "疑似中度",
+        "疑似轻度",
+        "疑似重度",
+        "返回"
+      ],
+      "pending": [
+        "疑似轻度"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-apnea-menu-all-type-3": {
+      "module": "设备 · 健康检测与研究",
+      "controls": [
+        "全部",
+        "未见异常",
+        "疑似中度",
+        "疑似轻度",
+        "疑似重度",
+        "返回"
+      ],
+      "pending": [
+        "疑似中度"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-apnea-menu-all-type-4": {
+      "module": "设备 · 健康检测与研究",
+      "controls": [
+        "全部",
+        "未见异常",
+        "疑似中度",
+        "疑似轻度",
+        "疑似重度",
+        "返回"
+      ],
+      "pending": [
+        "疑似重度"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-apnea-menu-info": {
+      "module": "设备 · 健康检测与研究",
+      "controls": [
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-apnea-menu-settings": {
+      "module": "设备 · 健康检测与研究",
+      "controls": [
+        "event_sleep_breathe_switch_btn",
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "today-cycle-health": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "平均手腕温度",
+        "心情",
+        "性行为",
+        "手腕温度",
+        "日历视图",
+        "查看生理周期期间的健康数据",
+        "身体症状",
+        "返回",
+        "静息心率"
+      ],
+      "pending": [
+        "平均手腕温度",
+        "心情",
+        "性行为",
+        "手腕温度",
+        "日历视图",
+        "查看生理周期期间的健康数据",
+        "身体症状",
+        "静息心率"
+      ],
+      "excluded": [],
+      "scrollEvidence": "单屏已采，可滚动范围待核对",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-rings-confirm-task-1": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "取消",
+        "确认关闭"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-rings-confirm-task-2": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "取消",
+        "确认关闭"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-rings-state-1-2": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "reminder_switch_btn",
+        "久坐提醒",
+        "任务提醒",
+        "目标达成提醒",
+        "返回",
+        "进度提醒"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-rings-confirm-task-3": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "取消",
+        "确认关闭"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-rings-confirm-task-4": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "取消",
+        "确认关闭"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-rings-state-1-3": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "reminder_switch_btn",
+        "久坐提醒",
+        "任务提醒",
+        "目标达成提醒",
+        "返回",
+        "进度提醒"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-rings-confirm-task-5": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "取消",
+        "确认关闭"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-rings-state-2-3": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "reminder_switch_btn",
+        "久坐提醒",
+        "任务提醒",
+        "目标达成提醒",
+        "返回",
+        "进度提醒"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-rings-confirm-task-6": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "取消",
+        "确认关闭"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-rings-state-1-2-3": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "reminder_switch_btn",
+        "久坐提醒",
+        "任务提醒",
+        "目标达成提醒",
+        "返回",
+        "进度提醒"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-rings-confirm-task-7": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "取消",
+        "确认关闭"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-rings-state-1-4": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "reminder_switch_btn",
+        "久坐提醒",
+        "任务提醒",
+        "目标达成提醒",
+        "返回",
+        "进度提醒"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-rings-state-2-4": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "reminder_switch_btn",
+        "久坐提醒",
+        "任务提醒",
+        "目标达成提醒",
+        "返回",
+        "进度提醒"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-rings-state-1-2-4": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "reminder_switch_btn",
+        "久坐提醒",
+        "任务提醒",
+        "目标达成提醒",
+        "返回",
+        "进度提醒"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-rings-state-3-4": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "reminder_switch_btn",
+        "久坐提醒",
+        "任务提醒",
+        "目标达成提醒",
+        "返回",
+        "进度提醒"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-rings-state-1-3-4": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "reminder_switch_btn",
+        "久坐提醒",
+        "任务提醒",
+        "目标达成提醒",
+        "返回",
+        "进度提醒"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-rings-state-2-3-4": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "reminder_switch_btn",
+        "久坐提醒",
+        "任务提醒",
+        "目标达成提醒",
+        "返回",
+        "进度提醒"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-rings-state-1-2-3-4": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        "reminder_switch_btn",
+        "久坐提醒",
+        "任务提醒",
+        "目标达成提醒",
+        "返回",
+        "进度提醒"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "device-mood-state-1-2": {
+      "module": "设备 · 自动监测与提醒",
+      "controls": [
+        ">",
+        "event_emotion_monitor_switch_btn",
+        "event_emotion_risk_waring_switch_btn",
+        "了解更多",
+        "返回"
+      ],
+      "pending": [
+        ">"
+      ],
+      "excluded": [],
+      "scrollEvidence": "已采当前视口",
+      "boundaries": {},
+      "provenance": "本次实机采集"
+    },
+    "heart-history-day-hrv": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "周",
+        "年",
+        "心率",
+        "心电图",
+        "月",
+        "查看全部数据",
+        "脉搏波心律失常分析",
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "沿用同版本录制",
+      "boundaries": {},
+      "provenance": "同版本既有实机模型"
+    },
+    "heart-history-week": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "年",
+        "心率变异性",
+        "心电图",
+        "日",
+        "月",
+        "脉搏波心律失常分析",
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "沿用同版本录制",
+      "boundaries": {},
+      "provenance": "同版本既有实机模型"
+    },
+    "heart-history-week-hrv": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "年",
+        "心率",
+        "心电图",
+        "日",
+        "月",
+        "脉搏波心律失常分析",
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "沿用同版本录制",
+      "boundaries": {},
+      "provenance": "同版本既有实机模型"
+    },
+    "heart-history-month": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "周",
+        "年",
+        "心率变异性",
+        "心电图",
+        "日",
+        "脉搏波心律失常分析",
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "沿用同版本录制",
+      "boundaries": {},
+      "provenance": "同版本既有实机模型"
+    },
+    "heart-history-month-hrv": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "周",
+        "年",
+        "心率",
+        "心电图",
+        "日",
+        "脉搏波心律失常分析",
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "沿用同版本录制",
+      "boundaries": {},
+      "provenance": "同版本既有实机模型"
+    },
+    "heart-history-year": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "周",
+        "心率变异性",
+        "心电图",
+        "日",
+        "月",
+        "脉搏波心律失常分析",
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "沿用同版本录制",
+      "boundaries": {},
+      "provenance": "同版本既有实机模型"
+    },
+    "heart-history-year-hrv": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "周",
+        "心率",
+        "心电图",
+        "日",
+        "月",
+        "脉搏波心律失常分析",
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "沿用同版本录制",
+      "boundaries": {},
+      "provenance": "同版本既有实机模型"
+    },
+    "heart-history-all-rate": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "沿用同版本录制",
+      "boundaries": {},
+      "provenance": "同版本既有实机模型"
+    },
+    "heart-history-all-hrv": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "沿用同版本录制",
+      "boundaries": {},
+      "provenance": "同版本既有实机模型"
+    },
+    "heart-history-ecg": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "沿用同版本录制",
+      "boundaries": {},
+      "provenance": "同版本既有实机模型"
+    },
+    "heart-history-rhythm": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "沿用同版本录制",
+      "boundaries": {},
+      "provenance": "同版本既有实机模型"
+    },
+    "glucose-history-week": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "年",
+        "日",
+        "更多选项",
+        "月",
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "沿用同版本录制",
+      "boundaries": {},
+      "provenance": "同版本既有实机模型"
+    },
+    "glucose-history-month": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "周",
+        "年",
+        "日",
+        "更多选项",
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "沿用同版本录制",
+      "boundaries": {},
+      "provenance": "同版本既有实机模型"
+    },
+    "glucose-history-year": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "周",
+        "日",
+        "更多选项",
+        "月",
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "沿用同版本录制",
+      "boundaries": {},
+      "provenance": "同版本既有实机模型"
+    },
+    "glucose-history-details": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "关闭明细"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "沿用同版本录制",
+      "boundaries": {},
+      "provenance": "同版本既有实机模型"
+    },
+    "glucose-history-menu": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "关闭菜单",
+        "所有数据",
+        "相关知识"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "沿用同版本录制",
+      "boundaries": {},
+      "provenance": "同版本既有实机模型"
+    },
+    "glucose-history-log": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "沿用同版本录制",
+      "boundaries": {},
+      "provenance": "同版本既有实机模型"
+    },
+    "glucose-history-guide": {
+      "module": "今日 · 健康指标",
+      "controls": [
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "沿用同版本录制",
+      "boundaries": {},
+      "provenance": "同版本既有实机模型"
+    },
+    "profile-history-second": {
+      "module": "今日 · 洞察与报告",
+      "controls": [
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "沿用同版本录制",
+      "boundaries": {},
+      "provenance": "同版本既有实机模型"
+    },
+    "profile-history-report": {
+      "module": "今日 · 洞察与报告",
+      "controls": [
+        "返回"
+      ],
+      "pending": [],
+      "excluded": [],
+      "scrollEvidence": "沿用同版本录制",
+      "boundaries": {},
+      "provenance": "同版本既有实机模型"
+    },
+    "today-board-expanded": {
+      "module": "今日 · 看板与快捷功能",
+      "controls": [
+        "设备",
+        "搜索",
+        "更多选项",
+        "测测你的BMI",
+        "血压",
+        "生理周期",
+        "情绪健康",
+        "运动记录",
+        "睡眠",
+        "体温",
+        "体重管理",
+        "血糖管理",
+        "健康档案",
+        "心脏健康",
+        "血氧饱和度",
+        "活动记录",
+        "自定义数据看板",
+        "锻炼时长",
+        "活动小时数",
+        "活动热量",
+        "查看详情",
+        "步数",
+        "添加",
+        "点击收起模型",
+        "健康生活",
+        "收起",
+        "更多",
+        "健康动态 · 查看详情",
+        "健康洞察",
+        "刷新",
+        "完成 15 项检测",
+        "拍照录入",
+        "活力三环",
+        "添加您喜爱的快捷功能"
+      ],
+      "pending": [
+        "健康洞察",
+        "刷新",
+        "完成 15 项检测",
+        "拍照录入",
+        "活力三环",
+        "添加您喜爱的快捷功能"
+      ],
+      "excluded": [],
+      "scrollEvidence": "实机从首屏连续滚动至底部 · 6 个位置",
+      "boundaries": {
+        "拍照录入": "需要新测量或个人输入"
+      },
+      "provenance": "2026-11-20 Mate 50 实机复采",
+      "capturedAt": "2026-11-20T11:22:06+08:00"
+    }
+  },
+  "unmatchedRoutes": []
+}

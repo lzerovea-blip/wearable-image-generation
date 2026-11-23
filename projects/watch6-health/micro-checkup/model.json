@@ -1,0 +1,104 @@
+{
+  "feature": "micro-checkup",
+  "devices": {
+    "phone": {
+      "model": "HUAWEI Mate 50",
+      "os": "HarmonyOS 4.2.0.225",
+      "app": "华为运动健康",
+      "appVersion": "17.0.10.320"
+    }
+  },
+  "reviewed": true,
+  "steps": [
+    {
+      "scene": "enter",
+      "device": "phone",
+      "from": "今日看板",
+      "action": "点击健康档案，再选微体检报告",
+      "to": "报告列表",
+      "source": "live",
+      "observedAt": "2026-11-19T12:39:22+08:00",
+      "files": [
+        "evidence/m-card.png",
+        "evidence/m-profile.png",
+        "evidence/m-list.png"
+      ]
+    },
+    {
+      "scene": "read",
+      "device": "phone",
+      "from": "报告列表",
+      "action": "点最近一条记录并从顶端滚动到底，再返回选另一条",
+      "to": "两份报告及长页",
+      "source": "live",
+      "observedAt": "2026-11-19T12:41:02+08:00",
+      "files": [
+        "evidence/m-list.png",
+        "evidence/private-report-0.png",
+        "evidence/private-report-1.png",
+        "evidence/private-report-2.png",
+        "evidence/private-report-3.png",
+        "evidence/private-report-4.png",
+        "evidence/private-report-5.png",
+        "evidence/private-report-6.png",
+        "evidence/private-report-7.png",
+        "evidence/private-report-8.png",
+        "evidence/private-report-9.png",
+        "evidence/private-report-10.png",
+        "evidence/private-report-11.png",
+        "evidence/private-report-12.png",
+        "evidence/private-report-13.png",
+        "evidence/private-report-14.png",
+        "evidence/private-report-15.png",
+        "evidence/private-report-16.png",
+        "evidence/m-second.png"
+      ]
+    }
+  ],
+  "frameEvidence": {
+    "card": {
+      "sources": {
+        "evidence/m-card.png": "ada2186b3b39f4409f8318b62a2a30bc4bcf714b45d7978b18b77cc2f801f82e"
+      },
+      "renders": {
+        "screens/card-content.webp": "823f9af9552646d38c0e2dbabc0c03b3b91a91ba08412dc383d8fa5e4603bbc4"
+      }
+    },
+    "profile": {
+      "sources": {
+        "evidence/m-profile.png": "689bf3710be14756a3f04ddc76975ff1feb7883b68046bfda0c176da396d1249"
+      },
+      "renders": {
+        "screens/profile-content.webp": "a3b9fc9a5a9e7bfc445ce17e62d2bdf037b54ba4bdfac757538f1bbb834fac2a"
+      }
+    },
+    "list": {
+      "sources": {
+        "evidence/m-list.png": "5920b927aa5d62221b1dd940c2fb7a9616bb2077e30ba9acfdb613221bcce645"
+      },
+      "renders": {
+        "screens/list-content.webp": "f72fbfa75eceffaa73b86b5cab4044e569ae661aa35b0d2c946e39748af0749e"
+      }
+    },
+    "second": {
+      "sources": {
+        "evidence/m-second.png": "117d940d3a51227d6ec4b5f6d4a4546351fee5bc53f8ecc1dcf7ac3b5ea821ec"
+      },
+      "renders": {
+        "screens/second-content.webp": "c0989da69874f62b73363f79098c0315cfac25129ee71d1416d6867da4e69259"
+      }
+    },
+    "report": {
+      "sources": {
+        "evidence/private-report-4.png": "8f938720a1923cb159723a3946288422d2784095f1cdf92a0d1a2e12a90800dd",
+        "evidence/private-report-13.png": "51e4d101aec8387085e46e7901f01420b0818cc442d27fc499a2a1069591190b",
+        "evidence/private-report-15.png": "11635d0e4a72dcc01e56a05757b88499df7f0f887362c104d8efe60f259ad2a2",
+        "evidence/private-report-9.png": "f12bd619081e66b7aafbe4fb9dc6890537dcbcfa34fd5f62cd115bd503c5faee"
+      },
+      "renders": {
+        "screens/private-report-header.webp": "bce41172e6292b37b589828bc045dd799d7d1480324474ec0185b271f6813294",
+        "screens/private-report-content.webp": "913b4f7d8daabde40e4ef0565c94998b8ead42927af5f36e4addc853081f7859"
+      }
+    }
+  }
+}

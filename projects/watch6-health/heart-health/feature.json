@@ -1,0 +1,982 @@
+{
+  "id": "heart-health",
+  "name": "心脏健康",
+  "phoneProfile": "mate50",
+  "entries": {},
+  "pages": {
+    "entry": {
+      "device": "phone",
+      "title": "搜索结果 · 心脏",
+      "parent": "@home",
+      "capture": {
+        "content": "screens/entry-content.webp",
+        "contentLabel": "搜索结果 · 心脏",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "心脏健康",
+            "page": "day",
+            "box": [
+              3.2169,
+              23.0417,
+              93.2904,
+              9.7917
+            ]
+          }
+        ]
+      }
+    },
+    "day": {
+      "device": "phone",
+      "title": "日 · 心率",
+      "parent": "entry",
+      "capture": {
+        "content": "screens/day-content.webp",
+        "contentLabel": "日 · 心率",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "周",
+            "page": "week",
+            "box": [
+              26.9301,
+              12.1667,
+              22.9779,
+              4.7083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "月",
+            "page": "month",
+            "box": [
+              49.9081,
+              12.1667,
+              22.9779,
+              4.7083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "年",
+            "page": "year",
+            "box": [
+              72.886,
+              12.1667,
+              22.9779,
+              4.7083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "心率变异性",
+            "page": "day-hrv",
+            "box": [
+              50.0919,
+              57.2917,
+              45.9559,
+              3.5833
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "查看全部数据",
+            "page": "all-rate",
+            "box": [
+              4.2279,
+              62.2083,
+              91.5441,
+              4.7917
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "心电图",
+            "page": "ecg",
+            "box": [
+              3.6765,
+              70.0417,
+              92.3713,
+              8.125
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "脉搏波心律失常分析",
+            "page": "rhythm",
+            "box": [
+              3.6765,
+              85.0833,
+              92.3713,
+              8.125
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.2169,
+              4.5833,
+              13.6029,
+              6.5
+            ]
+          }
+        ]
+      }
+    },
+    "day-hrv": {
+      "device": "phone",
+      "title": "日 · HRV",
+      "parent": "entry",
+      "capture": {
+        "content": "screens/day-hrv-content.webp",
+        "contentLabel": "日 · HRV",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "周",
+            "page": "week-hrv",
+            "box": [
+              26.9301,
+              12.1667,
+              22.9779,
+              4.7083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "月",
+            "page": "month-hrv",
+            "box": [
+              49.9081,
+              12.1667,
+              22.9779,
+              4.7083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "年",
+            "page": "year-hrv",
+            "box": [
+              72.886,
+              12.1667,
+              22.9779,
+              4.7083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "心率",
+            "page": "day",
+            "box": [
+              4.136,
+              54.0,
+              45.9559,
+              3.5833
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "查看全部数据",
+            "page": "all-hrv",
+            "box": [
+              4.2279,
+              58.9167,
+              91.5441,
+              4.7917
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "心电图",
+            "page": "ecg",
+            "box": [
+              3.6765,
+              66.75,
+              92.3713,
+              8.125
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "脉搏波心律失常分析",
+            "page": "rhythm",
+            "box": [
+              3.6765,
+              81.7917,
+              92.3713,
+              8.125
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.2169,
+              4.5833,
+              13.6029,
+              6.5
+            ]
+          }
+        ]
+      }
+    },
+    "week": {
+      "device": "phone",
+      "title": "周 · 心率",
+      "parent": "entry",
+      "capture": {
+        "content": "screens/week-content.webp",
+        "contentLabel": "周 · 心率",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "日",
+            "page": "day",
+            "box": [
+              3.9522,
+              12.1667,
+              22.9779,
+              4.7083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "月",
+            "page": "month",
+            "box": [
+              49.9081,
+              12.1667,
+              22.9779,
+              4.7083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "年",
+            "page": "year",
+            "box": [
+              72.886,
+              12.1667,
+              22.9779,
+              4.7083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "心率变异性",
+            "page": "week-hrv",
+            "box": [
+              50.0919,
+              54.0,
+              45.9559,
+              3.5833
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "心电图",
+            "page": "ecg",
+            "box": [
+              3.6765,
+              66.75,
+              92.3713,
+              8.125
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "脉搏波心律失常分析",
+            "page": "rhythm",
+            "box": [
+              3.6765,
+              81.7917,
+              92.3713,
+              8.125
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.2169,
+              4.5833,
+              13.6029,
+              6.5
+            ]
+          }
+        ]
+      }
+    },
+    "week-hrv": {
+      "device": "phone",
+      "title": "周 · HRV",
+      "parent": "entry",
+      "capture": {
+        "content": "screens/week-hrv-content.webp",
+        "contentLabel": "周 · HRV",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "日",
+            "page": "day-hrv",
+            "box": [
+              3.9522,
+              12.1667,
+              22.9779,
+              4.7083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "月",
+            "page": "month-hrv",
+            "box": [
+              49.9081,
+              12.1667,
+              22.9779,
+              4.7083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "年",
+            "page": "year-hrv",
+            "box": [
+              72.886,
+              12.1667,
+              22.9779,
+              4.7083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "心率",
+            "page": "week",
+            "box": [
+              4.136,
+              54.0,
+              45.9559,
+              3.5833
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "心电图",
+            "page": "ecg",
+            "box": [
+              3.6765,
+              66.75,
+              92.3713,
+              8.125
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "脉搏波心律失常分析",
+            "page": "rhythm",
+            "box": [
+              3.6765,
+              81.7917,
+              92.3713,
+              8.125
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.2169,
+              4.5833,
+              13.6029,
+              6.5
+            ]
+          }
+        ]
+      }
+    },
+    "month": {
+      "device": "phone",
+      "title": "月 · 心率",
+      "parent": "entry",
+      "capture": {
+        "content": "screens/month-content.webp",
+        "contentLabel": "月 · 心率",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "日",
+            "page": "day",
+            "box": [
+              3.9522,
+              12.1667,
+              22.9779,
+              4.7083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "周",
+            "page": "week",
+            "box": [
+              26.9301,
+              12.1667,
+              22.9779,
+              4.7083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "年",
+            "page": "year",
+            "box": [
+              72.886,
+              12.1667,
+              22.9779,
+              4.7083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "心率变异性",
+            "page": "month-hrv",
+            "box": [
+              50.0919,
+              54.0,
+              45.9559,
+              3.5833
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "心电图",
+            "page": "ecg",
+            "box": [
+              3.6765,
+              66.75,
+              92.3713,
+              8.125
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "脉搏波心律失常分析",
+            "page": "rhythm",
+            "box": [
+              3.6765,
+              81.7917,
+              92.3713,
+              8.125
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.2169,
+              4.5833,
+              13.6029,
+              6.5
+            ]
+          }
+        ]
+      }
+    },
+    "month-hrv": {
+      "device": "phone",
+      "title": "月 · HRV",
+      "parent": "entry",
+      "capture": {
+        "content": "screens/month-hrv-content.webp",
+        "contentLabel": "月 · HRV",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "日",
+            "page": "day-hrv",
+            "box": [
+              3.9522,
+              12.1667,
+              22.9779,
+              4.7083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "周",
+            "page": "week-hrv",
+            "box": [
+              26.9301,
+              12.1667,
+              22.9779,
+              4.7083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "年",
+            "page": "year-hrv",
+            "box": [
+              72.886,
+              12.1667,
+              22.9779,
+              4.7083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "心率",
+            "page": "month",
+            "box": [
+              4.136,
+              54.0,
+              45.9559,
+              3.5833
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "心电图",
+            "page": "ecg",
+            "box": [
+              3.6765,
+              66.75,
+              92.3713,
+              8.125
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "脉搏波心律失常分析",
+            "page": "rhythm",
+            "box": [
+              3.6765,
+              81.7917,
+              92.3713,
+              8.125
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.2169,
+              4.5833,
+              13.6029,
+              6.5
+            ]
+          }
+        ]
+      }
+    },
+    "year": {
+      "device": "phone",
+      "title": "年 · 心率",
+      "parent": "entry",
+      "capture": {
+        "content": "screens/year-content.webp",
+        "contentLabel": "年 · 心率",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "日",
+            "page": "day",
+            "box": [
+              3.9522,
+              12.1667,
+              22.9779,
+              4.7083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "周",
+            "page": "week",
+            "box": [
+              26.9301,
+              12.1667,
+              22.9779,
+              4.7083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "月",
+            "page": "month",
+            "box": [
+              49.9081,
+              12.1667,
+              22.9779,
+              4.7083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "心率变异性",
+            "page": "year-hrv",
+            "box": [
+              50.0919,
+              54.0,
+              45.9559,
+              3.5833
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "心电图",
+            "page": "ecg",
+            "box": [
+              3.6765,
+              66.75,
+              92.3713,
+              8.125
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "脉搏波心律失常分析",
+            "page": "rhythm",
+            "box": [
+              3.6765,
+              81.7917,
+              92.3713,
+              8.125
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.2169,
+              4.5833,
+              13.6029,
+              6.5
+            ]
+          }
+        ]
+      }
+    },
+    "year-hrv": {
+      "device": "phone",
+      "title": "年 · HRV",
+      "parent": "entry",
+      "capture": {
+        "content": "screens/year-hrv-content.webp",
+        "contentLabel": "年 · HRV",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "日",
+            "page": "day-hrv",
+            "box": [
+              3.9522,
+              12.1667,
+              22.9779,
+              4.7083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "周",
+            "page": "week-hrv",
+            "box": [
+              26.9301,
+              12.1667,
+              22.9779,
+              4.7083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "月",
+            "page": "month-hrv",
+            "box": [
+              49.9081,
+              12.1667,
+              22.9779,
+              4.7083
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "心率",
+            "page": "year",
+            "box": [
+              4.136,
+              54.0,
+              45.9559,
+              3.5833
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "心电图",
+            "page": "ecg",
+            "box": [
+              3.6765,
+              66.75,
+              92.3713,
+              8.125
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "脉搏波心律失常分析",
+            "page": "rhythm",
+            "box": [
+              3.6765,
+              81.7917,
+              92.3713,
+              8.125
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.2169,
+              4.5833,
+              13.6029,
+              6.5
+            ]
+          }
+        ]
+      }
+    },
+    "all-rate": {
+      "device": "phone",
+      "title": "全部心率数据",
+      "parent": "day",
+      "capture": {
+        "content": "screens/all-rate-content.webp",
+        "contentLabel": "全部心率数据",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              86.3971,
+              5.4583,
+              11.489,
+              7.7083
+            ]
+          }
+        ]
+      }
+    },
+    "all-hrv": {
+      "device": "phone",
+      "title": "全部 HRV 数据",
+      "parent": "day-hrv",
+      "capture": {
+        "content": "screens/all-hrv-content.webp",
+        "contentLabel": "全部 HRV 数据",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              86.3971,
+              5.4583,
+              11.489,
+              7.7083
+            ]
+          }
+        ]
+      }
+    },
+    "ecg": {
+      "device": "phone",
+      "title": "心电图测量记录",
+      "parent": "day",
+      "capture": {
+        "content": "screens/ecg-content.webp",
+        "contentLabel": "心电图测量记录",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.2169,
+              4.5833,
+              13.6029,
+              6.5
+            ]
+          }
+        ]
+      }
+    },
+    "rhythm": {
+      "device": "phone",
+      "title": "脉搏波心律失常分析",
+      "parent": "day",
+      "capture": {
+        "content": "screens/rhythm-content.webp",
+        "contentLabel": "脉搏波心律失常分析",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.2169,
+              4.5833,
+              13.6029,
+              6.5
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "scenes": [
+    {
+      "id": "start",
+      "title": "进入与时间范围",
+      "hint": "从功能搜索结果进入，切换日、周、月、年。",
+      "start": {
+        "phone": "entry"
+      },
+      "keys": [
+        [
+          "phone",
+          "entry",
+          "搜索入口"
+        ],
+        [
+          "phone",
+          "day",
+          "日"
+        ],
+        [
+          "phone",
+          "week",
+          "周"
+        ],
+        [
+          "phone",
+          "month",
+          "月"
+        ],
+        [
+          "phone",
+          "year",
+          "年"
+        ]
+      ]
+    },
+    {
+      "id": "metrics",
+      "title": "心率与 HRV",
+      "hint": "点击图表下方切换指标，进入日视图全部数据。",
+      "start": {
+        "phone": "day-hrv"
+      },
+      "keys": [
+        [
+          "phone",
+          "day-hrv",
+          "日 · HRV"
+        ],
+        [
+          "phone",
+          "week-hrv",
+          "周 · HRV"
+        ],
+        [
+          "phone",
+          "month-hrv",
+          "月 · HRV"
+        ],
+        [
+          "phone",
+          "year-hrv",
+          "年 · HRV"
+        ],
+        [
+          "phone",
+          "all-rate",
+          "心率明细"
+        ],
+        [
+          "phone",
+          "all-hrv",
+          "HRV 明细"
+        ]
+      ]
+    },
+    {
+      "id": "tests",
+      "title": "心电图与心律分析",
+      "hint": "在日视图打开两张测量卡片，返回后继续查看另一项。",
+      "start": {
+        "phone": "day"
+      },
+      "keys": [
+        [
+          "phone",
+          "day",
+          "心脏健康"
+        ],
+        [
+          "phone",
+          "ecg",
+          "心电图记录"
+        ],
+        [
+          "phone",
+          "rhythm",
+          "心律分析"
+        ]
+      ]
+    }
+  ],
+  "references": [
+    "取自 Mate 50 的华为运动健康 17.0.10.320；已采集功能搜索、四个周期与双指标、日数据明细，以及两类测量记录。已展示的值来自当次页面。"
+  ],
+  "phoneHome": "entry"
+}

@@ -1,0 +1,110 @@
+{
+  "feature": "research-coronary",
+  "devices": {
+    "phone": {
+      "model": "HUAWEI Mate 50",
+      "os": "HarmonyOS 4.2.0.225",
+      "app": "华为创新研究",
+      "appVersion": "16.1.8.300"
+    }
+  },
+  "reviewed": true,
+  "steps": [
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "@home",
+      "action": "打开并查看创新研究首页",
+      "to": "创新研究首页",
+      "files": [
+        "evidence/landing-0.png",
+        "evidence/landing-1.png",
+        "evidence/landing-2.png",
+        "evidence/landing-3.png",
+        "evidence/landing-4.png",
+        "evidence/landing-5.png",
+        "evidence/landing-6.png"
+      ],
+      "observedAt": "2026-11-19T20:59:14+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "home",
+      "action": "打开并查看冠心病研究",
+      "to": "冠心病研究",
+      "files": [
+        "evidence/entry-coronary-walk.png",
+        "evidence/entry-coronary-walk-v1.png"
+      ],
+      "observedAt": "2026-11-19T21:35:56+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "entry-coronary",
+      "action": "打开并查看冠心病风险评估说明",
+      "to": "冠心病风险评估说明",
+      "files": [
+        "evidence/entry-coronary-info.png"
+      ],
+      "observedAt": "2026-11-19T21:17:02+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "冠心病研究",
+      "action": "Public/ic_public_detail",
+      "to": "冠心病风险评估说明",
+      "files": [
+        "evidence/entry-coronary.png",
+        "evidence/entry-coronary-info.png"
+      ],
+      "observedAt": "2026-11-19T21:17:02+08:00"
+    }
+  ],
+  "frameEvidence": {
+    "home": {
+      "observedAt": "2026-11-19T20:59:14+08:00",
+      "sources": {
+        "evidence/landing-0.png": "c0a35b67a11ae8742fcccd953fe2134a997354b16325fa6d13cd9de4ff8c0ea9",
+        "evidence/landing-1.png": "9af550adbd8e8f49f60e930334e2612452e2281109a0f0ae8d115737ac7b1c47",
+        "evidence/landing-2.png": "d132584642beef256796f96f63a368839c8fe30ca110964e16c3e4fb39222d2c",
+        "evidence/landing-3.png": "063a5609fff594ce546dbfb9bd421a32cad7491664c3b9f35aed526cfe75e29a",
+        "evidence/landing-4.png": "0bb5cb079cd3b2c0b56d461240e2e4637525d0fd971f3d78009c6b176c27333b",
+        "evidence/landing-5.png": "93bdee7c95130105f5251fbf53b939917ebf57ceb1a135e456394c070dc22d01",
+        "evidence/landing-6.png": "10a3918d580c7c193f87f229d2c9a8112fa82bd659b9c32c87dd43d6969eeccd"
+      },
+      "renders": {
+        "screens/home-h.webp": "251fde3d5f4f568e46208589e00887695249302204b2e97fc5e53e813c4a3f91",
+        "screens/home-c.webp": "e8c832aebf4c0eaa404603391cc4b3207481f9f4f398fe6caf18e5f67ddcd60a",
+        "screens/home-f.webp": "65677a10186f4f78ecb2f1eaa61158e987dd3c9e468491b8c90a9f5412a30e0b"
+      }
+    },
+    "entry-coronary": {
+      "observedAt": "2026-11-19T21:35:56+08:00",
+      "sources": {
+        "evidence/entry-coronary-walk.png": "e0854185822a98e3baa908ff9e1f25231fef8a1e1e66e30e6109cf6d612f70c5",
+        "evidence/entry-coronary-walk-v1.png": "4916fcdc516597d6f54175c0ab3d4af598536524d0fcf27f85db20f00efd104e"
+      },
+      "renders": {
+        "screens/entry-coronary-h.webp": "de7b1ae2e4f1753d733a10263f10fabdd67a74a1542c95703a2fd4f88bd10966",
+        "screens/entry-coronary-c.webp": "73a0808cb71e16b7a738fd31fc8cc9efd997b8c77eb92ea73050299aeb1993e8",
+        "screens/entry-coronary-f.webp": "c5ef81a259706f21cc2de5b103a3deed39334a84101575b195d8411f3d373194"
+      }
+    },
+    "entry-coronary-info": {
+      "observedAt": "2026-11-19T21:17:02+08:00",
+      "sources": {
+        "evidence/entry-coronary-info.png": "372650c1b7cd14e3079846dad1019939bb11012054b94ff95f70da12915b5502"
+      },
+      "renders": {
+        "screens/entry-coronary-info-c.webp": "09a4172f3c79686c1ff5544f41c3d9ea9e19c1e5bd026c2f3a3687b407b6e209"
+      }
+    }
+  }
+}

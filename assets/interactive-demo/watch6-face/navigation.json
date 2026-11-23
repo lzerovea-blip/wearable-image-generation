@@ -1,0 +1,386 @@
+{
+  "swipe": {
+    "up": "face-notifications",
+    "down": "face-control",
+    "left": "face-cards",
+    "right": "face-assistant"
+  },
+  "pages": {
+    "face-notifications": {
+      "device": "watch",
+      "title": "消息通知",
+      "facePanel": true,
+      "parent": "@face",
+      "provenance": "WATCH 6 实机",
+      "capture": {
+        "content": "face-notifications.webp",
+        "contentLabel": "消息通知",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "电池通知",
+            "page": "face-battery",
+            "box": [
+              8,
+              26,
+              84,
+              46
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "华为运动健康通知",
+            "page": "face-updates",
+            "box": [
+              14,
+              75,
+              72,
+              22
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "@face",
+          "up": "face-updates"
+        },
+        "listBands": [
+          [
+            0,
+            74
+          ],
+          [
+            74,
+            100
+          ]
+        ]
+      }
+    },
+    "face-updates": {
+      "device": "watch",
+      "title": "运动健康通知",
+      "facePanel": true,
+      "parent": "face-notifications",
+      "provenance": "WATCH 6 实机",
+      "capture": {
+        "content": "face-updates.webp",
+        "contentLabel": "运动健康通知",
+        "hotspots": [],
+        "swipe": {
+          "down": "face-notifications"
+        }
+      }
+    },
+    "face-battery": {
+      "device": "watch",
+      "title": "电池通知详情",
+      "facePanel": true,
+      "parent": "face-notifications",
+      "provenance": "WATCH 6 实机",
+      "capture": {
+        "content": "face-battery.webp",
+        "contentLabel": "电池通知详情",
+        "hotspots": [],
+        "swipe": {}
+      }
+    },
+    "face-control": {
+      "device": "watch",
+      "title": "控制中心",
+      "facePanel": true,
+      "parent": "@face",
+      "provenance": "WATCH 6 实机",
+      "capture": {
+        "content": "face-control.webp",
+        "contentLabel": "控制中心",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "情景模式",
+            "page": "face-modes",
+            "box": [
+              5,
+              51,
+              58,
+              28
+            ]
+          }
+        ],
+        "swipe": {
+          "up": "@face",
+          "down": "face-controls-more"
+        }
+      }
+    },
+    "face-controls-more": {
+      "device": "watch",
+      "title": "控制中心 · 快捷开关",
+      "facePanel": true,
+      "parent": "face-control",
+      "provenance": "WATCH 6 实机",
+      "capture": {
+        "content": "face-controls-more.webp",
+        "contentLabel": "控制中心 · 快捷开关",
+        "hotspots": [],
+        "swipe": {
+          "up": "face-control",
+          "down": "face-controls-top"
+        }
+      }
+    },
+    "face-controls-top": {
+      "device": "watch",
+      "title": "控制中心 · 排水与 WLAN",
+      "facePanel": true,
+      "parent": "face-controls-more",
+      "provenance": "WATCH 6 实机",
+      "capture": {
+        "content": "face-controls-top.webp",
+        "contentLabel": "控制中心 · 排水与 WLAN",
+        "hotspots": [],
+        "swipe": {
+          "up": "face-controls-more"
+        }
+      }
+    },
+    "face-modes": {
+      "device": "watch",
+      "title": "情景模式",
+      "facePanel": true,
+      "parent": "face-control",
+      "provenance": "WATCH 6 实机",
+      "capture": {
+        "content": "face-modes.webp",
+        "contentLabel": "情景模式",
+        "hotspots": [],
+        "swipe": {},
+        "listBands": [
+          [
+            0,
+            67
+          ],
+          [
+            67,
+            100
+          ]
+        ]
+      }
+    },
+    "face-cards": {
+      "device": "watch",
+      "title": "手表卡片 · 应用与天气",
+      "facePanel": true,
+      "parent": "@face",
+      "provenance": "WATCH 6 实机 · 隐去地名",
+      "capture": {
+        "content": "face-cards.webp",
+        "contentLabel": "手表卡片 · 应用与天气",
+        "hotspots": [],
+        "swipe": {
+          "right": "@face",
+          "left": "face-health-cards"
+        }
+      }
+    },
+    "face-health-cards": {
+      "device": "watch",
+      "title": "手表卡片 · 健康",
+      "facePanel": true,
+      "parent": "face-cards",
+      "provenance": "WATCH 6 实机",
+      "capture": {
+        "content": "face-health-cards.webp",
+        "contentLabel": "手表卡片 · 健康",
+        "hotspots": [],
+        "swipe": {
+          "right": "face-cards"
+        }
+      }
+    },
+    "face-assistant": {
+      "device": "watch",
+      "title": "负一屏 · 小艺建议",
+      "facePanel": true,
+      "parent": "@face",
+      "provenance": "WATCH 6 实机",
+      "capture": {
+        "content": "face-assistant.webp",
+        "contentLabel": "负一屏 · 小艺建议",
+        "hotspots": [],
+        "swipe": {
+          "left": "@face",
+          "up": "face-agenda"
+        }
+      }
+    },
+    "face-agenda": {
+      "device": "watch",
+      "title": "小艺建议 · 明日日程",
+      "facePanel": true,
+      "parent": "face-assistant",
+      "provenance": "WATCH 6 实机 · 隐去私人日程名称",
+      "capture": {
+        "content": "face-agenda.webp",
+        "contentLabel": "小艺建议 · 明日日程",
+        "hotspots": [],
+        "swipe": {
+          "left": "@face",
+          "down": "face-assistant",
+          "up": "face-weather"
+        }
+      }
+    },
+    "face-weather": {
+      "device": "watch",
+      "title": "小艺建议 · 智慧天气",
+      "facePanel": true,
+      "parent": "face-agenda",
+      "provenance": "WATCH 6 实机 · 隐去地名",
+      "capture": {
+        "content": "face-weather.webp",
+        "contentLabel": "小艺建议 · 智慧天气",
+        "hotspots": [],
+        "swipe": {
+          "left": "@face",
+          "down": "face-agenda",
+          "up": "face-insight"
+        }
+      }
+    },
+    "face-insight": {
+      "device": "watch",
+      "title": "小艺建议 · 健康洞察",
+      "facePanel": true,
+      "parent": "face-weather",
+      "provenance": "WATCH 6 实机",
+      "capture": {
+        "content": "face-insight.webp",
+        "contentLabel": "小艺建议 · 健康洞察",
+        "hotspots": [],
+        "swipe": {
+          "left": "@face",
+          "down": "face-weather",
+          "up": "face-music"
+        }
+      }
+    },
+    "face-music": {
+      "device": "watch",
+      "title": "我的卡片 · 音乐",
+      "facePanel": true,
+      "parent": "face-insight",
+      "provenance": "WATCH 6 实机",
+      "capture": {
+        "content": "face-music.webp",
+        "contentLabel": "我的卡片 · 音乐",
+        "hotspots": [],
+        "swipe": {
+          "left": "@face",
+          "down": "face-insight"
+        }
+      }
+    }
+  },
+  "links": [
+    {
+      "from": "face-health-cards",
+      "label": "心率",
+      "feature": "watch6-heart-rate",
+      "page": "main",
+      "box": [
+        12.232,
+        12.232,
+        49.785,
+        49.785
+      ],
+      "preferredPage": "live-142"
+    },
+    {
+      "from": "face-health-cards",
+      "label": "心率变异性",
+      "feature": "watch6-heart-rate",
+      "page": "hrv",
+      "box": [
+        63.734,
+        12.232,
+        24.034,
+        24.034
+      ],
+      "preferredPage": "live-145"
+    },
+    {
+      "from": "face-health-cards",
+      "label": "情绪健康",
+      "feature": "watch6-emotions",
+      "page": "main",
+      "box": [
+        63.734,
+        37.983,
+        24.034,
+        24.034
+      ],
+      "preferredPage": "live-076"
+    },
+    {
+      "from": "face-insight",
+      "label": "AI 解读",
+      "feature": "watch6-insight",
+      "page": "reading",
+      "box": [
+        28,
+        81,
+        44,
+        15
+      ],
+      "preferredPage": "live-056"
+    }
+  ],
+  "scene": {
+    "id": "face-navigation",
+    "title": "表盘导航",
+    "hint": "从表盘上滑看通知，下滑打开控制中心，左滑看手表卡片，右滑进入小艺建议。反向滑动可返回。",
+    "start": {
+      "watch": "@face"
+    },
+    "keys": [
+      [
+        "watch",
+        "@face",
+        "表盘"
+      ],
+      [
+        "watch",
+        "face-notifications",
+        "消息通知"
+      ],
+      [
+        "watch",
+        "face-control",
+        "控制中心"
+      ],
+      [
+        "watch",
+        "face-cards",
+        "手表卡片 · 应用与天气"
+      ],
+      [
+        "watch",
+        "face-assistant",
+        "负一屏 · 小艺建议"
+      ]
+    ]
+  },
+  "watchScrollGroups": [
+    [
+      "face-controls-top",
+      "face-controls-more",
+      "face-control"
+    ],
+    [
+      "face-assistant",
+      "face-agenda",
+      "face-weather",
+      "face-insight",
+      "face-music"
+    ]
+  ]
+}

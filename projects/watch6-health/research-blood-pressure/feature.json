@@ -1,0 +1,614 @@
+{
+  "id": "research-blood-pressure",
+  "name": "血压健康研究",
+  "phoneProfile": "mate50",
+  "entries": {},
+  "pages": {
+    "home": {
+      "device": "phone",
+      "title": "创新研究首页",
+      "parent": "@home",
+      "capture": {
+        "header": "screens/home-h.webp",
+        "content": "screens/home-c.webp",
+        "footer": "screens/home-f.webp",
+        "contentLabel": "创新研究首页",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "血压健康研究",
+            "page": "b-main",
+            "box": [
+              2.8493,
+              6.6701,
+              94.2096,
+              4.3478
+            ]
+          }
+        ]
+      }
+    },
+    "b-intro": {
+      "device": "phone",
+      "title": "引导 · 无感血压趋势",
+      "parent": "home",
+      "capture": {
+        "content": "screens/b-intro-content.webp",
+        "contentLabel": "引导 · 无感血压趋势",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "下一页",
+            "page": "b-intro-two",
+            "box": [
+              38.6949,
+              83.3333,
+              26.8382,
+              8.375
+            ],
+            "mode": "replace"
+          }
+        ],
+        "swipe": {
+          "left": "b-intro-two"
+        }
+      }
+    },
+    "b-intro-two": {
+      "device": "phone",
+      "title": "引导 · 动态血压监测",
+      "parent": "home",
+      "capture": {
+        "content": "screens/b-intro-two-content.webp",
+        "contentLabel": "引导 · 动态血压监测",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "上一页",
+            "page": "b-intro",
+            "box": [
+              38.6949,
+              80.0,
+              26.8382,
+              8.75
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "开始体验",
+            "page": "b-main",
+            "box": [
+              20.6801,
+              90.4167,
+              58.8235,
+              7.9167
+            ],
+            "mode": "replace"
+          }
+        ],
+        "swipe": {
+          "right": "b-intro"
+        }
+      }
+    },
+    "b-trend": {
+      "device": "phone",
+      "title": "无感血压趋势说明",
+      "parent": "b-main",
+      "capture": {
+        "content": "screens/b-trend-content.webp",
+        "contentLabel": "无感血压趋势说明",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              1.3787,
+              4.5,
+              14.4301,
+              6.75
+            ]
+          }
+        ]
+      }
+    },
+    "b-dynamic": {
+      "device": "phone",
+      "title": "动态血压监测",
+      "parent": "b-main",
+      "capture": {
+        "content": "screens/b-dynamic-content.webp",
+        "contentLabel": "动态血压监测",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              1.3787,
+              4.5,
+              14.4301,
+              6.75
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "更多",
+            "page": "b-dmenu",
+            "box": [
+              85.2941,
+              4.3333,
+              13.511,
+              6.875
+            ]
+          }
+        ]
+      }
+    },
+    "b-dmenu": {
+      "device": "phone",
+      "title": "动态监测 · 更多",
+      "parent": "b-dynamic",
+      "capture": {
+        "content": "screens/b-dmenu-content.webp",
+        "contentLabel": "动态监测 · 更多",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "动态血压测量报告",
+            "page": "b-dreport",
+            "box": [
+              50.0,
+              10.0833,
+              45.3125,
+              5.7917
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "动态血压测量记录",
+            "page": "b-drecords",
+            "box": [
+              50.0,
+              15.9167,
+              45.3125,
+              5.9583
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "收起菜单",
+            "page": "@back",
+            "box": [
+              1.8382,
+              39.5833,
+              94.6691,
+              39.5833
+            ]
+          }
+        ]
+      }
+    },
+    "b-dreport": {
+      "device": "phone",
+      "title": "动态血压测量报告",
+      "parent": "b-dynamic",
+      "capture": {
+        "content": "screens/b-dreport-content.webp",
+        "contentLabel": "动态血压测量报告",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              1.3787,
+              4.5,
+              14.4301,
+              6.75
+            ]
+          }
+        ]
+      }
+    },
+    "b-drecords": {
+      "device": "phone",
+      "title": "动态血压测量记录",
+      "parent": "b-dynamic",
+      "capture": {
+        "content": "screens/b-drecords-content.webp",
+        "contentLabel": "动态血压测量记录",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              1.3787,
+              4.5,
+              14.4301,
+              6.75
+            ]
+          }
+        ]
+      }
+    },
+    "b-menu": {
+      "device": "phone",
+      "title": "血压研究 · 更多",
+      "parent": "b-main",
+      "capture": {
+        "content": "screens/b-menu-content.webp",
+        "contentLabel": "血压研究 · 更多",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "血压测量记录",
+            "page": "b-records",
+            "box": [
+              51.3787,
+              15.9583,
+              44.1176,
+              5.875
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "收起菜单",
+            "page": "@back",
+            "box": [
+              1.8382,
+              39.5833,
+              94.6691,
+              39.5833
+            ]
+          }
+        ]
+      }
+    },
+    "b-records": {
+      "device": "phone",
+      "title": "血压测量记录",
+      "parent": "b-main",
+      "capture": {
+        "content": "screens/b-records-content.webp",
+        "contentLabel": "血压测量记录",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              1.3787,
+              4.5,
+              14.4301,
+              6.75
+            ]
+          }
+        ]
+      }
+    },
+    "b-settings": {
+      "device": "phone",
+      "title": "开关设置",
+      "parent": "b-main",
+      "capture": {
+        "content": "screens/b-settings-content.webp",
+        "contentLabel": "开关设置",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              1.3787,
+              4.5,
+              14.4301,
+              6.75
+            ]
+          }
+        ]
+      }
+    },
+    "b-date": {
+      "device": "phone",
+      "title": "选择日期",
+      "parent": "b-main",
+      "capture": {
+        "content": "screens/b-date-content.webp",
+        "contentLabel": "选择日期",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "收起日期选择",
+            "page": "@back",
+            "box": [
+              1.8382,
+              17.5,
+              95.5882,
+              24.1667
+            ]
+          }
+        ]
+      }
+    },
+    "b-main": {
+      "device": "phone",
+      "title": "血压健康研究",
+      "parent": "home",
+      "capture": {
+        "header": "screens/b-main-header.webp",
+        "content": "screens/b-main-content.webp",
+        "contentLabel": "血压图表、无感血压趋势与动态血压监测",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              1.3787,
+              19.708,
+              14.4301,
+              29.562
+            ]
+          },
+          {
+            "zone": "header",
+            "label": "开关设置",
+            "page": "b-settings",
+            "box": [
+              74.4485,
+              19.3431,
+              11.2132,
+              29.0146
+            ]
+          },
+          {
+            "zone": "header",
+            "label": "更多",
+            "page": "b-menu",
+            "box": [
+              85.9375,
+              19.3431,
+              13.1434,
+              29.0146
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "选择日期",
+            "page": "b-date",
+            "box": [
+              5.0551,
+              0.6987,
+              35.8456,
+              5.3432
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "无感血压趋势说明",
+            "page": "b-trend",
+            "box": [
+              35.2022,
+              43.4032,
+              7.6287,
+              3.9046
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "动态血压监测",
+            "page": "b-dynamic",
+            "box": [
+              3.4926,
+              62.0633,
+              93.4743,
+              5.8364
+            ]
+          },
+          {
+            "zone": "header",
+            "label": "风险评估问卷",
+            "page": "b-survey",
+            "box": [
+              71.9669,
+              61.4964,
+              22.886,
+              20.6204
+            ]
+          }
+        ]
+      }
+    },
+    "b-survey": {
+      "device": "phone",
+      "title": "血压健康研究问卷",
+      "parent": "b-main",
+      "capture": {
+        "header": "screens/b-survey-header.webp",
+        "content": "screens/b-survey-content.webp",
+        "contentLabel": "血压健康研究问卷全文",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              0.0,
+              32.7273,
+              14.7059,
+              47.5758
+            ]
+          }
+        ]
+      }
+    },
+    "home-first": {
+      "device": "phone",
+      "title": "创新研究首页 · 首次进入",
+      "parent": "@home",
+      "capture": {
+        "content": "screens/home-content.webp",
+        "contentLabel": "创新研究首页",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "血压健康研究",
+            "page": "b-intro",
+            "box": [
+              3.125,
+              48.0,
+              93.75,
+              14.0833
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "scenes": [
+    {
+      "id": "bp-entry",
+      "title": "进入与引导",
+      "hint": "从首页进入，左滑首次使用说明，再点开始体验。",
+      "start": {
+        "phone": "home-first"
+      },
+      "keys": [
+        [
+          "phone",
+          "home-first",
+          "项目入口"
+        ],
+        [
+          "phone",
+          "b-intro",
+          "无感血压趋势"
+        ],
+        [
+          "phone",
+          "b-intro-two",
+          "动态血压监测"
+        ],
+        [
+          "phone",
+          "b-main",
+          "研究主页"
+        ]
+      ]
+    },
+    {
+      "id": "bp-trend",
+      "title": "趋势与记录",
+      "hint": "打开日期选择，查看趋势说明、开关设置或更多菜单中的血压测量记录。",
+      "start": {
+        "phone": "b-main"
+      },
+      "keys": [
+        [
+          "phone",
+          "b-main",
+          "研究主页"
+        ],
+        [
+          "phone",
+          "b-date",
+          "日期"
+        ],
+        [
+          "phone",
+          "b-trend",
+          "趋势说明"
+        ],
+        [
+          "phone",
+          "b-settings",
+          "开关设置"
+        ],
+        [
+          "phone",
+          "b-menu",
+          "更多"
+        ],
+        [
+          "phone",
+          "b-records",
+          "测量记录"
+        ]
+      ]
+    },
+    {
+      "id": "bp-monitor",
+      "title": "动态监测",
+      "hint": "向下滑到动态血压监测卡片，从右侧箭头进入。右上角更多可查看报告和记录。",
+      "start": {
+        "phone": "b-main"
+      },
+      "keys": [
+        [
+          "phone",
+          "b-main",
+          "研究主页"
+        ],
+        [
+          "phone",
+          "b-dynamic",
+          "动态监测"
+        ],
+        [
+          "phone",
+          "b-dmenu",
+          "更多"
+        ],
+        [
+          "phone",
+          "b-dreport",
+          "测量报告"
+        ],
+        [
+          "phone",
+          "b-drecords",
+          "测量记录"
+        ]
+      ]
+    },
+    {
+      "id": "bp-survey",
+      "title": "风险评估问卷",
+      "hint": "打开主页的风险评估问卷，上下滑动阅读所有题项。",
+      "start": {
+        "phone": "b-main"
+      },
+      "keys": [
+        [
+          "phone",
+          "b-main",
+          "研究主页"
+        ],
+        [
+          "phone",
+          "b-survey",
+          "风险评估问卷"
+        ]
+      ]
+    }
+  ],
+  "references": [
+    "来自 Mate 50 上华为创新研究 16.1.8.300 的实际画面和操作。",
+    "报告页和记录页保留当次手机显示的数据状态。演示覆盖查看操作，校准、发起新监测与提交问卷未执行。"
+  ],
+  "phoneHome": "home",
+  "phoneHomeLabel": "创新研究首页",
+  "sharedPhoneHome": "huawei-research",
+  "initialView": {
+    "device": "phone",
+    "scene": "bp-trend",
+    "page": "b-main"
+  }
+}

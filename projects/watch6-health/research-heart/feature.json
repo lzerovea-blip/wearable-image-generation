@@ -1,0 +1,2195 @@
+{
+  "id": "research-heart",
+  "name": "心脏健康研究",
+  "phoneProfile": "mate50",
+  "entries": {},
+  "pages": {
+    "home": {
+      "device": "phone",
+      "title": "创新研究首页",
+      "parent": "@home",
+      "capture": {
+        "header": "screens/home-h.webp",
+        "content": "screens/home-c.webp",
+        "footer": "screens/home-f.webp",
+        "contentLabel": "创新研究首页",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "心脏健康研究",
+            "page": "h-detect",
+            "box": [
+              2.8493,
+              0.3741,
+              94.2096,
+              5.8831
+            ]
+          }
+        ]
+      }
+    },
+    "h-notice": {
+      "device": "phone",
+      "title": "变更通知",
+      "parent": "home",
+      "capture": {
+        "content": "screens/h-notice-content.webp",
+        "contentLabel": "变更通知",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "取消",
+            "page": "@back",
+            "box": [
+              18.1985,
+              62.7083,
+              23.3456,
+              5.0833
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "心脏健康研究用户知情同意书",
+            "page": "h-consent",
+            "box": [
+              18.1985,
+              56.6667,
+              64.9816,
+              3.2083
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "同意",
+            "page": "h-detect",
+            "box": [
+              58.0882,
+              62.7917,
+              23.8051,
+              5.0833
+            ],
+            "mode": "replace"
+          }
+        ]
+      }
+    },
+    "h-consent": {
+      "device": "phone",
+      "title": "心脏健康研究用户知情同意书",
+      "parent": "h-notice",
+      "capture": {
+        "header": "screens/h-consent-header.webp",
+        "content": "screens/h-consent-content.webp",
+        "contentLabel": "心脏健康研究用户知情同意书全文",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              0.0,
+              40.0,
+              14.7059,
+              58.1481
+            ]
+          }
+        ]
+      }
+    },
+    "h-screen-info": {
+      "device": "phone",
+      "title": "心律失常筛查说明",
+      "parent": "h-detect",
+      "capture": {
+        "content": "screens/h-screen-info-content.webp",
+        "contentLabel": "心律失常筛查说明",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              1.3787,
+              4.5,
+              14.4301,
+              6.75
+            ]
+          }
+        ]
+      }
+    },
+    "h-burden": {
+      "device": "phone",
+      "title": "房颤负荷分析说明",
+      "parent": "h-detect",
+      "capture": {
+        "content": "screens/h-burden-content.webp",
+        "contentLabel": "房颤负荷分析说明",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              1.3787,
+              4.5,
+              14.4301,
+              6.75
+            ]
+          }
+        ]
+      }
+    },
+    "h-stat": {
+      "device": "phone",
+      "title": "测量统计详情",
+      "parent": "h-detect",
+      "capture": {
+        "content": "screens/h-stat-content.webp",
+        "contentLabel": "测量统计详情",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              1.3787,
+              4.5,
+              14.4301,
+              6.75
+            ]
+          }
+        ]
+      }
+    },
+    "h-today-active": {
+      "device": "phone",
+      "title": "当日测量数据 · 主动",
+      "parent": "h-detect",
+      "capture": {
+        "content": "screens/h-today-active-content.webp",
+        "contentLabel": "当日测量数据 · 主动",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              1.3787,
+              4.5,
+              14.4301,
+              6.75
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "自动测量",
+            "page": "h-today-auto",
+            "box": [
+              50.0,
+              42.4583,
+              42.0037,
+              3.625
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "预测",
+            "page": "h-predict",
+            "box": [
+              53.9522,
+              12.0833,
+              8.4559,
+              2.5833
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "查看更多",
+            "page": "h-stat",
+            "box": [
+              43.3824,
+              30.0417,
+              16.9118,
+              2.5833
+            ]
+          }
+        ]
+      }
+    },
+    "h-today-auto": {
+      "device": "phone",
+      "title": "当日测量数据 · 自动",
+      "parent": "h-detect",
+      "capture": {
+        "content": "screens/h-today-auto-content.webp",
+        "contentLabel": "当日测量数据 · 自动",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              1.3787,
+              4.5,
+              14.4301,
+              6.75
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "主动测量",
+            "page": "h-today-active",
+            "box": [
+              7.9963,
+              42.4583,
+              42.0037,
+              3.625
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "预测",
+            "page": "h-predict",
+            "box": [
+              53.9522,
+              12.0833,
+              8.4559,
+              2.5833
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "查看更多",
+            "page": "h-stat",
+            "box": [
+              43.3824,
+              30.0417,
+              16.9118,
+              2.5833
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "更多测量数据",
+            "page": "h-records-auto",
+            "box": [
+              80.4228,
+              37.0,
+              14.614,
+              2.9167
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "首条自动测量结果",
+            "page": "h-result",
+            "box": [
+              5.9743,
+              48.875,
+              87.7757,
+              6.125
+            ]
+          }
+        ]
+      }
+    },
+    "h-records-auto": {
+      "device": "phone",
+      "title": "测量列表 · 自动",
+      "parent": "h-detect",
+      "capture": {
+        "content": "screens/h-records-auto-content.webp",
+        "contentLabel": "测量列表 · 自动",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              1.3787,
+              4.5,
+              14.4301,
+              6.75
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "主动测量",
+            "page": "h-records-active",
+            "box": [
+              9.375,
+              14.5417,
+              40.625,
+              3.625
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "首条自动测量结果",
+            "page": "h-result",
+            "box": [
+              5.9743,
+              21.4167,
+              87.7757,
+              6.125
+            ]
+          }
+        ]
+      }
+    },
+    "h-records-active": {
+      "device": "phone",
+      "title": "测量列表 · 主动",
+      "parent": "h-detect",
+      "capture": {
+        "content": "screens/h-records-active-content.webp",
+        "contentLabel": "测量列表 · 主动",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              1.3787,
+              4.5,
+              14.4301,
+              6.75
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "自动测量",
+            "page": "h-records-auto",
+            "box": [
+              50.0,
+              14.5417,
+              40.625,
+              3.625
+            ],
+            "mode": "replace"
+          }
+        ]
+      }
+    },
+    "h-risk-info": {
+      "device": "phone",
+      "title": "房颤风险预测说明",
+      "parent": "h-predict",
+      "capture": {
+        "content": "screens/h-risk-info-content.webp",
+        "contentLabel": "房颤风险预测说明",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              1.3787,
+              4.5,
+              14.4301,
+              6.75
+            ]
+          }
+        ]
+      }
+    },
+    "h-alerts": {
+      "device": "phone",
+      "title": "预警列表",
+      "parent": "h-predict",
+      "capture": {
+        "content": "screens/h-alerts-content.webp",
+        "contentLabel": "预警列表",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              1.3787,
+              4.5,
+              14.4301,
+              6.75
+            ]
+          }
+        ]
+      }
+    },
+    "h-menu": {
+      "device": "phone",
+      "title": "心脏研究 · 更多",
+      "parent": "h-predict",
+      "capture": {
+        "content": "screens/h-menu-content.webp",
+        "contentLabel": "心脏研究 · 更多",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "收起菜单",
+            "page": "@back",
+            "box": [
+              2.5735,
+              47.5,
+              95.3125,
+              29.5833
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "评估问卷",
+            "page": "h-surveys",
+            "box": [
+              50.4596,
+              21.9583,
+              43.0147,
+              5.7083
+            ],
+            "mode": "replace"
+          }
+        ]
+      }
+    },
+    "h-stat-week": {
+      "device": "phone",
+      "title": "周测量统计详情",
+      "parent": "h-detect-week",
+      "capture": {
+        "content": "screens/h-stat-week-content.webp",
+        "contentLabel": "周测量统计详情",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              1.3787,
+              4.5,
+              14.4301,
+              6.75
+            ]
+          }
+        ]
+      }
+    },
+    "h-stat-month": {
+      "device": "phone",
+      "title": "月测量统计详情",
+      "parent": "h-detect-month",
+      "capture": {
+        "content": "screens/h-stat-month-content.webp",
+        "contentLabel": "月测量统计详情",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              1.3787,
+              4.5,
+              14.4301,
+              6.75
+            ]
+          }
+        ]
+      }
+    },
+    "h-stat-year": {
+      "device": "phone",
+      "title": "年测量统计详情",
+      "parent": "h-detect-year",
+      "capture": {
+        "content": "screens/h-stat-year-content.webp",
+        "contentLabel": "年测量统计详情",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              1.3787,
+              4.5,
+              14.4301,
+              6.75
+            ]
+          }
+        ]
+      }
+    },
+    "h-surveys": {
+      "device": "phone",
+      "title": "心脏健康风险评估问卷",
+      "parent": "h-predict",
+      "capture": {
+        "content": "screens/h-surveys-content.webp",
+        "contentLabel": "心脏健康风险评估问卷",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              1.3787,
+              4.5,
+              14.4301,
+              6.75
+            ]
+          }
+        ]
+      }
+    },
+    "h-result": {
+      "device": "phone",
+      "title": "筛查结果详情",
+      "parent": "h-records-auto",
+      "capture": {
+        "header": "screens/h-result-header.webp",
+        "content": "screens/h-result-content.webp",
+        "contentLabel": "筛查结果详情全文",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              0.0,
+              40.0,
+              14.7059,
+              58.1481
+            ]
+          }
+        ]
+      }
+    },
+    "h-detect": {
+      "device": "phone",
+      "title": "心脏健康研究检测 · 日",
+      "parent": "home",
+      "capture": {
+        "header": "screens/h-detect-header.webp",
+        "content": "screens/h-detect-content.webp",
+        "contentLabel": "心脏健康研究检测 · 日全文",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              0.0,
+              28.496,
+              14.7059,
+              41.4248
+            ]
+          },
+          {
+            "zone": "header",
+            "label": "预测",
+            "page": "h-predict",
+            "box": [
+              50.7353,
+              71.2401,
+              16.1765,
+              28.2322
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "周",
+            "page": "h-detect-week",
+            "box": [
+              28.5846,
+              35.8139,
+              21.3235,
+              1.4614
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "月",
+            "page": "h-detect-month",
+            "box": [
+              49.9081,
+              35.8139,
+              21.4154,
+              1.4614
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "年",
+            "page": "h-detect-year",
+            "box": [
+              71.3235,
+              35.8139,
+              21.4154,
+              1.4614
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "风险评估问卷",
+            "page": "h-surveys",
+            "box": [
+              74.4485,
+              18.0245,
+              19.1176,
+              1.3607
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "筛查说明",
+            "page": "h-screen-info",
+            "box": [
+              35.4779,
+              0.8735,
+              7.6287,
+              1.3943
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "房颤负荷说明",
+            "page": "h-burden",
+            "box": [
+              44.9449,
+              22.0225,
+              7.6287,
+              1.3943
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "统计详情",
+            "page": "h-stat",
+            "box": [
+              43.3824,
+              61.0449,
+              16.9118,
+              1.0415
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "更多测量数据",
+            "page": "h-records-auto",
+            "box": [
+              80.4228,
+              63.8502,
+              14.614,
+              1.1759
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "主动测量",
+            "page": "h-today-active",
+            "box": [
+              7.9963,
+              66.0507,
+              42.0037,
+              1.4614
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "自动测量",
+            "page": "h-today-auto",
+            "box": [
+              50.0,
+              66.0507,
+              42.0037,
+              1.4614
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "开始检测",
+            "page": "h-wear-left",
+            "box": [
+              24.5404,
+              13.153,
+              50.9191,
+              1.9486
+            ]
+          }
+        ]
+      }
+    },
+    "h-detect-week": {
+      "device": "phone",
+      "title": "心脏健康研究检测 · 周",
+      "parent": "home",
+      "capture": {
+        "header": "screens/h-detect-week-header.webp",
+        "content": "screens/h-detect-week-content.webp",
+        "contentLabel": "心脏健康研究检测 · 周全文",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              0.0,
+              28.496,
+              14.7059,
+              41.4248
+            ]
+          },
+          {
+            "zone": "header",
+            "label": "预测",
+            "page": "h-predict",
+            "box": [
+              50.7353,
+              71.2401,
+              16.1765,
+              28.2322
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "日",
+            "page": "h-detect",
+            "box": [
+              7.261,
+              41.3018,
+              21.3235,
+              1.6854
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "月",
+            "page": "h-detect-month",
+            "box": [
+              49.9081,
+              41.3018,
+              21.4154,
+              1.6854
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "年",
+            "page": "h-detect-year",
+            "box": [
+              71.3235,
+              41.3018,
+              21.4154,
+              1.6854
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "风险评估问卷",
+            "page": "h-surveys",
+            "box": [
+              74.4485,
+              20.7865,
+              19.1176,
+              1.5692
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "筛查说明",
+            "page": "h-screen-info",
+            "box": [
+              35.4779,
+              1.0074,
+              7.6287,
+              1.6079
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "房颤负荷说明",
+            "page": "h-burden",
+            "box": [
+              44.9449,
+              25.3971,
+              7.6287,
+              1.6079
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "统计详情",
+            "page": "h-stat-week",
+            "box": [
+              43.3824,
+              73.363,
+              16.9118,
+              1.2011
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "开始检测",
+            "page": "h-wear-left",
+            "box": [
+              24.5404,
+              15.1685,
+              50.9191,
+              2.2472
+            ]
+          }
+        ]
+      }
+    },
+    "h-detect-month": {
+      "device": "phone",
+      "title": "心脏健康研究检测 · 月",
+      "parent": "home",
+      "capture": {
+        "header": "screens/h-detect-month-header.webp",
+        "content": "screens/h-detect-month-content.webp",
+        "contentLabel": "心脏健康研究检测 · 月全文",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              0.0,
+              28.496,
+              14.7059,
+              41.4248
+            ]
+          },
+          {
+            "zone": "header",
+            "label": "预测",
+            "page": "h-predict",
+            "box": [
+              50.7353,
+              71.2401,
+              16.1765,
+              28.2322
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "日",
+            "page": "h-detect",
+            "box": [
+              7.261,
+              42.4194,
+              21.3235,
+              1.731
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "周",
+            "page": "h-detect-week",
+            "box": [
+              28.5846,
+              42.4194,
+              21.3235,
+              1.731
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "年",
+            "page": "h-detect-year",
+            "box": [
+              71.3235,
+              42.4194,
+              21.4154,
+              1.731
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "风险评估问卷",
+            "page": "h-surveys",
+            "box": [
+              74.4485,
+              21.349,
+              19.1176,
+              1.6116
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "筛查说明",
+            "page": "h-screen-info",
+            "box": [
+              35.4779,
+              1.0346,
+              7.6287,
+              1.6514
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "房颤负荷说明",
+            "page": "h-burden",
+            "box": [
+              44.9449,
+              26.0844,
+              7.6287,
+              1.6514
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "统计详情",
+            "page": "h-stat-month",
+            "box": [
+              43.3824,
+              72.6423,
+              16.9118,
+              1.2336
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "开始检测",
+            "page": "h-wear-left",
+            "box": [
+              24.5404,
+              15.579,
+              50.9191,
+              2.308
+            ]
+          }
+        ]
+      }
+    },
+    "h-detect-year": {
+      "device": "phone",
+      "title": "心脏健康研究检测 · 年",
+      "parent": "home",
+      "capture": {
+        "header": "screens/h-detect-year-header.webp",
+        "content": "screens/h-detect-year-content.webp",
+        "contentLabel": "心脏健康研究检测 · 年全文",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              0.0,
+              28.496,
+              14.7059,
+              41.4248
+            ]
+          },
+          {
+            "zone": "header",
+            "label": "预测",
+            "page": "h-predict",
+            "box": [
+              50.7353,
+              71.2401,
+              16.1765,
+              28.2322
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "日",
+            "page": "h-detect",
+            "box": [
+              7.261,
+              42.4194,
+              21.3235,
+              1.731
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "周",
+            "page": "h-detect-week",
+            "box": [
+              28.5846,
+              42.4194,
+              21.3235,
+              1.731
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "月",
+            "page": "h-detect-month",
+            "box": [
+              49.9081,
+              42.4194,
+              21.4154,
+              1.731
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "风险评估问卷",
+            "page": "h-surveys",
+            "box": [
+              74.4485,
+              21.349,
+              19.1176,
+              1.6116
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "筛查说明",
+            "page": "h-screen-info",
+            "box": [
+              35.4779,
+              1.0346,
+              7.6287,
+              1.6514
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "房颤负荷说明",
+            "page": "h-burden",
+            "box": [
+              44.9449,
+              26.0844,
+              7.6287,
+              1.6514
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "统计详情",
+            "page": "h-stat-year",
+            "box": [
+              43.3824,
+              72.6423,
+              16.9118,
+              1.2336
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "开始检测",
+            "page": "h-wear-left",
+            "box": [
+              24.5404,
+              15.579,
+              50.9191,
+              2.308
+            ]
+          }
+        ]
+      }
+    },
+    "h-predict": {
+      "device": "phone",
+      "title": "心脏健康研究预测 · 日",
+      "parent": "home",
+      "capture": {
+        "header": "screens/h-predict-header.webp",
+        "content": "screens/h-predict-content.webp",
+        "contentLabel": "心脏健康研究预测 · 日全文",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              0.0,
+              28.496,
+              14.7059,
+              41.4248
+            ]
+          },
+          {
+            "zone": "header",
+            "label": "检测",
+            "page": "h-detect",
+            "box": [
+              32.8125,
+              71.2401,
+              16.7279,
+              28.2322
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "header",
+            "label": "更多",
+            "page": "h-menu",
+            "box": [
+              85.2022,
+              29.5515,
+              13.9706,
+              40.1055
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "周",
+            "page": "h-predict-week",
+            "box": [
+              28.5846,
+              40.3749,
+              21.3235,
+              3.1363
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "月",
+            "page": "h-predict-month",
+            "box": [
+              49.9081,
+              40.3749,
+              21.4154,
+              3.1363
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "年",
+            "page": "h-predict-year",
+            "box": [
+              71.3235,
+              40.3749,
+              21.4154,
+              3.1363
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "预测说明",
+            "page": "h-risk-info",
+            "box": [
+              35.4779,
+              1.8385,
+              7.6287,
+              2.9921
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "预警列表",
+            "page": "h-alerts",
+            "box": [
+              6.25,
+              16.907,
+              89.0625,
+              3.1363
+            ]
+          }
+        ]
+      }
+    },
+    "h-predict-week": {
+      "device": "phone",
+      "title": "心脏健康研究预测 · 周",
+      "parent": "home",
+      "capture": {
+        "header": "screens/h-predict-week-header.webp",
+        "content": "screens/h-predict-week-content.webp",
+        "contentLabel": "心脏健康研究预测 · 周全文",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              0.0,
+              28.496,
+              14.7059,
+              41.4248
+            ]
+          },
+          {
+            "zone": "header",
+            "label": "检测",
+            "page": "h-detect",
+            "box": [
+              32.8125,
+              71.2401,
+              16.7279,
+              28.2322
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "header",
+            "label": "更多",
+            "page": "h-menu",
+            "box": [
+              85.2022,
+              29.5515,
+              13.9706,
+              40.1055
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "日",
+            "page": "h-predict",
+            "box": [
+              7.261,
+              42.2323,
+              21.3235,
+              3.2805
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "月",
+            "page": "h-predict-month",
+            "box": [
+              49.9081,
+              42.2323,
+              21.4154,
+              3.2805
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "年",
+            "page": "h-predict-year",
+            "box": [
+              71.3235,
+              42.2323,
+              21.4154,
+              3.2805
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "预测说明",
+            "page": "h-risk-info",
+            "box": [
+              35.4779,
+              1.9231,
+              7.6287,
+              3.1297
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "预警列表",
+            "page": "h-alerts",
+            "box": [
+              6.25,
+              17.6848,
+              89.0625,
+              3.2805
+            ]
+          }
+        ]
+      }
+    },
+    "h-predict-month": {
+      "device": "phone",
+      "title": "心脏健康研究预测 · 月",
+      "parent": "home",
+      "capture": {
+        "header": "screens/h-predict-month-header.webp",
+        "content": "screens/h-predict-month-content.webp",
+        "contentLabel": "心脏健康研究预测 · 月全文",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              0.0,
+              28.496,
+              14.7059,
+              41.4248
+            ]
+          },
+          {
+            "zone": "header",
+            "label": "检测",
+            "page": "h-detect",
+            "box": [
+              32.8125,
+              71.2401,
+              16.7279,
+              28.2322
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "header",
+            "label": "更多",
+            "page": "h-menu",
+            "box": [
+              85.2022,
+              29.5515,
+              13.9706,
+              40.1055
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "日",
+            "page": "h-predict",
+            "box": [
+              7.261,
+              42.2323,
+              21.3235,
+              3.2805
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "周",
+            "page": "h-predict-week",
+            "box": [
+              28.5846,
+              42.2323,
+              21.3235,
+              3.2805
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "年",
+            "page": "h-predict-year",
+            "box": [
+              71.3235,
+              42.2323,
+              21.4154,
+              3.2805
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "预测说明",
+            "page": "h-risk-info",
+            "box": [
+              35.4779,
+              1.9231,
+              7.6287,
+              3.1297
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "预警列表",
+            "page": "h-alerts",
+            "box": [
+              6.25,
+              17.6848,
+              89.0625,
+              3.2805
+            ]
+          }
+        ]
+      }
+    },
+    "h-predict-year": {
+      "device": "phone",
+      "title": "心脏健康研究预测 · 年",
+      "parent": "home",
+      "capture": {
+        "header": "screens/h-predict-year-header.webp",
+        "content": "screens/h-predict-year-content.webp",
+        "contentLabel": "心脏健康研究预测 · 年全文",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              0.0,
+              28.496,
+              14.7059,
+              41.4248
+            ]
+          },
+          {
+            "zone": "header",
+            "label": "检测",
+            "page": "h-detect",
+            "box": [
+              32.8125,
+              71.2401,
+              16.7279,
+              28.2322
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "header",
+            "label": "更多",
+            "page": "h-menu",
+            "box": [
+              85.2022,
+              29.5515,
+              13.9706,
+              40.1055
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "日",
+            "page": "h-predict",
+            "box": [
+              7.261,
+              42.2323,
+              21.3235,
+              3.2805
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "周",
+            "page": "h-predict-week",
+            "box": [
+              28.5846,
+              42.2323,
+              21.3235,
+              3.2805
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "月",
+            "page": "h-predict-month",
+            "box": [
+              49.9081,
+              42.2323,
+              21.4154,
+              3.2805
+            ],
+            "mode": "replace",
+            "keepScroll": true
+          },
+          {
+            "zone": "content",
+            "label": "预测说明",
+            "page": "h-risk-info",
+            "box": [
+              35.4779,
+              1.9231,
+              7.6287,
+              3.1297
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "预警列表",
+            "page": "h-alerts",
+            "box": [
+              6.25,
+              17.6848,
+              89.0625,
+              3.2805
+            ]
+          }
+        ]
+      }
+    },
+    "home-first": {
+      "device": "phone",
+      "title": "创新研究首页 · 首次进入",
+      "parent": "@home",
+      "capture": {
+        "content": "screens/home-content.webp",
+        "contentLabel": "创新研究首页",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "心脏健康研究",
+            "page": "h-notice",
+            "box": [
+              3.125,
+              27.5833,
+              93.75,
+              18.9167
+            ]
+          }
+        ]
+      }
+    },
+    "h-wear-left": {
+      "device": "phone",
+      "title": "佩戴方式设置 · 左手",
+      "parent": "h-detect",
+      "capture": {
+        "content": "screens/h-wear-left-content.webp",
+        "contentLabel": "佩戴方式设置 · 左手",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "保存",
+            "page": "h-ecg-ready",
+            "box": [
+              50.0,
+              89.3333,
+              40.0735,
+              6.1667
+            ],
+            "mode": "replace",
+            "rememberRoutes": {
+              "h-wear-left": "h-ecg-prepare"
+            }
+          },
+          {
+            "zone": "content",
+            "label": "取消",
+            "page": "h-ecg-ready",
+            "box": [
+              9.8346,
+              89.3333,
+              40.0735,
+              6.1667
+            ],
+            "mode": "replace"
+          }
+        ]
+      }
+    },
+    "h-ecg-ready": {
+      "device": "phone",
+      "title": "心电图（ECG）检测",
+      "parent": "h-detect",
+      "capture": {
+        "content": "screens/h-ecg-ready-content.webp",
+        "contentLabel": "心电图（ECG）检测",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              1.3787,
+              4.5,
+              14.4301,
+              6.75
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "重新检测",
+            "page": "h-ecg-prepare",
+            "box": [
+              24.5404,
+              87.2917,
+              50.9191,
+              4.8333
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "了解标准测量方式",
+            "page": "h-ecg-guide",
+            "box": [
+              29.4118,
+              93.6667,
+              41.1765,
+              4.25
+            ]
+          }
+        ]
+      }
+    },
+    "h-ecg-prepare": {
+      "device": "phone",
+      "title": "检测准备 · 放松就坐",
+      "parent": "h-detect",
+      "capture": {
+        "content": "screens/h-ecg-prepare-content.webp",
+        "contentLabel": "检测准备 · 放松就坐",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              1.3787,
+              4.5,
+              14.4301,
+              6.75
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "修改佩戴方式",
+            "page": "h-ecg-wrist",
+            "box": [
+              20.2206,
+              93.3333,
+              59.5588,
+              4.5833
+            ]
+          }
+        ]
+      },
+      "after": {
+        "ms": 2700,
+        "page": "h-ecg-electrode"
+      }
+    },
+    "h-ecg-wrist": {
+      "device": "phone",
+      "title": "修改佩戴方式",
+      "parent": "h-ecg-prepare",
+      "capture": {
+        "content": "screens/h-ecg-wrist-content.webp",
+        "contentLabel": "修改佩戴方式",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "取消",
+            "page": "@back",
+            "box": [
+              9.8346,
+              89.3333,
+              40.0735,
+              6.1667
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "保存",
+            "page": "h-ecg-prepare",
+            "box": [
+              50.0,
+              89.3333,
+              40.0735,
+              6.1667
+            ],
+            "mode": "dismiss"
+          }
+        ]
+      }
+    },
+    "h-ecg-electrode": {
+      "device": "phone",
+      "title": "点击手表图模拟触摸电极",
+      "parent": "h-detect",
+      "capture": {
+        "content": "screens/h-ecg-electrode-content.webp",
+        "contentLabel": "点击手表图模拟触摸电极",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              1.3787,
+              4.5,
+              14.4301,
+              6.75
+            ]
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "label": "测量中倒计时",
+            "zone": "content",
+            "box": [
+              16.5441,
+              16.0417,
+              66.8199,
+              38.9583
+            ]
+          }
+        ]
+      },
+      "after": {
+        "ms": 8500,
+        "page": "h-ecg-failed"
+      }
+    },
+    "h-ecg-failed": {
+      "device": "phone",
+      "title": "本次检测失败",
+      "parent": "h-detect",
+      "capture": {
+        "content": "screens/h-ecg-failed-content.webp",
+        "contentLabel": "本次检测失败",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              1.3787,
+              4.5,
+              14.4301,
+              6.75
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "重新检测",
+            "page": "h-ecg-prepare",
+            "box": [
+              24.5404,
+              87.2917,
+              50.9191,
+              4.8333
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "了解标准测量方式",
+            "page": "h-ecg-guide",
+            "box": [
+              29.4118,
+              93.6667,
+              41.1765,
+              4.25
+            ]
+          }
+        ]
+      }
+    },
+    "h-ecg-guide": {
+      "device": "phone",
+      "title": "标准测量方式",
+      "parent": "h-ecg-failed",
+      "capture": {
+        "content": "screens/h-ecg-guide-content.webp",
+        "contentLabel": "标准测量方式",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              1.3787,
+              4.5,
+              14.4301,
+              6.75
+            ]
+          }
+        ]
+      }
+    },
+    "h-ecg-symptoms": {
+      "device": "phone",
+      "title": "添加症状",
+      "parent": "h-ecg-report",
+      "capture": {
+        "content": "screens/h-ecg-symptoms-content.webp",
+        "contentLabel": "添加症状",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "取消",
+            "page": "@back",
+            "box": [
+              10.386,
+              90.5833,
+              36.8566,
+              4.8333
+            ]
+          }
+        ]
+      }
+    },
+    "h-ecg-report": {
+      "device": "phone",
+      "title": "本次 ECG 结果详情",
+      "parent": "h-detect",
+      "capture": {
+        "header": "screens/h-ecg-report-header.webp",
+        "content": "screens/h-ecg-report-content.webp",
+        "contentLabel": "本次 ECG 结果详情全文",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              0.0,
+              40.0,
+              14.7059,
+              58.1481
+            ]
+          },
+          {
+            "zone": "header",
+            "label": "结果说明",
+            "page": "h-ecg-explain",
+            "box": [
+              77.2059,
+              44.4444,
+              10.1103,
+              48.8889
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "添加症状",
+            "page": "h-ecg-symptoms",
+            "box": [
+              3.3088,
+              23.773,
+              93.1985,
+              3.9981
+            ]
+          }
+        ]
+      }
+    },
+    "h-ecg-explain": {
+      "device": "phone",
+      "title": "本次 ECG 的结果说明",
+      "parent": "h-ecg-report",
+      "capture": {
+        "header": "screens/h-ecg-explain-header.webp",
+        "content": "screens/h-ecg-explain-content.webp",
+        "contentLabel": "本次 ECG 的结果说明全文",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              0.0,
+              40.0,
+              14.7059,
+              58.1481
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "scenes": [
+    {
+      "id": "heart-enter",
+      "title": "进入项目",
+      "hint": "从创新研究首页进入心脏研究，查看变更通知及检测、预测入口。",
+      "start": {
+        "phone": "home-first"
+      },
+      "keys": [
+        [
+          "phone",
+          "home-first",
+          "项目入口"
+        ],
+        [
+          "phone",
+          "h-notice",
+          "变更通知"
+        ],
+        [
+          "phone",
+          "h-detect",
+          "检测"
+        ],
+        [
+          "phone",
+          "h-predict",
+          "预测"
+        ]
+      ]
+    },
+    {
+      "id": "h-documents",
+      "title": "同意前文书",
+      "hint": "点击通知里的文档名称，滑动阅读全文，返回可查看通知。",
+      "start": {
+        "phone": "h-notice"
+      },
+      "keys": [
+        [
+          "phone",
+          "h-notice",
+          "变更通知"
+        ],
+        [
+          "phone",
+          "h-consent",
+          "心脏健康研究用户知情同意书"
+        ]
+      ]
+    },
+    {
+      "id": "heart-detection",
+      "title": "检测与统计",
+      "hint": "切换检测与预测页签，在测量统计中切换日、周、月、年并上下滑动。",
+      "start": {
+        "phone": "h-detect"
+      },
+      "keys": [
+        [
+          "phone",
+          "h-detect",
+          "日统计"
+        ],
+        [
+          "phone",
+          "h-detect-week",
+          "周统计"
+        ],
+        [
+          "phone",
+          "h-detect-month",
+          "月统计"
+        ],
+        [
+          "phone",
+          "h-detect-year",
+          "年统计"
+        ],
+        [
+          "phone",
+          "h-screen-info",
+          "筛查说明"
+        ],
+        [
+          "phone",
+          "h-burden",
+          "房颤负荷说明"
+        ],
+        [
+          "phone",
+          "h-stat",
+          "统计详情"
+        ],
+        [
+          "phone",
+          "h-stat-week",
+          "周统计详情"
+        ],
+        [
+          "phone",
+          "h-stat-month",
+          "月统计详情"
+        ],
+        [
+          "phone",
+          "h-stat-year",
+          "年统计详情"
+        ]
+      ]
+    },
+    {
+      "id": "heart-records",
+      "title": "测量记录",
+      "hint": "在检测页下滑到当日测量数据，切换主动与自动测量，点更多可打开列表和首条自动测量详情。",
+      "start": {
+        "phone": "h-detect"
+      },
+      "keys": [
+        [
+          "phone",
+          "h-detect",
+          "检测页"
+        ],
+        [
+          "phone",
+          "h-today-active",
+          "主动测量"
+        ],
+        [
+          "phone",
+          "h-today-auto",
+          "自动测量"
+        ],
+        [
+          "phone",
+          "h-records-auto",
+          "全部自动记录"
+        ],
+        [
+          "phone",
+          "h-records-active",
+          "主动记录列表"
+        ],
+        [
+          "phone",
+          "h-result",
+          "结果详情"
+        ]
+      ]
+    },
+    {
+      "id": "heart-prediction",
+      "title": "预测与统计",
+      "hint": "切换检测与预测页签，在风险预测统计中切换日、周、月、年并上下滑动。",
+      "start": {
+        "phone": "h-predict"
+      },
+      "keys": [
+        [
+          "phone",
+          "h-predict",
+          "日统计"
+        ],
+        [
+          "phone",
+          "h-predict-week",
+          "周统计"
+        ],
+        [
+          "phone",
+          "h-predict-month",
+          "月统计"
+        ],
+        [
+          "phone",
+          "h-predict-year",
+          "年统计"
+        ],
+        [
+          "phone",
+          "h-risk-info",
+          "预测说明"
+        ],
+        [
+          "phone",
+          "h-alerts",
+          "预警列表"
+        ],
+        [
+          "phone",
+          "h-menu",
+          "更多菜单"
+        ],
+        [
+          "phone",
+          "h-surveys",
+          "评估问卷"
+        ]
+      ]
+    },
+    {
+      "id": "heart-ecg",
+      "title": "开始检测 · ECG",
+      "hint": "浏览实机采集的左手佩戴指引、检测未完成提示、记录与结果。测量中倒计时待采集。",
+      "start": {
+        "phone": "h-detect"
+      },
+      "keys": [
+        [
+          "phone",
+          "h-detect",
+          "开始检测"
+        ],
+        [
+          "phone",
+          "h-wear-left",
+          "左手佩戴"
+        ],
+        [
+          "phone",
+          "h-ecg-ready",
+          "重新检测"
+        ],
+        [
+          "phone",
+          "h-ecg-prepare",
+          "放松就坐"
+        ],
+        [
+          "phone",
+          "h-ecg-electrode",
+          "触摸电极"
+        ],
+        [
+          "phone",
+          "h-ecg-report",
+          "本次结果与六段波形"
+        ],
+        [
+          "phone",
+          "h-ecg-explain",
+          "结果说明"
+        ],
+        [
+          "phone",
+          "h-ecg-failed",
+          "检测失败"
+        ],
+        [
+          "phone",
+          "h-ecg-guide",
+          "标准测量方式"
+        ]
+      ]
+    }
+  ],
+  "references": [
+    "来自 Mate 50 上华为创新研究 16.1.8.300 的实际画面和操作。",
+    "同意前的通知与文书来自本次实机采集，用户随后在手机上自行确认。网页中的操作为本地回放。",
+    "检测和预测的日、周、月、年统计均从实机逐页采集。测量记录中的历史筛查详情来自已有自动测量。",
+    "评估问卷已保存实际入口与首屏。随后同一账号的我的页显示暂无待填写问卷。",
+    "主动 ECG 成功结果取自本机当日 16:01 的左手实测，另采到失败和重新检测。网页通过点击屏幕上的手表示意图模拟电极接触。"
+  ],
+  "phoneHome": "home",
+  "phoneHomeLabel": "创新研究首页",
+  "sharedPhoneHome": "huawei-research",
+  "initialView": {
+    "device": "phone",
+    "scene": "heart-detection",
+    "page": "h-detect"
+  },
+  "pendingScreens": [
+    "测量中倒计时"
+  ]
+}

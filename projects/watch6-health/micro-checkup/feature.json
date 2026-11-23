@@ -1,0 +1,230 @@
+{
+  "id": "micro-checkup",
+  "name": "健康档案 · 微体检",
+  "phoneProfile": "mate50",
+  "entries": {},
+  "pages": {
+    "card": {
+      "device": "phone",
+      "title": "今日 · 健康档案",
+      "parent": "@home",
+      "capture": {
+        "content": "screens/card-content.webp",
+        "contentLabel": "今日 · 健康档案",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "健康档案",
+            "page": "profile",
+            "box": [
+              3.8603,
+              30.625,
+              44.6691,
+              19.5833
+            ]
+          }
+        ]
+      }
+    },
+    "profile": {
+      "device": "phone",
+      "title": "健康档案",
+      "parent": "card",
+      "capture": {
+        "content": "screens/profile-content.webp",
+        "contentLabel": "健康档案",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "微体检报告",
+            "page": "list",
+            "box": [
+              51.011,
+              11.9583,
+              44.761,
+              6.0417
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.0331,
+              4.5833,
+              11.9485,
+              6.0
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "打开最近报告",
+            "page": "report",
+            "box": [
+              5.5147,
+              27.75,
+              79.5037,
+              20.625
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "打开上一份报告",
+            "page": "second",
+            "box": [
+              5.5147,
+              49.1667,
+              79.5037,
+              20.625
+            ]
+          }
+        ]
+      }
+    },
+    "list": {
+      "device": "phone",
+      "title": "微体检报告",
+      "parent": "profile",
+      "capture": {
+        "content": "screens/list-content.webp",
+        "contentLabel": "微体检报告",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "打开最近报告",
+            "page": "report",
+            "box": [
+              5.5147,
+              18.125,
+              79.5037,
+              20.75
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "打开上一份报告",
+            "page": "second",
+            "box": [
+              5.5147,
+              39.5417,
+              79.5037,
+              20.75
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.0331,
+              4.5833,
+              11.9485,
+              6.0
+            ]
+          }
+        ]
+      }
+    },
+    "second": {
+      "device": "phone",
+      "title": "另一份微体检报告",
+      "parent": "list",
+      "capture": {
+        "content": "screens/second-content.webp",
+        "contentLabel": "另一份微体检报告",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.0331,
+              4.5833,
+              11.9485,
+              6.0
+            ]
+          }
+        ]
+      }
+    },
+    "report": {
+      "device": "phone",
+      "title": "微体检报告详情",
+      "parent": "list",
+      "capture": {
+        "header": "screens/private-report-header.webp",
+        "content": "screens/private-report-content.webp",
+        "contentLabel": "报告详情与各检测项",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              2.9412,
+              40.4494,
+              11.9485,
+              55.0562
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "scenes": [
+    {
+      "id": "enter",
+      "title": "从健康档案进入微体检",
+      "hint": "点击今日看板的健康档案，再选择微体检报告。",
+      "start": {
+        "phone": "card"
+      },
+      "keys": [
+        [
+          "phone",
+          "card",
+          "今日看板"
+        ],
+        [
+          "phone",
+          "profile",
+          "健康档案"
+        ],
+        [
+          "phone",
+          "list",
+          "微体检报告"
+        ]
+      ]
+    },
+    {
+      "id": "read",
+      "title": "查看微体检报告",
+      "hint": "打开已有报告，上下滑动查看本次检测项；返回列表可打开另一条记录。",
+      "start": {
+        "phone": "list"
+      },
+      "keys": [
+        [
+          "phone",
+          "list",
+          "报告列表"
+        ],
+        [
+          "phone",
+          "report",
+          "完整报告"
+        ],
+        [
+          "phone",
+          "second",
+          "历史报告"
+        ]
+      ]
+    }
+  ],
+  "references": [
+    "取自 Mate 50 华为运动健康 17.0.10.320。最近一份微体检报告联机连续采至页底，再返回并查看另一条历史记录。显示和备份中的报告姓名已遮盖。首页已有健康档案卡片。"
+  ],
+  "phoneHome": "card"
+}

@@ -1,0 +1,407 @@
+{
+  "id": "watch6-ecg",
+  "name": "心电图",
+  "watchProfile": "watch6",
+  "watchScreens": {
+    "@face": "dial",
+    "@launcher": "launcher"
+  },
+  "entries": {},
+  "pages": {
+    "dial": {
+      "device": "watch",
+      "title": "实机表盘",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/dial.webp",
+        "contentLabel": "实机表盘",
+        "hotspots": []
+      }
+    },
+    "launcher": {
+      "title": "应用列表 · 微体检与情绪健康",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher.webp",
+        "contentLabel": "应用列表 · 微体检与情绪健康",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "健康洞察",
+            "box": [
+              10.866,
+              11.373,
+              78.267,
+              22.103
+            ]
+          },
+          {
+            "label": "微体检",
+            "box": [
+              2.575,
+              36.052,
+              94.85,
+              27.682
+            ]
+          },
+          {
+            "label": "情绪健康",
+            "box": [
+              10.725,
+              66.309,
+              78.549,
+              22.103
+            ]
+          },
+          {
+            "label": "华为创新研究",
+            "box": [
+              31.831,
+              90.987,
+              36.339,
+              9.013
+            ]
+          }
+        ],
+        "swipe": {
+          "up": "launcher-heart"
+        }
+      }
+    },
+    "launcher-heart": {
+      "title": "应用列表 · 研究与心率",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher-heart.webp",
+        "contentLabel": "应用列表 · 研究与心率",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "情绪健康",
+            "box": [
+              32.068,
+              0.0,
+              35.865,
+              8.798
+            ]
+          },
+          {
+            "label": "华为创新研究",
+            "box": [
+              10.866,
+              11.373,
+              78.267,
+              22.103
+            ]
+          },
+          {
+            "label": "心率",
+            "box": [
+              2.575,
+              36.052,
+              94.85,
+              27.682
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "@launcher",
+          "up": "launcher-living"
+        }
+      }
+    },
+    "launcher-living": {
+      "title": "应用列表 · 健康生活",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher-living.webp",
+        "contentLabel": "应用列表 · 健康生活",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "健康生活",
+            "box": [
+              10.725,
+              66.309,
+              78.549,
+              22.103
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "launcher-heart",
+          "up": "launcher-cycle"
+        }
+      }
+    },
+    "launcher-cycle": {
+      "title": "应用列表 · 生理周期",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher-cycle.webp",
+        "contentLabel": "应用列表 · 生理周期",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "生理周期",
+            "box": [
+              31.831,
+              90.987,
+              36.339,
+              9.013
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "launcher-living"
+        }
+      }
+    },
+    "live-147": {
+      "device": "watch",
+      "title": "左手佩戴 · 测量引导",
+      "parent": "@launcher",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-147.webp",
+        "contentLabel": "左手佩戴 · 测量引导",
+        "replay": {
+          "description": "心电图首页显示手表佩戴示意，以及接触传感器开始测量的提示。",
+          "actions": [],
+          "pending": [
+            "实际测量与结果"
+          ]
+        },
+        "swipe": {
+          "up": "live-148"
+        }
+      }
+    },
+    "live-148": {
+      "device": "watch",
+      "title": "更多",
+      "parent": "@launcher",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-148.webp",
+        "contentLabel": "更多",
+        "replay": {
+          "description": "更多里显示当前佩戴方式和「测量说明」。",
+          "actions": [
+            {
+              "label": "打开佩戴方式",
+              "page": "live-150"
+            }
+          ],
+          "pending": [
+            "测量说明",
+            "关于"
+          ]
+        },
+        "swipe": {
+          "down": "live-147"
+        },
+        "listBands": [
+          [
+            0,
+            62.5
+          ],
+          [
+            62.5,
+            89
+          ]
+        ],
+        "hotspots": [
+          {
+            "label": "佩戴方式",
+            "zone": "content",
+            "box": [
+              10,
+              33,
+              80,
+              27
+            ],
+            "page": "live-150"
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "label": "测量说明",
+            "zone": "content",
+            "box": [
+              10,
+              68,
+              80,
+              20
+            ]
+          }
+        ],
+        "scrollSources": [
+          "live-148",
+          "live-149"
+        ]
+      }
+    },
+    "live-149": {
+      "device": "watch",
+      "title": "更多 · 测量说明与关于",
+      "parent": "@launcher",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-149.webp",
+        "contentLabel": "更多 · 测量说明与关于",
+        "replay": {
+          "description": "继续查看「测量说明」与「关于」两个入口。",
+          "actions": [],
+          "pending": [
+            "打开测量说明或关于"
+          ]
+        },
+        "swipe": {
+          "down": "live-148"
+        },
+        "listBands": [
+          [
+            31.5,
+            100
+          ]
+        ],
+        "pendingHotspots": [
+          {
+            "label": "关于",
+            "zone": "content",
+            "box": [
+              10,
+              37,
+              80,
+              26
+            ]
+          }
+        ]
+      },
+      "aliasOf": "live-148"
+    },
+    "live-150": {
+      "device": "watch",
+      "title": "选择佩戴方式",
+      "parent": "live-148",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-150.webp",
+        "contentLabel": "选择佩戴方式",
+        "replay": {
+          "description": "左手已选中，页面同时提供右手选项和确定按钮。",
+          "actions": [],
+          "pending": []
+        },
+        "listBands": [
+          [
+            0,
+            49
+          ],
+          [
+            49,
+            76
+          ],
+          [
+            76,
+            100
+          ]
+        ]
+      }
+    }
+  },
+  "scenes": [
+    {
+      "id": "open",
+      "title": "从表盘进入",
+      "hint": "按表冠，在应用列表中上下滑动，点选应用。右滑返回上一页。",
+      "start": {
+        "watch": "@face"
+      },
+      "keys": [
+        [
+          "watch",
+          "@face",
+          "表盘"
+        ],
+        [
+          "watch",
+          "@launcher",
+          "应用列表"
+        ],
+        [
+          "watch",
+          "launcher-heart",
+          "应用列表 · 研究与心率"
+        ],
+        [
+          "watch",
+          "live-147",
+          "心电图"
+        ]
+      ]
+    },
+    {
+      "id": "live-group-1",
+      "title": "测量引导",
+      "hint": "在表框旁选择操作。在截图上拖动可查看已经拍到的位置，右滑或点返回可退回。",
+      "start": {
+        "watch": "live-147"
+      },
+      "keys": [
+        [
+          "watch",
+          "live-147",
+          "左手佩戴 · 测量引导"
+        ]
+      ]
+    },
+    {
+      "id": "live-group-2",
+      "title": "佩戴方式与说明",
+      "hint": "在表框旁选择操作。在截图上拖动可查看已经拍到的位置，右滑或点返回可退回。",
+      "start": {
+        "watch": "live-148"
+      },
+      "keys": [
+        [
+          "watch",
+          "live-148",
+          "更多"
+        ],
+        [
+          "watch",
+          "live-150",
+          "选择佩戴方式"
+        ]
+      ]
+    }
+  ],
+  "references": [
+    "本次腕上实机截图由 Mate 50 同步。流程控件位于表框外。"
+  ],
+  "initialView": {
+    "device": "watch",
+    "scene": "live-group-1",
+    "page": "live-147"
+  },
+  "watchReplayEntry": "live-147",
+  "pendingScreens": [
+    "实际测量与结果",
+    "打开测量说明或关于"
+  ],
+  "watchScrollGroups": [
+    {
+      "mode": "paged",
+      "pages": [
+        "live-147",
+        "live-148"
+      ]
+    }
+  ]
+}

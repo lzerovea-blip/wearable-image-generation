@@ -1,0 +1,113 @@
+{
+  "id": "research-female",
+  "name": "女性健康研究",
+  "phoneProfile": "mate50",
+  "entries": {},
+  "pages": {
+    "home": {
+      "device": "phone",
+      "title": "创新研究首页",
+      "parent": "@home",
+      "capture": {
+        "header": "screens/home-h.webp",
+        "content": "screens/home-c.webp",
+        "footer": "screens/home-f.webp",
+        "contentLabel": "创新研究首页",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "女性健康研究",
+            "page": "entry-female",
+            "box": [
+              6.0662,
+              76.7385,
+              87.8676,
+              4.2575
+            ]
+          }
+        ]
+      }
+    },
+    "entry-female": {
+      "device": "phone",
+      "title": "女性健康研究",
+      "parent": "home",
+      "capture": {
+        "content": "screens/entry-female-c.webp",
+        "contentLabel": "女性健康研究",
+        "hotspots": [],
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "box": [
+              51.9301,
+              62.1667,
+              39.8897,
+              4.9583
+            ],
+            "label": "同意"
+          }
+        ]
+      }
+    },
+    "entry-female-main": {
+      "device": "phone",
+      "title": "研究主页",
+      "parent": "home",
+      "capture": {
+        "content": "screens/entry-female-main-c.webp",
+        "contentLabel": "研究主页",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              2.2059,
+              5.3333,
+              11.3971,
+              4.8333
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "phoneHome": "home",
+  "phoneHomeLabel": "创新研究首页",
+  "sharedPhoneHome": "huawei-research",
+  "scenes": [
+    {
+      "id": "explore",
+      "title": "女性健康研究",
+      "hint": "点击实机界面进入详情，上下滑动浏览，右滑返回。",
+      "start": {
+        "phone": "entry-female"
+      },
+      "keys": [
+        [
+          "phone",
+          "entry-female",
+          "女性健康研究"
+        ],
+        [
+          "phone",
+          "entry-female-main",
+          "研究主页"
+        ]
+      ],
+      "phonePageIndex": [
+        "entry-female",
+        "entry-female-main"
+      ]
+    }
+  ],
+  "initialView": {
+    "scene": "explore",
+    "device": "phone",
+    "page": "entry-female"
+  },
+  "pendingScreens": [
+    "新版文书确认后的评估"
+  ]
+}

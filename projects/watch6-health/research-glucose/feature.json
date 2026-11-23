@@ -1,0 +1,658 @@
+{
+  "id": "research-glucose",
+  "name": "血糖健康研究",
+  "phoneProfile": "mate50",
+  "entries": {},
+  "pages": {
+    "home": {
+      "device": "phone",
+      "title": "创新研究首页",
+      "parent": "@home",
+      "capture": {
+        "header": "screens/home-h.webp",
+        "content": "screens/home-c.webp",
+        "footer": "screens/home-f.webp",
+        "contentLabel": "创新研究首页",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "血糖健康研究",
+            "page": "g-main",
+            "box": [
+              6.0662,
+              64.6884,
+              87.8676,
+              4.2833
+            ]
+          }
+        ]
+      }
+    },
+    "g-notice": {
+      "device": "phone",
+      "title": "升级通知",
+      "parent": "home",
+      "capture": {
+        "content": "screens/g-notice-content.webp",
+        "contentLabel": "升级通知",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "关于血糖健康研究与隐私的声明",
+            "page": "g-privacy",
+            "box": [
+              33.5478,
+              56.5833,
+              53.4007,
+              3.3333
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "血糖健康研究用户知情同意书",
+            "page": "g-consent",
+            "box": [
+              27.9412,
+              59.9167,
+              56.5257,
+              2.9167
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "同意",
+            "page": "g-main",
+            "box": [
+              51.7463,
+              63.9167,
+              35.7537,
+              5.5
+            ],
+            "mode": "replace"
+          }
+        ]
+      }
+    },
+    "g-privacy": {
+      "device": "phone",
+      "title": "关于血糖健康研究与隐私的声明",
+      "parent": "g-notice",
+      "capture": {
+        "header": "screens/g-privacy-header.webp",
+        "content": "screens/g-privacy-content.webp",
+        "contentLabel": "关于血糖健康研究与隐私的声明全文",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              0.0,
+              40.0,
+              14.7059,
+              58.1481
+            ]
+          }
+        ]
+      }
+    },
+    "g-consent": {
+      "device": "phone",
+      "title": "血糖健康研究用户知情同意书",
+      "parent": "g-notice",
+      "capture": {
+        "header": "screens/g-consent-header.webp",
+        "content": "screens/g-consent-content.webp",
+        "contentLabel": "血糖健康研究用户知情同意书全文",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              0.0,
+              40.0,
+              14.7059,
+              58.1481
+            ]
+          }
+        ]
+      }
+    },
+    "g-main": {
+      "device": "phone",
+      "title": "血糖健康研究",
+      "parent": "home",
+      "capture": {
+        "content": "screens/g-main-content.webp",
+        "contentLabel": "血糖健康研究",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "研究菜单",
+            "page": "g-menu",
+            "box": [
+              84.5588,
+              5.9167,
+              12.1324,
+              5.4167
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "糖尿病风险评估说明",
+            "page": "g-guide",
+            "box": [
+              52.4816,
+              14.1667,
+              7.4449,
+              4.5833
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "去填写",
+            "page": "g-form",
+            "box": [
+              72.6103,
+              49.25,
+              21.4154,
+              4.75
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "全部可用设备",
+            "page": "g-devices",
+            "box": [
+              83.6397,
+              58.75,
+              11.5809,
+              4.5417
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "了解血糖",
+            "page": "g-about",
+            "box": [
+              4.3199,
+              79.2917,
+              91.636,
+              13.5
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              1.3787,
+              4.5,
+              14.4301,
+              6.75
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "启动新一轮评估",
+            "page": "g-progress",
+            "box": [
+              7.0772,
+              37.75,
+              85.7537,
+              5.0417
+            ],
+            "mode": "replace",
+            "rememberRoutes": {
+              "g-main": "g-progress"
+            }
+          }
+        ]
+      }
+    },
+    "g-menu": {
+      "device": "phone",
+      "title": "研究菜单",
+      "parent": "g-main",
+      "capture": {
+        "content": "screens/g-menu-content.webp",
+        "contentLabel": "研究菜单",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "调查问卷",
+            "page": "g-surveys",
+            "box": [
+              40.3493,
+              12.6667,
+              51.4706,
+              5.625
+            ],
+            "mode": "replace"
+          },
+          {
+            "zone": "content",
+            "label": "关闭菜单",
+            "page": "@back",
+            "box": [
+              3.4926,
+              43.75,
+              92.0956,
+              29.5833
+            ]
+          }
+        ]
+      }
+    },
+    "g-surveys": {
+      "device": "phone",
+      "title": "调查问卷列表",
+      "parent": "g-main",
+      "capture": {
+        "content": "screens/g-surveys-content.webp",
+        "contentLabel": "调查问卷列表",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              1.3787,
+              4.5,
+              14.4301,
+              6.75
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "血糖健康研究调查问卷",
+            "page": "g-form",
+            "box": [
+              4.0441,
+              13.5833,
+              91.636,
+              6.5833
+            ]
+          }
+        ]
+      }
+    },
+    "g-devices": {
+      "device": "phone",
+      "title": "可用设备",
+      "parent": "g-main",
+      "capture": {
+        "content": "screens/g-devices-content.webp",
+        "contentLabel": "可用设备",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              1.3787,
+              4.5,
+              14.4301,
+              6.75
+            ]
+          }
+        ]
+      }
+    },
+    "g-guide": {
+      "device": "phone",
+      "title": "糖尿病风险评估说明",
+      "parent": "g-main",
+      "capture": {
+        "header": "screens/g-guide-header.webp",
+        "content": "screens/g-guide-content.webp",
+        "contentLabel": "糖尿病风险评估说明全文",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              0.0,
+              36.7347,
+              14.7059,
+              53.4014
+            ]
+          }
+        ]
+      }
+    },
+    "g-form": {
+      "device": "phone",
+      "title": "血糖健康研究调查问卷",
+      "parent": "g-surveys",
+      "capture": {
+        "header": "screens/g-form-header.webp",
+        "content": "screens/g-form-content.webp",
+        "contentLabel": "血糖健康研究调查问卷全文",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              0.0,
+              36.7347,
+              14.7059,
+              53.4014
+            ]
+          }
+        ]
+      }
+    },
+    "g-about": {
+      "device": "phone",
+      "title": "了解血糖",
+      "parent": "g-main",
+      "capture": {
+        "header": "screens/g-about-header.webp",
+        "content": "screens/g-about-content.webp",
+        "contentLabel": "了解血糖全文",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              0.0,
+              36.7347,
+              14.7059,
+              53.4014
+            ]
+          }
+        ]
+      }
+    },
+    "home-first": {
+      "device": "phone",
+      "title": "创新研究首页 · 首次进入",
+      "parent": "@home",
+      "capture": {
+        "content": "screens/home-content.webp",
+        "contentLabel": "创新研究首页",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "血糖健康研究",
+            "page": "g-notice",
+            "box": [
+              3.125,
+              12.375,
+              93.75,
+              13.9167
+            ]
+          }
+        ]
+      }
+    },
+    "g-progress": {
+      "device": "phone",
+      "title": "血糖评估进度",
+      "parent": "home",
+      "capture": {
+        "header": "screens/g-progress-header.webp",
+        "content": "screens/g-progress-content.webp",
+        "contentLabel": "血糖评估进度全文",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              0.0,
+              36.7347,
+              14.7059,
+              53.4014
+            ]
+          },
+          {
+            "zone": "header",
+            "label": "研究菜单",
+            "page": "g-menu",
+            "box": [
+              84.5588,
+              48.2993,
+              12.1324,
+              44.2177
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "糖尿病风险评估说明",
+            "page": "g-guide",
+            "box": [
+              52.4816,
+              2.1853,
+              7.4449,
+              5.2257
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "终止本轮评估",
+            "page": "g-stop",
+            "box": [
+              7.0772,
+              38.8124,
+              85.7537,
+              5.7482
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "去填写",
+            "page": "g-form",
+            "box": [
+              73.4375,
+              52.6841,
+              19.3934,
+              4.0855
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "全部可用设备",
+            "page": "g-devices",
+            "box": [
+              83.6397,
+              62.2803,
+              11.9485,
+              5.4632
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "了解血糖",
+            "page": "g-about",
+            "box": [
+              4.3199,
+              86.7458,
+              91.636,
+              13.0641
+            ]
+          }
+        ],
+        "footer": "screens/g-progress-footer.webp"
+      }
+    },
+    "g-stop": {
+      "device": "phone",
+      "title": "终止本轮评估",
+      "parent": "g-progress",
+      "capture": {
+        "content": "screens/g-stop-content.webp",
+        "contentLabel": "终止本轮评估",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "取消",
+            "page": "@back",
+            "box": [
+              10.2941,
+              51.7083,
+              39.7978,
+              4.9583
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "确定",
+            "page": "g-main",
+            "box": [
+              49.8162,
+              51.7083,
+              39.7978,
+              4.9583
+            ],
+            "mode": "dismiss",
+            "rememberRoutes": {
+              "g-main": "g-main"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "scenes": [
+    {
+      "id": "g-documents",
+      "title": "同意前文书",
+      "hint": "点击通知里的文档名称，滑动阅读全文，返回可查看通知。",
+      "start": {
+        "phone": "g-notice"
+      },
+      "keys": [
+        [
+          "phone",
+          "g-notice",
+          "升级通知"
+        ],
+        [
+          "phone",
+          "g-privacy",
+          "关于血糖健康研究与隐私的声明"
+        ],
+        [
+          "phone",
+          "g-consent",
+          "血糖健康研究用户知情同意书"
+        ]
+      ]
+    },
+    {
+      "id": "glucose-screen",
+      "title": "风险初筛",
+      "hint": "进入血糖研究，查看本机的评估状态，点初筛标题旁的信息按钮阅读评估说明。",
+      "start": {
+        "phone": "home-first"
+      },
+      "keys": [
+        [
+          "phone",
+          "home-first",
+          "项目入口"
+        ],
+        [
+          "phone",
+          "g-notice",
+          "升级通知"
+        ],
+        [
+          "phone",
+          "g-main",
+          "风险初筛"
+        ],
+        [
+          "phone",
+          "g-guide",
+          "评估说明"
+        ]
+      ]
+    },
+    {
+      "id": "glucose-survey",
+      "title": "问卷与研究介绍",
+      "hint": "在研究主页进入问卷，或从右上角的研究菜单打开问卷列表。主页下方可查看适用设备和研究介绍。",
+      "start": {
+        "phone": "g-main"
+      },
+      "keys": [
+        [
+          "phone",
+          "g-main",
+          "研究主页"
+        ],
+        [
+          "phone",
+          "g-menu",
+          "研究菜单"
+        ],
+        [
+          "phone",
+          "g-surveys",
+          "问卷列表"
+        ],
+        [
+          "phone",
+          "g-form",
+          "十题问卷"
+        ],
+        [
+          "phone",
+          "g-devices",
+          "可用设备"
+        ],
+        [
+          "phone",
+          "g-about",
+          "了解血糖"
+        ]
+      ]
+    },
+    {
+      "id": "glucose-round",
+      "title": "启动新一轮评估",
+      "hint": "在初筛卡片启动评估，查看佩戴要求和日历。终止时可取消以继续本轮，或确定后重新开始。",
+      "start": {
+        "phone": "g-main"
+      },
+      "keys": [
+        [
+          "phone",
+          "g-main",
+          "启动入口"
+        ],
+        [
+          "phone",
+          "g-progress",
+          "评估进度和佩戴日历"
+        ],
+        [
+          "phone",
+          "g-stop",
+          "终止确认"
+        ]
+      ]
+    }
+  ],
+  "references": [
+    "来自 Mate 50 上华为创新研究 16.1.8.300 的实际画面和操作。",
+    "同意前的通知与文书来自本次实机采集，用户随后在手机上自行确认。网页中的操作为本地回放。",
+    "首次进入时捕获了升级通知与两份文书，隐私声明页面标示更新日期为 2026 年 6 月 21 日。项目页当次显示暂无本轮初筛数据。问卷覆盖浏览十道题，未填写或提交。",
+    "本轮实机从 0% 启动，经用户确认后终止。日历保留当次佩戴状态，长期评估结果尚未采集。"
+  ],
+  "phoneHome": "home",
+  "phoneHomeLabel": "创新研究首页",
+  "sharedPhoneHome": "huawei-research",
+  "initialView": {
+    "device": "phone",
+    "scene": "glucose-screen",
+    "page": "g-main"
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "feature": "heart-health",
+  "devices": {
+    "phone": {
+      "model": "HUAWEI Mate 50",
+      "os": "HarmonyOS 4.2.0.225",
+      "app": "华为运动健康",
+      "appVersion": "17.0.10.320"
+    }
+  },
+  "reviewed": true,
+  "steps": [
+    {
+      "scene": "start",
+      "device": "phone",
+      "from": "运动健康功能搜索",
+      "action": "选心脏健康；切换四种时间范围",
+      "to": "心率图表",
+      "source": "live",
+      "observedAt": "2026-11-19T12:33:52+08:00",
+      "files": [
+        "evidence/heart-search.png",
+        "evidence/h-day.png",
+        "evidence/h-week.png",
+        "evidence/h-month.png",
+        "evidence/h-year.png"
+      ]
+    },
+    {
+      "scene": "metrics",
+      "device": "phone",
+      "from": "心率图表",
+      "action": "切换 HRV 与周期、打开全部数据",
+      "to": "HRV 及数据明细",
+      "source": "live",
+      "observedAt": "2026-11-19T12:33:52+08:00",
+      "files": [
+        "evidence/h-day-hrv.png",
+        "evidence/h-week-hrv.png",
+        "evidence/h-month-hrv.png",
+        "evidence/h-year-hrv.png",
+        "evidence/h-all-rate.png",
+        "evidence/heart-records.png"
+      ]
+    },
+    {
+      "scene": "tests",
+      "device": "phone",
+      "from": "心脏健康",
+      "action": "打开卡片并返回",
+      "to": "两类测量记录",
+      "source": "live",
+      "observedAt": "2026-11-19T12:33:52+08:00",
+      "files": [
+        "evidence/h-day.png",
+        "evidence/h-ecg-list.png",
+        "evidence/h-arrhythmia.png"
+      ]
+    }
+  ],
+  "frameEvidence": {
+    "entry": {
+      "sources": {
+        "evidence/heart-search.png": "d26c46a32f1e1631daef71dd5a7817adad9a03ab23d5884095ed111505d4204a"
+      },
+      "renders": {
+        "screens/entry-content.webp": "1f7844ec0dffbc1599f1df18f417cb713785e01bf9efd941730e586bcd4168aa"
+      }
+    },
+    "day": {
+      "sources": {
+        "evidence/h-day.png": "b22b5ef94bd7a9ea7d142bbae393875b1663da3c1f556859c9b90c6f4c4c9276"
+      },
+      "renders": {
+        "screens/day-content.webp": "6dcbc888bbeacafff337bd87046bed7ac80d8d664e0ff498b2202c50fe8f3bd4"
+      }
+    },
+    "day-hrv": {
+      "sources": {
+        "evidence/h-day-hrv.png": "a50c564b60555b6a9fbc362478348d7f77b52a604d0027ba44a278f8dd7a9c4e"
+      },
+      "renders": {
+        "screens/day-hrv-content.webp": "0fb73a9e90bdd3848a93cf06421cc44e52abe88fb0d31f5759b336c6af1479de"
+      }
+    },
+    "week": {
+      "sources": {
+        "evidence/h-week.png": "458917c6647a4bd4edcddb311a457ab3249ebf37856423d9d0ef27729d5ae9ee",
+        "evidence/h-day-hrv.png": "a50c564b60555b6a9fbc362478348d7f77b52a604d0027ba44a278f8dd7a9c4e",
+        "evidence/h-month.png": "bfce61834dcb3268502f2b78d49bae98820883ea1a5d0e90ba60b080a2ecbd5d"
+      },
+      "renders": {
+        "screens/week-content.webp": "355e20416511d4168b70930e30c724b4fdf880f3f5f18f633a64c15377b66a30"
+      }
+    },
+    "week-hrv": {
+      "sources": {
+        "evidence/h-week-hrv.png": "e50166853076fe6f03d7067061886bf633ee8e7b0d9d86ff5d020805be02dc2d",
+        "evidence/h-day-hrv.png": "a50c564b60555b6a9fbc362478348d7f77b52a604d0027ba44a278f8dd7a9c4e"
+      },
+      "renders": {
+        "screens/week-hrv-content.webp": "59c0e0222f6e69be6e27dff9825644812eaebc242603ea9241c711d962193e84"
+      }
+    },
+    "month": {
+      "sources": {
+        "evidence/h-month.png": "bfce61834dcb3268502f2b78d49bae98820883ea1a5d0e90ba60b080a2ecbd5d",
+        "evidence/h-day-hrv.png": "a50c564b60555b6a9fbc362478348d7f77b52a604d0027ba44a278f8dd7a9c4e"
+      },
+      "renders": {
+        "screens/month-content.webp": "a74bf3aa63337808a21bee9031bf856083b6da51523ff4424341414d73b55f91"
+      }
+    },
+    "month-hrv": {
+      "sources": {
+        "evidence/h-month-hrv.png": "abc6b2f613576130a461c84ddcd2fd4d3eaf14d23e530e9dea30e58ab164bb81",
+        "evidence/h-day-hrv.png": "a50c564b60555b6a9fbc362478348d7f77b52a604d0027ba44a278f8dd7a9c4e"
+      },
+      "renders": {
+        "screens/month-hrv-content.webp": "bf44a5312f0666c3e187dfdb91cddd5d02652f2cc9d1aea18a9be32068581618"
+      }
+    },
+    "year": {
+      "sources": {
+        "evidence/h-year.png": "da1a53732132651170fd1819368175e643d9c7c49bd782e2f66478688ffe1a26",
+        "evidence/h-day-hrv.png": "a50c564b60555b6a9fbc362478348d7f77b52a604d0027ba44a278f8dd7a9c4e",
+        "evidence/h-month.png": "bfce61834dcb3268502f2b78d49bae98820883ea1a5d0e90ba60b080a2ecbd5d"
+      },
+      "renders": {
+        "screens/year-content.webp": "45a242324fb00f03d6fb6b4ffde42a33a47e0f693fbeaa0e26958b5542673300"
+      }
+    },
+    "year-hrv": {
+      "sources": {
+        "evidence/h-year-hrv.png": "f40fbff582ebfda9e9652e3af1fc03a898f833ab299118e5a8a587fd6898e1ac",
+        "evidence/h-day-hrv.png": "a50c564b60555b6a9fbc362478348d7f77b52a604d0027ba44a278f8dd7a9c4e"
+      },
+      "renders": {
+        "screens/year-hrv-content.webp": "ad176a1527f0404529c7f86989a9dba4fbca6f7662693701b4bb0e684eda8fc7"
+      }
+    },
+    "all-rate": {
+      "sources": {
+        "evidence/h-all-rate.png": "556685400addc58dbbef89cdd6f374066f9a905d194a0fb12468cc1dee9db910"
+      },
+      "renders": {
+        "screens/all-rate-content.webp": "f562702d2b2981b9383e86f1f32201191657b2867c4117d7ac3555583552a1e3"
+      }
+    },
+    "all-hrv": {
+      "sources": {
+        "evidence/heart-records.png": "9ad3a7d9d35056e04778b6f482d6224c8368faa7485b2b62b6e746b01da63e6a"
+      },
+      "renders": {
+        "screens/all-hrv-content.webp": "7f12ced23e36c344c41cb1c63e32266e9fc0d2d6dc7f75da8865f936ccaac0d7"
+      }
+    },
+    "ecg": {
+      "sources": {
+        "evidence/h-ecg-list.png": "1e731971280a0d26c92a8370ebf06f778c0157d336237edaec202dbafcba7f33"
+      },
+      "renders": {
+        "screens/ecg-content.webp": "f92ae0e239ed01a435d6cd5f1b33105679b2cad468e303ae390f31641116b324"
+      }
+    },
+    "rhythm": {
+      "sources": {
+        "evidence/h-arrhythmia.png": "495bf9b8aa251de28915a5b833214dde2ab94cd29594298459c988a7291d8ba8"
+      },
+      "renders": {
+        "screens/rhythm-content.webp": "5e76c778a5272c320c1e420e8fd6c7995f51011b93e91b122cf1f6596b1cffe2"
+      }
+    }
+  }
+}

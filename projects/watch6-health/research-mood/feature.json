@@ -1,0 +1,147 @@
+{
+  "id": "research-mood",
+  "name": "多维情绪研究",
+  "phoneProfile": "mate50",
+  "entries": {},
+  "pages": {
+    "home": {
+      "device": "phone",
+      "title": "创新研究首页",
+      "parent": "@home",
+      "capture": {
+        "header": "screens/home-h.webp",
+        "content": "screens/home-c.webp",
+        "footer": "screens/home-f.webp",
+        "contentLabel": "创新研究首页",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "多维情绪研究",
+            "page": "entry-mood",
+            "box": [
+              2.8493,
+              39.8271,
+              94.2096,
+              4.3607
+            ]
+          }
+        ]
+      }
+    },
+    "entry-mood": {
+      "device": "phone",
+      "title": "多维情绪研究",
+      "parent": "home",
+      "capture": {
+        "header": "screens/entry-mood-h.webp",
+        "content": "screens/entry-mood-c.webp",
+        "footer": "screens/entry-mood-f.webp",
+        "contentLabel": "多维情绪研究",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.9522,
+              0.0,
+              11.1213,
+              1.1683
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "多维情绪检测说明",
+            "page": "entry-mood-info",
+            "box": [
+              38.1434,
+              6.058,
+              4.3199,
+              1.9905
+            ]
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "box": [
+              8.1801,
+              50.0216,
+              83.6397,
+              5.2358
+            ],
+            "label": "开始检测"
+          }
+        ]
+      }
+    },
+    "entry-mood-info": {
+      "device": "phone",
+      "title": "多维情绪检测说明",
+      "parent": "entry-mood",
+      "capture": {
+        "content": "screens/entry-mood-info-c.webp",
+        "contentLabel": "多维情绪检测说明",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.9522,
+              7.3333,
+              11.1213,
+              5.0417
+            ]
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "box": [
+              8.1801,
+              59.4167,
+              83.6397,
+              5.0417
+            ],
+            "label": "开始检测"
+          }
+        ]
+      }
+    }
+  },
+  "phoneHome": "home",
+  "phoneHomeLabel": "创新研究首页",
+  "sharedPhoneHome": "huawei-research",
+  "scenes": [
+    {
+      "id": "explore",
+      "title": "多维情绪研究",
+      "hint": "点击实机界面进入详情，上下滑动浏览，右滑返回。",
+      "start": {
+        "phone": "entry-mood"
+      },
+      "keys": [
+        [
+          "phone",
+          "entry-mood",
+          "多维情绪研究"
+        ],
+        [
+          "phone",
+          "entry-mood-info",
+          "多维情绪检测说明"
+        ]
+      ],
+      "phonePageIndex": [
+        "entry-mood",
+        "entry-mood-info"
+      ]
+    }
+  ],
+  "initialView": {
+    "scene": "explore",
+    "device": "phone",
+    "page": "entry-mood"
+  }
+}

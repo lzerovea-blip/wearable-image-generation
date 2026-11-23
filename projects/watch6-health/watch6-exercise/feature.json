@@ -1,0 +1,901 @@
+{
+  "id": "watch6-exercise",
+  "name": "锻炼",
+  "watchProfile": "watch6",
+  "watchScreens": {
+    "@face": "dial",
+    "@launcher": "launcher"
+  },
+  "entries": {},
+  "pages": {
+    "dial": {
+      "device": "watch",
+      "title": "实机表盘",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/dial.webp",
+        "contentLabel": "实机表盘",
+        "hotspots": []
+      }
+    },
+    "launcher": {
+      "title": "应用列表 · 微体检与情绪健康",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher.webp",
+        "contentLabel": "应用列表 · 微体检与情绪健康",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "健康洞察",
+            "box": [
+              10.866,
+              11.373,
+              78.267,
+              22.103
+            ]
+          },
+          {
+            "label": "微体检",
+            "box": [
+              2.575,
+              36.052,
+              94.85,
+              27.682
+            ]
+          },
+          {
+            "label": "情绪健康",
+            "box": [
+              10.725,
+              66.309,
+              78.549,
+              22.103
+            ]
+          },
+          {
+            "label": "华为创新研究",
+            "box": [
+              31.831,
+              90.987,
+              36.339,
+              9.013
+            ]
+          }
+        ],
+        "swipe": {
+          "up": "launcher-heart"
+        }
+      }
+    },
+    "launcher-heart": {
+      "title": "应用列表 · 研究与心率",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher-heart.webp",
+        "contentLabel": "应用列表 · 研究与心率",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "情绪健康",
+            "box": [
+              32.068,
+              0.0,
+              35.865,
+              8.798
+            ]
+          },
+          {
+            "label": "华为创新研究",
+            "box": [
+              10.866,
+              11.373,
+              78.267,
+              22.103
+            ]
+          },
+          {
+            "label": "心率",
+            "box": [
+              2.575,
+              36.052,
+              94.85,
+              27.682
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "@launcher",
+          "up": "launcher-living"
+        }
+      }
+    },
+    "launcher-living": {
+      "title": "应用列表 · 健康生活",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher-living.webp",
+        "contentLabel": "应用列表 · 健康生活",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "健康生活",
+            "box": [
+              10.725,
+              66.309,
+              78.549,
+              22.103
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "launcher-heart",
+          "up": "launcher-cycle"
+        }
+      }
+    },
+    "launcher-cycle": {
+      "title": "应用列表 · 生理周期",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher-cycle.webp",
+        "contentLabel": "应用列表 · 生理周期",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "生理周期",
+            "box": [
+              31.831,
+              90.987,
+              36.339,
+              9.013
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "launcher-living"
+        }
+      }
+    },
+    "live-001": {
+      "device": "watch",
+      "title": "应用列表",
+      "parent": "@launcher",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-001.webp",
+        "contentLabel": "应用列表",
+        "replay": {
+          "description": "在手表应用列表中可见「锻炼」。",
+          "actions": [
+            {
+              "label": "打开锻炼",
+              "page": "live-002"
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    "live-002": {
+      "device": "watch",
+      "title": "锻炼首页",
+      "parent": "live-001",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-002.webp",
+        "contentLabel": "锻炼首页",
+        "replay": {
+          "description": "打开锻炼，首屏可见登山和泳池游泳。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-003"
+        }
+      }
+    },
+    "live-003": {
+      "device": "watch",
+      "title": "游泳、冲浪与网球",
+      "parent": "live-001",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-003.webp",
+        "contentLabel": "游泳、冲浪与网球",
+        "replay": {
+          "description": "沿列表上滑查看更多项目。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-004",
+          "down": "live-002"
+        }
+      }
+    },
+    "live-004": {
+      "device": "watch",
+      "title": "户外跑步、课程与计划",
+      "parent": "live-001",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-004.webp",
+        "contentLabel": "户外跑步、课程与计划",
+        "replay": {
+          "description": "此处可见户外跑步右侧的更多入口。",
+          "actions": [
+            {
+              "label": "打开「户外跑步」设置",
+              "page": "live-006"
+            }
+          ],
+          "pending": [
+            "启动户外跑步、倒计时、运动中、暂停与结束"
+          ]
+        },
+        "swipe": {
+          "up": "live-005",
+          "down": "live-003"
+        }
+      }
+    },
+    "live-005": {
+      "device": "watch",
+      "title": "操场跑步与室内跑步",
+      "parent": "live-001",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-005.webp",
+        "contentLabel": "操场跑步与室内跑步",
+        "replay": {
+          "description": "继续浏览列表，户外跑步设置从上一位置进入。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "down": "live-004"
+        }
+      }
+    },
+    "live-006": {
+      "device": "watch",
+      "title": "目标与节拍器",
+      "parent": "live-004",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-006.webp",
+        "contentLabel": "目标与节拍器",
+        "replay": {
+          "description": "在户外跑步右侧打开设置。",
+          "actions": [
+            {
+              "label": "查看同屏第二次取图",
+              "page": "live-007"
+            }
+          ],
+          "pending": [
+            "打开目标或节拍器的详情"
+          ]
+        },
+        "swipe": {
+          "up": "live-008"
+        }
+      }
+    },
+    "live-007": {
+      "device": "watch",
+      "title": "功能设置顶部",
+      "parent": "live-006",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-007.webp",
+        "contentLabel": "功能设置顶部",
+        "replay": {
+          "description": "目标及节拍器在第二张取图中的位置。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-008"
+        }
+      }
+    },
+    "live-008": {
+      "device": "watch",
+      "title": "运动防误触与自动暂停",
+      "parent": "live-004",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-008.webp",
+        "contentLabel": "运动防误触与自动暂停",
+        "replay": {
+          "description": "继续上滑到运动防误触、自动暂停和数据显示。",
+          "actions": [],
+          "pending": [
+            "打开自动暂停或数据显示的详情"
+          ]
+        },
+        "swipe": {
+          "up": "live-009",
+          "down": "live-006"
+        }
+      }
+    },
+    "live-009": {
+      "device": "watch",
+      "title": "提醒、手机查看数据与分段",
+      "parent": "live-004",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-009.webp",
+        "contentLabel": "提醒、手机查看数据与分段",
+        "replay": {
+          "description": "继续浏览提醒、手机查看数据与分段入口。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-010",
+          "down": "live-008"
+        }
+      }
+    },
+    "live-010": {
+      "device": "watch",
+      "title": "置顶、移除与通用设置",
+      "parent": "live-004",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-010.webp",
+        "contentLabel": "置顶、移除与通用设置",
+        "replay": {
+          "description": "查看项目管理操作和通用设置入口。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-011",
+          "down": "live-009"
+        }
+      }
+    },
+    "live-011": {
+      "device": "watch",
+      "title": "音量、屏幕常亮与定位服务",
+      "parent": "live-004",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-011.webp",
+        "contentLabel": "音量、屏幕常亮与定位服务",
+        "replay": {
+          "description": "在通用设置内继续上滑。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-012",
+          "down": "live-010"
+        }
+      }
+    },
+    "live-012": {
+      "device": "watch",
+      "title": "快捷功能与恢复心率",
+      "parent": "live-004",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-012.webp",
+        "contentLabel": "快捷功能与恢复心率",
+        "replay": {
+          "description": "查看快捷功能显示、目标达成自动暂停及恢复心率。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "down": "live-011"
+        }
+      }
+    }
+  },
+  "scenes": [
+    {
+      "id": "open",
+      "title": "从表盘进入",
+      "hint": "按表冠，在应用列表中上下滑动，点选应用。右滑返回上一页。",
+      "start": {
+        "watch": "@face"
+      },
+      "keys": [
+        [
+          "watch",
+          "@face",
+          "表盘"
+        ],
+        [
+          "watch",
+          "@launcher",
+          "应用列表"
+        ],
+        [
+          "watch",
+          "launcher-heart",
+          "应用列表 · 研究与心率"
+        ],
+        [
+          "watch",
+          "live-002",
+          "锻炼"
+        ]
+      ]
+    },
+    {
+      "id": "live-group-1",
+      "title": "入口",
+      "hint": "在表框旁选择操作。在截图上拖动可查看已经拍到的位置，右滑或点返回可退回。",
+      "start": {
+        "watch": "live-001"
+      },
+      "keys": [
+        [
+          "watch",
+          "live-001",
+          "应用列表"
+        ]
+      ]
+    },
+    {
+      "id": "live-group-2",
+      "title": "项目列表",
+      "hint": "在表框旁选择操作。在截图上拖动可查看已经拍到的位置，右滑或点返回可退回。",
+      "start": {
+        "watch": "live-002"
+      },
+      "keys": [
+        [
+          "watch",
+          "live-002",
+          "锻炼首页"
+        ],
+        [
+          "watch",
+          "live-003",
+          "游泳、冲浪与网球"
+        ],
+        [
+          "watch",
+          "live-004",
+          "户外跑步、课程与计划"
+        ],
+        [
+          "watch",
+          "live-005",
+          "操场跑步与室内跑步"
+        ]
+      ]
+    },
+    {
+      "id": "live-group-3",
+      "title": "户外跑步设置",
+      "hint": "在表框旁选择操作。在截图上拖动可查看已经拍到的位置，右滑或点返回可退回。",
+      "start": {
+        "watch": "live-006"
+      },
+      "keys": [
+        [
+          "watch",
+          "live-006",
+          "目标与节拍器"
+        ],
+        [
+          "watch",
+          "live-007",
+          "功能设置顶部"
+        ],
+        [
+          "watch",
+          "live-008",
+          "运动防误触与自动暂停"
+        ],
+        [
+          "watch",
+          "live-009",
+          "提醒、手机查看数据与分段"
+        ],
+        [
+          "watch",
+          "live-010",
+          "置顶、移除与通用设置"
+        ],
+        [
+          "watch",
+          "live-011",
+          "音量、屏幕常亮与定位服务"
+        ],
+        [
+          "watch",
+          "live-012",
+          "快捷功能与恢复心率"
+        ]
+      ]
+    }
+  ],
+  "references": [
+    "本次腕上实机截图由 Mate 50 同步。流程控件位于表框外。"
+  ],
+  "initialView": {
+    "device": "watch",
+    "scene": "live-group-2",
+    "page": "live-002"
+  },
+  "watchReplayEntry": "live-002",
+  "pendingScreens": [
+    "启动户外跑步、倒计时、运动中、暂停与结束",
+    "打开目标或节拍器的详情",
+    "打开自动暂停或数据显示的详情",
+    "其余运动的启动与设置",
+    "未完整露出的运动与设置条目"
+  ],
+  "watchLists": [
+    {
+      "label": "运动项目",
+      "anchors": {
+        "live-002": 0,
+        "live-003": 2,
+        "live-004": 4,
+        "live-005": 7
+      },
+      "naturalRows": true,
+      "rows": [
+        {
+          "label": "登山",
+          "source": "live-002",
+          "location": "live-002",
+          "crop": [
+            1.66667,
+            32.0,
+            96.66667,
+            33.66667
+          ],
+          "pending": true,
+          "secondary": {
+            "label": "登山设置"
+          },
+          "heading": "锻炼 · 恢复时间 0 小时"
+        },
+        {
+          "label": "泳池游泳",
+          "source": "live-002",
+          "location": "live-002",
+          "crop": [
+            12.66667,
+            67.66667,
+            74.66667,
+            26.33333
+          ],
+          "pending": true,
+          "secondary": {
+            "label": "泳池游泳设置"
+          }
+        },
+        {
+          "label": "冲浪",
+          "source": "live-003",
+          "location": "live-003",
+          "crop": [
+            1.66667,
+            33.0,
+            96.66667,
+            33.66667
+          ],
+          "pending": true,
+          "secondary": {
+            "label": "冲浪设置"
+          }
+        },
+        {
+          "label": "网球",
+          "source": "live-003",
+          "location": "live-003",
+          "crop": [
+            13.33333,
+            69.0,
+            73.33333,
+            25.66667
+          ],
+          "pending": true,
+          "secondary": {
+            "label": "网球设置"
+          }
+        },
+        {
+          "label": "户外跑步",
+          "source": "live-004",
+          "location": "live-004",
+          "crop": [
+            12.0,
+            6.66667,
+            76.0,
+            26.66667
+          ],
+          "pending": true,
+          "secondary": {
+            "label": "户外跑步设置",
+            "page": "live-006"
+          }
+        },
+        {
+          "label": "课程与计划",
+          "source": "live-004",
+          "location": "live-004",
+          "crop": [
+            1.66667,
+            35.33333,
+            96.66667,
+            29.0
+          ],
+          "pending": true
+        },
+        {
+          "label": "运动涂鸦",
+          "source": "live-004",
+          "location": "live-004",
+          "crop": [
+            12.0,
+            66.66667,
+            76.0,
+            26.33333
+          ],
+          "pending": true,
+          "secondary": {
+            "label": "运动涂鸦设置"
+          }
+        },
+        {
+          "label": "操场跑步",
+          "source": "live-005",
+          "location": "live-005",
+          "crop": [
+            1.66667,
+            33.0,
+            96.66667,
+            33.66667
+          ],
+          "pending": true,
+          "secondary": {
+            "label": "操场跑步设置"
+          }
+        },
+        {
+          "label": "室内跑步",
+          "source": "live-005",
+          "location": "live-005",
+          "crop": [
+            13.33333,
+            69.0,
+            73.33333,
+            25.66667
+          ],
+          "pending": true,
+          "secondary": {
+            "label": "室内跑步设置"
+          }
+        }
+      ]
+    },
+    {
+      "label": "户外跑步设置",
+      "anchors": {
+        "live-006": 0,
+        "live-007": 0,
+        "live-008": 3,
+        "live-009": 6,
+        "live-010": 9,
+        "live-011": 11,
+        "live-012": 14
+      },
+      "naturalRows": true,
+      "rows": [
+        {
+          "label": "目标",
+          "source": "live-006",
+          "location": "live-006",
+          "crop": [
+            1.66667,
+            32.33333,
+            96.66667,
+            33.33333
+          ],
+          "pending": true,
+          "heading": "设置 · 户外跑步"
+        },
+        {
+          "label": "节拍器",
+          "source": "live-006",
+          "location": "live-006",
+          "crop": [
+            23.33333,
+            82.0,
+            53.33333,
+            17.33333
+          ],
+          "pending": true,
+          "heading": "功能设置"
+        },
+        {
+          "label": "运动防误触",
+          "source": "live-008",
+          "location": "live-008",
+          "crop": [
+            13.33333,
+            5.66667,
+            73.33333,
+            25.66667
+          ],
+          "pending": true
+        },
+        {
+          "label": "自动暂停",
+          "source": "live-008",
+          "location": "live-008",
+          "crop": [
+            1.66667,
+            33.0,
+            96.66667,
+            33.66667
+          ],
+          "pending": true
+        },
+        {
+          "label": "数据显示",
+          "source": "live-008",
+          "location": "live-008",
+          "crop": [
+            13.33333,
+            69.0,
+            73.33333,
+            25.66667
+          ],
+          "pending": true
+        },
+        {
+          "label": "提醒",
+          "source": "live-009",
+          "location": "live-009",
+          "crop": [
+            15.33333,
+            3.33333,
+            69.33333,
+            24.66667
+          ],
+          "pending": true
+        },
+        {
+          "label": "手机查看数据",
+          "source": "live-009",
+          "location": "live-009",
+          "crop": [
+            1.66667,
+            30.0,
+            96.66667,
+            41.0
+          ],
+          "pending": true
+        },
+        {
+          "label": "分段",
+          "source": "live-009",
+          "location": "live-009",
+          "crop": [
+            16.33333,
+            73.33333,
+            67.33333,
+            22.66667
+          ],
+          "pending": true
+        },
+        {
+          "label": "置顶运动",
+          "source": "live-010",
+          "location": "live-010",
+          "crop": [
+            13.33333,
+            5.66667,
+            73.33333,
+            25.66667
+          ],
+          "pending": true
+        },
+        {
+          "label": "移除此运动",
+          "source": "live-010",
+          "location": "live-010",
+          "crop": [
+            1.66667,
+            33.0,
+            96.66667,
+            33.66667
+          ],
+          "pending": true
+        },
+        {
+          "label": "锻炼提示音量",
+          "source": "live-011",
+          "location": "live-011",
+          "crop": [
+            13.33333,
+            5.66667,
+            73.33333,
+            25.66667
+          ],
+          "pending": true,
+          "heading": "通用设置"
+        },
+        {
+          "label": "屏幕常亮",
+          "source": "live-011",
+          "location": "live-011",
+          "crop": [
+            1.66667,
+            33.0,
+            96.66667,
+            33.66667
+          ],
+          "pending": true
+        },
+        {
+          "label": "定位服务",
+          "source": "live-011",
+          "location": "live-011",
+          "crop": [
+            13.33333,
+            69.0,
+            73.33333,
+            25.66667
+          ],
+          "pending": true
+        },
+        {
+          "label": "快捷功能显示",
+          "source": "live-012",
+          "location": "live-012",
+          "crop": [
+            13.33333,
+            5.66667,
+            73.33333,
+            25.66667
+          ],
+          "pending": true
+        },
+        {
+          "label": "目标达成自动暂停",
+          "source": "live-012",
+          "location": "live-012",
+          "crop": [
+            1.66667,
+            33.0,
+            96.66667,
+            33.66667
+          ],
+          "pending": true
+        },
+        {
+          "label": "恢复心率",
+          "source": "live-012",
+          "location": "live-012",
+          "crop": [
+            13.33333,
+            69.0,
+            73.33333,
+            25.66667
+          ],
+          "pending": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "research-hearing",
+  "name": "听力检测与助听研究",
+  "phoneProfile": "mate50",
+  "entries": {},
+  "pages": {
+    "home": {
+      "device": "phone",
+      "title": "创新研究首页",
+      "parent": "@home",
+      "capture": {
+        "header": "screens/home-h.webp",
+        "content": "screens/home-c.webp",
+        "footer": "screens/home-f.webp",
+        "contentLabel": "创新研究首页",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "听力检测与助听研究",
+            "page": "entry-hearing",
+            "box": [
+              6.0662,
+              82.7377,
+              87.8676,
+              4.2833
+            ]
+          }
+        ]
+      }
+    },
+    "entry-hearing": {
+      "device": "phone",
+      "title": "听力检测与助听研究",
+      "parent": "home",
+      "capture": {
+        "content": "screens/entry-hearing-c.webp",
+        "contentLabel": "听力检测与助听研究",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              5.5147,
+              89.9583,
+              43.0147,
+              4.9583
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "关于听力检测与助听研究与隐私的声明",
+            "page": "entry-hearing-info",
+            "box": [
+              25.1838,
+              83.5833,
+              45.4044,
+              1.5833
+            ]
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "box": [
+              51.4706,
+              89.9583,
+              42.9228,
+              4.9583
+            ],
+            "label": "同意"
+          }
+        ]
+      }
+    },
+    "entry-hearing-info": {
+      "device": "phone",
+      "title": "隐私声明",
+      "parent": "entry-hearing",
+      "capture": {
+        "content": "screens/entry-hearing-info-c.webp",
+        "contentLabel": "隐私声明",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              0.0,
+              4.5,
+              14.8897,
+              6.75
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "phoneHome": "home",
+  "phoneHomeLabel": "创新研究首页",
+  "sharedPhoneHome": "huawei-research",
+  "scenes": [
+    {
+      "id": "explore",
+      "title": "听力检测与助听研究",
+      "hint": "点击实机界面进入详情，上下滑动浏览，右滑返回。",
+      "start": {
+        "phone": "entry-hearing"
+      },
+      "keys": [
+        [
+          "phone",
+          "entry-hearing",
+          "听力检测与助听研究"
+        ],
+        [
+          "phone",
+          "entry-hearing-info",
+          "隐私声明"
+        ]
+      ],
+      "phonePageIndex": [
+        "entry-hearing",
+        "entry-hearing-info"
+      ]
+    }
+  ],
+  "initialView": {
+    "scene": "explore",
+    "device": "phone",
+    "page": "entry-hearing"
+  },
+  "pendingScreens": [
+    "加入后的听力研究主页"
+  ]
+}

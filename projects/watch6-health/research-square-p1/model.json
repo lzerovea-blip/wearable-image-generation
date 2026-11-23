@@ -1,0 +1,318 @@
+{
+  "feature": "research-square-p1",
+  "devices": {
+    "phone": {
+      "model": "HUAWEI Mate 50",
+      "os": "HarmonyOS 4.2.0.225",
+      "app": "华为创新研究",
+      "appVersion": "16.1.8.300"
+    }
+  },
+  "reviewed": true,
+  "steps": [
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "@home",
+      "action": "打开并查看创新研究首页",
+      "to": "创新研究首页",
+      "files": [
+        "evidence/landing-0.png",
+        "evidence/landing-1.png",
+        "evidence/landing-2.png",
+        "evidence/landing-3.png",
+        "evidence/landing-4.png",
+        "evidence/landing-5.png",
+        "evidence/landing-6.png"
+      ],
+      "observedAt": "2026-11-19T20:59:14+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "home",
+      "action": "打开并查看研究广场",
+      "to": "研究广场",
+      "files": [
+        "evidence/square.png",
+        "evidence/square-lower.png"
+      ],
+      "observedAt": "2026-11-19T20:56:18+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "plaza",
+      "action": "打开并查看情绪与睡眠改善计划",
+      "to": "情绪与睡眠改善计划",
+      "files": [
+        "evidence/square-p2.png"
+      ],
+      "observedAt": "2026-11-19T21:18:59+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "plaza",
+      "action": "打开并查看心血管健康趋势研究",
+      "to": "心血管健康趋势研究",
+      "files": [
+        "evidence/square-p3.png"
+      ],
+      "observedAt": "2026-11-19T21:25:21+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "plaza",
+      "action": "打开并查看中国居民睡眠健康研究",
+      "to": "中国居民睡眠健康研究",
+      "files": [
+        "evidence/square-p1.png",
+        "evidence/square-p1-s1.png",
+        "evidence/square-p1-s2.png",
+        "evidence/square-p1-s3.png",
+        "evidence/square-p1-s4.png",
+        "evidence/square-p1-s5.png",
+        "evidence/square-p1-s6.png",
+        "evidence/square-p1-s7.png",
+        "evidence/square-p1-s8.png",
+        "evidence/square-p1-s9.png",
+        "evidence/square-p1-s10.png",
+        "evidence/square-p1-s11.png",
+        "evidence/square-p1-s12.png",
+        "evidence/square-p1-s13.png",
+        "evidence/square-p1-s14.png",
+        "evidence/square-p1-s15.png",
+        "evidence/square-p1-s16.png"
+      ],
+      "observedAt": "2026-11-19T21:10:41+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "square-p1",
+      "action": "打开并查看出生年月",
+      "to": "出生年月",
+      "files": [
+        "evidence/square-p1-picker1.png"
+      ],
+      "observedAt": "2026-11-19T21:12:08+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "中国居民睡眠健康研究",
+      "action": "出生年月",
+      "to": "出生年月",
+      "files": [
+        "evidence/square-p1.png",
+        "evidence/square-p1-picker1.png"
+      ],
+      "observedAt": "2026-11-19T21:12:08+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "square-p1",
+      "action": "打开并查看身高",
+      "to": "身高",
+      "files": [
+        "evidence/square-p1-picker2.png"
+      ],
+      "observedAt": "2026-11-19T21:18:34+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "中国居民睡眠健康研究",
+      "action": "身高",
+      "to": "身高",
+      "files": [
+        "evidence/square-p1.png",
+        "evidence/square-p1-picker2.png"
+      ],
+      "observedAt": "2026-11-19T21:18:34+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "square-p1",
+      "action": "打开并查看体重",
+      "to": "体重",
+      "files": [
+        "evidence/square-p1-picker3.png"
+      ],
+      "observedAt": "2026-11-19T21:18:47+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "中国居民睡眠健康研究",
+      "action": "体重",
+      "to": "体重",
+      "files": [
+        "evidence/square-p1.png",
+        "evidence/square-p1-picker3.png"
+      ],
+      "observedAt": "2026-11-19T21:18:47+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "square-p1",
+      "action": "打开并查看居住城市",
+      "to": "居住城市",
+      "files": [
+        "evidence/square-p1-picker4.png"
+      ],
+      "observedAt": "2026-11-19T21:52:42+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "live",
+      "device": "phone",
+      "from": "中国居民睡眠健康研究",
+      "action": "居住城市",
+      "to": "居住城市",
+      "files": [
+        "evidence/square-p1-s1.png",
+        "evidence/square-p1-picker4.png"
+      ],
+      "observedAt": "2026-11-19T21:52:42+08:00"
+    },
+    {
+      "scene": "explore",
+      "source": "pending",
+      "device": "phone",
+      "from": "基本信息问卷调查",
+      "action": "提交个人答案",
+      "to": "问卷提交后的研究页面",
+      "files": []
+    }
+  ],
+  "frameEvidence": {
+    "home": {
+      "observedAt": "2026-11-19T20:59:14+08:00",
+      "sources": {
+        "evidence/landing-0.png": "c0a35b67a11ae8742fcccd953fe2134a997354b16325fa6d13cd9de4ff8c0ea9",
+        "evidence/landing-1.png": "9af550adbd8e8f49f60e930334e2612452e2281109a0f0ae8d115737ac7b1c47",
+        "evidence/landing-2.png": "d132584642beef256796f96f63a368839c8fe30ca110964e16c3e4fb39222d2c",
+        "evidence/landing-3.png": "063a5609fff594ce546dbfb9bd421a32cad7491664c3b9f35aed526cfe75e29a",
+        "evidence/landing-4.png": "0bb5cb079cd3b2c0b56d461240e2e4637525d0fd971f3d78009c6b176c27333b",
+        "evidence/landing-5.png": "93bdee7c95130105f5251fbf53b939917ebf57ceb1a135e456394c070dc22d01",
+        "evidence/landing-6.png": "10a3918d580c7c193f87f229d2c9a8112fa82bd659b9c32c87dd43d6969eeccd"
+      },
+      "renders": {
+        "screens/home-h.webp": "251fde3d5f4f568e46208589e00887695249302204b2e97fc5e53e813c4a3f91",
+        "screens/home-c.webp": "e8c832aebf4c0eaa404603391cc4b3207481f9f4f398fe6caf18e5f67ddcd60a",
+        "screens/home-f.webp": "65677a10186f4f78ecb2f1eaa61158e987dd3c9e468491b8c90a9f5412a30e0b"
+      }
+    },
+    "plaza": {
+      "observedAt": "2026-11-19T20:56:18+08:00",
+      "sources": {
+        "evidence/square.png": "602b6d0bc19a9c045795c7e8659c3198efbad2e2982997d478df3a6efed52ab5",
+        "evidence/square-lower.png": "ccfc60937c2cdf39a4656cd920cd227d385631570bbcd0e17d141c6c147ec83f"
+      },
+      "renders": {
+        "screens/plaza-h.webp": "054e74b5bd3419b754176a7bdef47c2fec1afede12e25abc7da46ea29f667aca",
+        "screens/plaza-c.webp": "74e754c0c0ad63c3d46b257f961a2bb8384e0ce2c55aa97bae97bd32163e6a00",
+        "screens/plaza-f.webp": "356f355885a0d84f6b87d5abc32c76fc91b79adb9c103acbd9355c47e02f15e1"
+      }
+    },
+    "preview-square-p2": {
+      "observedAt": "2026-11-19T21:18:59+08:00",
+      "sources": {
+        "evidence/square-p2.png": "087db6a5ed50043920017676628325dac0010844375b49c735780ed0f93875e8"
+      },
+      "renders": {
+        "screens/preview-square-p2-c.webp": "683f071597053e19e049f836fdfb40186816d01c51df760b25ddf05652cb8054"
+      }
+    },
+    "preview-square-p3": {
+      "observedAt": "2026-11-19T21:25:21+08:00",
+      "sources": {
+        "evidence/square-p3.png": "e618df72fd363ca1d904f7dbed53d03c157d25bab3cbc2e4500c9ad7d933568a"
+      },
+      "renders": {
+        "screens/preview-square-p3-c.webp": "0cea93e69fd61e01be7594eb9433f69dbbf97f0f3e8a3a96c2ca900e24f6cf96"
+      }
+    },
+    "square-p1": {
+      "observedAt": "2026-11-19T21:10:41+08:00",
+      "sources": {
+        "evidence/square-p1.png": "929545948477c982c7c4fa265b709548da3f42c6ca1b32b691bbd41175195659",
+        "evidence/square-p1-s1.png": "101db477ade63f66a0d32a0807d3fce8eb7be97cd82c5d907e317a4a68aba2a0",
+        "evidence/square-p1-s2.png": "5422f34e32d1ce93b3c633ccaf18d55f76542a0b934ffcfd093dec3adef02a94",
+        "evidence/square-p1-s3.png": "84e53c6aafac0b078254954d61590edc45bb5c376b011605da560caef9091a58",
+        "evidence/square-p1-s4.png": "5f369a32097dbf0867172d05371a1203a72e27495375c71c170bdd17f7d98b22",
+        "evidence/square-p1-s5.png": "243804dfe900cbe92dfe68b409bbbf7e1e8c875566a492f06086d6944ea2240d",
+        "evidence/square-p1-s6.png": "58259eda0c1d576508b5536d738bf7a7b99ee8fdf437a00728cfbece8ef9bf21",
+        "evidence/square-p1-s7.png": "2e9bd44949409f844e3ed344a2acebb0c99fb1c894a0099f54d2ded7ea8435e0",
+        "evidence/square-p1-s8.png": "60a1686a6ef27aab9befca4ec8099644a7a8b7e18ed367372b0ef0225034e529",
+        "evidence/square-p1-s9.png": "b490d165a1fd340473232d5b3ff59de9025568e92d3efac2d0418a5a08411193",
+        "evidence/square-p1-s10.png": "7e0dd97de487100ccc0f2ecee7ff13f5f87f18254daae0738d83a96657dfbad2",
+        "evidence/square-p1-s11.png": "67120519a0a12a8c9bf867968e6e1dc779cef6d7056f5ac977a02388070a606b",
+        "evidence/square-p1-s12.png": "e95deb00efcbd8cbfca681c40ca3fdd811d678384562e0929b2fc2179c3c2332",
+        "evidence/square-p1-s13.png": "b042b4991f076a8d749330706f05e21cf664305c806cb644f289a28737b77fa6",
+        "evidence/square-p1-s14.png": "0a6197381ba90a5ad1cf58d000890fe5a214a768a5a0251dd9ea72ee3c7f20a7",
+        "evidence/square-p1-s15.png": "05871fdd4d3742f54a2a3ca92fa4b4fd0883dd6159e5aa3a2b9ab76e17668a41",
+        "evidence/square-p1-s16.png": "2f2a57632733423bfb1385a3e233967eb5ff017801220ce76dfe5113492d16b8"
+      },
+      "renders": {
+        "screens/square-p1-h.webp": "019ce86b555e461d49e1276001340ca969c748a6ec025130d54838adcc146bd6",
+        "screens/square-p1-c.webp": "e11f047d88712cb59d77669411f09b043767fe19f1cf7df7899b9ca44fafa4b7",
+        "screens/square-p1-f.webp": "de61856a4e6cf3f509ef0eed8707ce1440c2fa9b808396d7163d66c40ccb8e5b"
+      }
+    },
+    "square-p1-picker1": {
+      "observedAt": "2026-11-19T21:12:08+08:00",
+      "sources": {
+        "evidence/square-p1-picker1.png": "561200b14e1ebcff0837bbe777058e950ded1b17794f9c6212bcaccac83785a7"
+      },
+      "renders": {
+        "screens/square-p1-picker1-c.webp": "df4ae5d54895e20786d012a7a2e68c41a1668c48b09470ab98b17fd12afed5c0"
+      }
+    },
+    "square-p1-picker2": {
+      "observedAt": "2026-11-19T21:18:34+08:00",
+      "sources": {
+        "evidence/square-p1-picker2.png": "9fcd41d925d697b836f86bb51868fe609e77a647818daee3d7cc21699bd89711"
+      },
+      "renders": {
+        "screens/square-p1-picker2-c.webp": "02f94dde9b52e3d64538dad789e3c1f97b759916c6c977474e4bc7a6f257bfb6"
+      }
+    },
+    "square-p1-picker3": {
+      "observedAt": "2026-11-19T21:18:47+08:00",
+      "sources": {
+        "evidence/square-p1-picker3.png": "582ead45ef8ee6c19720e310e90fb02ac8517c45a9759c26fb8900aef8a406a0"
+      },
+      "renders": {
+        "screens/square-p1-picker3-c.webp": "b7adce68862dd5bc0461ed2e548c20a9bb35d45e64356ab41b1bb217492f280f"
+      }
+    },
+    "square-p1-picker4": {
+      "observedAt": "2026-11-19T21:52:42+08:00",
+      "sources": {
+        "evidence/square-p1-picker4.png": "077ae11fb934e27e0c79dc1044abd8e0c837322663752bae5319717c67fb05c6"
+      },
+      "renders": {
+        "screens/square-p1-picker4-c.webp": "d66be4ec30873f24ee5cdfdede59dc12e1dd1f9403141b4ef9da861866370dc0"
+      }
+    }
+  }
+}

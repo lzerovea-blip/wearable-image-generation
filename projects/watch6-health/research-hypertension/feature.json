@@ -1,0 +1,135 @@
+{
+  "id": "research-hypertension",
+  "name": "高血压风险研究",
+  "phoneProfile": "mate50",
+  "entries": {},
+  "pages": {
+    "home": {
+      "device": "phone",
+      "title": "创新研究首页",
+      "parent": "@home",
+      "capture": {
+        "header": "screens/home-h.webp",
+        "content": "screens/home-c.webp",
+        "footer": "screens/home-f.webp",
+        "contentLabel": "创新研究首页",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "高血压风险研究",
+            "page": "entry-hypertension",
+            "box": [
+              6.0662,
+              50.2129,
+              87.8676,
+              4.2446
+            ]
+          }
+        ]
+      }
+    },
+    "entry-hypertension": {
+      "device": "phone",
+      "title": "高血压风险研究",
+      "parent": "home",
+      "capture": {
+        "header": "screens/entry-hypertension-h.webp",
+        "content": "screens/entry-hypertension-c.webp",
+        "footer": "screens/entry-hypertension-f.webp",
+        "contentLabel": "高血压风险研究",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.4007,
+              55.5556,
+              5.6066,
+              20.3704
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "去填写",
+            "page": "entry-hypertension-form",
+            "box": [
+              74.2647,
+              27.6555,
+              19.6691,
+              2.6794
+            ]
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "box": [
+              24.3566,
+              18.2775,
+              51.1949,
+              3.8596
+            ],
+            "label": "启动评估"
+          }
+        ]
+      }
+    },
+    "entry-hypertension-form": {
+      "device": "phone",
+      "title": "高血压研究调查问卷",
+      "parent": "entry-hypertension",
+      "capture": {
+        "content": "screens/entry-hypertension-form-c.webp",
+        "contentLabel": "高血压研究调查问卷",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.4007,
+              6.25,
+              5.6066,
+              2.2917
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "phoneHome": "home",
+  "phoneHomeLabel": "创新研究首页",
+  "sharedPhoneHome": "huawei-research",
+  "scenes": [
+    {
+      "id": "explore",
+      "title": "高血压风险研究",
+      "hint": "点击实机界面进入详情，上下滑动浏览，右滑返回。",
+      "start": {
+        "phone": "entry-hypertension"
+      },
+      "keys": [
+        [
+          "phone",
+          "entry-hypertension",
+          "高血压风险研究"
+        ],
+        [
+          "phone",
+          "entry-hypertension-form",
+          "高血压研究调查问卷"
+        ]
+      ],
+      "phonePageIndex": [
+        "entry-hypertension",
+        "entry-hypertension-form"
+      ]
+    }
+  ],
+  "initialView": {
+    "scene": "explore",
+    "device": "phone",
+    "page": "entry-hypertension"
+  }
+}

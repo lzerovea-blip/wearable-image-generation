@@ -1,0 +1,167 @@
+{
+  "id": "research-coronary",
+  "name": "冠心病研究",
+  "phoneProfile": "mate50",
+  "entries": {},
+  "pages": {
+    "home": {
+      "device": "phone",
+      "title": "创新研究首页",
+      "parent": "@home",
+      "capture": {
+        "header": "screens/home-h.webp",
+        "content": "screens/home-c.webp",
+        "footer": "screens/home-f.webp",
+        "contentLabel": "创新研究首页",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "冠心病研究",
+            "page": "entry-coronary",
+            "box": [
+              6.0662,
+              54.4575,
+              87.8676,
+              4.2446
+            ]
+          }
+        ]
+      }
+    },
+    "entry-coronary": {
+      "device": "phone",
+      "title": "冠心病研究",
+      "parent": "home",
+      "capture": {
+        "header": "screens/entry-coronary-h.webp",
+        "content": "screens/entry-coronary-c.webp",
+        "footer": "screens/entry-coronary-f.webp",
+        "contentLabel": "冠心病研究",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.9522,
+              0.0,
+              11.1213,
+              0.1701
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "冠心病风险评估说明",
+            "page": "entry-coronary-info",
+            "box": [
+              42.9228,
+              21.7687,
+              4.2279,
+              1.9558
+            ]
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "box": [
+              81.1581,
+              13.9031,
+              11.6728,
+              2.466
+            ],
+            "label": "去授权"
+          },
+          {
+            "zone": "content",
+            "box": [
+              8.1801,
+              40.3061,
+              83.6397,
+              5.017
+            ],
+            "label": "启动评估"
+          }
+        ]
+      }
+    },
+    "entry-coronary-info": {
+      "device": "phone",
+      "title": "冠心病风险评估说明",
+      "parent": "entry-coronary",
+      "capture": {
+        "content": "screens/entry-coronary-info-c.webp",
+        "contentLabel": "冠心病风险评估说明",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.9522,
+              6.375,
+              11.1213,
+              5.0417
+            ]
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "box": [
+              81.1581,
+              24.875,
+              11.6728,
+              2.4167
+            ],
+            "label": "去授权"
+          },
+          {
+            "zone": "content",
+            "box": [
+              8.1801,
+              50.75,
+              83.6397,
+              4.9167
+            ],
+            "label": "启动评估"
+          }
+        ]
+      }
+    }
+  },
+  "phoneHome": "home",
+  "phoneHomeLabel": "创新研究首页",
+  "sharedPhoneHome": "huawei-research",
+  "scenes": [
+    {
+      "id": "explore",
+      "title": "冠心病研究",
+      "hint": "点击实机界面进入详情，上下滑动浏览，右滑返回。",
+      "start": {
+        "phone": "entry-coronary"
+      },
+      "keys": [
+        [
+          "phone",
+          "entry-coronary",
+          "冠心病研究"
+        ],
+        [
+          "phone",
+          "entry-coronary-info",
+          "冠心病风险评估说明"
+        ]
+      ],
+      "phonePageIndex": [
+        "entry-coronary",
+        "entry-coronary-info"
+      ]
+    }
+  ],
+  "initialView": {
+    "scene": "explore",
+    "device": "phone",
+    "page": "entry-coronary"
+  }
+}

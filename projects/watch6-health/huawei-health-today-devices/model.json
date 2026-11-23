@@ -1,0 +1,2420 @@
+{
+  "feature": "huawei-health-today-devices",
+  "reviewed": false,
+  "devices": {
+    "phone": {
+      "model": "HUAWEI Mate 50",
+      "os": "CET-AL00 4.2.0.225(C00E182R5P6)",
+      "app": "华为运动健康",
+      "appVersion": "17.0.10.320",
+      "versionCode": 1700010320,
+      "viewport": "1088x2400",
+      "connectedWearable": "HUAWEI WATCH 6"
+    }
+  },
+  "steps": [
+    {
+      "scene": "today-board",
+      "device": "phone",
+      "source": "live",
+      "observedAt": "2026-11-19T18:22:57+08:00",
+      "files": [
+        "evidence/today-0.png",
+        "evidence/today-1.png",
+        "evidence/today-2.png",
+        "evidence/today-3.png",
+        "evidence/today-4.png",
+        "evidence/today-collapse.png",
+        "evidence/today-custom.png",
+        "evidence/today-dynamic-collapse.png",
+        "evidence/today-more-settings.png",
+        "evidence/today-more-source.png",
+        "evidence/today-more.png",
+        "evidence/today-search.png",
+        "evidence/today-shortcuts.png"
+      ],
+      "from": "运动健康今日",
+      "action": "核对入口、浏览和返回，保存观察到的页面状态",
+      "to": "今日 · 看板与快捷功能"
+    },
+    {
+      "scene": "today-activity",
+      "device": "phone",
+      "source": "live",
+      "observedAt": "2026-11-19T18:23:02+08:00",
+      "files": [
+        "evidence/today-1.png",
+        "evidence/today-2.png",
+        "evidence/today-3.png",
+        "evidence/today-4.png",
+        "evidence/today-bmi.png",
+        "evidence/today-diet-quick.png",
+        "evidence/today-diet.png",
+        "evidence/today-duration-month.png",
+        "evidence/today-duration-week.png",
+        "evidence/today-duration-year.png",
+        "evidence/today-duration.png",
+        "evidence/today-energy-month.png",
+        "evidence/today-energy-week.png",
+        "evidence/today-energy-year.png",
+        "evidence/today-energy.png",
+        "evidence/today-hours-month.png",
+        "evidence/today-hours-week.png",
+        "evidence/today-hours-year.png",
+        "evidence/today-hours.png",
+        "evidence/today-life.png",
+        "evidence/today-meal-plan-scroll-1.png",
+        "evidence/today-meal-plan.png",
+        "evidence/today-records-add.png",
+        "evidence/today-records-stats.png",
+        "evidence/today-records.png",
+        "evidence/today-rings-insights.png",
+        "evidence/today-rings-more-notifications.png",
+        "evidence/today-rings-more-targets.png",
+        "evidence/today-rings-more.png",
+        "evidence/today-rings-previous-week.png",
+        "evidence/today-rings-scroll-1.png",
+        "evidence/today-rings-scroll-2.png",
+        "evidence/today-rings.png",
+        "evidence/today-steps-month.png",
+        "evidence/today-steps-more-all.png",
+        "evidence/today-steps-more-knowledge.png",
+        "evidence/today-steps-more.png",
+        "evidence/today-steps-scroll-1.png",
+        "evidence/today-steps-scroll-2.png",
+        "evidence/today-steps-scroll-3.png",
+        "evidence/today-steps-scroll-4.png",
+        "evidence/today-steps-target.png",
+        "evidence/today-steps-week.png",
+        "evidence/today-steps-year.png",
+        "evidence/today-steps.png",
+        "evidence/today-weight-diet.png",
+        "evidence/today-weight-halfyear.png",
+        "evidence/today-weight-help.png",
+        "evidence/today-weight-manual.png",
+        "evidence/today-weight-measure.png",
+        "evidence/today-weight-month.png",
+        "evidence/today-weight-more.png",
+        "evidence/today-weight-scroll-1.png",
+        "evidence/today-weight-scroll-2.png",
+        "evidence/today-weight-scroll-3.png",
+        "evidence/today-weight-scroll-4.png",
+        "evidence/today-weight-total.png",
+        "evidence/today-weight-week.png",
+        "evidence/today-weight-year.png",
+        "evidence/today-weight.png"
+      ],
+      "from": "运动健康今日",
+      "action": "核对入口、浏览和返回，保存观察到的页面状态",
+      "to": "今日 · 活动与饮食"
+    },
+    {
+      "scene": "today-metrics",
+      "device": "phone",
+      "source": "live",
+      "observedAt": "2026-11-19T18:47:11+08:00",
+      "files": [
+        "evidence/legacy-心脏健康-h-all-rate.png",
+        "evidence/legacy-心脏健康-h-arrhythmia.png",
+        "evidence/legacy-心脏健康-h-day-hrv.png",
+        "evidence/legacy-心脏健康-h-ecg-list.png",
+        "evidence/legacy-心脏健康-h-month-hrv.png",
+        "evidence/legacy-心脏健康-h-month.png",
+        "evidence/legacy-心脏健康-h-week-hrv.png",
+        "evidence/legacy-心脏健康-h-week.png",
+        "evidence/legacy-心脏健康-h-year-hrv.png",
+        "evidence/legacy-心脏健康-h-year.png",
+        "evidence/legacy-心脏健康-heart-records.png",
+        "evidence/legacy-血糖管理-g-details.png",
+        "evidence/legacy-血糖管理-g-guide.png",
+        "evidence/legacy-血糖管理-g-log.png",
+        "evidence/legacy-血糖管理-g-menu.png",
+        "evidence/legacy-血糖管理-g-month.png",
+        "evidence/legacy-血糖管理-g-week.png",
+        "evidence/legacy-血糖管理-g-year.png",
+        "evidence/today-bp-details.png",
+        "evidence/today-bp-manual.png",
+        "evidence/today-bp-more-all.png",
+        "evidence/today-bp-more-knowledge.png",
+        "evidence/today-bp-more.png",
+        "evidence/today-bp-schedule.png",
+        "evidence/today-bp-scroll-1.png",
+        "evidence/today-bp-scroll-2.png",
+        "evidence/today-bp-scroll-3.png",
+        "evidence/today-bp.png",
+        "evidence/today-cycle-health.png",
+        "evidence/today-cycle-more-all.png",
+        "evidence/today-cycle-more.png",
+        "evidence/today-cycle-scroll-1.png",
+        "evidence/today-cycle-scroll-2.png",
+        "evidence/today-cycle-view.png",
+        "evidence/today-cycle.png",
+        "evidence/today-glucose.png",
+        "evidence/today-heart.png",
+        "evidence/today-mood-choose.png",
+        "evidence/today-mood-expand.png",
+        "evidence/today-mood-more-all.png",
+        "evidence/today-mood-more-knowledge.png",
+        "evidence/today-mood-more-settings.png",
+        "evidence/today-mood-more.png",
+        "evidence/today-mood-scroll-1.png",
+        "evidence/today-mood-scroll-2.png",
+        "evidence/today-mood-scroll-3.png",
+        "evidence/today-mood.png",
+        "evidence/today-oxygen-altitude.png",
+        "evidence/today-oxygen-low.png",
+        "evidence/today-oxygen-month.png",
+        "evidence/today-oxygen-more-all.png",
+        "evidence/today-oxygen-more-altitude.png",
+        "evidence/today-oxygen-more-info.png",
+        "evidence/today-oxygen-more-oxygen.png",
+        "evidence/today-oxygen-more.png",
+        "evidence/today-oxygen-previous.png",
+        "evidence/today-oxygen-scroll-1.png",
+        "evidence/today-oxygen-week.png",
+        "evidence/today-oxygen-year.png",
+        "evidence/today-oxygen.png",
+        "evidence/today-sleep-month.png",
+        "evidence/today-sleep-more-all.png",
+        "evidence/today-sleep-more-favourites.png",
+        "evidence/today-sleep-more-info.png",
+        "evidence/today-sleep-more-settings-download.png",
+        "evidence/today-sleep-more-settings.png",
+        "evidence/today-sleep-more-sleep-plan.png",
+        "evidence/today-sleep-more-sleep-switch.png",
+        "evidence/today-sleep-more.png",
+        "evidence/today-sleep-music.png",
+        "evidence/today-sleep-nap.png",
+        "evidence/today-sleep-previous.png",
+        "evidence/today-sleep-record.png",
+        "evidence/today-sleep-week.png",
+        "evidence/today-sleep-year.png",
+        "evidence/today-sleep.png",
+        "evidence/today-temp-month.png",
+        "evidence/today-temp-more-all.png",
+        "evidence/today-temp-more-info.png",
+        "evidence/today-temp-more-temperature.png",
+        "evidence/today-temp-more.png",
+        "evidence/today-temp-week.png",
+        "evidence/today-temp.png"
+      ],
+      "from": "运动健康今日",
+      "action": "核对入口、浏览和返回，保存观察到的页面状态",
+      "to": "今日 · 健康指标"
+    },
+    {
+      "scene": "today-reports",
+      "device": "phone",
+      "source": "live",
+      "observedAt": "2026-11-19T18:28:24+08:00",
+      "files": [
+        "evidence/legacy-健康档案-微体检-m-second.png",
+        "evidence/legacy-健康档案-微体检-private-report-0.png",
+        "evidence/legacy-健康档案-微体检-private-report-1.png",
+        "evidence/legacy-健康档案-微体检-private-report-10.png",
+        "evidence/legacy-健康档案-微体检-private-report-11.png",
+        "evidence/legacy-健康档案-微体检-private-report-12.png",
+        "evidence/legacy-健康档案-微体检-private-report-13.png",
+        "evidence/legacy-健康档案-微体检-private-report-14.png",
+        "evidence/legacy-健康档案-微体检-private-report-15.png",
+        "evidence/legacy-健康档案-微体检-private-report-16.png",
+        "evidence/legacy-健康档案-微体检-private-report-2.png",
+        "evidence/legacy-健康档案-微体检-private-report-3.png",
+        "evidence/legacy-健康档案-微体检-private-report-4.png",
+        "evidence/legacy-健康档案-微体检-private-report-5.png",
+        "evidence/legacy-健康档案-微体检-private-report-6.png",
+        "evidence/legacy-健康档案-微体检-private-report-7.png",
+        "evidence/legacy-健康档案-微体检-private-report-8.png",
+        "evidence/legacy-健康档案-微体检-private-report-9.png",
+        "evidence/today-ecg-inbox.png",
+        "evidence/today-insight-card-more.png",
+        "evidence/today-insight-menu-settings.png",
+        "evidence/today-insight-menu.png",
+        "evidence/today-insight-trend.png",
+        "evidence/today-insight.png",
+        "evidence/today-profile-add.png",
+        "evidence/today-profile-expand.png",
+        "evidence/today-profile-micro.png",
+        "evidence/today-profile-more.png",
+        "evidence/today-profile-reports.png",
+        "evidence/today-profile.png"
+      ],
+      "from": "运动健康今日",
+      "action": "核对入口、浏览和返回，保存观察到的页面状态",
+      "to": "今日 · 洞察与报告"
+    },
+    {
+      "scene": "device-list",
+      "device": "phone",
+      "source": "live",
+      "observedAt": "2026-11-19T18:24:12+08:00",
+      "files": [
+        "evidence/device-0.png",
+        "evidence/device-1.png",
+        "evidence/device-2.png",
+        "evidence/device-3.png",
+        "evidence/device-general.png",
+        "evidence/device-golf.png",
+        "evidence/device-list.png"
+      ],
+      "from": "运动健康设备",
+      "action": "核对入口、浏览和返回，保存观察到的页面状态",
+      "to": "设备 · 设备与服务"
+    },
+    {
+      "scene": "device-monitor",
+      "device": "phone",
+      "source": "live",
+      "observedAt": "2026-11-19T18:39:59+08:00",
+      "files": [
+        "evidence/device-altitude-off.png",
+        "evidence/device-altitude-switch-1.png",
+        "evidence/device-altitude.png",
+        "evidence/device-cycle.png",
+        "evidence/device-heart-down.png",
+        "evidence/device-heart-scroll-1.png",
+        "evidence/device-heart-sport-hr.png",
+        "evidence/device-heart-switch-1.png",
+        "evidence/device-heart-switch-3.png",
+        "evidence/device-heart-up.png",
+        "evidence/device-heart.png",
+        "evidence/device-mood-about.png",
+        "evidence/device-mood-state-1-2.png",
+        "evidence/device-mood-switch-1.png",
+        "evidence/device-mood-switch-2.png",
+        "evidence/device-mood.png",
+        "evidence/device-oxygen-limit.png",
+        "evidence/device-oxygen.png",
+        "evidence/device-rings-confirm-task-1.png",
+        "evidence/device-rings-confirm-task-2.png",
+        "evidence/device-rings-confirm-task-3.png",
+        "evidence/device-rings-confirm-task-4.png",
+        "evidence/device-rings-confirm-task-5.png",
+        "evidence/device-rings-confirm-task-6.png",
+        "evidence/device-rings-confirm-task-7.png",
+        "evidence/device-rings-confirm-task.png",
+        "evidence/device-rings-state-1-2-3-4.png",
+        "evidence/device-rings-state-1-2-3.png",
+        "evidence/device-rings-state-1-2-4.png",
+        "evidence/device-rings-state-1-2.png",
+        "evidence/device-rings-state-1-3-4.png",
+        "evidence/device-rings-state-1-3.png",
+        "evidence/device-rings-state-1-4.png",
+        "evidence/device-rings-state-2-3-4.png",
+        "evidence/device-rings-state-2-3.png",
+        "evidence/device-rings-state-2-4.png",
+        "evidence/device-rings-state-3-4.png",
+        "evidence/device-rings-switch-1.png",
+        "evidence/device-rings-switch-2.png",
+        "evidence/device-rings-switch-3.png",
+        "evidence/device-rings-switch-4.png",
+        "evidence/device-rings.png",
+        "evidence/device-sleep.png",
+        "evidence/device-temp-switch-1.png",
+        "evidence/device-temp.png"
+      ],
+      "from": "运动健康设备",
+      "action": "核对入口、浏览和返回，保存观察到的页面状态",
+      "to": "设备 · 自动监测与提醒"
+    },
+    {
+      "scene": "device-tests",
+      "device": "phone",
+      "source": "live",
+      "observedAt": "2026-11-19T18:49:32+08:00",
+      "files": [
+        "evidence/device-apnea-active-scroll-1.png",
+        "evidence/device-apnea-active.png",
+        "evidence/device-apnea-menu-about.png",
+        "evidence/device-apnea-menu-all-filter-strip-severe.png",
+        "evidence/device-apnea-menu-all-filter-strip.png",
+        "evidence/device-apnea-menu-all-latest.png",
+        "evidence/device-apnea-menu-all-type-1.png",
+        "evidence/device-apnea-menu-all-type-2.png",
+        "evidence/device-apnea-menu-all-type-3.png",
+        "evidence/device-apnea-menu-all-type-4.png",
+        "evidence/device-apnea-menu-all.png",
+        "evidence/device-apnea-menu-info.png",
+        "evidence/device-apnea-menu-settings.png",
+        "evidence/device-apnea-menu.png",
+        "evidence/device-apnea-scroll-1.png",
+        "evidence/device-apnea-scroll-2.png",
+        "evidence/device-apnea-success.png",
+        "evidence/device-apnea.png",
+        "evidence/device-arrhythmia-month.png",
+        "evidence/device-arrhythmia-more-about.png",
+        "evidence/device-arrhythmia-more-all.png",
+        "evidence/device-arrhythmia-more-auto.png",
+        "evidence/device-arrhythmia-more-faq.png",
+        "evidence/device-arrhythmia-more-info.png",
+        "evidence/device-arrhythmia-more.png",
+        "evidence/device-arrhythmia-scroll-1.png",
+        "evidence/device-arrhythmia-week.png",
+        "evidence/device-arrhythmia-year.png",
+        "evidence/device-arrhythmia.png",
+        "evidence/device-ecg-more-about.png",
+        "evidence/device-ecg-more-all.png",
+        "evidence/device-ecg-more-knowledge.png",
+        "evidence/device-ecg-more-settings.png",
+        "evidence/device-ecg-more.png",
+        "evidence/device-ecg-result.png",
+        "evidence/device-ecg-scroll-1.png",
+        "evidence/device-ecg-scroll-2.png",
+        "evidence/device-ecg-scroll-3.png",
+        "evidence/device-ecg.png",
+        "evidence/device-research-open.png",
+        "evidence/device-research.png"
+      ],
+      "from": "运动健康设备",
+      "action": "核对入口、浏览和返回，保存观察到的页面状态",
+      "to": "设备 · 健康检测与研究"
+    },
+    {
+      "scene": "today-board",
+      "device": "phone",
+      "source": "live",
+      "observedAt": "2026-11-20T11:25:10+08:00",
+      "files": [
+        "evidence/20261120-today-board-compact-0.png",
+        "evidence/20261120-today-board-compact-1.png",
+        "evidence/20261120-today-board-compact-2.png",
+        "evidence/20261120-today-board-compact-3.png",
+        "evidence/20261120-today-board-compact-4.png"
+      ],
+      "from": "运动健康今日",
+      "action": "进入对应首页并逐段上滑至底部",
+      "to": "今日"
+    },
+    {
+      "scene": "today-board",
+      "device": "phone",
+      "source": "live",
+      "observedAt": "2026-11-20T11:22:06+08:00",
+      "files": [
+        "evidence/20261120-today-board-expanded-0.png",
+        "evidence/20261120-today-board-expanded-1.png",
+        "evidence/20261120-today-board-expanded-2.png",
+        "evidence/20261120-today-board-expanded-3.png",
+        "evidence/20261120-today-board-expanded-4.png",
+        "evidence/20261120-today-board-expanded-5.png"
+      ],
+      "from": "运动健康今日",
+      "action": "进入对应首页并逐段上滑至底部",
+      "to": "今日 · 展开活动记录卡片"
+    },
+    {
+      "scene": "today-reports",
+      "device": "phone",
+      "source": "live",
+      "observedAt": "2026-11-20T10:15:22+08:00",
+      "files": [
+        "evidence/20261120-today-insight-0.png",
+        "evidence/20261120-today-insight-1.png",
+        "evidence/20261120-today-insight-2.png",
+        "evidence/20261120-today-insight-3.png",
+        "evidence/20261120-today-insight-4.png",
+        "evidence/20261120-today-insight-5.png",
+        "evidence/20261120-today-insight-6.png"
+      ],
+      "from": "运动健康今日",
+      "action": "进入对应首页并逐段上滑至底部",
+      "to": "健康洞察"
+    },
+    {
+      "scene": "today-metrics",
+      "device": "phone",
+      "source": "live",
+      "observedAt": "2026-11-20T10:16:09+08:00",
+      "files": [
+        "evidence/20261120-today-sleep-0.png",
+        "evidence/20261120-today-sleep-1.png",
+        "evidence/20261120-today-sleep-2.png",
+        "evidence/20261120-today-sleep-3.png",
+        "evidence/20261120-today-sleep-4.png",
+        "evidence/20261120-today-sleep-5.png"
+      ],
+      "from": "运动健康今日",
+      "action": "进入对应首页并逐段上滑至底部",
+      "to": "睡眠"
+    }
+  ],
+  "frameEvidence": {
+    "today": {
+      "sources": {
+        "evidence/20261120-today-board-compact-0.png": "384f6e831bcf28eae978bd454efb70144e4274c8cccb02f2840fb6145bc272b3",
+        "evidence/20261120-today-board-compact-1.png": "bd8492869b275283a3c72de223434f0cee11265136ff784d5d9bcd11830ba54b",
+        "evidence/20261120-today-board-compact-2.png": "e9018e623d701278464c14599670b560b947593dd58f95d7d457b1dfde5b4049",
+        "evidence/20261120-today-board-compact-3.png": "057e2dd67af484105f352cc838718c5ddd2294485ddfbf6aa04e32eebe981c01",
+        "evidence/20261120-today-board-compact-4.png": "b806f59976ca9ae9767a3b535a8dd3369aaa46de86d80aaa837e42b05c48e244"
+      },
+      "renders": {
+        "screens/20261120-today-header.webp": "974868f786bc22f8955707195c43d6bfc69ce6f13b6bd0b126331d81a844adad",
+        "screens/20261120-today-content.webp": "ac4f753ab7b2963ef5632ae0b8e29aefeeac05c60ef7db621f1852a710662f10",
+        "screens/20261120-today-footer.webp": "af703402f959aba9d2bb2ae75f7508394fcbec54fea50ee9502b2ef8bf905326"
+      }
+    },
+    "device": {
+      "sources": {
+        "evidence/device-0.png": "08d742a7759440374cb9fc092e66e12a137dc6acaddde68b5705ac684070a665",
+        "evidence/device-1.png": "e2add5de54b12e235586a3a3a92047aa2566d276c03614644670d3b8ff591453",
+        "evidence/device-2.png": "bc6774fb984d5f9e80180e9473153dd561ff04022ecd9529f2b466b4f4a36101",
+        "evidence/device-3.png": "39f588238ea73358e660be385b609365486474f6293f63292d99e7f9c38e006d"
+      },
+      "renders": {
+        "screens/device-header.webp": "89a98aaf3d08b70bff942aab528203c754df1cfc87ede3176f8550a360975e62",
+        "screens/device-content.webp": "5d1f37046e885f734509527e16217db47d52afa4bebc7d99da106ad5725aacf8",
+        "screens/device-footer.webp": "4f0087b5242c3b7d8a8f714962cd838fd10985fe43609e767c13dd935fbb795e"
+      }
+    },
+    "device-altitude": {
+      "sources": {
+        "evidence/device-altitude.png": "59e5f656a7de1096a41a5a073f91c752084cee4e24fab80f89617c8746677db4"
+      },
+      "renders": {
+        "screens/device-altitude-content.webp": "7d2b6765b58add1194ae31975ed0ca1229302fb78c714c71432f754f586edcbe"
+      }
+    },
+    "device-altitude-switch-1": {
+      "sources": {
+        "evidence/device-altitude-switch-1.png": "2cc9d0f176576ecd47d2aa8ed5b601e6a1c9cc75b8688d81a8413e58e35e0026"
+      },
+      "renders": {
+        "screens/device-altitude-switch-1-content.webp": "6947194a6cb3a32744f9d4d173224625cbf91af336438ebdc10bd75480b4f3c5"
+      }
+    },
+    "device-apnea": {
+      "sources": {
+        "evidence/device-apnea.png": "35e847c63919b7981f202e909a96575233495ffa0205475e86234f926095a324",
+        "evidence/device-apnea-scroll-1.png": "48989abb4739e8436eedf379e8bf50322a2f0e4678000d3f69f5dd99888530cb",
+        "evidence/device-apnea-scroll-2.png": "05ce49aee97deda312115138371d2bb2f8557768e06b877588b5f161a7035f6f"
+      },
+      "renders": {
+        "screens/device-apnea-header.webp": "11f4f0bc64f807408f67281428ccc4af4504b027d424fb07450ea715b9263089",
+        "screens/device-apnea-content.webp": "b59c0e257dbac1106c3bce5ef538df001fadef3a6f4cb6fba505e39e1c1bfe58"
+      }
+    },
+    "device-apnea-success": {
+      "sources": {
+        "evidence/device-apnea-success.png": "223d4e55717ee33021b235d07a5e9c5b075571f21eaf0e2470013a3692993cb0"
+      },
+      "renders": {
+        "screens/device-apnea-success-content.webp": "9738932bf210dc2e9e0f31bcd077ce47595264a3d5644cce651310c83b22cdac"
+      }
+    },
+    "device-arrhythmia": {
+      "sources": {
+        "evidence/device-arrhythmia.png": "3701f21522868ba0484f80eb02f785cca5ce73557fa20cdce04fc5db393419fb",
+        "evidence/device-arrhythmia-scroll-1.png": "1e84b343fa1081ad79d4c67957e4add3202743e8406d18930ede14ad9121b2b3"
+      },
+      "renders": {
+        "screens/device-arrhythmia-header.webp": "6bf86a2c2e6d0c1fe493c1bf67c92796a4b32a0930c8a1b5d5bbd6197ae91389",
+        "screens/device-arrhythmia-content.webp": "d94495c022722973d070c90fea1e218697d1d69ae54395c2d2eccf2db17ef75c"
+      }
+    },
+    "device-arrhythmia-month": {
+      "sources": {
+        "evidence/device-arrhythmia-month.png": "c085ceaed657ab4c367d2a51c10791aad826c9994370bf1dde34bbfebe28e62d"
+      },
+      "renders": {
+        "screens/device-arrhythmia-month-content.webp": "411d4995063fe19ca7da4bee01fac3855f0d58c0e5e05dbe0a5d7809e85ac61a"
+      }
+    },
+    "device-arrhythmia-more": {
+      "sources": {
+        "evidence/device-arrhythmia-more.png": "a1905657735684489f8b1d136f17f1a78b8e1edf437176097424191b8f1ebfda"
+      },
+      "renders": {
+        "screens/device-arrhythmia-more-content.webp": "d69e1c5a5de09de0371a78f13cb212d1297354777d7931f5824582bbcf9dfd7d"
+      }
+    },
+    "device-arrhythmia-more-about": {
+      "sources": {
+        "evidence/device-arrhythmia-more-about.png": "00ca7ef5f7c429ee3d97bdee5e18aba5ac62eb226951a0d06e33968c69d7d7ca"
+      },
+      "renders": {
+        "screens/device-arrhythmia-more-about-content.webp": "6a13802347b95f2d6b1fba3a604877c17235e0c0a737767051aae628b11bbc00"
+      }
+    },
+    "device-arrhythmia-more-all": {
+      "sources": {
+        "evidence/device-arrhythmia-more-all.png": "bce869c3349983e721c5725a6f6032294b12cd116e2278e6dd2adde651abb9e8"
+      },
+      "renders": {
+        "screens/device-arrhythmia-more-all-content.webp": "e0d64e5f1871cb4899cdee01709a5227b0e2c3068f7b7c37830e212e896f75e9"
+      }
+    },
+    "device-arrhythmia-more-auto": {
+      "sources": {
+        "evidence/device-arrhythmia-more-auto.png": "495bcdda1fee72dece7387bc05e79a5f8cd98086d3cd9af30caba7692ac67ce3"
+      },
+      "renders": {
+        "screens/device-arrhythmia-more-auto-content.webp": "ef2da104215516af0085c0630f08cf60d243fe74c83f6a1fa61efd1286d483e9"
+      }
+    },
+    "device-arrhythmia-more-faq": {
+      "sources": {
+        "evidence/device-arrhythmia-more-faq.png": "ac11dfd05361b898ccab9d7bfba4507fdc5df426fead46fc1d00b63270033f95"
+      },
+      "renders": {
+        "screens/device-arrhythmia-more-faq-content.webp": "8612a59346de3e7d2973ffd6fe43f31caa54792f0a6100f604d2f745063e7435"
+      }
+    },
+    "device-arrhythmia-more-info": {
+      "sources": {
+        "evidence/device-arrhythmia-more-info.png": "8debef82899d5dc09a3a027e2ccee4ca66db4132d3932f3f26abb15c389d5053"
+      },
+      "renders": {
+        "screens/device-arrhythmia-more-info-content.webp": "f3dc509450e6cbb12bf98c770ce3bff00fb1ecf3975f5dac445865e7909bff98"
+      }
+    },
+    "device-arrhythmia-week": {
+      "sources": {
+        "evidence/device-arrhythmia-week.png": "00a866b7f069084077902ab9920dfdfef9b712c717e6167b534a081b21b18206"
+      },
+      "renders": {
+        "screens/device-arrhythmia-week-content.webp": "55a93807f30a28994f4a51bf5c87f233bae0c953ec3bd8507dbc9fac2c2c14bf"
+      }
+    },
+    "device-arrhythmia-year": {
+      "sources": {
+        "evidence/device-arrhythmia-year.png": "4267b0abde9461214a59b7589377622f230cbe43d9ee294dd386093b2ee65890"
+      },
+      "renders": {
+        "screens/device-arrhythmia-year-content.webp": "c9c7591cad1b6ebaf8166bf507610cc5afd7f591b7da4c3ac82d777647cb19bb"
+      }
+    },
+    "device-cycle": {
+      "sources": {
+        "evidence/device-cycle.png": "a3e7e7e58a7957709c3179188a76fcc96f1a9ff3ceda39049513540f0c7698ba"
+      },
+      "renders": {
+        "screens/device-cycle-content.webp": "b2bf08ba4e24755efc1414dcc13ad94ad529085f96a5071c009722d6ef95e24e"
+      }
+    },
+    "device-ecg": {
+      "sources": {
+        "evidence/device-ecg.png": "9b67959e39215106136698d77c46c3d43e4ba0c85e1f198b29355f3d137c12ad",
+        "evidence/device-ecg-scroll-1.png": "82f803b57eb8886d39c7ee3b980c942173df9b1844eca2d8811028f8c2c4a2f1",
+        "evidence/device-ecg-scroll-2.png": "8719e2f827225e46827b53825db89b54ef4bdb0777f3cb412111bf6e2cc512bc",
+        "evidence/device-ecg-scroll-3.png": "7ec0c128c1ce610b2396d9b57a14b2850a817e2bc03956022ca6951e97931358"
+      },
+      "renders": {
+        "screens/device-ecg-header.webp": "da97802b422030cae3c9ea83922b6d0f96f81cf559b661f23240c6eb18f7f398",
+        "screens/device-ecg-content.webp": "e9cb3151742d6493f820a2bbbc334928dcae1b0ffb7d46229d1dffc8ef93affd"
+      }
+    },
+    "device-ecg-more": {
+      "sources": {
+        "evidence/device-ecg-more.png": "9d5fa053cf855f45d22af4da1d799985ce498a8b677d6aab6d139130c71bdfdb"
+      },
+      "renders": {
+        "screens/device-ecg-more-content.webp": "8c31fe5479a3384bbefd94ab591889f75125bd608ddffed731bdff1fc7c65db1"
+      }
+    },
+    "device-ecg-more-about": {
+      "sources": {
+        "evidence/device-ecg-more-about.png": "debbae694fe29d142cd22570d34a1de79a05b80c17213236c67f70aadd8f42b8"
+      },
+      "renders": {
+        "screens/device-ecg-more-about-content.webp": "aa4894c3a67422037c5bb97c6df321344fb84d1d0263eeab0976517c948d54a4"
+      }
+    },
+    "device-ecg-more-all": {
+      "sources": {
+        "evidence/device-ecg-more-all.png": "41842d7e2830167f69ea4b494ef1c686487139f6b51bc6ded192b9da0390d5a3"
+      },
+      "renders": {
+        "screens/device-ecg-more-all-content.webp": "d12c6a99645262d9c367d127c3f6a8fd7886f378badf4aae79d3d3f575c25eac"
+      }
+    },
+    "device-ecg-more-knowledge": {
+      "sources": {
+        "evidence/device-ecg-more-knowledge.png": "2db4a59778cd01c03055b8b36880ac8070e80b20d2c50b29c47a7d9037eb6634"
+      },
+      "renders": {
+        "screens/device-ecg-more-knowledge-content.webp": "2e099745573459443de64f9c594a796da532ebbf455ea85aa28f0f03eab2f179"
+      }
+    },
+    "device-ecg-more-settings": {
+      "sources": {
+        "evidence/device-ecg-more-settings.png": "121cb0c595e8ad6fb425ebacb2b1a40f37184a76d23be26eb9c5c4b0d02bb869"
+      },
+      "renders": {
+        "screens/device-ecg-more-settings-content.webp": "8e96fcb96990b6b75a2efa9d0a5184fc15c2df1bb3c7b6d6380c011f065cfbf9"
+      }
+    },
+    "device-ecg-result": {
+      "sources": {
+        "evidence/device-ecg-result.png": "9ddf54e6b68787c9119166920b09792860b5c12b8e839ab0bc70a81bca4e2351"
+      },
+      "renders": {
+        "screens/device-ecg-result-content.webp": "f6894b516584b455248c6a837fb472e44d8117282b4f498857acdb4c2e3c5815"
+      }
+    },
+    "device-general": {
+      "sources": {
+        "evidence/device-general.png": "3f9cb40028b4b3a4eb8c9009d7aae3c688ffc32d8d400f24945fa7f94b32b34d"
+      },
+      "renders": {
+        "screens/device-general-content.webp": "d9865a57d2463d2cd846d97f858c2111ba2f3a61a9c46a818218e8e784e7ac01"
+      }
+    },
+    "device-golf": {
+      "sources": {
+        "evidence/device-golf.png": "26d5e9750298e53b9d67186a1e56ea0565c63f3e5b07beb6a3104c426fed515e"
+      },
+      "renders": {
+        "screens/device-golf-content.webp": "27473125a04ee72fc825cb3d76355977c0f2aa8cc7a502ef245b76fb83fc353f"
+      }
+    },
+    "device-heart": {
+      "sources": {
+        "evidence/device-heart.png": "d851ee41994bb9b871caa12830506a2d56cf52486b7385dc92966cc1136a8ac9",
+        "evidence/device-heart-scroll-1.png": "15515556b962ceab8f8dd79e04fec356776bc8a2d4171841e56f2398aeac52f0"
+      },
+      "renders": {
+        "screens/device-heart-header.webp": "3c38bd32bce10997fdd24662bf366856dbfbf13e73a5679fe4b524fbcb31eb5c",
+        "screens/device-heart-content.webp": "4030c580e80c0edd73864ce82ab8ba21a0d4b51b1b6fde41ed420194c18699a3"
+      }
+    },
+    "device-heart-down": {
+      "sources": {
+        "evidence/device-heart-down.png": "fe95b9a151a7f9218ce05fb7316817c62fcd9158b7a06dd97e703184ee3ba2e8"
+      },
+      "renders": {
+        "screens/device-heart-down-content.webp": "d66c88a58494580de646a0298222b0437cc69e11f783082a20140df79ff00ecd"
+      }
+    },
+    "device-heart-sport-hr": {
+      "sources": {
+        "evidence/device-heart-sport-hr.png": "08ad6d39d6d5166e9a0b267058eeec3b9d7d285f2f1e49d15efe830f13d38f8f"
+      },
+      "renders": {
+        "screens/device-heart-sport-hr-content.webp": "c92833c7d957fcda1c9940708b44ec9b9084c99b8effc6ed80b483b320e5de73"
+      }
+    },
+    "device-heart-switch-1": {
+      "sources": {
+        "evidence/device-heart-switch-1.png": "f4ae13b53deeac4776cf068bb7c1ead383f2085483d9a1dc82fbde1b374810db"
+      },
+      "renders": {
+        "screens/device-heart-switch-1-content.webp": "c8f9b6bb5537aacf09dfae4d91d0e654645ad1724ea3d5d361380ee12f9a9a60"
+      }
+    },
+    "device-heart-switch-3": {
+      "sources": {
+        "evidence/device-heart-switch-3.png": "4a35e1d992286ec6f58b4144de84125f8cb8cac339408d5525d0684961aca04d"
+      },
+      "renders": {
+        "screens/device-heart-switch-3-content.webp": "9a09dc095112986f5249aaf8d7f9a6f738e90f18493c5ec2140457b9b86adf6a"
+      }
+    },
+    "device-heart-up": {
+      "sources": {
+        "evidence/device-heart-up.png": "a31ad677adf4b06ba4b8b51fb85244b72d2399afcb1d11c403b7d86229bc93f4"
+      },
+      "renders": {
+        "screens/device-heart-up-content.webp": "6c3fe23f354a226ad4e4e72d7d61388a0b378dc0a06a7e6a3c17f9c3113c5fe0"
+      }
+    },
+    "device-list": {
+      "sources": {
+        "evidence/device-list.png": "93948c7a619f8fd5978a6586f1863382fac60cfa7f177d4f802f9f79bdb36f35"
+      },
+      "renders": {
+        "screens/device-list-content.webp": "93690b411589482bdb18b372d912677e0c230374f05135234a605dd4f84796b1"
+      }
+    },
+    "device-mood": {
+      "sources": {
+        "evidence/device-mood.png": "14563a72ad13991a0ff334b6f8dc1b8089f5620f830b08c1d4907d254fd89181"
+      },
+      "renders": {
+        "screens/device-mood-content.webp": "f93497d55743b693f20e4ba61a17d77567c7a2adda512b119b972e5f959610aa"
+      }
+    },
+    "device-mood-about": {
+      "sources": {
+        "evidence/device-mood-about.png": "53f7c006aaf26c60b44ea7924b7e7b44b7065b7a719e37ecf4c51fa40157b566"
+      },
+      "renders": {
+        "screens/device-mood-about-content.webp": "035aa99562fda72156d4414a0e33f2d4a967c04894816b75e77d69006db12ab8"
+      }
+    },
+    "device-mood-switch-1": {
+      "sources": {
+        "evidence/device-mood-switch-1.png": "dc0b4265867298d68eebf7db4a74bab91c62fae8cb3702ae6c0db2082d3bb49c"
+      },
+      "renders": {
+        "screens/device-mood-switch-1-content.webp": "aea20b1b4bd9c12acb1d8790feccfa55c29ce20aaccde07bd95d43901e422b5b"
+      }
+    },
+    "device-mood-switch-2": {
+      "sources": {
+        "evidence/device-mood-switch-2.png": "3761d5c0a87fb4b5e644db688d6cf16bf959e4d75c4c970b6b57de78ef329b8c"
+      },
+      "renders": {
+        "screens/device-mood-switch-2-content.webp": "b302c7790e7132cd6ef1ee2a731c17ea4ea85fcd97286769bae2b1027e376a48"
+      }
+    },
+    "device-oxygen": {
+      "sources": {
+        "evidence/device-oxygen.png": "fcefaa615f9a830ce154ea29cd5bbd713305a6794baa64723ce412464936cd83"
+      },
+      "renders": {
+        "screens/device-oxygen-content.webp": "163598173017a02c138dd621e2f0dc6a04a4feb4eb32cdb60dbe1a1fc2eccb6b"
+      }
+    },
+    "device-oxygen-limit": {
+      "sources": {
+        "evidence/device-oxygen-limit.png": "afb67c9426d0c427346f8bc096c165552a75d42e70f6d597aadb20154b4a58f7"
+      },
+      "renders": {
+        "screens/device-oxygen-limit-content.webp": "8a9b94a9e9aef2431bb7ede192153f5f418f668bf0b4d3676b88c22732a027b8"
+      }
+    },
+    "device-research": {
+      "sources": {
+        "evidence/device-research.png": "450b0ad76049318efa2f85503e7c312434f98e5c6e0451cd090d33f62dc19c20"
+      },
+      "renders": {
+        "screens/device-research-content.webp": "3e5d3b73d7f4fb0427b713f70c5ba3f2235872097ca0ea2f1817adf744d69ff5"
+      }
+    },
+    "device-research-open": {
+      "sources": {
+        "evidence/device-research-open.png": "d87fdb4f9dad88ae632319a9171aa074350bed62534e33dc9dbf9d290de7447e"
+      },
+      "renders": {
+        "screens/device-research-open-content.webp": "249ddb343b4e4679eef1bd38218ff592bc084a82d3d452257974d14866b0e2b4"
+      }
+    },
+    "device-rings": {
+      "sources": {
+        "evidence/device-rings.png": "67c86a974146a0f33b809155534d9e140da37d725d276b473d6e33f056188462"
+      },
+      "renders": {
+        "screens/device-rings-content.webp": "34e2fd1422db0ccf32e345bdcbbb496060536bef445a3094664fcce3500a9a6e"
+      }
+    },
+    "device-rings-confirm-task": {
+      "sources": {
+        "evidence/device-rings-confirm-task.png": "115adf03f90bb277b8c017e74bf633deb741ef809b86fa89f22abcd12c676ccf"
+      },
+      "renders": {
+        "screens/device-rings-confirm-task-content.webp": "363e657a5ead65dc4eb1380f2a970429666f9688619543c9a721b63bafbe6bae"
+      }
+    },
+    "device-rings-switch-1": {
+      "sources": {
+        "evidence/device-rings-switch-1.png": "0d44a4ad3a921c83ab5726ca29ca45a6dd4f0ca2621934a0871b179e8a967b34"
+      },
+      "renders": {
+        "screens/device-rings-switch-1-content.webp": "88c8561a9620665718812ba5b6a24e3d5398140f6c42f143cf2ec846a40e19ea"
+      }
+    },
+    "device-rings-switch-2": {
+      "sources": {
+        "evidence/device-rings-switch-2.png": "257b991563a96ff18a93e8f8d36de2b55e312a8bbe531ea5e3dd299f96e020fe"
+      },
+      "renders": {
+        "screens/device-rings-switch-2-content.webp": "52908670195ad0a71f10248c02d8db3e010c4d11f1504e8ee692e36df9379a80"
+      }
+    },
+    "device-rings-switch-3": {
+      "sources": {
+        "evidence/device-rings-switch-3.png": "8a01ee2be3eb9edf77422f56b530ec8e5f37c63a98e0567f92c0233c1211d3ed"
+      },
+      "renders": {
+        "screens/device-rings-switch-3-content.webp": "941861a14d080186c18dd1e8845f7fecf929163d24a00b7ed646294023151081"
+      }
+    },
+    "device-rings-switch-4": {
+      "sources": {
+        "evidence/device-rings-switch-4.png": "01840867292e4c6be2fa396b4841e001c2c33dceedd091281045cf1b9beb6d58"
+      },
+      "renders": {
+        "screens/device-rings-switch-4-content.webp": "788366b9c267f5afea05040295520e946b55c9341bfe891e54f64819067693ce"
+      }
+    },
+    "device-sleep": {
+      "sources": {
+        "evidence/device-sleep.png": "abb43adfd1ae7ee31cdbb862d2802e411af6be9d7e1164f1c4f2b86a9934011f"
+      },
+      "renders": {
+        "screens/device-sleep-content.webp": "d38c1d4868605d75d030947264945ddc09b100d208d4f0577c616cd7443420b9"
+      }
+    },
+    "device-temp": {
+      "sources": {
+        "evidence/device-temp.png": "ec58ea943887aa4de2159703142f2598ec1404236ffe24d8b0da3ffe94825112"
+      },
+      "renders": {
+        "screens/device-temp-content.webp": "694a30fd8c09d5d054a7325f18d6c4391c6153711223ac58ffd7e4b03cfd21c8"
+      }
+    },
+    "device-temp-switch-1": {
+      "sources": {
+        "evidence/device-temp-switch-1.png": "d085f51eb65c79410f1bdc46cefca1773a4567e8a06a114b85af6b9dbab50af9"
+      },
+      "renders": {
+        "screens/device-temp-switch-1-content.webp": "3c1598659bc5dcef13262f9674cbc94b9445a286ba0487c3cad4506730d59dea"
+      }
+    },
+    "today-bmi": {
+      "sources": {
+        "evidence/today-bmi.png": "a67208b276247c2c2c3aba2d84178651b54092cf66700c3c86a46c489b7d5d74"
+      },
+      "renders": {
+        "screens/today-bmi-content.webp": "eaeba19eba220c650f812db8db160bb8472d6c1e8c6df21cf70a90d5cbb1627d"
+      }
+    },
+    "today-bp": {
+      "sources": {
+        "evidence/today-bp.png": "13bcd8d611e108260adefe377c7123856dc89c0dbbc1882d0cdad4965b32e141"
+      },
+      "renders": {
+        "screens/today-bp-content.webp": "4e5a770cb2e3d21cf8c0275235aa0d29adc375e10a2bc7ddf0199d52b3c04407"
+      }
+    },
+    "today-bp-view-1": {
+      "sources": {
+        "evidence/today-bp-scroll-1.png": "48cedab027320b5dc3e4930b08e90f62a6f705c9286944acfeaa33ae774e81f3"
+      },
+      "renders": {
+        "screens/today-bp-view-1-content.webp": "30c1c97c798f63deb99543da378950983c60b834ed8d740e6f4a47675a491f32"
+      }
+    },
+    "today-bp-view-2": {
+      "sources": {
+        "evidence/today-bp-scroll-2.png": "f1a06f2e0f496073ad9cb63cfbc3d7c43c1badbbd0e01627139468c633ccc704"
+      },
+      "renders": {
+        "screens/today-bp-view-2-content.webp": "c6d87ed3312b71ae6d0d46e56a9b5b92b56d47f21fe7e1da54452db9d530c5ff"
+      }
+    },
+    "today-bp-view-3": {
+      "sources": {
+        "evidence/today-bp-scroll-3.png": "096c0991c5c95226a632825a8b2a11e7386048af4134ef275b560e22b98ce283"
+      },
+      "renders": {
+        "screens/today-bp-view-3-content.webp": "f2ee65aa9cdd73851b2db4ef9152602482cc995b512b0d3ebaf9caa95066df43"
+      }
+    },
+    "today-bp-details": {
+      "sources": {
+        "evidence/today-bp-details.png": "f6155396aa157b12046de38ee86c6e3a7dd3c6690ee757f625b266894afb7abe"
+      },
+      "renders": {
+        "screens/today-bp-details-content.webp": "9fc486f41575356c2590f1b0f46a16404c617a7b44e7bc2d1ab64e81b3de538e"
+      }
+    },
+    "today-bp-manual": {
+      "sources": {
+        "evidence/today-bp-manual.png": "6a9726045ab10b4ee2357692516c96eb947435a2589cbab4d0a4bda8384b7ffb"
+      },
+      "renders": {
+        "screens/today-bp-manual-content.webp": "6005a750f60293d80674e2f8884e3b57ee72899eb225952f776f4717c8ab9f4d"
+      }
+    },
+    "today-bp-more": {
+      "sources": {
+        "evidence/today-bp-more.png": "892d22f621a6b62cdb604db17f945975b2231f489c25405f1e114c4e9a19bda6"
+      },
+      "renders": {
+        "screens/today-bp-more-content.webp": "0386a2b526c9fde2438aa0a43b418b182f942a625963d39f803af69fdbfb3523"
+      }
+    },
+    "today-bp-more-all": {
+      "sources": {
+        "evidence/today-bp-more-all.png": "6ba20584bf9eb88d290c33be3363a6e844bb184c805a3e6bb677d647ad180398"
+      },
+      "renders": {
+        "screens/today-bp-more-all-content.webp": "ae9cd463219a3faeef7618e1cf6a01c54eedde98c99a39c65a20d4f3acb942e4"
+      }
+    },
+    "today-bp-more-knowledge": {
+      "sources": {
+        "evidence/today-bp-more-knowledge.png": "a72b785bd1652cb01233400897b19c1c83f2c143e434cb353067fc6e38cc4dbb"
+      },
+      "renders": {
+        "screens/today-bp-more-knowledge-content.webp": "4396e5c612c9fe05fca91c48efa2cfbbf9b59030db421438635dd0490eca89ab"
+      }
+    },
+    "today-bp-schedule": {
+      "sources": {
+        "evidence/today-bp-schedule.png": "c652ae01e0c6b6fb2e46d35719fe9854359b872b6918d9b887c29ea0b94cd439"
+      },
+      "renders": {
+        "screens/today-bp-schedule-content.webp": "eefa0301803c1f5bd3043c6485fe1feb24d3200c76f37cbe3aec4aebae44ce9e"
+      }
+    },
+    "today-collapse": {
+      "sources": {
+        "evidence/today-collapse.png": "bef2c872d6abced4d855f0ec505fa7a1fc4f9ab8af7ff436f7b2c051152a7dd2",
+        "evidence/today-1.png": "30ccb051688466083babd9ce7110c3e69d96dcafdab9474b9265d1e2d1e7cfc0",
+        "evidence/today-2.png": "1ee2d35b2bf11b39360af463650dbc53788c1a81d38ea0465902159b6cc218c6",
+        "evidence/today-3.png": "9b68ac7409982ebd04b62149daf787ef8c30835d8aff6e3df5c6869e0ec277c0",
+        "evidence/today-4.png": "1ee5f030bd720b3511fd49167b5c175b7e6a490e66949ed903591fca149a7a42"
+      },
+      "renders": {
+        "screens/today-collapse-header.webp": "d73f61583c6bdd9828f235fec0f8f7177aa39f897456efe18e45797cb09816d5",
+        "screens/today-collapse-content.webp": "459dd148a8c32ba8b86d142238e2f5fbcde2c2eb436a4192f47ae34b5fe80175",
+        "screens/today-collapse-footer.webp": "76d871b4c4e543e4f0a3db4e8e2db4b3a747dc4f4bfb9ebd16ce59bc70a1a901"
+      }
+    },
+    "today-custom": {
+      "sources": {
+        "evidence/today-custom.png": "8e21fb606809b225c04f8a644f199e5d133644d849d0c70024c15a773ec75596"
+      },
+      "renders": {
+        "screens/today-custom-content.webp": "c0f0d86d5f25350951bc61623bf6c647ceae28f7a8e07c3fc1d6a0c885fa18dc"
+      }
+    },
+    "today-cycle": {
+      "sources": {
+        "evidence/today-cycle.png": "e89fdaebedbe0963c8078bc92f55cd6f6fb124cb240c70c43d657b4a54fba752"
+      },
+      "renders": {
+        "screens/today-cycle-content.webp": "90773a17ed547da5708c33dbdc2a2ca03202b150d1bb234f9fc061f7c7bf3a38"
+      }
+    },
+    "today-cycle-more": {
+      "sources": {
+        "evidence/today-cycle-more.png": "56b6ec6133746f9f1e761ad408263493a928e6065ffaff05703499a942639cbf"
+      },
+      "renders": {
+        "screens/today-cycle-more-content.webp": "03baeda4e687a72d2f279214826ca84ea38dace0424eac073cf0fef7cc5883ec"
+      }
+    },
+    "today-cycle-more-all": {
+      "sources": {
+        "evidence/today-cycle-more-all.png": "e33719bcb38c89797129dec997924acb0667f6c8c38028e05f369437490fedd3"
+      },
+      "renders": {
+        "screens/today-cycle-more-all-content.webp": "9d09c3af55be4e5712d46146d96a5aa63cbb3a05bb5c79d4b2b123829c4fef23"
+      }
+    },
+    "today-cycle-view": {
+      "sources": {
+        "evidence/today-cycle-view.png": "0db3014c54931e3d589211a0f7b4e697f751ec86a06e6f7a55212b5e4094ade7",
+        "evidence/today-cycle-scroll-1.png": "6d7c9caa0a7b55f0097ccde17a6428fcc27a625405979d7acb8aeffea2034764",
+        "evidence/today-cycle-scroll-2.png": "ae8fca67556f2f8e3b9e14dcca9397b0423b190af72f1c48e3bfb21032ec8909"
+      },
+      "renders": {
+        "screens/today-cycle-view-header.webp": "14acf3b688e0edb86ea6da7ac9c463ae5faaf64f624b0949bc9d352b674adf67",
+        "screens/today-cycle-view-content.webp": "5f3166c0bc01f1474432671079cf7d11e94d6128d820bb08d159c6017cc48ded"
+      }
+    },
+    "today-diet": {
+      "sources": {
+        "evidence/today-diet.png": "9e560ed5ec630cd45993eec79111258db9eb148e95cbc7da9e00f34c15d19b6b"
+      },
+      "renders": {
+        "screens/today-diet-content.webp": "7aa3fbe602a520f14ad00b6fd6461e50b78d7df1e8c8ddf80f6ace9c0f8da1d2"
+      }
+    },
+    "today-diet-quick": {
+      "sources": {
+        "evidence/today-diet-quick.png": "df1b9f212e854e9f60433f71723723b1a1a51d3fbf11968bab92f571552197c2"
+      },
+      "renders": {
+        "screens/today-diet-quick-content.webp": "c85463b238915fc79d0fdabe7b383c733ab00f1e7a237702282763364f557ded"
+      }
+    },
+    "today-duration": {
+      "sources": {
+        "evidence/today-duration.png": "1b8675b9e9e3f2171f7851c802d18589b1858bbe0de709bc6baa0ccf9f933ada"
+      },
+      "renders": {
+        "screens/today-duration-content.webp": "dbb6f0d653739c68a2bca206952d644fb7e84d6b00f4798968c3d913d7c227fb"
+      }
+    },
+    "today-duration-month": {
+      "sources": {
+        "evidence/today-duration-month.png": "b60869280642381487a36f95ee1e2af9d03002d8361af1e4ac6f58b883b22486"
+      },
+      "renders": {
+        "screens/today-duration-month-content.webp": "0270762b6b1cfa8e35b0a44938877287a930b43e2532f9943abe5d9154c57ea1"
+      }
+    },
+    "today-duration-week": {
+      "sources": {
+        "evidence/today-duration-week.png": "393dc689336db69e9f51b217c1d925029fda8e13e72b7c968e4246afd35b7100"
+      },
+      "renders": {
+        "screens/today-duration-week-content.webp": "64a15a2b6cf01f00106d1112433458b8ae04e247acd658e08c985ada2638ee47"
+      }
+    },
+    "today-duration-year": {
+      "sources": {
+        "evidence/today-duration-year.png": "b790df6e52b3a9eac300a611df2a79c0faafa68a6f2d3c408b28631e244e9260"
+      },
+      "renders": {
+        "screens/today-duration-year-content.webp": "9bdd970544c200e5b7d55f6351ca53550ae465f42264605b7fec86865951fd36"
+      }
+    },
+    "today-dynamic-collapse": {
+      "sources": {
+        "evidence/today-dynamic-collapse.png": "39f4ba6d7acad4890e7bd0336250a61db77515b409f1a560ce1f96e76cb9c0d7"
+      },
+      "renders": {
+        "screens/today-dynamic-collapse-header.webp": "2cf2e5632c7873baf6cbf579d6ae9508544b71670470b8bb1b42a739ea05f834",
+        "screens/today-dynamic-collapse-content.webp": "61371002b69ce6044770def9dd9095ae5dba7b44f9b34e55dfbe8495026017b4",
+        "screens/today-dynamic-collapse-footer.webp": "76d871b4c4e543e4f0a3db4e8e2db4b3a747dc4f4bfb9ebd16ce59bc70a1a901"
+      }
+    },
+    "today-ecg-inbox": {
+      "sources": {
+        "evidence/today-ecg-inbox.png": "3c35c2e1b725ed158fc037f8ed3f009e3657eca17c20f181e7c8f469d4be2014"
+      },
+      "renders": {
+        "screens/today-ecg-inbox-content.webp": "9d8bd23f129933a523e06275b3dbe80b4f43d731bc9a1ca17fdd6fd8cf875749"
+      }
+    },
+    "today-energy": {
+      "sources": {
+        "evidence/today-energy.png": "17b1eb2beb96b9941a442ebf9b37490cf4929179bf9f3fe8e607a9b8ffbeb1c6"
+      },
+      "renders": {
+        "screens/today-energy-content.webp": "ee6f9a09aaf581e4e9d76d6823f0fb20be032476a9bc8f414b1dd9c239e36d06"
+      }
+    },
+    "today-energy-month": {
+      "sources": {
+        "evidence/today-energy-month.png": "e89272fd98eb1453e8bf49303d19752c22cee2d0d3d383d91e0c001a68f82f59"
+      },
+      "renders": {
+        "screens/today-energy-month-content.webp": "6bdcc6216ad76ef0e3945dfb130f19a6c99f6d25b3e6d6add9e088b7f421b487"
+      }
+    },
+    "today-energy-week": {
+      "sources": {
+        "evidence/today-energy-week.png": "dd0ed323011673cd1553ccd888b908f775722a0701373a00db464c5b069fe1a3"
+      },
+      "renders": {
+        "screens/today-energy-week-content.webp": "bbff4b592a9ebabcbf49e5a379296fd85c5a04239acdba5f7ac1bfc9096237a0"
+      }
+    },
+    "today-energy-year": {
+      "sources": {
+        "evidence/today-energy-year.png": "c596fa66c3f05ec27b7ae210dae5ab32384d2a6d117a87d4de022f462ffa7e8c"
+      },
+      "renders": {
+        "screens/today-energy-year-content.webp": "480baa4c56fa3e16f8ed5e3c168efa07419ce4f5bad2fbe0f1343bad9fffb879"
+      }
+    },
+    "today-glucose": {
+      "sources": {
+        "evidence/today-glucose.png": "486d3964f88cf3c71f2dd3f7e4fc4205e4d8eac88535566bace0241b9ed32293"
+      },
+      "renders": {
+        "screens/today-glucose-content.webp": "01e0f9b6ac68476fc85bab994eaed8105adc3fe2573e62675938408a960862c7"
+      }
+    },
+    "today-heart": {
+      "sources": {
+        "evidence/today-heart.png": "c178e5803b555c0816adf1b48ea47d516639c88259fa58ce2eac4cdee7551677"
+      },
+      "renders": {
+        "screens/today-heart-content.webp": "e55cd782bbe08cfb990a48648b7bff7b4ea96c739ed059776308bc2808ecc223"
+      }
+    },
+    "today-hours": {
+      "sources": {
+        "evidence/today-hours.png": "58e83d44b40ae7cb6f918d73110bd30552f9c68a0bc3ea153393583b4095284e"
+      },
+      "renders": {
+        "screens/today-hours-content.webp": "5b8a0a5b0da649822e92a2f2875ac8de05b40999db6e9c1ce473bfdc587d081a"
+      }
+    },
+    "today-hours-month": {
+      "sources": {
+        "evidence/today-hours-month.png": "9279c362e542db14c2c2c0a596451257570e67ebed4b1d638f06a6573ffd8d06"
+      },
+      "renders": {
+        "screens/today-hours-month-content.webp": "50d4af7399cfd8094aae42326412deb08bd71e0a0e7bdb14007e3f24fc38eb5e"
+      }
+    },
+    "today-hours-week": {
+      "sources": {
+        "evidence/today-hours-week.png": "2a5848f02c52bf8d1c05ca1dd698448f944e75a54c0c444612f9d2114cca4da5"
+      },
+      "renders": {
+        "screens/today-hours-week-content.webp": "0ae0125bf476e582a418dc66ba06533b3f761eb6a8a0330ec210dc99698d1be5"
+      }
+    },
+    "today-hours-year": {
+      "sources": {
+        "evidence/today-hours-year.png": "1516f5a6764ee6953da1da243ec9f5e974899a8356f5f0133be124f5f76c49ee"
+      },
+      "renders": {
+        "screens/today-hours-year-content.webp": "fb246b6bf57ec35428a5d4cf6ca1c54fb673669781386396a9bfb177b8a7e9de"
+      }
+    },
+    "today-insight": {
+      "sources": {
+        "evidence/20261120-today-insight-0.png": "85aafbde3b34260291fe3ae157e53e29bbba2bb688a5bb609def29bf908c89ac",
+        "evidence/20261120-today-insight-1.png": "07fe0ffdf2beffcdd5cd9be25eebc53f6fc7e48acd2bc24c264bf2de76340de4",
+        "evidence/20261120-today-insight-2.png": "5623c6145b04836d5c95c03926206fa69fb116cd5c0246a36e841bd5b5ad98e7",
+        "evidence/20261120-today-insight-3.png": "dae0f2c1e6426b3c3fdebcf9ca8b0dfb0d2e65a702305e5f876b1af731723c2b",
+        "evidence/20261120-today-insight-4.png": "1a3459ec57a8b34e6942c05d9a6acab17be1a423ad572b43105f6895946bf408",
+        "evidence/20261120-today-insight-5.png": "24f046e85d91ce78167da91af0cb621d03f0d397e44b5957c545233dd18bf5e4",
+        "evidence/20261120-today-insight-6.png": "e0d2c91cd001b81b19547a49b0718eaa2773a6572f9944610b2c01e2e58cd58d"
+      },
+      "renders": {
+        "screens/20261120-today-insight-header.webp": "76231dd10fdb9aeb1b3654023cd20d951a8200bb24eec12ea118eecff70a3a3f",
+        "screens/20261120-today-insight-content.webp": "36a8fd04d8b29eafc404aa7e8c573af82ca98a4957c5c7103f45e180f81c83ca"
+      }
+    },
+    "today-insight-card-more": {
+      "sources": {
+        "evidence/today-insight-card-more.png": "464cb1f9d9fa9c0fd6a9515645bebaf94e49f4a0b0eb4be9fb38246bed77deb2"
+      },
+      "renders": {
+        "screens/today-insight-card-more-content.webp": "af130ac04f561c959028cbd871cde858c50279c41e16c4a5f88c51ce8dd04d15"
+      }
+    },
+    "today-insight-menu": {
+      "sources": {
+        "evidence/today-insight-menu.png": "b96fed0289750b829c8ddf1848eaa56895c3f1d6c1f128f73483a9190f74de96"
+      },
+      "renders": {
+        "screens/today-insight-menu-content.webp": "adbd38cc79f9c693fe00d50aaff87fa1ee3a3e91112c40e17099f22362fc23ed"
+      }
+    },
+    "today-insight-menu-settings": {
+      "sources": {
+        "evidence/today-insight-menu-settings.png": "d655f43d47365df2f298a80585dfd456c020c2befa2ec0b7890d373ea2bc14f1"
+      },
+      "renders": {
+        "screens/today-insight-menu-settings-content.webp": "f5df8b60cfb5d67c8e7b235ec581ef60040a9ad5a3f52d28d8c57a9ac111310c"
+      }
+    },
+    "today-insight-trend": {
+      "sources": {
+        "evidence/today-insight-trend.png": "cf772aabb77cd07d807ea59839d7b1a9fd110066da518ea51e316cef253b9c97"
+      },
+      "renders": {
+        "screens/today-insight-trend-content.webp": "a3c43d4e0eaaf25dbf9ca763562bffd3891fdf8072464b2340fd6596995a9060"
+      }
+    },
+    "today-life": {
+      "sources": {
+        "evidence/today-life.png": "ce5d5cee36389a001903e3cdb903eca4478ca48709b447a47fc25aa377cbf8f7",
+        "evidence/today-1.png": "30ccb051688466083babd9ce7110c3e69d96dcafdab9474b9265d1e2d1e7cfc0",
+        "evidence/today-2.png": "1ee2d35b2bf11b39360af463650dbc53788c1a81d38ea0465902159b6cc218c6",
+        "evidence/today-3.png": "9b68ac7409982ebd04b62149daf787ef8c30835d8aff6e3df5c6869e0ec277c0",
+        "evidence/today-4.png": "1ee5f030bd720b3511fd49167b5c175b7e6a490e66949ed903591fca149a7a42"
+      },
+      "renders": {
+        "screens/today-life-header.webp": "396b19ebeb4c83bf7791de2d1a3698cb174e02a8852758ff973407ca1850d177",
+        "screens/today-life-content.webp": "d41ea622bd52ea3e3635ad5e503ed8a17bcbe3040431ad6a891a46a33016e5fe",
+        "screens/today-life-footer.webp": "76d871b4c4e543e4f0a3db4e8e2db4b3a747dc4f4bfb9ebd16ce59bc70a1a901"
+      }
+    },
+    "today-meal-plan": {
+      "sources": {
+        "evidence/today-meal-plan.png": "89e62f4a19e490a5c9bb7009d3ac10b980440abf6ca5c8713374fb7de0c6f60f",
+        "evidence/today-meal-plan-scroll-1.png": "46b4300389f0a9e2dbaf2c0300b56b194677f143bc70b4fdef22d1925cfe7a64"
+      },
+      "renders": {
+        "screens/today-meal-plan-header.webp": "b11afd5040233f97f5ba7ebcc45f282b50ebc745bf57a235502df66f19512518",
+        "screens/today-meal-plan-content.webp": "785f4799ca68b9e154cb631fa3214c310f13cf3d31d46b566e312d5ff9615c72"
+      }
+    },
+    "today-mood": {
+      "sources": {
+        "evidence/today-mood.png": "7534da8d38f6d75501f6d8043e3315ade4bf7a22d2f8c303f89ebaa6eb9a6426",
+        "evidence/today-mood-scroll-1.png": "22f992b17de55bf9ccb08a7e7974306a73ac3a1f6b354a7ede608f6be35f7c7d",
+        "evidence/today-mood-scroll-2.png": "bfa805e42d2dbfd4e1c7905a299a17979c315cec7a07a2993b145448698de28e",
+        "evidence/today-mood-scroll-3.png": "e41d3c89187cb29a2b4bffedd216346513254d4fd8c87a4c0f4e530cfeac0887"
+      },
+      "renders": {
+        "screens/today-mood-header.webp": "f39e982aa93817016211de58b9c9f29ea5aff944d27b30d0886c552807fde96c",
+        "screens/today-mood-content.webp": "5d4bbab44f9677594acafbfceca6f547b3c05338c04f348cb057b114629c843d"
+      }
+    },
+    "today-mood-choose": {
+      "sources": {
+        "evidence/today-mood-choose.png": "2d329395770810a801e44c5704b5bbf727fadd5d5b2325a89825e22ba933359a"
+      },
+      "renders": {
+        "screens/today-mood-choose-content.webp": "3f2fafbd8c7d99c7445955187a505d04d442773ff001e38c8401e9e115b083fc"
+      }
+    },
+    "today-mood-expand": {
+      "sources": {
+        "evidence/today-mood-expand.png": "6a79b7eb72ba1ebe79a5e3093c710e6c18ab1e9e928241e2a9ada0b0a6a5db32"
+      },
+      "renders": {
+        "screens/today-mood-expand-content.webp": "3603f828136156d74381614e2ae4b4338c1066e2fafdd9a9bf356c652ce4bf3e"
+      }
+    },
+    "today-mood-more": {
+      "sources": {
+        "evidence/today-mood-more.png": "c004836daa6fdfeca4caab6c3f60349059720c369a079eb81437cd6d5f8d020e"
+      },
+      "renders": {
+        "screens/today-mood-more-content.webp": "2ddab1cea6ff81a420aa288a922bb246cfde81c08664520a7314c4a7a7444ccb"
+      }
+    },
+    "today-mood-more-all": {
+      "sources": {
+        "evidence/today-mood-more-all.png": "d2250167045ce55b56f8c6cbdd4a67e64e42ab9b4c3c894e5d8ceca9de95001c"
+      },
+      "renders": {
+        "screens/today-mood-more-all-content.webp": "641e32b07c76e2e11f3dc0b5adeed9a62dde8756864d3f7e2899bde94b8f0cab"
+      }
+    },
+    "today-mood-more-knowledge": {
+      "sources": {
+        "evidence/today-mood-more-knowledge.png": "cef3b46bf15d7895560dd7691a79d2bf273db29844cc84486b6a80c4f4ce5723"
+      },
+      "renders": {
+        "screens/today-mood-more-knowledge-content.webp": "5f9e3566ab12fa8fa6e979b9ce7c59c53317c5fc5fa3b79b77dda8bf75480dc8"
+      }
+    },
+    "today-mood-more-settings": {
+      "sources": {
+        "evidence/today-mood-more-settings.png": "229aba64592f731b4e3657ae39ee48906e230c676528c9e8ee049a1a8342d674"
+      },
+      "renders": {
+        "screens/today-mood-more-settings-content.webp": "4891cb39bbe5c755f79da34366bf6763830249d9e34fad77d714026a93a720e5"
+      }
+    },
+    "today-more": {
+      "sources": {
+        "evidence/today-more.png": "a28374d9634d0515bee5db2a29e75408cfaa689983bdea2744e0846d82199bf2"
+      },
+      "renders": {
+        "screens/today-more-content.webp": "ebd7dc1939c25df9af13bd3adf5c46f40adbddbd4eb9f6aba07e5b25cc91ecb8"
+      }
+    },
+    "today-more-settings": {
+      "sources": {
+        "evidence/today-more-settings.png": "e84f95fc0c2f3aea915966bcacd86ccd756dbf729e2efb3eadf1389681de8565"
+      },
+      "renders": {
+        "screens/today-more-settings-content.webp": "677f14468c2b7fc583a2f6002c512c7acbcea23d1367004916d84561a1755b42"
+      }
+    },
+    "today-more-source": {
+      "sources": {
+        "evidence/today-more-source.png": "d86b64dad4489e807e1a84fcf84a1adfe57a9227e74e4a7cacd4e6495627d823"
+      },
+      "renders": {
+        "screens/today-more-source-content.webp": "038de969e0e700f2c24cad94dae1ddb9545af98924863e07ff2e14db590822b5"
+      }
+    },
+    "today-oxygen": {
+      "sources": {
+        "evidence/today-oxygen.png": "0334b3a9312fe754d10c0bf959f75c06ce99299d98ef19c9730b8e1d312bd048",
+        "evidence/today-oxygen-scroll-1.png": "8fa1f657f91472d8e6e952871bb41f9cc09406416d2a0352d13f5f3055e19dea"
+      },
+      "renders": {
+        "screens/today-oxygen-header.webp": "82090c58d1cb9fb4dffc8e7cbe9b2a569ec011a61ca6db5913823801d520df2f",
+        "screens/today-oxygen-content.webp": "0c4fc008f926e76b61ed967cf2862d3bb617c1e66b3029571f3b42453c251a9f"
+      }
+    },
+    "today-oxygen-altitude": {
+      "sources": {
+        "evidence/today-oxygen-altitude.png": "dea68bb8f849df627f23eb439e10ff17bb66434d7272147329e411e417ba5cbb"
+      },
+      "renders": {
+        "screens/today-oxygen-altitude-content.webp": "b23427cb6f502eecd9b74df18f563208e1b31ab1b94b047141a3f13324878e51"
+      }
+    },
+    "today-oxygen-low": {
+      "sources": {
+        "evidence/today-oxygen-low.png": "4ebdd45d34741ec000ca9928113c6034ff5113f4475940b0742c10a1e7f84b86"
+      },
+      "renders": {
+        "screens/today-oxygen-low-content.webp": "50cf07280f2d4e99519e2b0f747d100e5d70f8fe7813d7573d4083af9bc7da6b"
+      }
+    },
+    "today-oxygen-month": {
+      "sources": {
+        "evidence/today-oxygen-month.png": "8a7da0e34304dcd5aa6213d1b5885b4c946e11abf15af7cb43c436d4d44aa297"
+      },
+      "renders": {
+        "screens/today-oxygen-month-content.webp": "96268c36d3b94f2c96501d0e2ae33307788fdd7b09a9de6db113d42cf29046a9"
+      }
+    },
+    "today-oxygen-more": {
+      "sources": {
+        "evidence/today-oxygen-more.png": "a53d3073417eebbcf2917fc70d20f6b5678dfde0d0fd15b8493e602aa5999841"
+      },
+      "renders": {
+        "screens/today-oxygen-more-content.webp": "371bc80c70aa90e59efcb21cb52cc102c3653a4c9f184b81de904dcebbdbf4b8"
+      }
+    },
+    "today-oxygen-more-all": {
+      "sources": {
+        "evidence/today-oxygen-more-all.png": "714ac1e20dd3b04a9cb4410ea7bd1a930dffd09846e56c31aa69c8223e8325cf"
+      },
+      "renders": {
+        "screens/today-oxygen-more-all-content.webp": "6895e2ddb18789fb10a97f7180600b3de87e7a402ab5cff698528a437bdf23b6"
+      }
+    },
+    "today-oxygen-more-altitude": {
+      "sources": {
+        "evidence/today-oxygen-more-altitude.png": "d1e4fcfeb9bb94636364aea63d6efa55f4cba15b503f518f979285cf6a9e58ab"
+      },
+      "renders": {
+        "screens/today-oxygen-more-altitude-content.webp": "243ad9955660e376e69277acd664cb52e35e31277e3504a724dbfeb157e0cf4a"
+      }
+    },
+    "today-oxygen-more-info": {
+      "sources": {
+        "evidence/today-oxygen-more-info.png": "2e842b451090b4780cdcf0d12a19c8324d04a88410c8de755059c2d8995286b8"
+      },
+      "renders": {
+        "screens/today-oxygen-more-info-content.webp": "a6a0ccc52e75d07f1fb4582b87ee7576f902e810d6d72d3a7fcebdcac2e9380d"
+      }
+    },
+    "today-oxygen-more-oxygen": {
+      "sources": {
+        "evidence/today-oxygen-more-oxygen.png": "2acd62fc63edc4b698cf89b314829a1b2b1b3a8fe9526768afb60712f6318bb1"
+      },
+      "renders": {
+        "screens/today-oxygen-more-oxygen-content.webp": "cd866611ff179c43dc359a396f178a1b1cc010879de257c0045a74353aa5dd21"
+      }
+    },
+    "today-oxygen-previous": {
+      "sources": {
+        "evidence/today-oxygen-previous.png": "794e14e712285b534f8674d7ff1ab90d2f06e13721a135fb0556f02441d5b447"
+      },
+      "renders": {
+        "screens/today-oxygen-previous-content.webp": "5128a1a00c5a38d03ac6e7178688cd5e7adf9031e03e82bd4ae85db1cea75147"
+      }
+    },
+    "today-oxygen-week": {
+      "sources": {
+        "evidence/today-oxygen-week.png": "38640f0d70b1ef53c3ac55e50d8b4805ef97a4938a64eb5644f4f82752b55c4a"
+      },
+      "renders": {
+        "screens/today-oxygen-week-content.webp": "25d0dca5d854f2fc138137df502a39080ea17f5b5937e7cfd01d8ee0d305209c"
+      }
+    },
+    "today-oxygen-year": {
+      "sources": {
+        "evidence/today-oxygen-year.png": "2925799c79482529b10ce9546904b1c5aadd185cea2af19f3408a382378cbb9d"
+      },
+      "renders": {
+        "screens/today-oxygen-year-content.webp": "c78142d5a969312588d8d9d2c0be979450d546b527053572ed6509b409ec2e6a"
+      }
+    },
+    "today-profile": {
+      "sources": {
+        "evidence/today-profile.png": "8fe89de05c74d336ca04cbf241fc2b9ffa5dbd030669ec9584d54409e43aa4ff"
+      },
+      "renders": {
+        "screens/today-profile-content.webp": "74f6775875fd284d3f0a0fac76469652e2ce5ec4b3d751529e01e07269b2f986"
+      }
+    },
+    "today-profile-add": {
+      "sources": {
+        "evidence/today-profile-add.png": "19aa88816eb427efae15d16d583911bd71ca8783bd970b5308fd89ce610459a3"
+      },
+      "renders": {
+        "screens/today-profile-add-content.webp": "cf0df8f99fa334ce3546d341e7713bad9d59a02576fb61b6bb0fe3945b939fd2"
+      }
+    },
+    "today-profile-expand": {
+      "sources": {
+        "evidence/today-profile-expand.png": "eb42d70fa0503873f68017524fa5c6d1bd4e307a0d6c6dc7824284e676d212c6"
+      },
+      "renders": {
+        "screens/today-profile-expand-content.webp": "f0b58c793625cdc0bc55cf3b4bec5dea5c0249b6b8c50290cd2feba070f291e6"
+      }
+    },
+    "today-profile-micro": {
+      "sources": {
+        "evidence/today-profile-micro.png": "efc033c209ac61cf320c44ad2c549f33f3f2009cd38f5f482b054839d2a2d245"
+      },
+      "renders": {
+        "screens/today-profile-micro-content.webp": "a0d6c10da7cfe032986d1a930e7d44abcf187a2711b3ca41a6c23cf9774f46c0"
+      }
+    },
+    "today-profile-more": {
+      "sources": {
+        "evidence/today-profile-more.png": "c3a1b50c907dc2820b7117e78d8cd08203b78855b30e64ff82822b4b4f41728d"
+      },
+      "renders": {
+        "screens/today-profile-more-content.webp": "d1591a1920fc2334e1c65f32eccbc2d21f243ad3ecc691e98291a04ed60a1858"
+      }
+    },
+    "today-profile-reports": {
+      "sources": {
+        "evidence/today-profile-reports.png": "0e69c3e3e6db343a7f174f6d1a3a6352fd549b5c8043dea3f1a0a635b33d5d8b"
+      },
+      "renders": {
+        "screens/today-profile-reports-content.webp": "e723726b8b59b7f1e0da8626e18d386b6857fa96f861edab2c50c5477b01b00b"
+      }
+    },
+    "today-records": {
+      "sources": {
+        "evidence/today-records.png": "b8393caaa8df4244fd7915c6be7c4bd284d2409ed061e3e0c24cae8193e9778e"
+      },
+      "renders": {
+        "screens/today-records-content.webp": "e1388b880be6e2f388ee89b6446d0e3cd1d084e41a4f8b0f4507016f6c91087f"
+      }
+    },
+    "today-records-add": {
+      "sources": {
+        "evidence/today-records-add.png": "f9d3e2d6b61107dac211c7061fe62a9f8f797bc0824fe18bb1e49d96e0a091d3"
+      },
+      "renders": {
+        "screens/today-records-add-content.webp": "fc13c7259005ed98dd18a770fabd4cb20397b33998f6ef48166e61e154f97572"
+      }
+    },
+    "today-records-stats": {
+      "sources": {
+        "evidence/today-records-stats.png": "be93538278d817ce311d89b03a3bf1502519a73749a08e2e0b43192f75b08d35"
+      },
+      "renders": {
+        "screens/today-records-stats-content.webp": "b72cb208b44e1dd5bf2576f85b35f0015df79f0da5e8c5855297c4e0728ba6c1"
+      }
+    },
+    "today-rings": {
+      "sources": {
+        "evidence/today-rings.png": "b882bcf7147d187a1e2c72a803f90f534c4745c9717f746368db76a4d9a4f5ca",
+        "evidence/today-rings-scroll-1.png": "35231f12e7f6b0cea0efd82b0d6c2147fc2102b5bcfb4e8737477f703a1e63c4",
+        "evidence/today-rings-scroll-2.png": "d7bdcb1b386ab55000377935f2c80e361155bca925fbd4e2736d0cc6dafe2879"
+      },
+      "renders": {
+        "screens/today-rings-header.webp": "476ed40e0c17f434102ccb743711205d4a8d8167815aa09909428b7009bd2930",
+        "screens/today-rings-content.webp": "384e2e8ebb5cc6d47c89c7954f694f3138c240e29202ea36e011e6806cd5ede2"
+      }
+    },
+    "today-rings-insights": {
+      "sources": {
+        "evidence/today-rings-insights.png": "80bce5f6ed4b1d20df3606c800f3b91bfd8b9656cb81ea698b7070b4ad5d2b03"
+      },
+      "renders": {
+        "screens/today-rings-insights-content.webp": "6d7e2da36827bb060d018e73170526ac3e00486470e558506f5bb7151f3a2f66"
+      }
+    },
+    "today-rings-more": {
+      "sources": {
+        "evidence/today-rings-more.png": "fe5b99788b0106671920c6815ba7b200e12c3afc02237dc6d94baf72df1b6ac2"
+      },
+      "renders": {
+        "screens/today-rings-more-content.webp": "1dd7c348026fff297aa753f22526db4ad2ec74269580b38ddfdaa9587ae8d625"
+      }
+    },
+    "today-rings-more-notifications": {
+      "sources": {
+        "evidence/today-rings-more-notifications.png": "5b172d3aacf44963716b59a5f95ee18ac66cb40945827421a6fafd0503910fe2"
+      },
+      "renders": {
+        "screens/today-rings-more-notifications-content.webp": "1323ba1224e5e5abef760b9cc7a4b3f95744d6b4fdb4497a77be54ed4e1ea0af"
+      }
+    },
+    "today-rings-more-targets": {
+      "sources": {
+        "evidence/today-rings-more-targets.png": "1bbf960389e35d6c186187cce92b11760da863d9f7f53535ec8bcf1ece092803"
+      },
+      "renders": {
+        "screens/today-rings-more-targets-content.webp": "06715e2c5edbe4eea48bd7511b7621337886bce101df789be9f26425c82cdb82"
+      }
+    },
+    "today-rings-previous-week": {
+      "sources": {
+        "evidence/today-rings-previous-week.png": "7ce69fefa461e405b9a7279bdff783b983511f0a6a62658cce0d9339e6308d7a"
+      },
+      "renders": {
+        "screens/today-rings-previous-week-content.webp": "fbab48c7243c34d8a286135313a02ab8cd4a18864bf83113517eeb3ef62a889e"
+      }
+    },
+    "today-search": {
+      "sources": {
+        "evidence/today-search.png": "1701cce0ece00079526f4d63ad1ef89df80319cf6f78f88990ea75f15c91ef40"
+      },
+      "renders": {
+        "screens/today-search-content.webp": "c15ef36e2d98ce4f8e21317f82bd025aa2e7b6d60a7b24d1cb7c8fa65f151e8c"
+      }
+    },
+    "today-shortcuts": {
+      "sources": {
+        "evidence/today-shortcuts.png": "a02a174909fc697d99d9da93658e34e8af5c5bf2bfe11714a5219529b2e9097a"
+      },
+      "renders": {
+        "screens/today-shortcuts-content.webp": "8da840eeb0424a3255c52dc8ef51ea41501ae84f1ff2e438dd757ed1a4b89d76"
+      }
+    },
+    "today-sleep": {
+      "sources": {
+        "evidence/20261120-today-sleep-0.png": "79e21d80fcd87bb434f8ff7413f6601bf6083aab578270068bc80acc8b059dd5",
+        "evidence/20261120-today-sleep-1.png": "78b77c3520c4bd25fd31fbb54e11360c6af28be2369893731fc36d0e0d7753eb",
+        "evidence/20261120-today-sleep-2.png": "2df3afa8bfc690970a165e0755ce0b65415545d1244c15d0dc1b7e9772b16b2a",
+        "evidence/20261120-today-sleep-3.png": "aab2948944109f99b007ceb72660099057c9127a37143080c4f1195908745beb",
+        "evidence/20261120-today-sleep-4.png": "382c1e34fd1a36701b3bdeea96608af61fb60a83820828d286b110499940c54e",
+        "evidence/20261120-today-sleep-5.png": "8517da96ec188a2b6b5527385b612c81dccec4841c24aafcace64d31e68c4534"
+      },
+      "renders": {
+        "screens/20261120-today-sleep-header.webp": "2dfddb882924cd4e94024334bd3b77172ad143bc65c0bbf6d9002fe8abd1a245",
+        "screens/20261120-today-sleep-content.webp": "0628790d3bde4bb2e3a567dd36f3d9047d80cc7ff0822ecc2e87384237f5700d"
+      }
+    },
+    "today-sleep-month": {
+      "sources": {
+        "evidence/today-sleep-month.png": "facacb9b9f57a0727c53cfad7510a72faafc077584409d6ac36370602476b066"
+      },
+      "renders": {
+        "screens/today-sleep-month-content.webp": "184197398ff7aa128cc4782124ba69de34a2d147e75ddf7493a2a42ff317dc10"
+      }
+    },
+    "today-sleep-more": {
+      "sources": {
+        "evidence/today-sleep-more.png": "ff459910f36e1cb105e9d9f3fd3d910ea3c462dfe10936cc49c09eca5e842a50"
+      },
+      "renders": {
+        "screens/today-sleep-more-content.webp": "8e56400f5ed26b57aa10d773c69e2ed5fe6b4fdce0527e771e8e097d8985c964"
+      }
+    },
+    "today-sleep-more-all": {
+      "sources": {
+        "evidence/today-sleep-more-all.png": "3d964bf555556e70648640599f2b7017c9f0c0cb8a9a2e62610ad07e57445774"
+      },
+      "renders": {
+        "screens/today-sleep-more-all-content.webp": "d588da99c38dffd5148fc5b2967beec5403bf961c1220bac06610d39e06d783f"
+      }
+    },
+    "today-sleep-more-favourites": {
+      "sources": {
+        "evidence/today-sleep-more-favourites.png": "8155ade84d467d564a6ef58b05cd2538bc54ca274fcbcc8cd5ffb11537db5755"
+      },
+      "renders": {
+        "screens/today-sleep-more-favourites-content.webp": "539bca6d015487de1f92392a860ae36b0b209a63336bba742679189b3ffae572"
+      }
+    },
+    "today-sleep-more-info": {
+      "sources": {
+        "evidence/today-sleep-more-info.png": "0ac082ca9eff14db6994c4947da3a51e891748065022dd40e3bdeb226eb14ab7"
+      },
+      "renders": {
+        "screens/today-sleep-more-info-content.webp": "241f361ea6eb41a8a80495a03d6766ab73652ccc6a48e69ee8af59567beb4d9c"
+      }
+    },
+    "today-sleep-more-settings": {
+      "sources": {
+        "evidence/today-sleep-more-settings.png": "afa50da8734c6a30a6b55d3f0263a5b05658f4919e6139caacaf001e2736d49a"
+      },
+      "renders": {
+        "screens/today-sleep-more-settings-content.webp": "8394f81cb517b2adee32227f21f4990274a8671d1eb2681871076d8ed10632db"
+      }
+    },
+    "today-sleep-more-settings-download": {
+      "sources": {
+        "evidence/today-sleep-more-settings-download.png": "c6691e015f9d7d22038feaad638ecfe228c2704f866bbc46126b127bdd75138c"
+      },
+      "renders": {
+        "screens/today-sleep-more-settings-download-content.webp": "1fd163e3b8ec85be934b7f5eca4ac821f4a134e7bd74565e80fc5dfd0f6af56d"
+      }
+    },
+    "today-sleep-more-sleep-plan": {
+      "sources": {
+        "evidence/today-sleep-more-sleep-plan.png": "037a8a52e38916b2ac95d9e93e4cf1fee014f9e35cc2701fe40659298ec98d0f"
+      },
+      "renders": {
+        "screens/today-sleep-more-sleep-plan-content.webp": "7190a77711f6524385ac73ed3b4dcafc8394e0982d6c0330443bbe067b098adf"
+      }
+    },
+    "today-sleep-more-sleep-switch": {
+      "sources": {
+        "evidence/today-sleep-more-sleep-switch.png": "e04436d8b56f80545ae5ac52fcafba8a8399ad9001055d1a1bf254f1cba192e8"
+      },
+      "renders": {
+        "screens/today-sleep-more-sleep-switch-content.webp": "77c9be50e46788a498de5c0264939e7a3420bce3c7efa18453a3955294e769db"
+      }
+    },
+    "today-sleep-music": {
+      "sources": {
+        "evidence/today-sleep-music.png": "3d147fd54850fa83a669392118464b1888696fa524498b9ae7611a9de7e5dff7"
+      },
+      "renders": {
+        "screens/today-sleep-music-content.webp": "319c388b5ffca90861a94fd3672307e6d81df1e00e3042c33001ac2da09887dc"
+      }
+    },
+    "today-sleep-nap": {
+      "sources": {
+        "evidence/today-sleep-nap.png": "4937b6226a7440a4a5455eaef88bc018112fabb245a1e12742361460877161f5"
+      },
+      "renders": {
+        "screens/today-sleep-nap-content.webp": "650146dcee1ecb5f4564c2798ca68f60e2bc124b556b98f92e67594d713359f7"
+      }
+    },
+    "today-sleep-previous": {
+      "sources": {
+        "evidence/today-sleep-previous.png": "f4d49831b6de969841a07de88fc3c465e1d315428a6b6e4df427fcf673f1a82d"
+      },
+      "renders": {
+        "screens/today-sleep-previous-content.webp": "ab855d5ea1b2259e89a22897d3963ecab3b07400f740559f0461589951daba9e"
+      }
+    },
+    "today-sleep-record": {
+      "sources": {
+        "evidence/today-sleep-record.png": "46eb8f6f27b6335a3970f70a329490beb639c37f56de75379aebdb21886a13be"
+      },
+      "renders": {
+        "screens/today-sleep-record-content.webp": "ae829e49110e0961438fbd3fd5d37015df33f143dac075969cf8d9e076ed7bd7"
+      }
+    },
+    "today-sleep-week": {
+      "sources": {
+        "evidence/today-sleep-week.png": "d002bf96e9641aadd1d875093394b17c341b0da00c812c58674353b5eed3af82"
+      },
+      "renders": {
+        "screens/today-sleep-week-content.webp": "c116b6eead4782f91af464aa7fd32c912afb45907a14498dc7e36c185546dfa4"
+      }
+    },
+    "today-sleep-year": {
+      "sources": {
+        "evidence/today-sleep-year.png": "dd9fbd60ec26dd566adb9c034589de449f2c717936ce1c71760a7c05e0b56262"
+      },
+      "renders": {
+        "screens/today-sleep-year-content.webp": "11d2c9efefb89e3a00d091efd8751015cdd2c20b94d4555c00b6632640594d4e"
+      }
+    },
+    "today-steps": {
+      "sources": {
+        "evidence/today-steps.png": "37ae2f5b8ea01cb7a821d9726b7abe3d136a39181458c00ef039eacad7f9fcd2"
+      },
+      "renders": {
+        "screens/today-steps-content.webp": "0fb8296cd7d0531df9b7e8d46e651951bd871732c2652e8eb9ad6db0314de55f"
+      }
+    },
+    "today-steps-view-1": {
+      "sources": {
+        "evidence/today-steps-scroll-1.png": "ef56da4991fb259495b4abdbdd5fa2576839226bcce90d0a0e6c9a4e1c812c3a"
+      },
+      "renders": {
+        "screens/today-steps-view-1-content.webp": "c446b3fe467a9ef213f680fabbe4986b3b86af0cd3000ecf55d89095f0d2bba8"
+      }
+    },
+    "today-steps-view-2": {
+      "sources": {
+        "evidence/today-steps-scroll-2.png": "c4a7c4129e47f01b03f6e7a9cd061d70a9cf6583173ae75f56c19baa72ce6efd"
+      },
+      "renders": {
+        "screens/today-steps-view-2-content.webp": "76631aef2bbc5f4bb324597e0ef564d95d5976fdfa65103279e1842102b379df"
+      }
+    },
+    "today-steps-view-3": {
+      "sources": {
+        "evidence/today-steps-scroll-3.png": "c355e3ffc880b79759d2914b31c5494360105cc6cba0fd1375c16c7a43d28894"
+      },
+      "renders": {
+        "screens/today-steps-view-3-content.webp": "8cb5f1a0b427766bb341cd19f1297b12664c474d7646d3d23d7258226bd39137"
+      }
+    },
+    "today-steps-view-4": {
+      "sources": {
+        "evidence/today-steps-scroll-4.png": "c1f1e7b263e1972321def56f5560b980c950a9052d7335f78ba2f9dd70967033"
+      },
+      "renders": {
+        "screens/today-steps-view-4-content.webp": "3ecc4d15dc06db7c6d34250ed06565f4377cabd1510696afff45c0c5c0fd9175"
+      }
+    },
+    "today-steps-month": {
+      "sources": {
+        "evidence/today-steps-month.png": "421b982b8ca6cac8ba60e5131eb85ca0f17103013150fc7d5c42a13e897a944c"
+      },
+      "renders": {
+        "screens/today-steps-month-content.webp": "18a0de7f07a947fc0a564a9972b51cc3409b9d362ff9be4047fcf56aae1fe8a5"
+      }
+    },
+    "today-steps-more": {
+      "sources": {
+        "evidence/today-steps-more.png": "993e2b92f19f4d402139fbfe846df7a02b00401c8ae6976bc7425b05c815cfdd"
+      },
+      "renders": {
+        "screens/today-steps-more-content.webp": "2312e4fcd4f59cbd34a6d7f2b9b056222ee21abb32ab0fb332df0604bbf41f5c"
+      }
+    },
+    "today-steps-more-all": {
+      "sources": {
+        "evidence/today-steps-more-all.png": "64d1034f5d3d44a9f75d0bda72bc545490da50db6d329f6312e5160c8767fdf7"
+      },
+      "renders": {
+        "screens/today-steps-more-all-content.webp": "b80989cc0f328a1de7bc95d20c86b007707732264b20d4010f5ed4c17011bd3f"
+      }
+    },
+    "today-steps-more-knowledge": {
+      "sources": {
+        "evidence/today-steps-more-knowledge.png": "c1a26569ad4d2b56b569fe92235cf5068a749047fd0edd0cdda17a541e9d5145"
+      },
+      "renders": {
+        "screens/today-steps-more-knowledge-content.webp": "2d134e6c0a72769744a788c0f1af81402480da3b955d1222ac949c620dac5a0c"
+      }
+    },
+    "today-steps-target": {
+      "sources": {
+        "evidence/today-steps-target.png": "d14147dc145015c419600aa5c5c813a5afc89ba3880618c4556d311bdc551ed9"
+      },
+      "renders": {
+        "screens/today-steps-target-content.webp": "5eeabccc9fa8685dcf527ed6b0b2f89963e60c93c43b0818123ea5b07c8578aa"
+      }
+    },
+    "today-steps-week": {
+      "sources": {
+        "evidence/today-steps-week.png": "6e1fdd39682a7bb89cd679c0b5bbb914a15baf15ee3da27e9f9140ffc78e8325"
+      },
+      "renders": {
+        "screens/today-steps-week-content.webp": "663714ebd25a73456e5c5c7d08d1e73cf19e6acd5c9beaa5f60864721c2d02e8"
+      }
+    },
+    "today-steps-year": {
+      "sources": {
+        "evidence/today-steps-year.png": "fddd28df16d6bb7f039b75ce200874da9c4188653772ce2893c8ff9a8533f373"
+      },
+      "renders": {
+        "screens/today-steps-year-content.webp": "c3bbb695753d902a185b8f65a0720d1b6a15f54938fb6498d0ba048bf4dd45c4"
+      }
+    },
+    "today-temp": {
+      "sources": {
+        "evidence/today-temp.png": "34ccc58ec4503d6b5f322a5d777637ed63fb9481f37fa0fe60b8e8b8bd9558be"
+      },
+      "renders": {
+        "screens/today-temp-content.webp": "670e6277da96e60a2ccd8356850de4a041d0d26be8bd5b4e7a29365913c852af"
+      }
+    },
+    "today-temp-month": {
+      "sources": {
+        "evidence/today-temp-month.png": "d93ea209bd8f10e037af37727287052cf35375c3e83f29a36e7c9da3f488ae0a"
+      },
+      "renders": {
+        "screens/today-temp-month-content.webp": "d9a92643a87d2bc38bdd66f221fb37679fd5efb6b7956c3e6f3f924d6519a62b"
+      }
+    },
+    "today-temp-more": {
+      "sources": {
+        "evidence/today-temp-more.png": "89f55e626ea37d25d49208316cc6b41af674c040721205695c3763c4dc77a0a4"
+      },
+      "renders": {
+        "screens/today-temp-more-content.webp": "5384984f197131a38ba1c9f0e2e964a49893baf985c2b7573afa71f4de8cdeb1"
+      }
+    },
+    "today-temp-more-all": {
+      "sources": {
+        "evidence/today-temp-more-all.png": "a2676cd474a7bac39e830fe438f716e89ce52083d6d2573cf0552d5d904c84dd"
+      },
+      "renders": {
+        "screens/today-temp-more-all-content.webp": "a5ceb8f81bdb7ea6cb9c3c4e864e64bba7dfecce7a97b22a2017a6cf786141f7"
+      }
+    },
+    "today-temp-more-info": {
+      "sources": {
+        "evidence/today-temp-more-info.png": "8e2a7e07321e03ec7818a9e040428fc4bb77daaed95321b5306ec956b00cc0f9"
+      },
+      "renders": {
+        "screens/today-temp-more-info-content.webp": "caf989ab16b6f13f7919313ea6f87ef2d96fcd69bb2c67cbec975fc62a13b1fc"
+      }
+    },
+    "today-temp-more-temperature": {
+      "sources": {
+        "evidence/today-temp-more-temperature.png": "9dbcd6929049e7364f41285cca3eb261cb39e5a575e75f7575d9bfa3951a7e46"
+      },
+      "renders": {
+        "screens/today-temp-more-temperature-content.webp": "2b023dc5cee20bae08df893517d2962293c56f8cbcf4446519ee75722cad3e70"
+      }
+    },
+    "today-temp-week": {
+      "sources": {
+        "evidence/today-temp-week.png": "3646d787ee8c37b8c978ea846ab8cd92835ce0df60f35de1caba423f68192332"
+      },
+      "renders": {
+        "screens/today-temp-week-content.webp": "23af2ea411387007852a86c0ad13d54ad7068a5be38b489a6ce4370377222af1"
+      }
+    },
+    "today-weight": {
+      "sources": {
+        "evidence/today-weight.png": "db5aba345addfcf7856a236cd33aba33d05ad558be4f410cb5d32e1625332797"
+      },
+      "renders": {
+        "screens/today-weight-content.webp": "8345e8b9dec50beb5cfb8668450cb67f832a5cf247f63b0875ba7089fb38492c"
+      }
+    },
+    "today-weight-view-1": {
+      "sources": {
+        "evidence/today-weight-scroll-1.png": "707620ccb00c0a8e1e8115e4b6c55c990f165f4eab8d8eeb00289fb30d4e2842"
+      },
+      "renders": {
+        "screens/today-weight-view-1-content.webp": "26b4e98cc250d86377dfdfcb12e42b576b62163700c1b58f222533c2bc0660ca"
+      }
+    },
+    "today-weight-view-2": {
+      "sources": {
+        "evidence/today-weight-scroll-2.png": "1dd91744c98408168491c135a8b6675309b266f1883009699aeda05a87296d2b"
+      },
+      "renders": {
+        "screens/today-weight-view-2-content.webp": "d8ecee886172981c92644a41ead58a9ed5ab7e669b2ef5d15654da1db7646c7d"
+      }
+    },
+    "today-weight-view-3": {
+      "sources": {
+        "evidence/today-weight-scroll-3.png": "39c0d3fdeb2242310e5beb389a700c322fb0c7d54279936ba15a2e78d1ad99f8"
+      },
+      "renders": {
+        "screens/today-weight-view-3-content.webp": "518b209c7606bad29651f334f41dcfb017886aec61f320ad9d173073947e78b9"
+      }
+    },
+    "today-weight-view-4": {
+      "sources": {
+        "evidence/today-weight-scroll-4.png": "5a89da9d3eed2f6bbdc8bb3b0656c9fb38c28d3b5b49d96b3af7f35bd02ebb6c"
+      },
+      "renders": {
+        "screens/today-weight-view-4-content.webp": "583275c9042b8d9582e9710bda32093768c6d37eb6983bc273af4a58ba9f1021"
+      }
+    },
+    "today-weight-diet": {
+      "sources": {
+        "evidence/today-weight-diet.png": "cb3ab14b67ad4573d768b4d1643dca493a1b207d5cff25a5195ae2d1bf00183a"
+      },
+      "renders": {
+        "screens/today-weight-diet-content.webp": "e6589ce9abf6291dfb3921fa5165887402582c2ea892d47e7e350090b441049f"
+      }
+    },
+    "today-weight-halfyear": {
+      "sources": {
+        "evidence/today-weight-halfyear.png": "e58492fd3dc66934a1db93bd275494eae2eb0b621799507d231ba83b41e0fd54"
+      },
+      "renders": {
+        "screens/today-weight-halfyear-content.webp": "7922becb544f3f2d4f08571e0fe0e6cedbf0d916d8516f4f3a936acd486cdc68"
+      }
+    },
+    "today-weight-help": {
+      "sources": {
+        "evidence/today-weight-help.png": "f401833f850a80f439eef5e4fcf0c9c533e1d95d7f429604172e82a3a502e1ba"
+      },
+      "renders": {
+        "screens/today-weight-help-content.webp": "3811a9de80bbef5864dbe8fb1bb54e68867f98d3c366786d78454ccbca24985d"
+      }
+    },
+    "today-weight-manual": {
+      "sources": {
+        "evidence/today-weight-manual.png": "259ef362d56dd5872876aa1c3477ee0cacb3477a5177e9b80680879b151f5d8b"
+      },
+      "renders": {
+        "screens/today-weight-manual-content.webp": "8b4d8f2a5ab3e772b1146db34ae3e6b715f9f2affa1a99200b1e22c854a5854b"
+      }
+    },
+    "today-weight-measure": {
+      "sources": {
+        "evidence/today-weight-measure.png": "6399f564075e1f92bf6bf33c32fe0819267f1023092fd49f5b9f759e71a49921"
+      },
+      "renders": {
+        "screens/today-weight-measure-content.webp": "ac212e78daba5ed9f6b5bc8031f580920e18239b890cc614b0fb7bcbf5797bdd"
+      }
+    },
+    "today-weight-month": {
+      "sources": {
+        "evidence/today-weight-month.png": "2cd3fbbf826e11b1bb4c23a598135faf648417a5ef55dc48528d4d81f5174873"
+      },
+      "renders": {
+        "screens/today-weight-month-content.webp": "83fc2219545c5f6a4abf7f479d19bd1b76f9cf9078f9f3341f4701aba33a0c25"
+      }
+    },
+    "today-weight-more": {
+      "sources": {
+        "evidence/today-weight-more.png": "45bcbc253e12f4ef3c6c1717a95d990e0ad71f27e581dab689e41ae40888c7a5"
+      },
+      "renders": {
+        "screens/today-weight-more-content.webp": "9db24df4b9b54652f3f62d92f5bcc8d0b0a47f02b5891c2202237e6bc6388bb7"
+      }
+    },
+    "today-weight-total": {
+      "sources": {
+        "evidence/today-weight-total.png": "8b92ce4721ee8887c2b9f8cca93544e19643602a3fc1b74d1ac5a1b4d151895f"
+      },
+      "renders": {
+        "screens/today-weight-total-content.webp": "f86506f0d7ebea82d2ec732ea79f5977cdbd94fd1d6bd7ad11fb4f44a3bd9409"
+      }
+    },
+    "today-weight-week": {
+      "sources": {
+        "evidence/today-weight-week.png": "644c9b1c6305e01dca4ac361a77279827aa7ec5adedb6059b31ea347be6968b3"
+      },
+      "renders": {
+        "screens/today-weight-week-content.webp": "184479ba5ae42b324552a0f16d382e3d7d01582a61b99f307daa924f3659d6bf"
+      }
+    },
+    "today-weight-year": {
+      "sources": {
+        "evidence/today-weight-year.png": "9d056193074538e52995d111857c9372594c2883800e5407c31856f09dc8d945"
+      },
+      "renders": {
+        "screens/today-weight-year-content.webp": "13780979a99c3410a23d96b05191d926006d10c93457376db4a48f8f8989411d"
+      }
+    },
+    "device-altitude-off": {
+      "sources": {
+        "evidence/device-altitude-off.png": "af09494d97cd55ad566483364110b5207ace2183671aad0dffe1644eff4e5588"
+      },
+      "renders": {
+        "screens/device-altitude-off-content.webp": "715b6ede6679d37f4b48935ff21d113675fcc5c6db6da9eab059fed1a3c78906"
+      }
+    },
+    "device-apnea-active": {
+      "sources": {
+        "evidence/device-apnea-active.png": "107c9f6bc8ecd9d89be2487b75e6e3d20475dce25cf37d2f0f725e40b342a7e2",
+        "evidence/device-apnea-active-scroll-1.png": "d40243d099132fb93249b0d493ea61b926051c15c95dd3a9e8c1e2f090323c6e"
+      },
+      "renders": {
+        "screens/device-apnea-active-header.webp": "2640f0a5e6e80ac924b22023b6ea151ce4e8ca61ba8008f9047565ab39195f33",
+        "screens/device-apnea-active-content.webp": "17d1ed66edeb4b1692057cf6bee3ea3edfb356cd378683edb8b0d56551dc0fb8"
+      }
+    },
+    "device-apnea-menu": {
+      "sources": {
+        "evidence/device-apnea-menu.png": "cd5b47b11880a3870cc48153243e20626e11c6d8f88b797ac19dce7e90ce6df6"
+      },
+      "renders": {
+        "screens/device-apnea-menu-content.webp": "8873bd34f489d53d646aa5e13b0451457d5055a66c1e278614f213db569daaf1"
+      }
+    },
+    "device-apnea-menu-about": {
+      "sources": {
+        "evidence/device-apnea-menu-about.png": "6ea01f502639234bdb42dd4d699560f9ba7a59896b0d9d4e2ace5600660cebf7"
+      },
+      "renders": {
+        "screens/device-apnea-menu-about-content.webp": "2e9b05154fce0cf2b16b9cab8934b2f84760cde1413afabfd4e5319f2f8b84b3"
+      }
+    },
+    "device-apnea-menu-all": {
+      "sources": {
+        "evidence/device-apnea-menu-all.png": "a396024d2b747551ec542734434301d87049e4908ec1cc49ad5ed61db3ce24db"
+      },
+      "renders": {
+        "screens/device-apnea-menu-all-content.webp": "18ddf1c241f28288156ab47c853a8ef19819a13787277de92b5681c6157cc98a"
+      }
+    },
+    "device-apnea-menu-all-filter-strip": {
+      "sources": {
+        "evidence/device-apnea-menu-all-filter-strip.png": "6fe63b876d77f960726c464c880e9022679a72fb1a6bf1891bf7cdc7e71fbe8e"
+      },
+      "renders": {
+        "screens/device-apnea-menu-all-filter-strip-content.webp": "5d6f343104e98f10627e6fa5765a7f6ed719dbcf045d492550be262b311b62ec"
+      }
+    },
+    "device-apnea-menu-all-filter-strip-severe": {
+      "sources": {
+        "evidence/device-apnea-menu-all-filter-strip-severe.png": "b507b58c3eb885d934545417eddb1d8497ca3102b5767dffd7a186c394886e0f"
+      },
+      "renders": {
+        "screens/device-apnea-menu-all-filter-strip-severe-content.webp": "b57ecc34fe9337d4e685dce1e1b95f689c0a98be612a6874cf7fb7ee35a11df7"
+      }
+    },
+    "device-apnea-menu-all-latest": {
+      "sources": {
+        "evidence/device-apnea-menu-all-latest.png": "d60af6314603215af8dd44c2e3e8a5d0425c9be21b2fb5f6b1416b0bb9ff33ed"
+      },
+      "renders": {
+        "screens/device-apnea-menu-all-latest-content.webp": "6c445eb8df325897039bb5cb11276b03e87838355494be64d3846b7f386d2006"
+      }
+    },
+    "device-apnea-menu-all-type-1": {
+      "sources": {
+        "evidence/device-apnea-menu-all-type-1.png": "0c0e3671fb30ee98a59936ee0cb3c203e88becee39caa37ce24db47d5a6c4d40"
+      },
+      "renders": {
+        "screens/device-apnea-menu-all-type-1-content.webp": "a5a04c19e9fbecbf4ecda97e1f42b18ab3367680023d2802334345e9581c6fab"
+      }
+    },
+    "device-apnea-menu-all-type-2": {
+      "sources": {
+        "evidence/device-apnea-menu-all-type-2.png": "c2a492b02b72c007cc2f1cb4c3440cb0361df4412ac308f9acf221bbf3ce9421"
+      },
+      "renders": {
+        "screens/device-apnea-menu-all-type-2-content.webp": "360066006d75124ab60e10ee195aab8705335811e89dd2b7b7058ea43b7af584"
+      }
+    },
+    "device-apnea-menu-all-type-3": {
+      "sources": {
+        "evidence/device-apnea-menu-all-type-3.png": "809f6edd1a0b9ffe9488b74bd293dcc4f207996c6fbbf56309c8d624dcd419e0"
+      },
+      "renders": {
+        "screens/device-apnea-menu-all-type-3-content.webp": "b6f50874c1e8cd4dd285a929286612d07b72f838cf32292c4510064015478701"
+      }
+    },
+    "device-apnea-menu-all-type-4": {
+      "sources": {
+        "evidence/device-apnea-menu-all-type-4.png": "5f36ddcc9153713f574e9810b252f8fcb514e3a55b0949b9155a90011e2b4f2f"
+      },
+      "renders": {
+        "screens/device-apnea-menu-all-type-4-content.webp": "3febf6ce97094f665a4addc230d5befbdbd316002619579c24e387ea4959d369"
+      }
+    },
+    "device-apnea-menu-info": {
+      "sources": {
+        "evidence/device-apnea-menu-info.png": "b55ec6f01a87894f489e9aabdb5555af8cba9269b08cac56be848659ff40dd62"
+      },
+      "renders": {
+        "screens/device-apnea-menu-info-content.webp": "f5de2529c97d67040cdc2e9c0aae2d84fb41a6dfa8adff626acbc4b2f9936d33"
+      }
+    },
+    "device-apnea-menu-settings": {
+      "sources": {
+        "evidence/device-apnea-menu-settings.png": "ecfe95dc5d4c91e776181587dfa5fc7317c5f4ff1056c3e617c087881bf0fe39"
+      },
+      "renders": {
+        "screens/device-apnea-menu-settings-content.webp": "95ccc512f62242be55ab2f98588577d187a475a1b93885aafbdf325e565e2750"
+      }
+    },
+    "today-cycle-health": {
+      "sources": {
+        "evidence/today-cycle-health.png": "4ae3e8b5de143f177adf3d93cf1e1c276b2c4efb62cc11b3e2bb7bdb5e197210"
+      },
+      "renders": {
+        "screens/today-cycle-health-content.webp": "500da7b4c65e20c0699c0ffe4017b230be946f7e9a1d4a4d51d3f5f467f2f08c"
+      }
+    },
+    "device-rings-confirm-task-1": {
+      "sources": {
+        "evidence/device-rings-confirm-task-1.png": "2b34c7f8fc6b37e10b4ac77353d9f302dc09c69c80ad98e7d2df60e7fa0f5a2b"
+      },
+      "renders": {
+        "screens/device-rings-confirm-task-1-content.webp": "9684fec22c214b9883362cdc1cae3bac290539be340f8fcd9f51b98173df9949"
+      }
+    },
+    "device-rings-confirm-task-2": {
+      "sources": {
+        "evidence/device-rings-confirm-task-2.png": "04dd96b33a6c95a2121c8d8659981620acdab570ca0873b7b8763903d7ae98d7"
+      },
+      "renders": {
+        "screens/device-rings-confirm-task-2-content.webp": "3d960ba1b16c887bda74d18f18a38931b49c0199ded7982764c69999d795b987"
+      }
+    },
+    "device-rings-state-1-2": {
+      "sources": {
+        "evidence/device-rings-state-1-2.png": "ec9f4bd7afe4fd727767cb70da6cfc1ebedf5dece7c2652d00a2dcf4beaf1e49"
+      },
+      "renders": {
+        "screens/device-rings-state-1-2-content.webp": "0164be3593a606b0e6875d16bb13da2445911f0261169199b2dc2ebaa433fc89"
+      }
+    },
+    "device-rings-confirm-task-3": {
+      "sources": {
+        "evidence/device-rings-confirm-task-3.png": "d6c5db59e6afd90b1832ecc147abc9514aa187b34e6e7b6ec9a16759ceebf9c0"
+      },
+      "renders": {
+        "screens/device-rings-confirm-task-3-content.webp": "6b7d836dc9c37c147469b55f5b1e953bc6762d85888e2761a85f19984d00403c"
+      }
+    },
+    "device-rings-confirm-task-4": {
+      "sources": {
+        "evidence/device-rings-confirm-task-4.png": "3baf869c79c3d6bcf8cabf3e4d578a364259232cf54b783f90ce5cfe45fcaa58"
+      },
+      "renders": {
+        "screens/device-rings-confirm-task-4-content.webp": "d91db61cc00b8d91a619b6731011736a860351a2c1e8451ee3cb5a0a63e34c79"
+      }
+    },
+    "device-rings-state-1-3": {
+      "sources": {
+        "evidence/device-rings-state-1-3.png": "ab14af5a25f000504926167c2416f82b5df670c16caaa31fbd77bdbd296acb9c"
+      },
+      "renders": {
+        "screens/device-rings-state-1-3-content.webp": "05f5a20959b437d7b89102963a0a76fa1a235fe5e236631f8beddedc820ec314"
+      }
+    },
+    "device-rings-confirm-task-5": {
+      "sources": {
+        "evidence/device-rings-confirm-task-5.png": "3be9501c8e496bd2f1f931cc6dee9d335a39ffd919d0ee6adfad9b976ee9f351"
+      },
+      "renders": {
+        "screens/device-rings-confirm-task-5-content.webp": "9ccc4ea543a651892143fec9006f0fc6aa0d4ed5de47845a30127b11823de76e"
+      }
+    },
+    "device-rings-state-2-3": {
+      "sources": {
+        "evidence/device-rings-state-2-3.png": "ae97ad68148eca71eac2c2445981f2d58fe2c4cfd2e3e3b268b1410267edcd14"
+      },
+      "renders": {
+        "screens/device-rings-state-2-3-content.webp": "d2889f1328dd93c9a77f1fb9c0754b5d601dca89eaa7f983fc5fd59304651b4b"
+      }
+    },
+    "device-rings-confirm-task-6": {
+      "sources": {
+        "evidence/device-rings-confirm-task-6.png": "0f133001cfcdb9314c11bcb541e40c3ba9087d06ebe31c44817fb88f05e56ece"
+      },
+      "renders": {
+        "screens/device-rings-confirm-task-6-content.webp": "edbb9b309b9e192d71cecb19d7ac22e34da0b02a70a6e285694b1e24099feaf1"
+      }
+    },
+    "device-rings-state-1-2-3": {
+      "sources": {
+        "evidence/device-rings-state-1-2-3.png": "398b7acad55f92d300fec950bfd756c6015b8bc50941999697f2b185d16a5d68"
+      },
+      "renders": {
+        "screens/device-rings-state-1-2-3-content.webp": "0c9a07deb3340b5b56f4cb8b93e0706ba94e290825524b600881aa881eff3847"
+      }
+    },
+    "device-rings-confirm-task-7": {
+      "sources": {
+        "evidence/device-rings-confirm-task-7.png": "df9371b4eabaf0ac4b0539b695413bf32959632988679f55c91e663426cea5ff"
+      },
+      "renders": {
+        "screens/device-rings-confirm-task-7-content.webp": "56c43c4046b2777209da0d89a5edac65bc041a8bbe00908359088de64d8a4e1f"
+      }
+    },
+    "device-rings-state-1-4": {
+      "sources": {
+        "evidence/device-rings-state-1-4.png": "7b54f2231934ff6ed080644c242ea657c506095060992c7660abc4ed77ac9a02"
+      },
+      "renders": {
+        "screens/device-rings-state-1-4-content.webp": "bfa7b9020040c581b906d0cffa54d6a836a7e955000e5339a5b1c27f71b934e3"
+      }
+    },
+    "device-rings-state-2-4": {
+      "sources": {
+        "evidence/device-rings-state-2-4.png": "083d47a26d380298db4d10f6583739fc07ec8bb2f238f9573b111c8826626e3b"
+      },
+      "renders": {
+        "screens/device-rings-state-2-4-content.webp": "cc168aa78cf51aca9cf16b20c37c9f04628ce11a1bbc61c65268da558e3fc085"
+      }
+    },
+    "device-rings-state-1-2-4": {
+      "sources": {
+        "evidence/device-rings-state-1-2-4.png": "aca1999f4a8c513a546eed47fc8c97590761d153af1d3cbb5d0ba8fe12bd4c2f"
+      },
+      "renders": {
+        "screens/device-rings-state-1-2-4-content.webp": "d0bc3d7f56ace0ae81350cc0809297dc86a0569e258a37de4751607b95cf8f8f"
+      }
+    },
+    "device-rings-state-3-4": {
+      "sources": {
+        "evidence/device-rings-state-3-4.png": "c44408abb197d2c28d1cb8e19ea31dc6067ad02f14d70da4a6ad0405b463dc5a"
+      },
+      "renders": {
+        "screens/device-rings-state-3-4-content.webp": "87fc936e5a92e7ff36a9d66afc28b5bd47600eb9b361de7684442b75a0923f7d"
+      }
+    },
+    "device-rings-state-1-3-4": {
+      "sources": {
+        "evidence/device-rings-state-1-3-4.png": "5c23ebdafa031e270e557a34dc387162ecaaab19b67a896314020496fa2d7712"
+      },
+      "renders": {
+        "screens/device-rings-state-1-3-4-content.webp": "1b663ec180822a4ccaa3a15b5ea508b02d6a01596fc4a1087e37afe4400873d8"
+      }
+    },
+    "device-rings-state-2-3-4": {
+      "sources": {
+        "evidence/device-rings-state-2-3-4.png": "dbb0109c787018e60928d674e56601d16e2248abb2de1eb8872f65fe1b83d212"
+      },
+      "renders": {
+        "screens/device-rings-state-2-3-4-content.webp": "05e5db74c544e8f71db8e38dd7a9a78aeb69bdc14e01c8e532f6b9d7a6c25276"
+      }
+    },
+    "device-rings-state-1-2-3-4": {
+      "sources": {
+        "evidence/device-rings-state-1-2-3-4.png": "a7d0cb0dd43f78729e263062dd1e3e3a8a0667fa44e0fdcd2f93e4d093812d67"
+      },
+      "renders": {
+        "screens/device-rings-state-1-2-3-4-content.webp": "4b061a94c141793ee723f838f80c189566fa7aa1b75cb1742f573d77991d01a5"
+      }
+    },
+    "device-mood-state-1-2": {
+      "sources": {
+        "evidence/device-mood-state-1-2.png": "bf9bee1a9a2ce71f3f973224546cf1134d3a302fb2fa38f3be65198a0f385818"
+      },
+      "renders": {
+        "screens/device-mood-state-1-2-content.webp": "ddef2ca99ffd6e74c914831560a65809db630312cec2c653b7276085b1590af5"
+      }
+    },
+    "heart-history-day-hrv": {
+      "sources": {
+        "evidence/legacy-心脏健康-h-day-hrv.png": "a50c564b60555b6a9fbc362478348d7f77b52a604d0027ba44a278f8dd7a9c4e"
+      },
+      "renders": {
+        "screens/heart-history-day-hrv-content.webp": "0fb73a9e90bdd3848a93cf06421cc44e52abe88fb0d31f5759b336c6af1479de"
+      }
+    },
+    "heart-history-week": {
+      "sources": {
+        "evidence/legacy-心脏健康-h-week.png": "458917c6647a4bd4edcddb311a457ab3249ebf37856423d9d0ef27729d5ae9ee"
+      },
+      "renders": {
+        "screens/heart-history-week-content.webp": "355e20416511d4168b70930e30c724b4fdf880f3f5f18f633a64c15377b66a30"
+      }
+    },
+    "heart-history-week-hrv": {
+      "sources": {
+        "evidence/legacy-心脏健康-h-week-hrv.png": "e50166853076fe6f03d7067061886bf633ee8e7b0d9d86ff5d020805be02dc2d"
+      },
+      "renders": {
+        "screens/heart-history-week-hrv-content.webp": "59c0e0222f6e69be6e27dff9825644812eaebc242603ea9241c711d962193e84"
+      }
+    },
+    "heart-history-month": {
+      "sources": {
+        "evidence/legacy-心脏健康-h-month.png": "bfce61834dcb3268502f2b78d49bae98820883ea1a5d0e90ba60b080a2ecbd5d"
+      },
+      "renders": {
+        "screens/heart-history-month-content.webp": "a74bf3aa63337808a21bee9031bf856083b6da51523ff4424341414d73b55f91"
+      }
+    },
+    "heart-history-month-hrv": {
+      "sources": {
+        "evidence/legacy-心脏健康-h-month-hrv.png": "abc6b2f613576130a461c84ddcd2fd4d3eaf14d23e530e9dea30e58ab164bb81"
+      },
+      "renders": {
+        "screens/heart-history-month-hrv-content.webp": "bf44a5312f0666c3e187dfdb91cddd5d02652f2cc9d1aea18a9be32068581618"
+      }
+    },
+    "heart-history-year": {
+      "sources": {
+        "evidence/legacy-心脏健康-h-year.png": "da1a53732132651170fd1819368175e643d9c7c49bd782e2f66478688ffe1a26"
+      },
+      "renders": {
+        "screens/heart-history-year-content.webp": "45a242324fb00f03d6fb6b4ffde42a33a47e0f693fbeaa0e26958b5542673300"
+      }
+    },
+    "heart-history-year-hrv": {
+      "sources": {
+        "evidence/legacy-心脏健康-h-year-hrv.png": "f40fbff582ebfda9e9652e3af1fc03a898f833ab299118e5a8a587fd6898e1ac"
+      },
+      "renders": {
+        "screens/heart-history-year-hrv-content.webp": "ad176a1527f0404529c7f86989a9dba4fbca6f7662693701b4bb0e684eda8fc7"
+      }
+    },
+    "heart-history-all-rate": {
+      "sources": {
+        "evidence/legacy-心脏健康-h-all-rate.png": "556685400addc58dbbef89cdd6f374066f9a905d194a0fb12468cc1dee9db910"
+      },
+      "renders": {
+        "screens/heart-history-all-rate-content.webp": "f562702d2b2981b9383e86f1f32201191657b2867c4117d7ac3555583552a1e3"
+      }
+    },
+    "heart-history-all-hrv": {
+      "sources": {
+        "evidence/legacy-心脏健康-heart-records.png": "9ad3a7d9d35056e04778b6f482d6224c8368faa7485b2b62b6e746b01da63e6a"
+      },
+      "renders": {
+        "screens/heart-history-all-hrv-content.webp": "7f12ced23e36c344c41cb1c63e32266e9fc0d2d6dc7f75da8865f936ccaac0d7"
+      }
+    },
+    "heart-history-ecg": {
+      "sources": {
+        "evidence/legacy-心脏健康-h-ecg-list.png": "1e731971280a0d26c92a8370ebf06f778c0157d336237edaec202dbafcba7f33"
+      },
+      "renders": {
+        "screens/heart-history-ecg-content.webp": "f92ae0e239ed01a435d6cd5f1b33105679b2cad468e303ae390f31641116b324"
+      }
+    },
+    "heart-history-rhythm": {
+      "sources": {
+        "evidence/legacy-心脏健康-h-arrhythmia.png": "495bf9b8aa251de28915a5b833214dde2ab94cd29594298459c988a7291d8ba8"
+      },
+      "renders": {
+        "screens/heart-history-rhythm-content.webp": "5e76c778a5272c320c1e420e8fd6c7995f51011b93e91b122cf1f6596b1cffe2"
+      }
+    },
+    "glucose-history-week": {
+      "sources": {
+        "evidence/legacy-血糖管理-g-week.png": "b7035063511331fc3880d3d8bdd70f6fd927d975f6d04081022f2c04c0773f9b"
+      },
+      "renders": {
+        "screens/glucose-history-week-content.webp": "333af66ec9a259f7ece6a062e83809d7f20f3f002f8dc65a74b03dde915fc47f"
+      }
+    },
+    "glucose-history-month": {
+      "sources": {
+        "evidence/legacy-血糖管理-g-month.png": "6855a9664d283764e776a48dc5b9b4195991fe3f6784853fd5e1eca8f7d4345f"
+      },
+      "renders": {
+        "screens/glucose-history-month-content.webp": "c70c606afaad3e03e4b94d7a299a442bb84e02202a02902f6d82ff703d544633"
+      }
+    },
+    "glucose-history-year": {
+      "sources": {
+        "evidence/legacy-血糖管理-g-year.png": "701755bc49cb584ef9ecae016260c13d799ee8f6d22cc594cbe00df3ac86ab7b"
+      },
+      "renders": {
+        "screens/glucose-history-year-content.webp": "1eb33f622f820da2079b3412689912f11af6b62f17297fd3543c4b97b76d04e0"
+      }
+    },
+    "glucose-history-details": {
+      "sources": {
+        "evidence/legacy-血糖管理-g-details.png": "1077fb1a40ae7ce7c3e41f87c3dd6e78ff8f752203ec4c9ce0b498bff39e2b59"
+      },
+      "renders": {
+        "screens/glucose-history-details-content.webp": "2353503ba11cf1b0f9b435f494b9f09b53d66966ff482181c410a431578da0cf"
+      }
+    },
+    "glucose-history-menu": {
+      "sources": {
+        "evidence/legacy-血糖管理-g-menu.png": "459546607abdb33f0c7e9f4388f2c8467fbd0abc29b8d918ef9fa8f8f858972e"
+      },
+      "renders": {
+        "screens/glucose-history-menu-content.webp": "599a698d6289c2258330057cb52f277729d9439cfe7f71095bee8df2d7735a94"
+      }
+    },
+    "glucose-history-log": {
+      "sources": {
+        "evidence/legacy-血糖管理-g-log.png": "01ef51136bf7451562176ebf37000494065b3fc5084c02131c7df42d12e80bd3"
+      },
+      "renders": {
+        "screens/glucose-history-log-content.webp": "feddbdad4eabe7c755d8d913f8dcd506e45d34df927a3722881fdcb28a1022cd"
+      }
+    },
+    "glucose-history-guide": {
+      "sources": {
+        "evidence/legacy-血糖管理-g-guide.png": "e2c0af6924844423d72a6e331553c6276c9ffa96154dffcedf91b5ba624b800d"
+      },
+      "renders": {
+        "screens/glucose-history-guide-content.webp": "f0778b860eac998299fe93ec30d0a3f029f5a39074fa75908cd153909996165e"
+      }
+    },
+    "profile-history-second": {
+      "sources": {
+        "evidence/legacy-健康档案-微体检-m-second.png": "117d940d3a51227d6ec4b5f6d4a4546351fee5bc53f8ecc1dcf7ac3b5ea821ec"
+      },
+      "renders": {
+        "screens/profile-history-second-content.webp": "c0989da69874f62b73363f79098c0315cfac25129ee71d1416d6867da4e69259"
+      }
+    },
+    "profile-history-report": {
+      "sources": {
+        "evidence/legacy-健康档案-微体检-private-report-0.png": "d99756e12bec2111575f8117f48885f2e1613c6da32cf0f6003dc0e76a2e70d8",
+        "evidence/legacy-健康档案-微体检-private-report-1.png": "b9caa65cd855d9cd84738b068fd9b93a92b642e98ca3d83d40a264acc55ad5af",
+        "evidence/legacy-健康档案-微体检-private-report-10.png": "374a33a4055a111aea810bde910a173fa72eaaa6775e2633364307e0d3272af1",
+        "evidence/legacy-健康档案-微体检-private-report-11.png": "be5ca5feda234e251582a4b012bc9edb551458cb0f9392b458966d01de57761e",
+        "evidence/legacy-健康档案-微体检-private-report-12.png": "052ee75a6b9bbed17819d7bfe56c3fb6770a595ef4edb4b0f715db39e92bff65",
+        "evidence/legacy-健康档案-微体检-private-report-13.png": "51e4d101aec8387085e46e7901f01420b0818cc442d27fc499a2a1069591190b",
+        "evidence/legacy-健康档案-微体检-private-report-14.png": "e929726f49e0ade36a8ee182ff966e106d1f6c32b3b8ef40a3992220c5761ff0",
+        "evidence/legacy-健康档案-微体检-private-report-15.png": "11635d0e4a72dcc01e56a05757b88499df7f0f887362c104d8efe60f259ad2a2",
+        "evidence/legacy-健康档案-微体检-private-report-16.png": "11635d0e4a72dcc01e56a05757b88499df7f0f887362c104d8efe60f259ad2a2",
+        "evidence/legacy-健康档案-微体检-private-report-2.png": "c789eeff6def82dbcb233c7cead669bbe82a40f4766495c5863df2d5eddabc5c",
+        "evidence/legacy-健康档案-微体检-private-report-3.png": "9bb233cbf0f7b815dd05f2bf5d039dd0f9854c049faf0d20d37ea97c07cf7fd6",
+        "evidence/legacy-健康档案-微体检-private-report-4.png": "8f938720a1923cb159723a3946288422d2784095f1cdf92a0d1a2e12a90800dd",
+        "evidence/legacy-健康档案-微体检-private-report-5.png": "028c12c9c795c551b899d71e6b86e1b3be62d91f835bd5ece8413cec95ca6816",
+        "evidence/legacy-健康档案-微体检-private-report-6.png": "295f917f962c8a36a05c502e42bda46fe0e3b48d52c493e94c9c2562f25083c1",
+        "evidence/legacy-健康档案-微体检-private-report-7.png": "99f160c81c7729dbbbeff3f124a6e6003c8a08d5006f811a992c6fce22b4336e",
+        "evidence/legacy-健康档案-微体检-private-report-8.png": "440663bc9777b1307728629d787c8bc507fa7771a77f2e69eec8041ae82d0ab8",
+        "evidence/legacy-健康档案-微体检-private-report-9.png": "f12bd619081e66b7aafbe4fb9dc6890537dcbcfa34fd5f62cd115bd503c5faee"
+      },
+      "renders": {
+        "screens/profile-history-report-header.webp": "bce41172e6292b37b589828bc045dd799d7d1480324474ec0185b271f6813294",
+        "screens/profile-history-report-content.webp": "913b4f7d8daabde40e4ef0565c94998b8ead42927af5f36e4addc853081f7859"
+      }
+    },
+    "today-board-expanded": {
+      "sources": {
+        "evidence/20261120-today-board-expanded-0.png": "13c66325c90b3a0fb4371e04fec153263821c78575a7065769d5e670d1fcbd39",
+        "evidence/20261120-today-board-expanded-1.png": "fa94b13fa9ccc071fd5af2abbecb49c462b0baa3d2bfc05f600bddfad24f9e1a",
+        "evidence/20261120-today-board-expanded-2.png": "79c0b3983a800b76f231b16d1d36247b7215013c95bde4f4bbaac69114e351db",
+        "evidence/20261120-today-board-expanded-3.png": "249b54a221b5701c5049259488d3325f109dac38fca2a1a564cf520175906e8d",
+        "evidence/20261120-today-board-expanded-4.png": "11e28c4cdef530d47d3a43b410567d466e2c5186b3167b74f50bd37efbe4bc34",
+        "evidence/20261120-today-board-expanded-5.png": "f3913996b0373b6868d262afaccd7e3cfd7f786a64a448ad05f906198fb7ed6a"
+      },
+      "renders": {
+        "screens/20261120-today-board-expanded-header.webp": "179165882ca65c43296109bfa4849c88e9282dbed8e75e7215c379473a7b24a7",
+        "screens/20261120-today-board-expanded-content.webp": "57b908c97a915b0d358b7ea3190dc8417b9601464c76c2c1d3774fdf86a603a8",
+        "screens/20261120-today-board-expanded-footer.webp": "af703402f959aba9d2bb2ae75f7508394fcbec54fea50ee9502b2ef8bf905326"
+      }
+    }
+  }
+}

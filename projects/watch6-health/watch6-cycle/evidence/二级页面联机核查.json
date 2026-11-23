@@ -1,0 +1,23 @@
+{
+  "device": "WATCH 6 LEB-AL00",
+  "date": "2026-11-19",
+  "attempts": [
+    {
+      "method": "点击或滑动前",
+      "sha256": "de797a47e328872778f8ca27ea25c648847d178aee4d182680b52534c08e67e3"
+    },
+    {
+      "method": "HDC 注入点击或滑动之后",
+      "sha256": "de797a47e328872778f8ca27ea25c648847d178aee4d182680b52534c08e67e3"
+    },
+    {
+      "method": "重新进入之后",
+      "sha256": "de797a47e328872778f8ca27ea25c648847d178aee4d182680b52534c08e67e3"
+    },
+    {
+      "method": "UITest 屏幕截图",
+      "sha256": "afe760f6be5dce196ee7a4037abc862487cc55baeb8d3b46a37f759d392ff57c"
+    }
+  ],
+  "observed": "两种采集方式取得同一首页或启动画面。未将重复像素登记为二级页面。"
+}

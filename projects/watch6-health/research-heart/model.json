@@ -1,0 +1,553 @@
+{
+  "feature": "research-heart",
+  "devices": {
+    "phone": {
+      "model": "HUAWEI Mate 50",
+      "os": "HarmonyOS 4.2.0.225",
+      "app": "华为创新研究",
+      "appVersion": "16.1.8.300"
+    }
+  },
+  "reviewed": false,
+  "steps": [
+    {
+      "scene": "h-documents",
+      "device": "phone",
+      "from": "变更通知",
+      "action": "打开每份文档，逐屏阅读到末尾并返回通知",
+      "to": "同意前的文书全文",
+      "source": "live",
+      "observedAt": "2026-11-19T14:13:05+08:00",
+      "files": [
+        "evidence/rh-notice.png",
+        "evidence/doc-h-consent-000.png",
+        "evidence/doc-h-consent-001.png",
+        "evidence/doc-h-consent-002.png",
+        "evidence/doc-h-consent-003.png",
+        "evidence/doc-h-consent-004.png",
+        "evidence/doc-h-consent-005.png",
+        "evidence/心脏健康研究用户知情同意书（同意前）.png"
+      ]
+    },
+    {
+      "scene": "heart-records",
+      "device": "phone",
+      "from": "检测页的当日测量数据",
+      "action": "切换主动、自动测量，打开更多及第一条自动测量记录",
+      "to": "结果详情与波形",
+      "source": "live",
+      "observedAt": "2026-11-19T14:26:44+08:00",
+      "files": [
+        "evidence/rh-today-active.png",
+        "evidence/rh-today-auto.png",
+        "evidence/rh-record-active.png",
+        "evidence/rh-record-auto.png",
+        "evidence/rh-result-full-000.png",
+        "evidence/rh-result-full-001.png",
+        "evidence/rh-result-full-002.png",
+        "evidence/筛查结果详情（实机长页）.png"
+      ]
+    },
+    {
+      "scene": "heart-detection",
+      "device": "phone",
+      "from": "心脏健康研究 · 检测",
+      "action": "切换四个统计周期并逐页滚动，打开说明及相关记录",
+      "to": "测量统计与明细",
+      "source": "live",
+      "observedAt": "2026-11-19T14:34:07+08:00",
+      "files": [
+        "evidence/rh-d-full-000.png",
+        "evidence/rh-d-full-001.png",
+        "evidence/rh-d-full-002.png",
+        "evidence/rh-d-full-003.png",
+        "evidence/rh-d-full-004.png",
+        "evidence/rh-d-full-005.png",
+        "evidence/rh-d-week-full-000.png",
+        "evidence/rh-d-week-full-001.png",
+        "evidence/rh-d-week-full-002.png",
+        "evidence/rh-d-week-full-003.png",
+        "evidence/rh-d-week-full-004.png",
+        "evidence/rh-d-month-full-000.png",
+        "evidence/rh-d-month-full-001.png",
+        "evidence/rh-d-month-full-002.png",
+        "evidence/rh-d-month-full-003.png",
+        "evidence/rh-d-month-full-004.png",
+        "evidence/rh-d-year-full-000.png",
+        "evidence/rh-d-year-full-001.png",
+        "evidence/rh-d-year-full-002.png",
+        "evidence/rh-d-year-full-003.png",
+        "evidence/rh-d-year-full-004.png",
+        "evidence/rh-d-info.png",
+        "evidence/rh-burden-info.png",
+        "evidence/rh-stat-more.png",
+        "evidence/rh-stat-week.png",
+        "evidence/rh-stat-month.png",
+        "evidence/rh-stat-year.png",
+        "evidence/心脏健康研究检测 · 日（实机长页）.png",
+        "evidence/心脏健康研究检测 · 周（实机长页）.png",
+        "evidence/心脏健康研究检测 · 月（实机长页）.png",
+        "evidence/心脏健康研究检测 · 年（实机长页）.png"
+      ]
+    },
+    {
+      "scene": "heart-prediction",
+      "device": "phone",
+      "from": "心脏健康研究 · 预测",
+      "action": "切换四个统计周期并逐页滚动，打开说明及相关记录",
+      "to": "风险预测统计与明细",
+      "source": "live",
+      "observedAt": "2026-11-19T14:33:11+08:00",
+      "files": [
+        "evidence/rh-p-full-000.png",
+        "evidence/rh-p-full-001.png",
+        "evidence/rh-p-full-002.png",
+        "evidence/rh-p-week-full-000.png",
+        "evidence/rh-p-week-full-001.png",
+        "evidence/rh-p-week-full-002.png",
+        "evidence/rh-p-month-full-000.png",
+        "evidence/rh-p-month-full-001.png",
+        "evidence/rh-p-month-full-002.png",
+        "evidence/rh-p-year-full-000.png",
+        "evidence/rh-p-year-full-001.png",
+        "evidence/rh-p-year-full-002.png",
+        "evidence/rh-p-info.png",
+        "evidence/rh-alerts.png",
+        "evidence/rh-predict-menu.png",
+        "evidence/rh-surveys.png",
+        "evidence/心脏健康研究预测 · 日（实机长页）.png",
+        "evidence/心脏健康研究预测 · 周（实机长页）.png",
+        "evidence/心脏健康研究预测 · 月（实机长页）.png",
+        "evidence/心脏健康研究预测 · 年（实机长页）.png",
+        "evidence/rh-surveys.png"
+      ]
+    },
+    {
+      "scene": "heart-enter",
+      "device": "phone",
+      "from": "创新研究首页",
+      "action": "打开研究卡片；用户确认后打开检测与预测",
+      "to": "检测、预测",
+      "source": "live",
+      "observedAt": "2026-11-19T14:27:36+08:00",
+      "files": [
+        "evidence/r-home.png",
+        "evidence/rh-notice.png",
+        "evidence/rh-d-full-000.png",
+        "evidence/rh-p-full-000.png"
+      ]
+    },
+    {
+      "scene": "heart-ecg",
+      "device": "phone",
+      "from": "检测页的开始检测",
+      "action": "确认左手佩戴，重新检测；就坐、接触电极、测量并查看本次结果，另记录失败、重试与标准测量方式",
+      "to": "当次 ECG 结果详情和分段波形，或检测失败后重试",
+      "source": "live",
+      "observedAt": "2026-11-19T16:05:03+08:00",
+      "files": [
+        "evidence/start-h-home.png",
+        "evidence/start-h-left.png",
+        "evidence/start-h-ready.png",
+        "evidence/start-h-retry.png",
+        "evidence/start-h-edit.png",
+        "evidence/start-h-edit-cancel.png",
+        "evidence/start-h-return-02.png",
+        "evidence/start-h-late.png",
+        "evidence/start-h-guide.png",
+        "evidence/start-h-outcome.png",
+        "evidence/start-h-symptoms.png",
+        "evidence/start-h-success-000.png",
+        "evidence/start-h-success-001.png",
+        "evidence/start-h-success-002.png",
+        "evidence/start-h-success-003.png",
+        "evidence/start-h-explain-full-000.png",
+        "evidence/start-h-explain-full-001.png",
+        "evidence/start-h-explain-full-002.png",
+        "evidence/start-h-explain-full-003.png",
+        "evidence/本次 ECG 结果详情（实机长页）.png",
+        "evidence/本次 ECG 的结果说明（实机长页）.png",
+        "evidence/ecg-countdown-observation.json"
+      ]
+    },
+    {
+      "scene": "heart-ecg",
+      "device": "phone",
+      "source": "pending",
+      "from": "接触电极",
+      "action": "采集测量中的实际屏幕像素",
+      "to": "测量中倒计时",
+      "files": []
+    },
+    {
+      "scene": "heart-detection",
+      "source": "live",
+      "device": "phone",
+      "from": "@home",
+      "action": "打开并查看创新研究首页",
+      "to": "创新研究首页",
+      "files": [
+        "evidence/landing-0.png",
+        "evidence/landing-1.png",
+        "evidence/landing-2.png",
+        "evidence/landing-3.png",
+        "evidence/landing-4.png",
+        "evidence/landing-5.png",
+        "evidence/landing-6.png"
+      ],
+      "observedAt": "2026-11-19T20:59:14+08:00"
+    }
+  ],
+  "frameEvidence": {
+    "home": {
+      "observedAt": "2026-11-19T20:59:14+08:00",
+      "sources": {
+        "evidence/landing-0.png": "c0a35b67a11ae8742fcccd953fe2134a997354b16325fa6d13cd9de4ff8c0ea9",
+        "evidence/landing-1.png": "9af550adbd8e8f49f60e930334e2612452e2281109a0f0ae8d115737ac7b1c47",
+        "evidence/landing-2.png": "d132584642beef256796f96f63a368839c8fe30ca110964e16c3e4fb39222d2c",
+        "evidence/landing-3.png": "063a5609fff594ce546dbfb9bd421a32cad7491664c3b9f35aed526cfe75e29a",
+        "evidence/landing-4.png": "0bb5cb079cd3b2c0b56d461240e2e4637525d0fd971f3d78009c6b176c27333b",
+        "evidence/landing-5.png": "93bdee7c95130105f5251fbf53b939917ebf57ceb1a135e456394c070dc22d01",
+        "evidence/landing-6.png": "10a3918d580c7c193f87f229d2c9a8112fa82bd659b9c32c87dd43d6969eeccd"
+      },
+      "renders": {
+        "screens/home-h.webp": "251fde3d5f4f568e46208589e00887695249302204b2e97fc5e53e813c4a3f91",
+        "screens/home-c.webp": "e8c832aebf4c0eaa404603391cc4b3207481f9f4f398fe6caf18e5f67ddcd60a",
+        "screens/home-f.webp": "65677a10186f4f78ecb2f1eaa61158e987dd3c9e468491b8c90a9f5412a30e0b"
+      }
+    },
+    "h-notice": {
+      "sources": {
+        "evidence/rh-notice.png": "c910629b3cd3db74d9033b60e5b4b3cacf9c7acf5555b9631fbd40120fea6b03"
+      },
+      "renders": {
+        "screens/h-notice-content.webp": "80b02cff82c41a3bb45129db29117b4f9a2086984ac1bdaea549d5dfabe2ff0c"
+      }
+    },
+    "h-consent": {
+      "sources": {
+        "evidence/心脏健康研究用户知情同意书（同意前）.png": "dbfd7718402b81c9f29c38b4b2373e94394e162386628768bb3b34f773b5d66f",
+        "evidence/doc-h-consent-004.png": "17a90369620ac442b79c6950e309454282aac3f7cce72784d95dc2f8c2f0279b"
+      },
+      "renders": {
+        "screens/h-consent-header.webp": "b874ff64515954c143dbc69848d32427e8738b291188465611cb00dbfa96fba5",
+        "screens/h-consent-content.webp": "da60e24e9218aae380e00809f53d363fae92afd9586ba020b8d0875935a90960"
+      }
+    },
+    "h-screen-info": {
+      "sources": {
+        "evidence/rh-d-info.png": "264853bd8d29e6e07340a9ea250485d26e92422d1c554c3a8497d29d94b2e3a3"
+      },
+      "renders": {
+        "screens/h-screen-info-content.webp": "4a4ddbac0361d0d65278aef55e2540cd8a23dd4185f821d755c78b594e1a4f16"
+      }
+    },
+    "h-burden": {
+      "sources": {
+        "evidence/rh-burden-info.png": "d0c9e0c0c10e42c948d921e8d334c08eeb7c7e53ca4f75873a8851c7ffef7994"
+      },
+      "renders": {
+        "screens/h-burden-content.webp": "37c88d91f55be61a9ffe730d3d2d6c682d93a0a8a922eb7d3cc7a79b9271cf75"
+      }
+    },
+    "h-stat": {
+      "sources": {
+        "evidence/rh-stat-more.png": "1460dc8e34f5206e26f21ae2d481f5702e741423b673c4c35cd0ea38bcbf0665",
+        "evidence/rh-stat-month.png": "ed11c2ea846df2c87f3e19529228a05b4d4ba70dac94ddb118a3388ab204d8f8"
+      },
+      "renders": {
+        "screens/h-stat-content.webp": "b0d8265292bce855c7f54951eebeba24c93db546c2e64def0931cf3c0286151a"
+      }
+    },
+    "h-today-active": {
+      "sources": {
+        "evidence/rh-today-active.png": "dfda123780a8a72cc9f37a97b851cc00005b9f56adff9ae8a64a352287d65221"
+      },
+      "renders": {
+        "screens/h-today-active-content.webp": "6b48dd3223cbb3a0faf478a93c684f5f90e568286412810318c496376effa4fa"
+      }
+    },
+    "h-today-auto": {
+      "sources": {
+        "evidence/rh-today-active.png": "dfda123780a8a72cc9f37a97b851cc00005b9f56adff9ae8a64a352287d65221",
+        "evidence/rh-today-auto.png": "c39efe04646515ead2914ddb74a0b3c8c708606faf77271865dd916dbb7c9484"
+      },
+      "renders": {
+        "screens/h-today-auto-content.webp": "67404a37276d4379a8939e67a09b390cf0355c05c8827f4c9efe1b16def6a3d8"
+      }
+    },
+    "h-records-auto": {
+      "sources": {
+        "evidence/rh-record-auto.png": "b606ce0f69f382d1328497b65cc5c98acd9f5b995f9323ede526421580549446"
+      },
+      "renders": {
+        "screens/h-records-auto-content.webp": "064a8d9cbdbfe92626d29289bc8219128896fed8269e195fec3b3bf8d60d4ae4"
+      }
+    },
+    "h-records-active": {
+      "sources": {
+        "evidence/rh-record-active.png": "8e6f310525cbe81c9aebf009cd7a35c43e822267ab0ba8f0eee78d217c709067"
+      },
+      "renders": {
+        "screens/h-records-active-content.webp": "dc61dac621d8a60de9a46f9eef0449bdba58edd9f312dff1991439556d7b214f"
+      }
+    },
+    "h-risk-info": {
+      "sources": {
+        "evidence/rh-p-info.png": "a280c106817643c3ca81ad7aea06c93a969b89b6656169439535bd73bd0a13f4"
+      },
+      "renders": {
+        "screens/h-risk-info-content.webp": "5c13a2d4fcbe579fb12fbbe20ab83bc212d5ceb09a8efc0ac2dc484aacc8fdac"
+      }
+    },
+    "h-alerts": {
+      "sources": {
+        "evidence/rh-alerts.png": "3bd68b00eeb9f645aa1fcb90489d75589434f29f24a5c9d4698c78de4ba5ce94"
+      },
+      "renders": {
+        "screens/h-alerts-content.webp": "581cc9ed3e1ee1164718b4f93cc3c2398df10d74c420b10619272aadf12ee43c"
+      }
+    },
+    "h-menu": {
+      "sources": {
+        "evidence/rh-predict-menu.png": "be1ba3884174cccff7c9085b79f753d2f9b5f9a13b6dc020bcca294f9b8b68ac",
+        "evidence/rh-p-full-000.png": "3792e3f160b1a94d990a1be4f84b38f377a84afc66f23f4ac5c35c159e18283b"
+      },
+      "renders": {
+        "screens/h-menu-content.webp": "8da2fa4a693bf08c5115248467e6e8d7fdf1686216d568ad5505862cee2da470"
+      }
+    },
+    "h-stat-week": {
+      "sources": {
+        "evidence/rh-stat-week.png": "6272cd30484b5974201fd2fbc2d99d94fa937e3cc3196b85dfc40f4febc9d34d",
+        "evidence/rh-stat-month.png": "ed11c2ea846df2c87f3e19529228a05b4d4ba70dac94ddb118a3388ab204d8f8",
+        "evidence/rh-stat-more.png": "1460dc8e34f5206e26f21ae2d481f5702e741423b673c4c35cd0ea38bcbf0665"
+      },
+      "renders": {
+        "screens/h-stat-week-content.webp": "9218f134238a6dcd3f4f062faf5a7916fbd91e717e524ef5100a4d6e200889cb"
+      }
+    },
+    "h-stat-month": {
+      "sources": {
+        "evidence/rh-stat-month.png": "ed11c2ea846df2c87f3e19529228a05b4d4ba70dac94ddb118a3388ab204d8f8"
+      },
+      "renders": {
+        "screens/h-stat-month-content.webp": "2e5ecf85b135e5b52a607274b562097f927006e519da48e4be6b44299fcba534"
+      }
+    },
+    "h-stat-year": {
+      "sources": {
+        "evidence/rh-stat-year.png": "1dd09eb854fbbc5d541c1c6ac8280d191060b36ee18f00c72a1314dc1ec92bff",
+        "evidence/rh-stat-month.png": "ed11c2ea846df2c87f3e19529228a05b4d4ba70dac94ddb118a3388ab204d8f8"
+      },
+      "renders": {
+        "screens/h-stat-year-content.webp": "f965c36ccc594bad239e092c2303a24eb75a23260ab807113db2596511388c4c"
+      }
+    },
+    "h-surveys": {
+      "sources": {
+        "evidence/rh-surveys.png": "1ed35007bb8972e10dae821a7d54734bafc6be7e6e046eaeff357b9e2fd10b2a"
+      },
+      "renders": {
+        "screens/h-surveys-content.webp": "743ff115774d84748e7964325ca412af9f8d382452ef0a420d380a3c87f35253"
+      }
+    },
+    "h-result": {
+      "sources": {
+        "evidence/筛查结果详情（实机长页）.png": "e6a13b9c515df81e8de3064642c62c9eb61a6ebf1258d5b410e3e97a624412e6"
+      },
+      "renders": {
+        "screens/h-result-header.webp": "8680fc414961728cd9e79e61cf5b983c02d0056dd123d801c2962f6a33faba97",
+        "screens/h-result-content.webp": "ab6dd5d5fa822e8d86650a69a544770464a15102cb4b93f4f1efaf0d4d59146c"
+      }
+    },
+    "h-detect": {
+      "sources": {
+        "evidence/心脏健康研究检测 · 年（实机长页）.png": "bad56aca7e889f3705f036e8c7bd0bf21aa89caff83c1b43a488dd9995b44d02",
+        "evidence/rh-today-auto.png": "c39efe04646515ead2914ddb74a0b3c8c708606faf77271865dd916dbb7c9484",
+        "evidence/rh-d-full-002.png": "115a6c9bbbee68ca515109e175799441d4368aa0851bc7120001e33537b05959",
+        "evidence/rh-d-full-001.png": "d8f0f828009a5d744542523185b62ce490692b771aabeec5170eeb63c2e80d68"
+      },
+      "renders": {
+        "screens/h-detect-header.webp": "da2423b47a73675a315604d997863f1d7e92fb2e3d5effca278aec5692e52e1e",
+        "screens/h-detect-content.webp": "2ef97b616fe3088f463e96149ea9e46984271a0adbc7f1a2c05a316ef16998e5"
+      }
+    },
+    "h-detect-week": {
+      "sources": {
+        "evidence/rh-d-full-004.png": "36b5995ad560efd4f59b323d9effd6bb98ca3bd723b3195537092e03ff045880",
+        "evidence/rh-d-week-full-003.png": "c4262dc4b5d3f357342a4d4479a6b1e4171f89b05321d5243723f682d8d15b08",
+        "evidence/rh-d-month-full-003.png": "193f695599f9c58e70a759f71072e8a57ea23dff852fd1f64fde817ad93f73df",
+        "evidence/rh-d-week-full-002.png": "0b279e2fe2df0ee30bc84c9b577fd6a1088033b2e1c49ce1e51482b233f42323"
+      },
+      "renders": {
+        "screens/h-detect-week-header.webp": "2d7a338fd2d7a08d7879c85396d0b7fea957a1a8ef4fc87fb52594fa8a254160",
+        "screens/h-detect-week-content.webp": "08822e3e894bd09b1a869a1a78e8153fa8e6d93f87ef727c6947c2dcb985faac"
+      }
+    },
+    "h-detect-month": {
+      "sources": {
+        "evidence/rh-d-full-004.png": "36b5995ad560efd4f59b323d9effd6bb98ca3bd723b3195537092e03ff045880",
+        "evidence/rh-d-month-full-003.png": "193f695599f9c58e70a759f71072e8a57ea23dff852fd1f64fde817ad93f73df",
+        "evidence/心脏健康研究检测 · 月（实机长页）.png": "1a523e4508654b80be8859593977788b68528567927e16aaa36d88c272e31e2d",
+        "evidence/rh-d-full-001.png": "d8f0f828009a5d744542523185b62ce490692b771aabeec5170eeb63c2e80d68"
+      },
+      "renders": {
+        "screens/h-detect-month-header.webp": "abbcf20fc2a3dd4aa775d8bb5bb9bc90abf06fd2b9b4789d60f96876a8b6fceb",
+        "screens/h-detect-month-content.webp": "653c27014832d746584676432cede1f6c5ca80109e74dac5edabaa7a5e6957ee"
+      }
+    },
+    "h-detect-year": {
+      "sources": {
+        "evidence/rh-d-full-004.png": "36b5995ad560efd4f59b323d9effd6bb98ca3bd723b3195537092e03ff045880",
+        "evidence/rh-d-month-full-003.png": "193f695599f9c58e70a759f71072e8a57ea23dff852fd1f64fde817ad93f73df",
+        "evidence/心脏健康研究检测 · 年（实机长页）.png": "bad56aca7e889f3705f036e8c7bd0bf21aa89caff83c1b43a488dd9995b44d02",
+        "evidence/rh-d-full-001.png": "d8f0f828009a5d744542523185b62ce490692b771aabeec5170eeb63c2e80d68"
+      },
+      "renders": {
+        "screens/h-detect-year-header.webp": "4202db39f9982fc667487e50968871a93793651edeb4a1f11db4449bfa5c105f",
+        "screens/h-detect-year-content.webp": "835defd83dc0ff54db6c9892862f1872efd93e91aecb77f6ac9d647393e09780"
+      }
+    },
+    "h-predict": {
+      "sources": {
+        "evidence/rh-p-full-001.png": "c085dc172c93671cade1528c369c18a8d46b01a6a9ebd9e5a54e5d59a2f23aa9",
+        "evidence/rh-p-full-000.png": "3792e3f160b1a94d990a1be4f84b38f377a84afc66f23f4ac5c35c159e18283b"
+      },
+      "renders": {
+        "screens/h-predict-header.webp": "d3d72fbf795b3d82a09d4d6a436af5f944668534975e51043f651ef7dfbd70b3",
+        "screens/h-predict-content.webp": "a9fe03b4bae45b5435d4c198cc62e36a9d8ba90a909b4c2e48acd9ec5e6f6111"
+      }
+    },
+    "h-predict-week": {
+      "sources": {
+        "evidence/rh-p-week-full-001.png": "981729c3a6833a6f9a25c5166b8ed9365090906d17ff4e867071f45499e495f7",
+        "evidence/rh-p-full-001.png": "c085dc172c93671cade1528c369c18a8d46b01a6a9ebd9e5a54e5d59a2f23aa9",
+        "evidence/rh-p-full-000.png": "3792e3f160b1a94d990a1be4f84b38f377a84afc66f23f4ac5c35c159e18283b",
+        "evidence/心脏健康研究预测 · 日（实机长页）.png": "8d20dbf17aa2d5e975709031d48126ef69e85d7bb4eddc23cd1060dd32af0477"
+      },
+      "renders": {
+        "screens/h-predict-week-header.webp": "27394fa68517f01cb43052fbe77cee5221cbd5c2ee5ca1184fa8845d094052a7",
+        "screens/h-predict-week-content.webp": "fed26fb57f6e99df6e43d03e80f622957193e03e527ca3433f0c6e031c3dfc63"
+      }
+    },
+    "h-predict-month": {
+      "sources": {
+        "evidence/rh-p-month-full-001.png": "c914bfbd1f776870a371947edd2893bdc5e36eaedc098d34756becfe9c3a4b20",
+        "evidence/rh-p-full-000.png": "3792e3f160b1a94d990a1be4f84b38f377a84afc66f23f4ac5c35c159e18283b",
+        "evidence/rh-p-full-001.png": "c085dc172c93671cade1528c369c18a8d46b01a6a9ebd9e5a54e5d59a2f23aa9",
+        "evidence/心脏健康研究预测 · 日（实机长页）.png": "8d20dbf17aa2d5e975709031d48126ef69e85d7bb4eddc23cd1060dd32af0477"
+      },
+      "renders": {
+        "screens/h-predict-month-header.webp": "4c9a230f62c280e6734214009192eeb654166799595d98817a7771fb5912bd52",
+        "screens/h-predict-month-content.webp": "2478fbb0b97d47d618473fdda3d81ec4068fd65a4dbc2a457716d810eeb62756"
+      }
+    },
+    "h-predict-year": {
+      "sources": {
+        "evidence/rh-p-year-full-001.png": "8ce206b9024a0b91194f35c070ae3357324a6cc649d5efe9b503a1b19b0ae05e",
+        "evidence/rh-p-month-full-001.png": "c914bfbd1f776870a371947edd2893bdc5e36eaedc098d34756becfe9c3a4b20",
+        "evidence/rh-p-full-000.png": "3792e3f160b1a94d990a1be4f84b38f377a84afc66f23f4ac5c35c159e18283b",
+        "evidence/rh-p-full-001.png": "c085dc172c93671cade1528c369c18a8d46b01a6a9ebd9e5a54e5d59a2f23aa9"
+      },
+      "renders": {
+        "screens/h-predict-year-header.webp": "0707fcf9627bfe9e0810bdea158412fb6eb3607b480ee1b0e5abd572ae7a0daf",
+        "screens/h-predict-year-content.webp": "694ad8a52407c735fc4bec94c761faeabe742732de9eb0e2f8171f4101a869c5"
+      }
+    },
+    "home-first": {
+      "sources": {
+        "evidence/r-home.png": "76300bcb11db7962733d496dd80d2b8806baad6f7a8d712aa6ae68228c47ebf1"
+      },
+      "renders": {
+        "screens/home-content.webp": "b57d8f57d225245a52709c3c9f40079a9dc74879a116e7bf4822328bf4e5afcc"
+      }
+    },
+    "h-wear-left": {
+      "sources": {
+        "evidence/start-h-left.png": "6e997c22301a047748e73cdee02bff14e954108d417538bfa03e1fdaa6ccacc6",
+        "evidence/start-h-edit.png": "f30de7fd29d25ad783786f1ff4b25995bd2b5c21c3a30bf081ad5b1c11bc2f43"
+      },
+      "renders": {
+        "screens/h-wear-left-content.webp": "1121bbc057af19b0ab2b95f8e330e60ff55390a5995af23a33b15d2d4a60ee1d"
+      }
+    },
+    "h-ecg-ready": {
+      "sources": {
+        "evidence/start-h-late.png": "17d4a10a91fd0ac8456293fbf5acf2da852cf972a1f4b4079c30d5c1d77a8803",
+        "evidence/start-h-ready.png": "8fa28a49afa2e73dcd0b384af3f84fcba22464c1e84fba68cec19f264a50d2c5"
+      },
+      "renders": {
+        "screens/h-ecg-ready-content.webp": "ed8fae1069b53fa20b8a64e3c228774a9115cee5fbe8aac52e19cd2a21d64393"
+      }
+    },
+    "h-ecg-prepare": {
+      "sources": {
+        "evidence/start-h-edit-cancel.png": "eeb5e5bd9bafe2b6a04a7afb303a3b47f90b78269b8072e48a5adbf31327cd24",
+        "evidence/start-h-retry.png": "e4227dfebb24f6b10f62395e696c0c6349e279aa43171a1e2cc01e236f9e06f7"
+      },
+      "renders": {
+        "screens/h-ecg-prepare-content.webp": "a3acc8642500dd0bedd7ab83c24345ffd0fc509b3d277559c15de72e93f40e10"
+      }
+    },
+    "h-ecg-wrist": {
+      "sources": {
+        "evidence/start-h-edit.png": "f30de7fd29d25ad783786f1ff4b25995bd2b5c21c3a30bf081ad5b1c11bc2f43"
+      },
+      "renders": {
+        "screens/h-ecg-wrist-content.webp": "39551f19b71f28da323290abafa5d68bfe16a4260af13f8dd690ef28cf6e5982"
+      }
+    },
+    "h-ecg-electrode": {
+      "sources": {
+        "evidence/start-h-return-02.png": "add6f9da0e3d8341775eda8b04721d15854b74ad3c9822b1e3ff9d7d0f1c165e"
+      },
+      "renders": {
+        "screens/h-ecg-electrode-content.webp": "482778937ff428bb49dc8abe42ebf2cb6cda6fd3e2ada4068b430f09dd232bfa"
+      }
+    },
+    "h-ecg-failed": {
+      "sources": {
+        "evidence/start-h-late.png": "17d4a10a91fd0ac8456293fbf5acf2da852cf972a1f4b4079c30d5c1d77a8803"
+      },
+      "renders": {
+        "screens/h-ecg-failed-content.webp": "056013a2c666ef21da35d670cd2574d2771342e7453b7fd40543808a5427ea84"
+      }
+    },
+    "h-ecg-guide": {
+      "sources": {
+        "evidence/start-h-guide.png": "8c9073df34ccb5c65d47b6bbb1551df2068d2239ff24a6be97b2b70f6f5d0056"
+      },
+      "renders": {
+        "screens/h-ecg-guide-content.webp": "f54a4b06d6d69a009f34de0585cfba9c7baa65cbe759de063f3216430f10ee0a"
+      }
+    },
+    "h-ecg-symptoms": {
+      "sources": {
+        "evidence/start-h-symptoms.png": "069d87902e2b4f390720f879d1b81ba58fdf871bdd917cae4f408c72ef973f49"
+      },
+      "renders": {
+        "screens/h-ecg-symptoms-content.webp": "ef8a2ccb53ff4833a8cc24cc9b9976e40b16a3ad5e256842dce7360d0dcc1476"
+      }
+    },
+    "h-ecg-report": {
+      "sources": {
+        "evidence/本次 ECG 结果详情（实机长页）.png": "b23ec231009b144377dae5806c9c9103769d2dc08bc4503bbc3774ff64c0348a",
+        "evidence/start-h-outcome.png": "43cc8e8ce0ee0bdf78528b36f1b5de29405e3962efbee978a91f38481368f9b1"
+      },
+      "renders": {
+        "screens/h-ecg-report-header.webp": "f06961457978d9f2b71e25df112338c1abd72f900a8f71c52bd31cbe5a7492b8",
+        "screens/h-ecg-report-content.webp": "a82a1370116709e65062c6fbf33ffd4e13044abf6cbacf69c2cea5ce146a57b3"
+      }
+    },
+    "h-ecg-explain": {
+      "sources": {
+        "evidence/本次 ECG 的结果说明（实机长页）.png": "7fda11f06bc862ac796d52e20ecf118ba0ce857cdbc631a258f7535de997cf43"
+      },
+      "renders": {
+        "screens/h-ecg-explain-header.webp": "7b27c5cd23a40854594ae8be97f3822028bf3db4759142a86f80e75207ac266e",
+        "screens/h-ecg-explain-content.webp": "32f68243cafea1cd490c7a9a651c51100e25e9ee70adeddfead68462555e59ac"
+      }
+    }
+  }
+}

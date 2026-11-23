@@ -1,0 +1,3962 @@
+{
+  "id": "watch6-research",
+  "name": "华为创新研究",
+  "watchProfile": "watch6",
+  "watchScreens": {
+    "@face": "dial",
+    "@launcher": "launcher"
+  },
+  "entries": {
+    "launcher": {
+      "label": "华为创新研究",
+      "page": "live-084"
+    }
+  },
+  "pages": {
+    "dial": {
+      "device": "watch",
+      "title": "实机表盘",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/dial.webp",
+        "contentLabel": "实机表盘",
+        "hotspots": []
+      }
+    },
+    "launcher": {
+      "title": "应用列表 · 微体检与情绪健康",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher.webp",
+        "contentLabel": "应用列表 · 微体检与情绪健康",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "健康洞察",
+            "box": [
+              10.866,
+              11.373,
+              78.267,
+              22.103
+            ]
+          },
+          {
+            "label": "微体检",
+            "box": [
+              2.575,
+              36.052,
+              94.85,
+              27.682
+            ]
+          },
+          {
+            "label": "情绪健康",
+            "box": [
+              10.725,
+              66.309,
+              78.549,
+              22.103
+            ]
+          },
+          {
+            "label": "华为创新研究",
+            "box": [
+              31.831,
+              90.987,
+              36.339,
+              9.013
+            ]
+          }
+        ],
+        "swipe": {
+          "up": "launcher-heart"
+        }
+      }
+    },
+    "launcher-heart": {
+      "title": "应用列表 · 研究与心率",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher-heart.webp",
+        "contentLabel": "应用列表 · 研究与心率",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "情绪健康",
+            "box": [
+              32.068,
+              0.0,
+              35.865,
+              8.798
+            ]
+          },
+          {
+            "label": "华为创新研究",
+            "box": [
+              10.866,
+              11.373,
+              78.267,
+              22.103
+            ]
+          },
+          {
+            "label": "心率",
+            "box": [
+              2.575,
+              36.052,
+              94.85,
+              27.682
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "@launcher",
+          "up": "launcher-living"
+        }
+      }
+    },
+    "launcher-living": {
+      "title": "应用列表 · 健康生活",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher-living.webp",
+        "contentLabel": "应用列表 · 健康生活",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "健康生活",
+            "box": [
+              10.725,
+              66.309,
+              78.549,
+              22.103
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "launcher-heart",
+          "up": "launcher-cycle"
+        }
+      }
+    },
+    "launcher-cycle": {
+      "title": "应用列表 · 生理周期",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher-cycle.webp",
+        "contentLabel": "应用列表 · 生理周期",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "生理周期",
+            "box": [
+              31.831,
+              90.987,
+              36.339,
+              9.013
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "launcher-living"
+        }
+      }
+    },
+    "main": {
+      "device": "watch",
+      "title": "内分泌研究项目",
+      "parent": "@launcher",
+      "capture": {
+        "content": "screens/main.webp",
+        "contentLabel": "内分泌研究项目",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "血糖健康研究",
+            "box": [
+              4.721,
+              36.695,
+              89.914,
+              27.253
+            ],
+            "page": "glucose"
+          },
+          {
+            "zone": "content",
+            "label": "高尿酸研究",
+            "box": [
+              10,
+              66,
+              80,
+              25
+            ],
+            "page": "uric"
+          }
+        ],
+        "swipe": {
+          "up": "down1"
+        },
+        "replay": {
+          "description": "可从本页继续进入对应的实机流程。",
+          "actions": [
+            {
+              "label": "打开本次实机流程",
+              "page": "live-084"
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    "down1": {
+      "device": "watch",
+      "title": "高血压风险研究与冠心病研究",
+      "parent": "@launcher",
+      "capture": {
+        "content": "screens/down1.webp",
+        "contentLabel": "高血压风险研究与冠心病研究",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "高血压风险研究",
+            "box": [
+              4,
+              36,
+              92,
+              30
+            ],
+            "page": "bp"
+          },
+          {
+            "zone": "content",
+            "label": "冠心病研究",
+            "box": [
+              9,
+              65,
+              82,
+              25
+            ],
+            "page": "coronary"
+          },
+          {
+            "zone": "content",
+            "label": "高尿酸研究",
+            "box": [
+              22,
+              0,
+              56,
+              16
+            ],
+            "page": "uric"
+          },
+          {
+            "zone": "content",
+            "label": "心脏健康研究",
+            "box": [
+              22,
+              90,
+              56,
+              10
+            ],
+            "page": "ecg"
+          }
+        ],
+        "swipe": {
+          "down": "main",
+          "up": "down2"
+        }
+      }
+    },
+    "down2": {
+      "device": "watch",
+      "title": "心脏健康、血管健康与女性健康研究",
+      "parent": "@launcher",
+      "capture": {
+        "content": "screens/down2.webp",
+        "contentLabel": "心脏健康、血管健康与女性健康研究",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "心脏健康研究",
+            "box": [
+              9,
+              12,
+              82,
+              24
+            ],
+            "page": "ecg"
+          },
+          {
+            "zone": "content",
+            "label": "血管健康研究",
+            "box": [
+              4,
+              36,
+              92,
+              30
+            ],
+            "page": "vessel"
+          },
+          {
+            "zone": "content",
+            "label": "女性健康研究",
+            "box": [
+              21,
+              83,
+              58,
+              17
+            ],
+            "page": "female"
+          },
+          {
+            "zone": "content",
+            "label": "冠心病研究",
+            "box": [
+              21,
+              0,
+              58,
+              9
+            ],
+            "page": "coronary"
+          }
+        ],
+        "swipe": {
+          "down": "down1",
+          "up": "down3"
+        }
+      }
+    },
+    "down3": {
+      "device": "watch",
+      "title": "呼吸健康研究与高原健康研究",
+      "parent": "@launcher",
+      "capture": {
+        "content": "screens/down3.webp",
+        "contentLabel": "呼吸健康研究与高原健康研究",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "呼吸健康研究",
+            "box": [
+              4,
+              36,
+              92,
+              30
+            ],
+            "page": "resp"
+          },
+          {
+            "zone": "content",
+            "label": "高原健康研究",
+            "box": [
+              9,
+              65,
+              82,
+              24
+            ],
+            "page": "altitude"
+          },
+          {
+            "zone": "content",
+            "label": "女性健康研究",
+            "box": [
+              19,
+              0,
+              62,
+              18
+            ],
+            "page": "female"
+          },
+          {
+            "zone": "content",
+            "label": "更多",
+            "box": [
+              32,
+              92,
+              36,
+              8
+            ],
+            "page": "projects"
+          }
+        ],
+        "swipe": {
+          "down": "down2",
+          "up": "down4"
+        }
+      }
+    },
+    "down4": {
+      "device": "watch",
+      "title": "高原健康研究与更多",
+      "parent": "@launcher",
+      "capture": {
+        "content": "screens/down4.webp",
+        "contentLabel": "高原健康研究与更多",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "更多",
+            "box": [
+              18,
+              35,
+              64,
+              26
+            ],
+            "page": "projects"
+          },
+          {
+            "zone": "content",
+            "label": "高原健康研究",
+            "box": [
+              10,
+              8,
+              80,
+              22
+            ],
+            "page": "altitude"
+          }
+        ],
+        "swipe": {
+          "down": "down3"
+        }
+      }
+    },
+    "glucose": {
+      "device": "watch",
+      "title": "血糖健康研究 · 测量说明",
+      "provenance": "WATCH 6 实机",
+      "parent": "main",
+      "capture": {
+        "content": "screens/real-glucose.webp",
+        "contentLabel": "血糖健康研究 · 测量说明",
+        "hotspots": [],
+        "pendingHotspots": [
+          {
+            "label": "开始体验",
+            "zone": "content",
+            "box": [
+              16,
+              79,
+              68,
+              18
+            ]
+          }
+        ],
+        "replay": {
+          "description": "可从本页继续进入对应的实机流程。",
+          "actions": [
+            {
+              "label": "打开本轮实机流程",
+              "page": "live-088"
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    "ecg": {
+      "device": "watch",
+      "title": "心脏健康研究 · 最近记录",
+      "provenance": "WATCH 6 实机",
+      "parent": "down2",
+      "capture": {
+        "content": "screens/real-ecg.webp",
+        "contentLabel": "心脏健康研究 · 最近记录",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "开始检测",
+            "box": [
+              25,
+              75,
+              50,
+              18
+            ],
+            "page": "ecg-detect"
+          }
+        ],
+        "pendingHotspots": [],
+        "replay": {
+          "description": "可从本页继续进入对应的实机流程。",
+          "actions": [
+            {
+              "label": "打开本轮实机流程",
+              "page": "live-105"
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    "bp": {
+      "device": "watch",
+      "title": "高血压风险评估 · 启动评估",
+      "provenance": "WATCH 6 实机",
+      "parent": "down1",
+      "capture": {
+        "content": "screens/real-bp.webp",
+        "contentLabel": "高血压风险评估 · 启动评估",
+        "hotspots": [],
+        "pendingHotspots": [
+          {
+            "label": "高血压风险评估说明",
+            "zone": "content",
+            "box": [
+              69,
+              6,
+              12,
+              15
+            ]
+          },
+          {
+            "label": "启动评估",
+            "zone": "content",
+            "box": [
+              25,
+              75,
+              51,
+              18
+            ]
+          }
+        ],
+        "replay": {
+          "description": "可从本页继续进入对应的实机流程。",
+          "actions": [
+            {
+              "label": "打开本轮实机流程",
+              "page": "live-098"
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    "projects": {
+      "device": "watch",
+      "title": "更多",
+      "provenance": "WATCH 6 实机",
+      "parent": "down4",
+      "capture": {
+        "content": "screens/real-projects.webp",
+        "contentLabel": "更多",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "佩戴方式",
+            "box": [
+              10,
+              66,
+              80,
+              23
+            ],
+            "page": "wear-hand"
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "label": "手机侧 App",
+            "zone": "content",
+            "box": [
+              10,
+              13,
+              80,
+              24
+            ]
+          },
+          {
+            "label": "个人信息",
+            "zone": "content",
+            "box": [
+              10,
+              40,
+              80,
+              22
+            ]
+          }
+        ],
+        "swipe": {
+          "up": "more-lower"
+        }
+      }
+    },
+    "more-lower": {
+      "device": "watch",
+      "title": "更多 · 关于",
+      "provenance": "WATCH 6 实机",
+      "parent": "projects",
+      "capture": {
+        "content": "screens/real-more-lower.webp",
+        "contentLabel": "更多 · 关于",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "佩戴方式",
+            "box": [
+              10,
+              36,
+              80,
+              23
+            ],
+            "page": "wear-hand"
+          },
+          {
+            "label": "关于",
+            "zone": "content",
+            "box": [
+              10,
+              64,
+              80,
+              22
+            ],
+            "page": "about"
+          }
+        ],
+        "swipe": {
+          "down": "projects"
+        },
+        "pendingHotspots": []
+      }
+    },
+    "wear-hand": {
+      "device": "watch",
+      "title": "选择佩戴方式 · 左手佩戴",
+      "provenance": "WATCH 6 实机",
+      "parent": "projects",
+      "capture": {
+        "content": "screens/real-wear-hand.webp",
+        "contentLabel": "选择佩戴方式 · 左手佩戴",
+        "hotspots": [],
+        "pendingHotspots": [
+          {
+            "label": "确认佩戴方式",
+            "zone": "content",
+            "box": [
+              16,
+              80,
+              68,
+              16
+            ]
+          }
+        ],
+        "listBands": [
+          [
+            0,
+            49
+          ],
+          [
+            49,
+            77
+          ],
+          [
+            77,
+            100
+          ]
+        ]
+      }
+    },
+    "ecg-empty": {
+      "device": "watch",
+      "title": "心脏健康研究 · 暂无数据",
+      "provenance": "WATCH 6 实机",
+      "parent": "down2",
+      "capture": {
+        "content": "screens/real-ecg-empty.webp",
+        "contentLabel": "心脏健康研究 · 暂无数据",
+        "hotspots": [],
+        "pendingHotspots": [
+          {
+            "label": "开始检测",
+            "zone": "content",
+            "box": [
+              25,
+              75,
+              50,
+              18
+            ]
+          }
+        ]
+      }
+    },
+    "ecg-detect": {
+      "device": "watch",
+      "title": "心脏检测 · 未佩戴设备",
+      "provenance": "WATCH 6 实机",
+      "parent": "ecg",
+      "capture": {
+        "content": "screens/real-ecg-detect.webp",
+        "contentLabel": "心脏检测 · 未佩戴设备",
+        "hotspots": [],
+        "pendingHotspots": [
+          {
+            "label": "重新测量",
+            "zone": "content",
+            "box": [
+              16,
+              78,
+              68,
+              19
+            ]
+          }
+        ]
+      }
+    },
+    "uric": {
+      "device": "watch",
+      "title": "高尿酸风险评估",
+      "provenance": "WATCH 6 实机",
+      "parent": "main",
+      "capture": {
+        "content": "screens/real-uric.webp",
+        "contentLabel": "高尿酸风险评估",
+        "hotspots": [],
+        "pendingHotspots": [
+          {
+            "label": "启动评估",
+            "zone": "content",
+            "box": [
+              23,
+              74,
+              54,
+              20
+            ]
+          }
+        ],
+        "replay": {
+          "description": "可从本页继续进入对应的实机流程。",
+          "actions": [
+            {
+              "label": "打开本轮实机流程",
+              "page": "live-093"
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    "coronary": {
+      "device": "watch",
+      "title": "冠心病研究 · 启动画面",
+      "provenance": "WATCH 6 实机",
+      "parent": "down1",
+      "capture": {
+        "content": "screens/real-coronary.webp",
+        "contentLabel": "冠心病研究 · 启动画面",
+        "hotspots": [],
+        "replay": {
+          "description": "可从本页继续进入对应的实机流程。",
+          "actions": [
+            {
+              "label": "打开本轮实机流程",
+              "page": "live-114"
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    "vessel": {
+      "device": "watch",
+      "title": "血管健康研究 · 测量说明",
+      "provenance": "WATCH 6 实机",
+      "parent": "down2",
+      "capture": {
+        "content": "screens/real-vessel.webp",
+        "contentLabel": "血管健康研究 · 测量说明",
+        "hotspots": [],
+        "pendingHotspots": [
+          {
+            "label": "确定",
+            "zone": "content",
+            "box": [
+              15,
+              78,
+              70,
+              20
+            ]
+          }
+        ],
+        "replay": {
+          "description": "可从本页继续进入对应的实机流程。",
+          "actions": [
+            {
+              "label": "打开本轮实机流程",
+              "page": "live-110"
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    "female": {
+      "device": "watch",
+      "title": "女性健康研究 · 启动画面",
+      "provenance": "WATCH 6 实机",
+      "parent": "down2",
+      "capture": {
+        "content": "screens/real-female.webp",
+        "contentLabel": "女性健康研究 · 启动画面",
+        "hotspots": [],
+        "replay": {
+          "description": "可从本页继续进入对应的实机流程。",
+          "actions": [
+            {
+              "label": "打开本轮实机流程",
+              "page": "live-123"
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    "resp": {
+      "device": "watch",
+      "title": "呼吸健康研究 · 测量入口",
+      "provenance": "WATCH 6 实机",
+      "parent": "down3",
+      "capture": {
+        "content": "screens/real-resp.webp",
+        "contentLabel": "呼吸健康研究 · 测量入口",
+        "hotspots": [
+          {
+            "label": "测量教程",
+            "zone": "content",
+            "box": [
+              59,
+              48,
+              29,
+              12
+            ],
+            "page": "resp-tutorial"
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "label": "开始测量",
+            "zone": "content",
+            "box": [
+              23,
+              72,
+              54,
+              20
+            ]
+          }
+        ]
+      }
+    },
+    "altitude": {
+      "device": "watch",
+      "title": "高原健康研究 · 评估入口",
+      "provenance": "WATCH 6 实机",
+      "parent": "down4",
+      "capture": {
+        "content": "screens/real-altitude.webp",
+        "contentLabel": "高原健康研究 · 评估入口",
+        "hotspots": [
+          {
+            "label": "测量教程",
+            "zone": "content",
+            "box": [
+              52,
+              48,
+              29,
+              12
+            ],
+            "page": "altitude-tutorial"
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "label": "开始评估",
+            "zone": "content",
+            "box": [
+              23,
+              72,
+              54,
+              20
+            ]
+          }
+        ]
+      }
+    },
+    "resp-tutorial": {
+      "device": "watch",
+      "title": "呼吸健康研究 · 测量教程",
+      "provenance": "WATCH 6 实机",
+      "parent": "resp",
+      "capture": {
+        "content": "screens/real-resp-tutorial.webp",
+        "contentLabel": "呼吸健康研究 · 测量教程",
+        "hotspots": [],
+        "swipe": {
+          "up": "resp-tutorial-lower"
+        }
+      }
+    },
+    "resp-tutorial-lower": {
+      "device": "watch",
+      "title": "呼吸教程 · 录制咳嗽音",
+      "provenance": "WATCH 6 实机",
+      "parent": "resp-tutorial",
+      "capture": {
+        "content": "screens/real-resp-tutorial-lower.webp",
+        "contentLabel": "呼吸教程 · 录制咳嗽音",
+        "hotspots": [],
+        "swipe": {
+          "down": "resp-tutorial"
+        }
+      }
+    },
+    "altitude-tutorial": {
+      "device": "watch",
+      "title": "高原健康研究 · 测量教程",
+      "provenance": "WATCH 6 实机",
+      "parent": "altitude",
+      "capture": {
+        "content": "screens/real-altitude-tutorial.webp",
+        "contentLabel": "高原健康研究 · 测量教程",
+        "hotspots": [],
+        "swipe": {
+          "up": "altitude-tutorial-lower"
+        },
+        "pendingHotspots": [
+          {
+            "label": "教程下一步",
+            "box": [
+              25,
+              68,
+              50,
+              17
+            ],
+            "zone": "content"
+          }
+        ]
+      }
+    },
+    "altitude-tutorial-lower": {
+      "device": "watch",
+      "title": "高原教程 · 填写路易斯湖量表（下方）",
+      "provenance": "WATCH 6 实机",
+      "parent": "altitude-tutorial",
+      "capture": {
+        "content": "screens/real-altitude-tutorial-lower.webp",
+        "contentLabel": "高原教程 · 填写路易斯湖量表（下方）",
+        "hotspots": [],
+        "swipe": {
+          "down": "altitude-tutorial"
+        },
+        "pendingHotspots": [
+          {
+            "label": "教程下一步",
+            "box": [
+              25,
+              64,
+              50,
+              17
+            ],
+            "zone": "content"
+          }
+        ]
+      }
+    },
+    "about": {
+      "device": "watch",
+      "title": "关于华为创新研究",
+      "provenance": "WATCH 6 实机",
+      "parent": "more-lower",
+      "capture": {
+        "content": "screens/real-about.webp",
+        "contentLabel": "关于华为创新研究",
+        "hotspots": [],
+        "listBands": [
+          [
+            0,
+            45
+          ],
+          [
+            45,
+            76
+          ],
+          [
+            76,
+            100
+          ]
+        ]
+      }
+    },
+    "live-083": {
+      "device": "watch",
+      "title": "应用列表",
+      "parent": "@launcher",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-083.webp",
+        "contentLabel": "应用列表",
+        "replay": {
+          "description": "在手表应用列表点「华为创新研究」。",
+          "actions": [
+            {
+              "label": "打开华为创新研究",
+              "page": "live-084"
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    "live-084": {
+      "device": "watch",
+      "title": "研究列表 · 内分泌",
+      "parent": "live-083",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-084.webp",
+        "contentLabel": "研究列表 · 内分泌",
+        "replay": {
+          "description": "内分泌分类提供血糖健康研究及高尿酸研究。",
+          "actions": [
+            {
+              "label": "打开血糖健康研究",
+              "page": "live-088"
+            },
+            {
+              "label": "打开高尿酸研究",
+              "page": "live-093"
+            }
+          ],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-085"
+        },
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "血糖健康研究",
+            "page": "live-088",
+            "box": [
+              2.642,
+              37.736,
+              94.717,
+              26.038
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "高尿酸研究",
+            "page": "live-093",
+            "box": [
+              13.585,
+              69.057,
+              72.453,
+              19.623
+            ]
+          }
+        ]
+      }
+    },
+    "live-085": {
+      "device": "watch",
+      "title": "研究列表 · 心血管",
+      "parent": "live-083",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-085.webp",
+        "contentLabel": "研究列表 · 心血管",
+        "replay": {
+          "description": "上滑查看高血压风险、冠心病和心脏健康研究等项目。",
+          "actions": [
+            {
+              "label": "打开高血压风险研究",
+              "page": "live-098"
+            },
+            {
+              "label": "打开心脏健康研究",
+              "page": "live-105"
+            },
+            {
+              "label": "定位冠心病入口",
+              "page": "live-114"
+            }
+          ],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-109",
+          "down": "live-084"
+        },
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "高血压风险研究",
+            "page": "live-098",
+            "box": [
+              13.585,
+              12.075,
+              73.585,
+              20.755
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "冠心病研究",
+            "page": "live-115",
+            "box": [
+              2.642,
+              36.981,
+              94.34,
+              25.66
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "心脏健康研究",
+            "page": "live-105",
+            "box": [
+              12.83,
+              68.302,
+              73.585,
+              19.245
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "血管健康研究",
+            "page": "live-110",
+            "box": [
+              33.585,
+              92.83,
+              34.34,
+              6.038
+            ]
+          }
+        ]
+      }
+    },
+    "live-086": {
+      "device": "watch",
+      "title": "研究列表 · 女性与呼吸",
+      "parent": "live-083",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-086.webp",
+        "contentLabel": "研究列表 · 女性与呼吸",
+        "replay": {
+          "description": "继续查看女性健康及呼吸健康入口。",
+          "actions": [
+            {
+              "label": "打开女性健康研究",
+              "page": "live-123"
+            },
+            {
+              "label": "查看已采集的呼吸健康研究",
+              "page": "resp"
+            }
+          ],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-087",
+          "down": "live-109"
+        },
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "女性健康研究",
+            "page": "live-124",
+            "box": [
+              10.566,
+              15.849,
+              78.113,
+              21.887
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "呼吸健康研究",
+            "page": "resp",
+            "box": [
+              10.566,
+              62.642,
+              78.113,
+              21.509
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "高原健康研究",
+            "page": "altitude",
+            "box": [
+              31.698,
+              90.566,
+              36.981,
+              7.547
+            ]
+          }
+        ]
+      }
+    },
+    "live-087": {
+      "device": "watch",
+      "title": "研究列表 · 高原与更多",
+      "parent": "live-083",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-087.webp",
+        "contentLabel": "研究列表 · 高原与更多",
+        "replay": {
+          "description": "列表下方提供高原健康研究和「更多」。",
+          "actions": [
+            {
+              "label": "查看已采集的呼吸健康研究",
+              "page": "resp"
+            },
+            {
+              "label": "查看已采集的高原健康研究",
+              "page": "altitude"
+            },
+            {
+              "label": "打开研究应用的更多",
+              "page": "projects"
+            }
+          ],
+          "pending": []
+        },
+        "swipe": {
+          "down": "live-086"
+        },
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "呼吸健康研究",
+            "page": "resp",
+            "box": [
+              13.585,
+              11.321,
+              73.208,
+              20.755
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "高原健康研究",
+            "page": "altitude",
+            "box": [
+              3.019,
+              36.981,
+              94.34,
+              25.283
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "更多",
+            "page": "projects",
+            "box": [
+              30.943,
+              71.698,
+              37.358,
+              13.585
+            ]
+          }
+        ]
+      }
+    },
+    "live-088": {
+      "device": "watch",
+      "title": "糖尿病风险评估",
+      "parent": "live-084",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-088.webp",
+        "contentLabel": "糖尿病风险评估",
+        "replay": {
+          "description": "打开血糖健康研究，查看最近一轮初筛结果和启动评估入口。",
+          "actions": [
+            {
+              "label": "启动评估",
+              "page": "live-092"
+            }
+          ],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-089"
+        },
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "启动评估",
+            "page": "live-092",
+            "box": [
+              25.283,
+              75.849,
+              49.057,
+              16.226
+            ]
+          }
+        ]
+      }
+    },
+    "live-089": {
+      "device": "watch",
+      "title": "血糖评估记录",
+      "parent": "live-084",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-089.webp",
+        "contentLabel": "血糖评估记录",
+        "replay": {
+          "description": "查看最近三次评估记录和「查看更多」入口。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-090",
+          "down": "live-088"
+        },
+        "listBands": [
+          [
+            0,
+            29
+          ],
+          [
+            29,
+            44
+          ],
+          [
+            44,
+            59
+          ],
+          [
+            59,
+            74
+          ],
+          [
+            74,
+            100
+          ]
+        ]
+      }
+    },
+    "live-090": {
+      "device": "watch",
+      "title": "血糖 · 手机查看提示",
+      "parent": "live-084",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-090.webp",
+        "contentLabel": "血糖 · 手机查看提示",
+        "replay": {
+          "description": "手表提示前往手机端华为创新研究 App 查看更多详情。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-091",
+          "down": "live-089"
+        }
+      }
+    },
+    "live-091": {
+      "device": "watch",
+      "title": "血糖 · 测量说明入口",
+      "parent": "live-084",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-091.webp",
+        "contentLabel": "血糖 · 测量说明入口",
+        "replay": {
+          "description": "项目菜单提供测量说明、退出研究及关于。",
+          "actions": [],
+          "pending": [
+            "打开血糖测量说明"
+          ]
+        },
+        "swipe": {
+          "down": "live-090"
+        },
+        "listBands": [
+          [
+            0,
+            33
+          ],
+          [
+            33,
+            62
+          ],
+          [
+            62,
+            100
+          ]
+        ],
+        "pendingHotspots": [
+          {
+            "label": "测量说明",
+            "zone": "content",
+            "box": [
+              10,
+              9,
+              80,
+              16
+            ]
+          }
+        ]
+      }
+    },
+    "live-092": {
+      "device": "watch",
+      "title": "血糖 · 评估进度",
+      "parent": "live-088",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-092.webp",
+        "contentLabel": "血糖 · 评估进度",
+        "replay": {
+          "description": "本次实机取图显示初筛评估进度为 0%，下方有终止评估入口。",
+          "actions": [],
+          "pending": [
+            "终止本轮评估的确认与结果"
+          ]
+        }
+      }
+    },
+    "live-093": {
+      "device": "watch",
+      "title": "高尿酸风险评估",
+      "parent": "live-084",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-093.webp",
+        "contentLabel": "高尿酸风险评估",
+        "replay": {
+          "description": "打开高尿酸研究，查看当次结果和启动评估入口。",
+          "actions": [
+            {
+              "label": "启动评估",
+              "page": "live-097"
+            }
+          ],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-094"
+        },
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "启动评估",
+            "page": "live-097",
+            "box": [
+              25.283,
+              75.849,
+              49.057,
+              16.226
+            ]
+          }
+        ]
+      }
+    },
+    "live-094": {
+      "device": "watch",
+      "title": "高尿酸评估记录",
+      "parent": "live-084",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-094.webp",
+        "contentLabel": "高尿酸评估记录",
+        "replay": {
+          "description": "查看最近三次评估记录。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-095",
+          "down": "live-093"
+        },
+        "listBands": [
+          [
+            0,
+            29
+          ],
+          [
+            29,
+            44
+          ],
+          [
+            44,
+            60
+          ],
+          [
+            60,
+            100
+          ]
+        ]
+      }
+    },
+    "live-095": {
+      "device": "watch",
+      "title": "高尿酸 · 手机查看提示",
+      "parent": "live-084",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-095.webp",
+        "contentLabel": "高尿酸 · 手机查看提示",
+        "replay": {
+          "description": "手表提示前往手机端华为创新研究 App 查看更多详情。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-096",
+          "down": "live-094"
+        }
+      }
+    },
+    "live-096": {
+      "device": "watch",
+      "title": "高尿酸 · 测量说明入口",
+      "parent": "live-084",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-096.webp",
+        "contentLabel": "高尿酸 · 测量说明入口",
+        "replay": {
+          "description": "项目菜单提供测量说明、退出研究及关于。",
+          "actions": [],
+          "pending": [
+            "打开高尿酸测量说明"
+          ]
+        },
+        "swipe": {
+          "down": "live-095"
+        },
+        "listBands": [
+          [
+            0,
+            33
+          ],
+          [
+            33,
+            62
+          ],
+          [
+            62,
+            100
+          ]
+        ],
+        "pendingHotspots": [
+          {
+            "label": "测量说明",
+            "zone": "content",
+            "box": [
+              10,
+              9,
+              80,
+              16
+            ]
+          }
+        ]
+      }
+    },
+    "live-097": {
+      "device": "watch",
+      "title": "高尿酸 · 评估进度",
+      "parent": "live-093",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-097.webp",
+        "contentLabel": "高尿酸 · 评估进度",
+        "replay": {
+          "description": "本次实机取图显示评估进度为 0%，下方有终止本轮评估入口。",
+          "actions": [],
+          "pending": [
+            "终止本轮评估的确认与结果"
+          ]
+        }
+      }
+    },
+    "live-098": {
+      "device": "watch",
+      "title": "高血压风险评估",
+      "parent": "live-085",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-098.webp",
+        "contentLabel": "高血压风险评估",
+        "replay": {
+          "description": "打开高血压风险研究，查看评估入口。",
+          "actions": [],
+          "pending": [
+            "启动评估后页面"
+          ]
+        },
+        "swipe": {
+          "up": "live-099"
+        }
+      }
+    },
+    "live-099": {
+      "device": "watch",
+      "title": "近期评估记录",
+      "parent": "live-085",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-099.webp",
+        "contentLabel": "近期评估记录",
+        "replay": {
+          "description": "评估记录页显示最近七天。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-100",
+          "down": "live-098"
+        }
+      }
+    },
+    "live-100": {
+      "device": "watch",
+      "title": "高血压 · 手机查看提示",
+      "parent": "live-085",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-100.webp",
+        "contentLabel": "高血压 · 手机查看提示",
+        "replay": {
+          "description": "手表提示前往手机端华为创新研究 App 查看详情。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-101",
+          "down": "live-099"
+        }
+      }
+    },
+    "live-101": {
+      "device": "watch",
+      "title": "高血压 · 项目菜单",
+      "parent": "live-085",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-101.webp",
+        "contentLabel": "高血压 · 项目菜单",
+        "replay": {
+          "description": "项目菜单提供提醒设置、测量说明、退出研究及关于。",
+          "actions": [
+            {
+              "label": "打开提醒设置",
+              "page": "live-102"
+            },
+            {
+              "label": "打开测量说明",
+              "page": "live-103"
+            },
+            {
+              "label": "查看退出研究确认",
+              "page": "live-104"
+            }
+          ],
+          "pending": []
+        },
+        "swipe": {
+          "down": "live-100"
+        },
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "提醒设置",
+            "page": "live-102",
+            "box": [
+              15.094,
+              13.585,
+              69.057,
+              20.377
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "测量说明",
+            "page": "live-103",
+            "box": [
+              7.547,
+              38.868,
+              84.151,
+              20.377
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "退出研究",
+            "page": "live-104",
+            "box": [
+              14.34,
+              65.66,
+              69.811,
+              19.245
+            ]
+          }
+        ],
+        "listBands": [
+          [
+            0,
+            29
+          ],
+          [
+            29,
+            55
+          ],
+          [
+            55,
+            82
+          ],
+          [
+            82,
+            100
+          ]
+        ]
+      }
+    },
+    "live-102": {
+      "device": "watch",
+      "title": "消息提醒",
+      "parent": "live-101",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-102.webp",
+        "contentLabel": "消息提醒",
+        "replay": {
+          "description": "打开提醒设置查看开关及使用说明。",
+          "actions": [],
+          "pending": []
+        }
+      }
+    },
+    "live-103": {
+      "device": "watch",
+      "title": "高血压 · 测量说明",
+      "parent": "live-101",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-103.webp",
+        "contentLabel": "高血压 · 测量说明",
+        "replay": {
+          "description": "查看评估数据采集方式及说明。",
+          "actions": [],
+          "pending": []
+        }
+      }
+    },
+    "live-104": {
+      "device": "watch",
+      "title": "退出研究确认",
+      "parent": "live-101",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-104.webp",
+        "contentLabel": "退出研究确认",
+        "replay": {
+          "description": "显示退出的影响，以及取消和确认两个选项。",
+          "actions": [
+            {
+              "label": "取消退出",
+              "page": "live-101"
+            }
+          ],
+          "pending": []
+        },
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "取消",
+            "page": "@back",
+            "box": [
+              16.981,
+              70.943,
+              21.509,
+              21.132
+            ]
+          }
+        ]
+      }
+    },
+    "live-105": {
+      "device": "watch",
+      "title": "心脏健康首页",
+      "parent": "live-085",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-105.webp",
+        "contentLabel": "心脏健康首页",
+        "replay": {
+          "description": "查看最近一次心脏研究结果及「开始检测」入口。",
+          "actions": [
+            {
+              "label": "查看此前的检测提示",
+              "page": "ecg-detect"
+            }
+          ],
+          "pending": [
+            "开始检测后的心脏健康研究画面"
+          ]
+        },
+        "swipe": {
+          "up": "live-106"
+        },
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "开始检测",
+            "page": "ecg-detect",
+            "box": [
+              27.17,
+              76.226,
+              46.415,
+              15.094
+            ]
+          }
+        ]
+      }
+    },
+    "live-106": {
+      "device": "watch",
+      "title": "当天统计",
+      "parent": "live-085",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-106.webp",
+        "contentLabel": "当天统计",
+        "replay": {
+          "description": "查看当天各类检测结果的次数。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-107",
+          "down": "live-105"
+        },
+        "listBands": [
+          [
+            0,
+            30
+          ],
+          [
+            30,
+            44
+          ],
+          [
+            44,
+            59
+          ],
+          [
+            59,
+            74
+          ],
+          [
+            74,
+            100
+          ]
+        ]
+      }
+    },
+    "live-107": {
+      "device": "watch",
+      "title": "心脏健康 · 手机查看提示",
+      "parent": "live-085",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-107.webp",
+        "contentLabel": "心脏健康 · 手机查看提示",
+        "replay": {
+          "description": "手表提示前往手机端华为创新研究 App 查看更多详情。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-108",
+          "down": "live-106"
+        }
+      }
+    },
+    "live-108": {
+      "device": "watch",
+      "title": "心脏健康 · 项目菜单",
+      "parent": "live-085",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-108.webp",
+        "contentLabel": "心脏健康 · 项目菜单",
+        "replay": {
+          "description": "项目菜单提供退出研究与关于。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "down": "live-107"
+        },
+        "listBands": [
+          [
+            0,
+            50
+          ],
+          [
+            50,
+            100
+          ]
+        ],
+        "pendingHotspots": [
+          {
+            "label": "退出研究",
+            "zone": "content",
+            "box": [
+              10,
+              30,
+              80,
+              16
+            ]
+          },
+          {
+            "label": "关于",
+            "zone": "content",
+            "box": [
+              10,
+              59,
+              80,
+              16
+            ]
+          }
+        ]
+      }
+    },
+    "live-109": {
+      "device": "watch",
+      "title": "研究列表 · 血管健康入口",
+      "parent": "live-083",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-109.webp",
+        "contentLabel": "研究列表 · 血管健康入口",
+        "replay": {
+          "description": "在研究列表选择「血管健康研究」。",
+          "actions": [
+            {
+              "label": "打开血管健康研究",
+              "page": "live-110"
+            }
+          ],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-086",
+          "down": "live-085"
+        },
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "冠心病研究",
+            "page": "live-115",
+            "box": [
+              33.208,
+              0.755,
+              33.962,
+              6.038
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "心脏健康研究",
+            "page": "live-105",
+            "box": [
+              12.453,
+              12.075,
+              75.094,
+              20.377
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "血管健康研究",
+            "page": "live-110",
+            "box": [
+              3.019,
+              36.604,
+              93.208,
+              26.038
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "女性健康研究",
+            "page": "live-124",
+            "box": [
+              30.189,
+              84.906,
+              39.245,
+              10.943
+            ]
+          }
+        ]
+      }
+    },
+    "live-110": {
+      "device": "watch",
+      "title": "血管健康首页",
+      "parent": "live-109",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-110.webp",
+        "contentLabel": "血管健康首页",
+        "replay": {
+          "description": "查看血管年龄、动脉弹性和心血管风险，以及开始测量入口。",
+          "actions": [],
+          "pending": [
+            "开始测量后页面"
+          ]
+        },
+        "swipe": {
+          "up": "live-111"
+        }
+      }
+    },
+    "live-111": {
+      "device": "watch",
+      "title": "血管健康评估记录",
+      "parent": "live-109",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-111.webp",
+        "contentLabel": "血管健康评估记录",
+        "replay": {
+          "description": "查看最近两次血管年龄评估记录。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-112",
+          "down": "live-110"
+        },
+        "listBands": [
+          [
+            0,
+            40
+          ],
+          [
+            40,
+            60
+          ],
+          [
+            60,
+            100
+          ]
+        ]
+      }
+    },
+    "live-112": {
+      "device": "watch",
+      "title": "血管健康 · 手机查看提示",
+      "parent": "live-109",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-112.webp",
+        "contentLabel": "血管健康 · 手机查看提示",
+        "replay": {
+          "description": "手表提示前往手机端华为创新研究 App 查看更多详情。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-113",
+          "down": "live-111"
+        }
+      }
+    },
+    "live-113": {
+      "device": "watch",
+      "title": "血管健康 · 项目菜单",
+      "parent": "live-109",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-113.webp",
+        "contentLabel": "血管健康 · 项目菜单",
+        "replay": {
+          "description": "项目菜单提供测量说明、退出研究与关于。",
+          "actions": [],
+          "pending": [
+            "打开血管健康测量说明"
+          ]
+        },
+        "swipe": {
+          "down": "live-112"
+        },
+        "listBands": [
+          [
+            0,
+            33
+          ],
+          [
+            33,
+            62
+          ],
+          [
+            62,
+            100
+          ]
+        ],
+        "pendingHotspots": [
+          {
+            "label": "测量说明",
+            "zone": "content",
+            "box": [
+              10,
+              9,
+              80,
+              16
+            ]
+          }
+        ]
+      }
+    },
+    "live-114": {
+      "device": "watch",
+      "title": "研究列表 · 冠心病入口",
+      "parent": "live-085",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-114.webp",
+        "contentLabel": "研究列表 · 冠心病入口",
+        "replay": {
+          "description": "在研究列表选择「冠心病研究」。",
+          "actions": [
+            {
+              "label": "打开冠心病研究",
+              "page": "live-115"
+            }
+          ],
+          "pending": []
+        },
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "高血压风险研究",
+            "page": "live-098",
+            "box": [
+              13.585,
+              12.075,
+              73.585,
+              20.755
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "冠心病研究",
+            "page": "live-115",
+            "box": [
+              2.642,
+              36.981,
+              94.34,
+              25.66
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "心脏健康研究",
+            "page": "live-105",
+            "box": [
+              12.83,
+              68.302,
+              73.585,
+              19.245
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "血管健康研究",
+            "page": "live-110",
+            "box": [
+              33.585,
+              92.83,
+              34.34,
+              6.038
+            ]
+          }
+        ]
+      }
+    },
+    "live-115": {
+      "device": "watch",
+      "title": "首次问卷 · 心血管病家族史",
+      "parent": "live-114",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-115.webp",
+        "contentLabel": "首次问卷 · 心血管病家族史",
+        "replay": {
+          "description": "第一页询问是否有心血管疾病家族史。",
+          "actions": [
+            {
+              "label": "查看问卷第 2 页",
+              "page": "live-116"
+            }
+          ],
+          "pending": []
+        },
+        "listBands": [
+          [
+            0,
+            33
+          ],
+          [
+            33,
+            62
+          ],
+          [
+            62,
+            86
+          ],
+          [
+            86,
+            100
+          ]
+        ]
+      }
+    },
+    "live-116": {
+      "device": "watch",
+      "title": "首次问卷 · 高血压",
+      "parent": "live-115",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-116.webp",
+        "contentLabel": "首次问卷 · 高血压",
+        "replay": {
+          "description": "第二页询问是否有高血压。",
+          "actions": [
+            {
+              "label": "查看问卷第 3 页",
+              "page": "live-117"
+            }
+          ],
+          "pending": []
+        },
+        "listBands": [
+          [
+            0,
+            31
+          ],
+          [
+            31,
+            55
+          ],
+          [
+            55,
+            78
+          ],
+          [
+            78,
+            100
+          ]
+        ]
+      }
+    },
+    "live-117": {
+      "device": "watch",
+      "title": "首次问卷 · 症状",
+      "parent": "live-116",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-117.webp",
+        "contentLabel": "首次问卷 · 症状",
+        "replay": {
+          "description": "第三页询问症状，可选择胸闷、胸痛等。",
+          "actions": [
+            {
+              "label": "查看问卷完成后的评估首页",
+              "page": "live-118"
+            }
+          ],
+          "pending": []
+        },
+        "listBands": [
+          [
+            0,
+            37
+          ],
+          [
+            37,
+            65
+          ],
+          [
+            65,
+            83
+          ],
+          [
+            83,
+            100
+          ]
+        ],
+        "hotspots": [
+          {
+            "label": "确定",
+            "zone": "content",
+            "box": [
+              10,
+              80,
+              80,
+              16
+            ],
+            "page": "live-118"
+          }
+        ]
+      }
+    },
+    "live-118": {
+      "device": "watch",
+      "title": "冠心病风险评估",
+      "parent": "live-117",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-118.webp",
+        "contentLabel": "冠心病风险评估",
+        "replay": {
+          "description": "查看本次评估状态及启动评估入口。",
+          "actions": [],
+          "pending": [
+            "启动评估后页面"
+          ]
+        },
+        "swipe": {
+          "up": "live-119"
+        }
+      }
+    },
+    "live-119": {
+      "device": "watch",
+      "title": "冠心病评估记录",
+      "parent": "live-117",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-119.webp",
+        "contentLabel": "冠心病评估记录",
+        "replay": {
+          "description": "查看最近一次冠心病风险评估记录。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-120",
+          "down": "live-118"
+        }
+      }
+    },
+    "live-120": {
+      "device": "watch",
+      "title": "冠心病 · 手机查看提示",
+      "parent": "live-117",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-120.webp",
+        "contentLabel": "冠心病 · 手机查看提示",
+        "replay": {
+          "description": "手表提示前往手机端华为创新研究 App 查看更多详情。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-121",
+          "down": "live-119"
+        }
+      }
+    },
+    "live-121": {
+      "device": "watch",
+      "title": "冠心病 · 项目菜单",
+      "parent": "live-117",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-121.webp",
+        "contentLabel": "冠心病 · 项目菜单",
+        "replay": {
+          "description": "项目菜单提供提醒设置、测量说明和退出研究。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "down": "live-120"
+        },
+        "listBands": [
+          [
+            0,
+            29
+          ],
+          [
+            29,
+            55
+          ],
+          [
+            55,
+            82
+          ],
+          [
+            82,
+            100
+          ]
+        ]
+      }
+    },
+    "live-122": {
+      "device": "watch",
+      "title": "左手佩戴 · 传感器测量指引",
+      "parent": "@launcher",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-122.webp",
+        "contentLabel": "左手佩戴 · 传感器测量指引",
+        "replay": {
+          "description": "同批截图记录了左手佩戴和手指接触传感器的引导。具体进入路径待核对。",
+          "actions": [],
+          "pending": []
+        }
+      }
+    },
+    "live-123": {
+      "device": "watch",
+      "title": "研究列表 · 女性健康入口",
+      "parent": "live-086",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-123.webp",
+        "contentLabel": "研究列表 · 女性健康入口",
+        "replay": {
+          "description": "在研究列表点「女性健康研究」。",
+          "actions": [
+            {
+              "label": "打开女性健康研究",
+              "page": "live-124"
+            }
+          ],
+          "pending": []
+        },
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "血管健康研究",
+            "page": "live-110",
+            "box": [
+              33.962,
+              1.132,
+              33.208,
+              10.566
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "女性健康研究",
+            "page": "live-124",
+            "box": [
+              3.019,
+              36.981,
+              93.585,
+              25.66
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "呼吸健康研究",
+            "page": "resp",
+            "box": [
+              30.943,
+              86.792,
+              37.736,
+              9.057
+            ]
+          }
+        ]
+      }
+    },
+    "live-124": {
+      "device": "watch",
+      "title": "个人信息 · 性别",
+      "parent": "live-123",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-124.webp",
+        "contentLabel": "个人信息 · 性别",
+        "replay": {
+          "description": "首次进入时，可看到个人信息表单和性别字段。",
+          "actions": [
+            {
+              "label": "确认个人信息",
+              "page": "live-126"
+            }
+          ],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-125"
+        },
+        "listBands": [
+          [
+            0,
+            38
+          ],
+          [
+            38,
+            69
+          ],
+          [
+            69,
+            100
+          ]
+        ]
+      }
+    },
+    "live-125": {
+      "device": "watch",
+      "title": "个人信息 · 基础资料",
+      "parent": "live-123",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-125.webp",
+        "contentLabel": "个人信息 · 基础资料",
+        "replay": {
+          "description": "上滑查看出生年月、身高和体重。展示图隐去了出生年月的值。",
+          "actions": [
+            {
+              "label": "确认个人信息",
+              "page": "live-126"
+            }
+          ],
+          "pending": []
+        },
+        "swipe": {
+          "down": "live-124"
+        },
+        "listBands": [
+          [
+            0,
+            25
+          ],
+          [
+            25,
+            50
+          ],
+          [
+            50,
+            74
+          ],
+          [
+            74,
+            100
+          ]
+        ],
+        "hotspots": [
+          {
+            "label": "确定",
+            "zone": "content",
+            "box": [
+              10,
+              80,
+              80,
+              16
+            ],
+            "page": "live-126"
+          }
+        ]
+      }
+    },
+    "live-126": {
+      "device": "watch",
+      "title": "女性健康 · 测量说明",
+      "parent": "live-124",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-126.webp",
+        "contentLabel": "女性健康 · 测量说明",
+        "replay": {
+          "description": "开始前显示填写问卷和采集生理数据的说明。",
+          "actions": [
+            {
+              "label": "跳到已拍摄的第 2 题",
+              "page": "live-127"
+            }
+          ],
+          "pending": [
+            "问卷第 1 题待补采"
+          ]
+        }
+      }
+    },
+    "live-127": {
+      "device": "watch",
+      "title": "第 2 题 · 情绪波动",
+      "parent": "live-126",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-127.webp",
+        "contentLabel": "第 2 题 · 情绪波动",
+        "replay": {
+          "description": "本次问卷截图从第 2 题开始，显示情绪波动及程度选项。",
+          "actions": [
+            {
+              "label": "查看第 3 题",
+              "page": "live-128"
+            }
+          ],
+          "pending": []
+        },
+        "listBands": [
+          [
+            0,
+            46
+          ],
+          [
+            46,
+            71
+          ],
+          [
+            71,
+            100
+          ]
+        ]
+      }
+    },
+    "live-128": {
+      "device": "watch",
+      "title": "第 3 题 · 关节和肌肉疼痛",
+      "parent": "live-127",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-128.webp",
+        "contentLabel": "第 3 题 · 关节和肌肉疼痛",
+        "replay": {
+          "description": "显示关节痛或肌肉痛的问题及程度选项。",
+          "actions": [
+            {
+              "label": "查看第 4 题",
+              "page": "live-129"
+            }
+          ],
+          "pending": []
+        },
+        "listBands": [
+          [
+            0,
+            46
+          ],
+          [
+            46,
+            71
+          ],
+          [
+            71,
+            100
+          ]
+        ]
+      }
+    },
+    "live-129": {
+      "device": "watch",
+      "title": "第 4 题 · 疲乏",
+      "parent": "live-128",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-129.webp",
+        "contentLabel": "第 4 题 · 疲乏",
+        "replay": {
+          "description": "显示疲乏情况及程度选项。",
+          "actions": [
+            {
+              "label": "查看第 5 题",
+              "page": "live-130"
+            }
+          ],
+          "pending": []
+        },
+        "listBands": [
+          [
+            0,
+            46
+          ],
+          [
+            46,
+            71
+          ],
+          [
+            71,
+            100
+          ]
+        ]
+      }
+    },
+    "live-130": {
+      "device": "watch",
+      "title": "第 5 题 · 干涩与灼热",
+      "parent": "live-129",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-130.webp",
+        "contentLabel": "第 5 题 · 干涩与灼热",
+        "replay": {
+          "description": "显示生殖道干涩、灼热情况的问题。",
+          "actions": [
+            {
+              "label": "查看第 6 题",
+              "page": "live-131"
+            }
+          ],
+          "pending": []
+        },
+        "listBands": [
+          [
+            0,
+            46
+          ],
+          [
+            46,
+            71
+          ],
+          [
+            71,
+            100
+          ]
+        ]
+      }
+    },
+    "live-131": {
+      "device": "watch",
+      "title": "第 6 题 · 周期和次数",
+      "parent": "live-130",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-131.webp",
+        "contentLabel": "第 6 题 · 周期和次数",
+        "replay": {
+          "description": "显示对过去一年经期周期和次数的询问。",
+          "actions": [
+            {
+              "label": "查看第 7 题",
+              "page": "live-132"
+            }
+          ],
+          "pending": []
+        },
+        "listBands": [
+          [
+            0,
+            46
+          ],
+          [
+            46,
+            71
+          ],
+          [
+            71,
+            100
+          ]
+        ]
+      }
+    },
+    "live-132": {
+      "device": "watch",
+      "title": "第 7 题 · 距上一次月经的时间",
+      "parent": "live-131",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-132.webp",
+        "contentLabel": "第 7 题 · 距上一次月经的时间",
+        "replay": {
+          "description": "询问距离上一次月经是否已经超过 90 天。",
+          "actions": [
+            {
+              "label": "查看第 8 题",
+              "page": "live-133"
+            }
+          ],
+          "pending": []
+        },
+        "listBands": [
+          [
+            0,
+            46
+          ],
+          [
+            46,
+            71
+          ],
+          [
+            71,
+            100
+          ]
+        ]
+      }
+    },
+    "live-133": {
+      "device": "watch",
+      "title": "第 8 题 · 毛发生长情况",
+      "parent": "live-132",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-133.webp",
+        "contentLabel": "第 8 题 · 毛发生长情况",
+        "replay": {
+          "description": "显示不同部位的毛发生长选项。",
+          "actions": [
+            {
+              "label": "查看第 9 题",
+              "page": "live-134"
+            }
+          ],
+          "pending": []
+        },
+        "listBands": [
+          [
+            0,
+            46
+          ],
+          [
+            46,
+            71
+          ],
+          [
+            71,
+            100
+          ]
+        ]
+      }
+    },
+    "live-134": {
+      "device": "watch",
+      "title": "第 9 题 · 痤疮程度",
+      "parent": "live-133",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-134.webp",
+        "contentLabel": "第 9 题 · 痤疮程度",
+        "replay": {
+          "description": "显示痤疮程度的选项。",
+          "actions": [
+            {
+              "label": "查看第 10 题",
+              "page": "live-135"
+            }
+          ],
+          "pending": []
+        },
+        "listBands": [
+          [
+            0,
+            46
+          ],
+          [
+            46,
+            71
+          ],
+          [
+            71,
+            100
+          ]
+        ]
+      }
+    },
+    "live-135": {
+      "device": "watch",
+      "title": "第 10 题 · 脱发程度",
+      "parent": "live-134",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-135.webp",
+        "contentLabel": "第 10 题 · 脱发程度",
+        "replay": {
+          "description": "显示脱发程度的选项。",
+          "actions": [
+            {
+              "label": "查看第 11 题",
+              "page": "live-136"
+            }
+          ],
+          "pending": []
+        },
+        "listBands": [
+          [
+            0,
+            46
+          ],
+          [
+            46,
+            71
+          ],
+          [
+            71,
+            100
+          ]
+        ]
+      }
+    },
+    "live-136": {
+      "device": "watch",
+      "title": "第 11 题 · 黑棘皮程度",
+      "parent": "live-135",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-136.webp",
+        "contentLabel": "第 11 题 · 黑棘皮程度",
+        "replay": {
+          "description": "显示黑棘皮程度的选项。",
+          "actions": [
+            {
+              "label": "查看选中后的状态",
+              "page": "live-137"
+            }
+          ],
+          "pending": []
+        },
+        "listBands": [
+          [
+            0,
+            46
+          ],
+          [
+            46,
+            71
+          ],
+          [
+            71,
+            100
+          ]
+        ]
+      }
+    },
+    "live-137": {
+      "device": "watch",
+      "title": "第 11 题 · 下一步",
+      "parent": "live-136",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-137.webp",
+        "contentLabel": "第 11 题 · 下一步",
+        "replay": {
+          "description": "选中其中一项后，页面显示「下一步」。",
+          "actions": [
+            {
+              "label": "下一步 · 查看评估进度",
+              "page": "live-138"
+            }
+          ],
+          "pending": []
+        },
+        "listBands": [
+          [
+            0,
+            46
+          ],
+          [
+            46,
+            71
+          ],
+          [
+            71,
+            100
+          ]
+        ],
+        "hotspots": [
+          {
+            "label": "下一步",
+            "zone": "content",
+            "box": [
+              10,
+              80,
+              80,
+              16
+            ],
+            "page": "live-138"
+          }
+        ]
+      }
+    },
+    "live-138": {
+      "device": "watch",
+      "title": "女性健康 · 评估进度",
+      "parent": "live-137",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-138.webp",
+        "contentLabel": "女性健康 · 评估进度",
+        "replay": {
+          "description": "本次实机取图显示评估进度为 0%，下方有终止本轮评估入口。",
+          "actions": [],
+          "pending": [
+            "终止本轮评估的确认与结果"
+          ]
+        },
+        "swipe": {
+          "up": "live-139"
+        }
+      }
+    },
+    "live-139": {
+      "device": "watch",
+      "title": "女性健康 · 评估记录",
+      "parent": "live-137",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-139.webp",
+        "contentLabel": "女性健康 · 评估记录",
+        "replay": {
+          "description": "这次查看时的评估记录显示暂无记录。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-140",
+          "down": "live-138"
+        }
+      }
+    },
+    "live-140": {
+      "device": "watch",
+      "title": "女性健康 · 手机查看提示",
+      "parent": "live-137",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-140.webp",
+        "contentLabel": "女性健康 · 手机查看提示",
+        "replay": {
+          "description": "手表提示前往手机端华为创新研究 App 查看详情。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-141",
+          "down": "live-139"
+        }
+      }
+    },
+    "live-141": {
+      "device": "watch",
+      "title": "女性健康 · 项目菜单",
+      "parent": "live-137",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-141.webp",
+        "contentLabel": "女性健康 · 项目菜单",
+        "replay": {
+          "description": "项目菜单提供测量说明、退出研究和关于。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "down": "live-140"
+        },
+        "listBands": [
+          [
+            0,
+            33
+          ],
+          [
+            33,
+            62
+          ],
+          [
+            62,
+            100
+          ]
+        ],
+        "pendingHotspots": [
+          {
+            "label": "测量说明",
+            "zone": "content",
+            "box": [
+              10,
+              9,
+              80,
+              16
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "scenes": [
+    {
+      "id": "open",
+      "title": "从表盘进入",
+      "hint": "按表冠，在应用列表中上下滑动，点选应用。右滑返回上一页。",
+      "start": {
+        "watch": "@face"
+      },
+      "keys": [
+        [
+          "watch",
+          "@face",
+          "表盘"
+        ],
+        [
+          "watch",
+          "@launcher",
+          "应用列表"
+        ],
+        [
+          "watch",
+          "main",
+          "内分泌研究项目"
+        ]
+      ]
+    },
+    {
+      "id": "browse",
+      "title": "研究项目",
+      "hint": "在表框旁选择操作。在截图上拖动可查看已经拍到的位置，右滑或点返回可退回。",
+      "start": {
+        "watch": "live-084"
+      },
+      "keys": [
+        [
+          "watch",
+          "live-083",
+          "应用列表"
+        ],
+        [
+          "watch",
+          "live-084",
+          "研究列表 · 内分泌"
+        ],
+        [
+          "watch",
+          "live-085",
+          "研究列表 · 心血管"
+        ],
+        [
+          "watch",
+          "live-086",
+          "研究列表 · 女性与呼吸"
+        ],
+        [
+          "watch",
+          "live-087",
+          "研究列表 · 高原与更多"
+        ],
+        [
+          "watch",
+          "main",
+          "内分泌研究项目"
+        ],
+        [
+          "watch",
+          "down1",
+          "高血压风险研究与冠心病研究"
+        ],
+        [
+          "watch",
+          "down2",
+          "心脏健康、血管健康与女性健康研究"
+        ],
+        [
+          "watch",
+          "down3",
+          "呼吸健康研究与高原健康研究"
+        ],
+        [
+          "watch",
+          "down4",
+          "高原健康研究与更多"
+        ],
+        [
+          "watch",
+          "glucose",
+          "血糖健康研究 · 测量说明"
+        ],
+        [
+          "watch",
+          "ecg",
+          "心脏健康研究 · 最近记录"
+        ],
+        [
+          "watch",
+          "bp",
+          "高血压风险评估 · 启动评估"
+        ],
+        [
+          "watch",
+          "projects",
+          "更多"
+        ],
+        [
+          "watch",
+          "more-lower",
+          "更多 · 关于"
+        ],
+        [
+          "watch",
+          "wear-hand",
+          "选择佩戴方式 · 左手佩戴"
+        ],
+        [
+          "watch",
+          "ecg-empty",
+          "心脏健康研究 · 暂无数据"
+        ],
+        [
+          "watch",
+          "ecg-detect",
+          "心脏检测 · 未佩戴设备"
+        ],
+        [
+          "watch",
+          "uric",
+          "高尿酸风险评估"
+        ],
+        [
+          "watch",
+          "coronary",
+          "冠心病研究 · 启动画面"
+        ],
+        [
+          "watch",
+          "vessel",
+          "血管健康研究 · 测量说明"
+        ],
+        [
+          "watch",
+          "female",
+          "女性健康研究 · 启动画面"
+        ],
+        [
+          "watch",
+          "resp",
+          "呼吸健康研究 · 测量入口"
+        ],
+        [
+          "watch",
+          "altitude",
+          "高原健康研究 · 评估入口"
+        ],
+        [
+          "watch",
+          "resp-tutorial",
+          "呼吸健康研究 · 测量教程"
+        ],
+        [
+          "watch",
+          "resp-tutorial-lower",
+          "呼吸教程 · 录制咳嗽音"
+        ],
+        [
+          "watch",
+          "altitude-tutorial",
+          "高原健康研究 · 测量教程"
+        ],
+        [
+          "watch",
+          "altitude-tutorial-lower",
+          "高原教程 · 填写路易斯湖量表（下方）"
+        ],
+        [
+          "watch",
+          "about",
+          "关于华为创新研究"
+        ]
+      ]
+    },
+    {
+      "id": "sugar",
+      "title": "血糖健康研究",
+      "hint": "在表框旁选择操作。在截图上拖动可查看已经拍到的位置，右滑或点返回可退回。",
+      "start": {
+        "watch": "live-088"
+      },
+      "keys": [
+        [
+          "watch",
+          "live-088",
+          "糖尿病风险评估"
+        ],
+        [
+          "watch",
+          "live-089",
+          "血糖评估记录"
+        ],
+        [
+          "watch",
+          "live-090",
+          "血糖 · 手机查看提示"
+        ],
+        [
+          "watch",
+          "live-091",
+          "血糖 · 测量说明入口"
+        ],
+        [
+          "watch",
+          "live-092",
+          "血糖 · 评估进度"
+        ],
+        [
+          "watch",
+          "glucose",
+          "血糖健康研究 · 测量说明"
+        ]
+      ]
+    },
+    {
+      "id": "cardiac",
+      "title": "心脏健康研究",
+      "hint": "在表框旁选择操作。在截图上拖动可查看已经拍到的位置，右滑或点返回可退回。",
+      "start": {
+        "watch": "live-105"
+      },
+      "keys": [
+        [
+          "watch",
+          "live-105",
+          "心脏健康首页"
+        ],
+        [
+          "watch",
+          "live-106",
+          "当天统计"
+        ],
+        [
+          "watch",
+          "live-107",
+          "心脏健康 · 手机查看提示"
+        ],
+        [
+          "watch",
+          "live-108",
+          "心脏健康 · 项目菜单"
+        ],
+        [
+          "watch",
+          "ecg",
+          "心脏健康研究 · 最近记录"
+        ],
+        [
+          "watch",
+          "ecg-detect",
+          "心脏检测 · 未佩戴设备"
+        ],
+        [
+          "watch",
+          "ecg-empty",
+          "心脏健康研究 · 暂无数据"
+        ]
+      ]
+    },
+    {
+      "id": "pressure",
+      "title": "高血压风险研究",
+      "hint": "在表框旁选择操作。在截图上拖动可查看已经拍到的位置，右滑或点返回可退回。",
+      "start": {
+        "watch": "live-098"
+      },
+      "keys": [
+        [
+          "watch",
+          "live-098",
+          "高血压风险评估"
+        ],
+        [
+          "watch",
+          "live-099",
+          "近期评估记录"
+        ],
+        [
+          "watch",
+          "live-100",
+          "高血压 · 手机查看提示"
+        ],
+        [
+          "watch",
+          "live-101",
+          "高血压 · 项目菜单"
+        ],
+        [
+          "watch",
+          "live-102",
+          "消息提醒"
+        ],
+        [
+          "watch",
+          "live-103",
+          "高血压 · 测量说明"
+        ],
+        [
+          "watch",
+          "live-104",
+          "退出研究确认"
+        ],
+        [
+          "watch",
+          "bp",
+          "高血压风险评估 · 启动评估"
+        ]
+      ]
+    },
+    {
+      "id": "live-uric",
+      "title": "高尿酸研究",
+      "hint": "在表框旁选择操作。在截图上拖动可查看已经拍到的位置，右滑或点返回可退回。",
+      "start": {
+        "watch": "live-093"
+      },
+      "keys": [
+        [
+          "watch",
+          "live-093",
+          "高尿酸风险评估"
+        ],
+        [
+          "watch",
+          "live-094",
+          "高尿酸评估记录"
+        ],
+        [
+          "watch",
+          "live-095",
+          "高尿酸 · 手机查看提示"
+        ],
+        [
+          "watch",
+          "live-096",
+          "高尿酸 · 测量说明入口"
+        ],
+        [
+          "watch",
+          "live-097",
+          "高尿酸 · 评估进度"
+        ]
+      ]
+    },
+    {
+      "id": "live-artery",
+      "title": "血管健康研究",
+      "hint": "在表框旁选择操作。在截图上拖动可查看已经拍到的位置，右滑或点返回可退回。",
+      "start": {
+        "watch": "live-109"
+      },
+      "keys": [
+        [
+          "watch",
+          "live-109",
+          "研究列表 · 血管健康入口"
+        ],
+        [
+          "watch",
+          "live-110",
+          "血管健康首页"
+        ],
+        [
+          "watch",
+          "live-111",
+          "血管健康评估记录"
+        ],
+        [
+          "watch",
+          "live-112",
+          "血管健康 · 手机查看提示"
+        ],
+        [
+          "watch",
+          "live-113",
+          "血管健康 · 项目菜单"
+        ]
+      ]
+    },
+    {
+      "id": "live-coronary",
+      "title": "冠心病研究",
+      "hint": "在表框旁选择操作。在截图上拖动可查看已经拍到的位置，右滑或点返回可退回。",
+      "start": {
+        "watch": "live-114"
+      },
+      "keys": [
+        [
+          "watch",
+          "live-114",
+          "研究列表 · 冠心病入口"
+        ],
+        [
+          "watch",
+          "live-115",
+          "首次问卷 · 心血管病家族史"
+        ],
+        [
+          "watch",
+          "live-116",
+          "首次问卷 · 高血压"
+        ],
+        [
+          "watch",
+          "live-117",
+          "首次问卷 · 症状"
+        ],
+        [
+          "watch",
+          "live-118",
+          "冠心病风险评估"
+        ],
+        [
+          "watch",
+          "live-119",
+          "冠心病评估记录"
+        ],
+        [
+          "watch",
+          "live-120",
+          "冠心病 · 手机查看提示"
+        ],
+        [
+          "watch",
+          "live-121",
+          "冠心病 · 项目菜单"
+        ]
+      ]
+    },
+    {
+      "id": "live-measurement",
+      "title": "同批测量截图",
+      "hint": "在表框旁选择操作。在截图上拖动可查看已经拍到的位置，右滑或点返回可退回。",
+      "start": {
+        "watch": "live-122"
+      },
+      "keys": [
+        [
+          "watch",
+          "live-122",
+          "左手佩戴 · 传感器测量指引"
+        ]
+      ]
+    },
+    {
+      "id": "live-female-entry",
+      "title": "女性健康研究 · 入口与资料",
+      "hint": "在表框旁选择操作。在截图上拖动可查看已经拍到的位置，右滑或点返回可退回。",
+      "start": {
+        "watch": "live-123"
+      },
+      "keys": [
+        [
+          "watch",
+          "live-123",
+          "研究列表 · 女性健康入口"
+        ],
+        [
+          "watch",
+          "live-124",
+          "个人信息 · 性别"
+        ],
+        [
+          "watch",
+          "live-125",
+          "个人信息 · 基础资料"
+        ],
+        [
+          "watch",
+          "live-126",
+          "女性健康 · 测量说明"
+        ]
+      ]
+    },
+    {
+      "id": "live-female-survey",
+      "title": "女性健康研究 · 问卷",
+      "hint": "在表框旁选择操作。在截图上拖动可查看已经拍到的位置，右滑或点返回可退回。",
+      "start": {
+        "watch": "live-127"
+      },
+      "keys": [
+        [
+          "watch",
+          "live-127",
+          "第 2 题 · 情绪波动"
+        ],
+        [
+          "watch",
+          "live-128",
+          "第 3 题 · 关节和肌肉疼痛"
+        ],
+        [
+          "watch",
+          "live-129",
+          "第 4 题 · 疲乏"
+        ],
+        [
+          "watch",
+          "live-130",
+          "第 5 题 · 干涩与灼热"
+        ],
+        [
+          "watch",
+          "live-131",
+          "第 6 题 · 周期和次数"
+        ],
+        [
+          "watch",
+          "live-132",
+          "第 7 题 · 距上一次月经的时间"
+        ],
+        [
+          "watch",
+          "live-133",
+          "第 8 题 · 毛发生长情况"
+        ],
+        [
+          "watch",
+          "live-134",
+          "第 9 题 · 痤疮程度"
+        ],
+        [
+          "watch",
+          "live-135",
+          "第 10 题 · 脱发程度"
+        ],
+        [
+          "watch",
+          "live-136",
+          "第 11 题 · 黑棘皮程度"
+        ],
+        [
+          "watch",
+          "live-137",
+          "第 11 题 · 下一步"
+        ]
+      ]
+    },
+    {
+      "id": "live-female-evaluation",
+      "title": "女性健康研究 · 评估",
+      "hint": "在表框旁选择操作。在截图上拖动可查看已经拍到的位置，右滑或点返回可退回。",
+      "start": {
+        "watch": "live-138"
+      },
+      "keys": [
+        [
+          "watch",
+          "live-138",
+          "女性健康 · 评估进度"
+        ],
+        [
+          "watch",
+          "live-139",
+          "女性健康 · 评估记录"
+        ],
+        [
+          "watch",
+          "live-140",
+          "女性健康 · 手机查看提示"
+        ],
+        [
+          "watch",
+          "live-141",
+          "女性健康 · 项目菜单"
+        ]
+      ]
+    }
+  ],
+  "references": [
+    "画面来自本台 WATCH 6 的联机截图。缺少图像的目标列在侧栏「待采集界面」。"
+  ],
+  "initialView": {
+    "device": "watch",
+    "scene": "browse",
+    "page": "live-084"
+  },
+  "pendingScreens": [
+    "高血压风险评估启动后的界面",
+    "心脏健康实际检测与结果",
+    "其他项目的未采集测量分支",
+    "打开血糖测量说明",
+    "终止本轮评估的确认与结果",
+    "打开高尿酸测量说明",
+    "启动评估后页面",
+    "开始检测后的心脏健康研究画面",
+    "开始测量后页面",
+    "打开血管健康测量说明",
+    "问卷第 1 题待补采"
+  ],
+  "watchReplayEntry": "live-084",
+  "watchLists": [
+    {
+      "label": "研究项目",
+      "anchors": {
+        "main": 0,
+        "down1": 2,
+        "down2": 4,
+        "down3": 7,
+        "down4": 9,
+        "live-084": 0,
+        "live-085": 2,
+        "live-114": 3,
+        "live-109": 5,
+        "live-123": 6,
+        "live-086": 7,
+        "live-087": 8
+      },
+      "rows": [
+        {
+          "label": "血糖健康研究",
+          "source": "live-084",
+          "crop": [
+            1.7316,
+            36.79654,
+            96.5368,
+            27.92208
+          ],
+          "location": "live-084",
+          "page": "live-088",
+          "heading": "内分泌"
+        },
+        {
+          "label": "高尿酸研究",
+          "source": "live-084",
+          "crop": [
+            12.33766,
+            67.31602,
+            75.32468,
+            21.64502
+          ],
+          "location": "live-084",
+          "page": "live-093"
+        },
+        {
+          "label": "高血压风险研究",
+          "source": "live-085",
+          "crop": [
+            11.68831,
+            11.25541,
+            76.62338,
+            22.29437
+          ],
+          "location": "live-085",
+          "page": "live-098",
+          "heading": "心血管"
+        },
+        {
+          "label": "冠心病研究",
+          "source": "live-085",
+          "crop": [
+            1.7316,
+            35.93074,
+            96.5368,
+            27.92208
+          ],
+          "location": "live-114",
+          "page": "live-115"
+        },
+        {
+          "label": "心脏健康研究",
+          "source": "live-109",
+          "crop": [
+            11.90476,
+            10.82251,
+            76.19048,
+            21.86147
+          ],
+          "location": "live-085",
+          "page": "live-105"
+        },
+        {
+          "label": "血管健康研究",
+          "source": "live-109",
+          "crop": [
+            1.7316,
+            35.28139,
+            96.5368,
+            27.92208
+          ],
+          "location": "live-109",
+          "page": "live-110"
+        },
+        {
+          "label": "女性健康研究",
+          "source": "live-123",
+          "crop": [
+            1.7316,
+            35.93074,
+            96.5368,
+            27.92208
+          ],
+          "location": "live-123",
+          "page": "live-124",
+          "heading": "女性健康"
+        },
+        {
+          "label": "呼吸健康研究",
+          "source": "live-086",
+          "crop": [
+            8.87446,
+            61.68831,
+            82.25108,
+            23.80952
+          ],
+          "location": "live-086",
+          "page": "resp",
+          "heading": "呼吸"
+        },
+        {
+          "label": "高原健康研究",
+          "source": "live-087",
+          "crop": [
+            1.7316,
+            35.28139,
+            96.5368,
+            27.92208
+          ],
+          "location": "live-087",
+          "page": "altitude"
+        },
+        {
+          "label": "更多",
+          "source": "live-087",
+          "crop": [
+            29.22078,
+            71.86147,
+            41.55844,
+            14.06926
+          ],
+          "location": "live-087",
+          "page": "projects",
+          "compact": true
+        }
+      ]
+    },
+    {
+      "label": "创新研究 · 更多",
+      "anchors": {
+        "projects": 0,
+        "more-lower": 3
+      },
+      "rows": [
+        {
+          "label": "手机侧 App",
+          "source": "projects",
+          "crop": [
+            9.44206,
+            14.16309,
+            81.11588,
+            23.17597
+          ],
+          "location": "projects",
+          "pending": true
+        },
+        {
+          "label": "个人信息",
+          "source": "projects",
+          "crop": [
+            9.44206,
+            39.91416,
+            81.11588,
+            23.17597
+          ],
+          "location": "projects",
+          "pending": true
+        },
+        {
+          "label": "佩戴方式",
+          "source": "more-lower",
+          "crop": [
+            9.44206,
+            36.0515,
+            81.11588,
+            23.17597
+          ],
+          "location": "more-lower",
+          "page": "wear-hand"
+        },
+        {
+          "label": "关于",
+          "source": "more-lower",
+          "crop": [
+            9.44206,
+            61.80258,
+            81.11588,
+            23.17597
+          ],
+          "location": "more-lower",
+          "page": "about"
+        }
+      ]
+    }
+  ],
+  "watchScrollGroups": [
+    {
+      "mode": "paged",
+      "pages": [
+        "live-088",
+        "live-089",
+        "live-090",
+        "live-091"
+      ]
+    },
+    {
+      "mode": "paged",
+      "pages": [
+        "live-093",
+        "live-094",
+        "live-095",
+        "live-096"
+      ]
+    },
+    {
+      "mode": "paged",
+      "pages": [
+        "live-098",
+        "live-099",
+        "live-100",
+        "live-101"
+      ]
+    },
+    {
+      "mode": "paged",
+      "pages": [
+        "live-105",
+        "live-106",
+        "live-107",
+        "live-108"
+      ]
+    },
+    {
+      "mode": "paged",
+      "pages": [
+        "live-110",
+        "live-111",
+        "live-112",
+        "live-113"
+      ]
+    },
+    {
+      "mode": "paged",
+      "pages": [
+        "live-118",
+        "live-119",
+        "live-120",
+        "live-121"
+      ]
+    },
+    [
+      "live-124",
+      "live-125"
+    ],
+    {
+      "mode": "paged",
+      "pages": [
+        "live-138",
+        "live-139",
+        "live-140",
+        "live-141"
+      ]
+    },
+    [
+      "resp-tutorial",
+      "resp-tutorial-lower"
+    ],
+    [
+      "altitude-tutorial",
+      "altitude-tutorial-lower"
+    ]
+  ]
+}

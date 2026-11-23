@@ -1,0 +1,2479 @@
+{
+  "device": {
+    "model": "HUAWEI Mate 50",
+    "os": "CET-AL00 4.2.0.225(C00E182R5P6)",
+    "app": "华为运动健康",
+    "appVersion": "17.0.10.320",
+    "versionCode": 1700010320,
+    "viewport": "1088x2400",
+    "connectedWearable": "HUAWEI WATCH 6"
+  },
+  "scope": {
+    "app": "com.huawei.health",
+    "tabs": [
+      "今日",
+      "设备"
+    ],
+    "deviceContext": "当前连接设备的运动健康相关功能",
+    "excluded": [
+      "运动标签",
+      "会员和商城",
+      "非运动健康设备服务",
+      "我的标签"
+    ]
+  },
+  "observations": {
+    "device-altitude-off": {
+      "parent": "device-altitude-switch-1",
+      "label": "知道了",
+      "gesture": "tap",
+      "rid": "button1",
+      "box": [
+        94,
+        2221,
+        994,
+        2292
+      ]
+    },
+    "device-altitude-switch-1": {
+      "parent": "device-altitude",
+      "label": "自动监护",
+      "gesture": "tap",
+      "box": [
+        878,
+        310,
+        1018,
+        449
+      ]
+    },
+    "device-altitude": {
+      "parent": "device",
+      "label": "高原关爱",
+      "rid": "tab_title",
+      "gesture": "tap"
+    },
+    "device-apnea-active": {
+      "parent": "device-apnea-success",
+      "label": "激活完成",
+      "gesture": "tap",
+      "auto": true
+    },
+    "device-apnea-menu-about": {
+      "parent": "device-apnea-menu",
+      "label": "关于",
+      "gesture": "tap",
+      "box": [
+        404,
+        695,
+        1033,
+        840
+      ]
+    },
+    "device-apnea-menu-all-filter-strip-severe": {
+      "parent": "device-apnea-menu-all-filter-strip",
+      "label": "疑似重度",
+      "gesture": "tap",
+      "box": [
+        785,
+        317,
+        1045,
+        381
+      ]
+    },
+    "device-apnea-menu-all-filter-strip": {
+      "parent": "device-apnea-menu-all",
+      "label": "向左滑动筛选栏",
+      "gesture": "left",
+      "region": [
+        0,
+        290,
+        1088,
+        414
+      ],
+      "reverseGesture": "right"
+    },
+    "device-apnea-menu-all-latest": {
+      "parent": "device-apnea-menu-all",
+      "label": "未见异常 3/27",
+      "gesture": "tap",
+      "rid": "",
+      "box": [
+        54,
+        600,
+        1033,
+        744
+      ]
+    },
+    "device-apnea-menu-all-type-1": {
+      "parent": "device-apnea-menu-all",
+      "label": "未见异常",
+      "gesture": "tap",
+      "box": [
+        239,
+        317,
+        499,
+        381
+      ],
+      "filter": true
+    },
+    "device-apnea-menu-all-type-2": {
+      "parent": "device-apnea-menu-all",
+      "label": "疑似轻度",
+      "gesture": "tap",
+      "box": [
+        516,
+        317,
+        776,
+        381
+      ],
+      "filter": true
+    },
+    "device-apnea-menu-all-type-3": {
+      "parent": "device-apnea-menu-all",
+      "label": "疑似中度",
+      "gesture": "tap",
+      "box": [
+        794,
+        317,
+        1051,
+        381
+      ],
+      "filter": true
+    },
+    "device-apnea-menu-all-type-4": {
+      "parent": "device-apnea-menu-all",
+      "label": "疑似重度",
+      "gesture": "tap",
+      "box": [
+        1071,
+        317,
+        1088,
+        381
+      ],
+      "filter": true
+    },
+    "device-apnea-menu-all": {
+      "parent": "device-apnea-menu",
+      "label": "所有数据",
+      "gesture": "tap",
+      "box": [
+        404,
+        277,
+        1033,
+        421
+      ]
+    },
+    "device-apnea-menu-info": {
+      "parent": "device-apnea-menu",
+      "label": "说明",
+      "gesture": "tap",
+      "box": [
+        404,
+        557,
+        1033,
+        698
+      ]
+    },
+    "device-apnea-menu-settings": {
+      "parent": "device-apnea-menu",
+      "label": "设置",
+      "gesture": "tap",
+      "box": [
+        404,
+        418,
+        1033,
+        560
+      ]
+    },
+    "device-apnea-menu": {
+      "parent": "device-apnea-active",
+      "label": "更多选项",
+      "gesture": "tap"
+    },
+    "device-apnea-success": {
+      "parent": "device-apnea",
+      "label": "激活",
+      "gesture": "tap"
+    },
+    "device-apnea": {
+      "parent": "device",
+      "label": "睡眠呼吸暂停检测",
+      "rid": "tab_title",
+      "gesture": "tap"
+    },
+    "device-arrhythmia-month": {
+      "parent": "device-arrhythmia",
+      "label": "月",
+      "gesture": "tap",
+      "period": true
+    },
+    "device-arrhythmia-more-about": {
+      "parent": "device-arrhythmia-more",
+      "label": "关于",
+      "gesture": "tap",
+      "box": [
+        395,
+        831,
+        1045,
+        975
+      ]
+    },
+    "device-arrhythmia-more-all": {
+      "parent": "device-arrhythmia-more",
+      "label": "所有数据",
+      "gesture": "tap",
+      "box": [
+        395,
+        277,
+        1045,
+        421
+      ]
+    },
+    "device-arrhythmia-more-auto": {
+      "parent": "device-arrhythmia-more",
+      "label": "自动检测",
+      "gesture": "tap",
+      "box": [
+        395,
+        415,
+        1045,
+        560
+      ]
+    },
+    "device-arrhythmia-more-faq": {
+      "parent": "device-arrhythmia-more",
+      "label": "常见问题",
+      "gesture": "tap",
+      "box": [
+        395,
+        693,
+        1045,
+        837
+      ]
+    },
+    "device-arrhythmia-more-info": {
+      "parent": "device-arrhythmia-more",
+      "label": "说明",
+      "gesture": "tap",
+      "box": [
+        395,
+        554,
+        1045,
+        698
+      ]
+    },
+    "device-arrhythmia-more": {
+      "parent": "device-arrhythmia",
+      "label": "更多选项",
+      "gesture": "tap"
+    },
+    "device-arrhythmia-week": {
+      "parent": "device-arrhythmia",
+      "label": "周",
+      "gesture": "tap",
+      "period": true
+    },
+    "device-arrhythmia-year": {
+      "parent": "device-arrhythmia",
+      "label": "年",
+      "gesture": "tap",
+      "period": true
+    },
+    "device-arrhythmia": {
+      "parent": "device",
+      "label": "脉搏波心律失常分析",
+      "rid": "tab_title",
+      "gesture": "tap"
+    },
+    "device-cycle": {
+      "parent": "device",
+      "label": "生理周期",
+      "rid": "tab_title",
+      "gesture": "tap"
+    },
+    "device-ecg-more-about": {
+      "parent": "device-ecg-more",
+      "label": "关于",
+      "gesture": "tap",
+      "box": [
+        395,
+        693,
+        1045,
+        837
+      ]
+    },
+    "device-ecg-more-all": {
+      "parent": "device-ecg-more",
+      "label": "所有数据",
+      "gesture": "tap",
+      "box": [
+        395,
+        277,
+        1045,
+        421
+      ]
+    },
+    "device-ecg-more-knowledge": {
+      "parent": "device-ecg-more",
+      "label": "相关知识",
+      "gesture": "tap",
+      "box": [
+        395,
+        415,
+        1045,
+        560
+      ]
+    },
+    "device-ecg-more-settings": {
+      "parent": "device-ecg-more",
+      "label": "设置",
+      "gesture": "tap",
+      "box": [
+        395,
+        554,
+        1045,
+        698
+      ]
+    },
+    "device-ecg-more": {
+      "parent": "device-ecg",
+      "label": "更多",
+      "gesture": "tap"
+    },
+    "device-ecg-result": {
+      "parent": "device-ecg",
+      "label": "窦性心律",
+      "gesture": "tap"
+    },
+    "device-ecg": {
+      "parent": "device",
+      "label": "心电图",
+      "rid": "tab_title",
+      "gesture": "tap"
+    },
+    "device-general": {
+      "parent": "device",
+      "label": "通用设置",
+      "rid": "tab_title",
+      "gesture": "tap"
+    },
+    "device-golf": {
+      "parent": "device",
+      "label": "高尔夫",
+      "rid": "tab_title",
+      "gesture": "tap"
+    },
+    "device-heart-down": {
+      "parent": "device-heart",
+      "label": "45 次/分钟",
+      "gesture": "tap"
+    },
+    "device-heart-sport-hr": {
+      "parent": "device-heart",
+      "label": "运动心率设置",
+      "gesture": "tap"
+    },
+    "device-heart-switch-1": {
+      "parent": "device-heart",
+      "label": "连续测量心率",
+      "gesture": "tap",
+      "rid": "",
+      "box": [
+        903,
+        360,
+        1010,
+        421
+      ],
+      "toggle": true,
+      "before": true
+    },
+    "device-heart-switch-3": {
+      "parent": "device-heart",
+      "label": "实时",
+      "gesture": "tap",
+      "rid": "",
+      "box": [
+        949,
+        1071,
+        1010,
+        1134
+      ],
+      "toggle": true,
+      "before": false
+    },
+    "device-heart-up": {
+      "parent": "device-heart",
+      "label": "110 次/分钟",
+      "gesture": "tap"
+    },
+    "device-heart": {
+      "parent": "device",
+      "label": "心率",
+      "rid": "tab_title",
+      "gesture": "tap"
+    },
+    "device-list": {
+      "parent": "device",
+      "label": "全部设备 (30)",
+      "gesture": "tap",
+      "rid": "tab_title"
+    },
+    "device-mood-about": {
+      "parent": "device-mood",
+      "label": "了解更多",
+      "gesture": "tap"
+    },
+    "device-mood-switch-1": {
+      "parent": "device-mood",
+      "label": "情绪/压力辅助记录",
+      "gesture": "tap",
+      "rid": "event_emotion_monitor_switch_btn",
+      "box": [
+        867,
+        358,
+        1007,
+        497
+      ],
+      "toggle": true,
+      "before": true
+    },
+    "device-mood-switch-2": {
+      "parent": "device-mood",
+      "label": "情绪健康风险提示",
+      "gesture": "tap",
+      "rid": "event_emotion_risk_waring_switch_btn",
+      "box": [
+        867,
+        695,
+        1007,
+        834
+      ],
+      "toggle": true,
+      "before": true
+    },
+    "device-mood": {
+      "parent": "device",
+      "label": "情绪健康",
+      "rid": "tab_title",
+      "gesture": "tap"
+    },
+    "device-oxygen-limit": {
+      "parent": "device-oxygen",
+      "label": "90%",
+      "gesture": "tap"
+    },
+    "device-oxygen": {
+      "parent": "device",
+      "label": "血氧",
+      "rid": "tab_title",
+      "gesture": "tap"
+    },
+    "device-research-open": {
+      "parent": "device-research",
+      "label": "前往",
+      "gesture": "tap",
+      "box": [
+        568,
+        2221,
+        994,
+        2292
+      ]
+    },
+    "device-research": {
+      "parent": "device",
+      "label": "华为创新研究",
+      "gesture": "tap",
+      "rid": "tab_title"
+    },
+    "device-rings-confirm-task": {
+      "parent": "device-rings",
+      "label": "任务提醒",
+      "gesture": "tap",
+      "box": [
+        878,
+        1075,
+        1018,
+        1214
+      ],
+      "rid": "reminder_switch_btn"
+    },
+    "device-rings-switch-1": {
+      "parent": "device-rings",
+      "label": "久坐提醒",
+      "gesture": "tap",
+      "rid": "reminder_switch_btn",
+      "box": [
+        878,
+        355,
+        1018,
+        494
+      ],
+      "toggle": true,
+      "before": true
+    },
+    "device-rings-switch-2": {
+      "parent": "device-rings",
+      "label": "进度提醒",
+      "gesture": "tap",
+      "rid": "reminder_switch_btn",
+      "box": [
+        878,
+        595,
+        1018,
+        734
+      ],
+      "toggle": true,
+      "before": true
+    },
+    "device-rings-switch-3": {
+      "parent": "device-rings",
+      "label": "目标达成提醒",
+      "gesture": "tap",
+      "rid": "reminder_switch_btn",
+      "box": [
+        878,
+        835,
+        1018,
+        974
+      ],
+      "toggle": true,
+      "before": true
+    },
+    "device-rings-switch-4": {
+      "parent": "device-rings-confirm-task",
+      "label": "确认关闭",
+      "gesture": "tap",
+      "rid": "dialog_btn_positive",
+      "box": [
+        568,
+        2221,
+        994,
+        2292
+      ]
+    },
+    "device-rings": {
+      "parent": "device",
+      "label": "活动记录",
+      "rid": "tab_title",
+      "gesture": "tap"
+    },
+    "device-sleep": {
+      "parent": "device",
+      "label": "睡眠",
+      "rid": "tab_title",
+      "gesture": "tap"
+    },
+    "device-temp-switch-1": {
+      "parent": "device-temp",
+      "label": "体温偏高提醒",
+      "gesture": "tap",
+      "rid": "temp_monitoring_switch",
+      "box": [
+        880,
+        430,
+        1020,
+        569
+      ],
+      "toggle": true,
+      "before": true
+    },
+    "device-temp": {
+      "parent": "device",
+      "label": "体温",
+      "rid": "tab_title",
+      "gesture": "tap"
+    },
+    "today-bmi": {
+      "parent": "today",
+      "label": "测测你的BMI",
+      "rid": "",
+      "gesture": "tap"
+    },
+    "today-bp-details": {
+      "parent": "today-bp",
+      "label": "查看更多血压数据",
+      "gesture": "tap"
+    },
+    "today-bp-manual": {
+      "parent": "today-bp",
+      "label": "手动输入",
+      "gesture": "tap",
+      "rid": "",
+      "box": [
+        46,
+        2264,
+        544,
+        2292
+      ]
+    },
+    "today-bp-more-all": {
+      "parent": "today-bp-more",
+      "label": "所有数据",
+      "gesture": "tap",
+      "box": [
+        406,
+        299,
+        1031,
+        438
+      ]
+    },
+    "today-bp-more-knowledge": {
+      "parent": "today-bp-more",
+      "label": "相关知识",
+      "gesture": "tap",
+      "box": [
+        406,
+        439,
+        1031,
+        578
+      ]
+    },
+    "today-bp-more": {
+      "parent": "today-bp",
+      "label": "更多",
+      "gesture": "tap"
+    },
+    "today-bp-schedule": {
+      "parent": "today-bp",
+      "label": "定时测量",
+      "gesture": "tap",
+      "rid": "",
+      "box": [
+        544,
+        2264,
+        1042,
+        2292
+      ]
+    },
+    "today-bp": {
+      "parent": "today",
+      "label": "血压",
+      "rid": "function_set_items_title",
+      "gesture": "tap"
+    },
+    "today-collapse": {
+      "parent": "today",
+      "label": "点击收起模型",
+      "gesture": "tap",
+      "rid": "fold_btn"
+    },
+    "today-custom": {
+      "parent": "today",
+      "label": "自定义数据看板",
+      "rid": "btn_modify_cards",
+      "gesture": "tap"
+    },
+    "today-cycle-health": {
+      "parent": "today-cycle-view",
+      "label": "查看生理周期期间的健康数据",
+      "gesture": "tap"
+    },
+    "today-cycle-more-all": {
+      "parent": "today-cycle-more",
+      "label": "所有数据",
+      "gesture": "tap",
+      "box": [
+        395,
+        554,
+        1045,
+        698
+      ]
+    },
+    "today-cycle-more": {
+      "parent": "today-cycle",
+      "label": "更多选项",
+      "gesture": "tap",
+      "box": [
+        926,
+        127,
+        1045,
+        248
+      ]
+    },
+    "today-cycle-view": {
+      "parent": "today-cycle",
+      "label": "周期视图",
+      "gesture": "tap",
+      "box": [
+        753,
+        311,
+        975,
+        384
+      ]
+    },
+    "today-cycle": {
+      "parent": "today",
+      "label": "生理周期",
+      "rid": "function_set_items_title",
+      "gesture": "tap"
+    },
+    "today-diet-quick": {
+      "parent": "today-diet",
+      "label": "快速录入",
+      "gesture": "tap"
+    },
+    "today-diet": {
+      "parent": "today",
+      "label": "记录饮食",
+      "rid": "parallel_sub_control_button_right",
+      "gesture": "tap"
+    },
+    "today-duration-month": {
+      "parent": "today-duration",
+      "label": "月",
+      "gesture": "tap",
+      "period": true
+    },
+    "today-duration-week": {
+      "parent": "today-duration",
+      "label": "周",
+      "gesture": "tap",
+      "period": true
+    },
+    "today-duration-year": {
+      "parent": "today-duration",
+      "label": "年",
+      "gesture": "tap",
+      "period": true
+    },
+    "today-duration": {
+      "parent": "today",
+      "label": "锻炼时长",
+      "rid": "title_text",
+      "gesture": "tap"
+    },
+    "today-dynamic-collapse": {
+      "parent": "today",
+      "label": "收起",
+      "gesture": "tap",
+      "rid": "parallel_sub_control_collapse"
+    },
+    "today-ecg-inbox": {
+      "parent": "today",
+      "label": "前往查看",
+      "rid": "ecg_data_view_btn",
+      "gesture": "tap"
+    },
+    "today-energy-month": {
+      "parent": "today-energy",
+      "label": "月",
+      "gesture": "tap",
+      "period": true
+    },
+    "today-energy-week": {
+      "parent": "today-energy",
+      "label": "周",
+      "gesture": "tap",
+      "period": true
+    },
+    "today-energy-year": {
+      "parent": "today-energy",
+      "label": "年",
+      "gesture": "tap",
+      "period": true
+    },
+    "today-energy": {
+      "parent": "today",
+      "label": "活动热量",
+      "gesture": "tap",
+      "rid": "title_text"
+    },
+    "today-glucose": {
+      "parent": "today",
+      "label": "血糖管理",
+      "rid": "function_set_items_title",
+      "gesture": "tap"
+    },
+    "today-heart": {
+      "parent": "today",
+      "label": "心脏健康",
+      "rid": "function_set_items_title",
+      "gesture": "tap"
+    },
+    "today-hours-month": {
+      "parent": "today-hours",
+      "label": "月",
+      "gesture": "tap",
+      "period": true
+    },
+    "today-hours-week": {
+      "parent": "today-hours",
+      "label": "周",
+      "gesture": "tap",
+      "period": true
+    },
+    "today-hours-year": {
+      "parent": "today-hours",
+      "label": "年",
+      "gesture": "tap",
+      "period": true
+    },
+    "today-hours": {
+      "parent": "today",
+      "label": "活动小时数",
+      "gesture": "tap",
+      "rid": "title_text"
+    },
+    "today-insight-card-more": {
+      "parent": "today",
+      "label": "更多",
+      "rid": "",
+      "gesture": "tap"
+    },
+    "today-insight-menu-settings": {
+      "parent": "today-insight-menu",
+      "label": "设置",
+      "gesture": "tap",
+      "box": [
+        395,
+        415,
+        1045,
+        560
+      ]
+    },
+    "today-insight-menu": {
+      "parent": "today-insight",
+      "label": "更多选项",
+      "gesture": "tap"
+    },
+    "today-insight-trend": {
+      "parent": "today-insight",
+      "label": "趋势列表",
+      "gesture": "tap"
+    },
+    "today-insight": {
+      "parent": "today",
+      "label": "查看详情",
+      "rid": "",
+      "gesture": "tap"
+    },
+    "today-life": {
+      "parent": "today",
+      "label": "健康生活",
+      "rid": "health_life_icon",
+      "gesture": "tap"
+    },
+    "today-meal-plan": {
+      "parent": "today",
+      "label": "定制专属食谱",
+      "rid": "parallel_sub_control_button_left",
+      "gesture": "tap"
+    },
+    "today-mood-choose": {
+      "parent": "today-mood",
+      "label": "选择情绪类型",
+      "gesture": "tap"
+    },
+    "today-mood-expand": {
+      "parent": "today-mood",
+      "label": "展开",
+      "gesture": "tap"
+    },
+    "today-mood-more-all": {
+      "parent": "today-mood-more",
+      "label": "所有数据",
+      "gesture": "tap",
+      "box": [
+        406,
+        299,
+        1031,
+        438
+      ]
+    },
+    "today-mood-more-knowledge": {
+      "parent": "today-mood-more",
+      "label": "相关知识",
+      "gesture": "tap",
+      "box": [
+        406,
+        439,
+        1031,
+        578
+      ]
+    },
+    "today-mood-more-settings": {
+      "parent": "today-mood-more",
+      "label": "设置",
+      "gesture": "tap",
+      "box": [
+        406,
+        578,
+        1031,
+        717
+      ]
+    },
+    "today-mood-more": {
+      "parent": "today-mood",
+      "label": "更多",
+      "gesture": "tap"
+    },
+    "today-mood": {
+      "parent": "today",
+      "label": "情绪健康",
+      "rid": "function_set_items_title",
+      "gesture": "tap"
+    },
+    "today-more-settings": {
+      "parent": "today-more",
+      "label": "设置",
+      "gesture": "tap"
+    },
+    "today-more-source": {
+      "parent": "today-more",
+      "label": "数据来源",
+      "gesture": "tap"
+    },
+    "today-more": {
+      "parent": "today",
+      "label": "更多选项",
+      "rid": "hwappbarpattern_ok_icon",
+      "gesture": "tap"
+    },
+    "today-oxygen-altitude": {
+      "parent": "today-oxygen",
+      "label": "隐藏海拔",
+      "gesture": "tap",
+      "box": [
+        858,
+        524,
+        927,
+        593
+      ],
+      "rid": "altitude_switch_btn"
+    },
+    "today-oxygen-low": {
+      "parent": "today-oxygen",
+      "label": "血氧低",
+      "gesture": "tap",
+      "box": [
+        809,
+        1928,
+        1088,
+        2292
+      ],
+      "rid": "item_one_landscape_layout"
+    },
+    "today-oxygen-month": {
+      "parent": "today-oxygen",
+      "label": "月",
+      "gesture": "tap",
+      "period": true
+    },
+    "today-oxygen-more-all": {
+      "parent": "today-oxygen-more",
+      "label": "所有数据",
+      "gesture": "tap",
+      "box": [
+        578,
+        561,
+        878,
+        700
+      ]
+    },
+    "today-oxygen-more-altitude": {
+      "parent": "today-oxygen-more",
+      "label": "高原关爱",
+      "gesture": "tap",
+      "box": [
+        578,
+        421,
+        878,
+        560
+      ]
+    },
+    "today-oxygen-more-info": {
+      "parent": "today-oxygen-more",
+      "label": "说明",
+      "gesture": "tap",
+      "box": [
+        578,
+        701,
+        878,
+        840
+      ]
+    },
+    "today-oxygen-more-oxygen": {
+      "parent": "today-oxygen-more",
+      "label": "血氧自动检测",
+      "gesture": "tap",
+      "box": [
+        578,
+        281,
+        946,
+        420
+      ]
+    },
+    "today-oxygen-more": {
+      "parent": "today-oxygen",
+      "label": "更多选项",
+      "gesture": "tap"
+    },
+    "today-oxygen-previous": {
+      "parent": "today-oxygen",
+      "label": "前一天",
+      "gesture": "tap",
+      "box": [
+        35,
+        432,
+        139,
+        524
+      ],
+      "rid": "image_up_arrow_left"
+    },
+    "today-oxygen-week": {
+      "parent": "today-oxygen",
+      "label": "周",
+      "gesture": "tap",
+      "period": true
+    },
+    "today-oxygen-year": {
+      "parent": "today-oxygen",
+      "label": "年",
+      "gesture": "tap",
+      "period": true
+    },
+    "today-oxygen": {
+      "parent": "today",
+      "label": "血氧饱和度",
+      "rid": "function_set_items_title",
+      "gesture": "tap"
+    },
+    "today-profile-add": {
+      "parent": "today-profile",
+      "label": "添加体检报告",
+      "gesture": "tap",
+      "box": [
+        43,
+        2203,
+        1045,
+        2292
+      ]
+    },
+    "today-profile-expand": {
+      "parent": "today-profile",
+      "label": "展开",
+      "gesture": "tap"
+    },
+    "today-profile-micro": {
+      "parent": "today-profile",
+      "label": "微体检报告",
+      "gesture": "tap"
+    },
+    "today-profile-more": {
+      "parent": "today-profile",
+      "label": "更多选项",
+      "gesture": "tap"
+    },
+    "today-profile-reports": {
+      "parent": "today-profile",
+      "label": "体检报告",
+      "gesture": "tap",
+      "box": [
+        77,
+        323,
+        493,
+        375
+      ],
+      "rid": ""
+    },
+    "today-profile": {
+      "parent": "today",
+      "label": "健康档案",
+      "rid": "function_set_items_title",
+      "gesture": "tap"
+    },
+    "today-records-add": {
+      "parent": "today-records",
+      "label": "添加",
+      "gesture": "tap"
+    },
+    "today-records-stats": {
+      "parent": "today-records",
+      "label": "统计",
+      "gesture": "tap"
+    },
+    "today-records": {
+      "parent": "today",
+      "label": "运动记录",
+      "rid": "",
+      "gesture": "tap"
+    },
+    "today-rings-insights": {
+      "parent": "today-rings",
+      "label": "查看更多",
+      "gesture": "tap"
+    },
+    "today-rings-more-notifications": {
+      "parent": "today-rings-more",
+      "label": "提醒设置",
+      "gesture": "tap",
+      "box": [
+        578,
+        421,
+        878,
+        560
+      ]
+    },
+    "today-rings-more-targets": {
+      "parent": "today-rings-more",
+      "label": "调整目标",
+      "gesture": "tap",
+      "box": [
+        578,
+        281,
+        878,
+        420
+      ]
+    },
+    "today-rings-more": {
+      "parent": "today-rings",
+      "label": "更多选项",
+      "gesture": "tap"
+    },
+    "today-rings-previous-week": {
+      "parent": "today-rings",
+      "label": "上一周",
+      "gesture": "right",
+      "alsoTap": "上一周",
+      "reverseGesture": "left",
+      "reverseTap": "下一周"
+    },
+    "today-rings": {
+      "parent": "today",
+      "label": "活动记录",
+      "rid": "circleProgressBar",
+      "gesture": "tap"
+    },
+    "today-search": {
+      "parent": "today",
+      "label": "搜索",
+      "rid": "hwappbarpattern_menu_icon",
+      "gesture": "tap"
+    },
+    "today-shortcuts": {
+      "parent": "today",
+      "label": "添加",
+      "rid": "",
+      "gesture": "tap"
+    },
+    "today-sleep-month": {
+      "parent": "today-sleep",
+      "label": "月",
+      "gesture": "tap",
+      "period": true
+    },
+    "today-sleep-more-all": {
+      "parent": "today-sleep-more",
+      "label": "所有数据",
+      "gesture": "tap",
+      "box": [
+        542,
+        841,
+        842,
+        980
+      ]
+    },
+    "today-sleep-more-favourites": {
+      "parent": "today-sleep-more",
+      "label": "梦话鼾声收藏夹",
+      "gesture": "tap",
+      "box": [
+        542,
+        421,
+        956,
+        560
+      ]
+    },
+    "today-sleep-more-info": {
+      "parent": "today-sleep-more",
+      "label": "说明",
+      "gesture": "tap",
+      "box": [
+        542,
+        1121,
+        842,
+        1260
+      ]
+    },
+    "today-sleep-more-settings-download": {
+      "parent": "today-sleep-more-settings",
+      "label": "下载",
+      "gesture": "tap",
+      "box": [
+        568,
+        2221,
+        994,
+        2292
+      ]
+    },
+    "today-sleep-more-settings": {
+      "parent": "today-sleep-more",
+      "label": "睡眠设置",
+      "gesture": "tap",
+      "box": [
+        542,
+        281,
+        842,
+        420
+      ]
+    },
+    "today-sleep-more-sleep-plan": {
+      "parent": "today-sleep-more",
+      "label": "智能睡眠改善",
+      "gesture": "tap",
+      "box": [
+        542,
+        701,
+        910,
+        840
+      ]
+    },
+    "today-sleep-more-sleep-switch": {
+      "parent": "today-sleep-more",
+      "label": "科学睡眠开关",
+      "gesture": "tap",
+      "box": [
+        542,
+        561,
+        910,
+        700
+      ]
+    },
+    "today-sleep-more": {
+      "parent": "today-sleep",
+      "label": "更多选项",
+      "gesture": "tap"
+    },
+    "today-sleep-music": {
+      "parent": "today-sleep",
+      "label": "助眠音乐",
+      "gesture": "tap",
+      "box": [
+        729,
+        1622,
+        913,
+        1684
+      ],
+      "rid": "sleep_tab_title"
+    },
+    "today-sleep-nap": {
+      "parent": "today-sleep",
+      "label": "高效午休",
+      "gesture": "tap"
+    },
+    "today-sleep-previous": {
+      "parent": "today-sleep",
+      "label": "前一天",
+      "gesture": "tap",
+      "box": [
+        35,
+        455,
+        151,
+        524
+      ],
+      "rid": "linear_left_arrow_iv"
+    },
+    "today-sleep-record": {
+      "parent": "today-sleep",
+      "label": "记录睡眠",
+      "gesture": "tap",
+      "box": [
+        153,
+        1476,
+        313,
+        1530
+      ],
+      "rid": "section_title1"
+    },
+    "today-sleep-week": {
+      "parent": "today-sleep",
+      "label": "周",
+      "gesture": "tap",
+      "period": true
+    },
+    "today-sleep-year": {
+      "parent": "today-sleep",
+      "label": "年",
+      "gesture": "tap",
+      "period": true
+    },
+    "today-sleep": {
+      "parent": "today",
+      "label": "睡眠",
+      "rid": "function_set_items_title",
+      "gesture": "tap"
+    },
+    "today-steps-month": {
+      "parent": "today-steps",
+      "label": "月",
+      "gesture": "tap",
+      "period": true
+    },
+    "today-steps-more-all": {
+      "parent": "today-steps-more",
+      "label": "所有数据",
+      "gesture": "tap",
+      "box": [
+        578,
+        281,
+        878,
+        420
+      ]
+    },
+    "today-steps-more-knowledge": {
+      "parent": "today-steps-more",
+      "label": "相关知识",
+      "gesture": "tap",
+      "box": [
+        578,
+        421,
+        878,
+        560
+      ],
+      "rid": "list_popup_window_item_text"
+    },
+    "today-steps-more": {
+      "parent": "today-steps",
+      "label": "更多选项",
+      "gesture": "tap"
+    },
+    "today-steps-target": {
+      "parent": "today-steps",
+      "label": "编辑",
+      "gesture": "tap"
+    },
+    "today-steps-week": {
+      "parent": "today-steps",
+      "label": "周",
+      "gesture": "tap",
+      "period": true
+    },
+    "today-steps-year": {
+      "parent": "today-steps",
+      "label": "年",
+      "gesture": "tap",
+      "period": true
+    },
+    "today-steps": {
+      "parent": "today",
+      "label": "步数",
+      "rid": "step_text",
+      "gesture": "tap"
+    },
+    "today-temp-month": {
+      "parent": "today-temp",
+      "label": "月",
+      "gesture": "tap",
+      "period": true
+    },
+    "today-temp-more-all": {
+      "parent": "today-temp-more",
+      "label": "所有数据",
+      "gesture": "tap",
+      "box": [
+        578,
+        421,
+        878,
+        560
+      ]
+    },
+    "today-temp-more-info": {
+      "parent": "today-temp-more",
+      "label": "说明",
+      "gesture": "tap",
+      "box": [
+        578,
+        561,
+        878,
+        700
+      ]
+    },
+    "today-temp-more-temperature": {
+      "parent": "today-temp-more",
+      "label": "体温偏高提醒",
+      "gesture": "tap",
+      "box": [
+        578,
+        281,
+        946,
+        420
+      ]
+    },
+    "today-temp-more": {
+      "parent": "today-temp",
+      "label": "更多选项",
+      "gesture": "tap"
+    },
+    "today-temp-week": {
+      "parent": "today-temp",
+      "label": "周",
+      "gesture": "tap",
+      "period": true
+    },
+    "today-temp": {
+      "parent": "today",
+      "label": "体温",
+      "rid": "function_set_items_title",
+      "gesture": "tap"
+    },
+    "today-weight-diet": {
+      "parent": "today-weight",
+      "label": "饮食记录",
+      "gesture": "tap",
+      "box": [
+        796,
+        1420,
+        961,
+        1484
+      ],
+      "rid": ""
+    },
+    "today-weight-halfyear": {
+      "parent": "today-weight",
+      "label": "半年",
+      "gesture": "tap",
+      "period": true
+    },
+    "today-weight-help": {
+      "parent": "today-weight",
+      "label": "解决方法",
+      "gesture": "tap",
+      "box": [
+        831,
+        739,
+        996,
+        796
+      ],
+      "rid": ""
+    },
+    "today-weight-manual": {
+      "parent": "today-weight",
+      "label": "手动输入",
+      "gesture": "tap",
+      "box": [
+        31,
+        2226,
+        545,
+        2292
+      ],
+      "rid": ""
+    },
+    "today-weight-measure": {
+      "parent": "today-weight",
+      "label": "测量体重",
+      "gesture": "tap",
+      "box": [
+        542,
+        2226,
+        1056,
+        2292
+      ],
+      "rid": ""
+    },
+    "today-weight-month": {
+      "parent": "today-weight",
+      "label": "月",
+      "gesture": "tap",
+      "period": true
+    },
+    "today-weight-more": {
+      "parent": "today-weight",
+      "label": "更多选项",
+      "gesture": "tap"
+    },
+    "today-weight-total": {
+      "parent": "today-weight",
+      "label": "总消耗",
+      "gesture": "tap",
+      "box": [
+        141,
+        1934,
+        251,
+        1992
+      ],
+      "rid": ""
+    },
+    "today-weight-week": {
+      "parent": "today-weight",
+      "label": "周",
+      "gesture": "tap",
+      "period": true
+    },
+    "today-weight-year": {
+      "parent": "today-weight",
+      "label": "年",
+      "gesture": "tap",
+      "period": true
+    },
+    "today-weight": {
+      "parent": "today",
+      "label": "体重管理",
+      "rid": "function_set_items_title",
+      "gesture": "tap"
+    }
+  },
+  "evidence": {
+    "today": [
+      "evidence/20261120-today-board-compact-0.png",
+      "evidence/20261120-today-board-compact-1.png",
+      "evidence/20261120-today-board-compact-2.png",
+      "evidence/20261120-today-board-compact-3.png",
+      "evidence/20261120-today-board-compact-4.png"
+    ],
+    "device": [
+      "evidence/device-0.png",
+      "evidence/device-1.png",
+      "evidence/device-2.png",
+      "evidence/device-3.png"
+    ],
+    "device-altitude": [
+      "evidence/device-altitude.png"
+    ],
+    "device-altitude-switch-1": [
+      "evidence/device-altitude-switch-1.png"
+    ],
+    "device-apnea": [
+      "evidence/device-apnea.png",
+      "evidence/device-apnea-scroll-1.png",
+      "evidence/device-apnea-scroll-2.png"
+    ],
+    "device-apnea-success": [
+      "evidence/device-apnea-success.png"
+    ],
+    "device-arrhythmia": [
+      "evidence/device-arrhythmia.png",
+      "evidence/device-arrhythmia-scroll-1.png"
+    ],
+    "device-arrhythmia-month": [
+      "evidence/device-arrhythmia-month.png"
+    ],
+    "device-arrhythmia-more": [
+      "evidence/device-arrhythmia-more.png"
+    ],
+    "device-arrhythmia-more-about": [
+      "evidence/device-arrhythmia-more-about.png"
+    ],
+    "device-arrhythmia-more-all": [
+      "evidence/device-arrhythmia-more-all.png"
+    ],
+    "device-arrhythmia-more-auto": [
+      "evidence/device-arrhythmia-more-auto.png"
+    ],
+    "device-arrhythmia-more-faq": [
+      "evidence/device-arrhythmia-more-faq.png"
+    ],
+    "device-arrhythmia-more-info": [
+      "evidence/device-arrhythmia-more-info.png"
+    ],
+    "device-arrhythmia-week": [
+      "evidence/device-arrhythmia-week.png"
+    ],
+    "device-arrhythmia-year": [
+      "evidence/device-arrhythmia-year.png"
+    ],
+    "device-cycle": [
+      "evidence/device-cycle.png"
+    ],
+    "device-ecg": [
+      "evidence/device-ecg.png",
+      "evidence/device-ecg-scroll-1.png",
+      "evidence/device-ecg-scroll-2.png",
+      "evidence/device-ecg-scroll-3.png"
+    ],
+    "device-ecg-more": [
+      "evidence/device-ecg-more.png"
+    ],
+    "device-ecg-more-about": [
+      "evidence/device-ecg-more-about.png"
+    ],
+    "device-ecg-more-all": [
+      "evidence/device-ecg-more-all.png"
+    ],
+    "device-ecg-more-knowledge": [
+      "evidence/device-ecg-more-knowledge.png"
+    ],
+    "device-ecg-more-settings": [
+      "evidence/device-ecg-more-settings.png"
+    ],
+    "device-ecg-result": [
+      "evidence/device-ecg-result.png"
+    ],
+    "device-general": [
+      "evidence/device-general.png"
+    ],
+    "device-golf": [
+      "evidence/device-golf.png"
+    ],
+    "device-heart": [
+      "evidence/device-heart.png",
+      "evidence/device-heart-scroll-1.png"
+    ],
+    "device-heart-down": [
+      "evidence/device-heart-down.png"
+    ],
+    "device-heart-sport-hr": [
+      "evidence/device-heart-sport-hr.png"
+    ],
+    "device-heart-switch-1": [
+      "evidence/device-heart-switch-1.png"
+    ],
+    "device-heart-switch-3": [
+      "evidence/device-heart-switch-3.png"
+    ],
+    "device-heart-up": [
+      "evidence/device-heart-up.png"
+    ],
+    "device-list": [
+      "evidence/device-list.png"
+    ],
+    "device-mood": [
+      "evidence/device-mood.png"
+    ],
+    "device-mood-about": [
+      "evidence/device-mood-about.png"
+    ],
+    "device-mood-switch-1": [
+      "evidence/device-mood-switch-1.png"
+    ],
+    "device-mood-switch-2": [
+      "evidence/device-mood-switch-2.png"
+    ],
+    "device-oxygen": [
+      "evidence/device-oxygen.png"
+    ],
+    "device-oxygen-limit": [
+      "evidence/device-oxygen-limit.png"
+    ],
+    "device-research": [
+      "evidence/device-research.png"
+    ],
+    "device-research-open": [
+      "evidence/device-research-open.png"
+    ],
+    "device-rings": [
+      "evidence/device-rings.png"
+    ],
+    "device-rings-confirm-task": [
+      "evidence/device-rings-confirm-task.png"
+    ],
+    "device-rings-switch-1": [
+      "evidence/device-rings-switch-1.png"
+    ],
+    "device-rings-switch-2": [
+      "evidence/device-rings-switch-2.png"
+    ],
+    "device-rings-switch-3": [
+      "evidence/device-rings-switch-3.png"
+    ],
+    "device-rings-switch-4": [
+      "evidence/device-rings-switch-4.png"
+    ],
+    "device-sleep": [
+      "evidence/device-sleep.png"
+    ],
+    "device-temp": [
+      "evidence/device-temp.png"
+    ],
+    "device-temp-switch-1": [
+      "evidence/device-temp-switch-1.png"
+    ],
+    "today-bmi": [
+      "evidence/today-bmi.png"
+    ],
+    "today-bp": [
+      "evidence/today-bp.png"
+    ],
+    "today-bp-view-1": [
+      "evidence/today-bp-scroll-1.png"
+    ],
+    "today-bp-view-2": [
+      "evidence/today-bp-scroll-2.png"
+    ],
+    "today-bp-view-3": [
+      "evidence/today-bp-scroll-3.png"
+    ],
+    "today-bp-details": [
+      "evidence/today-bp-details.png"
+    ],
+    "today-bp-manual": [
+      "evidence/today-bp-manual.png"
+    ],
+    "today-bp-more": [
+      "evidence/today-bp-more.png"
+    ],
+    "today-bp-more-all": [
+      "evidence/today-bp-more-all.png"
+    ],
+    "today-bp-more-knowledge": [
+      "evidence/today-bp-more-knowledge.png"
+    ],
+    "today-bp-schedule": [
+      "evidence/today-bp-schedule.png"
+    ],
+    "today-collapse": [
+      "evidence/today-collapse.png",
+      "evidence/today-1.png",
+      "evidence/today-2.png",
+      "evidence/today-3.png",
+      "evidence/today-4.png"
+    ],
+    "today-custom": [
+      "evidence/today-custom.png"
+    ],
+    "today-cycle": [
+      "evidence/today-cycle.png"
+    ],
+    "today-cycle-more": [
+      "evidence/today-cycle-more.png"
+    ],
+    "today-cycle-more-all": [
+      "evidence/today-cycle-more-all.png"
+    ],
+    "today-cycle-view": [
+      "evidence/today-cycle-view.png",
+      "evidence/today-cycle-scroll-1.png",
+      "evidence/today-cycle-scroll-2.png"
+    ],
+    "today-diet": [
+      "evidence/today-diet.png"
+    ],
+    "today-diet-quick": [
+      "evidence/today-diet-quick.png"
+    ],
+    "today-duration": [
+      "evidence/today-duration.png"
+    ],
+    "today-duration-month": [
+      "evidence/today-duration-month.png"
+    ],
+    "today-duration-week": [
+      "evidence/today-duration-week.png"
+    ],
+    "today-duration-year": [
+      "evidence/today-duration-year.png"
+    ],
+    "today-dynamic-collapse": [
+      "evidence/today-dynamic-collapse.png"
+    ],
+    "today-ecg-inbox": [
+      "evidence/today-ecg-inbox.png"
+    ],
+    "today-energy": [
+      "evidence/today-energy.png"
+    ],
+    "today-energy-month": [
+      "evidence/today-energy-month.png"
+    ],
+    "today-energy-week": [
+      "evidence/today-energy-week.png"
+    ],
+    "today-energy-year": [
+      "evidence/today-energy-year.png"
+    ],
+    "today-glucose": [
+      "evidence/today-glucose.png"
+    ],
+    "today-heart": [
+      "evidence/today-heart.png"
+    ],
+    "today-hours": [
+      "evidence/today-hours.png"
+    ],
+    "today-hours-month": [
+      "evidence/today-hours-month.png"
+    ],
+    "today-hours-week": [
+      "evidence/today-hours-week.png"
+    ],
+    "today-hours-year": [
+      "evidence/today-hours-year.png"
+    ],
+    "today-insight": [
+      "evidence/20261120-today-insight-0.png",
+      "evidence/20261120-today-insight-1.png",
+      "evidence/20261120-today-insight-2.png",
+      "evidence/20261120-today-insight-3.png",
+      "evidence/20261120-today-insight-4.png",
+      "evidence/20261120-today-insight-5.png",
+      "evidence/20261120-today-insight-6.png"
+    ],
+    "today-insight-card-more": [
+      "evidence/today-insight-card-more.png"
+    ],
+    "today-insight-menu": [
+      "evidence/today-insight-menu.png"
+    ],
+    "today-insight-menu-settings": [
+      "evidence/today-insight-menu-settings.png"
+    ],
+    "today-insight-trend": [
+      "evidence/today-insight-trend.png"
+    ],
+    "today-life": [
+      "evidence/today-life.png",
+      "evidence/today-1.png",
+      "evidence/today-2.png",
+      "evidence/today-3.png",
+      "evidence/today-4.png"
+    ],
+    "today-meal-plan": [
+      "evidence/today-meal-plan.png",
+      "evidence/today-meal-plan-scroll-1.png"
+    ],
+    "today-mood": [
+      "evidence/today-mood.png",
+      "evidence/today-mood-scroll-1.png",
+      "evidence/today-mood-scroll-2.png",
+      "evidence/today-mood-scroll-3.png"
+    ],
+    "today-mood-choose": [
+      "evidence/today-mood-choose.png"
+    ],
+    "today-mood-expand": [
+      "evidence/today-mood-expand.png"
+    ],
+    "today-mood-more": [
+      "evidence/today-mood-more.png"
+    ],
+    "today-mood-more-all": [
+      "evidence/today-mood-more-all.png"
+    ],
+    "today-mood-more-knowledge": [
+      "evidence/today-mood-more-knowledge.png"
+    ],
+    "today-mood-more-settings": [
+      "evidence/today-mood-more-settings.png"
+    ],
+    "today-more": [
+      "evidence/today-more.png"
+    ],
+    "today-more-settings": [
+      "evidence/today-more-settings.png"
+    ],
+    "today-more-source": [
+      "evidence/today-more-source.png"
+    ],
+    "today-oxygen": [
+      "evidence/today-oxygen.png",
+      "evidence/today-oxygen-scroll-1.png"
+    ],
+    "today-oxygen-altitude": [
+      "evidence/today-oxygen-altitude.png"
+    ],
+    "today-oxygen-low": [
+      "evidence/today-oxygen-low.png"
+    ],
+    "today-oxygen-month": [
+      "evidence/today-oxygen-month.png"
+    ],
+    "today-oxygen-more": [
+      "evidence/today-oxygen-more.png"
+    ],
+    "today-oxygen-more-all": [
+      "evidence/today-oxygen-more-all.png"
+    ],
+    "today-oxygen-more-altitude": [
+      "evidence/today-oxygen-more-altitude.png"
+    ],
+    "today-oxygen-more-info": [
+      "evidence/today-oxygen-more-info.png"
+    ],
+    "today-oxygen-more-oxygen": [
+      "evidence/today-oxygen-more-oxygen.png"
+    ],
+    "today-oxygen-previous": [
+      "evidence/today-oxygen-previous.png"
+    ],
+    "today-oxygen-week": [
+      "evidence/today-oxygen-week.png"
+    ],
+    "today-oxygen-year": [
+      "evidence/today-oxygen-year.png"
+    ],
+    "today-profile": [
+      "evidence/today-profile.png"
+    ],
+    "today-profile-add": [
+      "evidence/today-profile-add.png"
+    ],
+    "today-profile-expand": [
+      "evidence/today-profile-expand.png"
+    ],
+    "today-profile-micro": [
+      "evidence/today-profile-micro.png"
+    ],
+    "today-profile-more": [
+      "evidence/today-profile-more.png"
+    ],
+    "today-profile-reports": [
+      "evidence/today-profile-reports.png"
+    ],
+    "today-records": [
+      "evidence/today-records.png"
+    ],
+    "today-records-add": [
+      "evidence/today-records-add.png"
+    ],
+    "today-records-stats": [
+      "evidence/today-records-stats.png"
+    ],
+    "today-rings": [
+      "evidence/today-rings.png",
+      "evidence/today-rings-scroll-1.png",
+      "evidence/today-rings-scroll-2.png"
+    ],
+    "today-rings-insights": [
+      "evidence/today-rings-insights.png"
+    ],
+    "today-rings-more": [
+      "evidence/today-rings-more.png"
+    ],
+    "today-rings-more-notifications": [
+      "evidence/today-rings-more-notifications.png"
+    ],
+    "today-rings-more-targets": [
+      "evidence/today-rings-more-targets.png"
+    ],
+    "today-rings-previous-week": [
+      "evidence/today-rings-previous-week.png"
+    ],
+    "today-search": [
+      "evidence/today-search.png"
+    ],
+    "today-shortcuts": [
+      "evidence/today-shortcuts.png"
+    ],
+    "today-sleep": [
+      "evidence/20261120-today-sleep-0.png",
+      "evidence/20261120-today-sleep-1.png",
+      "evidence/20261120-today-sleep-2.png",
+      "evidence/20261120-today-sleep-3.png",
+      "evidence/20261120-today-sleep-4.png",
+      "evidence/20261120-today-sleep-5.png"
+    ],
+    "today-sleep-month": [
+      "evidence/today-sleep-month.png"
+    ],
+    "today-sleep-more": [
+      "evidence/today-sleep-more.png"
+    ],
+    "today-sleep-more-all": [
+      "evidence/today-sleep-more-all.png"
+    ],
+    "today-sleep-more-favourites": [
+      "evidence/today-sleep-more-favourites.png"
+    ],
+    "today-sleep-more-info": [
+      "evidence/today-sleep-more-info.png"
+    ],
+    "today-sleep-more-settings": [
+      "evidence/today-sleep-more-settings.png"
+    ],
+    "today-sleep-more-settings-download": [
+      "evidence/today-sleep-more-settings-download.png"
+    ],
+    "today-sleep-more-sleep-plan": [
+      "evidence/today-sleep-more-sleep-plan.png"
+    ],
+    "today-sleep-more-sleep-switch": [
+      "evidence/today-sleep-more-sleep-switch.png"
+    ],
+    "today-sleep-music": [
+      "evidence/today-sleep-music.png"
+    ],
+    "today-sleep-nap": [
+      "evidence/today-sleep-nap.png"
+    ],
+    "today-sleep-previous": [
+      "evidence/today-sleep-previous.png"
+    ],
+    "today-sleep-record": [
+      "evidence/today-sleep-record.png"
+    ],
+    "today-sleep-week": [
+      "evidence/today-sleep-week.png"
+    ],
+    "today-sleep-year": [
+      "evidence/today-sleep-year.png"
+    ],
+    "today-steps": [
+      "evidence/today-steps.png"
+    ],
+    "today-steps-view-1": [
+      "evidence/today-steps-scroll-1.png"
+    ],
+    "today-steps-view-2": [
+      "evidence/today-steps-scroll-2.png"
+    ],
+    "today-steps-view-3": [
+      "evidence/today-steps-scroll-3.png"
+    ],
+    "today-steps-view-4": [
+      "evidence/today-steps-scroll-4.png"
+    ],
+    "today-steps-month": [
+      "evidence/today-steps-month.png"
+    ],
+    "today-steps-more": [
+      "evidence/today-steps-more.png"
+    ],
+    "today-steps-more-all": [
+      "evidence/today-steps-more-all.png"
+    ],
+    "today-steps-more-knowledge": [
+      "evidence/today-steps-more-knowledge.png"
+    ],
+    "today-steps-target": [
+      "evidence/today-steps-target.png"
+    ],
+    "today-steps-week": [
+      "evidence/today-steps-week.png"
+    ],
+    "today-steps-year": [
+      "evidence/today-steps-year.png"
+    ],
+    "today-temp": [
+      "evidence/today-temp.png"
+    ],
+    "today-temp-month": [
+      "evidence/today-temp-month.png"
+    ],
+    "today-temp-more": [
+      "evidence/today-temp-more.png"
+    ],
+    "today-temp-more-all": [
+      "evidence/today-temp-more-all.png"
+    ],
+    "today-temp-more-info": [
+      "evidence/today-temp-more-info.png"
+    ],
+    "today-temp-more-temperature": [
+      "evidence/today-temp-more-temperature.png"
+    ],
+    "today-temp-week": [
+      "evidence/today-temp-week.png"
+    ],
+    "today-weight": [
+      "evidence/today-weight.png"
+    ],
+    "today-weight-view-1": [
+      "evidence/today-weight-scroll-1.png"
+    ],
+    "today-weight-view-2": [
+      "evidence/today-weight-scroll-2.png"
+    ],
+    "today-weight-view-3": [
+      "evidence/today-weight-scroll-3.png"
+    ],
+    "today-weight-view-4": [
+      "evidence/today-weight-scroll-4.png"
+    ],
+    "today-weight-diet": [
+      "evidence/today-weight-diet.png"
+    ],
+    "today-weight-halfyear": [
+      "evidence/today-weight-halfyear.png"
+    ],
+    "today-weight-help": [
+      "evidence/today-weight-help.png"
+    ],
+    "today-weight-manual": [
+      "evidence/today-weight-manual.png"
+    ],
+    "today-weight-measure": [
+      "evidence/today-weight-measure.png"
+    ],
+    "today-weight-month": [
+      "evidence/today-weight-month.png"
+    ],
+    "today-weight-more": [
+      "evidence/today-weight-more.png"
+    ],
+    "today-weight-total": [
+      "evidence/today-weight-total.png"
+    ],
+    "today-weight-week": [
+      "evidence/today-weight-week.png"
+    ],
+    "today-weight-year": [
+      "evidence/today-weight-year.png"
+    ],
+    "device-altitude-off": [
+      "evidence/device-altitude-off.png"
+    ],
+    "device-apnea-active": [
+      "evidence/device-apnea-active.png",
+      "evidence/device-apnea-active-scroll-1.png"
+    ],
+    "device-apnea-menu": [
+      "evidence/device-apnea-menu.png"
+    ],
+    "device-apnea-menu-about": [
+      "evidence/device-apnea-menu-about.png"
+    ],
+    "device-apnea-menu-all": [
+      "evidence/device-apnea-menu-all.png"
+    ],
+    "device-apnea-menu-all-filter-strip": [
+      "evidence/device-apnea-menu-all-filter-strip.png"
+    ],
+    "device-apnea-menu-all-filter-strip-severe": [
+      "evidence/device-apnea-menu-all-filter-strip-severe.png"
+    ],
+    "device-apnea-menu-all-latest": [
+      "evidence/device-apnea-menu-all-latest.png"
+    ],
+    "device-apnea-menu-all-type-1": [
+      "evidence/device-apnea-menu-all-type-1.png"
+    ],
+    "device-apnea-menu-all-type-2": [
+      "evidence/device-apnea-menu-all-type-2.png"
+    ],
+    "device-apnea-menu-all-type-3": [
+      "evidence/device-apnea-menu-all-type-3.png"
+    ],
+    "device-apnea-menu-all-type-4": [
+      "evidence/device-apnea-menu-all-type-4.png"
+    ],
+    "device-apnea-menu-info": [
+      "evidence/device-apnea-menu-info.png"
+    ],
+    "device-apnea-menu-settings": [
+      "evidence/device-apnea-menu-settings.png"
+    ],
+    "today-cycle-health": [
+      "evidence/today-cycle-health.png"
+    ],
+    "device-rings-confirm-task-1": [
+      "evidence/device-rings-confirm-task-1.png"
+    ],
+    "device-rings-confirm-task-2": [
+      "evidence/device-rings-confirm-task-2.png"
+    ],
+    "device-rings-state-1-2": [
+      "evidence/device-rings-state-1-2.png"
+    ],
+    "device-rings-confirm-task-3": [
+      "evidence/device-rings-confirm-task-3.png"
+    ],
+    "device-rings-confirm-task-4": [
+      "evidence/device-rings-confirm-task-4.png"
+    ],
+    "device-rings-state-1-3": [
+      "evidence/device-rings-state-1-3.png"
+    ],
+    "device-rings-confirm-task-5": [
+      "evidence/device-rings-confirm-task-5.png"
+    ],
+    "device-rings-state-2-3": [
+      "evidence/device-rings-state-2-3.png"
+    ],
+    "device-rings-confirm-task-6": [
+      "evidence/device-rings-confirm-task-6.png"
+    ],
+    "device-rings-state-1-2-3": [
+      "evidence/device-rings-state-1-2-3.png"
+    ],
+    "device-rings-confirm-task-7": [
+      "evidence/device-rings-confirm-task-7.png"
+    ],
+    "device-rings-state-1-4": [
+      "evidence/device-rings-state-1-4.png"
+    ],
+    "device-rings-state-2-4": [
+      "evidence/device-rings-state-2-4.png"
+    ],
+    "device-rings-state-1-2-4": [
+      "evidence/device-rings-state-1-2-4.png"
+    ],
+    "device-rings-state-3-4": [
+      "evidence/device-rings-state-3-4.png"
+    ],
+    "device-rings-state-1-3-4": [
+      "evidence/device-rings-state-1-3-4.png"
+    ],
+    "device-rings-state-2-3-4": [
+      "evidence/device-rings-state-2-3-4.png"
+    ],
+    "device-rings-state-1-2-3-4": [
+      "evidence/device-rings-state-1-2-3-4.png"
+    ],
+    "device-mood-state-1-2": [
+      "evidence/device-mood-state-1-2.png"
+    ],
+    "heart-history-day-hrv": [
+      "evidence/legacy-心脏健康-h-day-hrv.png"
+    ],
+    "heart-history-week": [
+      "evidence/legacy-心脏健康-h-week.png"
+    ],
+    "heart-history-week-hrv": [
+      "evidence/legacy-心脏健康-h-week-hrv.png"
+    ],
+    "heart-history-month": [
+      "evidence/legacy-心脏健康-h-month.png"
+    ],
+    "heart-history-month-hrv": [
+      "evidence/legacy-心脏健康-h-month-hrv.png"
+    ],
+    "heart-history-year": [
+      "evidence/legacy-心脏健康-h-year.png"
+    ],
+    "heart-history-year-hrv": [
+      "evidence/legacy-心脏健康-h-year-hrv.png"
+    ],
+    "heart-history-all-rate": [
+      "evidence/legacy-心脏健康-h-all-rate.png"
+    ],
+    "heart-history-all-hrv": [
+      "evidence/legacy-心脏健康-heart-records.png"
+    ],
+    "heart-history-ecg": [
+      "evidence/legacy-心脏健康-h-ecg-list.png"
+    ],
+    "heart-history-rhythm": [
+      "evidence/legacy-心脏健康-h-arrhythmia.png"
+    ],
+    "glucose-history-week": [
+      "evidence/legacy-血糖管理-g-week.png"
+    ],
+    "glucose-history-month": [
+      "evidence/legacy-血糖管理-g-month.png"
+    ],
+    "glucose-history-year": [
+      "evidence/legacy-血糖管理-g-year.png"
+    ],
+    "glucose-history-details": [
+      "evidence/legacy-血糖管理-g-details.png"
+    ],
+    "glucose-history-menu": [
+      "evidence/legacy-血糖管理-g-menu.png"
+    ],
+    "glucose-history-log": [
+      "evidence/legacy-血糖管理-g-log.png"
+    ],
+    "glucose-history-guide": [
+      "evidence/legacy-血糖管理-g-guide.png"
+    ],
+    "profile-history-second": [
+      "evidence/legacy-健康档案-微体检-m-second.png"
+    ],
+    "profile-history-report": [
+      "evidence/legacy-健康档案-微体检-private-report-0.png",
+      "evidence/legacy-健康档案-微体检-private-report-1.png",
+      "evidence/legacy-健康档案-微体检-private-report-10.png",
+      "evidence/legacy-健康档案-微体检-private-report-11.png",
+      "evidence/legacy-健康档案-微体检-private-report-12.png",
+      "evidence/legacy-健康档案-微体检-private-report-13.png",
+      "evidence/legacy-健康档案-微体检-private-report-14.png",
+      "evidence/legacy-健康档案-微体检-private-report-15.png",
+      "evidence/legacy-健康档案-微体检-private-report-16.png",
+      "evidence/legacy-健康档案-微体检-private-report-2.png",
+      "evidence/legacy-健康档案-微体检-private-report-3.png",
+      "evidence/legacy-健康档案-微体检-private-report-4.png",
+      "evidence/legacy-健康档案-微体检-private-report-5.png",
+      "evidence/legacy-健康档案-微体检-private-report-6.png",
+      "evidence/legacy-健康档案-微体检-private-report-7.png",
+      "evidence/legacy-健康档案-微体检-private-report-8.png",
+      "evidence/legacy-健康档案-微体检-private-report-9.png"
+    ],
+    "today-board-expanded": [
+      "evidence/20261120-today-board-expanded-0.png",
+      "evidence/20261120-today-board-expanded-1.png",
+      "evidence/20261120-today-board-expanded-2.png",
+      "evidence/20261120-today-board-expanded-3.png",
+      "evidence/20261120-today-board-expanded-4.png",
+      "evidence/20261120-today-board-expanded-5.png"
+    ]
+  },
+  "settingsRestored": [
+    {
+      "controlId": "device-altitude-switch-1",
+      "page": "device-altitude",
+      "original": true,
+      "restored": true
+    },
+    {
+      "controlId": "device-cycle-remind-1",
+      "page": "device-cycle",
+      "original": true,
+      "restored": true
+    },
+    {
+      "controlId": "device-cycle-remind-2",
+      "page": "device-cycle",
+      "original": true,
+      "restored": true
+    },
+    {
+      "controlId": "device-cycle-remind-3",
+      "page": "device-cycle",
+      "original": true,
+      "restored": true
+    },
+    {
+      "controlId": "device-cycle-remind-4",
+      "page": "device-cycle",
+      "original": true,
+      "restored": true
+    },
+    {
+      "controlId": "device-heart-switch-1",
+      "page": "device-heart",
+      "original": true,
+      "restored": true
+    },
+    {
+      "controlId": "device-heart-switch-2",
+      "page": "device-heart",
+      "original": true,
+      "restored": true
+    },
+    {
+      "controlId": "device-heart-switch-3",
+      "page": "device-heart",
+      "original": false,
+      "restored": true
+    },
+    {
+      "controlId": "device-mood-combinations",
+      "page": "device-mood",
+      "original": [
+        true,
+        true
+      ],
+      "restored": true
+    },
+    {
+      "controlId": "device-mood-switch-1",
+      "page": "device-mood",
+      "original": true,
+      "restored": true
+    },
+    {
+      "controlId": "device-mood-switch-2",
+      "page": "device-mood",
+      "original": true,
+      "restored": true
+    },
+    {
+      "controlId": "device-rings-combinations",
+      "page": "device-rings",
+      "original": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "restored": true
+    },
+    {
+      "controlId": "device-rings-switch-1",
+      "page": "device-rings",
+      "original": true,
+      "restored": true
+    },
+    {
+      "controlId": "device-rings-switch-2",
+      "page": "device-rings",
+      "original": true,
+      "restored": true
+    },
+    {
+      "controlId": "device-rings-switch-3",
+      "page": "device-rings",
+      "original": true,
+      "restored": true
+    },
+    {
+      "controlId": "device-rings-switch-4",
+      "page": "device-rings",
+      "original": true,
+      "restored": true
+    },
+    {
+      "controlId": "device-temp-switch-1",
+      "page": "device-temp",
+      "original": true,
+      "restored": true
+    }
+  ],
+  "userActivated": [
+    "device-apnea"
+  ],
+  "stopAtConsent": [
+    "today-bmi"
+  ],
+  "installedAppModules": [
+    "手机记录睡眠 4.67 MB"
+  ],
+  "reacquire": "升级后新建版本目录，复用页面与操作 ID，逐条比对本次入口、控件及实机截图，重新生成 baseline.json，再用旧版版本比较.html 打开新版基线。",
+  "pageRevisions": {
+    "today": {
+      "observedAt": "2026-11-20T11:25:10+08:00",
+      "frames": 5,
+      "offsets": [
+        0,
+        1249,
+        2477,
+        3717,
+        4655
+      ],
+      "source": "Mate 50 USB",
+      "notVisibleInCurrentCapture": [
+        "记录饮食",
+        "定制专属食谱",
+        "前往查看",
+        "点击收起模型",
+        "健康生活"
+      ]
+    },
+    "today-board-expanded": {
+      "observedAt": "2026-11-20T11:22:06+08:00",
+      "frames": 6,
+      "offsets": [
+        0,
+        1250,
+        2482,
+        3710,
+        4939,
+        5188
+      ],
+      "source": "Mate 50 USB",
+      "notVisibleInCurrentCapture": [
+        "记录饮食",
+        "定制专属食谱",
+        "前往查看"
+      ]
+    },
+    "today-insight": {
+      "observedAt": "2026-11-20T10:15:22+08:00",
+      "frames": 7,
+      "offsets": [
+        0,
+        865,
+        1722,
+        2584,
+        3441,
+        4291,
+        4948
+      ],
+      "source": "Mate 50 USB",
+      "notVisibleInCurrentCapture": []
+    },
+    "today-sleep": {
+      "observedAt": "2026-11-20T10:16:09+08:00",
+      "frames": 6,
+      "offsets": [
+        0,
+        1247,
+        2501,
+        3749,
+        4996,
+        5904
+      ],
+      "source": "Mate 50 USB",
+      "notVisibleInCurrentCapture": []
+    }
+  }
+}

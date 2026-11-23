@@ -1,0 +1,123 @@
+{
+  "id": "research-apnea",
+  "name": "睡眠呼吸暂停研究",
+  "phoneProfile": "mate50",
+  "entries": {},
+  "pages": {
+    "home": {
+      "device": "phone",
+      "title": "创新研究首页",
+      "parent": "@home",
+      "capture": {
+        "header": "screens/home-h.webp",
+        "content": "screens/home-c.webp",
+        "footer": "screens/home-f.webp",
+        "contentLabel": "创新研究首页",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "睡眠呼吸暂停研究",
+            "page": "entry-apnea",
+            "box": [
+              6.0662,
+              70.7135,
+              87.8676,
+              4.2833
+            ]
+          }
+        ]
+      }
+    },
+    "entry-apnea": {
+      "device": "phone",
+      "title": "睡眠呼吸暂停研究",
+      "parent": "home",
+      "capture": {
+        "header": "screens/entry-apnea-h.webp",
+        "content": "screens/entry-apnea-c.webp",
+        "footer": "screens/entry-apnea-f.webp",
+        "contentLabel": "睡眠呼吸暂停研究",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              2.2059,
+              47.4074,
+              11.3971,
+              42.963
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "去填写",
+            "page": "entry-apnea-form",
+            "box": [
+              74.4485,
+              22.1938,
+              19.1176,
+              1.8864
+            ]
+          }
+        ]
+      }
+    },
+    "entry-apnea-form": {
+      "device": "phone",
+      "title": "调查问卷",
+      "parent": "entry-apnea",
+      "capture": {
+        "content": "screens/entry-apnea-form-c.webp",
+        "contentLabel": "调查问卷",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              2.114,
+              4.5,
+              14.8897,
+              6.75
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "phoneHome": "home",
+  "phoneHomeLabel": "创新研究首页",
+  "sharedPhoneHome": "huawei-research",
+  "scenes": [
+    {
+      "id": "explore",
+      "title": "睡眠呼吸暂停研究",
+      "hint": "点击实机界面进入详情，上下滑动浏览，右滑返回。",
+      "start": {
+        "phone": "entry-apnea"
+      },
+      "keys": [
+        [
+          "phone",
+          "entry-apnea",
+          "睡眠呼吸暂停研究"
+        ],
+        [
+          "phone",
+          "entry-apnea-form",
+          "调查问卷"
+        ]
+      ],
+      "phonePageIndex": [
+        "entry-apnea",
+        "entry-apnea-form"
+      ]
+    }
+  ],
+  "initialView": {
+    "scene": "explore",
+    "device": "phone",
+    "page": "entry-apnea"
+  }
+}

@@ -1,0 +1,2037 @@
+{
+  "feature": "watch6-research",
+  "devices": {
+    "watch": {
+      "model": "HUAWEI WATCH 6",
+      "productModel": "LEB-AL00",
+      "os": "LEB-AL00CN 7.0.0.115(SP8C00E100R1P102log)",
+      "app": "华为创新研究",
+      "appVersion": "7.0.0.319"
+    }
+  },
+  "reviewed": false,
+  "steps": [
+    {
+      "scene": "open",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T17:39:20+08:00",
+      "from": "表盘",
+      "action": "按表冠并浏览应用列表",
+      "to": "华为创新研究",
+      "files": [
+        "evidence/现场表盘.jpeg",
+        "evidence/healthcheck-launcher.jpeg",
+        "evidence/healthcheck-launcher.json",
+        "evidence/heart-launcher.jpeg",
+        "evidence/heart-launcher.json",
+        "evidence/healthyliving-launcher.jpeg",
+        "evidence/healthyliving-launcher.json",
+        "evidence/physiologyperiod-launcher.jpeg",
+        "evidence/physiologyperiod-launcher.json"
+      ]
+    },
+    {
+      "scene": "browse",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T17:56:23+08:00",
+      "from": "应用列表",
+      "action": "进入应用并核对实机画面",
+      "to": "内分泌研究项目",
+      "files": [
+        "evidence/study-entry.jpeg",
+        "evidence/study-entry.json",
+        "evidence/research-down1.jpeg",
+        "evidence/research-down2.jpeg",
+        "evidence/research-down3.jpeg",
+        "evidence/research-down4.jpeg",
+        "evidence/联机-research-glucose-later.jpeg",
+        "evidence/联机-research-glucose-later.json",
+        "evidence/联机-verify-ecg-settled.jpeg",
+        "evidence/联机-verify-ecg-settled.json",
+        "evidence/联机-verify-bp-settled.jpeg",
+        "evidence/联机-verify-bp-settled.json",
+        "evidence/联机-verify-more-settled.jpeg",
+        "evidence/联机-verify-more-settled.json",
+        "evidence/联机-verify-more-lower.jpeg",
+        "evidence/联机-verify-more-lower.json",
+        "evidence/联机-verify-more-wrist.jpeg",
+        "evidence/联机-verify-more-wrist.json",
+        "evidence/联机-study-ecg-settled.jpeg",
+        "evidence/联机-study-ecg-settled.json",
+        "evidence/联机-verify-ecg-detect.jpeg",
+        "evidence/联机-verify-ecg-detect.json",
+        "evidence/联机-verify-uric-settled.jpeg",
+        "evidence/联机-verify-uric-settled.json",
+        "evidence/联机-verify-coronary-settled.jpeg",
+        "evidence/联机-verify-coronary-settled.json",
+        "evidence/联机-verify-vessel-settled.jpeg",
+        "evidence/联机-verify-vessel-settled.json",
+        "evidence/联机-verify-female-settled.jpeg",
+        "evidence/联机-verify-female-settled.json",
+        "evidence/联机-verify-resp-settled.jpeg",
+        "evidence/联机-verify-resp-settled.json",
+        "evidence/联机-verify-altitude-settled.jpeg",
+        "evidence/联机-verify-altitude-settled.json"
+      ]
+    },
+    {
+      "scene": "sugar",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T19:19:21+08:00",
+      "from": "研究列表",
+      "action": "选择血糖健康研究",
+      "to": "血糖健康研究 · 测量说明",
+      "files": [
+        "evidence/联机-research-glucose-later.jpeg",
+        "evidence/联机-research-glucose-later.json"
+      ]
+    },
+    {
+      "scene": "cardiac",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T19:41:20+08:00",
+      "from": "研究列表",
+      "action": "选择心脏健康研究",
+      "to": "心脏健康研究 · 最近记录",
+      "files": [
+        "evidence/联机-verify-ecg-settled.jpeg",
+        "evidence/联机-verify-ecg-settled.json",
+        "evidence/联机-verify-ecg-detect.jpeg",
+        "evidence/联机-verify-ecg-detect.json",
+        "evidence/联机-study-ecg-settled.jpeg",
+        "evidence/联机-study-ecg-settled.json"
+      ]
+    },
+    {
+      "scene": "pressure",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T19:44:02+08:00",
+      "from": "研究列表",
+      "action": "选择高血压风险研究",
+      "to": "高血压风险评估 · 启动评估",
+      "files": [
+        "evidence/联机-verify-bp-settled.jpeg",
+        "evidence/联机-verify-bp-settled.json"
+      ]
+    },
+    {
+      "scene": "browse",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T17:45:48+08:00",
+      "from": "应用内列表",
+      "action": "上滑查看下一区域",
+      "to": "高血压风险研究与冠心病研究",
+      "files": [
+        "evidence/research-down1.jpeg"
+      ]
+    },
+    {
+      "scene": "browse",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T17:45:48+08:00",
+      "from": "应用内列表",
+      "action": "上滑查看下一区域",
+      "to": "心脏健康、血管健康与女性健康研究",
+      "files": [
+        "evidence/research-down2.jpeg"
+      ]
+    },
+    {
+      "scene": "browse",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T17:45:50+08:00",
+      "from": "应用内列表",
+      "action": "上滑查看下一区域",
+      "to": "呼吸健康研究与高原健康研究",
+      "files": [
+        "evidence/research-down3.jpeg"
+      ]
+    },
+    {
+      "scene": "browse",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T17:45:53+08:00",
+      "from": "应用内列表",
+      "action": "上滑查看下一区域",
+      "to": "高原健康研究与更多",
+      "files": [
+        "evidence/research-down4.jpeg"
+      ]
+    },
+    {
+      "scene": "browse",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T19:19:21+08:00",
+      "from": "内分泌研究项目",
+      "action": "点血糖健康研究并等待载入",
+      "to": "血糖健康研究 · 测量说明",
+      "files": [
+        "evidence/study-entry.jpeg",
+        "evidence/study-entry.json",
+        "evidence/联机-research-glucose-later.jpeg",
+        "evidence/联机-research-glucose-later.json"
+      ]
+    },
+    {
+      "scene": "browse",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T19:41:20+08:00",
+      "from": "心脏健康、血管健康与女性健康研究",
+      "action": "点选腕上入口",
+      "to": "心脏健康研究 · 最近记录",
+      "files": [
+        "evidence/research-down2.jpeg",
+        "evidence/联机-verify-ecg-settled.jpeg",
+        "evidence/联机-verify-ecg-settled.json"
+      ]
+    },
+    {
+      "scene": "browse",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T19:44:02+08:00",
+      "from": "高血压风险研究与冠心病研究",
+      "action": "点选腕上入口",
+      "to": "高血压风险评估 · 启动评估",
+      "files": [
+        "evidence/research-down1.jpeg",
+        "evidence/联机-verify-bp-settled.jpeg",
+        "evidence/联机-verify-bp-settled.json"
+      ]
+    },
+    {
+      "scene": "browse",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T19:40:03+08:00",
+      "from": "高原健康研究与更多",
+      "action": "点选腕上入口",
+      "to": "更多",
+      "files": [
+        "evidence/research-down4.jpeg",
+        "evidence/联机-verify-more-settled.jpeg",
+        "evidence/联机-verify-more-settled.json"
+      ]
+    },
+    {
+      "scene": "browse",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T19:40:13+08:00",
+      "from": "更多",
+      "action": "上滑查看下一区域",
+      "to": "更多 · 关于",
+      "files": [
+        "evidence/联机-verify-more-settled.jpeg",
+        "evidence/联机-verify-more-settled.json",
+        "evidence/联机-verify-more-lower.jpeg",
+        "evidence/联机-verify-more-lower.json"
+      ]
+    },
+    {
+      "scene": "browse",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T19:40:07+08:00",
+      "from": "更多",
+      "action": "点佩戴方式",
+      "to": "选择佩戴方式 · 左手佩戴",
+      "files": [
+        "evidence/联机-verify-more-settled.jpeg",
+        "evidence/联机-verify-more-settled.json",
+        "evidence/联机-verify-more-wrist.jpeg",
+        "evidence/联机-verify-more-wrist.json"
+      ]
+    },
+    {
+      "scene": "browse",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T19:24:49+08:00",
+      "from": "心脏健康、血管健康与女性健康研究",
+      "action": "点选腕上入口",
+      "to": "心脏健康研究 · 暂无数据",
+      "files": [
+        "evidence/research-down2.jpeg",
+        "evidence/联机-study-ecg-settled.jpeg",
+        "evidence/联机-study-ecg-settled.json"
+      ]
+    },
+    {
+      "scene": "browse",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T19:41:24+08:00",
+      "from": "心脏健康研究 · 最近记录",
+      "action": "点开始检测",
+      "to": "心脏检测 · 未佩戴设备",
+      "files": [
+        "evidence/联机-verify-ecg-settled.jpeg",
+        "evidence/联机-verify-ecg-settled.json",
+        "evidence/联机-verify-ecg-detect.jpeg",
+        "evidence/联机-verify-ecg-detect.json"
+      ]
+    },
+    {
+      "scene": "browse",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T19:50:06+08:00",
+      "from": "内分泌研究项目",
+      "action": "点选腕上入口",
+      "to": "高尿酸风险评估",
+      "files": [
+        "evidence/study-entry.jpeg",
+        "evidence/study-entry.json",
+        "evidence/联机-verify-uric-settled.jpeg",
+        "evidence/联机-verify-uric-settled.json"
+      ]
+    },
+    {
+      "scene": "browse",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T19:51:06+08:00",
+      "from": "高血压风险研究与冠心病研究",
+      "action": "点选腕上入口",
+      "to": "冠心病研究 · 启动画面",
+      "files": [
+        "evidence/research-down1.jpeg",
+        "evidence/联机-verify-coronary-settled.jpeg",
+        "evidence/联机-verify-coronary-settled.json"
+      ]
+    },
+    {
+      "scene": "browse",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T19:51:35+08:00",
+      "from": "心脏健康、血管健康与女性健康研究",
+      "action": "点选腕上入口",
+      "to": "血管健康研究 · 测量说明",
+      "files": [
+        "evidence/research-down2.jpeg",
+        "evidence/联机-verify-vessel-settled.jpeg",
+        "evidence/联机-verify-vessel-settled.json"
+      ]
+    },
+    {
+      "scene": "browse",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T19:52:03+08:00",
+      "from": "心脏健康、血管健康与女性健康研究",
+      "action": "点选腕上入口",
+      "to": "女性健康研究 · 启动画面",
+      "files": [
+        "evidence/research-down2.jpeg",
+        "evidence/联机-verify-female-settled.jpeg",
+        "evidence/联机-verify-female-settled.json"
+      ]
+    },
+    {
+      "scene": "browse",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T19:52:31+08:00",
+      "from": "呼吸健康研究与高原健康研究",
+      "action": "点选腕上入口",
+      "to": "呼吸健康研究 · 测量入口",
+      "files": [
+        "evidence/research-down3.jpeg",
+        "evidence/联机-verify-resp-settled.jpeg",
+        "evidence/联机-verify-resp-settled.json"
+      ]
+    },
+    {
+      "scene": "browse",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T19:53:01+08:00",
+      "from": "高原健康研究与更多",
+      "action": "点选腕上入口",
+      "to": "高原健康研究 · 评估入口",
+      "files": [
+        "evidence/research-down4.jpeg",
+        "evidence/联机-verify-altitude-settled.jpeg",
+        "evidence/联机-verify-altitude-settled.json"
+      ]
+    },
+    {
+      "scene": "browse",
+      "device": "watch",
+      "source": "live",
+      "from": "呼吸健康研究 · 测量入口",
+      "action": "在项目首页点测量教程",
+      "to": "呼吸健康研究 · 测量教程",
+      "observedAt": "2026-11-19T20:30:10+08:00",
+      "files": [
+        "evidence/next6-resp-tutorial.jpeg",
+        "evidence/next6-resp-tutorial.json",
+        "evidence/next6-resp-settled.jpeg"
+      ]
+    },
+    {
+      "scene": "browse",
+      "device": "watch",
+      "source": "live",
+      "from": "呼吸健康研究 · 测量教程",
+      "action": "在教程上滑查看下方内容",
+      "to": "呼吸教程 · 录制咳嗽音",
+      "observedAt": "2026-11-19T20:30:15+08:00",
+      "files": [
+        "evidence/next6-resp-tutorialdown.jpeg",
+        "evidence/next6-resp-tutorialdown.json"
+      ]
+    },
+    {
+      "scene": "browse",
+      "device": "watch",
+      "source": "live",
+      "from": "高原健康研究 · 评估入口",
+      "action": "在项目首页点测量教程",
+      "to": "高原健康研究 · 测量教程",
+      "observedAt": "2026-11-19T20:31:03+08:00",
+      "files": [
+        "evidence/next6-altitude-tutorial.jpeg",
+        "evidence/next6-altitude-tutorial.json",
+        "evidence/next6-altitude-settled.jpeg"
+      ]
+    },
+    {
+      "scene": "browse",
+      "device": "watch",
+      "source": "live",
+      "from": "高原健康研究 · 测量教程",
+      "action": "在教程上滑查看下方内容",
+      "to": "高原教程 · 填写路易斯湖量表（下方）",
+      "observedAt": "2026-11-19T20:31:09+08:00",
+      "files": [
+        "evidence/next6-altitude-tutorialdown.jpeg",
+        "evidence/next6-altitude-tutorialdown.json"
+      ]
+    },
+    {
+      "scene": "browse",
+      "device": "watch",
+      "source": "live",
+      "from": "更多 · 关于",
+      "action": "在更多页上滑后点关于",
+      "to": "关于华为创新研究",
+      "observedAt": "2026-11-19T20:32:06+08:00",
+      "files": [
+        "evidence/next6-more-about.jpeg",
+        "evidence/next6-more-about.json",
+        "evidence/next6-more-lower.jpeg"
+      ]
+    },
+    {
+      "scene": "browse",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:33:56.504+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "应用列表",
+      "files": [
+        "evidence/replay/WatchApScreenshot_20261119_213356504.png"
+      ]
+    },
+    {
+      "scene": "browse",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:34:00.675+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "研究列表 · 内分泌",
+      "files": [
+        "evidence/replay/WatchApScreenshot_20261119_213400675.png"
+      ]
+    },
+    {
+      "scene": "browse",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:34:07.669+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "研究列表 · 心血管",
+      "files": [
+        "evidence/replay/WatchApScreenshot_20261119_213407669.png"
+      ]
+    },
+    {
+      "scene": "browse",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:34:13.926+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "研究列表 · 女性与呼吸",
+      "files": [
+        "evidence/replay/WatchApScreenshot_20261119_213413926.png"
+      ]
+    },
+    {
+      "scene": "browse",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:34:16.566+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "研究列表 · 高原与更多",
+      "files": [
+        "evidence/replay/WatchApScreenshot_20261119_213416566.png"
+      ]
+    },
+    {
+      "scene": "sugar",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:34:21.242+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "糖尿病风险评估",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213421242.png"
+      ]
+    },
+    {
+      "scene": "sugar",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:34:23.295+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "血糖评估记录",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213423295.png"
+      ]
+    },
+    {
+      "scene": "sugar",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:34:25.447+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "血糖 · 手机查看提示",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213425447.png"
+      ]
+    },
+    {
+      "scene": "sugar",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:34:27.890+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "血糖 · 测量说明入口",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213427890.png"
+      ]
+    },
+    {
+      "scene": "sugar",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:34:34.420+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "血糖 · 评估进度",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213434420.png"
+      ]
+    },
+    {
+      "scene": "live-uric",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:35:20.615+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "高尿酸风险评估",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213520615.png"
+      ]
+    },
+    {
+      "scene": "live-uric",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:35:26.346+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "高尿酸评估记录",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213526346.png"
+      ]
+    },
+    {
+      "scene": "live-uric",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:35:28.127+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "高尿酸 · 手机查看提示",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213528127.png"
+      ]
+    },
+    {
+      "scene": "live-uric",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:35:29.755+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "高尿酸 · 测量说明入口",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213529755.png"
+      ]
+    },
+    {
+      "scene": "live-uric",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:35:33.901+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "高尿酸 · 评估进度",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213533901.png"
+      ]
+    },
+    {
+      "scene": "pressure",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:36:08.392+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "高血压风险评估",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213608392.png"
+      ]
+    },
+    {
+      "scene": "pressure",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:36:11.053+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "近期评估记录",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213611053.png"
+      ]
+    },
+    {
+      "scene": "pressure",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:36:12.892+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "高血压 · 手机查看提示",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213612892.png"
+      ]
+    },
+    {
+      "scene": "pressure",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:36:16.622+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "高血压 · 项目菜单",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213616622.png"
+      ]
+    },
+    {
+      "scene": "pressure",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:36:18.710+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "消息提醒",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213618710.png"
+      ]
+    },
+    {
+      "scene": "pressure",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:36:21.389+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "高血压 · 测量说明",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213621389.png"
+      ]
+    },
+    {
+      "scene": "pressure",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:36:24.300+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "退出研究确认",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213624300.png"
+      ]
+    },
+    {
+      "scene": "cardiac",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:37:31.898+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "心脏健康首页",
+      "files": [
+        "evidence/replay/WatchApScreenshot_20261119_213731898.png"
+      ]
+    },
+    {
+      "scene": "cardiac",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:37:34.541+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "当天统计",
+      "files": [
+        "evidence/replay/WatchApScreenshot_20261119_213734541.png"
+      ]
+    },
+    {
+      "scene": "cardiac",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:37:36.132+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "心脏健康 · 手机查看提示",
+      "files": [
+        "evidence/replay/WatchApScreenshot_20261119_213736132.png"
+      ]
+    },
+    {
+      "scene": "cardiac",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:37:38.012+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "心脏健康 · 项目菜单",
+      "files": [
+        "evidence/replay/WatchApScreenshot_20261119_21373812.png"
+      ]
+    },
+    {
+      "scene": "live-artery",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:38:10.820+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "研究列表 · 血管健康入口",
+      "files": [
+        "evidence/replay/WatchApScreenshot_20261119_213810820.png"
+      ]
+    },
+    {
+      "scene": "live-artery",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:38:12.817+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "血管健康首页",
+      "files": [
+        "evidence/replay/WatchApScreenshot_20261119_213812817.png"
+      ]
+    },
+    {
+      "scene": "live-artery",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:38:14.564+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "血管健康评估记录",
+      "files": [
+        "evidence/replay/WatchApScreenshot_20261119_213814564.png"
+      ]
+    },
+    {
+      "scene": "live-artery",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:38:16.015+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "血管健康 · 手机查看提示",
+      "files": [
+        "evidence/replay/WatchApScreenshot_20261119_21381615.png"
+      ]
+    },
+    {
+      "scene": "live-artery",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:38:17.459+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "血管健康 · 项目菜单",
+      "files": [
+        "evidence/replay/WatchApScreenshot_20261119_213817459.png"
+      ]
+    },
+    {
+      "scene": "live-coronary",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:38:43.900+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "研究列表 · 冠心病入口",
+      "files": [
+        "evidence/replay/WatchApScreenshot_20261119_213843900.png"
+      ]
+    },
+    {
+      "scene": "live-coronary",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:38:45.826+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "首次问卷 · 心血管病家族史",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213845826.png"
+      ]
+    },
+    {
+      "scene": "live-coronary",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:38:51.258+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "首次问卷 · 高血压",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213851258.png"
+      ]
+    },
+    {
+      "scene": "live-coronary",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:39:02.001+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "首次问卷 · 症状",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213902001.png"
+      ]
+    },
+    {
+      "scene": "live-coronary",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:39:04.167+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "冠心病风险评估",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213904167.png"
+      ]
+    },
+    {
+      "scene": "live-coronary",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:39:05.807+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "冠心病评估记录",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213905807.png"
+      ]
+    },
+    {
+      "scene": "live-coronary",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:39:07.402+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "冠心病 · 手机查看提示",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213907402.png"
+      ]
+    },
+    {
+      "scene": "live-coronary",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:39:08.617+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "冠心病 · 项目菜单",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213908617.png"
+      ]
+    },
+    {
+      "scene": "live-measurement",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:39:19.666+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "左手佩戴 · 传感器测量指引",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_213919666.png"
+      ]
+    },
+    {
+      "scene": "live-female-entry",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:55:17.980+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "研究列表 · 女性健康入口",
+      "files": [
+        "evidence/replay/WatchApScreenshot_20261119_215517980.png"
+      ]
+    },
+    {
+      "scene": "live-female-entry",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:55:23.480+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "个人信息 · 性别",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_215523480.png"
+      ]
+    },
+    {
+      "scene": "live-female-entry",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:55:25.862+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "个人信息 · 基础资料",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_215525862.png"
+      ]
+    },
+    {
+      "scene": "live-female-entry",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:55:29.350+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "女性健康 · 测量说明",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_215529350.png"
+      ]
+    },
+    {
+      "scene": "live-female-survey",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:55:40.066+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "第 2 题 · 情绪波动",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_215540066.png"
+      ]
+    },
+    {
+      "scene": "live-female-survey",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:55:42.087+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "第 3 题 · 关节和肌肉疼痛",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_215542087.png"
+      ]
+    },
+    {
+      "scene": "live-female-survey",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:55:45.001+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "第 4 题 · 疲乏",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_215545001.png"
+      ]
+    },
+    {
+      "scene": "live-female-survey",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:55:49.375+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "第 5 题 · 干涩与灼热",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_215549375.png"
+      ]
+    },
+    {
+      "scene": "live-female-survey",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:55:50.905+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "第 6 题 · 周期和次数",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_215550905.png"
+      ]
+    },
+    {
+      "scene": "live-female-survey",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:55:52.468+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "第 7 题 · 距上一次月经的时间",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_215552468.png"
+      ]
+    },
+    {
+      "scene": "live-female-survey",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:55:53.951+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "第 8 题 · 毛发生长情况",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_215553951.png"
+      ]
+    },
+    {
+      "scene": "live-female-survey",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:55:55.463+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "第 9 题 · 痤疮程度",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_215555463.png"
+      ]
+    },
+    {
+      "scene": "live-female-survey",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:55:57.192+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "第 10 题 · 脱发程度",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_215557192.png"
+      ]
+    },
+    {
+      "scene": "live-female-survey",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:55:58.737+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "第 11 题 · 黑棘皮程度",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_215558737.png"
+      ]
+    },
+    {
+      "scene": "live-female-survey",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:56:03.817+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "第 11 题 · 下一步",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_215603817.png"
+      ]
+    },
+    {
+      "scene": "live-female-evaluation",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:56:06.153+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "女性健康 · 评估进度",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_215606153.png"
+      ]
+    },
+    {
+      "scene": "live-female-evaluation",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:56:08.897+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "女性健康 · 评估记录",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_215608897.png"
+      ]
+    },
+    {
+      "scene": "live-female-evaluation",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:56:10.393+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "女性健康 · 手机查看提示",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_215610393.png"
+      ]
+    },
+    {
+      "scene": "live-female-evaluation",
+      "device": "watch",
+      "source": "live",
+      "observedAt": "2026-11-19T21:56:12.136+08:00",
+      "from": "华为创新研究",
+      "action": "在实机操作后采集并同步画面",
+      "to": "女性健康 · 项目菜单",
+      "files": [
+        "evidence/replay/WatchScreenshot_20261119_215612136.png"
+      ]
+    },
+    {
+      "scene": "browse",
+      "device": "watch",
+      "source": "pending",
+      "from": "华为创新研究",
+      "action": "补采后续实机画面",
+      "to": "高血压风险评估启动后的界面；心脏健康实际检测与结果；其他项目的未采集测量分支；打开血糖测量说明；终止本轮评估的确认与结果；打开高尿酸测量说明；启动评估后页面；开始检测后的心脏健康研究画面；开始测量后页面；打开血管健康测量说明；问卷第 1 题待补采",
+      "files": []
+    }
+  ],
+  "frameEvidence": {
+    "dial": {
+      "sources": {
+        "evidence/现场表盘.jpeg": "9abc7d54cec51ac3b6fbde96faa464f154d2fc912902436581cc0b6957ca09e6"
+      },
+      "renders": {
+        "screens/dial.webp": "096b828886ee375c7779ad472917013d93f989a0a0631d52fa7d4362263746bc"
+      },
+      "observedAt": "2026-11-19T17:24:42+08:00"
+    },
+    "launcher": {
+      "sources": {
+        "evidence/healthcheck-launcher.jpeg": "d36cecf3b94fced4c746c2889c685063139286a9f4f5b35055e17c31ef6830f4",
+        "evidence/healthcheck-launcher.json": "0014dfd764307736a60e07ef5e45e6681639f5a0fded8bf8c7242637f8716692"
+      },
+      "renders": {
+        "screens/launcher.webp": "46f52b888f435192fd67277a12b815fbaa316da93a77b510fa504ad76872b1d3"
+      },
+      "observedAt": "2026-11-19T17:39:20+08:00"
+    },
+    "launcher-heart": {
+      "sources": {
+        "evidence/heart-launcher.jpeg": "58a3200bc07d597992dad1019362b9ed72ce13e2fd74b4f56ef7e85044fc313c",
+        "evidence/heart-launcher.json": "56a8f64588095956b3d8bf059e101476ad9142d5d2d9b53eff7bbf10ab9de17f"
+      },
+      "renders": {
+        "screens/launcher-heart.webp": "22ed5a4872b20d96e4cb062b107b00ffb9e8876b7b3d5808e71ee1154c46bd23"
+      },
+      "observedAt": "2026-11-19T17:46:04+08:00"
+    },
+    "launcher-living": {
+      "sources": {
+        "evidence/healthyliving-launcher.jpeg": "52f331d12cae4d51c04dbc7369307a6533f70622117bc6d0efac2172af0bc9e3",
+        "evidence/healthyliving-launcher.json": "caef8bdef40e95d2be207ecfa00f75ac59cf8d5a2d6ae37422a45be659868ac5"
+      },
+      "renders": {
+        "screens/launcher-living.webp": "49a7430a0f97f6ebff212ba1a9b251b04b7b74e8e8325ed0d3122413148c8a2a"
+      },
+      "observedAt": "2026-11-19T17:46:22+08:00"
+    },
+    "launcher-cycle": {
+      "sources": {
+        "evidence/physiologyperiod-launcher.jpeg": "dfa5ff81b62a9addc1459a7df9a73fcf14f3eaff6cc3123f579994f63e4941e9",
+        "evidence/physiologyperiod-launcher.json": "762acdbeff8f7f9f7c22f67cd1b3572824a6f5c8f59661333522c80c051b1bd0"
+      },
+      "renders": {
+        "screens/launcher-cycle.webp": "dd0918ba55900ed2f2ac3eabea05eac2f00f42fa876260baaf07848563dfd446"
+      },
+      "observedAt": "2026-11-19T17:47:05+08:00"
+    },
+    "main": {
+      "sources": {
+        "evidence/study-entry.jpeg": "271983cbe3dd408a5d66986874129b1132ed21850a9368d29688dd85aaeb12f1",
+        "evidence/study-entry.json": "0c926473aee33dfa221027e3f0f08b13ec498d09502988b2c4d77df06db61c84"
+      },
+      "renders": {
+        "screens/main.webp": "5f500f52647f12f2722f7ab3424c546d96b69f8f5afd5b863eac081b0e6e55cb"
+      },
+      "observedAt": "2026-11-19T17:56:23+08:00"
+    },
+    "down1": {
+      "sources": {
+        "evidence/research-down1.jpeg": "53f78e6203f45a085c49d4fbf14a781b47f54e17a41260971f57bb984b533ff8"
+      },
+      "renders": {
+        "screens/down1.webp": "7de8bafdc506b9cb0f1f21081318f8d2d85470e677e0625be5515e710021feb1"
+      },
+      "observedAt": "2026-11-19T17:45:48+08:00"
+    },
+    "down2": {
+      "sources": {
+        "evidence/research-down2.jpeg": "0f509613032cce75b433f2e9caa6afc7934e0c9f36ed0aa7a9c9f5953c1d3da1"
+      },
+      "renders": {
+        "screens/down2.webp": "498df96d59ebd01f7aa1ccb41666f6fb14258e94110b983840778c7ccf2ce5c8"
+      },
+      "observedAt": "2026-11-19T17:45:48+08:00"
+    },
+    "down3": {
+      "sources": {
+        "evidence/research-down3.jpeg": "f8179b480e3e9791e72672e11eae985233c05f6a7efafb7634446f87cc9f6a49"
+      },
+      "renders": {
+        "screens/down3.webp": "15c50ee041f7e134e0fbb55cb4b9a31d31f286e9f898b9a50710259fa10d5e76"
+      },
+      "observedAt": "2026-11-19T17:45:50+08:00"
+    },
+    "down4": {
+      "sources": {
+        "evidence/research-down4.jpeg": "69c19ca44e114f8f8fed324f92a02a20c9e9a82f14502856ba99df88a5b8dc17"
+      },
+      "renders": {
+        "screens/down4.webp": "04a9ee2f45e32a5d6232d86ca197fbc3cc14fd4576571b6e20f121f7b36fd9e9"
+      },
+      "observedAt": "2026-11-19T17:45:53+08:00"
+    },
+    "glucose": {
+      "sources": {
+        "evidence/联机-research-glucose-later.jpeg": "d8db3845188a730c45ee2eaddabfd43f145ab1f89ea0942ff5911ba4b28c2c25",
+        "evidence/联机-research-glucose-later.json": "94974cb6f67f95edbe9a1b109edea9ba96fb637107675925aef8efbfce6022d2"
+      },
+      "renders": {
+        "screens/real-glucose.webp": "de990643256c925da40a5e857ccfb483b0d1991caed251d4e1b2355438d33f7f"
+      },
+      "observedAt": "2026-11-19T19:19:21+08:00"
+    },
+    "ecg": {
+      "sources": {
+        "evidence/联机-verify-ecg-settled.jpeg": "e941e0b4129dcf7bccbda677a7f45f8210af516f3ad0a9c4385d4dc8bdd49c17",
+        "evidence/联机-verify-ecg-settled.json": "d085bc124ebc220c42a144120fe415df007e5621243ff003550a8514b73dfb87"
+      },
+      "renders": {
+        "screens/real-ecg.webp": "4ebc1d2fbee426386f20789ce20c88d9d17bdb258a478152358110c89d356edb"
+      },
+      "observedAt": "2026-11-19T19:41:20+08:00"
+    },
+    "bp": {
+      "sources": {
+        "evidence/联机-verify-bp-settled.jpeg": "0140c5d93e6205c469c816ed1533983c19abefe8f001e2d1fde4281094d39e65",
+        "evidence/联机-verify-bp-settled.json": "7244aedf8b1667d9e6a481ba1eddda15a5de5c2be239fbb2aa3869a373c410e9"
+      },
+      "renders": {
+        "screens/real-bp.webp": "32dd9783333058bae2cff2f23f9dbcd76d95608338505c94c71f7945650c7447"
+      },
+      "observedAt": "2026-11-19T19:44:02+08:00"
+    },
+    "projects": {
+      "sources": {
+        "evidence/联机-verify-more-settled.jpeg": "39af872064c10c4c0fb6b0696eb0b6cad041492af36f74eb5dc535a06fe1879e",
+        "evidence/联机-verify-more-settled.json": "6050ec284a15ca8bc5a59fada2152b3894113981c50bfac2bf557dfc89e856eb"
+      },
+      "renders": {
+        "screens/real-projects.webp": "034fab82ef6ea068d010ce3cb776cd13dac83e452d2512666620c0817d92ea04"
+      },
+      "observedAt": "2026-11-19T19:40:03+08:00"
+    },
+    "more-lower": {
+      "sources": {
+        "evidence/联机-verify-more-lower.jpeg": "e0932d95f69755bd6773806784e69faf6a0c0a7430ff8ed9b32eea6ad98b7ec6",
+        "evidence/联机-verify-more-lower.json": "ed5f620aae9fa3714b3e6f7a3f64eba1ad527932484928cc9c9ea8cab63d3fc0"
+      },
+      "renders": {
+        "screens/real-more-lower.webp": "eae6067188e8ef6b3f34bcdd70a8c6be33eb0c5c430f1e5b61717b26fb2b80ea"
+      },
+      "observedAt": "2026-11-19T19:40:13+08:00"
+    },
+    "wear-hand": {
+      "sources": {
+        "evidence/联机-verify-more-wrist.jpeg": "9dbf610e925c4e6218d20c8548fc2e26b5c405786fbe3401eadf43fcd872ede4",
+        "evidence/联机-verify-more-wrist.json": "bd65c63b49143c2fe205b48dd259fde07a72917435477f598e564c3376707c9b"
+      },
+      "renders": {
+        "screens/real-wear-hand.webp": "7d3947c126594b4eb34bd4bdbe1ff983c4ec2560a84c5b136e5dce265b85e842"
+      },
+      "observedAt": "2026-11-19T19:40:07+08:00"
+    },
+    "ecg-empty": {
+      "sources": {
+        "evidence/联机-study-ecg-settled.jpeg": "16a3353af4e205c0751da69862ed08698f3ed092149a6a3eb073442282b999aa",
+        "evidence/联机-study-ecg-settled.json": "bca510c9aa87c83396f454bfb594839be6d5f978fc0b1faeab2e08f8c6575898"
+      },
+      "renders": {
+        "screens/real-ecg-empty.webp": "f141f8ce2dcdc4423ad1d58758e586c6de6f0a0895956889b238e7cdb04ecb45"
+      },
+      "observedAt": "2026-11-19T19:24:49+08:00"
+    },
+    "ecg-detect": {
+      "sources": {
+        "evidence/联机-verify-ecg-detect.jpeg": "90404ecd4263ad74ae11eaf317903956b7579714e62843b4c7acea30a0b8aa56",
+        "evidence/联机-verify-ecg-detect.json": "4d74968aa1f1b60454db0fba744e8ca4bdabe3f0c620586b73212fe9621e4881"
+      },
+      "renders": {
+        "screens/real-ecg-detect.webp": "56e8055ccf73861630f1a5c8fdb4ef0f4c9d1237c36b2094b75ccbd6c7aa4cfe"
+      },
+      "observedAt": "2026-11-19T19:41:24+08:00"
+    },
+    "uric": {
+      "sources": {
+        "evidence/联机-verify-uric-settled.jpeg": "b0eb5c6961de559c5ad552569549b3ea9ab2564122fd7a2739383d57bff5cc58",
+        "evidence/联机-verify-uric-settled.json": "6a8b68f3516df4bf27ea7f51fb50a33aabca6e58bc07c6026fd29ac9dd5e312a"
+      },
+      "renders": {
+        "screens/real-uric.webp": "1a10133a8e45a5584b1801aafaa4917dabfd6aad2aa6cf8e2238e3ba77b6ea33"
+      },
+      "observedAt": "2026-11-19T19:50:06+08:00"
+    },
+    "coronary": {
+      "sources": {
+        "evidence/联机-verify-coronary-settled.jpeg": "33fcdf63d852acc46abad340597a7cdaab021d4a92259013d59375940afaaa03",
+        "evidence/联机-verify-coronary-settled.json": "fc26d9199909a811d7b667d489bc45bb9bec6add9c837183ff30b65850dd7f77"
+      },
+      "renders": {
+        "screens/real-coronary.webp": "57ab645ca08afd2e285ae7e226b48cbf6902cbd960408609ad7ced5ff191f1a1"
+      },
+      "observedAt": "2026-11-19T19:51:06+08:00"
+    },
+    "vessel": {
+      "sources": {
+        "evidence/联机-verify-vessel-settled.jpeg": "0b12a7d332eea3dbf4051ef0e51100577c14f27910e36d426284cef4c88b019c",
+        "evidence/联机-verify-vessel-settled.json": "89489d6ec9d55661cf0455a57a29890939ac7864837254edd694f5d8393d0b02"
+      },
+      "renders": {
+        "screens/real-vessel.webp": "aba1c070080e9db58c44bdbabc7f87c5114acdcd93691dabbf3a609b26ff76e7"
+      },
+      "observedAt": "2026-11-19T19:51:35+08:00"
+    },
+    "female": {
+      "sources": {
+        "evidence/联机-verify-female-settled.jpeg": "714e7658033acf8f4e576c73abe6b114ee27571581e59ae817d1e61a26f31426",
+        "evidence/联机-verify-female-settled.json": "d72744b8a71c9e14eba30128ba3b7e4964e86382e684b4e03b191778be64f822"
+      },
+      "renders": {
+        "screens/real-female.webp": "e9f0b9b1c71e8d54a90dce8874ba0deb8d24f3b4ded369d8070d08bf8d3aa03e"
+      },
+      "observedAt": "2026-11-19T19:52:03+08:00"
+    },
+    "resp": {
+      "sources": {
+        "evidence/联机-verify-resp-settled.jpeg": "7b3c0a08472dd7f6f0d591e34daac4541a7e5ef5bb7c53b5f54d1d92e74c0404",
+        "evidence/联机-verify-resp-settled.json": "079e666103ed7463159cd0bd9d97455fb8a2866350881f5ccd3a2f75bc1b4222"
+      },
+      "renders": {
+        "screens/real-resp.webp": "3c4cd233115b438185484628d1026145896992bc763b64c1be67ad07b00dce06"
+      },
+      "observedAt": "2026-11-19T19:52:31+08:00"
+    },
+    "altitude": {
+      "sources": {
+        "evidence/联机-verify-altitude-settled.jpeg": "53b14f69c1f9634c0abe809f4f0fe0bcfa7c980d7657a3e233d7ad7b899ae735",
+        "evidence/联机-verify-altitude-settled.json": "30094c2d80c3b0c24f334e57875cebd5981029202d14bdbabd765e6d26464690"
+      },
+      "renders": {
+        "screens/real-altitude.webp": "44f13eab905609a6fa89ec06257bcc49a52a367713053681b9d3724abc1d8c4e"
+      },
+      "observedAt": "2026-11-19T19:53:01+08:00"
+    },
+    "resp-tutorial": {
+      "sources": {
+        "evidence/next6-resp-tutorial.jpeg": "8f78b399ee6baa415dcedf4352f33020c711cc3cbdeb5e9e92e84b9a2a509124",
+        "evidence/next6-resp-tutorial.json": "56302ca3491f59adb06c849cc1c8c7183e1b73922d8d4cfcfc647bcc6d3befb3",
+        "evidence/next6-resp-settled.jpeg": "7b3c0a08472dd7f6f0d591e34daac4541a7e5ef5bb7c53b5f54d1d92e74c0404"
+      },
+      "renders": {
+        "screens/real-resp-tutorial.webp": "95577e07e5c288cd7a390a8d6c04231981bbe7540bab9d3a59eab8653167158d"
+      },
+      "observedAt": "2026-11-19T20:30:10+08:00"
+    },
+    "resp-tutorial-lower": {
+      "sources": {
+        "evidence/next6-resp-tutorialdown.jpeg": "aa38b984a270c4752e28bff810ef8762478378e528e1471eaa7d4501122e9001",
+        "evidence/next6-resp-tutorialdown.json": "dd245c2a334452d29570fafb0677934a40ca8760fe6d5ca86feed04bb26ef4f9"
+      },
+      "renders": {
+        "screens/real-resp-tutorial-lower.webp": "32e71886cdd411d95598384f55a04c0d8cbeffbb9fac99c4453e3886ce2b9b53"
+      },
+      "observedAt": "2026-11-19T20:30:15+08:00"
+    },
+    "altitude-tutorial": {
+      "sources": {
+        "evidence/next6-altitude-tutorial.jpeg": "fed47a9bfb6492a6999554f609b2af382b4a126a45705d8170d7e626d858a195",
+        "evidence/next6-altitude-tutorial.json": "5a9cdfc73c3c95b3741a80e9e6b70cd5158cd9cfb887fd5109976cdcda4fcb83",
+        "evidence/next6-altitude-settled.jpeg": "53b14f69c1f9634c0abe809f4f0fe0bcfa7c980d7657a3e233d7ad7b899ae735"
+      },
+      "renders": {
+        "screens/real-altitude-tutorial.webp": "b6bbc4e2e4e9f33d2a5a728ac1c4a2138ab445bdbf8f10c9f33bb8524752e871"
+      },
+      "observedAt": "2026-11-19T20:31:03+08:00"
+    },
+    "altitude-tutorial-lower": {
+      "sources": {
+        "evidence/next6-altitude-tutorialdown.jpeg": "2bc39cad93cd489e2157f7534116b0e82b56bac8763965592a640cf4d1fdd428",
+        "evidence/next6-altitude-tutorialdown.json": "0125e7239a6489e35f2a41da3986d780bc53f6c1c55eb7d974610b7b770ad317"
+      },
+      "renders": {
+        "screens/real-altitude-tutorial-lower.webp": "f925ad56f29bc03ef0703ae2487d5fff736a6a7c328f48f9fe52a6a050ef8382"
+      },
+      "observedAt": "2026-11-19T20:31:09+08:00"
+    },
+    "about": {
+      "sources": {
+        "evidence/next6-more-about.jpeg": "0779463039400372a7b597e2290c133e40b9e39448dca2bb485645fc9d0790e3",
+        "evidence/next6-more-about.json": "a2405254a9a7d095f43f3383d8e86fb3d57543b9ea381ee5e2ce6d095fd3a626",
+        "evidence/next6-more-lower.jpeg": "e0932d95f69755bd6773806784e69faf6a0c0a7430ff8ed9b32eea6ad98b7ec6"
+      },
+      "renders": {
+        "screens/real-about.webp": "9d31e833cf7dc6ed4435c90587c15b18572eadd96e017dc788d8a42a1e8205c6"
+      },
+      "observedAt": "2026-11-19T20:32:06+08:00"
+    },
+    "live-083": {
+      "sources": {
+        "evidence/replay/WatchApScreenshot_20261119_213356504.png": "0071be4e7bdccd06c92b0cceef5ee0b1fa1602316113945bc87d5df3dcf2bfb7"
+      },
+      "renders": {
+        "screens/replay/live-083.webp": "c55b8f1cc747f1dd7fca63f2df5884e2b526012483e888cfc23ecf0912dfc721"
+      },
+      "observedAt": "2026-11-19T21:33:56.504+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-084": {
+      "sources": {
+        "evidence/replay/WatchApScreenshot_20261119_213400675.png": "7f63d03a503309324533d87178d8ca8865ecee421b4866033e48f29704a85bb8"
+      },
+      "renders": {
+        "screens/replay/live-084.webp": "3b663fbeaa560967c6a9c60044ae7301cda9a8c4d5e5ccd79b769233a936e4a8"
+      },
+      "observedAt": "2026-11-19T21:34:00.675+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-085": {
+      "sources": {
+        "evidence/replay/WatchApScreenshot_20261119_213407669.png": "862ab9c4cab848a0920ab8757fb7e530f0f4d3134e19fec0ac560f4e4e208e1e"
+      },
+      "renders": {
+        "screens/replay/live-085.webp": "01f543b611a6a1a8c90564454e345673289773141cd6ce94f78f1beb1133c16b"
+      },
+      "observedAt": "2026-11-19T21:34:07.669+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-086": {
+      "sources": {
+        "evidence/replay/WatchApScreenshot_20261119_213413926.png": "653663615e6545624eeffa5c99b0d691564874492b06cecd589aaad3bcce1a4c"
+      },
+      "renders": {
+        "screens/replay/live-086.webp": "a99b1f3e008753c0d501ad1a1d755e6da6243f7f790ddcca02b5d4fc29232cf6"
+      },
+      "observedAt": "2026-11-19T21:34:13.926+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-087": {
+      "sources": {
+        "evidence/replay/WatchApScreenshot_20261119_213416566.png": "af0244a196306f950cff0e993922e3266487a2809d37f10ef5a5b5894ccefe9c"
+      },
+      "renders": {
+        "screens/replay/live-087.webp": "e9d49dc26afeb9f9fa65d7d3c3a9a9ab8f5638f181e251a331e4a0883709f2be"
+      },
+      "observedAt": "2026-11-19T21:34:16.566+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-088": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_213421242.png": "1aaead895e180e7391ee67fdd9d106991c049b70a068ae5c953f58cf27bb0c77"
+      },
+      "renders": {
+        "screens/replay/live-088.webp": "d792edf6e538274082ef20a7f6688f7fc03b4dc50818b9a06b8138b79f5652f8"
+      },
+      "observedAt": "2026-11-19T21:34:21.242+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-089": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_213423295.png": "e89150d51e1ae64fa522efa56417bbbeb3339cb2a05bfc0d4d77f9a1f5ece94e"
+      },
+      "renders": {
+        "screens/replay/live-089.webp": "332f36b05c3575b686237b8b262a37f40c51d5da4827d04f6918aed144dd2470"
+      },
+      "observedAt": "2026-11-19T21:34:23.295+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-090": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_213425447.png": "9483d5009ac0f5a5809b8a3edbc0344b4fe7bb50151fb72857643867b3d060cc"
+      },
+      "renders": {
+        "screens/replay/live-090.webp": "3eef8913d16fe2b561bf74e95deec7bec564c8ecb92e3cacd08345727b2dbea1"
+      },
+      "observedAt": "2026-11-19T21:34:25.447+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-091": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_213427890.png": "8a766ee147673e573478f30db777045aa93fa1e426c012172d6a8283d6d85302"
+      },
+      "renders": {
+        "screens/replay/live-091.webp": "39daa56b8d438632e0c62067537a8e3e2aebd3408bd1bf4a34ceab947a6acb60"
+      },
+      "observedAt": "2026-11-19T21:34:27.890+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-092": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_213434420.png": "fb75ea239d78bbfd58cc1e45718398be9f6be14796c51f1bef1eb044bd6137d3"
+      },
+      "renders": {
+        "screens/replay/live-092.webp": "56cd2c960446e8550ab6d8129ab4a73616f4adc951257ff800337ee0b17cb8c9"
+      },
+      "observedAt": "2026-11-19T21:34:34.420+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-093": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_213520615.png": "7dd796c655216a60a2bba1716d08f56ba6134c1d4c5654361f05ce77deedb1b0"
+      },
+      "renders": {
+        "screens/replay/live-093.webp": "72caa6444fb9e0a5822b33112c99b13868132de67fdb5640358bdf6fb226871f"
+      },
+      "observedAt": "2026-11-19T21:35:20.615+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-094": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_213526346.png": "e931e1e7f437344257ea7ba6d6c3cf8a02f722c631321d86563ef1fbef61fcc6"
+      },
+      "renders": {
+        "screens/replay/live-094.webp": "d01f3082dac6427c11eec51c03a98c25a295917a2d384fc5aee154f6808830f0"
+      },
+      "observedAt": "2026-11-19T21:35:26.346+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-095": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_213528127.png": "714e16a430b519f4287909968c38eba53dcbf3f640487dc0953687c711bbceb9"
+      },
+      "renders": {
+        "screens/replay/live-095.webp": "39d8c272e7a1572fb448d37b5715f0459661a551662e3c6b73c97432f2ab16cf"
+      },
+      "observedAt": "2026-11-19T21:35:28.127+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-096": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_213529755.png": "a2f03ae2f25ee34a915734e6ad0455c7ee104a1b5276b1e43030821a926fde99"
+      },
+      "renders": {
+        "screens/replay/live-096.webp": "98b6824927cb20beda84c6397e912332a31c7df3a710638388bf889d90d3de96"
+      },
+      "observedAt": "2026-11-19T21:35:29.755+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-097": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_213533901.png": "b199799267190c2ef219712d2230b20a78ff6fac9e3061829cb0220261656b4c"
+      },
+      "renders": {
+        "screens/replay/live-097.webp": "46a93db3cb34cc47c2d2a0fd082e196ae80bf41341f71ba3fe43a1724d7d7096"
+      },
+      "observedAt": "2026-11-19T21:35:33.901+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-098": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_213608392.png": "ec9d98e547bb52481b82ba80b01089d703b6ff86b5f9050d06ae5402eda180c6"
+      },
+      "renders": {
+        "screens/replay/live-098.webp": "2b93c6fbf93caf0d3e8314dec9a15ee73774003969803446069a335ccb02d4ba"
+      },
+      "observedAt": "2026-11-19T21:36:08.392+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-099": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_213611053.png": "bc6d8a5870d51b2847e0ec6c17cd1c23fa4183b9ba38378a02b9cfbbd4238b97"
+      },
+      "renders": {
+        "screens/replay/live-099.webp": "57f81029bd622e745b22feb17b9c1522819e78b966164e3723fa2bc9a87a99ce"
+      },
+      "observedAt": "2026-11-19T21:36:11.053+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-100": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_213612892.png": "8bb647b97b8b69005f27a247244c880cebcb823c3499f3a891692f53e856a2cd"
+      },
+      "renders": {
+        "screens/replay/live-100.webp": "e4fcbefb3054177dcaadd0d1c60072c3e3c8483caa37b8def218d5e4c2ab2ea0"
+      },
+      "observedAt": "2026-11-19T21:36:12.892+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-101": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_213616622.png": "5b08f76ed9de5a00d1bf9a0c29996aa74691a40262f9b894659b702c2d344d07"
+      },
+      "renders": {
+        "screens/replay/live-101.webp": "ac931b843e3e41798db5886e97265186df0bb2d0542a306a9b452a3691793f81"
+      },
+      "observedAt": "2026-11-19T21:36:16.622+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-102": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_213618710.png": "6e4cb07951b9258d8eff226339ed7b79d42d28b2a7d8a865358364136cf4d7a3"
+      },
+      "renders": {
+        "screens/replay/live-102.webp": "1d6ad80088f3addeffca348cc64998d35ed3cb3f2b5ce392c8bb46e57bd24e0d"
+      },
+      "observedAt": "2026-11-19T21:36:18.710+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-103": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_213621389.png": "ca4fdbfe3a2e6376ff26ab401977fb21870bf99e427a6be85c0f5402de45a15c"
+      },
+      "renders": {
+        "screens/replay/live-103.webp": "e82b0aa08a6452bfd01703e0e18d400a19e770258e6a95a06bd0ce734b47cad3"
+      },
+      "observedAt": "2026-11-19T21:36:21.389+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-104": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_213624300.png": "e8c0cf82225680224d3863a09fe644122aef5e1b03c8dec61e19d984cb5eba61"
+      },
+      "renders": {
+        "screens/replay/live-104.webp": "f1a5991cba11e88c5c91ba5a024fa9bec429c59356de5353f39881310c62fba1"
+      },
+      "observedAt": "2026-11-19T21:36:24.300+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-105": {
+      "sources": {
+        "evidence/replay/WatchApScreenshot_20261119_213731898.png": "b223a54f4c53029d7ea689a7e28853ae7bf013c30074fef8b7a358faf96c02fa"
+      },
+      "renders": {
+        "screens/replay/live-105.webp": "89fe6892c4d2032c71ccc1304364755f6c3ae90cb80fb3ea075883401a57568e"
+      },
+      "observedAt": "2026-11-19T21:37:31.898+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-106": {
+      "sources": {
+        "evidence/replay/WatchApScreenshot_20261119_213734541.png": "57e4a73ba140ce4c29e6817c6a1535611284c5292979bfb4c624b1c9f57196cf"
+      },
+      "renders": {
+        "screens/replay/live-106.webp": "c21d847c20e5bb973f31270662b06ddc0d333ef9bf17997a1137ee1b27befa31"
+      },
+      "observedAt": "2026-11-19T21:37:34.541+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-107": {
+      "sources": {
+        "evidence/replay/WatchApScreenshot_20261119_213736132.png": "51fd9bef003f7abe1ec7097ea312dd389ebb9f8ccf233c782a18c407adde87c1"
+      },
+      "renders": {
+        "screens/replay/live-107.webp": "bf698ecae7b4c43875aa08978d80fbfad8688c8e4a3b0a519c0ae3d7c6f5093b"
+      },
+      "observedAt": "2026-11-19T21:37:36.132+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-108": {
+      "sources": {
+        "evidence/replay/WatchApScreenshot_20261119_21373812.png": "b68a2b64b8670fbb60cfee2d169f1e3dcdbf2ffafc26fe481d09321433bd5e22"
+      },
+      "renders": {
+        "screens/replay/live-108.webp": "31eef27b9f047e5b9338e6cc2e406d3cc938fa9a9348a21aa5d9091a803deb14"
+      },
+      "observedAt": "2026-11-19T21:37:38.012+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-109": {
+      "sources": {
+        "evidence/replay/WatchApScreenshot_20261119_213810820.png": "d412a077bc2c95b32c58d343954f061870e682187957a273cc9b1c6a01768d15"
+      },
+      "renders": {
+        "screens/replay/live-109.webp": "d4485f11b35da949e762aa90e0a252c45ae106e645915c3c5a02df76bc6cb8c0"
+      },
+      "observedAt": "2026-11-19T21:38:10.820+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-110": {
+      "sources": {
+        "evidence/replay/WatchApScreenshot_20261119_213812817.png": "57dbdc8e9bb1ecbc5015f2837448eef3e84a28d4f939c90f7b3f89a7f1857c1d"
+      },
+      "renders": {
+        "screens/replay/live-110.webp": "1d7450d1ee3a188234daf0c63cdac6ddcfb3ac9ec32b175786fd456e2f6570e7"
+      },
+      "observedAt": "2026-11-19T21:38:12.817+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-111": {
+      "sources": {
+        "evidence/replay/WatchApScreenshot_20261119_213814564.png": "2a44d0be47d7e37ac42e8c8696155ff49aa382a850c48cbd93ec00ef395da55e"
+      },
+      "renders": {
+        "screens/replay/live-111.webp": "96405dbcaf1069d76f4938780a19bcdd9a918e0d7db5ab3b1fa3363280abd6d8"
+      },
+      "observedAt": "2026-11-19T21:38:14.564+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-112": {
+      "sources": {
+        "evidence/replay/WatchApScreenshot_20261119_21381615.png": "51fd9bef003f7abe1ec7097ea312dd389ebb9f8ccf233c782a18c407adde87c1"
+      },
+      "renders": {
+        "screens/replay/live-112.webp": "bf698ecae7b4c43875aa08978d80fbfad8688c8e4a3b0a519c0ae3d7c6f5093b"
+      },
+      "observedAt": "2026-11-19T21:38:16.015+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-113": {
+      "sources": {
+        "evidence/replay/WatchApScreenshot_20261119_213817459.png": "24671b0fb2c9196b629d1c067bd687898e8177571ab13a82512ec9d1503283d4"
+      },
+      "renders": {
+        "screens/replay/live-113.webp": "cc1db1f585cc016209528bcf1ce00ea60af32d600df6fde68a5e1b75f20b68ed"
+      },
+      "observedAt": "2026-11-19T21:38:17.459+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-114": {
+      "sources": {
+        "evidence/replay/WatchApScreenshot_20261119_213843900.png": "92e6da86bdf526e5e52b56f0a49d4a642e3e11974253d3b40761951265afc439"
+      },
+      "renders": {
+        "screens/replay/live-114.webp": "4684f6bbb341106f229f8aafd31dd2ae7314f76694e29e6f8ad4e1bf3bf7e127"
+      },
+      "observedAt": "2026-11-19T21:38:43.900+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-115": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_213845826.png": "7eb6916cbef8322a230bfc71053af8585f4a54a72f5214459e9e97cdfadd76fc"
+      },
+      "renders": {
+        "screens/replay/live-115.webp": "ef5df54bda3d8eeb72ca466850c52e2ab35732e4cabadaf19f058cb895ce50ce"
+      },
+      "observedAt": "2026-11-19T21:38:45.826+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-116": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_213851258.png": "451a183112774b6cb5fc57b1de6febc73fbbdfc79236724658645e502bb61733"
+      },
+      "renders": {
+        "screens/replay/live-116.webp": "b8b98f5a544263f64987411b0ea774f4b0fdc9a42e30af7f587c77d546dd18e1"
+      },
+      "observedAt": "2026-11-19T21:38:51.258+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-117": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_213902001.png": "bccee7bdc2716bfa820316e79de979bcb0f34ba4db96d5716456d3972126a483"
+      },
+      "renders": {
+        "screens/replay/live-117.webp": "fcbbaf18abf53c784e096fa9532c436b14cf3ad23bc5306dd91b3b9d85ebf796"
+      },
+      "observedAt": "2026-11-19T21:39:02.001+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-118": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_213904167.png": "9fad01e1cc8fcbaf89850ac6b1785fd6e0778eeb4322cf330799f73f7c228e84"
+      },
+      "renders": {
+        "screens/replay/live-118.webp": "dd605d033300c838ce51d88a61e34f7b55e3843ccf1e83061f09d1b95751421a"
+      },
+      "observedAt": "2026-11-19T21:39:04.167+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-119": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_213905807.png": "4ea4c85f3aecab4908cc0dcfe473c149182cfa76ec9ce63c0c4b9c4a8264da46"
+      },
+      "renders": {
+        "screens/replay/live-119.webp": "8ef8ae6af7a2c8f97376d706b5da7c017c0090d35b113012c3e68870cea617f1"
+      },
+      "observedAt": "2026-11-19T21:39:05.807+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-120": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_213907402.png": "ea8bd56ac2df1907f29d540bd0459ecaf516739a05d7d9478b45ec221597d4e9"
+      },
+      "renders": {
+        "screens/replay/live-120.webp": "b34dfceac387d8a315932789b753a882f955702f29598f0e670ce8c95edff5f9"
+      },
+      "observedAt": "2026-11-19T21:39:07.402+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-121": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_213908617.png": "7fe21e624b3f35af738f8801b3945b59a98db46cd12c5e61767a0048c95c450e"
+      },
+      "renders": {
+        "screens/replay/live-121.webp": "9dceca6c034225286b4398f5c8d7fbe79257827bd13240328fcf5ffe15a4b71f"
+      },
+      "observedAt": "2026-11-19T21:39:08.617+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-122": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_213919666.png": "1c5e9955ab3118f2f4c4fab109fe577db2f234a63766cab4400903a70da616fc"
+      },
+      "renders": {
+        "screens/replay/live-122.webp": "ce5659c14b9ae1326b8b723e3d1838b7c349a490a579e75d1b1853b2938edf64"
+      },
+      "observedAt": "2026-11-19T21:39:19.666+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-123": {
+      "sources": {
+        "evidence/replay/WatchApScreenshot_20261119_215517980.png": "6d56194168824fb5728489be9679681cbf416d7b06ec0618b9733f9423a555a6"
+      },
+      "renders": {
+        "screens/replay/live-123.webp": "341cdf7e0a199a1effafdb7b831ab16a4e53822036bc8176d7c7548db0344b7b"
+      },
+      "observedAt": "2026-11-19T21:55:17.980+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-124": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_215523480.png": "c3dc576aff665707221352775b9ee17bbc56e02547a802905d023254f33c38f6"
+      },
+      "renders": {
+        "screens/replay/live-124.webp": "23c82da2caa86abdf6f6d5b04b92267ce0121a7e4774ecfdfede9d7367c8ef76"
+      },
+      "observedAt": "2026-11-19T21:55:23.480+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-125": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_215525862.png": "85667c9a5ce08e59c6ea509dc8c497cc3c2177dab25184ff825cd5cbe7735207"
+      },
+      "renders": {
+        "screens/replay/live-125.webp": "c1d8e020a9126b7249b59a5fd638444140460f034feca1dc4403f0432b62e961"
+      },
+      "observedAt": "2026-11-19T21:55:25.862+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。展示图遮挡出生年月值。"
+    },
+    "live-126": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_215529350.png": "88a2bc54d132fe261f2e2c655c87f6842ead8781499b4256814910bd628303ba"
+      },
+      "renders": {
+        "screens/replay/live-126.webp": "1261250f522789c57d99209246d1553de3e87564bf13751886a15b227cdd7585"
+      },
+      "observedAt": "2026-11-19T21:55:29.350+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-127": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_215540066.png": "d561007297067a4b36cea7af3b8bcb32dddedf050cb7e05300132e2068b8d2eb"
+      },
+      "renders": {
+        "screens/replay/live-127.webp": "1849fecc358b7db801ad629772484e496205ae9c043681f0df7e13f8129c7287"
+      },
+      "observedAt": "2026-11-19T21:55:40.066+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-128": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_215542087.png": "eda66e64aad343edcf5db4abc57f9d606c4b6b5d5636b6bb527ee034487af5d7"
+      },
+      "renders": {
+        "screens/replay/live-128.webp": "ab62d00b371886648a8932b036a2e09109116f2981e2582873196a78f79ce4f8"
+      },
+      "observedAt": "2026-11-19T21:55:42.087+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-129": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_215545001.png": "521a5a340a8e306f533f51cc2cd335f573469edae2c589ab154fd6978236c89e"
+      },
+      "renders": {
+        "screens/replay/live-129.webp": "662b61d07a17c16b2136b77116be23bf005af35a79643d83762f94469654d64e"
+      },
+      "observedAt": "2026-11-19T21:55:45.001+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-130": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_215549375.png": "056d56c00094d8db76e21b171387119015444ebb2fd0090278ac278a17158868"
+      },
+      "renders": {
+        "screens/replay/live-130.webp": "33705531c49b5b21118e1b9b1a9a3131cb5d4d6e42561c08b581644ba052bda7"
+      },
+      "observedAt": "2026-11-19T21:55:49.375+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-131": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_215550905.png": "2555aeedad279cdfce4d05660efc424c6a9bab3a9c60ae2410b676ab7feb8d5f"
+      },
+      "renders": {
+        "screens/replay/live-131.webp": "14436f0fc53bef54f51442c1870ed54511e984372ee03aec21f10b17a1e00b50"
+      },
+      "observedAt": "2026-11-19T21:55:50.905+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-132": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_215552468.png": "e987c50662a04ad5e0d8c290ef6839fbf25b05fa7f75dcbf34e48431208fc297"
+      },
+      "renders": {
+        "screens/replay/live-132.webp": "8ae549e4359325673f21c436231b1e83110df08a38597aa68ffd6e8f26076225"
+      },
+      "observedAt": "2026-11-19T21:55:52.468+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-133": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_215553951.png": "9a1a559c14bab6da57c256f91a2d831fb7b44899faa83f75c1bd2cba828e62fb"
+      },
+      "renders": {
+        "screens/replay/live-133.webp": "a2b36ef49881c07c75827ae5cdcf797187764dee4e5766e2f19baa95d36abc7b"
+      },
+      "observedAt": "2026-11-19T21:55:53.951+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-134": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_215555463.png": "ff6c3d8126a6cc50730b45c2449a9ba4ee95fbd475ff44cfcacc88b2efb8fc82"
+      },
+      "renders": {
+        "screens/replay/live-134.webp": "3ac1c50678b15257d5c745f6d0e8631de222841789b10b0238a5ca2acfa9948e"
+      },
+      "observedAt": "2026-11-19T21:55:55.463+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-135": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_215557192.png": "dd53984c6c16cd78531537b4f0b96a5f1652f2d4dea898199b8074ca7b6de156"
+      },
+      "renders": {
+        "screens/replay/live-135.webp": "ac0715617aab2304c39bceb0258b32240768d74547a03a2ac1e00ce18e84457e"
+      },
+      "observedAt": "2026-11-19T21:55:57.192+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-136": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_215558737.png": "f6f29165a3bcb500476b05ea23f7285dd63026deb11d441ab22f64809237b62b"
+      },
+      "renders": {
+        "screens/replay/live-136.webp": "6b4acb0688ab1e76cbc681241fb04a63f086ac40a978354cffadacc5cbb899b1"
+      },
+      "observedAt": "2026-11-19T21:55:58.737+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-137": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_215603817.png": "d5ef5d9e2deb746ee98456fd4d38613d8b684a3832f825535a6b61a97a7c8d71"
+      },
+      "renders": {
+        "screens/replay/live-137.webp": "dadb57870123176fa56a592d4109ce224580f3da9f50a10f2f746d4fe2801570"
+      },
+      "observedAt": "2026-11-19T21:56:03.817+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-138": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_215606153.png": "8f43b2e3d2eca2faca1ff9eef2dbaf3b8e293fa933e93df6d614011b03bdc482"
+      },
+      "renders": {
+        "screens/replay/live-138.webp": "7357cd8f15712c81694c3b776133a47d8e59d3c31407e0ac40c13df7b391668e"
+      },
+      "observedAt": "2026-11-19T21:56:06.153+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-139": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_215608897.png": "7adf24dc36bb246f7fe349cfdd91ffd3792e7633215c0f5ee5b003890522232c"
+      },
+      "renders": {
+        "screens/replay/live-139.webp": "d2b221a9b1cbf0e28afd79380b82b2526556b75145d95a8c7a5bbd426374e97f"
+      },
+      "observedAt": "2026-11-19T21:56:08.897+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-140": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_215610393.png": "4da9b3b1436bdd3414366f1ee4b6da8ca03231032c33a0d959fa3085d5e63495"
+      },
+      "renders": {
+        "screens/replay/live-140.webp": "c6b3416ac2d7d78122304fa3d8b1ff72072cff8eb053616ed1b2249f32e4e58a"
+      },
+      "observedAt": "2026-11-19T21:56:10.393+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    },
+    "live-141": {
+      "sources": {
+        "evidence/replay/WatchScreenshot_20261119_215612136.png": "4dcbc59b6d5b575138754cc376b34594ed43c3e39f365073d13ab0255482034d"
+      },
+      "renders": {
+        "screens/replay/live-141.webp": "0b7775685f0f911444bc983a7669cc0c9eebd3dd5d2e90237c8cd3f51fe78e50"
+      },
+      "observedAt": "2026-11-19T21:56:12.136+08:00",
+      "processing": "已核对配对手机同步的原图与本地去水印展示图。外圈已裁切。"
+    }
+  }
+}

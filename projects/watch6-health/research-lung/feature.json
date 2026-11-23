@@ -1,0 +1,135 @@
+{
+  "id": "research-lung",
+  "name": "呼吸健康研究",
+  "phoneProfile": "mate50",
+  "entries": {},
+  "pages": {
+    "home": {
+      "device": "phone",
+      "title": "创新研究首页",
+      "parent": "@home",
+      "capture": {
+        "header": "screens/home-h.webp",
+        "content": "screens/home-c.webp",
+        "footer": "screens/home-f.webp",
+        "contentLabel": "创新研究首页",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "呼吸健康研究",
+            "page": "entry-lung",
+            "box": [
+              2.8493,
+              22.4745,
+              94.2096,
+              4.3865
+            ]
+          }
+        ]
+      }
+    },
+    "entry-lung": {
+      "device": "phone",
+      "title": "呼吸健康研究",
+      "parent": "home",
+      "capture": {
+        "header": "screens/entry-lung-h.webp",
+        "content": "screens/entry-lung-c.webp",
+        "footer": "screens/entry-lung-f.webp",
+        "contentLabel": "呼吸健康研究",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              2.2059,
+              47.4074,
+              11.3971,
+              42.963
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "去填写",
+            "page": "entry-lung-form",
+            "box": [
+              74.4485,
+              23.5463,
+              19.1176,
+              1.5493
+            ]
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "box": [
+              22.3346,
+              18.3053,
+              55.3309,
+              2.2188
+            ],
+            "label": "开始测量"
+          }
+        ]
+      }
+    },
+    "entry-lung-form": {
+      "device": "phone",
+      "title": "呼吸健康用户随访问卷",
+      "parent": "entry-lung",
+      "capture": {
+        "content": "screens/entry-lung-form-c.webp",
+        "contentLabel": "呼吸健康用户随访问卷",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.9522,
+              6.375,
+              11.1213,
+              5.0417
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "phoneHome": "home",
+  "phoneHomeLabel": "创新研究首页",
+  "sharedPhoneHome": "huawei-research",
+  "scenes": [
+    {
+      "id": "explore",
+      "title": "呼吸健康研究",
+      "hint": "点击实机界面进入详情，上下滑动浏览，右滑返回。",
+      "start": {
+        "phone": "entry-lung"
+      },
+      "keys": [
+        [
+          "phone",
+          "entry-lung",
+          "呼吸健康研究"
+        ],
+        [
+          "phone",
+          "entry-lung-form",
+          "呼吸健康用户随访问卷"
+        ]
+      ],
+      "phonePageIndex": [
+        "entry-lung",
+        "entry-lung-form"
+      ]
+    }
+  ],
+  "initialView": {
+    "scene": "explore",
+    "device": "phone",
+    "page": "entry-lung"
+  }
+}

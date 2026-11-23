@@ -1,0 +1,156 @@
+{
+  "feature": "health-insight-phone",
+  "devices": {
+    "phone": {
+      "model": "HUAWEI Mate 50",
+      "os": "HarmonyOS 4.2.0.225",
+      "app": "华为运动健康",
+      "appVersion": "17.0.10.320"
+    }
+  },
+  "reviewed": true,
+  "steps": [
+    {
+      "scene": "enter",
+      "device": "phone",
+      "from": "今日",
+      "action": "向下滑动并点健康摘要卡片",
+      "to": "精选摘要",
+      "source": "live",
+      "observedAt": "2026-11-19T12:23:08+08:00",
+      "files": [
+        "evidence/home-0.png",
+        "evidence/home-5.png",
+        "evidence/openfull-0.png"
+      ]
+    },
+    {
+      "scene": "read",
+      "device": "phone",
+      "from": "健康解读",
+      "action": "点右上角折叠箭头并再展开，向下查看",
+      "to": "实际解读内容",
+      "source": "live",
+      "observedAt": "2026-11-19T12:23:11+08:00",
+      "files": [
+        "evidence/openfull-0.png",
+        "evidence/closefull-0.png",
+        "evidence/openfull-2.png"
+      ]
+    },
+    {
+      "scene": "compare",
+      "device": "phone",
+      "from": "精选摘要",
+      "action": "点趋势列表并滚动到底",
+      "to": "当前趋势",
+      "source": "live",
+      "observedAt": "2026-11-19T12:23:55+08:00",
+      "files": [
+        "evidence/trendfull-0.png",
+        "evidence/trendfull-5.png"
+      ]
+    },
+    {
+      "scene": "compare",
+      "device": "phone",
+      "from": "精选摘要",
+      "action": "点准备度信息图标并滚动",
+      "to": "相关知识与衡量标准",
+      "source": "live",
+      "observedAt": "2026-11-19T12:18:10+08:00",
+      "files": [
+        "evidence/info-0.png",
+        "evidence/info-1.png"
+      ]
+    },
+    {
+      "scene": "options",
+      "device": "phone",
+      "from": "更多选项",
+      "action": "点设置",
+      "to": "健康摘要通知当前状态",
+      "source": "live",
+      "observedAt": "2026-11-19T12:31:41+08:00",
+      "files": [
+        "evidence/digest-menu.png",
+        "evidence/digest-settings.png"
+      ]
+    }
+  ],
+  "frameEvidence": {
+    "today": {
+      "sources": {
+        "evidence/home-5.png": "c487d79b1cf3314865b85bd819abfc5481ff1b6e204220ff6560fe3187be7364",
+        "evidence/home-0.png": "7a1b4e526ca81aaad0cb4e63e49b6767d15b81ea0e672dd71a55bac2c31bf2ad"
+      },
+      "renders": {
+        "screens/today-header.webp": "a53448a63a6540fc3e25165846af53d319f8958d4319c63be3fde9932b003a56",
+        "screens/today-content.webp": "246f30f375ab35ed49d0b40f9cd2da8cd82c8c9802aae04ea9b9f6c1d964cf7d",
+        "screens/today-footer.webp": "7e1b5b7f896f23dd50bfd869a31c68538eacb6d294187dc018e2b937900aca99"
+      }
+    },
+    "digest": {
+      "sources": {
+        "evidence/closefull-0.png": "c8afa4ac879c23d53c33230443ad672fe0d3bdd16038462dffbd7856ab12de46",
+        "evidence/openfull-0.png": "68a97b9da2eea89ced7ade96b76e2a81722c74fb77e682d881f970671d23d839",
+        "evidence/trendfull-5.png": "175625456ad8509394a77a1642ae88997d15d417cdc89753ef5ffab3631d0c6e",
+        "evidence/openfull-2.png": "748e36607c8a45f4195cb8b8c49c39aa13f0a47f94a5404ff3ac326d227db360"
+      },
+      "renders": {
+        "screens/digest-header.webp": "73dbbd7ebaba95e3a7f4623f10f35df0dab8fe0f678951a44c6cd65e9ba7d67e",
+        "screens/digest-content.webp": "58cf94d1a879c8ceb25daebac7d0a676e3e8b6d890b567587c2f1b30a89676f7"
+      }
+    },
+    "folded": {
+      "sources": {
+        "evidence/closefull-0.png": "c8afa4ac879c23d53c33230443ad672fe0d3bdd16038462dffbd7856ab12de46",
+        "evidence/openfull-2.png": "748e36607c8a45f4195cb8b8c49c39aa13f0a47f94a5404ff3ac326d227db360",
+        "evidence/trendfull-5.png": "175625456ad8509394a77a1642ae88997d15d417cdc89753ef5ffab3631d0c6e",
+        "evidence/trendfull-0.png": "cdc2a57358cf5728aebf5633721b53e3d68be465e4c6472d3460b74fce342048"
+      },
+      "renders": {
+        "screens/folded-header.webp": "73dbbd7ebaba95e3a7f4623f10f35df0dab8fe0f678951a44c6cd65e9ba7d67e",
+        "screens/folded-content.webp": "f358a2bc08f70d1c49f9d7279af586f260504eef86ee42cd3bc4a11ef31fef9a"
+      }
+    },
+    "trend": {
+      "sources": {
+        "evidence/trendfull-0.png": "cdc2a57358cf5728aebf5633721b53e3d68be465e4c6472d3460b74fce342048",
+        "evidence/trendfull-5.png": "175625456ad8509394a77a1642ae88997d15d417cdc89753ef5ffab3631d0c6e",
+        "evidence/openfull-2.png": "748e36607c8a45f4195cb8b8c49c39aa13f0a47f94a5404ff3ac326d227db360",
+        "evidence/closefull-0.png": "c8afa4ac879c23d53c33230443ad672fe0d3bdd16038462dffbd7856ab12de46"
+      },
+      "renders": {
+        "screens/trend-header.webp": "25b26fc5ca37ce9d9d2551ab047caaf9f23c33ab0e5a34365159847a34ebc192",
+        "screens/trend-content.webp": "2c94462a053cab382dc975b10cbcd3e0204e8272f65ffc24d52c6aec318868eb"
+      }
+    },
+    "info": {
+      "sources": {
+        "evidence/info-0.png": "474b5950799259ae23824b57b11dea4d538a8001085c7fc60a3cc6f8d3c97adc",
+        "evidence/info-1.png": "713d60cb571a51cd41802eaa804ae9768455b8b4a2ec6db9b0f13633bf1c7f92"
+      },
+      "renders": {
+        "screens/info-header.webp": "6517b1547ea5d6073c07da72259d0db4c1054cb9b1bb7d38d36cbf3b07d72e3d",
+        "screens/info-content.webp": "e5df1abce5a679ac957337b5efd76261c5bc36321cbf306d787ad8b6b4a14194"
+      }
+    },
+    "menu": {
+      "sources": {
+        "evidence/digest-menu.png": "3f9d0b086b220d416c171250ba878fac2234a3c518a7c9eabd9b7165efcc51d3"
+      },
+      "renders": {
+        "screens/menu-content.webp": "afe5228cb24cd80c23e7a6b57e60131803c6f0a4c479dbea49aa262d124c412a"
+      }
+    },
+    "settings": {
+      "sources": {
+        "evidence/digest-settings.png": "1f71f00269c6d26a4604b08a51bad5281cb1e5064ba7d0da50ca3fb469b6bc1d"
+      },
+      "renders": {
+        "screens/settings-content.webp": "a1a735d522b7e76803f92e6fe5addbd6bc988ea08bcf8e40349d9a9ad619e8ed"
+      }
+    }
+  }
+}

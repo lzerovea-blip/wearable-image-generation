@@ -1,0 +1,300 @@
+{
+  "id": "watch6-healthy-living",
+  "name": "健康生活",
+  "watchProfile": "watch6",
+  "watchScreens": {
+    "@face": "dial",
+    "@launcher": "launcher"
+  },
+  "entries": {
+    "launcher": {
+      "label": "健康生活",
+      "page": "main"
+    }
+  },
+  "pages": {
+    "dial": {
+      "device": "watch",
+      "title": "实机表盘",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/dial.webp",
+        "contentLabel": "实机表盘",
+        "hotspots": []
+      }
+    },
+    "launcher": {
+      "title": "应用列表 · 微体检与情绪健康",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher.webp",
+        "contentLabel": "应用列表 · 微体检与情绪健康",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "健康洞察",
+            "box": [
+              10.866,
+              11.373,
+              78.267,
+              22.103
+            ]
+          },
+          {
+            "label": "微体检",
+            "box": [
+              2.575,
+              36.052,
+              94.85,
+              27.682
+            ]
+          },
+          {
+            "label": "情绪健康",
+            "box": [
+              10.725,
+              66.309,
+              78.549,
+              22.103
+            ]
+          },
+          {
+            "label": "华为创新研究",
+            "box": [
+              31.831,
+              90.987,
+              36.339,
+              9.013
+            ]
+          }
+        ],
+        "swipe": {
+          "up": "launcher-heart"
+        }
+      }
+    },
+    "launcher-heart": {
+      "title": "应用列表 · 研究与心率",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher-heart.webp",
+        "contentLabel": "应用列表 · 研究与心率",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "情绪健康",
+            "box": [
+              32.068,
+              0.0,
+              35.865,
+              8.798
+            ]
+          },
+          {
+            "label": "华为创新研究",
+            "box": [
+              10.866,
+              11.373,
+              78.267,
+              22.103
+            ]
+          },
+          {
+            "label": "心率",
+            "box": [
+              2.575,
+              36.052,
+              94.85,
+              27.682
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "@launcher",
+          "up": "launcher-living"
+        }
+      }
+    },
+    "launcher-living": {
+      "title": "应用列表 · 健康生活",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher-living.webp",
+        "contentLabel": "应用列表 · 健康生活",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "健康生活",
+            "box": [
+              10.725,
+              66.309,
+              78.549,
+              22.103
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "launcher-heart",
+          "up": "launcher-cycle"
+        }
+      }
+    },
+    "launcher-cycle": {
+      "title": "应用列表 · 生理周期",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher-cycle.webp",
+        "contentLabel": "应用列表 · 生理周期",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "生理周期",
+            "box": [
+              31.831,
+              90.987,
+              36.339,
+              9.013
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "launcher-living"
+        }
+      }
+    },
+    "main": {
+      "device": "watch",
+      "title": "健康生活 · 今日任务",
+      "provenance": "WATCH 6 实机",
+      "parent": "@launcher",
+      "capture": {
+        "content": "screens/real-main.webp",
+        "contentLabel": "健康生活 · 今日任务",
+        "hotspots": [],
+        "pendingHotspots": [
+          {
+            "label": "规律起床",
+            "zone": "content",
+            "box": [
+              20,
+              6,
+              60,
+              20
+            ]
+          },
+          {
+            "label": "锻炼时长",
+            "zone": "content",
+            "box": [
+              8,
+              34,
+              83,
+              25
+            ]
+          },
+          {
+            "label": "减压放松",
+            "zone": "content",
+            "box": [
+              15,
+              68,
+              70,
+              21
+            ]
+          }
+        ],
+        "pendingSwipes": {
+          "up": "规律起床详情"
+        },
+        "listBands": [
+          [
+            0,
+            30
+          ],
+          [
+            30,
+            64
+          ],
+          [
+            64,
+            94
+          ],
+          [
+            94,
+            100
+          ]
+        ]
+      }
+    }
+  },
+  "scenes": [
+    {
+      "id": "open",
+      "title": "从表盘进入",
+      "hint": "按表冠，在应用列表中上下滑动，点选应用。右滑返回上一页。",
+      "start": {
+        "watch": "@face"
+      },
+      "keys": [
+        [
+          "watch",
+          "@face",
+          "表盘"
+        ],
+        [
+          "watch",
+          "@launcher",
+          "应用列表"
+        ],
+        [
+          "watch",
+          "launcher-heart",
+          "应用列表 · 研究与心率"
+        ],
+        [
+          "watch",
+          "launcher-living",
+          "应用列表 · 健康生活"
+        ],
+        [
+          "watch",
+          "main",
+          "健康生活 · 数据同步中"
+        ]
+      ]
+    },
+    {
+      "id": "application",
+      "title": "健康生活",
+      "hint": "查看手表实机画面及已采集入口。",
+      "start": {
+        "watch": "main"
+      },
+      "keys": [
+        [
+          "watch",
+          "main",
+          "健康生活 · 今日任务"
+        ]
+      ]
+    }
+  ],
+  "references": [
+    "画面来自本台 WATCH 6 的联机截图。缺少图像的目标列在侧栏「待采集界面」。"
+  ],
+  "initialView": {
+    "device": "watch",
+    "scene": "application",
+    "page": "main"
+  },
+  "pendingScreens": [
+    "规律起床详情",
+    "锻炼时长详情",
+    "减压放松详情",
+    "喝水及其他任务"
+  ]
+}

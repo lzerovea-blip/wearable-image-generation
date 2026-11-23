@@ -1,16 +1,20 @@
 ---
 name: wearable-image-generation
-description: 生成或修订运动健康 App 与穿戴设备界面的图片、动图和视频产物。适用于文生图、图生图、文生动图、图生动图、参考图改写、UI 界面生成、圆形或方形穿戴屏生成、华为/HarmonyOS 运动健康界面视觉，以及基于本地设计规范和组件截图输出可检查 PNG/GIF/MP4 文件。
+description: 生成或修订运动健康 App 与穿戴设备界面的图片、动图、视频，以及基于固定华为设备和 App 模板的可操作 HTML 演示，以及按页面定位维护 WATCH 6 三入口合集的字号、样式、热区与跳转。适用于文生图、图生图、文生动图、图生动图、参考图改写、UI 界面生成、圆形或方形穿戴屏生成、华为/HarmonyOS 运动健康界面视觉，以及基于本地设计规范和组件截图输出可检查 PNG/GIF/MP4 文件或离线交互网页。
 ---
 
-# 运动健康界面生图
+# 运动健康界面生成
 
-使用本 skill 为运动健康 App 和穿戴设备界面生成设计可信、可落盘检查的图片、动图或视频产物。四个主要能力是：
+使用本 skill 为运动健康 App 和穿戴设备界面生成设计可信、可落盘检查的图片、动图、视频或交互网页。支持以下能力：
 
 - 文生图：根据需求描述寻找对应功能原型，再基于原型图和规范生成 `final.png`。
 - 图生图：根据输入图片拆解界面结构，按设计规范生成修订后的 `final.png`。
 - 文生动图：根据需求描述拆解首帧、过程帧、尾帧，生成关键帧并合成 `animation.gif`；用户明确要求视频时输出 `animation.mp4`。
 - 图生动图：根据输入图片拆解场景、锁定元素和变化元素，生成关键帧并合成 `animation.gif`；用户明确要求视频时输出 `animation.mp4`。
+
+- 交互网页：每个独立功能或研究项目各自维护模型、总览与操作场景。合集可按 App 和手表设置顶层入口，由界面目录定位各功能与页面。手机单端演示优先把可用高度留给 App，并保持实机比例。每次新增功能先按 [联机建模与备份](references/live-feature-modeling.md) 采集实机路径，保存可恢复的版本。
+
+交互演示中的手机、手表及系统页默认使用逐页核实的目标设备截图。参考图、示意图、用代码复原的页面或读数须先取得用户对具体页面的明确授权。待采集界面的入口保留在真实画面上，点击后在设备外提示待采集。调试截图与上一步相同时，须复核前台和画面内容。
 
 凡涉及 App 或穿戴设备界面，必须使用 HarmonyOS Sans / 鸿蒙字体。
 
@@ -22,6 +26,8 @@ description: 生成或修订运动健康 App 与穿戴设备界面的图片、�
 
 动图和视频默认不使用 `imagegen` 直接生成动图或视频作为最终交付。默认交付必须是 `imagegen` 生成真实 UI 内容关键帧，再由本地帧合成器 / motion assembler 进行确定性插帧、透明化、尺寸校验和格式封装。动图输出 `frames/*.png`、`animation.gif` 和 `generation-report.md`；用户明确要求视频 / MP4 / video 时输出 `frames/*.png`、`animation.mp4` 和 `generation-report.md`。如果额外获得 `imagegen` 直接生成的动图或视频，只能作为参考产物，不能替代默认验收产物。
 
+维护既有三入口合集、微调字号、单页样式或跳转时，先读[合集开发与离线恢复](references/maintain-watch6-collection.md)，从内置模型定位并重建原 HTML。
+
 ## 参考资料
 
 按任务需要读取，不要一次性加载无关资料：
@@ -29,7 +35,8 @@ description: 生成或修订运动健康 App 与穿戴设备界面的图片、�
 - 设计规范总索引：`references/design-requirements.md`
 - 智能穿戴规范：`references/wearable-ux-guidelines.md`
 - 手机运动健康 App 规范：`references/phone-health-app-design-constraints.md`
-- 四能力工作流：`references/generation-workflows.md`
+- 交互 HTML 演示的配置与生成：[交互网页演示](references/interactive-demo.md)
+- 图像与动图四能力工作流：`references/generation-workflows.md`
 - 执行和产物规范：`references/execution-and-output.md`
 - 分享和素材放置说明：`references/source-material-setup.md`
 
@@ -37,7 +44,7 @@ description: 生成或修订运动健康 App 与穿戴设备界面的图片、�
 
 ## 通用流程
 
-1. 先判断任务属于文生图、图生图、文生动图或图生动图。
+1. 用户要求可操作 Demo、交互网页或 HTML 原型时，走 [交互网页演示](references/interactive-demo.md) 的生成和验收流程。图像与动图任务继续按以下步骤执行。
 2. 明确目标载体：手机 App、圆形穿戴屏、方形穿戴屏、图标、组件裁片、完整页面或短动图。
 3. 明确用户目标、健康/运动场景、输出比例、语言、参考图保留项和禁止变化项。
 4. 根据目标载体读取对应规范：手机 App 读取手机规范，穿戴界面读取智能穿戴规范。

@@ -1,0 +1,135 @@
+{
+  "id": "research-artery",
+  "name": "血管健康研究",
+  "phoneProfile": "mate50",
+  "entries": {},
+  "pages": {
+    "home": {
+      "device": "phone",
+      "title": "创新研究首页",
+      "parent": "@home",
+      "capture": {
+        "header": "screens/home-h.webp",
+        "content": "screens/home-c.webp",
+        "footer": "screens/home-f.webp",
+        "contentLabel": "创新研究首页",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "血管健康研究",
+            "page": "entry-artery",
+            "box": [
+              2.8493,
+              11.4308,
+              94.2096,
+              5.8831
+            ]
+          }
+        ]
+      }
+    },
+    "entry-artery": {
+      "device": "phone",
+      "title": "血管健康研究",
+      "parent": "home",
+      "capture": {
+        "header": "screens/entry-artery-h.webp",
+        "content": "screens/entry-artery-c.webp",
+        "footer": "screens/entry-artery-f.webp",
+        "contentLabel": "血管健康研究",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              2.2059,
+              47.4074,
+              11.3971,
+              42.963
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "去填写",
+            "page": "entry-artery-form",
+            "box": [
+              74.4485,
+              25.7103,
+              19.1176,
+              1.6321
+            ]
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "box": [
+              24.5404,
+              20.1088,
+              50.9191,
+              2.3373
+            ],
+            "label": "开始测量"
+          }
+        ]
+      }
+    },
+    "entry-artery-form": {
+      "device": "phone",
+      "title": "调查问卷",
+      "parent": "entry-artery",
+      "capture": {
+        "content": "screens/entry-artery-form-c.webp",
+        "contentLabel": "调查问卷",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.9522,
+              7.3333,
+              11.1213,
+              5.0417
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "phoneHome": "home",
+  "phoneHomeLabel": "创新研究首页",
+  "sharedPhoneHome": "huawei-research",
+  "scenes": [
+    {
+      "id": "explore",
+      "title": "血管健康研究",
+      "hint": "点击实机界面进入详情，上下滑动浏览，右滑返回。",
+      "start": {
+        "phone": "entry-artery"
+      },
+      "keys": [
+        [
+          "phone",
+          "entry-artery",
+          "血管健康研究"
+        ],
+        [
+          "phone",
+          "entry-artery-form",
+          "调查问卷"
+        ]
+      ],
+      "phonePageIndex": [
+        "entry-artery",
+        "entry-artery-form"
+      ]
+    }
+  ],
+  "initialView": {
+    "scene": "explore",
+    "device": "phone",
+    "page": "entry-artery"
+  }
+}

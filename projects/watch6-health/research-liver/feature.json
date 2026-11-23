@@ -1,0 +1,275 @@
+{
+  "id": "research-liver",
+  "name": "肝脏脂肪研究",
+  "phoneProfile": "mate50",
+  "entries": {},
+  "pages": {
+    "home": {
+      "device": "phone",
+      "title": "创新研究首页",
+      "parent": "@home",
+      "capture": {
+        "header": "screens/home-h.webp",
+        "content": "screens/home-c.webp",
+        "footer": "screens/home-f.webp",
+        "contentLabel": "创新研究首页",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "肝脏脂肪研究",
+            "page": "entry-liver",
+            "box": [
+              2.8493,
+              33.5312,
+              94.2096,
+              5.8831
+            ]
+          }
+        ]
+      }
+    },
+    "entry-liver": {
+      "device": "phone",
+      "title": "肝脏脂肪研究",
+      "parent": "home",
+      "capture": {
+        "content": "screens/entry-liver-c.webp",
+        "contentLabel": "肝脏脂肪研究",
+        "hotspots": [],
+        "swipe": {
+          "left": "entry-liver-guide"
+        }
+      }
+    },
+    "entry-liver-guide": {
+      "device": "phone",
+      "title": "专业建议",
+      "parent": "entry-liver",
+      "capture": {
+        "content": "screens/entry-liver-guide-c.webp",
+        "contentLabel": "专业建议",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              2.2059,
+              5.3333,
+              11.3971,
+              4.8333
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "开始体验",
+            "page": "entry-liver-main",
+            "box": [
+              22.3346,
+              92.2917,
+              55.3309,
+              3.2083
+            ]
+          }
+        ],
+        "swipe": {
+          "right": "entry-liver"
+        }
+      }
+    },
+    "entry-liver-main": {
+      "device": "phone",
+      "title": "肝脏脂肪研究主页",
+      "parent": "entry-liver-guide",
+      "capture": {
+        "content": "screens/entry-liver-main-c.webp",
+        "contentLabel": "肝脏脂肪研究主页",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              0.0,
+              4.5,
+              19.1176,
+              6.75
+            ]
+          }
+        ],
+        "swipe": {
+          "up": "entry-liver-main-section1"
+        }
+      }
+    },
+    "entry-liver-main-section1": {
+      "device": "phone",
+      "title": "肝脏脂肪研究主页 · 第2屏",
+      "parent": "entry-liver-guide",
+      "capture": {
+        "content": "screens/entry-liver-main-section1-c.webp",
+        "contentLabel": "肝脏脂肪研究主页 · 第2屏",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              0.0,
+              4.5,
+              19.1176,
+              6.75
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "entry-liver-main",
+          "up": "entry-liver-main-section2"
+        }
+      }
+    },
+    "entry-liver-main-section2": {
+      "device": "phone",
+      "title": "肝脏脂肪研究主页 · 第3屏",
+      "parent": "entry-liver-guide",
+      "capture": {
+        "content": "screens/entry-liver-main-section2-c.webp",
+        "contentLabel": "肝脏脂肪研究主页 · 第3屏",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              0.0,
+              4.5,
+              19.1176,
+              6.75
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "entry-liver-main-section1",
+          "up": "entry-liver-main-section3"
+        }
+      }
+    },
+    "entry-liver-main-section3": {
+      "device": "phone",
+      "title": "肝脏脂肪研究主页 · 第4屏",
+      "parent": "entry-liver-guide",
+      "capture": {
+        "content": "screens/entry-liver-main-section3-c.webp",
+        "contentLabel": "肝脏脂肪研究主页 · 第4屏",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              0.0,
+              4.5,
+              19.1176,
+              6.75
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "entry-liver-main-section2",
+          "up": "entry-liver-main-section4"
+        }
+      }
+    },
+    "entry-liver-main-section4": {
+      "device": "phone",
+      "title": "肝脏脂肪研究主页 · 第5屏",
+      "parent": "entry-liver-guide",
+      "capture": {
+        "content": "screens/entry-liver-main-section4-c.webp",
+        "contentLabel": "肝脏脂肪研究主页 · 第5屏",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              0.0,
+              4.5,
+              19.1176,
+              6.75
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "entry-liver-main-section3",
+          "up": "entry-liver-main-section5"
+        }
+      }
+    },
+    "entry-liver-main-section5": {
+      "device": "phone",
+      "title": "肝脏脂肪研究主页 · 第6屏",
+      "parent": "entry-liver-guide",
+      "capture": {
+        "content": "screens/entry-liver-main-section5-c.webp",
+        "contentLabel": "肝脏脂肪研究主页 · 第6屏",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              0.0,
+              4.5,
+              19.1176,
+              6.75
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "entry-liver-main-section4"
+        }
+      }
+    }
+  },
+  "phoneHome": "home",
+  "phoneHomeLabel": "创新研究首页",
+  "sharedPhoneHome": "huawei-research",
+  "scenes": [
+    {
+      "id": "explore",
+      "title": "肝脏脂肪研究",
+      "hint": "点击实机界面进入详情，上下滑动浏览，右滑返回。",
+      "start": {
+        "phone": "entry-liver"
+      },
+      "keys": [
+        [
+          "phone",
+          "entry-liver",
+          "肝脏脂肪研究"
+        ],
+        [
+          "phone",
+          "entry-liver-guide",
+          "专业建议"
+        ],
+        [
+          "phone",
+          "entry-liver-main",
+          "肝脏脂肪研究主页"
+        ]
+      ],
+      "phonePageIndex": [
+        "entry-liver",
+        "entry-liver-guide",
+        "entry-liver-main"
+      ]
+    }
+  ],
+  "initialView": {
+    "scene": "explore",
+    "device": "phone",
+    "page": "entry-liver"
+  }
+}

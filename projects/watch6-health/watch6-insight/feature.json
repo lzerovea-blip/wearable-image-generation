@@ -1,0 +1,874 @@
+{
+  "id": "watch6-insight",
+  "name": "健康洞察",
+  "watchProfile": "watch6",
+  "watchScreens": {
+    "@face": "dial",
+    "@launcher": "launcher"
+  },
+  "entries": {
+    "launcher": {
+      "label": "健康洞察",
+      "page": "live-055"
+    }
+  },
+  "pages": {
+    "dial": {
+      "device": "watch",
+      "title": "实机表盘",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/dial.webp",
+        "contentLabel": "实机表盘",
+        "hotspots": []
+      }
+    },
+    "launcher": {
+      "title": "应用列表 · 微体检与情绪健康",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher.webp",
+        "contentLabel": "应用列表 · 微体检与情绪健康",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "健康洞察",
+            "box": [
+              10.866,
+              11.373,
+              78.267,
+              22.103
+            ]
+          },
+          {
+            "label": "微体检",
+            "box": [
+              2.575,
+              36.052,
+              94.85,
+              27.682
+            ]
+          },
+          {
+            "label": "情绪健康",
+            "box": [
+              10.725,
+              66.309,
+              78.549,
+              22.103
+            ]
+          },
+          {
+            "label": "华为创新研究",
+            "box": [
+              31.831,
+              90.987,
+              36.339,
+              9.013
+            ]
+          }
+        ],
+        "swipe": {
+          "up": "launcher-heart"
+        }
+      }
+    },
+    "launcher-heart": {
+      "title": "应用列表 · 研究与心率",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher-heart.webp",
+        "contentLabel": "应用列表 · 研究与心率",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "情绪健康",
+            "box": [
+              32.068,
+              0.0,
+              35.865,
+              8.798
+            ]
+          },
+          {
+            "label": "华为创新研究",
+            "box": [
+              10.866,
+              11.373,
+              78.267,
+              22.103
+            ]
+          },
+          {
+            "label": "心率",
+            "box": [
+              2.575,
+              36.052,
+              94.85,
+              27.682
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "@launcher",
+          "up": "launcher-living"
+        }
+      }
+    },
+    "launcher-living": {
+      "title": "应用列表 · 健康生活",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher-living.webp",
+        "contentLabel": "应用列表 · 健康生活",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "健康生活",
+            "box": [
+              10.725,
+              66.309,
+              78.549,
+              22.103
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "launcher-heart",
+          "up": "launcher-cycle"
+        }
+      }
+    },
+    "launcher-cycle": {
+      "title": "应用列表 · 生理周期",
+      "device": "watch",
+      "parent": "@face",
+      "capture": {
+        "content": "screens/launcher-cycle.webp",
+        "contentLabel": "应用列表 · 生理周期",
+        "hotspots": [],
+        "launcherRows": [
+          {
+            "label": "生理周期",
+            "box": [
+              31.831,
+              90.987,
+              36.339,
+              9.013
+            ]
+          }
+        ],
+        "swipe": {
+          "down": "launcher-living"
+        }
+      }
+    },
+    "main": {
+      "device": "watch",
+      "title": "健康洞察首页",
+      "parent": "@launcher",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/20261120-live-055.webp",
+        "contentLabel": "健康洞察首页",
+        "hotspots": [
+          {
+            "label": "AI 解读",
+            "page": "ai-loading",
+            "box": [
+              24,
+              77,
+              53,
+              16
+            ],
+            "zone": "content"
+          },
+          {
+            "label": "健康洞察说明",
+            "page": "live-063",
+            "box": [
+              62,
+              9,
+              10,
+              12
+            ],
+            "zone": "content"
+          }
+        ],
+        "replay": {
+          "description": "健康洞察首页",
+          "actions": [
+            {
+              "label": "打开 AI 解读",
+              "page": "ai-loading"
+            }
+          ],
+          "pending": []
+        },
+        "swipe": {
+          "up": "readiness"
+        }
+      }
+    },
+    "live-054": {
+      "device": "watch",
+      "title": "应用列表",
+      "parent": "@launcher",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/20261120-live-054.webp",
+        "contentLabel": "应用列表",
+        "hotspots": [
+          {
+            "label": "健康洞察",
+            "page": "live-055",
+            "box": [
+              4,
+              37,
+              92,
+              27
+            ],
+            "zone": "content"
+          }
+        ],
+        "replay": {
+          "description": "应用列表",
+          "actions": [],
+          "pending": []
+        }
+      }
+    },
+    "live-055": {
+      "device": "watch",
+      "title": "健康洞察首页",
+      "parent": "live-054",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/20261120-live-055.webp",
+        "contentLabel": "健康洞察首页",
+        "hotspots": [
+          {
+            "label": "AI 解读",
+            "page": "ai-loading",
+            "box": [
+              24,
+              77,
+              53,
+              16
+            ],
+            "zone": "content"
+          },
+          {
+            "label": "健康洞察说明",
+            "page": "live-063",
+            "box": [
+              62,
+              9,
+              10,
+              12
+            ],
+            "zone": "content"
+          }
+        ],
+        "replay": {
+          "description": "健康洞察首页",
+          "actions": [
+            {
+              "label": "打开 AI 解读",
+              "page": "ai-loading"
+            }
+          ],
+          "pending": []
+        },
+        "swipe": {
+          "up": "readiness"
+        }
+      }
+    },
+    "live-056": {
+      "device": "watch",
+      "title": "AI 解读 · 整体概览",
+      "parent": "live-055",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/20261120-live-056.webp",
+        "contentLabel": "AI 解读 · 整体概览",
+        "hotspots": [],
+        "replay": {
+          "description": "AI 解读 · 整体概览",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-062"
+        }
+      }
+    },
+    "live-057": {
+      "device": "watch",
+      "title": "锻炼时长",
+      "parent": "live-055",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/20261120-live-057.webp",
+        "contentLabel": "锻炼时长",
+        "hotspots": [],
+        "replay": {
+          "description": "锻炼时长",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-058",
+          "down": "deep-sleep-ratio"
+        }
+      }
+    },
+    "live-058": {
+      "device": "watch",
+      "title": "入睡时间",
+      "parent": "live-055",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/20261120-live-058.webp",
+        "contentLabel": "入睡时间",
+        "hotspots": [],
+        "replay": {
+          "description": "入睡时间",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "sleep-hours",
+          "down": "live-057"
+        }
+      }
+    },
+    "live-059": {
+      "device": "watch",
+      "title": "睡眠平均 HRV",
+      "parent": "live-054",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-059.webp",
+        "contentLabel": "睡眠平均 HRV",
+        "replay": {
+          "description": "查看睡眠平均 HRV 曲线及个人基准范围。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-060",
+          "down": "live-058"
+        }
+      }
+    },
+    "live-060": {
+      "device": "watch",
+      "title": "前往手机查看",
+      "parent": "live-055",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/20261120-live-060.webp",
+        "contentLabel": "前往手机查看",
+        "hotspots": [],
+        "replay": {
+          "description": "前往手机查看",
+          "actions": [],
+          "pending": [
+            "前往手机查看 · 前往手机查看"
+          ]
+        },
+        "swipe": {
+          "up": "live-061",
+          "down": "sleep-hours"
+        },
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "label": "前往手机查看 · 前往手机查看",
+            "box": [
+              22,
+              73,
+              57,
+              20
+            ]
+          }
+        ]
+      }
+    },
+    "live-061": {
+      "device": "watch",
+      "title": "更多与说明入口",
+      "parent": "live-055",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/20261120-live-061.webp",
+        "contentLabel": "更多与说明入口",
+        "hotspots": [
+          {
+            "label": "说明",
+            "page": "live-063",
+            "box": [
+              8,
+              23,
+              84,
+              25
+            ],
+            "zone": "content"
+          }
+        ],
+        "replay": {
+          "description": "更多与说明入口",
+          "actions": [
+            {
+              "label": "打开说明",
+              "page": "live-063"
+            }
+          ],
+          "pending": [
+            "更多与说明入口 · 关于"
+          ]
+        },
+        "swipe": {
+          "down": "live-060"
+        },
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "label": "更多与说明入口 · 关于",
+            "box": [
+              20,
+              54,
+              65,
+              24
+            ]
+          }
+        ],
+        "listBands": [
+          [
+            0,
+            49
+          ],
+          [
+            49,
+            100
+          ]
+        ]
+      }
+    },
+    "live-062": {
+      "device": "watch",
+      "title": "AI 解读 · 洞察分析",
+      "parent": "live-056",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/20261120-live-062.webp",
+        "contentLabel": "AI 解读 · 洞察分析",
+        "hotspots": [],
+        "replay": {
+          "description": "AI 解读 · 洞察分析",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "ai-advice-intro",
+          "down": "live-056"
+        }
+      }
+    },
+    "live-063": {
+      "device": "watch",
+      "title": "健康洞察说明",
+      "parent": "live-061",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-063.webp",
+        "contentLabel": "健康洞察说明",
+        "replay": {
+          "description": "打开「说明」，查看健康洞察的用途。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-064"
+        }
+      }
+    },
+    "live-064": {
+      "device": "watch",
+      "title": "说明 · 影响因素",
+      "parent": "live-061",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/live-064.webp",
+        "contentLabel": "说明 · 影响因素",
+        "replay": {
+          "description": "在说明里上滑，查看影响睡眠质量的因素。",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "down": "live-063"
+        }
+      }
+    },
+    "readiness": {
+      "device": "watch",
+      "title": "身体状态准备度",
+      "parent": "live-055",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/20261120-readiness.webp",
+        "contentLabel": "身体状态准备度",
+        "hotspots": [],
+        "replay": {
+          "description": "身体状态准备度",
+          "actions": [],
+          "pending": [
+            "身体状态准备度 · 查看详情"
+          ]
+        },
+        "swipe": {
+          "up": "sleep-score",
+          "down": "live-055"
+        },
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "label": "身体状态准备度 · 查看详情",
+            "box": [
+              23,
+              77,
+              54,
+              19
+            ]
+          }
+        ]
+      }
+    },
+    "sleep-score": {
+      "device": "watch",
+      "title": "睡眠质量评分",
+      "parent": "live-055",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/20261120-sleep-score.webp",
+        "contentLabel": "睡眠质量评分",
+        "hotspots": [],
+        "replay": {
+          "description": "睡眠质量评分",
+          "actions": [],
+          "pending": [
+            "睡眠质量评分 · 查看详情"
+          ]
+        },
+        "swipe": {
+          "up": "deep-sleep-ratio",
+          "down": "readiness"
+        },
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "label": "睡眠质量评分 · 查看详情",
+            "box": [
+              23,
+              77,
+              54,
+              19
+            ]
+          }
+        ]
+      }
+    },
+    "deep-sleep-ratio": {
+      "device": "watch",
+      "title": "深度睡眠 N3 比例",
+      "parent": "live-055",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/20261120-deep-sleep-ratio.webp",
+        "contentLabel": "深度睡眠 N3 比例",
+        "hotspots": [],
+        "replay": {
+          "description": "深度睡眠 N3 比例",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-057",
+          "down": "sleep-score"
+        }
+      }
+    },
+    "sleep-hours": {
+      "device": "watch",
+      "title": "睡眠时长",
+      "parent": "live-055",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/20261120-sleep-hours.webp",
+        "contentLabel": "睡眠时长",
+        "hotspots": [],
+        "replay": {
+          "description": "睡眠时长",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "live-060",
+          "down": "live-058"
+        }
+      }
+    },
+    "ai-loading": {
+      "device": "watch",
+      "title": "AI 解读 · 正在分析数据",
+      "parent": "live-055",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/20261120-ai-loading.webp",
+        "contentLabel": "AI 解读 · 正在分析数据",
+        "hotspots": [],
+        "replay": {
+          "description": "AI 解读 · 正在分析数据",
+          "actions": [],
+          "pending": []
+        }
+      },
+      "after": {
+        "page": "live-056",
+        "ms": 3400
+      }
+    },
+    "ai-advice-intro": {
+      "device": "watch",
+      "title": "AI 解读 · 转入今日建议",
+      "parent": "live-056",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/20261120-ai-advice-intro.webp",
+        "contentLabel": "AI 解读 · 转入今日建议",
+        "hotspots": [],
+        "replay": {
+          "description": "AI 解读 · 转入今日建议",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "up": "ai-advice",
+          "down": "live-062"
+        }
+      }
+    },
+    "ai-advice": {
+      "device": "watch",
+      "title": "AI 解读 · 今日建议",
+      "parent": "live-056",
+      "provenance": "WATCH 6 实机截图",
+      "capture": {
+        "content": "screens/replay/20261120-ai-advice.webp",
+        "contentLabel": "AI 解读 · 今日建议",
+        "hotspots": [],
+        "replay": {
+          "description": "AI 解读 · 今日建议",
+          "actions": [],
+          "pending": []
+        },
+        "swipe": {
+          "down": "ai-advice-intro"
+        }
+      }
+    }
+  },
+  "scenes": [
+    {
+      "id": "open",
+      "title": "从表盘进入",
+      "hint": "按表冠，在应用列表中上下滑动，点选应用。右滑返回上一页。",
+      "start": {
+        "watch": "@face"
+      },
+      "keys": [
+        [
+          "watch",
+          "@face",
+          "表盘"
+        ],
+        [
+          "watch",
+          "@launcher",
+          "应用列表"
+        ],
+        [
+          "watch",
+          "main",
+          "健康洞察首页"
+        ]
+      ]
+    },
+    {
+      "id": "application",
+      "title": "健康洞察",
+      "hint": "在表框旁选择操作。在截图上拖动可查看已经拍到的位置，右滑或点返回可退回。",
+      "start": {
+        "watch": "live-055"
+      },
+      "keys": [
+        [
+          "watch",
+          "live-054",
+          "应用列表"
+        ],
+        [
+          "watch",
+          "live-055",
+          "健康洞察首页"
+        ],
+        [
+          "watch",
+          "live-056",
+          "AI 解读 · 整体概览"
+        ]
+      ]
+    },
+    {
+      "id": "live-group-2",
+      "title": "指标与手机查看",
+      "hint": "在表框旁选择操作。在截图上拖动可查看已经拍到的位置，右滑或点返回可退回。",
+      "start": {
+        "watch": "readiness"
+      },
+      "keys": [
+        [
+          "watch",
+          "readiness",
+          "身体状态准备度"
+        ],
+        [
+          "watch",
+          "sleep-score",
+          "睡眠质量评分"
+        ],
+        [
+          "watch",
+          "deep-sleep-ratio",
+          "深度睡眠 N3 比例"
+        ],
+        [
+          "watch",
+          "live-057",
+          "锻炼时长"
+        ],
+        [
+          "watch",
+          "live-058",
+          "入睡时间"
+        ],
+        [
+          "watch",
+          "sleep-hours",
+          "睡眠时长"
+        ],
+        [
+          "watch",
+          "live-060",
+          "前往手机查看"
+        ],
+        [
+          "watch",
+          "live-061",
+          "更多与说明入口"
+        ]
+      ]
+    },
+    {
+      "id": "live-group-3",
+      "title": "AI 解读展开与说明",
+      "hint": "在表框旁选择操作。在截图上拖动可查看已经拍到的位置，右滑或点返回可退回。",
+      "start": {
+        "watch": "ai-loading"
+      },
+      "keys": [
+        [
+          "watch",
+          "ai-loading",
+          "AI 解读 · 正在分析数据"
+        ],
+        [
+          "watch",
+          "live-056",
+          "AI 解读 · 整体概览"
+        ],
+        [
+          "watch",
+          "live-062",
+          "AI 解读 · 洞察分析"
+        ],
+        [
+          "watch",
+          "ai-advice-intro",
+          "AI 解读 · 转入今日建议"
+        ],
+        [
+          "watch",
+          "ai-advice",
+          "AI 解读 · 今日建议"
+        ],
+        [
+          "watch",
+          "live-063",
+          "健康洞察说明"
+        ],
+        [
+          "watch",
+          "live-064",
+          "说明 · 影响因素"
+        ]
+      ]
+    }
+  ],
+  "references": [
+    "画面来自本台 WATCH 6 的联机截图。缺少图像的目标列在侧栏「待采集界面」。"
+  ],
+  "initialView": {
+    "device": "watch",
+    "scene": "application",
+    "page": "live-055"
+  },
+  "pendingScreens": [
+    "身体状态准备度与睡眠质量评分的查看详情",
+    "前往手机继续查看",
+    "关于"
+  ],
+  "watchReplayEntry": "live-055",
+  "watchScrollGroups": [
+    {
+      "mode": "paged",
+      "pages": [
+        "live-055",
+        "readiness",
+        "sleep-score",
+        "deep-sleep-ratio",
+        "live-057",
+        "live-058",
+        "sleep-hours",
+        "live-060",
+        "live-061"
+      ]
+    },
+    [
+      "live-056",
+      "live-062",
+      "ai-advice-intro",
+      "ai-advice"
+    ],
+    [
+      "live-063",
+      "live-064"
+    ]
+  ]
+}

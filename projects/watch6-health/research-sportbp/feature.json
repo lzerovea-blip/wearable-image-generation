@@ -1,0 +1,135 @@
+{
+  "id": "research-sportbp",
+  "name": "运动与血压研究",
+  "phoneProfile": "mate50",
+  "entries": {},
+  "pages": {
+    "home": {
+      "device": "phone",
+      "title": "创新研究首页",
+      "parent": "@home",
+      "capture": {
+        "header": "screens/home-h.webp",
+        "content": "screens/home-c.webp",
+        "footer": "screens/home-f.webp",
+        "contentLabel": "创新研究首页",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "运动与血压研究",
+            "page": "entry-sportbp",
+            "box": [
+              6.0662,
+              58.6892,
+              87.8676,
+              4.2575
+            ]
+          }
+        ]
+      }
+    },
+    "entry-sportbp": {
+      "device": "phone",
+      "title": "运动与血压研究",
+      "parent": "home",
+      "capture": {
+        "header": "screens/entry-sportbp-h.webp",
+        "content": "screens/entry-sportbp-c.webp",
+        "footer": "screens/entry-sportbp-f.webp",
+        "contentLabel": "运动与血压研究",
+        "hotspots": [
+          {
+            "zone": "header",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.4007,
+              55.5556,
+              5.6066,
+              20.3704
+            ]
+          },
+          {
+            "zone": "content",
+            "label": "运动与心血管风险说明",
+            "page": "entry-sportbp-info",
+            "box": [
+              45.5882,
+              1.0178,
+              4.2279,
+              1.3005
+            ]
+          }
+        ],
+        "pendingHotspots": [
+          {
+            "zone": "content",
+            "box": [
+              24.3566,
+              14.8714,
+              51.1949,
+              3.3644
+            ],
+            "label": "启动评估"
+          }
+        ]
+      }
+    },
+    "entry-sportbp-info": {
+      "device": "phone",
+      "title": "运动与心血管风险说明",
+      "parent": "entry-sportbp",
+      "capture": {
+        "content": "screens/entry-sportbp-info-c.webp",
+        "contentLabel": "运动与心血管风险说明",
+        "hotspots": [
+          {
+            "zone": "content",
+            "label": "返回",
+            "page": "@back",
+            "box": [
+              3.4007,
+              6.25,
+              5.6066,
+              2.2917
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "phoneHome": "home",
+  "phoneHomeLabel": "创新研究首页",
+  "sharedPhoneHome": "huawei-research",
+  "scenes": [
+    {
+      "id": "explore",
+      "title": "运动与血压研究",
+      "hint": "点击实机界面进入详情，上下滑动浏览，右滑返回。",
+      "start": {
+        "phone": "entry-sportbp"
+      },
+      "keys": [
+        [
+          "phone",
+          "entry-sportbp",
+          "运动与血压研究"
+        ],
+        [
+          "phone",
+          "entry-sportbp-info",
+          "运动与心血管风险说明"
+        ]
+      ],
+      "phonePageIndex": [
+        "entry-sportbp",
+        "entry-sportbp-info"
+      ]
+    }
+  ],
+  "initialView": {
+    "scene": "explore",
+    "device": "phone",
+    "page": "entry-sportbp"
+  }
+}
