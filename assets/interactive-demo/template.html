@@ -9,16 +9,23 @@
 <header class="topbar">
   <div class="brand"><span class="brandmark" aria-hidden="true"><i></i><i></i><i></i></span><span id="app-name">穿戴交互演示</span></div>
   <div class="feature-picker"><label for="feature">演示功能</label><select id="feature"></select></div>
+  <details id="entry-chooser" hidden>
+    <summary aria-label="选择展示入口"></summary>
+    <fieldset aria-label="展示入口"></fieldset>
+  </details>
+  <button type="button" id="open-directory" aria-haspopup="dialog" aria-controls="page-directory" hidden>界面目录</button>
   <button type="button" id="help" class="help">操作说明</button>
 </header>
 <div class="workspace">
-  <aside class="sidebar">
-    <details id="page-directory" hidden>
-      <summary>界面目录</summary>
+  <dialog id="page-directory" aria-labelledby="directory-title">
+      <header><h2 id="directory-title">界面目录</h2><form method="dialog"><button type="submit">关闭</button></form></header>
       <div class="directory-body">
+        <div id="directory-current"></div>
+        <section id="directory-operations" aria-labelledby="operations-title" hidden>
+          <h3 id="operations-title">当前页操作</h3><div id="module-links"></div>
+        </section>
         <input type="search" aria-label="搜索所有界面" placeholder="搜索应用、功能或界面">
         <div id="directory-results" aria-label="界面列表"></div>
-        <div id="directory-current"></div>
         <div class="directory-actions">
           <button type="button" id="copy-location">复制页面定位</button>
           <button type="button" id="pin-opening">设为本机开场</button>
@@ -27,8 +34,8 @@
         <textarea id="location-text" aria-label="当前页面定位" readonly hidden></textarea>
         <output id="directory-status" aria-live="polite"></output>
       </div>
-    </details>
-    <div id="module-links"></div><h2>场景导航</h2><nav id="scenes" aria-label="演示场景"></nav><div id="scene-tools"></div></aside>
+  </dialog>
+  <aside class="sidebar"><h2>场景导航</h2><nav id="scenes" aria-label="演示场景"></nav><div id="scene-tools"></div></aside>
   <main id="main" tabindex="-1"></main>
 </div>
 <dialog id="instructions"><h2>操作说明</h2><p>选择功能和场景，或在总览中点选一张界面图，直接进入该步骤。</p><p>在设备屏幕内从左向右拖动，或在触控板上用双指向右滑，可返回上一级。分页引导支持左右翻页。也可聚焦屏幕后按 Esc 返回。</p><p>上下滑动或使用滚轮浏览长页。</p><p class="watch-help">点表冠打开应用列表。表盘右滑进入负一屏，左滑进入超级卡片。</p><div id="phone-actions" class="device-controls"></div><button type="button" id="close-help">知道了</button></dialog>

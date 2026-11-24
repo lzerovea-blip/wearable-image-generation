@@ -572,7 +572,7 @@ def build(paths, out, states=None, collection=None):
         if face_media:
             data["wristLauncher"] = scrollable_watch_launcher(features)
             media["watch6Case"] = image_url(TEMPLATE / "watch6-case/original.png")
-        scripts.insert(0, (TEMPLATE / "directory.js").read_text())
+        scripts[:0] = [(TEMPLATE / name).read_text() for name in ("directory.js", "collection.js")]
     payload = script_json(data)
     sources = {"STYLE": style, "DATA": payload, "SCRIPT": "\n".join(scripts)}
     html = re.sub(r"@@(STYLE|DATA|SCRIPT)@@", lambda m: sources[m[1]], (TEMPLATE / "template.html").read_text())

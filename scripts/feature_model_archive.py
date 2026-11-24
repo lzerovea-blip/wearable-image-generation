@@ -128,7 +128,7 @@ def archive(root, feature_paths, states, delivery, archive_dir, collection=None)
     renderer = [template / name for name in ("style.css", "demo.js", "template.html")]
     renderer += list((template / "media").glob("*.webp"))
     if collection and "navigation" in collection:
-        renderer.append(template / "directory.js")
+        renderer.extend(template / name for name in ("directory.js", "collection.js"))
         if has_watch_face:
             renderer.append(template / "watch6-case/original.png")
             renderer.extend(p for p in (template / "watch6-launcher").iterdir() if p.is_file())

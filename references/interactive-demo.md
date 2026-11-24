@@ -27,7 +27,7 @@ python3 scripts/generate_interactive_demo.py --feature path/to/first/feature.jso
 
 在合集 JSON 的 `navigation.groups` 中按显示顺序登记各入口的 `id`、`label` 和 `home`，用 `navigation.default` 指定首次开场入口。`home` 引用模型的 `feature`、`device` 和 `page`。与入口模型相同 App 名称或手表型号的功能自动归入该入口。各功能继续独立维护。新增功能时先完成联机采集和逐页来源登记，将其路径追加到 `features`，在已有界面的实机热点或合集连接中登记入口。
 
-每个实机页面自动进入可搜索的界面目录。点击「复制页面定位」可获取中文路径和 `功能ID/设备/页面ID`。用功能 ID 找到对应的 `feature.json`，按页面 ID 修改截图、热区或返回路径，同步更新 `model.json` 的证据。页面改名或替换素材时沿用原 ID。共用表盘与列表按页面角色和实机图内容去重。表盘四向系统页由模板的 `watch6-face/navigation.json` 和 `evidence.json` 管理。各模型共享的应用列表需要一并核对截图和入口。不同日期采集的详细流程可在 `navigation.links` 中登记 `from`、`to` 和 `label`，连接显示在设备外侧。
+每个实机页面自动进入可搜索的界面目录。点击「复制页面定位」可获取中文路径和 `功能ID/设备/页面ID`。用功能 ID 找到对应的 `feature.json`，按页面 ID 修改截图、热区或返回路径，同步更新 `model.json` 的证据。页面改名或替换素材时沿用原 ID。共用表盘与列表按页面角色和实机图内容去重。表盘四向系统页由模板的 `watch6-face/navigation.json` 和 `evidence.json` 管理。各模型共享的应用列表需要一并核对截图和入口。不同日期采集的详细流程可在 `navigation.links` 中登记 `from`、`to` 和 `label`，连接位于顶栏「界面目录」的「当前页操作」中。
 
 「设为本机开场」仅保存到当前浏览器和当前 HTML 路径。恢复默认、移动文件或换浏览器后从合集默认页开始。交付前在桌面和触屏验证实际入口、返回位置、复制定位及本机开场，归档后从备份中的 `features/collection.json` 离线重建。
 

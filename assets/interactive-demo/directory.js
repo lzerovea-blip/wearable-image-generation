@@ -23,10 +23,27 @@ function createPageDirectory(config, navigate) {
   const status = document.getElementById("directory-status");
   const manual = document.getElementById("location-text");
   const links = document.getElementById("module-links");
+  const operations = document.getElementById("directory-operations");
   let active, currentGroup = config.default, listing;
   let displayed = new Map();
-  pane.hidden = false;
-  pane.open = matchMedia("(min-width:821px)").matches;
+  const opener = document.getElementById("open-directory");
+  opener.hidden = false;
+  opener.onclick = () => {
+    pane.showModal();
+    if (matchMedia("(pointer:fine)").matches) search.focus();
+    highlight();
+  };
+  pane.addEventListener("click", event => {
+    if (event.target !== pane) return;
+    const rect = pane.getBoundingClientRect();
+    if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom)
+      pane.close();
+  });
+  function select(action) {
+    pane.close();
+    action();
+    document.querySelector(".entry-pane[data-active] .surface")?.focus({preventScroll:true});
+  }
   function lookup(featureId, device, page) {
     const key = [featureId, device, page].join("/");
     return rows.get(config.aliases[key] || key);
@@ -84,10 +101,9 @@ function createPageDirectory(config, navigate) {
       list.scrollTop += result.getBoundingClientRect().top - list.getBoundingClientRect().top - list.clientHeight / 2;
     }
   }
-  function activate(row) {
-    if (active === row && listing !== undefined) return;
+  function activate(row, pageActions = []) {
     active = row;
-    const scope = pane.parentElement.dataset;
+    const scope = pane.dataset;
     scope.themeFeature = row?.feature || "";
     scope.themeDevice = row?.device || "";
     scope.themePage = row?.key || "";
@@ -102,23 +118,26 @@ function createPageDirectory(config, navigate) {
       if (search.value && !matches(row, search.value.trim().toLocaleLowerCase())) {
         search.value = "";
       }
-      for (const link of config.links.filter(link => link.from === row.key)) {
+      const actions = config.links.filter(link => link.from === row.key).map(link => ({
+        label:link.label, title:rows.get(link.to).path, run:() => navigate(rows.get(link.to), true)
+      }));
+      for (const action of [...actions, ...pageActions]) {
         const b = document.createElement("button");
         b.type = "button";
-        b.textContent = link.label + " ›";
-        b.title = rows.get(link.to).path;
-        b.onclick = () => navigate(rows.get(link.to), true);
+        b.textContent = action.label;
+        if (action.title) b.title = action.title;
+        b.onclick = () => select(action.run);
         links.append(b);
       }
     }
+    operations.hidden = !links.childElementCount;
     showResults();
     highlight();
   }
   list.addEventListener("click", event => {
     const item = event.target.closest("[data-location]");
     if (!item) return;
-    navigate(rows.get(item.dataset.location), true);
-    if (matchMedia("(max-width:820px)").matches) pane.open = false;
+    select(() => navigate(rows.get(item.dataset.location), true));
   });
   search.addEventListener("input", showResults);
   copy.onclick = async () => {
@@ -156,6 +175,5 @@ function createPageDirectory(config, navigate) {
     try { key = localStorage.getItem(storageKey); } catch {}
     return rows.get(config.aliases[key] || key) || rows.get(groups.get(config.default).home);
   }
-  return {lookup, activate, opening, home: id => rows.get(groups.get(id).home),
-    selectGroup(id) { currentGroup = id; search.value = ""; listing = undefined; }};
+  return {lookup, activate, opening, home: id => rows.get(groups.get(id).home)};
 }
